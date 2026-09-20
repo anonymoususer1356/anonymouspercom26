@@ -18,12 +18,25 @@ Audio stays inside the glasses trust boundary through diarization, transcription
 | --- | ---: |
 | Silver-labeled conversations | 717 |
 | Paper split | 515 train / 59 validation / 143 test |
-| DPO leakage / utility, full precision | 0.378 / 0.900 |
-| DPO leakage / utility, Q4_0 | 0.400 / 0.902 |
 | Weighted audio-path RTF | 0.7703 |
 | End-to-end replay runs | 40 |
 | Mean transcription delay | 23.56 s |
 | Mean SLM drain lag | 6.43 min |
+
+### Privacy and utility comparison
+
+All methods were evaluated on the same 143 held-out conversations. Deltas are relative to the deployed Q4_0 PARDA model: lower leakage and higher utility are better.
+
+| Method | Class | Leakage ↓ | Utility ↑ | Δ leakage | Δ utility |
+| --- | --- | ---: | ---: | ---: | ---: |
+| **PARDA DPO, Q4_0 (deployed)** | On-device SLM | **0.400** | **0.902** | — | — |
+| PARDA DPO, full precision | On-device SLM | 0.378 | 0.900 | -0.022 | -0.001 |
+| GPT-5.6 Luna | Large-model teacher | 0.355 | 0.886 | -0.045 | -0.015 |
+| GLiNER-PII | PII baseline | 0.311 | 0.856 | -0.089 | -0.046 |
+| Azure Conversation PII | PII baseline | 0.450 | 0.997 | +0.050 | +0.095 |
+| Microsoft Presidio | PII baseline | 0.378 | 0.998 | -0.023 | +0.096 |
+
+The conventional PII systems target explicit identifiers, whereas PARDA also targets linked and inferred disclosures. Their scores therefore show performance under PARDA's broader evaluation taxonomy, rather than a universal ranking of the services.
 
 ![Privacy and utility results](figures/paper/privacy-utility.png)
 
