@@ -39,8 +39,11 @@ All methods were evaluated on the same 143 held-out conversations. Deltas are re
 The conventional PII systems target explicit identifiers, whereas PARDA also targets linked and inferred disclosures. Their scores therefore show performance under PARDA's broader evaluation taxonomy, rather than a universal ranking of the services.
 
 <p align="center">
-  <img src="figures/paper/privacy-utility.png" width="49%" alt="PARDA privacy and utility results">
-  <img src="figures/paper/pii-baseline.png" width="49%" alt="PARDA compared with conventional PII baselines">
+  <img src="figures/paper/privacy-utility.png" width="100%" alt="PARDA privacy and utility results">
+</p>
+
+<p align="center">
+  <img src="figures/paper/pii-baseline.png" width="90%" alt="PARDA compared with conventional PII baselines">
 </p>
 
 ### Model and system selection
@@ -49,7 +52,11 @@ The figures below summarize the privacy-model trade-off, retrieval ablation, and
 
 <p align="center">
   <img src="figures/paper/slm-selection.png" width="49%" alt="Small language model privacy, utility, and deployment selection">
-  <img src="figures/paper/rag-ablation.png" width="49%" alt="Retrieval-augmented generation ablation">
+  <img src="figures/paper/embedding-selection.png" width="49%" alt="Retrieval embedding model selection">
+</p>
+
+<p align="center">
+  <img src="figures/paper/rag-ablation.png" width="82%" alt="Retrieval-augmented generation ablation">
 </p>
 
 <p align="center">
@@ -59,8 +66,7 @@ The figures below summarize the privacy-model trade-off, retrieval ablation, and
 </p>
 
 <p align="center">
-  <img src="figures/paper/embedding-selection.png" width="49%" alt="Retrieval embedding model selection">
-  <img src="figures/paper/teacher-search-transfer.png" width="49%" alt="Teacher-search transfer across models">
+  <img src="figures/paper/teacher-search-transfer.png" width="68%" alt="Teacher-search transfer across models">
 </p>
 
 ### End-to-end deployment
@@ -74,23 +80,35 @@ The measured Raspberry Pi replay combines stage execution, accumulated audio lag
 The artifact includes analyses that could not fit in the paper. The 3D teacher search exposes the privacy–utility–latency frontier across validation runs, while the distance plot shows how consistently the deployed configuration remains near each run's own optimum.
 
 <p align="center">
-  <img src="figures/supplementary/teacher-search-3d.png" width="64%" alt="Three-dimensional privacy, utility, and lag teacher-search frontiers">
-  <img src="figures/supplementary/distance-from-best.png" width="34%" alt="Distance from each teacher-search run's best point">
+  <img src="figures/supplementary/teacher-search-3d.png" width="100%" alt="Three-dimensional privacy, utility, and lag teacher-search frontiers">
+</p>
+
+<p align="center">
+  <img src="figures/supplementary/distance-from-best.png" width="52%" alt="Distance from each teacher-search run's best point">
 </p>
 
 Scheduling searches for one, two, and three speakers show the measured real-time-factor landscape around the selected cohort allocations.
 
 <p align="center">
-  <img src="figures/supplementary/1-speaker-tsne.png" width="32%" alt="One-speaker scheduling t-SNE RTF landscape">
-  <img src="figures/supplementary/2-speaker-tsne.png" width="32%" alt="Two-speaker scheduling t-SNE RTF landscape">
-  <img src="figures/supplementary/3-speaker-tsne.png" width="32%" alt="Three-speaker scheduling t-SNE RTF landscape">
+  <img src="figures/supplementary/1-speaker-tsne.png" width="96%" alt="One-speaker scheduling t-SNE RTF landscape">
+</p>
+
+<p align="center">
+  <img src="figures/supplementary/2-speaker-tsne.png" width="96%" alt="Two-speaker scheduling t-SNE RTF landscape">
+</p>
+
+<p align="center">
+  <img src="figures/supplementary/3-speaker-tsne.png" width="96%" alt="Three-speaker scheduling t-SNE RTF landscape">
 </p>
 
 The temperature sweep tests operating-point stability. The Raspberry Pi power traces show the measured SoC cost of continuous one-, two-, and three-speaker stress workloads; green marks idle SoC power and red marks incremental pipeline load.
 
 <p align="center">
-  <img src="figures/supplementary/temperature-sweep.png" width="49%" alt="Temperature sweep across Raspberry Pi operating conditions">
-  <img src="figures/supplementary/forced-speaker-power.png" width="49%" alt="Raspberry Pi SoC power for forced one-, two-, and three-speaker workloads">
+  <img src="figures/supplementary/temperature-sweep.png" width="92%" alt="Temperature sweep across Raspberry Pi operating conditions">
+</p>
+
+<p align="center">
+  <img src="figures/supplementary/forced-speaker-power.png" width="92%" alt="Raspberry Pi SoC power for forced one-, two-, and three-speaker workloads">
 </p>
 
 Every figure is also linked individually in the [figure gallery](figures/README.md).
