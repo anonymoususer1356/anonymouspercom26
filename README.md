@@ -38,31 +38,62 @@ All methods were evaluated on the same 143 held-out conversations. Deltas are re
 
 The conventional PII systems target explicit identifiers, whereas PARDA also targets linked and inferred disclosures. Their scores therefore show performance under PARDA's broader evaluation taxonomy, rather than a universal ranking of the services.
 
-![Privacy and utility results](figures/paper/privacy-utility.png)
+<p align="center">
+  <img src="figures/paper/privacy-utility.png" width="49%" alt="PARDA privacy and utility results">
+  <img src="figures/paper/pii-baseline.png" width="49%" alt="PARDA compared with conventional PII baselines">
+</p>
+
+### Model and system selection
+
+The figures below summarize the privacy-model trade-off, retrieval ablation, and deployed audio-component choices. Bold or highlighted points identify the deployed configurations.
+
+<p align="center">
+  <img src="figures/paper/slm-selection.png" width="49%" alt="Small language model privacy, utility, and deployment selection">
+  <img src="figures/paper/rag-ablation.png" width="49%" alt="Retrieval-augmented generation ablation">
+</p>
+
+<p align="center">
+  <img src="figures/paper/asr-selection.png" width="32%" alt="Streaming ASR model selection">
+  <img src="figures/paper/source-separation-selection.png" width="32%" alt="Source separation model selection">
+  <img src="figures/paper/speaker-encoder-selection.png" width="32%" alt="Speaker encoder model selection">
+</p>
+
+<p align="center">
+  <img src="figures/paper/embedding-selection.png" width="49%" alt="Retrieval embedding model selection">
+  <img src="figures/paper/teacher-search-transfer.png" width="49%" alt="Teacher-search transfer across models">
+</p>
+
+### End-to-end deployment
+
+The measured Raspberry Pi replay combines stage execution, accumulated audio lag, SLM drain behavior, and SoC power in one timeline.
+
+![End-to-end latency waterfall and SoC power](figures/paper/end-to-end-waterfall.png)
 
 ## Additional results beyond the paper
 
 The artifact includes analyses that could not fit in the paper. The 3D teacher search exposes the privacy–utility–latency frontier across validation runs, while the distance plot shows how consistently the deployed configuration remains near each run's own optimum.
 
 <p align="center">
-  <img src="figures/supplementary/teacher-search-3d.png" width="100%" alt="Three-dimensional privacy, utility, and lag teacher-search frontiers">
+  <img src="figures/supplementary/teacher-search-3d.png" width="64%" alt="Three-dimensional privacy, utility, and lag teacher-search frontiers">
+  <img src="figures/supplementary/distance-from-best.png" width="34%" alt="Distance from each teacher-search run's best point">
 </p>
+
+Scheduling searches for one, two, and three speakers show the measured real-time-factor landscape around the selected cohort allocations.
 
 <p align="center">
-  <img src="figures/supplementary/distance-from-best.png" width="55%" alt="Distance from each teacher-search run's best point">
+  <img src="figures/supplementary/1-speaker-tsne.png" width="32%" alt="One-speaker scheduling t-SNE RTF landscape">
+  <img src="figures/supplementary/2-speaker-tsne.png" width="32%" alt="Two-speaker scheduling t-SNE RTF landscape">
+  <img src="figures/supplementary/3-speaker-tsne.png" width="32%" alt="Three-speaker scheduling t-SNE RTF landscape">
 </p>
+
+The temperature sweep tests operating-point stability. The Raspberry Pi power traces show the measured SoC cost of continuous one-, two-, and three-speaker stress workloads; green marks idle SoC power and red marks incremental pipeline load.
 
 <p align="center">
-  <img src="figures/supplementary/3-speaker-tsne.png" width="100%" alt="Three-speaker scheduling t-SNE RTF landscape">
+  <img src="figures/supplementary/temperature-sweep.png" width="49%" alt="Temperature sweep across Raspberry Pi operating conditions">
+  <img src="figures/supplementary/forced-speaker-power.png" width="49%" alt="Raspberry Pi SoC power for forced one-, two-, and three-speaker workloads">
 </p>
 
-The Raspberry Pi power traces below show the measured SoC cost of continuous one-, two-, and three-speaker stress workloads. Green marks idle SoC power; red shows the incremental privacy pipeline load.
-
-<p align="center">
-  <img src="figures/supplementary/forced-speaker-power.png" width="100%" alt="Raspberry Pi SoC power for forced one-, two-, and three-speaker workloads">
-</p>
-
-The full gallery also includes the one- and two-speaker scheduling landscapes, temperature sweep, component Pareto plots, ablations, and end-to-end latency waterfall.
+Every figure is also linked individually in the [figure gallery](figures/README.md).
 
 ## Repository map
 
