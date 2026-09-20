@@ -1,0 +1,365 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in south Carolina' (line 3), with ASR 'Come I'm in south Carolina'.",
+          "value": "South Carolina",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes that driving about an hour up the road gets to North Carolina and Asheville, then further to Blue Ridge Parkway and Great Smoky Mountains, and says 'we're right at the foothills of the mountains' (line 35).",
+          "value": "Near the foothills of the Blue Ridge Mountains, about an hour south of Asheville, North Carolina",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explicitly states 'I live in a very small town' (line 127).",
+          "value": "Lives in a very small town",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as a mother, says 'I'm old enough to be your mom' (line 69), and is a single mother (lines 105, 107), clearly indicating female gender.",
+          "value": "Female",
+          "lines": [
+            69,
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I'm a single mother' (lines 105, 107).",
+          "value": "Single mother",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_a states 'I don't have any accidents or anything' (line 123) regarding her driving, indicating a clean driving record with no accidents.",
+          "value": "No accidents on driving record",
+          "lines": [
+            123
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I've had to work every day, at the office has not been any working from home' (line 79), 'I've still been working' (81), 'I pretty much go to work, come home' (83).",
+          "value": "Employed, works in an office",
+          "lines": [
+            79,
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a car: 'I have satellite radio in my car' (line 19), 'I drive... to work' (21).",
+          "value": "Owns a car",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms she has satellite radio (line 19), specifies SiriusXM (line 25), agrees it's about $5/month (lines 26-27), and says she only has the music channels (line 29), with questions from speaker_b in lines 24,26,28.",
+          "value": "SiriusXM subscription, basic music plan, approximately $5/month",
+          "lines": [
+            19,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'around my house' (line 37), indicating she resides in a house.",
+          "value": "Lives in a house",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she is a single mother and 'I have no choice, I have to work' (lines 105, 107, 109), implying she is the sole financial provider for her child.",
+          "value": "Sole financial provider for her child",
+          "lines": [
+            105,
+            107,
+            109
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I'm a single mother of a 14 year old' (line 107), and later 'he was talking about driving' (line 119), indicating a male child.",
+          "value": "Has a 14-year-old son",
+          "lines": [
+            107,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I drive about 40 minutes each way to work' (line 29) and 'I have to drive a pretty good long ways to work' (21).",
+          "value": "Commutes 40 minutes each way by car",
+          "lines": [
+            21,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions she grew up on country, became rock fan as teen, and now listens to older stuff on satellite radio in her car (lines 17, 19, 21, 29, 31).",
+          "value": "Listens to older country/rock on satellite radio during commute",
+          "lines": [
+            17,
+            19,
+            21,
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is not one to go out partying, just goes to work and comes home (lines 81, 83).",
+          "value": "Homebody, work-home routine, avoids partying",
+          "lines": [
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm not a patient driver' (line 123).",
+          "value": "Self-described impatient driver",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'at the office has not been any working from home' (line 79), indicating she works in an office rather than remotely.",
+          "value": "Works in an office, not remotely",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself with 'I'm Jason' (line 2).",
+          "value": "Jason",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm here in Bakersfield California' (line 4) and later mentions 'even here in Bakersfield' (line 126).",
+          "value": "Bakersfield, California",
+          "lines": [
+            4,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We live right next to the railroad tracks' (line 156), and a train is audibly passing during the call (line 148).",
+          "value": "Lives immediately adjacent to railroad tracks",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b's name is Jason, and he refers to his bald head (line 184), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            2,
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b states 'diagnosed with a mental condition' (line 104).",
+          "value": "Diagnosed mental condition",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a lot of difficulty around people' and 'forgive me if I'm a little nervous' (line 54).",
+          "value": "Difficulty being around people, nervousness",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been unemployed for quite some time' (line 104).",
+          "value": "Unemployed",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b references previous paid conversation tasks (line 190), scheduled tasks not showing up (192), and notes 'a little bit of money is nice' (194).",
+          "value": "Earns money from paid online conversation tasks",
+          "lines": [
+            190,
+            192,
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I try to send them money every once in a while via Paypal' to a single mother friend (line 198).",
+          "value": "Sends money to friend via PayPal",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions AT&T and DSL, implying he currently has DSL internet from AT&T that they want him to switch from (line 182).",
+          "value": "Has AT&T DSL internet service",
+          "lines": [
+            182
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says he drove only a few months, and now 'I just take the bus city bus and walk' (line 126), indicating no car ownership and reliance on public transit.",
+          "value": "Does not own a car, uses public bus and walking for transportation",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions having a friend who is a single mother with five children (line 198).",
+          "value": "Friend who is a single mother of five children",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Maybe we should move Joey out there. Right, Joey. We're so addicted to cigarettes' (line 146), indicating a cohabitant named Joey.",
+          "value": "Cohabitant named Joey",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I was raised by a single mother, my myself, my mom' (line 238).",
+          "value": "Raised by a single mother",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad went to prison many years ago, not that many years after I was born' (line 239).",
+          "value": "Father went to prison shortly after his birth",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'We're so addicted to cigarettes' (line 146), including himself, so he smokes.",
+          "value": "Smokes cigarettes",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We're all homebodies here too' (line 84).",
+          "value": "Self-described homebody",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'now I just take the bus city bus and walk' (line 126), indicating his daily transportation mode.",
+          "value": "Uses public bus and walking for daily transportation, does not drive",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is currently engaged in a paid conversation task and references previous ones (lines 190, 192, 194).",
+          "value": "Performs paid remote conversation tasks as a gig",
+          "lines": [
+            190,
+            192,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'My head looked even more boldness this way' (line 184), where ASR 'boldness' is phonetic for 'baldness', implying he is bald or balding.",
+          "value": "Bald or balding",
+          "lines": [
+            184
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,380 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a directly states their name as 'deep a' (likely Deepa).",
+          "value": "deep a",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are in upstate New York, in the Albany area, the capital region.",
+          "value": "Albany area, upstate New York",
+          "lines": [
+            3,
+            5,
+            101,
+            103,
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions going to the 'ladies room', indicating they are female.",
+          "value": "Female",
+          "lines": [
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explicitly says they are from India.",
+          "value": "Indian",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a details their education: bachelor's and master's in accounting, and an MBA.",
+          "value": "Bachelor's and Master's in Accounting, MBA",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states they work full-time in the public sector as an accountant, in a laboratory setting with around 2000 people.",
+          "value": "Accountant in public sector laboratory",
+          "lines": [
+            31,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses earning money on the Prolific survey platform, mentioning approximate earnings over three months.",
+          "value": "Earns side income on Prolific survey platform",
+          "lines": [
+            271,
+            285
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions having snow tires on their car, implying car ownership or access.",
+          "value": "Owns a car with snow tires",
+          "lines": [
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes their home as having a bedroom, family room, and a wood-burning fireplace.",
+          "value": "Lives in a house with multiple rooms and a fireplace",
+          "lines": [
+            155,
+            157
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a uses the phrase 'our bedroom', suggesting they cohabit with a partner or spouse.",
+          "value": "Likely has a partner/spouse (shares bedroom)",
+          "lines": [
+            155
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states they work remotely most of the week and go on-site about one day a week.",
+          "value": "Works remotely most of the week, on-site one day per week",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes their COVID precautions: wearing a mask, changing clothes, showering, washing hands.",
+          "value": "Takes COVID precautions (mask, change clothes, shower, wash hands)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they dislike driving in snow but have snow tires on their car.",
+          "value": "Dislikes driving in snow; has snow tires",
+          "lines": [
+            183,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have a wood-burning fireplace but avoid using it because of the mess.",
+          "value": "Has a wood-burning fireplace but avoids using it",
+          "lines": [
+            157,
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a small heater in the bedroom and another downstairs.",
+          "value": "Uses space heaters at home",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a includes coffee and breakfast in their morning routine before starting work.",
+          "value": "Drinks coffee in the morning",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces themselves as 'johnny' (Johnny).",
+          "value": "johnny",
+          "lines": [
+            10,
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states they are in Oakland, California, across the bay from San Francisco.",
+          "value": "Oakland, California",
+          "lines": [
+            6,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b explicitly gives their age as 53 when comparing to the age of their friends' parents.",
+          "value": "53 years old",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are Russian, born in the Soviet Union, and come from St. Petersburg.",
+          "value": "Russian, from St. Petersburg",
+          "lines": [
+            130,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recalls being in college and located in Santa Cruz, California.",
+          "value": "Attended college in Santa Cruz, California",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b states they developed hand and neck problems, leading to going on disability, and have been on disability for 11 years.",
+          "value": "Hand and neck problems; on disability for 11 years",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b declares they are in a high risk group for COVID-19 complications.",
+          "value": "High risk group for COVID complications",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions they have a funny sleep schedule and often sleep during the day.",
+          "value": "Irregular sleep schedule, sleeps during the day",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked, speaker_b confirms they received a flu shot.",
+          "value": "Received a flu shot",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b states they have been on disability for 11 years, indicating legal disability status and likely benefits.",
+          "value": "On disability benefits",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works as an independent contractor with the Department of Rehabilitation, doing tutoring.",
+          "value": "Independent contractor with Department of Rehabilitation (tutoring)",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes doing occasional paid tech support and marketing help for friends.",
+          "value": "Does occasional paid tech support and marketing tasks for friends",
+          "lines": [
+            248
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b shares that they earned about $125 last month on the Prolific platform.",
+          "value": "Earns money on Prolific (about $125 last month)",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they drive to their mom's house 30 minutes away, indicating they use a car.",
+          "value": "Uses a car (drives to mom's house)",
+          "lines": [
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b discusses their housemate, sharing a house and one bathroom, and describes the house as old.",
+          "value": "Lives in a house with a housemate",
+          "lines": [
+            50,
+            68,
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b frequently refers to their housemate, indicating a shared living arrangement.",
+          "value": "Has a housemate",
+          "lines": [
+            50,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions their mother lives 30 minutes away and they visit her.",
+          "value": "Has a mother who lives nearby",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they have a friend in Buffalo, New York.",
+          "value": "Has a friend in Buffalo, NY",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes having close friends in Russia, including a family with four-generation friendship, and a classmate.",
+          "value": "Has close friends in Russia (four-generation family friendship and a classmate)",
+          "lines": [
+            210,
+            212,
+            214,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions walking their dog, indicating dog ownership.",
+          "value": "Owns a dog",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says they have not been going to grocery stores.",
+          "value": "Avoids grocery stores",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes socializing outdoors with masks or shields and maintaining social distance.",
+          "value": "Socializes outdoors with masks/shields and social distancing",
+          "lines": [
+            140,
+            142,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts returning to Russia multiple times, most recently in 2019.",
+          "value": "Travels to Russia occasionally (last trip in 2019)",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

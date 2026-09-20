@@ -1,0 +1,402 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She states she is in Arizona and later speaker_b says 'Stay cool in Arizona' confirming.",
+          "value": "Arizona",
+          "lines": [
+            13,
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she didn't grow up in Arizona.",
+          "value": "not originally from Arizona",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been in Arizona maybe 12 or 13 years.",
+          "value": "lived in Arizona for 12-13 years",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She confirms she is American when speaker_b asks.",
+          "value": "American",
+          "lines": [
+            10,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm 50'.",
+          "value": "50 years old",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'when I got out of college', indicating she completed college.",
+          "value": "college graduate",
+          "lines": [
+            109
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I am pretty healthy' and 'I feel great'.",
+          "value": "self-assessed as pretty healthy",
+          "lines": [
+            193,
+            293
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states 'I teach college' and mentions her class size.",
+          "value": "college teacher",
+          "lines": [
+            185,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing a trip through Costco and getting a refund, implying she uses Costco services.",
+          "value": "Costco customer",
+          "lines": [
+            147
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I have to do something with my car', indicating she owns or has access to a car.",
+          "value": "car owner",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'My daughter is in high school' and 'having a teenage daughter'.",
+          "value": "has a teenage daughter",
+          "lines": [
+            167,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'the person that I'm dating'.",
+          "value": "is dating someone",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her grandmother died at 101.",
+          "value": "grandmother deceased at 101",
+          "lines": [
+            237,
+            299
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a close friend who uses Alexa/Siri.",
+          "value": "has a close friend who uses voice assistants",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions a good friend whose stepmother died.",
+          "value": "has a good friend whose stepmother died",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she goes out and runs or goes to the gym after waking up.",
+          "value": "exercises (running)",
+          "lines": [
+            295
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she just bought a frisbee to start playing.",
+          "value": "plays frisbee",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions reading Reddit and getting information from it.",
+          "value": "uses Reddit",
+          "lines": [
+            279,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes family Christmas trips, normally to Dallas but recently Turks and Caicos.",
+          "value": "family Christmas travel (normally Dallas, went to Turks and Caicos)",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a planned trip to Barcelona for March 22 that was cancelled.",
+          "value": "planned trip to Barcelona (cancelled)",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does not have Alexa or Siri.",
+          "value": "does not own smart speakers",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions looking at news today.",
+          "value": "reads news",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in Oregon. I live in Portland'.",
+          "value": "Portland, Oregon",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I was born in Maryland'.",
+          "value": "born in Maryland",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she grew up in the D.C. suburbs.",
+          "value": "grew up in DC suburbs",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she went to Texas for college.",
+          "value": "attended college in Texas",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lived in Texas for four years.",
+          "value": "lived in Texas for 4 years",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she moved to Portland in 2013.",
+          "value": "moved to Portland in 2013",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the beach is about an hour and a half away (ASR 'ever and a half' but contextually 'an hour and a half').",
+          "value": "beach is about 1.5 hours away",
+          "lines": [
+            320
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She explicitly states 'I am american'.",
+          "value": "American",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She gives her age as 28.",
+          "value": "28 years old",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She studied English and Political Science with a minor in History in college.",
+          "value": "English and Political Science major, History minor",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes her work as doing surveys, AI training tasks online, and mentions Amazon Mechanical Turk.",
+          "value": "online task worker (surveys, Mechanical Turk)",
+          "lines": [
+            78,
+            108,
+            112,
+            116,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she does remote work from home.",
+          "value": "remote worker",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she has a lot of roommates.",
+          "value": "has roommates",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes herself as a cold weather person and mentions walking to school in snow with jeans and t-shirt.",
+          "value": "prefers cold weather",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about doing river floats in Oregon.",
+          "value": "enjoys river floats",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says at the time she moved she didn't drive and relied on good public transit.",
+          "value": "used public transit (did not drive at time of move)",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she follows many epidemiologists on Twitter.",
+          "value": "follows epidemiologists on Twitter",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses desire to go to the beach and indicates it's about 1.5 hours away.",
+          "value": "goes to the beach",
+          "lines": [
+            318,
+            320
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions going to Walmart recently and describes the experience (ASR 'I have you on part' interpreted as 'I went to Walmart').",
+          "value": "shops at Walmart",
+          "lines": [
+            194,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says Alexa is terrible in her experience, implying she has used it.",
+          "value": "has used Alexa",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she thought Portland would be a good place to move and chose it arbitrarily.",
+          "value": "likes living in Portland",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

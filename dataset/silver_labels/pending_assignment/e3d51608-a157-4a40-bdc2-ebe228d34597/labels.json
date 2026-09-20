@@ -1,0 +1,388 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 13 speaker_a says 'Um miles.' introducing himself. In lines 14 and 302 speaker_b says 'my house' which is an ASR error for 'Miles', addressing him by name.",
+          "value": "Miles",
+          "lines": [
+            13,
+            14,
+            302
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he lives in Asheville, North Carolina (line 43) and moved from Dallas two years ago (line 47). He mentions mountains, a river, and Sierra Nevada brewery locally (lines 81, 87, 279).",
+          "value": "Asheville, North Carolina",
+          "lines": [
+            43,
+            45,
+            47,
+            81,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he moved from Dallas and lived there his whole life (line 47). He also mentions Texas heat (line 73).",
+          "value": "formerly from Dallas, Texas",
+          "lines": [
+            47,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states his job is a freight broker (line 91).",
+          "value": "freight broker",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He directly states he works for a logistics company as a freight broker (lines 91, 93, 95).",
+          "value": "freight broker at a logistics company",
+          "lines": [
+            91,
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains he negotiated to work from home when moving to Asheville and has been doing so for two years (lines 97, 99, 101). He also says he works from home in line 29.",
+          "value": "works from home",
+          "lines": [
+            29,
+            97,
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He confirms using Prolific (line 27) and explains he does it to earn extra money while working (line 29).",
+          "value": "does Prolific studies for extra income",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says in the last two or three weeks he's been working 10 to 12 hours non‑stop (line 205).",
+          "value": "recently working 10–12 hour days",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He describes his mother's job and age (line 151, 153).",
+          "value": "mother, age 70, bookkeeper at a nursing home",
+          "lines": [
+            151,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his dad is retired (line 151).",
+          "value": "father, retired",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'my brother' (line 237).",
+          "value": "has a brother",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his niece and nephew are in Texas (line 131).",
+          "value": "niece and nephew in Texas",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He apologizes for his dog, gives breed, weight, and temperament (lines 115–123).",
+          "value": "owns a female Rhodesian Ridgeback dog (115 lbs)",
+          "lines": [
+            115,
+            116,
+            119,
+            121,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'at home by myself' and never mentions a partner or children, implying he lives alone (line 233).",
+          "value": "likely lives alone",
+          "lines": [
+            233
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he moved to Asheville for the beer scene (lines 45–49) and names Burial and Wicked Weed as favorites (lines 249–251).",
+          "value": "craft beer enthusiast; favorites Burial, Wicked Weed",
+          "lines": [
+            45,
+            47,
+            49,
+            249,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions snowboarding, kayaking, mountain biking, and riding motorcycles (lines 81, 87, 89).",
+          "value": "enjoys outdoor activities: snowboarding, mountain biking, motorcycles, kayaking",
+          "lines": [
+            81,
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he will take his dog on a walk (line 299).",
+          "value": "walks his dog",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He interjects 'I'm a big guy like...' while discussing stouts, but it may refer to his physical size (line 273).",
+          "value": "self-described as 'big guy'",
+          "lines": [
+            273
+          ],
+          "certainty": 2
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself with 'What I'm john' (ASR for 'Well, I'm John') in line 14. speaker_a replies 'Good to meet you, john'.",
+          "value": "John",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is from Portland, Oregon (line 40) and was born and raised there (line 62).",
+          "value": "Portland, Oregon",
+          "lines": [
+            40,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states they are on vacation at a family vacation house in Lincoln City, on the Oregon coast, oceanfront (lines 62–64).",
+          "value": "currently at family vacation house in Lincoln City, Oregon (coast)",
+          "lines": [
+            62,
+            63,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He directly says 'I'm an elementary school teacher' (line 108).",
+          "value": "elementary school teacher",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is addressed as 'man' (line 3) and gives the male name John.",
+          "value": "male",
+          "lines": [
+            3,
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He refers to 'my wife' (line 146).",
+          "value": "married",
+          "lines": [
+            146,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a five‑year‑old and a ten‑year‑old (line 146) and describes their personalities (lines 214, 216).",
+          "value": "father of two children (son 5, daughter 10)",
+          "lines": [
+            146,
+            214,
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states his job as a teacher (line 108).",
+          "value": "employed as elementary school teacher",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his wife's part‑time work as a legal assistant for a disability lawyer (line 212).",
+          "value": "wife works part‑time as a legal assistant (from home)",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains he found Prolific on Reddit and uses it after the kids go to bed to earn extra money (lines 34–38).",
+          "value": "uses Prolific studies for extra income",
+          "lines": [
+            34,
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'we have a family vacation house' in Lincoln City (line 62).",
+          "value": "family owns vacation house on Oregon coast",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his wife multiple times (lines 146, 212, 216).",
+          "value": "wife (legal assistant)",
+          "lines": [
+            146,
+            212,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his five‑year‑old son (lines 146, 214).",
+          "value": "5‑year‑old son",
+          "lines": [
+            146,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his ten‑year‑old daughter (lines 146, 216).",
+          "value": "10‑year‑old daughter",
+          "lines": [
+            146,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they were visiting his grandparents in Palm Springs, California (line 226).",
+          "value": "grandparents in Palm Springs, California",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells about a friend who got COVID‑19 and tested positive for antibodies (lines 139–142).",
+          "value": "friend who had COVID‑19 (antibody positive)",
+          "lines": [
+            139,
+            140,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He talks about the Portland beer scene, recommends Great Notion and calls Deschutes near and dear (lines 260–268, 294).",
+          "value": "craft beer enthusiast; favorites Great Notion, Deschutes",
+          "lines": [
+            260,
+            262,
+            266,
+            268,
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He bought an inflatable kayak last summer and goes out on lakes (line 86).",
+          "value": "enjoys kayaking",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he gets out once a day for a walk or drive (line 240).",
+          "value": "takes daily walk or drive",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is on summer break because he is a teacher (line 108).",
+          "value": "on summer break (teacher schedule)",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

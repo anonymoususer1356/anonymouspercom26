@@ -1,0 +1,347 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'my name is Carol' directly.",
+          "value": "Carol",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm in my freshman year'.",
+          "value": "university freshman",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is considering medical field, psychology, or 'no science' (neuroscience).",
+          "value": "considering medical field, psychology, or neuroscience",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'We're meeting in a research study'.",
+          "value": "research study participant",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Mentions 'my health issues'.",
+          "value": "has unspecified health issues",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'depression' explicitly.",
+          "value": "has depression",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Repeatedly refers to 'my best friend'.",
+          "value": "has a best friend",
+          "lines": [
+            41,
+            123,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they met in the video game Star Wars: The Old Republic.",
+          "value": "met best friend in Star Wars: The Old Republic",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we've been writing since 2013' with best friend.",
+          "value": "co-writes with best friend since 2013",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions sister in contexts: Snickers bars, Halloween party, childhood tea parties.",
+          "value": "has a sister",
+          "lines": [
+            141,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my mom gave him like some carrots'.",
+          "value": "has a mother",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes 'my many snatcher RJ' and 'many smasher' – ASR for miniature schnauzer; dog's name is RJ.",
+          "value": "has a dog (miniature schnauzer named RJ)",
+          "lines": [
+            135,
+            187,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she had three dogs, two passed away; one was a Pomeranian, one a golden doodle.",
+          "value": "previously had a Pomeranian and a golden doodle (deceased)",
+          "lines": [
+            131,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers are meeting in a research study.",
+          "value": "research study participant alongside speaker_b",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes co-writing Star Wars fan fiction with best friend, >1000 pages, using Google Docs.",
+          "value": "writes Star Wars fan fiction with best friend",
+          "lines": [
+            41,
+            43,
+            45,
+            49,
+            53,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'tumbler', phonetically Tumblr, a fandom social media platform.",
+          "value": "uses Tumblr",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Took Harry Potter sorting quizzes; 'slither in' and 'leather' clearly Slytherin.",
+          "value": "Harry Potter sorting quiz result: Slytherin",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says they have dog stockings, wrap gifts (dental sticks, toys, milk bones) for the dogs at Christmas.",
+          "value": "celebrates Christmas with dog stockings and gifts",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Refers to younger self as 'a little small Sophie'; line 4 'Sophia' is phonetically the same name.",
+          "value": "Sophie",
+          "lines": [
+            100,
+            4
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm a university student'.",
+          "value": "university student",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am studying brain and cognitive science'.",
+          "value": "brain and cognitive science major",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Meeting in a research study and discussing timer; also mentions Prolific connections.",
+          "value": "research study participant",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my connections into uh prolific are fairly obvious' – user of the Prolific platform.",
+          "value": "Prolific user",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "States 'my best friend, my roommate, she's on the other side of this wall'.",
+          "value": "has a roommate who is best friend",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'both of my roommates' indicating two roommates.",
+          "value": "has two roommates",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says the roommate/best friend is a fanfic writer.",
+          "value": "roommate/best friend writes fan fiction",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions sister in 'long past when my sister or I … were Children'.",
+          "value": "has a sister",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my mother's side of the family'.",
+          "value": "has a mother",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my dog is a slytherin', 'I have the german shepherd?', describes her as mostly German Shepherd.",
+          "value": "has a dog (German Shepherd)",
+          "lines": [
+            126,
+            186,
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers are in the same research study meeting.",
+          "value": "research study participant alongside speaker_a",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says board games/jigsaw puzzles are '#1 Hobby Right Now'.",
+          "value": "enjoys board games and jigsaw puzzles",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'consuming quite a lot of fan fiction'.",
+          "value": "consumes fan fiction",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Identifies Critical Role as a primary fandom.",
+          "value": "fan of Critical Role",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In Harry Potter fandom since middle school, 'hardcore hufflepuff'.",
+          "value": "Harry Potter fan (Hufflepuff)",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses Prolific to find studies, per line 18.",
+          "value": "uses Prolific for studies",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Dog has a Christmas stocking; describes playing fetch and dog's food habits.",
+          "value": "spends time with dog; celebrates Christmas with dog",
+          "lines": [
+            144,
+            236,
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses her as 'Michelle' and she responds without correcting him, indicating that is her name.",
+          "value": "Michelle",
+          "lines": [
+            264,
+            289,
+            291
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked if she lives in Georgia or Atlanta, she answers 'Yeah'. Later she says 'And Georgia we don't know...' and 'I go to school in Georgia area', indicating she resides in Georgia.",
+          "value": "Georgia, USA",
+          "lines": [
+            6,
+            7,
+            35,
+            43,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she was born in Nigeria, and when asked which part she responds 'Delta sir', meaning Delta State.",
+          "value": "Delta State, Nigeria",
+          "lines": [
+            23,
+            253
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she previously lived in Korea for a year.",
+          "value": "Lived in Korea for one year",
+          "lines": [
+            129,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Michelle' is typically female, and there is no indication otherwise in the conversation.",
+          "value": "Female",
+          "lines": [
+            264
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She states she was born in Nigeria.",
+          "value": "Nigerian",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to school in Georgia, being a sophomore/junior, and taking classes.",
+          "value": "College student",
+          "lines": [
+            87,
+            227,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Not bad microbiology' and later speaker_b confirms she studies microbiology.",
+          "value": "Microbiology major",
+          "lines": [
+            121,
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she spoke English as a child and is learning Japanese (reads a little, takes classes).",
+          "value": "Speaks English, learning Japanese",
+          "lines": [
+            85,
+            87,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I just don't sleep at night'.",
+          "value": "Insomnia (difficulty sleeping at night)",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a short attention span'.",
+          "value": "Short attention span",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she does online surveys that pay well and uses the platform Prolific.",
+          "value": "Earns money from online surveys (Prolific)",
+          "lines": [
+            285,
+            287,
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her brother, and later agrees that she has two brothers and is the middle child.",
+          "value": "Has two brothers, is the middle child",
+          "lines": [
+            207,
+            231,
+            233,
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked if she has family in Nigeria, she says 'Yeah'.",
+          "value": "Has family in Nigeria",
+          "lines": [
+            158,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about her living situation, she says 'A lot of my family', indicating she lives with family.",
+          "value": "Lives with family",
+          "lines": [
+            203
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She watches anime, reads Japanese/Korean books, and discusses Japanese culture extensively.",
+          "value": "Anime and Japanese culture enthusiast",
+          "lines": [
+            62,
+            64,
+            79,
+            129,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she watches YouTube, South Park, and Family Guy.",
+          "value": "Watches YouTube, South Park, Family Guy",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I usually just stay home anyway'.",
+          "value": "Homebody, usually stays home",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she wants to go to Japan for research and is attracted to Japanese culture.",
+          "value": "Aspires to live and work in Japan",
+          "lines": [
+            127,
+            129,
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is taking Japanese classes at school.",
+          "value": "Taking Japanese language classes",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she reads like 10 different books at once due to short attention span.",
+          "value": "Reads multiple books concurrently",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm used to living in the dorms around this time'.",
+          "value": "Used to living in dorms during school year",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is taking a break from classes this summer.",
+          "value": "Taking a break from school for the summer",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself: 'my name is Shannon'.",
+          "value": "Shannon",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I live in north Carolina', moved there 26 years ago, and refers to it as his current home.",
+          "value": "North Carolina, USA",
+          "lines": [
+            6,
+            38,
+            42,
+            50,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I grew up in the state of Maine'.",
+          "value": "Maine, USA (grew up)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I am a teacher, I teach college students' and later specifies he teaches business courses, data analytics and modeling.",
+          "value": "College teacher (business, data analytics, modeling)",
+          "lines": [
+            10,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he worked at an apparel company; 'Haines' is a phonetic transcription of 'Hanes'.",
+          "value": "Former Hanes employee",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He is currently a college teacher, indicating employment.",
+          "value": "Employed as a college teacher",
+          "lines": [
+            10,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he previously worked at Hanes (transcribed as Haines).",
+          "value": "Previously employed at Hanes",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He refers to 'my wife' several times.",
+          "value": "Married",
+          "lines": [
+            10,
+            208,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'our son is home from school'.",
+          "value": "Has a son",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'we have a daughter'.",
+          "value": "Has a daughter",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a younger brother and a younger sister.",
+          "value": "Has a younger brother and younger sister",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions taking 'the dog' for a walk, implying he owns a dog or the family has one.",
+          "value": "Owns a dog",
+          "lines": [
+            136
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says in the mornings he takes the dog for a walk.",
+          "value": "Walks the dog in the morning",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is trying to learn Spanish and uses the app Duolingo.",
+          "value": "Learning Spanish via Duolingo",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he listens to podcasts (mentions a specific one about Japan).",
+          "value": "Listens to podcasts",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says there is a stay-at-home order where he lives.",
+          "value": "Under stay-at-home order",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he grew up on a farm with horses, cows, sheep, and pigs.",
+          "value": "Grew up on a farm",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

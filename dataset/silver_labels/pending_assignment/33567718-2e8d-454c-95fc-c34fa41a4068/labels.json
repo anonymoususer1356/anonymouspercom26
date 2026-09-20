@@ -1,0 +1,288 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly says 'I live in California' and mentions driving from California to Ohio, and discusses California employment laws.",
+          "value": "California (residence)",
+          "lines": [
+            5,
+            21,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm in Ohio right now', mentions being there for family holiday, and that their mother is in Ohio.",
+          "value": "Ohio (currently visiting family)",
+          "lines": [
+            5,
+            7,
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm doing, it's actually employ, it's a part time employee position with lime bridge' (ASR for Lionbridge) and describes rating search engine results and listening to audio for Google Home responses.",
+          "value": "Part-time employee at Lionbridge as a search engine rater",
+          "lines": [
+            217,
+            219,
+            221,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker confirms they do surveys on MTurk, aiming to do a few good-paying ones daily, and discusses payment amounts.",
+          "value": "Uses MTurk for online surveys",
+          "lines": [
+            183,
+            185,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they have been with Prolific for about a year or two and considers them the best survey provider.",
+          "value": "Uses Prolific for academic surveys",
+          "lines": [
+            95,
+            96,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'climb code' (ASR for Clickworker) and states they used to belong for years but got kicked out and cannot get back in.",
+          "value": "Previously used Clickworker for microtasks",
+          "lines": [
+            161,
+            163,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker refers to 'Apple' (ASR for Appen) and describes completing small tasks such as recording 200 phrases and data entry for them.",
+          "value": "Has done small tasks for Appen",
+          "lines": [
+            233
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says the basset hounds were missing 'my mother' and she was going to be in Ohio, so they all came to Ohio, implying the mother lives there or was staying there.",
+          "value": "Mother lives in Ohio",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker recalls visiting 'my grandparents in Florida' as a child.",
+          "value": "Grandparents in Florida",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker explicitly mentions having two basset hounds and states they are 12 years old.",
+          "value": "Owns two basset hounds",
+          "lines": [
+            61,
+            63,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker initially says three cats, then two, then corrects to three during the cross-country move; although inconsistent, the final count is three.",
+          "value": "Owns three cats",
+          "lines": [
+            61,
+            63,
+            65
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker states their family participates in basset hound rescue in California, helping abandoned hounds get adopted across the country.",
+          "value": "Participates in basset hound rescue in California",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes driving from California to Ohio with their pets, taking four days.",
+          "value": "Drove cross-country from California to Ohio with pets",
+          "lines": [
+            21,
+            59,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'now, I'm in Panama city florida' and mentions moving from Fort Lauderdale to Panama.",
+          "value": "Panama City, Florida",
+          "lines": [
+            10,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'from new york born and raised' and specifies 'Long Island. About 30 minutes from Manhattan.'",
+          "value": "Originally from Long Island, New York",
+          "lines": [
+            10,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they were in Fort Lauderdale for about 20 something years before moving to Panama.",
+          "value": "Lived in Fort Lauderdale, Florida for about 20 years",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'when I moved here it was 2011' referring to Panama City, and also mentions moving from Fort Lauderdale.",
+          "value": "Moved to Panama City in 2011",
+          "lines": [
+            50,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm like, right on the beach about a block away from the beach.'",
+          "value": "Lives about a block from the beach",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says they love MTurk, have made $2356 over several years, does transcription and other tasks, and once paid an electric bill with it.",
+          "value": "Earns money on Amazon Mechanical Turk; has made approximately $2356 since starting",
+          "lines": [
+            158,
+            166,
+            170,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker asks speaker_a how they found Prolific, compares other platforms to Prolific's dashboard, and mentions it in a positive context, indicating they use it.",
+          "value": "Uses Prolific for surveys",
+          "lines": [
+            94,
+            112,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker discusses platforms 'in tele zoom' (Intellizoom) and UserCrowd, mentions getting paid small amounts, and describes the type of tasks.",
+          "value": "Uses Intellizoom/UserCrowd for paid microtasks",
+          "lines": [
+            100,
+            102,
+            130,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker brings up 'testable minds dot org', says it's good, got paid, but hasn't received tasks in a while.",
+          "value": "Has used Testable Minds for surveys/tasks",
+          "lines": [
+            142,
+            144,
+            148,
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker explicitly states 'I have five kids'.",
+          "value": "Has five children",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my daughter lives in Fort Lauderdale' and discusses the time difference when visiting her.",
+          "value": "Daughter lives in Fort Lauderdale, Florida",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'one still in Portland' when describing where their five children live.",
+          "value": "One child lives in Portland",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes going to the beach at 5:00 in the morning by themself with a cup of coffee, a cigarette, maybe a joint, and sitting to watch the sunrise; also goes at nine o'clock at night.",
+          "value": "Regularly visits the beach in the morning with coffee, cigarettes, and occasionally marijuana; also goes at night",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says it took them about four years to be able to call Panama City home.",
+          "value": "Took about four years to adjust to calling Panama City home",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

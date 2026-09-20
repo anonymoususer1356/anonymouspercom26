@@ -1,0 +1,414 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When speaker_b asks for her name, speaker_a replies 'my name is Barbara'.",
+          "value": "Barbara",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "After speaker_b says they are in Texas, speaker_a responds 'Me too' and says 'in texas', establishing she also lives in Texas.",
+          "value": "Texas",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to 'my husband' and 'I have two girls', and the name Barbara is typically female; these establish female gender.",
+          "value": "female",
+          "lines": [
+            83,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm retired. Older' indicating she is an older adult.",
+          "value": "older adult",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she comes from an Italian family, her parents and grandparents spoke Italian, and food was central, establishing Italian ancestry.",
+          "value": "Italian ancestry",
+          "lines": [
+            263,
+            271
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions she went to a Catholic school, indicating a Catholic background.",
+          "value": "Catholic background",
+          "lines": [
+            195
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a recounts that a nun told her she was tone deaf and she has been hesitant to sing ever since, indicating she believes she is tone deaf.",
+          "value": "tone deaf",
+          "lines": [
+            195,
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I wasn't very athletic' as a self-assessment of her physical ability.",
+          "value": "not athletic",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm retired', indicating she no longer works.",
+          "value": "retired",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she does both MTurk and Prolific, prefers Prolific, and enjoys the extra money, indicating she uses online survey platforms for income.",
+          "value": "does Prolific and MTurk surveys for extra money",
+          "lines": [
+            39,
+            41,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about traveling to Italy, speaker_a says it's too expensive, suggesting limited discretionary budget.",
+          "value": "finds international travel too expensive",
+          "lines": [
+            267
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my husband' in discussions about soccer and COVID risk, establishing she is married.",
+          "value": "married, has a husband",
+          "lines": [
+            83,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I have two girls And they're in their 30's', indicating she has two daughters in their thirties.",
+          "value": "has two daughters in their 30s",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has five grandchildren.",
+          "value": "has five grandchildren",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has not seen her grandchildren since March because of COVID.",
+          "value": "has not seen grandchildren since March due to COVID",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a quotes her father as saying 'cook with love', indicating she had a father who shared that advice.",
+          "value": "father used to say 'cook with love'",
+          "lines": [
+            261
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes herself as a good Italian cook and mentions making lasagna, pizza, spaghetti, and meatballs.",
+          "value": "enjoys cooking Italian food",
+          "lines": [
+            229,
+            249,
+            253,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a accurately describes the format of 'The Great British Baking Show' (bakers in a tent, weekly elimination) as a show she watches.",
+          "value": "watches The Great British Baking Show",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she likes 'The Sound of Music', a classic musical.",
+          "value": "likes musicals (The Sound of Music)",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a names Bruce Springsteen and Frank Sinatra as artists she likes, indicating a preference for older music.",
+          "value": "likes old-school music (e.g., Bruce Springsteen, Frank Sinatra)",
+          "lines": [
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes using an Alexa device to make video calls to her grandchildren.",
+          "value": "uses Alexa to video call grandchildren",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I like prolific better' when comparing online work platforms.",
+          "value": "prefers Prolific over MTurk",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says this is her fourth such call, recounting a couple of prior attempts that did not connect.",
+          "value": "has completed 4 Prolific calls (including this one)",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she played tennis and volleyball just for fun, not on a team.",
+          "value": "played tennis and volleyball casually",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When speaker_a asks for his name, speaker_b replies 'My name is Stone'.",
+          "value": "Stone",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where he is, speaker_b says 'I mean texas right that's good', indicating he lives in Texas.",
+          "value": "Texas",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "At the start of the call, speaker_b says 'I'm at home', establishing his current location.",
+          "value": "currently at home",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a asks 'you always lived in texas?', speaker_b ultimately confirms with 'Oh yeah' that he moved to Texas, implying he is not originally from there.",
+          "value": "moved to Texas (not originally from Texas)",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b speaks of having a girlfriend, wanting boys when he has kids, and the conversational role suggests male gender.",
+          "value": "male",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "The call is a paid Prolific study; speaker_b discusses bonuses and payment timing, establishing he participates in Prolific studies for money.",
+          "value": "participates in Prolific studies for extra money",
+          "lines": [
+            146,
+            304,
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he works at something else, speaker_b answers 'I yeah I work in a private...' confirming he has another job, though the exact wording is garbled.",
+          "value": "has another job besides Prolific",
+          "lines": [
+            50
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b states he does not have the money to travel, remarking that only rich people travel.",
+          "value": "does not have money to travel",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I have a girlfriend. My right now I'm staying with my girlfriend', indicating a romantic partner he lives with.",
+          "value": "has a girlfriend, lives with her",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his parents, staying in their apartment previously, and visiting them about once a month (less since COVID), establishing he has parents and sees them.",
+          "value": "has parents, visits them occasionally",
+          "lines": [
+            158,
+            280,
+            282
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says he does not have children now but hopes to have a couple of kids if he gets married, and indicates a preference for boys.",
+          "value": "wants children (boys) in the future if married",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states 'I love um lawn tennis and soccer', indicating his favorite sports.",
+          "value": "enjoys sports: tennis and soccer",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he streams and watches the English Premiership, following English Premier League soccer.",
+          "value": "follows English Premier League, streams matches",
+          "lines": [
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions going to the park with 'my guys' for soccer, suggesting he plays recreationally with friends.",
+          "value": "plays soccer at the park with friends",
+          "lines": [
+            86
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says he loves video games and tried to purchase a PS5 but it was out of stock.",
+          "value": "loves video games, wanted a PS5",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'The Lord of the Rings' is his favorite movie.",
+          "value": "favorite movie: The Lord of the Rings",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions watching The Good Wife, How I Met Your Mother, The Office, and agrees to Modern Family.",
+          "value": "watches TV shows: The Good Wife, How I Met Your Mother, The Office, Modern Family",
+          "lines": [
+            126,
+            128,
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b lists Lil Baby, Beyonce, Chris Brown, Rihanna, Drake, and Justin Bieber as artists he likes.",
+          "value": "likes modern music: Lil Baby, Beyonce, Chris Brown, Rihanna, Drake, Justin Bieber",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he does not like cooking, cannot cook, and that his girlfriend handles the cooking.",
+          "value": "cannot cook; girlfriend does the cooking",
+          "lines": [
+            240,
+            246,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about Christmas plans, speaker_b says he will stay in Texas with his girlfriend.",
+          "value": "plans to spend Christmas in Texas with girlfriend",
+          "lines": [
+            290
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself by name: 'Hi, my name is Michelle'.",
+          "value": "Michelle",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Sean found a job up here' while discussing the move for her partner's job, indicating her partner's name is Sean.",
+          "value": "Sean",
+          "lines": [
+            191
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm up in Boston' and later confirms they moved to Boston.",
+          "value": "Boston, MA",
+          "lines": [
+            23,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to live in St. Louis, Missouri, and mentions the Midwest.",
+          "value": "St. Louis, MO (previous)",
+          "lines": [
+            161,
+            85,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms same time zone as North Carolina after speaker_b says she is in NC.",
+          "value": "Eastern Time Zone",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her work is on Pacific Time and the company is based in California.",
+          "value": "Works on Pacific Time (company based in California)",
+          "lines": [
+            33,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Michelle typically female, uses female pronoun for dog, refers to partner as 'he'.",
+          "value": "Female",
+          "lines": [
+            13,
+            149,
+            67
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In response to speaker_b's high risk, she says 'I'm high risk as well'.",
+          "value": "High risk for COVID-19",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is debating seeing a therapist or life coach because she is at a point where she questions her job.",
+          "value": "Considering therapy or life coach",
+          "lines": [
+            103,
+            104,
+            105
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I work remotely for a start up' and describes the work.",
+          "value": "Works remotely for a startup",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She frequently mentions 'my partner' and later names him Sean.",
+          "value": "Partner: Sean",
+          "lines": [
+            67,
+            163,
+            191
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her partner works in admissions at Brandeis University and that his job brought them to Boston.",
+          "value": "Partner works in admissions at Brandeis University",
+          "lines": [
+            67,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we have a dog' and refers to it as 'she'.",
+          "value": "Has a female dog",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions having a couple of cups of coffee in the morning.",
+          "value": "Drinks coffee",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she works remotely.",
+          "value": "Works remotely",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states they moved to Boston two weeks ago.",
+          "value": "Recently moved to Boston (two weeks ago)",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are looking at North Carolina for a beach house over Christmas.",
+          "value": "Planning Christmas trip to North Carolina beach",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions having hand sanitizers everywhere and wearing a mask.",
+          "value": "Uses masks and hand sanitizer",
+          "lines": [
+            181,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says walking the dog gets her out multiple times a day.",
+          "value": "Walks dog multiple times a day",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself: 'I am Sarah'.",
+          "value": "Sarah",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in North Carolina.",
+          "value": "North Carolina",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live on the lake'.",
+          "value": "Lives on a lake",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are three to four hours from the beach and mentions Wrightsville.",
+          "value": "Lives 3-4 hours from Wrightsville Beach",
+          "lines": [
+            144,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are two hours from the mountains.",
+          "value": "Lives 2 hours from mountains",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She works at a state university, mentions Charlotte and the Republican National Convention there.",
+          "value": "Works at a state university (likely UNC Charlotte)",
+          "lines": [
+            62,
+            74,
+            106,
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a confirms they are in the same time zone after speaker_b says North Carolina.",
+          "value": "Eastern Time Zone",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Sarah typically female, refers to partner as 'he'.",
+          "value": "Female",
+          "lines": [
+            14,
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I'm high risk, he's high risk'.",
+          "value": "High risk for COVID-19",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a couple of autoimmune diseases'.",
+          "value": "Autoimmune diseases",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is taking less medication for her thyroid.",
+          "value": "Thyroid condition",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been on keto since March.",
+          "value": "On keto diet since March",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having anxiety multiple times.",
+          "value": "Anxiety",
+          "lines": [
+            114,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she blood typed herself as 'so positive' and later discusses blood type O being less susceptible.",
+          "value": "Blood type O positive",
+          "lines": [
+            222,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have breathing' when arguing against those who say they can't wear masks, implying she has breathing issues.",
+          "value": "Breathing issues",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she is going off caffeine, and speaker_a notes it is day two.",
+          "value": "Quitting caffeine (day 2)",
+          "lines": [
+            28,
+            40,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is not typically a germophobe except at work.",
+          "value": "Germophobe at work",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she handles budgets in a pre-education advising office at a university.",
+          "value": "Works at a university handling budgets",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her partner Tom getting home and working weekends.",
+          "value": "Partner: Tom",
+          "lines": [
+            80,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says Tom works in retail management.",
+          "value": "Partner works in retail management",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My sister thinks I'm a moron'.",
+          "value": "Has a sister",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is closer to her therapist after starting [in January?].",
+          "value": "Sees a therapist",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says Tom's parents have a beach house they can stay at.",
+          "value": "Access to partner's parents' beach house",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she started working remotely before it was mandated and will be remote until at least summer.",
+          "value": "Works remotely",
+          "lines": [
+            72,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions they go hiking and have taken trips to the mountains and beach.",
+          "value": "Enjoys hiking and outdoor trips",
+          "lines": [
+            92,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes taking Clorox wipes everywhere and sanitizing tables and chairs when dining out.",
+          "value": "Sanitizes surfaces when out",
+          "lines": [
+            168,
+            170,
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions wearing a mask and being tired of it but doing it anyway.",
+          "value": "Wears a mask",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses curiosity about acupuncture and mentions seeing an alternative medicine practitioner.",
+          "value": "Interested in acupuncture and alternative medicine",
+          "lines": [
+            234,
+            254,
+            256,
+            258,
+            260
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she drinks Diet Pepsi and is quitting caffeine.",
+          "value": "Drinks Diet Pepsi",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she previously got up at 5:30 AM in a structured lifestyle.",
+          "value": "Previously had structured morning routine (5:30 AM wake-up)",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she bought a blood typing kit.",
+          "value": "Owns a blood typing kit",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions their favorite Mexican restaurant.",
+          "value": "Enjoys Mexican food",
+          "lines": [
+            174
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes a cabin trip to the mountains.",
+          "value": "Goes on cabin trips",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

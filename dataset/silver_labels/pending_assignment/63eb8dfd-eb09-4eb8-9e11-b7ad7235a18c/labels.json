@@ -1,0 +1,652 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'with my job's I'm near philadelphia' and confirms a current job in the area. They also live with family and have been quarantined since March, placing their residence near Philadelphia.",
+          "value": "near Philadelphia, Pennsylvania",
+          "lines": [
+            111,
+            113,
+            249,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'The college I am enrolled in is an art school in new york city'. They also ask if speaker_b has heard of Parsons, implying it may be that school.",
+          "value": "art school in New York City",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'I am african american'.",
+          "value": "African American",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In discussions about ADHD and autism underdiagnosis in women, speaker_a identifies with the female experience, saying 'that's the same thing that happened with me' regarding masking in women. The context strongly implies speaker_a is female.",
+          "value": "female",
+          "lines": [
+            187,
+            205,
+            207,
+            221
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I have awful HD' (ASR for ADHD) and 'I only ended up getting diagnosed this year'. The new therapist confirmed ADHD (line 229: 'yes, you have ADHD' where ASR wrote 'PhD').",
+          "value": "ADHD (diagnosed this year)",
+          "lines": [
+            151,
+            189,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I have been previously diagnosed with Asperger's, although that's an out of date term. It's now it's just autism spectrum.'",
+          "value": "Asperger's / autism spectrum disorder",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I also have anxiety' when discussing mental health.",
+          "value": "anxiety",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I have a psychologist, but he's not very attentive.'",
+          "value": "has a psychologist",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I just got a new one in the past two weeks, so I've been through three.' referring to therapists.",
+          "value": "has had three therapists",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says the new therapist 'was like, yes, you have ADHD, no, I don't think you're on the spectrum.' (ASR 'PhD' likely 'ADHD').",
+          "value": "current therapist questions autism spectrum diagnosis",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'The college I am enrolled in is an art school in new york city'.",
+          "value": "college student (art school in NYC)",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'pay off my student loans' as a hypothetical use of a million dollars.",
+          "value": "has student loans",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'with my job's I'm near philadelphia' and 'my current job, we get a lot of people from California'.",
+          "value": "employed (near Philadelphia)",
+          "lines": [
+            111,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Yeah, prolific.' and 'I just started this summer' when asked about survey platforms.",
+          "value": "uses Prolific (started summer 2020)",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I didn't qualify for mturk because I don't have a credit score.'",
+          "value": "no credit score",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my sister, it's actually like kind of fluent' in Mandarin.",
+          "value": "has a sister",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My dad and his two brothers...'",
+          "value": "has a father",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'his two brothers' (father's brothers).",
+          "value": "has two paternal uncles",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my mom's at risk' and explains that's why they haven't been out since lockdown.",
+          "value": "mother is at risk (health vulnerability)",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we have five other people in the house' and mentions getting sick of family.",
+          "value": "lives with family (5 others)",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I talked to my friends over zoom.'",
+          "value": "has friends",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I love reading too.'",
+          "value": "likes reading",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'the only videos I really watch on youtube... it's called cinema sins.'",
+          "value": "watches CinemaSins on YouTube",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm really big on film' and watches critiques.",
+          "value": "film enthusiast",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a photographer' and 'I mainly do photography.'",
+          "value": "photographer",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm trying to branch out into doing like films, production or directing as well.'",
+          "value": "interested in film production and directing",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I like cleaning sort of except I just have awful HD, so I think about it but never get around to it.'",
+          "value": "likes cleaning but procrastinates due to ADHD",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I haven't been out of the house since the lockdown first started, so since March.'",
+          "value": "quarantining at home since March 2020",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've only seen the american side... I was like seven' (Niagara Falls).",
+          "value": "visited Niagara Falls at age 7",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'at one point I knew conversational, japanese'.",
+          "value": "speaks conversational Japanese",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'very basic mandarin'.",
+          "value": "speaks basic Mandarin",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I know pigeons signed english, which is like american sign language except you don't follow the correct grammar structure.' (Pidgin Signed English).",
+          "value": "knows Pidgin Signed English",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I took spanish for four years in high school' and explains they understand but can't speak fluently; 'I can only read them.'",
+          "value": "understands Spanish (studied 4 years)",
+          "lines": [
+            101,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I know a little bit of german, not very much though.'",
+          "value": "knows basic German",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm not a very super social person. I'm just good at pretending to be social when it's necessary.'",
+          "value": "introverted, pretends to be social",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've always wanted to be a polyglot'.",
+          "value": "aspires to be a polyglot",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I live in new york city'.",
+          "value": "New York City, New York",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'It's a college called Suny Fredonia. It's an hour away from Buffalo.' and mentions Niagara Falls proximity.",
+          "value": "attended SUNY Fredonia (near Buffalo, NY)",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I am hispanic' when discussing language learning.",
+          "value": "Hispanic",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The ambulance crew called speaker_b 'lady' (line 272). Also identifies with female underdiagnosis of ADHD. Speaker_b is female.",
+          "value": "female",
+          "lines": [
+            272,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'most 1st and 2nd generation kids from immigrant families have the same problem... and that's 100% what happened with me.'",
+          "value": "from an immigrant family",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'she diagnosed me with some type of anxiety disorder' and received medication after a 2017 panic attack.",
+          "value": "anxiety disorder (diagnosed 2017)",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I suffer from agoraphobia, I get scared going outside'.",
+          "value": "agoraphobia",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I suspect that I have A D H D' and 'my psychiatrist suspected that I might be suffering from A. D. H. D.' but needs a psychologist for formal diagnosis.",
+          "value": "suspected ADHD (not formally diagnosed)",
+          "lines": [
+            184,
+            198,
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes 'I had a really severe panic attack where I called the ambulance and they said lady you're fine'.",
+          "value": "severe panic attack in 2017",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been going to therapy ever since I was maybe 13.'",
+          "value": "in therapy since age 13",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'she gave me some anti depressants anti anxiety medicine then and there'.",
+          "value": "took anti-anxiety / anti-depressant medication",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they had one therapist in childhood, four later, total five (ASR '31 year' interpreted as three in one year).",
+          "value": "has had 5 therapists",
+          "lines": [
+            288
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'my current health insurance is um like state it's like funded by the state.'",
+          "value": "state-funded health insurance",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'Have a housekeeper. Um And right now I only do my family's home.' The phrasing 'I only do' indicates speaker_b is the housekeeper. ASR likely misheard 'I'm a housekeeper'.",
+          "value": "housekeeper (for family)",
+          "lines": [
+            32
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I've been doing prolific since last october'.",
+          "value": "uses Prolific (since October 2019)",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'payoff man my loans' (likely 'pay off my loans') as a hypothetical use of money.",
+          "value": "has loans",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I wasn't able to finish my degree unfortunately.'",
+          "value": "did not finish college",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'It's a college called Suny Fredonia' when asked where they went to college.",
+          "value": "attended SUNY Fredonia",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I did one europe biology' (likely 'one year of biology') before suspecting ADHD, indicating an initial major.",
+          "value": "began college as a biology major (did not finish)",
+          "lines": [
+            182,
+            184
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my brother did it a few months ago' referring to jury duty.",
+          "value": "has a brother",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a friend with autism and he said...'",
+          "value": "friend with autism",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'one of my former college classmates, he majored in math'.",
+          "value": "former college classmate (math major)",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'right now I only do my family's home' indicating they have family.",
+          "value": "has family",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I like reading'.",
+          "value": "likes reading",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like cleaning as a pastime. That's really soothing for me.'",
+          "value": "likes cleaning",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'during high school I also taught myself some mandarin'.",
+          "value": "self-taught Mandarin",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I taught myself korean'.",
+          "value": "self-taught Korean",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I learned american sign language in middle school.'",
+          "value": "knows American Sign Language",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I know spanish and english'.",
+          "value": "speaks Spanish and English",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I took a talent for four years' (ASR for Italian) and later mentions writing Italian.",
+          "value": "studied Italian for 4 years",
+          "lines": [
+            106,
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they gained interest in Slovakia two years ago and plan to learn after Spanish.",
+          "value": "plans to learn Slovak",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I love writing mandarin and I love writing a taller' (ASR for Italian).",
+          "value": "enjoys writing Mandarin and Italian",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm trying to reteach myself basic algebra'.",
+          "value": "reteaching self algebra",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have some film and photography books by my feet right now.'",
+          "value": "owns film and photography books",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I also have some math books as well.'",
+          "value": "owns math books",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a YouTuber named Laoshu (ASR 'Laju') and says 'I'm in love with this man... whenever I do stumble across his videos absolutely love it.'",
+          "value": "watches YouTube polyglot (Laoshu)",
+          "lines": [
+            124,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my favorite study was about a court case and I was in a trial basically'.",
+          "value": "participated in a court case study on Prolific",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm also the same orally speaking, I'm not confident, but I love writing' referring to foreign languages.",
+          "value": "prefers writing over speaking in foreign languages",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

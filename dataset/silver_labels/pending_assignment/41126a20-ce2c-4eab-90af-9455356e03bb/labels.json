@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself with 'My name is paul' in line 3.",
+          "value": "Paul",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in California' in line 97 and specifies 'I'm kind of in the central coastal part of California' in line 125.",
+          "value": "central coastal California",
+          "lines": [
+            97,
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Paul' is almost exclusively male. No gender is explicitly stated, but the name strongly implies male gender.",
+          "value": "male",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I do product management' in line 63 and 'I work for a software company and we design apps' in line 65.",
+          "value": "product manager at a software company",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions not being compensated for a failed study attempt 'other than the dollar 50' in line 189, indicating he receives payment for participating in this study.",
+          "value": "receives payment for research study participation",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'our kids' in line 125 and confirms they are doing virtual learning in line 225 ('I do, yeah').",
+          "value": "has children",
+          "lines": [
+            125,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The phrase 'our kids' in line 125 implies a shared parenting relationship with another adult.",
+          "value": "shares children with a partner/co-parent",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states he does 'basic workout stuff riding the treadmill or going on runs' in line 69.",
+          "value": "exercises regularly (treadmill, running)",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I do watch it' referring to the news in line 253.",
+          "value": "watches the news",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I enjoy cooking' and describes using YouTube for recipes and experimenting in line 29.",
+          "value": "enjoys cooking",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a wears a Dodgers hat, celebrates the World Series win, and says he would trade his job to play baseball (lines 57, 59, 63).",
+          "value": "Los Angeles Dodgers fan",
+          "lines": [
+            57,
+            59,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'in high school and stuff, I...' referring to playing sports in line 69.",
+          "value": "played sports in high school",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a describes his hat as a 'dodger hat actually for Brooklyn... It's a b for Brooklyn. Yeah. Blue.' in lines 57 and 59, confirming he is wearing it.",
+          "value": "wears a blue Brooklyn Dodgers hat",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself with 'My name's Alicia' in line 4. The ASR output is 'Alicia'; we record the intended literal name.",
+          "value": "Alicia",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I usually live in Connecticut' in line 56.",
+          "value": "Connecticut",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm visiting my family in Virginia right now' in line 56.",
+          "value": "Virginia (visiting family)",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I lived in china for two years teaching english' in line 136.",
+          "value": "lived in China for two years",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Alicia' is typically female, and she mentions being married to a man (line 22).",
+          "value": "female",
+          "lines": [
+            4,
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I'm wearing glasses right now, I have eyes, but I need help' in line 144, indicating she uses corrective lenses.",
+          "value": "wears glasses for vision correction",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my wisdom teeth were impacted, I have those taken out' in line 148.",
+          "value": "had impacted wisdom teeth removed",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I'm self employed' in line 10.",
+          "value": "self-employed",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lived in China for two years teaching English (line 136), indicating past employment as a teacher.",
+          "value": "worked as an English teacher in China",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I was married to a chef. I'm still married to him' in line 22.",
+          "value": "married to a chef",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was with my mom and cooking with her' in line 8.",
+          "value": "has a mother",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My grandma lives in like a condo community for over 55 people' in line 112.",
+          "value": "has a grandmother",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have navy family' in line 168.",
+          "value": "has family in the Navy",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been living with friends in Connecticut for the last two months' in line 100.",
+          "value": "lives with friends in Connecticut",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'one of the friends that I was living with is a teacher' in line 230.",
+          "value": "has a friend who is a teacher (and lived with her)",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes cooking sweet potato burritos (line 12), discussing cooking techniques (line 14), flavor preferences (lines 22, 26), and making banana bread (lines 38, 42). She also mentions cooking with her mom (line 8).",
+          "value": "enjoys cooking",
+          "lines": [
+            8,
+            12,
+            14,
+            22,
+            26,
+            38,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm a night owl' in line 98.",
+          "value": "night owl",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this is why I don't watch the news' in line 248.",
+          "value": "does not watch the news",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this is my third time that I've done this' in line 118 and describes previous study conversations (lines 164, 178, 200).",
+          "value": "participates in research conversation studies (repeat participant)",
+          "lines": [
+            118,
+            164,
+            178,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lived in China for two years teaching English (line 136).",
+          "value": "lived abroad in China",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I'm wearing glasses right now' in line 144.",
+          "value": "wears glasses",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

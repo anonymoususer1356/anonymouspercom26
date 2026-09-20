@@ -1,0 +1,311 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a mentions Pennsylvania in the context of COVID-19, implying he lives there. Later he explicitly says he moved to Pennsylvania 12 years ago and was born in New Jersey, confirming his current state of residence.",
+          "value": "Pennsylvania, USA",
+          "lines": [
+            79,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a directly states his age as 38.",
+          "value": "38 years old",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he attended some college and then went to culinary school.",
+          "value": "Attended some college and culinary school",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my wife', strongly implying he is male.",
+          "value": "Male",
+          "lines": [
+            323
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says he burned out after 10 years as a chef and had to quit, indicating a work-related mental/physical health condition.",
+          "value": "Experienced burnout from chef career",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states he is partially retired.",
+          "value": "Partially retired",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses vape juice subreddits earlier and later says he sells 'the juice', establishing he runs a vape juice business.",
+          "value": "Sells vape juice (owns business)",
+          "lines": [
+            59,
+            60,
+            61,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has made about $130 on Prolific in less than a month.",
+          "value": "Made ~$130 on Prolific in under a month",
+          "lines": [
+            217,
+            218,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was a chef for 10 years, trained in French cuisine, and worked as an executive chef.",
+          "value": "Former chef (10 years, French-trained, including executive chef)",
+          "lines": [
+            275,
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions his brother lives in Oakley, California.",
+          "value": "Has a brother",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My wife heard that', indicating he is married.",
+          "value": "Has a wife",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states he spends hours a day on Reddit and has been using it for 11-12 years.",
+          "value": "Heavy Reddit user (hours daily, 11+ years)",
+          "lines": [
+            13,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists several video games he plays and describes his gaming habits (e.g., binging Minecraft for a week).",
+          "value": "Frequent video gamer (Minecraft, Skyrim, Saints Row, GTA, Civilization 5)",
+          "lines": [
+            107,
+            109,
+            113,
+            114,
+            115,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has been a Patriots fan for years.",
+          "value": "New England Patriots fan",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses participating in Prolific surveys for extra money.",
+          "value": "Prolific survey participant",
+          "lines": [
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            217,
+            218,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching a YouTube channel called 'flem low wraps' (likely FlemLo Raps).",
+          "value": "Watches YouTube (FlemLo Raps)",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he loves the TV show Hell's Kitchen.",
+          "value": "Enjoys TV show Hell's Kitchen",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from California, lives near Sacramento, and his house is not far from San Francisco.",
+          "value": "Sacramento area, California",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says he 'just heard 18' (ASR error, likely 'just turned 18'), establishing he is 18 years old.",
+          "value": "18 years old",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states he is about to start junior college and is undecided on a major.",
+          "value": "Junior college student (undecided major)",
+          "lines": [
+            78,
+            258,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a addresses speaker_b as 'man' at the end of the conversation, implying male gender.",
+          "value": "Male",
+          "lines": [
+            331
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he has been doing Prolific surveys since the middle of summer.",
+          "value": "Prolific survey participant",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he is banned on MTurk because he signed up before turning 18.",
+          "value": "Banned from Amazon Mechanical Turk",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his sister is considering a cooking career.",
+          "value": "Has a sister",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he plays Call of Duty War Zone occasionally and does not consider himself an avid gamer.",
+          "value": "Occasional gamer (Call of Duty War Zone)",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b declares he is a Bengals fan (Cincinnati Bengals) and discusses the team's performance.",
+          "value": "Cincinnati Bengals fan",
+          "lines": [
+            90,
+            100,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he was not exposed to Reddit before and learned about it today, showing he is not a Reddit user.",
+          "value": "Not a Reddit user",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b talks about his high school during recent wildfires and says he is about to start college, indicating he recently graduated high school.",
+          "value": "Recent high school graduate",
+          "lines": [
+            78,
+            250,
+            252,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions watching a Minecraft video series years ago.",
+          "value": "Watches YouTube (Minecraft series)",
+          "lines": [
+            122,
+            124,
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he is staying at home while starting college.",
+          "value": "Lives at home during college",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

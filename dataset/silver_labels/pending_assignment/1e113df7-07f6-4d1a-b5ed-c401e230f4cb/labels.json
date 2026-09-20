@@ -1,0 +1,497 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In a story about high school, a girl calls him 'Michael', suggesting that is his first name. (ASR: 'really sad, Michael')",
+          "value": "Michael (first name likely)",
+          "lines": [
+            191
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he is in Milwaukee. Later mentions the Milwaukee Brewers and the Bradley Center (a Milwaukee arena).",
+          "value": "Milwaukee, Wisconsin",
+          "lines": [
+            11,
+            31,
+            301,
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I'm 37'.",
+          "value": "age 37",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to as a father, husband, and uses masculine terms; called 'man' by the other speaker.",
+          "value": "male",
+          "lines": [
+            41,
+            51,
+            233,
+            369
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm a parent myself' and discusses his children.",
+          "value": "parent",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'for me I'm a teacher'.",
+          "value": "teacher",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I was a wrestling coach'.",
+          "value": "wrestling coach",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says this summer is his first off in 15 years as a teacher, and normally he would work a second job.",
+          "value": "does not work during summers as a teacher; normally works a second job",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions using Prolific and MTurk to take online surveys for money.",
+          "value": "does online surveys on Prolific and Amazon Mechanical Turk for extra income",
+          "lines": [
+            1,
+            192,
+            193,
+            197,
+            347,
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I've only made like $20' on Prolific.",
+          "value": "earned approximately $20 on Prolific",
+          "lines": [
+            355
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he has a library of probably 900 books.",
+          "value": "owns approximately 900 books",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he wants to buy audiobooks but cannot justify spending $60, implying a tight budget for non-essentials.",
+          "value": "wants to buy audiobooks but considers $60 too expensive",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' several times.",
+          "value": "has a wife",
+          "lines": [
+            41,
+            233,
+            271,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'My son plays baseball', 'my son has an Xbox', and names him 'Tobias' when discussing his little league.",
+          "value": "has a son named Tobias",
+          "lines": [
+            1,
+            29,
+            55,
+            61,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my daughter is a freshman' and 'she missed out on a cross country'.",
+          "value": "has a daughter (high school freshman)",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my dad's 57'.",
+          "value": "has a father (age 57)",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my parents' (plural), implying a mother as well.",
+          "value": "has a mother",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'my sister sent me one' (a survey link).",
+          "value": "has a sister",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have a friend who lives up in the U P' (Upper Peninsula of Michigan).",
+          "value": "has a friend who lives in the Upper Peninsula of Michigan",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He mentions the Brewers game being canceled and expresses disappointment.",
+          "value": "fan of the Milwaukee Brewers baseball team",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he plays his son's Xbox once in a while.",
+          "value": "occasionally plays Xbox",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He recounts playing the original Halo on an original Xbox in his college dorm against people in Sweden.",
+          "value": "played original Halo on Xbox during college",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he started with Netflix and Prime, then added CBS and 'yellow' (likely Hulu) during the pandemic.",
+          "value": "subscribes to multiple streaming services (Netflix, Prime, CBS All Access, Hulu)",
+          "lines": [
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says in February he talked to his wife about going to the Wisconsin Dells and Chicago, implying a family trip was planned before COVID.",
+          "value": "planned a family trip to Wisconsin Dells and Chicago",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He owns about 900 books and wants to buy audiobooks, indicating a reading habit.",
+          "value": "avid reader with a large book collection",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He discusses professional wrestling, owns an NWA wolfpack shirt, and watches Raw, indicating he is a wrestling fan.",
+          "value": "fan of professional wrestling",
+          "lines": [
+            269,
+            271,
+            277,
+            279,
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in michigan' and specifies 'I'm in the lower half... like the Detroit area'.",
+          "value": "Detroit area, Michigan",
+          "lines": [
+            14,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I'm only 25 years old'.",
+          "value": "age 25",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses masculine terms, called 'man', and no indication otherwise.",
+          "value": "male",
+          "lines": [
+            100,
+            370
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He explicitly says 'I'm not a parent personally'.",
+          "value": "not a parent",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says 'I was out of work at that time' referring to the COVID period.",
+          "value": "was out of work during the COVID-19 pandemic",
+          "lines": [
+            160,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes doing online surveys and website tests to earn money, and lists several platforms he uses.",
+          "value": "earns money through online surveys and website testing",
+          "lines": [
+            200,
+            206,
+            210,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions using Prolific and having done this study twice.",
+          "value": "uses Prolific survey site",
+          "lines": [
+            192,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He recommends a site, spells out 'L. I. D. A. T. E. L. Y' which matches the end of 'Validately', and describes it as website testing that pays $10 for 10-15 minutes.",
+          "value": "uses Validately for website testing",
+          "lines": [
+            318,
+            320,
+            326,
+            328
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'user interviews treating me really good'.",
+          "value": "uses User Interviews survey platform",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I like quick thoughts as well... their mobile phone app'.",
+          "value": "uses Quick Thoughts survey app",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he made $1300-1400 on Quick Thoughts one year and received a tax form.",
+          "value": "earned $1300-1400 on Quick Thoughts and received a tax form",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'swag bucks' when discussing survey screen-outs.",
+          "value": "uses Swagbucks survey site",
+          "lines": [
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his online survey money is 'play money' and he is liberal with it, while saving his regular work income.",
+          "value": "treats online survey income as discretionary 'play money'",
+          "lines": [
+            366,
+            368
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he had 'four throw tickets' (likely fourth row or four tickets) to a Smackdown event and got them for a good price.",
+          "value": "purchased Smackdown tickets at a good price",
+          "lines": [
+            154,
+            155,
+            156
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my mom' and her age (55).",
+          "value": "has a mother (age 55)",
+          "lines": [
+            128,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my dad' and that he was born in 1954.",
+          "value": "has a father (born 1954)",
+          "lines": [
+            258,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says one of his close friends is a parent, is 27, and is very busy.",
+          "value": "has a close friend who is a 27-year-old parent",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his friends call him weird for doing so many studies.",
+          "value": "has friends who question his survey-taking habit",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I got an Xbox as well' and 'I plan pc as well so I got like a lot of different devices to play on'.",
+          "value": "plays video games on Xbox and PC",
+          "lines": [
+            56,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I played a lot of halo two back and day one of my favorite original Xbox games'.",
+          "value": "played Halo 2 on original Xbox",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is up late, as evidenced by the late session time, and that Xbox keeps him occupied during late hours.",
+          "value": "night owl, stays up late playing games",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He discusses attending a Smackdown event, favorite eras (attitude, evolution), and collects memorabilia, indicating a wrestling fandom.",
+          "value": "fan of professional wrestling",
+          "lines": [
+            152,
+            274,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a belt with Mick Foley's and Greg Valentine's signatures and would not sell it.",
+          "value": "collects wrestling memorabilia (autographed belt)",
+          "lines": [
+            284,
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions meeting Mick Foley at a Borders bookstore and describes the interaction.",
+          "value": "met wrestler Mick Foley at Borders",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes doing website testing, which involves speaking thoughts out loud while browsing a site.",
+          "value": "does website usability testing",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he would do surveys even while at work, flipping between tabs.",
+          "value": "takes online surveys during work hours",
+          "lines": [
+            358
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

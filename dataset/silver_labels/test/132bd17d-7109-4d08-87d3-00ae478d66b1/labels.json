@@ -1,0 +1,268 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name as 'Alexander Russell'.",
+          "value": "Alexander Russell",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he belongs to a pinball organization he calls 'F. P. A.' (IFPA) and states his world ranking of 7,750 out of 45,000 players.",
+          "value": "IFPA pinball ranking 7,750 out of 45,000",
+          "lines": [
+            229,
+            231,
+            233,
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a gives his location as Columbus, Ohio.",
+          "value": "Columbus, Ohio",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Both speakers address each other as 'man' (e.g., line 7 'You too man'), suggesting male gender.",
+          "value": "male",
+          "lines": [
+            7,
+            299
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says he took 'she plus' (C++) and 'sequel' (SQL) classes in college.",
+          "value": "took C++ and SQL programming classes in college",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states his job title: 'I'm an I.T. Director' and specifies it is for a pharmaceutical company.",
+          "value": "IT Director at a pharmaceutical company",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes working in home infusion healthcare and states he is considered an essential worker.",
+          "value": "essential worker (home infusion healthcare)",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he previously worked as a delivery driver for the same company, delivering medication to patients' homes.",
+          "value": "previously worked as a delivery driver for the pharmaceutical company",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he owns a 'Comet' pinball machine and paid about $800 for it.",
+          "value": "owns a Comet pinball machine (purchased for $800)",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions his wife and says she works for the same pharmaceutical company.",
+          "value": "married, wife works for the same pharmaceutical company",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has a buddy named Trent who lives down the street and is ranked 5th in the world in pinball.",
+          "value": "has a friend/neighbor named Trent, ranked 5th in IFPA pinball",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he is a huge pinball player and used to be on a couple of leagues.",
+          "value": "plays pinball, used to participate in pinball leagues",
+          "lines": [
+            211,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he likes adventure and puzzle games; he names the Syberia series and Sanitarium as favorites.",
+          "value": "enjoys adventure/puzzle video games (favorites: Syberia, Sanitarium)",
+          "lines": [
+            55,
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his favorite pinball machine is 'Adam's family' (ASR for Addams Family).",
+          "value": "favorite pinball machine: Addams Family",
+          "lines": [
+            263
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as 'Alex'.",
+          "value": "Alex",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from Baltimore, Maryland.",
+          "value": "Baltimore, Maryland",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "At the end of the conversation speaker_b says 'I'm over in columbus' (Columbus, Ohio), indicating he is currently there.",
+          "value": "Columbus, Ohio (current location at time of call)",
+          "lines": [
+            292
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a addresses speaker_b as 'man' in the conversation (line 299), and context suggests male gender.",
+          "value": "male",
+          "lines": [
+            299
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm in school right now'.",
+          "value": "student",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b answers 'A computer science' when asked what he studies.",
+          "value": "studies computer science",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is taking all classes online, and names programming classes: 'data strip' (data structures) and assembly.",
+          "value": "taking online programming classes (data structures and assembly)",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he took a networking class in high school.",
+          "value": "took a networking class in high school",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b lists general education courses he has taken: anthropology, philosophy, and a bible study class.",
+          "value": "taken general education courses (anthropology, philosophy, bible study)",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says his second COVID test result came back negative quickly.",
+          "value": "tested negative for COVID-19 (second test)",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his uncle who owns a contracting company (ASR 'neighborhood thanks' likely garbled).",
+          "value": "has an uncle who owns a contracting company",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says his dad is from a small town near Cleveland, Ohio, and later moved to Florida.",
+          "value": "father from small town near Cleveland, Ohio, later moved to Florida",
+          "lines": [
+            294,
+            296
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he is currently developing a pixel video game using 'CCRC Sharp' (C#) and the Unity game engine, and intends to create a website to show employers.",
+          "value": "developing a pixel video game using Unity and C#",
+          "lines": [
+            32,
+            40,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

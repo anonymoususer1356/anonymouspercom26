@@ -1,0 +1,574 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as 'capt cat', and confirms when speaker_b asks 'And yours cats?' The ASR rendering may be a nickname or username; phonetically it could be 'Cat' or 'Captain Cat', but recorded verbatim as stated.",
+          "value": "capt cat",
+          "lines": [
+            21,
+            22,
+            23
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b asks 'Are you in the U.S.?' and speaker_a replies 'Yeah.'",
+          "value": "United States",
+          "lines": [
+            25,
+            26,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is 'with medical now' (likely a transcription of 'Medi-Cal', California's Medicaid) and qualifies for 'Kaiser's optometry', a healthcare system prominent in California. This suggests residence in California.",
+          "value": "likely California",
+          "lines": [
+            205,
+            206,
+            207
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I just actually graduated um from a nursing program.'",
+          "value": "recent nursing program graduate",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did finish four years undergrad and then I started working and then I went back to school for nursing.'",
+          "value": "completed four-year undergraduate degree",
+          "lines": [
+            321,
+            322,
+            323
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes using a facial brush, then skin becoming dry, breaking out, and the moisture barrier being damaged for the past two months.",
+          "value": "damaged skin moisture barrier causing dryness and breakouts",
+          "lines": [
+            95,
+            96,
+            97,
+            98,
+            99
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says her T-zone is oily and cheeks are dry, and that she has sensitive skin.",
+          "value": "combination skin (oily T-zone, dry cheeks) and sensitive skin",
+          "lines": [
+            103,
+            104,
+            105,
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "After speaker_b states her strong prescription, speaker_a says 'mine's kind up there too', indicating a similarly strong eyeglass prescription.",
+          "value": "strong eyeglass prescription",
+          "lines": [
+            214,
+            217
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she is 'just not working right now' after graduating.",
+          "value": "unemployed",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she started using Prolific two days ago and wanted 'a way to earn some money'.",
+          "value": "earns money through Prolific surveys",
+          "lines": [
+            9,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm with medical now', which is a phonetic transcription for 'Medi-Cal', California's public health insurance for low-income residents.",
+          "value": "Medi-Cal health insurance",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my boyfriend' multiple times regarding TV, skin complaints, and guitar lessons.",
+          "value": "has a boyfriend",
+          "lines": [
+            57,
+            147,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my sister knows how to do the fish tail one'.",
+          "value": "has a sister",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has 'family that are kind of older and I visit them quite often'.",
+          "value": "has older family members she visits regularly",
+          "lines": [
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a mentions watching 'Family Guy', 'Love Is Blind', 'Black Mirror', and an Amazon Prime love stories series.",
+          "value": "watches TV: Family Guy, Love Is Blind, Black Mirror, Amazon Prime series",
+          "lines": [
+            53,
+            57,
+            63,
+            65,
+            69,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks 'do you have netflix at all?' implying she has it, and describes watching a series on Amazon Prime.",
+          "value": "subscribes to Netflix and Amazon Prime",
+          "lines": [
+            59,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'We have a DVR at home'.",
+          "value": "uses a DVR at home",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I color my hair like maybe every six months... a blonde, lighter blonde color'.",
+          "value": "colors hair blonde every six months",
+          "lines": [
+            173,
+            174,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I got from Costco I think I've gotten maybe my last two pairs from Costco'.",
+          "value": "buys eyeglasses from Costco",
+          "lines": [
+            203,
+            204,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to play the flute back in elementary and middle school'.",
+          "value": "played the flute in elementary and middle school",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a keyboard um at my place'.",
+          "value": "owns a keyboard",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My boyfriend plays the guitar and he's been trying to kind of teach me'.",
+          "value": "boyfriend plays guitar and is teaching her",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was a tutor once... like really little preschool to kindergarten kids'.",
+          "value": "worked as a tutor for preschool to kindergarten children",
+          "lines": [
+            331,
+            332,
+            333
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just taught myself some songs but I definitely don't know how to read piano sheet music'.",
+          "value": "self-taught piano songs, cannot read sheet music",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a describes her hair as 'super long', 'frizzy', with roots showing because she dyes it blonde.",
+          "value": "long, frizzy blonde hair with visible dark roots",
+          "lines": [
+            177,
+            178,
+            179
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b comments on speaker_a's glasses, and speaker_a discusses where she got them.",
+          "value": "wears glasses",
+          "lines": [
+            201,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my head is like too big I guess... all the frames that I try to really tight like especially on my temples'.",
+          "value": "large head, frames often tight on temples",
+          "lines": [
+            235,
+            236,
+            237
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she used to use 'it cosmetics cc cream' a lot, making her skin look flawless in old photos.",
+          "value": "regularly used IT Cosmetics CC cream",
+          "lines": [
+            137,
+            138,
+            139
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b gives her name as 'Miranda' when asked.",
+          "value": "Miranda",
+          "lines": [
+            18,
+            19,
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a asks 'Are you in the U.S.?' and speaker_b replies 'Yeah.'",
+          "value": "United States",
+          "lines": [
+            25,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I work as a substitute teacher'.",
+          "value": "substitute teacher",
+          "lines": [
+            34,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like minored in philosophy'.",
+          "value": "minored in philosophy in college",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes starting college in science/math, struggling, and eventually sticking with English courses. The transcript is scattered, but she clearly indicates changing paths.",
+          "value": "studied English after switching from science/math in college",
+          "lines": [
+            310
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I'm like a mixed skin. Like my forehead gets oily but then the rest of my skin is dry'.",
+          "value": "combination skin (oily forehead, dry cheeks)",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'one of my eyes is like negative eight And then the other ones like -7', and then states she is not 100% sure.",
+          "value": "eyeglass prescription approximately -8 and -7",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she uses Pond's moisturizer and hasn't had any problems with it.",
+          "value": "uses Pond's moisturizer without skin issues",
+          "lines": [
+            110,
+            112,
+            113,
+            114
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she works as a substitute teacher and was an essential worker distributing food during quarantine; now she is at home.",
+          "value": "employed as substitute teacher, currently at home",
+          "lines": [
+            34,
+            35,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she used 'other survey sites but... this one is brand new for me' referring to Prolific, implying she participates in paid surveys.",
+          "value": "earns money through online surveys including Prolific",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her glasses frames were about $12 and the total with strong prescription was about $60 from Xeni (Zenni).",
+          "value": "purchases low-cost eyeglasses from Zenni online ($12 frames, $60 total)",
+          "lines": [
+            210,
+            226,
+            245,
+            246
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her sister multiple times: 'my sister she has problem skin', 'my sister dies are here all the time', 'That happens to my sister'.",
+          "value": "has a sister",
+          "lines": [
+            132,
+            188,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My mom well just give it a try. So she died the edges of her hair... bright pink because I just wanted my mom' and 'My mom found him like a couple years ago' referring to Zenni.",
+          "value": "has a mother",
+          "lines": [
+            192,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my grandma that was like her thing' about using Pond's moisturizer.",
+          "value": "has a grandmother",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she's been watching 'Never Have I Ever' and finished 'Westworld'.",
+          "value": "watches Netflix: Never Have I Ever, Westworld",
+          "lines": [
+            60,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't have amazon prime'.",
+          "value": "does not have Amazon Prime",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes practicing French, Dutch, and fishtail braids during quarantine.",
+          "value": "practices braiding hair (French, Dutch, fishtail)",
+          "lines": [
+            152,
+            153,
+            154,
+            160,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has never dyed her hair, confirming several times.",
+          "value": "does not dye her hair",
+          "lines": [
+            188,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've always gone to not like a salon but just like you know hair Cuttery or great clips kind of thing'.",
+          "value": "gets haircuts at Hair Cuttery or Great Clips",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her glasses are from 'Xeni' (Zenni), and her last three pairs were from there.",
+          "value": "buys glasses from Zenni Optical online",
+          "lines": [
+            202,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was in choir in high school and college.",
+          "value": "participated in choir in high school and college",
+          "lines": [
+            300,
+            301,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't' when asked if she plays an instrument.",
+          "value": "does not play a musical instrument",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she learned piano as a kid but wouldn't say she plays it.",
+          "value": "took piano lessons as a child, does not currently play",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a long-term substitute position teaching a second grade class for the first nine weeks of school.",
+          "value": "held a long-term substitute teaching position for a second grade class (first nine weeks)",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she got a face mask in 'Iptc bags', which is phonetically close to 'Ipsy bags', a beauty subscription service.",
+          "value": "likely receives Ipsy beauty bags",
+          "lines": [
+            128
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says her hair is normally cut above her shoulders, she is now growing it longer; she describes her natural color as 'like it brown'.",
+          "value": "naturally brown hair, usually above shoulders, currently growing out",
+          "lines": [
+            182,
+            183,
+            184,
+            186,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes her glasses as ombre style starting with darker red and going mostly clear at the bottom, from Zenni.",
+          "value": "wears ombre-style glasses (darker red to clear)",
+          "lines": [
+            222,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her head is small and she buys children's sunglasses to fit properly.",
+          "value": "small head, sometimes purchases children's sunglasses",
+          "lines": [
+            226,
+            227,
+            228
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her nails are long enough that people say it would affect guitar playing, though she considers them pretty short.",
+          "value": "moderately long nails",
+          "lines": [
+            280,
+            281,
+            282
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

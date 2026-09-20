@@ -1,0 +1,483 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'Iowa' (l11), describes area as suburban (l319), and states downtown Des Moines is 25 minutes away (l321).",
+          "value": "Lives in a suburban area near Des Moines, Iowa",
+          "lines": [
+            11,
+            319,
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists places they have lived: San Diego, Massachusetts, Florida, Texas, Canada, Cayman Islands, in addition to current Iowa. The list is clear despite the run‑on sentence.",
+          "value": "Previously lived in San Diego, California; Massachusetts; Florida; Texas; Canada; Cayman Islands",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b calls speaker_a 'man' (l54) and speaker_a refers to 'my wife' (l187), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            54,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I was born in san Diego' (l247).",
+          "value": "Born in San Diego, California",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they work in manufacturing, in a lab, making flexible packaging such as candy bags and baby wipes (l77, l79).",
+          "value": "Works in manufacturing (lab) making flexible packaging (candy bags, baby wipes)",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they have a Verizon unlimited plan costing about $200 per month and uses a Google Pixel phone (l289, l291, l297).",
+          "value": "Has Verizon unlimited plan (~$200/month) and a Google Pixel phone",
+          "lines": [
+            289,
+            291,
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions owning Amazon Fire sticks, Echoes, and Dots (l117).",
+          "value": "Owns Amazon Fire sticks, Echo, and Dot devices",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did Uber for a while' (l87).",
+          "value": "Previously worked as an Uber driver",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes building a dog door into the house and having a fenced yard (l337), implying homeownership or long‑term control.",
+          "value": "Likely owns a home with a fenced yard (built a dog door)",
+          "lines": [
+            337
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly says 'my wife' (e.g., l187, l225).",
+          "value": "Married",
+          "lines": [
+            187,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms having one child, a daughter aged 12, after speaker_b asks (l67, l69).",
+          "value": "Has one daughter, age 12",
+          "lines": [
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'two cats. 2 dogs and a cat'; speaker_b clarifies 'two dogs and a cat' and speaker_a agrees (l333-335).",
+          "value": "Has two dogs and one cat",
+          "lines": [
+            333,
+            334,
+            335
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'My wife can cook really well' (l225) but also that they prefer eating out (l229).",
+          "value": "Wife is a good cook, but they prefer eating out",
+          "lines": [
+            225,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they like horror movies and often fall asleep watching them (l175, l183).",
+          "value": "Enjoys horror movies, often falls asleep to them",
+          "lines": [
+            175,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they like Chinese food, don't like Panda Express, and have a good place across the street (l185, l189, l191).",
+          "value": "Favorite food is Chinese; dislikes Panda Express; has a good local Chinese restaurant nearby",
+          "lines": [
+            185,
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they watch American football and baseball, and do not watch soccer (l131, l133).",
+          "value": "Watches American football and baseball; does not watch soccer",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they wake at 5am on work days and stay up until midnight on days off (l345, l347).",
+          "value": "Wakes at 5am on work days; stays up late (midnight) on days off",
+          "lines": [
+            345,
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I can't cook' (l223).",
+          "value": "Cannot cook",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they usually tip pretty well (l105).",
+          "value": "Usually tips pretty well",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes daughter's hybrid schooling: three days in school, two days online (l143, l145).",
+          "value": "Daughter is in hybrid school (3 days in person, 2 days online)",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions visiting San Francisco (l45), Seattle (l57), and the Caribbean (l249); a cruise was canceled and rescheduled (l63, l65).",
+          "value": "Has traveled to San Francisco, Seattle, Caribbean; plans to take a cruise",
+          "lines": [
+            45,
+            57,
+            63,
+            65,
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from Silicon Valley (l10), has a home there (l128), works in a warehouse there (l164, l168), and describes the area's traffic (l326).",
+          "value": "Lives and works in Silicon Valley, California (likely San Jose area)",
+          "lines": [
+            10,
+            128,
+            164,
+            168,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his commute takes 35-45 minutes without traffic, one hour with traffic (l324).",
+          "value": "Commute to work is 35-45 minutes (no traffic) to one hour (with traffic)",
+          "lines": [
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states the only flight he took was from Vietnam to San Francisco (l254).",
+          "value": "Originally from Vietnam; immigrated via flight to San Francisco",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' and 'my son' (l72, l196), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            72,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b hails from Vietnam (l254) and mentions the Vietnamese community in his area (l128).",
+          "value": "Vietnamese ethnicity/nationality",
+          "lines": [
+            128,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has been in the US for 15 years (l134) and that his flight was 14 years ago (l260).",
+          "value": "Immigrated to the US approximately 15 years ago",
+          "lines": [
+            134,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has three kids: two girls and one boy (l70, l196).",
+          "value": "Father of three (two daughters, one son)",
+          "lines": [
+            70,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b outlines the timeline: five years for a green card, another five for citizenship (l272‑273), and notes he sponsored his wife (l274), confirming he is a US citizen.",
+          "value": "US citizen (acquired after 10 years: 5 years green card, 5 years citizenship)",
+          "lines": [
+            272,
+            273,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife's parents arrived a couple of months ago and live with them; he is doing paperwork to sponsor his wife's sister (l276, l278).",
+          "value": "Sponsoring sister-in-law for immigration; parents-in-law recently arrived and live with them",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains his brother in Vietnam is over 21 and married, making sponsorship difficult (l264‑268).",
+          "value": "Brother in Vietnam cannot easily immigrate due to age/marriage",
+          "lines": [
+            264,
+            266,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes his workplace: one guy dropping off UPS, it's a printing and mailing company, and he sits in the warehouse (l26, l30, l164). The phrase 'how see receiving' is taken as 'warehouse receiving'.",
+          "value": "Works in receiving at a printing and mailing company in Silicon Valley",
+          "lines": [
+            26,
+            30,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he did DoorDash (l84), does Uber Eats and previously Uber rides (l90, l108), and once made $450 in a day on Uber (l106).",
+          "value": "Does gig work: Uber Eats, DoorDash; did Uber rides in the past; made $450 in a single day once",
+          "lines": [
+            84,
+            90,
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he set up T-Mobile when his wife wanted an iPhone, now has four lines for $120/month (l296).",
+          "value": "Has T-Mobile family plan (4 lines, $120/month) likely with iPhones",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he wakes at 5:45-6am for his 7am shift (l350).",
+          "value": "Works 7am shift, wakes at approximately 5:45-6am",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his wife stays home caring for the kids (l72), cooks Vietnamese food, and doesn't like restaurant food (l212, l214, l216).",
+          "value": "Married; wife is a stay-at-home mom who cooks Vietnamese food and avoids American restaurants",
+          "lines": [
+            72,
+            212,
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives ages and genders: 12, 10, and 8, two girls one boy (l68‑70), says all three were born in the US (l282).",
+          "value": "Three children: daughters 12 and 10, son 8; all US-born",
+          "lines": [
+            68,
+            70,
+            196,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my father my parents here' (l262), indicating his parents are in the US.",
+          "value": "Parents reside in the United States",
+          "lines": [
+            262
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states his brother and relatives are still in Vietnam (l262).",
+          "value": "Brother and other relatives in Vietnam",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife's parents recently arrived and live with them, and he is sponsoring his wife's sister (l276, l278).",
+          "value": "In-laws (wife's parents) live with them; sponsoring sister-in-law",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he watched Chinese horror movies as a child and still finds them frightening (l178, l180).",
+          "value": "Watched Chinese horror movies as a child; still finds them scary",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he knows nothing about American sports but likes soccer (European football) (l132, l134).",
+          "value": "Dislikes/does not follow American sports; prefers soccer (European football)",
+          "lines": [
+            132,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his kids love In-N-Out burger (l124) and swimming (l54); his son only eats American food while daughters eat Vietnamese/Chinese (l196, l200).",
+          "value": "Kids prefer In-N-Out burger and swimming; son prefers American food, daughters prefer Vietnamese/Chinese",
+          "lines": [
+            124,
+            54,
+            196,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b details waking ~5:45am, starting work at 7am, and getting home around 8pm due to traffic; previously did Uber after work (l350, l352).",
+          "value": "Long commute routine: wakes ~5:45am, home around 8pm; used to do Uber after work",
+          "lines": [
+            350,
+            352
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his kids are doing online learning every day, staying home, and not learning much (l146, l148, l150).",
+          "value": "Children are fully online for school, home every day",
+          "lines": [
+            146,
+            148,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife cooks at home because she doesn't like restaurant food; he complains about rising restaurant costs (l212, l214, l216, l230).",
+          "value": "Family prefers home-cooked meals (wife's cooking) over restaurants due to taste and rising costs",
+          "lines": [
+            212,
+            214,
+            216,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has never been outside the US except the flight from Vietnam 14 years ago (l254, l260).",
+          "value": "Has not traveled internationally except the immigration flight from Vietnam",
+          "lines": [
+            254,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about T-Mobile promotions, switching carriers for deals, and knowing about discounts (l296, l306, l312).",
+          "value": "Knowledgeable about phone carrier promotions; uses T-Mobile discounts",
+          "lines": [
+            296,
+            306,
+            312
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

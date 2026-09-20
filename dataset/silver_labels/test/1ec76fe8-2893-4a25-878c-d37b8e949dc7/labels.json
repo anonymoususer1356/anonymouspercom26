@@ -1,0 +1,286 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm in Ohio' and later indicates not living in the northern part of the state.",
+          "value": "Ohio",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was born in California'.",
+          "value": "California (born)",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says they graduated college a few years back with a degree in engineering and computer science, and hasn't been inside a classroom in about 10 years, indicating they are a college graduate no longer in formal education.",
+          "value": "College graduate in engineering and computer science; left formal education about 10 years ago",
+          "lines": [
+            43,
+            59,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes having allergies (environmental and food), including mouth blistering from non-organic bananas, swollen hands and arms, and throat-closing sensations. They had allergy spot tests and are considering asking for an EpiPen.",
+          "value": "Has multiple allergies (environmental and food, including banana sensitivity); experiences swelling and throat-closing; considering EpiPen",
+          "lines": [
+            117,
+            131,
+            133,
+            157,
+            159,
+            161,
+            163,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm not asthmatic'.",
+          "value": "Not asthmatic",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my knees are not the best'.",
+          "value": "Knee problems",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I work in actually in uh, in software'.",
+          "value": "Works in software",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes Prolific as a side gig.",
+          "value": "Side gig: Prolific participant",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I graduated with all this debt that I'm still kind of paying off'.",
+          "value": "Has student loan debt",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I live with my family'.",
+          "value": "Lives with family",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my sister does did horseback riding'.",
+          "value": "Has a sister",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about their cousin who is pursuing nursing.",
+          "value": "Has a cousin",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to a friend whose mother has an avocado allergy.",
+          "value": "Has a friend",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a used to go to the gym but since it shut down they try to be healthy outdoors while keeping distance.",
+          "value": "Exercises outdoors/at home since gym closure; trying to stay healthy during pandemic",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm from up in michigan', confirms living there, and describes living near sand dunes (not Sleeping Bear) and dirt trails.",
+          "value": "Michigan, near sand dunes (not Sleeping Bear Dunes)",
+          "lines": [
+            34,
+            66,
+            224,
+            228,
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also midwestern'.",
+          "value": "Midwesterner",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'in school for nursing'.",
+          "value": "Nursing student",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm a certified horseback riding instructor'.",
+          "value": "Certified horseback riding instructor",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they were in college right after high school and now views other freshmen as children, indicating they are an older non-traditional student.",
+          "value": "Non-traditional older college student",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b mentions 'relatively mild environmental allergies' and describes a mild avocado allergy causing scratchy throat and potential closing with frequent consumption.",
+          "value": "Mild allergies (environmental and avocado)",
+          "lines": [
+            122,
+            144,
+            146,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states they are a certified horseback riding instructor, currently shut down.",
+          "value": "Certified horseback riding instructor (currently shut down)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are in school for nursing.",
+          "value": "Nursing student",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b calls Prolific a side gig and says it has become more relied upon as other work dried up.",
+          "value": "Prolific participant (side gig, currently relied upon more)",
+          "lines": [
+            34,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions a sister who lived in California and has severe allergies, indicating at least one sister.",
+          "value": "Has at least one sister",
+          "lines": [
+            36,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my farmer friends' told them about organic produce.",
+          "value": "Has farmer friends",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they have 'quite a few health care people in my family, including like five are ends'.",
+          "value": "Family includes several RNs (five mentioned)",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they work out from home, bike with their dog, hike on dirt trails to dunes, and prefer low-impact exercise to save knees.",
+          "value": "Outdoor exercise: biking with dog, hiking on dirt trails and dunes; prefers low impact",
+          "lines": [
+            194,
+            214,
+            224,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions biking with their dog.",
+          "value": "Has a dog",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

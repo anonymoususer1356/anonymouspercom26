@@ -1,0 +1,501 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states they are in Indiana when asked, and later refers to living in Indiana (cheapest place, 6.7 million people).",
+          "value": "Indiana",
+          "lines": [
+            37,
+            165,
+            167,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions going home to Virginia, and his father worked at nuclear power plants, suggesting Virginia is his home state or origin.",
+          "value": "Virginia (home state)",
+          "lines": [
+            191,
+            187
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm a veteran' and later elaborates 18 years in the Army, petroleum operations.",
+          "value": "U.S. Army veteran (served 18 years, petroleum operations specialist)",
+          "lines": [
+            71,
+            113,
+            115,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I am of hispanic origin bilingual', later specifies father from Mexico, mother of Venezuelan descent.",
+          "value": "Hispanic origin (bilingual; father from Mexico, mother of Venezuelan descent)",
+          "lines": [
+            73,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to himself as a 'single guy', and speaker_b says 'you don't sound like the guy', indicating male.",
+          "value": "male",
+          "lines": [
+            287,
+            290
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm only 36', confirmed by speaker_b.",
+          "value": "36 years old",
+          "lines": [
+            121,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he has two bachelor's degrees.",
+          "value": "holds two bachelor's degrees",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'third generation american, I'm the first one to ever graduate'.",
+          "value": "third-generation American",
+          "lines": [
+            299
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes himself as middle class in terms of income, homeownership, parent.",
+          "value": "middle class",
+          "lines": [
+            85
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In an initial monologue, speaker_a discusses a ring laser gyroscope experiment to prove no earth rotation, saying 'we' and 'the community', implying membership in a flat/stationary earth group.",
+          "value": "member of a community investigating earth's rotation (flat/stationary earth belief)",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says he was down with dry cough, tight chest, and believes he had COVID; 'I'm pretty sure I'm rocking the antibodies'.",
+          "value": "likely had COVID-19 (self-suspected, not tested)",
+          "lines": [
+            253,
+            255,
+            261
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "speaker_a says he is immune to typhoid, malaria, anthrax due to Army vaccinations.",
+          "value": "immunized against typhoid, malaria, anthrax",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm a homeowner' and mentions mortgage, house cleaning.",
+          "value": "homeowner",
+          "lines": [
+            81,
+            169,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his mortgage is $690 a month.",
+          "value": "monthly mortgage $690",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions making $200 on Prolific in three months and $800 on Swagbucks since October.",
+          "value": "earns money from online survey sites (Prolific, Swagbucks)",
+          "lines": [
+            23,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In monologue, speaker_a talks about work tomorrow: baseboards, pressure washing, giving a quote, using 'my truck', implying he does contracting/handyman work.",
+          "value": "works in contracting/handyman services (baseboards, pressure washing, quoting jobs)",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'my truck' in the same monologue.",
+          "value": "owns a truck",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he does about a dozen people's taxes a year.",
+          "value": "prepares tax returns for others annually",
+          "lines": [
+            317
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes himself as cheap/frugal, uses Swagbucks rewards for Amazon gifts rather than spending money.",
+          "value": "frugal; uses survey rewards to buy gift items",
+          "lines": [
+            55,
+            331,
+            335
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says he is a parent with a daughter, half the time; later mentions daughter is 4 years old.",
+          "value": "has a 4-year-old daughter, shares custody half time",
+          "lines": [
+            81,
+            285,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a calls himself a 'single guy' and no partner mentioned.",
+          "value": "single",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says his father worked at nuclear power plants, like Homer Simpson.",
+          "value": "father worked at nuclear power plants",
+          "lines": [
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to his mother's side as Venezuelan.",
+          "value": "mother",
+          "lines": [
+            301
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a mentions his sister also graduated college.",
+          "value": "sister",
+          "lines": [
+            299
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about an army buddy who is Muslim, married with two kids.",
+          "value": "has an army buddy",
+          "lines": [
+            103
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a does surveys while watching TV, keeps survey tabs open when home.",
+          "value": "does online surveys while watching TV at home",
+          "lines": [
+            59,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he hangs out at a pub a few nights a week.",
+          "value": "frequents a pub a few nights a week",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says his house is 'like a museum', no dishes in sink, everything organized.",
+          "value": "maintains a very clean and organized home",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a has a ghost Facebook account only for Marketplace to find deals.",
+          "value": "uses Facebook Marketplace for finding deals",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he wears a mask and practices good hygiene.",
+          "value": "wears mask and practices hygiene",
+          "lines": [
+            261
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says flying is a bucket list item for him, expressing envy and interest.",
+          "value": "interested in learning to fly (bucket list)",
+          "lines": [
+            131,
+            159
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself: 'I'm Hannah'. ASR transcribed 'hen I'm Hannah nice to meet shop', intended 'Hi, I'm Hannah, nice to meet you'. Later speaker_a addresses her as Hannah.",
+          "value": "Hannah",
+          "lines": [
+            50,
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in Oregon, and about to graduate from University of Oregon. Also mentions Oregon's full-service gas stations.",
+          "value": "Oregon",
+          "lines": [
+            34,
+            126,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up in Orange County, California.",
+          "value": "Orange County, California (grew up)",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b has name Hannah, mentions a boyfriend, and uses female-gendered terms when talking about roommate ('she'), so presumed female.",
+          "value": "female",
+          "lines": [
+            50,
+            250
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm almost 23' in response to speaker_a guessing 22-24. ASR garbled 'almost 20 I'm almost 23', best reading is almost 23.",
+          "value": "almost 23 years old",
+          "lines": [
+            146,
+            145
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says she is about to graduate from University of Oregon in about five weeks.",
+          "value": "college student about to graduate from University of Oregon",
+          "lines": [
+            124,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm a commercial pilot' and later confirms she got certified but lacks a job due to pandemic.",
+          "value": "commercial pilot",
+          "lines": [
+            128,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I was a germophobe before all this hit', describing extreme aversion to germs.",
+          "value": "germophobe (self-described)",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she thinks she already had COVID-19 because she got sick with a bad cold around the time her boyfriend had 'covid toes' and symptoms.",
+          "value": "likely had COVID-19 (self-suspected, not tested)",
+          "lines": [
+            250,
+            252,
+            260
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_b holds a commercial pilot certificate, which is a legal license.",
+          "value": "holds commercial pilot certification",
+          "lines": [
+            128,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is not struggling for monetary reasons and is in a comfortable position.",
+          "value": "financially comfortable",
+          "lines": [
+            132,
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions doing Prolific surveys for 'coffee money'.",
+          "value": "earns extra money from Prolific surveys",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she got certified as a commercial pilot but the pandemic hit and she doesn't have a job yet as a pilot.",
+          "value": "currently unemployed as a pilot (recently certified)",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her boyfriend got covid toes and she got sick at the same time.",
+          "value": "has a boyfriend",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has kittens that like to destroy stuff and chase each other.",
+          "value": "has kittens",
+          "lines": [
+            44,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a former college roommate as a disaster.",
+          "value": "had a college roommate",
+          "lines": [
+            288
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states fitness is really important, she eats healthy, and is a 'health food' person.",
+          "value": "health and fitness conscious; eats healthy",
+          "lines": [
+            292
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she makes her bed every morning and everything has a place.",
+          "value": "organized; makes bed daily",
+          "lines": [
+            288
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she doesn't text people back and isn't really a social media person, on the cusp of that generation.",
+          "value": "limited social media use; doesn't text back promptly",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions being busy with flying and finishing school, leaving no time for other things.",
+          "value": "busy with flying and school",
+          "lines": [
+            150
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b, as a germophobe, avoids touching gas nozzles, already washed hands and used sanitizer before pandemic.",
+          "value": "germophobic hygiene practices (avoids touching public surfaces, hand washing, sanitizer)",
+          "lines": [
+            268,
+            276
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b does Prolific surveys for extra money, describing it as coffee money.",
+          "value": "does online surveys for extra money",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

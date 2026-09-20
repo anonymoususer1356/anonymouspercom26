@@ -1,0 +1,294 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself; ASR 'And it' in line 23 is phonetically close to 'Andy'. Speaker_b addresses him as Andy in lines 24 and 62.",
+          "value": "Andy",
+          "lines": [
+            23,
+            24,
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where he is from, speaker_a answers 'Ohio' (line 27). He says 'I grew up here' (line 51). Line 45 'I live where I carry the african area' is likely ASR error for 'I live in the rural area', consistent with corn-field context (line 52).",
+          "value": "Ohio (rural)",
+          "lines": [
+            27,
+            45,
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states his oldest child is 24 (line 61) and that he started having children at 17 (line 63). 17+24 ≈ 41 years old.",
+          "value": "about 41 years old",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he wants a blue (Democratic) house (lines 396-399) and heavily criticizes Republicans (lines 329-335), indicating liberal/Democratic political leaning.",
+          "value": "liberal/Democrat",
+          "lines": [
+            329,
+            396,
+            399
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b calls him 'man' (line 436) and the name Andy is conventionally male.",
+          "value": "male",
+          "lines": [
+            24,
+            436
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states he works at a hospital (line 95) in drug and alcohol (line 97), works midnights (line 101), does assessments and room searches, not much counseling (lines 137-143).",
+          "value": "employed at a hospital drug and alcohol detox unit, midnight shift",
+          "lines": [
+            95,
+            97,
+            101,
+            137,
+            139,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a lists three children: a 24-year-old, a 21-year-old, and a 15-year-old (line 61). The phrase 'my three year old' is likely ASR error for 'my three kids' or 'my oldest'.",
+          "value": "has three children, ages 24, 21, and 15",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'Not married, though.'",
+          "value": "not married",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my dad' (line 195).",
+          "value": "has a father",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'we have a dog' (line 75); later speaker_b mentions pit bulls and speaker_a responds 'he's all right' (lines 83-84), suggesting his dog is a pit bull.",
+          "value": "owns a dog, likely a pit bull",
+          "lines": [
+            75,
+            83,
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he does not carry a gun (line 343).",
+          "value": "does not carry a gun",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he and his buddies get together for football on Sundays (lines 387, 389).",
+          "value": "watches football with friends on Sundays",
+          "lines": [
+            387,
+            389
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b tells speaker_a 'you do not look old enough to have a 24 year old' (line 62).",
+          "value": "looks younger than his age",
+          "lines": [
+            62
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself with 'I'm erin' (line 22). ASR gives 'erin', intended as the name Erin.",
+          "value": "Erin",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b mentions Michigan (line 52); when asked where in Michigan, says 'not too far off from Flint, about half an hour away' (line 54). She says she lives in a conservative county (line 192) and 'out in the country' with coyotes (line 304).",
+          "value": "rural area about 30 minutes from Flint, Michigan, conservative county",
+          "lines": [
+            52,
+            53,
+            54,
+            192,
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she lived in Ohio for a little bit, in Findlay and Bluffton (line 36, ASR 'Finley and bluffed').",
+          "value": "previously lived in Findlay and Bluffton, Ohio",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b explicitly says 'I'm real lefty ... probably on the liberal side' (line 302).",
+          "value": "liberal/lefty",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says her guns 'are not registered' and are old rifles passed down in the family (lines 306, 308).",
+          "value": "owns unregistered firearms (old rifles)",
+          "lines": [
+            306,
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she does caregiving for elderly people and for her niece/nephew (line 90).",
+          "value": "works as caregiver for elderly and for niece/nephew",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I worked at a homeless shelter once' (line 174).",
+          "value": "previously worked at a homeless shelter",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my sister' repeatedly (lines 68, 222, 226, 384).",
+          "value": "has a sister",
+          "lines": [
+            68,
+            222,
+            226,
+            384
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'My nephews 18' (line 66).",
+          "value": "has a nephew, age 18",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my nieces six' (line 66).",
+          "value": "has a niece, age 6",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My friend Tony worked at one' (referring to a detox, line 146).",
+          "value": "has a friend named Tony who worked at a detox",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she has a dog named Bud (line 78) and ended up with a poodle (line 82).",
+          "value": "owns a poodle named Bud",
+          "lines": [
+            78,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does some gardening (line 92).",
+          "value": "gardens",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions rolling a joint (line 40-41) and supports California sober (line 100).",
+          "value": "uses cannabis (smokes marijuana)",
+          "lines": [
+            40,
+            41,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has guns for protection against coyotes (line 304) and earlier states she does have guns (line 302).",
+          "value": "owns firearms for protection",
+          "lines": [
+            302,
+            304
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

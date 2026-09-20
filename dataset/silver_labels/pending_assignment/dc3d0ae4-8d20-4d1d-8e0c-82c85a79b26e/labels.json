@@ -1,0 +1,524 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'Me too?' after speaker_b mentions Eastern time zone, weakly implying they are also Eastern.",
+          "value": "Likely in Eastern Time Zone",
+          "lines": [
+            10,
+            11,
+            12
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'new Hampshire which is pretty local to me', indicating they live near New Hampshire.",
+          "value": "Lives near New Hampshire",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'either the East Coast were from', the phrase 'were from' likely meaning 'where I'm from', establishing origin.",
+          "value": "Originally from the East Coast",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I started in Nebraska' referring to college, and then 'I transferred to a school out in California'.",
+          "value": "Started college in Nebraska",
+          "lines": [
+            121,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I transferred to a school out in California'.",
+          "value": "Transferred to a school in California",
+          "lines": [
+            121,
+            122,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a boarding school in Oregon.",
+          "value": "Attended boarding school in Oregon",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a boarding school in Vermont.",
+          "value": "Attended boarding school in Vermont",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've been to 48 states'.",
+          "value": "Visited 48 US states",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we've been to like europe and china and japan'.",
+          "value": "Visited Europe",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Same line explicitly includes China.",
+          "value": "Visited China",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Same line explicitly includes Japan.",
+          "value": "Visited Japan",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'Germany was probably my favorite place to go'.",
+          "value": "Germany is favorite international place",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists Dallas, Santa Fe, Chicago as places they would revisit, indicating they have been and enjoyed them.",
+          "value": "Favorite US cities: Dallas, Santa Fe, Chicago",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly says 'I'm a student'.",
+          "value": "Student",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm a biochem major'.",
+          "value": "Biochemistry major",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm pre med'.",
+          "value": "Pre-med",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I worked like part time online', indicating part-time remote work.",
+          "value": "Works part-time online",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions working part-time online alongside studies.",
+          "value": "Has part-time online job",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'my family like we travel a lot', implying a close family that frequently travels together.",
+          "value": "Family travels frequently",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes snowboarding in terrain parks, doing jumps and rails, and being a 'trick border'.",
+          "value": "Snowboarder who enjoys terrain parks and tricks",
+          "lines": [
+            33,
+            34,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has visited 48 states and multiple countries, indicating extensive travel.",
+          "value": "Frequent traveler",
+          "lines": [
+            139,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses preference for LA over NYC because LA is more spread out.",
+          "value": "Prefers Los Angeles over New York City",
+          "lines": [
+            201,
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaks fondly of Germany, its small-town feel, Christmas atmosphere, and local charm.",
+          "value": "Enjoys visiting Germany for its cozy, small-town feel",
+          "lines": [
+            171,
+            177,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly states 'I'm an Eastern time zone'.",
+          "value": "Lives in Eastern Time Zone",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live in the midwest'.",
+          "value": "Lives in the Midwest",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes town population as 'like 30,000 something'.",
+          "value": "Lives in a town of about 30,000 people",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live relatively near to Chicago. It's a few hour drive.'",
+          "value": "Lives a few hours from Chicago",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States international travel has been limited to Canada.",
+          "value": "Has visited Canada",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions flying to California.",
+          "value": "Has visited California",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a flight to Texas.",
+          "value": "Has visited Texas",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I spent a brief time in Montana'.",
+          "value": "Lived briefly in Montana",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having family in the south and visiting Florida a couple of times.",
+          "value": "Has visited Florida",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm a horseback riding instructor' in past context, and later was furloughed/laid off.",
+          "value": "Former horseback riding instructor",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is back in school for nursing with the intention of finishing with a nursing doctor.",
+          "value": "Nursing student, aiming for doctorate",
+          "lines": [
+            98,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions originally wanting to go into orthodontics.",
+          "value": "Previously interested in orthodontics",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Self-describes as 'not a good flyer'.",
+          "value": "Not a good flyer",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists preferred activities: yoga, horseback riding, cross country skiing.",
+          "value": "Enjoys low‑impact outdoor activities (yoga, horseback riding, cross‑country skiing)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'my injury was a back injury', which caused withdrawal from college.",
+          "value": "Has a back injury",
+          "lines": [
+            98,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Admits 'my hand, eye coordination is not the greatest'.",
+          "value": "Poor hand‑eye coordination",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Discusses taking extra Dramamine or knocking herself out for flights.",
+          "value": "Uses Dramamine for airsickness",
+          "lines": [
+            152
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Explains she was furloughed and then officially laid off from her riding instructor job due to COVID.",
+          "value": "Furloughed and laid off from horseback riding instructor job due to COVID",
+          "lines": [
+            50,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've been job hunting for a while'.",
+          "value": "Currently job hunting",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Is a nursing student, which typically implies limited income.",
+          "value": "Student with limited income",
+          "lines": [
+            98,
+            99
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'My oldest brother snowboards and is pretty good at it'.",
+          "value": "Has an older brother who snowboards",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about sister who went to grad school in California and was part of a touring mini symphony that travelled the world.",
+          "value": "Has a sister who was in a touring symphony and attended grad school in California",
+          "lines": [
+            128,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my dad ... went to school in Chicago', and he knows local Chicago things.",
+          "value": "Father attended school in Chicago",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions father's extended family in the Netherlands, Germany, Australia, and that his parents immigrated from the Netherlands.",
+          "value": "Has extended family in the Netherlands and Germany; paternal grandparents immigrated from the Netherlands",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about a cousin who is also a good friend and served in the Peace Corps in China.",
+          "value": "Has a cousin who served in the Peace Corps in China",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'one of my good friends is a high level chemistry professor'.",
+          "value": "Has a friend who is a chemistry professor",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'one of my friends just finished her ... PhD in biochem'.",
+          "value": "Has a friend who recently earned a PhD in biochemistry",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'yesterday went on uh hike with a bunch of friends'.",
+          "value": "Has a group of friends to hike with",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Enjoys day hikes but says 'I'm not a backpacker type ... I appreciate plumbing in wifi'.",
+          "value": "Enjoys day hikes and modern comforts, not backcountry camping",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists preferred activities explicitly.",
+          "value": "Participates in yoga, horseback riding, cross‑country skiing",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts Montana as too remote: 'I'd never want to live here' and describes extremely limited amenities.",
+          "value": "Prefers not to live in very remote areas",
+          "lines": [
+            130,
+            132,
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says family takes trips to Chicago regularly and father drives.",
+          "value": "Regularly visits Chicago with family",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses desire to visit the Pacific Northwest for hiking.",
+          "value": "Wants to visit the Pacific Northwest",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uncertain about living in a very big city, but likes the idea of walking/biking everywhere.",
+          "value": "Ambivalent about big‑city living",
+          "lines": [
+            198,
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about loving architecture and the historical feel of places like Germany.",
+          "value": "Enjoys architecture and cultural sites when traveling",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

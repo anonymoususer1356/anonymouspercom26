@@ -1,0 +1,311 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Chicago' (line 39) and 'I live in Chicago' (line 149). Also provides details about Chicago's reopening phases and local landmarks (lines 187-199).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            39,
+            149,
+            187,
+            189,
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I teach 2nd grade, mostly english as a second language' (line 95). Additional context confirms this is her current occupation and student age group.",
+          "value": "2nd grade teacher, mostly English as a Second Language",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she lived outside the United States for an extended period (line 153), discusses hiring of 'U.S. citizens' for an online platform in a way that includes herself (line 251), and implies an American accent for teaching English (line 395), strongly suggesting she is a US citizen or native English speaker.",
+          "value": "US citizen / native English speaker",
+          "lines": [
+            153,
+            251,
+            395
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'My sleep schedules in order off to definitely, I'm not a morning person' (line 117) and describes her previous 5 a.m. wake-up habit shifting back to her 'natural' self (line 119). This indicates a disrupted sleep pattern.",
+          "value": "disrupted sleep schedule, not a morning person",
+          "lines": [
+            117,
+            119
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm still employed which is really lucky... I'm teaching from home' (line 27) and confirms she teaches 2nd grade (line 95). This establishes her primary employment.",
+          "value": "employed as a 2nd grade teacher (working from home)",
+          "lines": [
+            27,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'it was 100 bucks for an hour and a half' about a focus group she attended (line 327), indicating a specific one-time earning.",
+          "value": "earned $100 from a focus group (one-time)",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a states 'My boyfriend and I are both here all the time' (line 295).",
+          "value": "has a boyfriend",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I need my dog Molina' and describes her name (lines 287, 289).",
+          "value": "has a dog named Molina",
+          "lines": [
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my one of my sisters, her job lets her work from home' (line 157) and 'the other one works in like tv production' (line 159). Later, 'She's been out of a job this whole time... The shoes had a hard time um, and recycling and being a wedding photographers' (lines 161-166) likely refers to the same sister also being a wedding photographer. Therefore she has at least two sisters with those occupations.",
+          "value": "has at least two sisters: one works from home, the other works in TV production and is also a wedding photographer",
+          "lines": [
+            157,
+            159,
+            161,
+            165
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'my aunt in Seattle' (line 149).",
+          "value": "has an aunt in Seattle",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to 'my like sisters and my parents' (line 155), indicating she has parents.",
+          "value": "has parents (mother and father)",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes using Google Meet and Chromebooks to teach her students (lines 97, 99, 101).",
+          "value": "teaches students online via Google Meet and Chromebooks",
+          "lines": [
+            97,
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The statement 'My boyfriend and I are both here all the time' (line 295) implies they live together.",
+          "value": "lives with boyfriend",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've lived out of the United States for a lot of time' (line 153).",
+          "value": "has lived outside the United States for an extended period",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions doing online surveys similar to speaker_b (line 27), participating in a focus group (line 309), and using Prolific (line 332).",
+          "value": "engages in online surveys and focus groups for extra income",
+          "lines": [
+            27,
+            309,
+            332
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "she says 'I usually teach that a summer camp and that's obviously not happening' (line 263).",
+          "value": "normally teaches summer camp (but not this year)",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'In saginaw texas mm that's DFW' (line 36) and clarifies 'Dallas fort worth' (line 38).",
+          "value": "Saginaw, Texas (Dallas-Fort Worth area)",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_b reports being exhausted and sleeping poorly after late coffee (line 40), normally waking at noon for a 2pm shift (line 120), and during April waking at 9pm (line 124). These indicate chronic sleep disruption and a tendency toward a nocturnal schedule.",
+          "value": "disrupted sleep schedule, often stays up late/nocturnal",
+          "lines": [
+            40,
+            120,
+            124
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I was a merchandiser for jive' (line 18) and describes the role (lines 21-24).",
+          "value": "formerly employed as a merchandiser for Jive",
+          "lines": [
+            18,
+            21,
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm out of work so taking surveys online' (line 14) and 'I'm getting about like $5 every week' (line 26).",
+          "value": "currently unemployed, earning ~$5/week from online surveys",
+          "lines": [
+            14,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'textbook er finally got back to me' (Textbroker) (line 60), says they pay 'about 2.8 cents a word' (line 62), and that writing 1500 words a day would yield about $1000 a month (lines 228-231).",
+          "value": "freelance writer for Textbroker, earning ~2.8 cents/word, aiming for ~$1000/month",
+          "lines": [
+            60,
+            62,
+            228,
+            230,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes two current Appen projects: 'review ads on Instagram' and 'do you think web page to a certain podcast' (lines 74-76). Appen is consistently transcribed as 'happen', but the context matches Appen.",
+          "value": "works for Appen on ad review and podcast relevance tasks",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b confirms she is signed up for User Testing but has not received any tasks (lines 366, 368).",
+          "value": "signed up for User Testing (no work yet)",
+          "lines": [
+            366,
+            368
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'My husband was here for a while and you know, I left my back down to Kansas city' (line 136) and speaker_a asks 'is that where he's from?' speaker_b: 'So yeah' (line 138). This establishes she is married and her husband is from Kansas City.",
+          "value": "married, husband is from Kansas City",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom and my sister, they're both nurses' (line 140).",
+          "value": "mother is a nurse",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "same line establishes one sister is a nurse (line 140).",
+          "value": "has a sister who is a nurse",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My other sister was a hairdresser and so she was out of work' (line 142).",
+          "value": "has another sister who is a hairdresser (currently out of work)",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My cats super happy that I'm stuck here' (line 220) and confirms a cat sound in the background (line 278).",
+          "value": "has a cat",
+          "lines": [
+            220,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she talks to mom and sister on the phone, and mentions husband returned to Kansas City (line 136); together with 'My cats super happy that I'm stuck here' (line 220) suggests she lives alone with the cat.",
+          "value": "lives alone (with cat), husband currently in Kansas City",
+          "lines": [
+            136,
+            220
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've just been watching tons of Youtube videos on just work from home stuff and lots of google searches' (line 350).",
+          "value": "spends time watching work-from-home YouTube videos and searching for online work",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

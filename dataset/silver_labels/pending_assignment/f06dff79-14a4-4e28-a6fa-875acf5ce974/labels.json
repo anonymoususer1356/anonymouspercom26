@@ -1,0 +1,580 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b asks 'Are you central time as well or?' and speaker_a confirms 'Well yeah central time.'",
+          "value": "Central time zone",
+          "lines": [
+            8,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b asks 'are you in texas or you said your central time Illinois?' speaker_a replies 'Yeah central time nope Illinois.'",
+          "value": "Illinois",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm in southern Illinois closer to ST louis'.",
+          "value": "Southern Illinois, near St. Louis",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly refers to 'my husband', indicating she is a woman.",
+          "value": "female",
+          "lines": [
+            49,
+            63,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my son' many times.",
+          "value": "mother of a son",
+          "lines": [
+            15,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has been with husband for 16 years and son is almost 8, suggesting she is likely in her 30s to 40s.",
+          "value": "likely in her 30s-40s",
+          "lines": [
+            155,
+            61
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I'm very much an introvert'.",
+          "value": "introvert",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her area as 'a little more rural'.",
+          "value": "lives in a rural area",
+          "lines": [
+            181
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'normally I'm a freelance writer'.",
+          "value": "freelance writer",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Specifies 'I do copyrighting. So marketing websites for Sures, flyers, sales pages' (ASR 'copyrighting' is copywriting; 'Sures' unclear but context implies marketing materials).",
+          "value": "copywriter (marketing websites, flyers, sales pages)",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm a freelancer and a lot of my stuff is kind of dried up'.",
+          "value": "work has decreased during pandemic",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked 'you've been using a prolific too for a while then', she confirms 'Yeah, I think so.' (Prolific is the platform for this study).",
+          "value": "user of Prolific platform",
+          "lines": [
+            64,
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'I used to work for them when I was like the 80th person hired at the company' referring to Varsity Tutors.",
+          "value": "former employee at Varsity Tutors (early hire, ~80th)",
+          "lines": [
+            129
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I've actually always worked from home'.",
+          "value": "works from home",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm super cheap'.",
+          "value": "self-described cheap / frugal",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions 'my husband'.",
+          "value": "married to husband",
+          "lines": [
+            49,
+            63,
+            75,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'today my husband and I've been together 16 years'.",
+          "value": "in relationship with husband for 16 years",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my husband actually started out thinking about going to pharmacy school... now he's in banking and risk management'.",
+          "value": "husband works in banking and risk management",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my son' throughout.",
+          "value": "has a son",
+          "lines": [
+            15,
+            61,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes son as 'poor, extremely extroverted almost eight year old'.",
+          "value": "son is almost 8 years old",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my son has wild A. D. D.' (ASR for ADHD).",
+          "value": "son has ADHD",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'my son is an only child'.",
+          "value": "son is an only child",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we've always homeschooled since he was you know like his whole life'.",
+          "value": "son is homeschooled",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we've got one set of grandparents one mile this way and one set one mile that way'.",
+          "value": "two sets of grandparents live about 1 mile away in opposite directions",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a lot of family in Austin'.",
+          "value": "has family in Austin, TX",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I've got family in Virginia'.",
+          "value": "has family in Virginia",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my brother lives in Denver'.",
+          "value": "brother lives in Denver, CO",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my cousin went to ut actually, no, he went to A and M I think' (UT or Texas A&M).",
+          "value": "cousin attended UT Austin or Texas A&M",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I have a friend um who like our kids are friends... she's on like long term chemo and stuff like that'.",
+          "value": "has a friend undergoing long-term chemotherapy",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I had a friend recently who's um grandfather died... because of all the lockdowns... his wife couldn't get to see him... no one can have a funeral'.",
+          "value": "friend's grandfather died during lockdown, funeral restricted",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'my friend was like kind of got me and was like the 35th person I heard or whatever' referencing her job at Varsity Tutors.",
+          "value": "friend referred her to job at Varsity Tutors",
+          "lines": [
+            129
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Claims 'I'm a big, big reader' and 'I have over 2000 books in this house'.",
+          "value": "avid reader with personal library of over 2000 books",
+          "lines": [
+            99,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Enjoys video games, mentions having Steam open, buying from Humble Bundle, and liking platformers, puzzle, strategy, RPGs.",
+          "value": "plays video games on Steam (platformers, RPGs, strategy)",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about playing Jackbox party games with friends via Zoom.",
+          "value": "plays Jackbox games over Zoom with friends and family",
+          "lines": [
+            113,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I watched the new amazon upload' (referring to the series Upload on Amazon Prime).",
+          "value": "watched Amazon Prime series 'Upload'",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes annual trips to Great Smoky Mountains for hiking, starting with first anniversary.",
+          "value": "used to vacation/hike in Great Smoky Mountains annually",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm a big natural history buff' and mentions owning a trilobite fossil.",
+          "value": "natural history enthusiast, owns a trilobite fossil",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we moved which is terrible... we moved right at the beginning of this... only moved like a mile away'.",
+          "value": "moved to a new house during the pandemic (about 1 mile away)",
+          "lines": [
+            21,
+            57,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes moving internet service, AT&T truck hitting pole, knocking out 75 cell towers, losing all connectivity for a day and a half.",
+          "value": "experienced major internet and cell outage due to AT&T incident during move",
+          "lines": [
+            245
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes homeschooling son, participating in co-ops, classes at zoo, archery, ninja classes, etc.",
+          "value": "participates in local homeschool groups and activities",
+          "lines": [
+            219,
+            221,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've used to zoom for work before for years' and describes team meetings over Zoom after switching from Skype.",
+          "value": "uses Zoom for remote work meetings",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions starting out on Skype before switching to Zoom.",
+          "value": "previously used Skype for work",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'moved to a place that has a much bigger house and we have a huge yard now'.",
+          "value": "now lives in a bigger house with a large yard",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions son took ninja class.",
+          "value": "son was enrolled in ninja class",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Confirms 'Yeah, I'm in texas'.",
+          "value": "Texas",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms it's 9:45 for him, and asks speaker_a if she is central time too, implying he is central.",
+          "value": "Central time zone",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I go to school and awesome' which is ASR for 'in Austin'. Also context of UT Austin.",
+          "value": "attends school in Austin, TX",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I was kind of intimidating because I'm from the suburbs' referring to moving to Austin.",
+          "value": "from the suburbs",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my mom is a I came back home from often' (ASR 'Austin'), indicating he came back to his mom's house.",
+          "value": "currently staying at mother's house",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions Ebola in Dallas as a remembered event, and line 34 'I'm actually telling us so yeah' might be misrecognition of 'I'm actually in Dallas so yeah'.",
+          "value": "likely from Dallas area (suburbs)",
+          "lines": [
+            208,
+            34
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He attends UT Austin (University of Texas).",
+          "value": "university student (UT Austin)",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'before biology actually' (ASR likely 'I'm majoring in biology actually'); discusses pre-med and healthcare options.",
+          "value": "biology major",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Typical college student, mentions mom and spring break, suggesting early 20s.",
+          "value": "likely in his early 20s",
+          "lines": [
+            34,
+            80,
+            230
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I'm really glad I brought back some contacts, especially my glasses' and 'I can't drive back to Austin' without them.",
+          "value": "wears correctives lenses (glasses and contacts)",
+          "lines": [
+            90,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my mom', and indicates he is living with her.",
+          "value": "has a mother (lives with her)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my grandparents are like all the way in Malaysia which is like halfway across the world'.",
+          "value": "grandparents live in Malaysia",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Enjoys fossil hunting; found a partial dinosaur and a sea urchin fossil that could be a new species named after him.",
+          "value": "fossil hunting enthusiast (found partial dinosaur, possible new sea urchin species)",
+          "lines": [
+            158,
+            160,
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates love for nature and hiking.",
+          "value": "enjoys hiking",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I literally just got steam because I want to play CS go with my friend'.",
+          "value": "plays CS:GO on Steam",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I absolutely love Jack Box' (Jackbox games).",
+          "value": "loves Jackbox games",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'did you ever read a series like anamorphic?' (ASR for Animorphs) and implies he used to read it.",
+          "value": "used to read Animorphs series",
+          "lines": [
+            262
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'Clive Cussler if you know, he's more like a venture' and describes Dirk Pitt series.",
+          "value": "reads Clive Cussler adventure novels",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about not waking up for lectures, and university talking about staying online next semester.",
+          "value": "taking online college classes due to pandemic",
+          "lines": [
+            234,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Came home from Austin for spring break and stayed; needs to go back to get belongings.",
+          "value": "living with mother during pandemic (left belongings in Austin)",
+          "lines": [
+            80,
+            82,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

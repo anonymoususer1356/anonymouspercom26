@@ -1,0 +1,489 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his first name is jim when asked by speaker_b.",
+          "value": "jim",
+          "lines": [
+            11,
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he is in California (line 15), specifically in Santa Barbara County (line 115), central coast (lines 115-121), and later states he lives in a town called Santa Maria (line 243).",
+          "value": "Santa Maria, California",
+          "lines": [
+            15,
+            115,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains he does not live near Montecito but works kind of near it (line 127).",
+          "value": "works near Montecito, California",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'We're about eight miles from the ocean' (line 249).",
+          "value": "lives about 8 miles from the Pacific Ocean",
+          "lines": [
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I have six kids' (line 259).",
+          "value": "parent of six children",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states his oldest daughter has two grandkids (line 269: 'my side of two grandkids' is a garbled form of 'a set of two grandkids' or 'my two grandkids').",
+          "value": "grandparent",
+          "lines": [
+            269
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work from home' and mentions talking to his boss on a video call on his work computer (lines 89-91).",
+          "value": "employed, works from home",
+          "lines": [
+            89,
+            90,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he has been doing Prolific studies for about a year, completed 621 studies and earned about £620 (lines 75-79).",
+          "value": "earned about £620 from 621 Prolific studies",
+          "lines": [
+            75,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'it's like 15 bucks' referring to the current study session (line 357).",
+          "value": "this Prolific study pays about $15",
+          "lines": [
+            357
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'I have six kids'.",
+          "value": "has six children",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates his oldest daughter has children (line 269).",
+          "value": "has grandchildren",
+          "lines": [
+            269
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom was born in Royal Oak... and my dad was born Detroit' (lines 151-152).",
+          "value": "mother from Royal Oak, MI; father from Detroit, MI",
+          "lines": [
+            151,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions visiting relatives in Michigan (lines 145, 163).",
+          "value": "has relatives in Michigan",
+          "lines": [
+            145,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my boss' (line 89).",
+          "value": "has a boss (supervisor at work)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I had some actually good friends that worked did that kind of work' referring to firefighting (line 139).",
+          "value": "has friends who worked as firefighters",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a uses 'we' in the context of having children, dealing with diapers and flu together, implying a cohabitating partner (lines 277, 278).",
+          "value": "in a long-term partnership (likely marriage)",
+          "lines": [
+            277,
+            278
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states 'I work from home' (line 89).",
+          "value": "works from home",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes doing many Prolific studies and using a Chrome extension for notifications (lines 75, 81-83, 89-91, 97).",
+          "value": "regularly participates in Prolific studies",
+          "lines": [
+            75,
+            81,
+            82,
+            83,
+            89,
+            90,
+            91,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did one cruise and that's my last cruise one and done' (line 337).",
+          "value": "took one cruise, will not cruise again",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he visited Michigan once at age 15 (line 161).",
+          "value": "visited Michigan once at age 15",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes driving with a learner's permit from the middle of Michigan up to Lake Superior (Sault Ste. Marie) (lines 161-163).",
+          "value": "drove to Lake Superior with a learner's permit as a teenager",
+          "lines": [
+            161,
+            162,
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself as Sonya when asked her first name (line 10).",
+          "value": "Sonya",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in Florida (line 14) and later specifies 'I'm in little in Augustine' (ASR error for 'I live in St. Augustine', line 18). She confirms it's on the Atlantic coast near Jacksonville (lines 20,22).",
+          "value": "St. Augustine, Florida",
+          "lines": [
+            14,
+            18,
+            20,
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'Not too far from Jacksonville' (line 20).",
+          "value": "near Jacksonville, Florida",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b clarifies that St. Augustine is 'by the atlantic' and not on the Gulf side (line 22).",
+          "value": "Atlantic coast of Florida",
+          "lines": [
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Sonya is typically female; she refers to her spouse as 'my hubs' (line 70) and is a mother (line 256).",
+          "value": "female",
+          "lines": [
+            10,
+            70,
+            256
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I got three kiddos' (line 256) and discusses her children's ages and spacing (line 268).",
+          "value": "mother of three children",
+          "lines": [
+            256,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm going to school for like management' (line 212), mentions taking a business class, and previously attended Eastern Michigan University (line 254).",
+          "value": "college student studying management",
+          "lines": [
+            212,
+            254,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from jackson Michigan' (line 150).",
+          "value": "originally from Jackson, Michigan",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked if she is working, speaker_b replied 'no but I will be soon' (line 266).",
+          "value": "currently not employed",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she does Prolific studies by referencing her prolific money (lines 69-70), asking speaker_a about usage (line 74), stating her sister got her started (line 80), and calling it 'my side hustle' (line 96).",
+          "value": "earns side income from Prolific studies",
+          "lines": [
+            69,
+            70,
+            74,
+            80,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her husband has been with his job for about 15 years at a locally owned business (line 340).",
+          "value": "household relies on husband's stable job (15 years, locally owned business)",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I have my laptop has the built in mouse' (line 110).",
+          "value": "owns a laptop computer",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my hubs' (line 70) and 'my husband' (line 320).",
+          "value": "married",
+          "lines": [
+            70,
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states having three kids (line 256), with two oldest close in age (Irish twins) and a third younger (line 268).",
+          "value": "has three children",
+          "lines": [
+            256,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her oldest child's severe anxiety about vomiting and how they quarantine (lines 278-280).",
+          "value": "oldest daughter (age 9) has severe health anxiety about vomiting",
+          "lines": [
+            278,
+            279,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my son has asthma' which makes them extra cautious about Covid (line 296).",
+          "value": "son has asthma",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom lives in europe' (line 326).",
+          "value": "mother lives in Europe",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my sister got me started on it' (Prolific) and she set up the Chrome extension (lines 80, 84).",
+          "value": "sister introduced her to Prolific",
+          "lines": [
+            80,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she is from Jackson, MI, and has cousins in Traverse City and Pontiac (lines 150, 154-156).",
+          "value": "extended family in Michigan (Jackson, Traverse City, Pontiac)",
+          "lines": [
+            150,
+            154,
+            155,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts a friend's experience of a tornado in his backyard during a hurricane (line 32).",
+          "value": "has a friend who experienced a tornado",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions a friend coming over while she is on the computer (line 94).",
+          "value": "has a local friend who visits her",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm like in a facebook group for our city' (St. Augustine) (line 228).",
+          "value": "member of a St. Augustine community Facebook group",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b is actively pursuing a bachelor's degree in management (lines 212, 258).",
+          "value": "attends college for management degree",
+          "lines": [
+            212,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I watch Youtube and I follow a lot of Youtubers' (line 126).",
+          "value": "watches YouTube and follows YouTubers",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states they go to Michigan every year in early July, except this year so far (line 160).",
+          "value": "takes an annual trip to Michigan in July",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes road trips to Michigan with husband driving, timing to avoid traffic (lines 312-313, 316).",
+          "value": "travels to Michigan by car, husband drives",
+          "lines": [
+            312,
+            313,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions going to Seaworld, which is about an hour and a half away in Orlando (lines 304-306).",
+          "value": "visits Seaworld in Orlando occasionally",
+          "lines": [
+            304,
+            305,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains her husband cannot fly due to panic attacks, and thus they do not fly (lines 320-322, 328).",
+          "value": "avoids flying because of husband's flight anxiety",
+          "lines": [
+            320,
+            321,
+            322,
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says because of her son's asthma, they opted for virtual school starting on the 31st (lines 296, 298-300).",
+          "value": "children enrolled in virtual school due to Covid-19 concerns",
+          "lines": [
+            296,
+            298,
+            299,
+            300
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

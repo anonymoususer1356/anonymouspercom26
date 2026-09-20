@@ -1,0 +1,439 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'K. J.' when asked name, and speaker_b repeats 'KJ'.",
+          "value": "KJ",
+          "lines": [
+            333,
+            334,
+            335
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says they are from northern Illinois suburbs of Chicago and asks if speaker_b knows Elgin.",
+          "value": "Elgin, Illinois (suburb of Chicago)",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they are currently in Grand Rapids, Michigan, and moved there for university.",
+          "value": "Grand Rapids, Michigan",
+          "lines": [
+            13,
+            25,
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b asks age, speaker_a replies '21'.",
+          "value": "21",
+          "lines": [
+            178,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are a student at Calvin University, marketing major, minor in data and analytics, fourth year.",
+          "value": "Student at Calvin University, marketing major with minor in data and analytics, fourth year",
+          "lines": [
+            25,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states they are O negative during blood donation discussion.",
+          "value": "O negative blood type",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes being very sick in February with breathing troubles, missing class for 1.5 weeks, testing negative for strep and flu, and suspects it was COVID-19.",
+          "value": "Severe respiratory illness in February lasting ~2 weeks, negative strep/flu tests, suspected COVID-19",
+          "lines": [
+            189,
+            191,
+            193,
+            195,
+            197,
+            199,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have given blood before, specifically double red due to O negative, and receives many requests to donate.",
+          "value": "Blood donor, O negative, double red donations",
+          "lines": [
+            283,
+            285,
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a is a student at Calvin University, not full-time employed.",
+          "value": "Student at Calvin University",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are interning at a Fintech startup called 'E. I.' (ASR may be incomplete), a cash back app, doing customer support and social media marketing.",
+          "value": "Intern at Fintech startup 'E. I.' doing marketing and customer support",
+          "lines": [
+            47,
+            49,
+            51,
+            53,
+            55
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a mentions working at Chipotle as a cashier and on the line.",
+          "value": "Former cashier/line worker at Chipotle",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms using Prolific and was a top poster on r/beermoney earning referral money.",
+          "value": "Earns money through Prolific surveys and r/beermoney referrals",
+          "lines": [
+            4,
+            5,
+            239,
+            241,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to their car when discussing A/C recharge.",
+          "value": "Owns a car",
+          "lines": [
+            37,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says parents are considered at-risk for the virus, which is why they moved out.",
+          "value": "Parents are at-risk for COVID-19",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they have a couple of housemates, and gave a male housemate a car part to inspect.",
+          "value": "Has at least two housemates, one male",
+          "lines": [
+            27,
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they went to 'The Bob', a popular Grand Rapids bar, just before it closed due to outbreak.",
+          "value": "Goes out to bars, recently visited 'The Bob' in Grand Rapids",
+          "lines": [
+            182,
+            183,
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a checks Reddit feed, was a top poster on r/beermoney, and reads r/grandrapids.",
+          "value": "Active Reddit user, frequent poster on r/beermoney and r/grandrapids",
+          "lines": [
+            183,
+            236,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says Chipotle is their favorite place to eat.",
+          "value": "Chipotle is favorite restaurant",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a tells speaker_b they weigh about 200 when asked.",
+          "value": "Weighs about 200 lbs",
+          "lines": [
+            272,
+            273
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says they are from Northern Illinois, specifies South Beloit, and mentions living half a mile from the Wisconsin border.",
+          "value": "South Beloit, Illinois (near Wisconsin border)",
+          "lines": [
+            12,
+            90,
+            92,
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they are about 15 minutes north of Rockford, IL.",
+          "value": "15 minutes north of Rockford, IL",
+          "lines": [
+            317,
+            318
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm 38' when discussing COVID-19 risk.",
+          "value": "38",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they got better treatment at work because they were a guy.",
+          "value": "Male",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says they donate plasma twice a week, never had a reaction, feel fine after.",
+          "value": "Regular plasma donor (2x/week), no adverse reactions",
+          "lines": [
+            86,
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they are 99.9% sure they haven't had COVID-19.",
+          "value": "Believes they have not had COVID-19",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says they make a little over $100 a week from plasma donation.",
+          "value": "Earns ~$100/week from plasma donation",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they do surveys throughout the week, uses Prolific, and received an Amazon gift card for a study.",
+          "value": "Earns money from online surveys (including Prolific)",
+          "lines": [
+            60,
+            4,
+            5,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes selling credit cards inbound for three years and being a top seller.",
+          "value": "Former credit card sales representative (inbound, 3 years, top performer)",
+          "lines": [
+            114,
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they worked at a gas station for years.",
+          "value": "Former gas station attendant (worked there for years)",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses their car's broken A/C and driving on the highway.",
+          "value": "Owns a car",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions their mother got the dog originally.",
+          "value": "Has a mother",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces their dog, says the breed (ASR 'brussel griffin' interpreted as Brussels Griffon) and name, and that the mother named it.",
+          "value": "Owns a dog: Brussels Griffon named Griffin",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about a person who thought they had COVID-19, they used his blood for a test, and says 'this is him right here' while on video, indicating someone present.",
+          "value": "Has a close contact (likely housemate/friend) who provided blood for COVID-19 antibody test, present during call",
+          "lines": [
+            214,
+            216,
+            218,
+            220
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says everybody at the plasma center knows them, and they are a regular.",
+          "value": "Known by staff at local plasma center",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes an understanding boss at the gas station who joked about having one leg.",
+          "value": "Had an understanding boss at the gas station",
+          "lines": [
+            132,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions driving 80-85 mph with no A/C, and that the A/C in their car doesn't work.",
+          "value": "Drives a car with broken air conditioning",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the plasma center is half a mile away and they could walk there in 15-20 minutes, and have done so.",
+          "value": "Sometimes walks to plasma center (0.5 miles away)",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions doing surveys throughout the week as a current activity.",
+          "value": "Participates in online surveys regularly",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they use Google Chrome this time after issues with Firefox.",
+          "value": "Uses Google Chrome browser",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they put on a fake voice during credit card sales calls.",
+          "value": "Used a fake voice during sales job",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't do anything right now' besides plasma and surveys.",
+          "value": "Currently no traditional job; relies on plasma donation and surveys",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b owns a dog and refers to it during conversation.",
+          "value": "Dog owner",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b describes themselves as pretty heavy, tall, not skinny.",
+          "value": "Heavy build, tall, not skinny",
+          "lines": [
+            276
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

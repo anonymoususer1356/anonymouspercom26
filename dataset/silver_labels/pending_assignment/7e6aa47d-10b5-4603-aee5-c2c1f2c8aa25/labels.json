@@ -1,0 +1,406 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Right after speaker_b says 'my name is Jason', speaker_a appears to give a name in return, but the ASR renders it as 'escape'. It is almost certainly a misheard first name, but the actual name cannot be determined.",
+          "value": "escape (ASR-garbled name)",
+          "lines": [
+            11
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are in the San Francisco area.",
+          "value": "San Francisco area",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have lived in the San Francisco area for 25 years.",
+          "value": "lived in San Francisco area for 25 years",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they have previously lived in the Pacific Northwest, the East Coast, and the Midwest.",
+          "value": "previously lived in the Pacific Northwest, East Coast, and Midwest",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states their age is mid-50s.",
+          "value": "mid 50s",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my wife', establishing they are married.",
+          "value": "married",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have a 16-year-old and a 13-year-old.",
+          "value": "has two children, ages 16 and 13",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions parents and sister, indicating they have a sister.",
+          "value": "has a sister",
+          "lines": [
+            35,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they attended school on the East Coast and in the Midwest.",
+          "value": "attended school on the East Coast and in the Midwest",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says they are not in the high-risk group for COVID-19 yet.",
+          "value": "not in high-risk group for COVID-19",
+          "lines": [
+            173
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states they work for a large company.",
+          "value": "works for a large company",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have coworkers who live in Austin.",
+          "value": "has coworkers in Austin, Texas",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says this is their third such session and mentions that the platform pays when a partner doesn't join, indicating participation in paid conversation sessions.",
+          "value": "has participated in at least 3 paid conversation sessions",
+          "lines": [
+            199,
+            201
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says their wife is in the medical community.",
+          "value": "wife works in the medical community",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my oldest daughter', establishing the 16-year-old is a daughter.",
+          "value": "has a 16-year-old daughter",
+          "lines": [
+            93,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have a 13-year-old child.",
+          "value": "has a 13-year-old child",
+          "lines": [
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions calling parents together with a sister.",
+          "value": "has a sister",
+          "lines": [
+            35,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses parents being on a cruise and calling them to come home.",
+          "value": "has parents",
+          "lines": [
+            35,
+            125,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a bunch of coworkers in Austin.",
+          "value": "has coworkers in Austin, Texas",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they have spent a lot of time in Japan.",
+          "value": "has spent a lot of time in Japan",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says school for their children is currently 100% virtual.",
+          "value": "children are doing 100% virtual school",
+          "lines": [
+            97,
+            99,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself by name.",
+          "value": "Jason",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states they are in Austin, Texas.",
+          "value": "Austin, Texas",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they came to Austin 20 years ago and never left.",
+          "value": "lived in Austin for 20 years",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they were born in San Jose.",
+          "value": "born in San Jose, California",
+          "lines": [
+            16,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they grew up in Hong Kong after moving there as a baby.",
+          "value": "grew up in Hong Kong",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they moved from Hong Kong to Fort Worth, Texas before moving to Austin.",
+          "value": "lived in Fort Worth, Texas",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states they have two children ages nine and seven.",
+          "value": "has two children, ages 9 and 7",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the children are in 4th and 3rd grade.",
+          "value": "children are in 4th and 3rd grade",
+          "lines": [
+            178
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my wife', establishing they are married.",
+          "value": "married",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b states they are still healthy in the context of the pandemic.",
+          "value": "states they are healthy",
+          "lines": [
+            78
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they have been working from home for 10 years.",
+          "value": "has worked from home for 10 years",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they switched companies in February.",
+          "value": "switched companies in February",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are still employed.",
+          "value": "currently employed",
+          "lines": [
+            68,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says their wife also works from home.",
+          "value": "wife works from home",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says this is their second such session, indicating participation in paid conversation sessions.",
+          "value": "has participated in 2 paid conversation sessions",
+          "lines": [
+            198
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to their wife.",
+          "value": "has a wife",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they have two children ages nine and seven.",
+          "value": "has two children, ages 9 and 7",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says their parents moved to Hong Kong when speaker_b was a baby.",
+          "value": "has parents",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having friends with children.",
+          "value": "has friends with children",
+          "lines": [
+            192
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says summer is the time the children love to swim, implying swimming is a normal summer activity for them.",
+          "value": "children normally swim in summer",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says the children enjoy staying home reading and playing with Legos.",
+          "value": "children enjoy staying home reading and playing with Legos",
+          "lines": [
+            188
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says the children will start school virtually for the first four weeks.",
+          "value": "children starting school virtually",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b grew up in Hong Kong and has also spent time in Japan, as indicated by the story about being stared at on a train for coughing without a mask.",
+          "value": "has spent significant time in Asia (Hong Kong, Japan)",
+          "lines": [
+            38,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

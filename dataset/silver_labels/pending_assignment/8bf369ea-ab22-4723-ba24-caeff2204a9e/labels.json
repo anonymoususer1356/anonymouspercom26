@@ -1,0 +1,337 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a discusses daily COVID cases on the main island (ASR 'waffle' likely Oahu), refers to Hawaii as the state they are in, and describes living in an isolated area in the ocean.",
+          "value": "Hawaii, main island (likely Oahu)",
+          "lines": [
+            75,
+            77,
+            79,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly states 'Born and raise' when asked if they lived in Hawaii their whole life.",
+          "value": "Born and raised in Hawaii",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I mean I'm japanese' and refers to Japan as the motherland.",
+          "value": "Japanese ethnicity",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "ASR 'coffee burst' is phonetically close to 'coffee barista'.",
+          "value": "Coffee barista",
+          "lines": [
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm prolific and amazon mturk', referring to Prolific.co and Amazon Mechanical Turk.",
+          "value": "Amazon Mechanical Turk and Prolific user",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states that with the COVID situation, their hours as a coffee barista were cut.",
+          "value": "Reduced work hours as a barista due to COVID-19",
+          "lines": [
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions making money on the side through Amazon MTurk and other sources.",
+          "value": "Uses online platforms (MTurk, Prolific) for additional income",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm just more of like a city person I guess' while describing Tokyo.",
+          "value": "Prefers city life",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists places they have traveled to: New York, California, and Japan 3-4 times.",
+          "value": "Traveled to Japan (3-4 times), New York, California",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "ASR 'E. P. Campsite horse' likely 'AP Computer Science course'; speaker_a mentions being introduced to C and coding basics in high school.",
+          "value": "Took AP Computer Science in high school",
+          "lines": [
+            17
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b confirms they are in Washington (line 70), describes being in a rural county (line 84), and living on a mountain with about 250 people (line 90).",
+          "value": "Rural Washington state, on a mountain, population roughly 250",
+          "lines": [
+            69,
+            70,
+            84,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recalls 'I was still living in Vancouver Washington' before the pandemic.",
+          "value": "Lived in Vancouver, Washington",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they moved to Olympia at 17 for college.",
+          "value": "Lived in Olympia, Washington",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions living in Portland, Oregon for a year.",
+          "value": "Lived in Portland, Oregon",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says Ann Arbor was their home base for six years while in grad school.",
+          "value": "Lived in Ann Arbor, Michigan",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'when I lived in Russia' and describes Russian culture from personal experience.",
+          "value": "Lived in Russia",
+          "lines": [
+            200,
+            208,
+            210,
+            212,
+            214,
+            216,
+            218,
+            220,
+            222,
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'some two in Poland' (ASR for 'some too, in Poland') and describes Poland from personal experience.",
+          "value": "Lived in Poland",
+          "lines": [
+            200,
+            228,
+            230,
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I lived here for 17 years' (line 196) referring to the same rural area they are in now, and mentions having lived there after grad school as well (line 184).",
+          "value": "Grew up in rural Washington (first 17 years)",
+          "lines": [
+            196,
+            184
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says they were in graduate school in the humanities, left the PhD but took the masters.",
+          "value": "Master's degree in humanities",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b calls University of Michigan their 'second alma mater' and lived in Ann Arbor during grad school.",
+          "value": "Alumnus of University of Michigan",
+          "lines": [
+            28,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they moved to Olympia for college.",
+          "value": "Attended college in Olympia, Washington",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b calls University of Michigan their 'second alma mater', implying a first alma mater elsewhere.",
+          "value": "Has a bachelor's degree from another institution (first alma mater)",
+          "lines": [
+            28
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states grad school didn't pan out due to mental health reasons.",
+          "value": "Mental health issues (interfered with PhD)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having health problems after leaving grad school.",
+          "value": "Health problems after grad school (unspecified)",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b estimates their effective hourly wage from Rev.com transcription.",
+          "value": "Earns $7-10 per hour from transcription (piecework)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they have been doing freelance and are getting into a second career, learning coding for job opportunities.",
+          "value": "Freelance worker, transitioning to tech career",
+          "lines": [
+            48,
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'Although I'm staying with my mom'.",
+          "value": "Lives with mother",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions winning a scratch-off ticket with their uncle.",
+          "value": "Has an uncle",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses friends who finished grad school and had to move for jobs.",
+          "value": "Friends from graduate school",
+          "lines": [
+            44,
+            46,
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions doing work from home, mostly alone because of the pandemic.",
+          "value": "Works from home, socially isolated",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions chatting with somebody on IRC.",
+          "value": "Uses IRC (Internet Relay Chat)",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says pinball in arcades is their favorite arcade game.",
+          "value": "Enjoys pinball and arcade games",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes buying scratch-off tickets when they have spare cash.",
+          "value": "Buys scratch-off lottery tickets occasionally",
+          "lines": [
+            264,
+            270,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they've used Linux for years on their computer.",
+          "value": "Linux user",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

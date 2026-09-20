@@ -1,0 +1,362 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Georgia and specifies Bonaire, describing it as down south and in the middle of nowhere.",
+          "value": "Bonaire, Georgia",
+          "lines": [
+            13,
+            15,
+            17
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Referred to as 'daddy' by speaker_b and mentions his wife, implying male gender.",
+          "value": "male",
+          "lines": [
+            41,
+            57,
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions his wife explicitly.",
+          "value": "married",
+          "lines": [
+            41,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a newborn son and a 19-month-old son, making him a father of two.",
+          "value": "father of two boys",
+          "lines": [
+            41,
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'bad news is if trump wins', indicating opposition to Trump.",
+          "value": "anti-Trump",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Answers 'yeah' when asked if he voted, and mentions his absentee ballot. Slight ambiguity due to phrasing 'was supposed to fill it out'.",
+          "value": "voted absentee",
+          "lines": [
+            41
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Says 'when I get off work', indicating he is employed and receives income.",
+          "value": "employed",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his wife multiple times.",
+          "value": "has a wife",
+          "lines": [
+            41,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States one son is 19 months old.",
+          "value": "has a son, 19 months old",
+          "lines": [
+            49,
+            47,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions the newborn son is just over two weeks old.",
+          "value": "has a newborn son (about 2 weeks old)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says this is his third chat and he does surveys after work before spending time with his kids.",
+          "value": "participates in Prolific surveys/chats",
+          "lines": [
+            7,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes putting his son to nap and falling asleep with him, showing involvement in childcare.",
+          "value": "involved in childcare (puts son to nap, fell asleep with him)",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States she is currently living in Raleigh, North Carolina, and mentions being there for 10 years.",
+          "value": "Raleigh, North Carolina",
+          "lines": [
+            22,
+            24,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she moved from New York to Raleigh.",
+          "value": "previously from New York",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she stayed in Augusta, Georgia for five months.",
+          "value": "stayed in Augusta, Georgia for five months",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she plans to move to Jacksonville, Florida in the next two years.",
+          "value": "planning to move to Jacksonville, Florida",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Context of being a mother and grandmother, and her self-description, imply female gender.",
+          "value": "female",
+          "lines": [
+            44,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly says she is retired.",
+          "value": "retired",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she lives alone while discussing food spending.",
+          "value": "lives alone",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has two grown sons and two grandchildren.",
+          "value": "mother of two, grandmother",
+          "lines": [
+            44,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I want trump out', indicating political opposition to Trump.",
+          "value": "anti-Trump",
+          "lines": [
+            118
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says she does not get flu shots and would not take a coronavirus vaccine.",
+          "value": "avoids flu shots and would not take COVID-19 vaccine",
+          "lines": [
+            130,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Reports her energy level was 'like two' and she was fighting sleep during the chat.",
+          "value": "low energy at time of chat",
+          "lines": [
+            94,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Says she voted, using curbside voting during the early voting period.",
+          "value": "voted early (curbside voting)",
+          "lines": [
+            112,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States she is retired, implying she receives retirement income.",
+          "value": "retired (receives retirement income)",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Earned about $600 total from Prolific, and cashed out $42 in one week.",
+          "value": "earns money from Prolific surveys (~$600 total, $42 in a recent week)",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her monthly food spending increased to about $200.",
+          "value": "monthly food budget ~$200",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says her dad is from Augusta, Georgia.",
+          "value": "father from Augusta, Georgia",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she had two boys who are now grown.",
+          "value": "two sons (grown)",
+          "lines": [
+            60,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states she has a 11-year-old granddaughter and a 9-year-old grandson.",
+          "value": "granddaughter (11) and grandson (9)",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having family in New York when discussing potential shutdown.",
+          "value": "family in New York",
+          "lines": [
+            122
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions being on the bus with a friend when going to vote.",
+          "value": "has a friend",
+          "lines": [
+            114
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes her garden with tomatoes, okra, peppers, lettuce, and a greenhouse.",
+          "value": "gardens (grows vegetables, has greenhouse)",
+          "lines": [
+            80,
+            82,
+            84,
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is on Prolific all the time doing surveys since she is retired.",
+          "value": "frequently does Prolific surveys",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she cooked beef lo mein for dinner.",
+          "value": "cooks at home (e.g., beef lo mein)",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions drinking water to stay awake during the chat.",
+          "value": "drinks water to stay alert",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she set an alarm to make sure she doesn't miss the chat.",
+          "value": "sets alarms for Prolific chats",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

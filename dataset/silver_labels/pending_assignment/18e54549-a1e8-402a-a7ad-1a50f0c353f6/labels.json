@@ -1,0 +1,227 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm in texas' and discusses Texas gambling laws.",
+          "value": "Texas",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm 29 years old.'",
+          "value": "29 years old",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes their job: 'I am a senior so it's like a wine aficionado. Uh It's it's essentially like a really fancy server.' The word 'senior' may be a mishearing of 'sommelier', but the description is clear.",
+          "value": "wine aficionado / really fancy server",
+          "lines": [
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a confirms this is their first time doing this type of survey (speaker_b's statement + speaker_a's 'Yeah') and mentions using Prolific and trying Yougov.",
+          "value": "first time doing this kind of survey",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they use Prolific for surveys and have tried Yougov, indicating participation in online surveys for reward.",
+          "value": "participates in online surveys (Prolific, Yougov)",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'my uh my grandmother taught it to me whenever I was a kid' in reference to poker.",
+          "value": "grandmother taught poker",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes playing poker since childhood, mentions specific variants (Omaha Hi Lo, no limit hold em), playing in person and online.",
+          "value": "plays poker (Omaha Hi Lo, no limit hold em, etc.)",
+          "lines": [
+            131,
+            133,
+            135,
+            143,
+            145,
+            147,
+            155,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I play a game called Dota' and describes it as a massive online battle arena.",
+          "value": "plays Dota 2",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I typically find myself listening to metal'.",
+          "value": "listens to metal music",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they were in Albuquerque for a 'magic tournament which magically gathering is a card game', a clear reference to Magic: the Gathering despite the ASR error.",
+          "value": "attended Magic: the Gathering tournament",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "In response to speaker_a's age, speaker_b says 'So 33 years here', meaning 33 years old.",
+          "value": "33 years old",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to himself as 'a young man'.",
+          "value": "male",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states 'I work for state government uh to work, work at the welfare office.'",
+          "value": "works at state government welfare office",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'This is my 6th time' for this survey, asks about Prolific, and describes using Amazon mturk.",
+          "value": "participates in online surveys on Prolific and Amazon mturk",
+          "lines": [
+            8,
+            12,
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses his stock investments extensively, stating he owns about 30 positions, names specific holdings (Microsoft, oil, renewable, real estate, pharma, foreign stocks), and watches them daily.",
+          "value": "invests in stocks (30 positions: oil, renewable, real estate, Microsoft, pharma, foreign stocks)",
+          "lines": [
+            78,
+            88,
+            90,
+            92,
+            94,
+            96,
+            108,
+            114,
+            116,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the largest tournament win was '1800 bucks' in first place of a stud hi lo event.",
+          "value": "won $1800 in a stud hi lo poker tournament",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he uses Bitcoin to play online poker after it was taken away, and plays many variants for money.",
+          "value": "plays online poker for money using Bitcoin",
+          "lines": [
+            124,
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b states 'I'm a drummer', has played since childhood, about 20 years, and enjoys jazz among other genres.",
+          "value": "drummer for 20 years, plays jazz, reggae, punk, etc.",
+          "lines": [
+            38,
+            40,
+            42,
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists specific poker variants he plays (stud hi lo, Omaha, raz, etc.) and mentions enjoying tournaments.",
+          "value": "plays poker (stud hi lo, Omaha, etc., tournaments)",
+          "lines": [
+            126,
+            134,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like being competitive' and talks about enjoying the competitive aspect of tournaments and accolades.",
+          "value": "enjoys competitive activities",
+          "lines": [
+            160,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

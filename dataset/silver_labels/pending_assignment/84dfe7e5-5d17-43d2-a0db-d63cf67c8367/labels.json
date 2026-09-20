@@ -1,0 +1,422 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm originally from Buffalo'.",
+          "value": "Originally from Buffalo, New York",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they live in upstate New York, describing it as rural, a super small town/village, and that it's farther upstate from Buffalo. Also mentions temperatures of negative 30.",
+          "value": "Lives in upstate New York, in a small town/village",
+          "lines": [
+            35,
+            167,
+            203,
+            171,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I've just been 31', indicating age 31.",
+          "value": "31 years old",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my husband', indicating married.",
+          "value": "Married",
+          "lines": [
+            65,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my kids', indicating they have children.",
+          "value": "Has children",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I ended up going to school for philosophy', indicating field of study.",
+          "value": "Studied philosophy",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'becoming a chef', indicating profession as a chef.",
+          "value": "Profession: chef",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'Mine got paid off because they took my entire tax return' in context of student loans, indicating loans were paid via tax offset.",
+          "value": "Had student loans paid off via tax refund offset",
+          "lines": [
+            217,
+            219,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my driveway' and 'my house', suggesting they live in a house rather than an apartment.",
+          "value": "Lives in a house",
+          "lines": [
+            45,
+            197
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my husband' multiple times.",
+          "value": "Has a husband",
+          "lines": [
+            65,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my kids'.",
+          "value": "Has children",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'one of my best friends on the salon in Iowa' (ASR: likely 'owns a salon') indicating a close friend in Iowa who owns a salon.",
+          "value": "Has a best friend in Iowa who owns a salon",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I have younger friends'.",
+          "value": "Has younger friends",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my husband's boss, he works for a dentist, ended up paying for his schooling to like finish dentistry school', indicating husband works in dentistry and had education paid for.",
+          "value": "Husband works for a dentist, had dentistry school paid by employer",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a discusses owning board games and playing games like Labyrinth and Oregon Trail.",
+          "value": "Enjoys board games, has a collection",
+          "lines": [
+            73,
+            109,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions playing Elder Scrolls Online and wandering in fantasy worlds to decompress.",
+          "value": "Plays video games, especially Elder Scrolls Online",
+          "lines": [
+            89,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a preference for staying home, having books and video games, and not wanting to leave the house.",
+          "value": "Prefers staying home (introverted)",
+          "lines": [
+            45,
+            49,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I can get whatever food I want to deliver to my house now'.",
+          "value": "Uses food delivery services",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates this is a paid interview by saying 'get that money' and referencing the 25-minute mark.",
+          "value": "Participates in paid research interviews",
+          "lines": [
+            239,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a complains about shoveling snow, extreme cold, and says 'I hate it' regarding winter.",
+          "value": "Dislikes extreme cold and winter",
+          "lines": [
+            171,
+            197,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'right now. Live in Iowa.' and 'I live in a fairly populous city'.",
+          "value": "Lives in Iowa, in a fairly populous city",
+          "lines": [
+            26,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm originally from Illinois'.",
+          "value": "Originally from Illinois",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're still in apartments'.",
+          "value": "Lives in an apartment",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I Iowa for college' (ASR error for 'I went to Iowa for college'), indicating they attended college in Iowa.",
+          "value": "Attended college in Iowa",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I just turned 32'.",
+          "value": "32 years old",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm not married and I don't have any Children'.",
+          "value": "Not married, no children",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my boyfriend' multiple times.",
+          "value": "In a relationship with a boyfriend",
+          "lines": [
+            58,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was a history major... now I've gone two billion in accounting' (ASR: 'now I've gone to school in accounting') and 'now I'm back in school hoping to finish', indicating current study of accounting and previous history major.",
+          "value": "Currently studying accounting; previously studied history but did not finish",
+          "lines": [
+            224,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work in customer service in a billion department for an insurance company' where 'billion' is an ASR error for 'billing'. Also mentions working from home.",
+          "value": "Works in customer service (billing) for an insurance company",
+          "lines": [
+            16,
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been employed the entire time despite the pandemic' and 'I get to work from home full time currently'.",
+          "value": "Employed full-time, works from home",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the company is paying for their degree: 'they're paying for my degree, they reimburse me as long as I get an A'.",
+          "value": "Employer reimburses tuition for accounting degree",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates unpaid student loan debt: 'I'll probably never be done' and 'my goal is just to die with it'.",
+          "value": "Has unpaid student loan debt",
+          "lines": [
+            212,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lives in an apartment, as stated.",
+          "value": "Lives in an apartment",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions boyfriend multiple times.",
+          "value": "Has a boyfriend",
+          "lines": [
+            58,
+            66,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'his parents are in Wisconsin' referring to boyfriend's parents.",
+          "value": "Boyfriend's parents live in Wisconsin",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'if I want to go see my family have to drive', implying family lives within driving distance, likely Illinois.",
+          "value": "Has family (likely in Illinois) that requires driving to visit",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions a friend whose wedding and birthday were canceled/rescheduled.",
+          "value": "Has a friend whose wedding and birthday were disrupted by pandemic",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We've got a friend who we play with' referring to D&D.",
+          "value": "Has a friend they play D&D with",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says isolation is 'my dream' and 'I don't have to interact with humans unless I want to'.",
+          "value": "Introverted, enjoys staying home",
+          "lines": [
+            48,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses owning a large board game collection, a subscription, and playing games like Arabian Nights, Munchkin, D&D, Expedition.",
+          "value": "Enjoys board games and tabletop RPGs (D&D, Expedition)",
+          "lines": [
+            74,
+            76,
+            80,
+            130,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my boyfriend is much more into video games than I am' but she does play some (e.g., Elder Scrolls).",
+          "value": "Plays some video games, but less than boyfriend",
+          "lines": [
+            90,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Halloween is the best. It is the... best holiday'.",
+          "value": "Favorite holiday is Halloween",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am perfectly happy driving around and picking up the food'.",
+          "value": "Drives to pick up food",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to hitting the 25-minute mark and getting paid, indicating participation in a paid research interview.",
+          "value": "Participates in paid research interviews",
+          "lines": [
+            232,
+            240
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

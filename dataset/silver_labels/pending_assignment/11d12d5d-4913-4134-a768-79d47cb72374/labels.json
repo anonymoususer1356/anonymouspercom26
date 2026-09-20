@@ -1,0 +1,453 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a explicitly states 'my name's Kelly' and later confirms it when speaker_b asks 'Your name was kelly again. Right.'",
+          "value": "Kelly",
+          "lines": [
+            287,
+            364,
+            365
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm from Los Angeles right now' (line 3), mentions PST timezone (line 71), says family lives 1.5 hours away from LA (line 337), and says she moved out and lives near her job in LA (lines 341-343).",
+          "value": "Los Angeles, California",
+          "lines": [
+            3,
+            71,
+            337,
+            341,
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she was born in New York (line 49, 51), and that her family moved to California when she was a baby (line 53).",
+          "value": "New York",
+          "lines": [
+            49,
+            51,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I am asian' (line 45).",
+          "value": "Asian",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states her zodiac sign is Pisces when speaker_b asks (line 127, 129).",
+          "value": "Pisces",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she graduated in 2019 (line 83, 95) and attended UCLA (line 85, 87, 92).",
+          "value": "Graduated UCLA in 2019",
+          "lines": [
+            83,
+            85,
+            87,
+            92,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b guesses 'You probably around 23' and speaker_a confirms with 'Yeah... exactly' (line 120-121). Also speaker_a graduated college in 2019, consistent with age ~23.",
+          "value": "23 years old",
+          "lines": [
+            120,
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes being very scared and nervous when driving, triggered by a past near-accident (lines 199, 203, 207). This indicates a significant fear/anxiety around driving.",
+          "value": "Fear/anxiety about driving",
+          "lines": [
+            199,
+            203,
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she works in human resources at a university's academic personnel office in LA (lines 211, 221), and describes her duties (line 225).",
+          "value": "Works in human resources at a university academic personnel office in Los Angeles",
+          "lines": [
+            211,
+            221,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she does not have a car in LA (line 201), takes public bus (line 197), and mentions parking costs as a deterrent (line 219).",
+          "value": "Does not own a car; uses public transportation",
+          "lines": [
+            197,
+            201,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses earning extra money through Prolific surveys, stating she has been doing it since May and makes about $100 a month (lines 443, 446-447, 455).",
+          "value": "Earns ~$100/month from Prolific surveys",
+          "lines": [
+            443,
+            446,
+            447,
+            455
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she moved out from her family home for school and has been living on her own since, and mentions rent is high (lines 341, 343, 347).",
+          "value": "Lives independently, paying rent",
+          "lines": [
+            341,
+            343,
+            347
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a states she has six sisters and one brother (lines 291, 293, 351).",
+          "value": "Has six sisters and one brother",
+          "lines": [
+            291,
+            293,
+            351
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her dad is 65 years old (line 337).",
+          "value": "Father is 65 years old",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her mom was living in Taiwan before moving (line 53), implying mother is from Taiwan.",
+          "value": "Mother from Taiwan",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Oh I am dating' (line 327), indicating she is currently in a dating relationship.",
+          "value": "Currently dating someone",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she likes hip hop, rap, and R&B music (line 229).",
+          "value": "Enjoys hip hop, rap, and R&B music",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I love sushi' (line 461).",
+          "value": "Likes sushi",
+          "lines": [
+            461
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions watching YouTube videos for eight hours a day (line 421).",
+          "value": "Watches YouTube videos extensively",
+          "lines": [
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses interest in partying and clubbing, mentioning Miami and Vegas (lines 13, 23).",
+          "value": "Enjoys partying/clubbing",
+          "lines": [
+            13,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she likes trying new restaurants (line 27).",
+          "value": "Enjoys trying new restaurants",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions hiking as an activity she likes in LA (line 27).",
+          "value": "Enjoys hiking",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she does not have TikTok because she would get addicted, but her family sends her videos (lines 419-421).",
+          "value": "Does not use TikTok but watches videos from family",
+          "lines": [
+            419,
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions seeing things on Instagram (line 35) and suggests it's similar to TikTok (line 429).",
+          "value": "Uses Instagram",
+          "lines": [
+            35,
+            429
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Both speakers comment that they are wearing blue shirts of the same shade (lines 63-64, 69).",
+          "value": "Wearing a blue shirt (same shade as speaker_b)",
+          "lines": [
+            63,
+            64,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b tells speaker_a 'Got a nice smile by the way' (line 308).",
+          "value": "Has a nice smile",
+          "lines": [
+            308
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b confirms his name is David when speaker_a asks (lines 286, 368-369).",
+          "value": "David",
+          "lines": [
+            286,
+            368,
+            369
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he is in Hollywood, Florida (line 6) and that it's about 10-15 miles from Miami (line 16). He also mentions living in Florida most of the time now (line 48) and current weather (line 72).",
+          "value": "Hollywood, Florida",
+          "lines": [
+            6,
+            16,
+            48,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he used to live in New York, specifically Brooklyn (line 48).",
+          "value": "Previously lived in Brooklyn, New York",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I'm jewish' (line 46).",
+          "value": "Jewish",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his zodiac sign is Aquarius (line 132).",
+          "value": "Aquarius",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to himself as 'a passive guy' (line 158), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he just turned 50 (line 110), and earlier said he has about 25 years on speaker_a (line 106).",
+          "value": "50 years old",
+          "lines": [
+            110,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about school, speaker_b says he went to school in Florida (line 98). speaker_a infers University of Florida (line 101), and speaker_b does not deny, saying 'a long time ago' (line 104).",
+          "value": "Attended University of Florida",
+          "lines": [
+            98,
+            101,
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b discusses making money on Prolific surveys, noting he made little at first but now can make about an extra $100 a month (lines 446).",
+          "value": "Earns extra money from Prolific surveys",
+          "lines": [
+            446
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says he has one sister (line 290). She lives in Belle Harbor, Florida, is married, and has three children (line 312).",
+          "value": "Has one sister, who lives in Belle Harbor, FL, married with three children",
+          "lines": [
+            290,
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says it was his mom's birthday (line 170), that she is 20 years older than him (so about 70) (line 182), and that she is with him (line 178).",
+          "value": "Mother is ~70 years old and lives with him",
+          "lines": [
+            170,
+            178,
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he loves rock music and lists favorite bands: Lincoln Park (Linkin Park), Led Zeppelin, Deftones, Metallica, Coldplay (line 242).",
+          "value": "Likes rock music; favorite bands include Linkin Park, Led Zeppelin, Deftones, Metallica, Coldplay",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b also mentions liking a little bit of hip hop (line 236).",
+          "value": "Likes some hip hop music",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses love for steak, Spanish food, prime ribs, and seafood (lines 470-474, 476).",
+          "value": "Enjoys steak, Spanish food, prime ribs, and seafood",
+          "lines": [
+            470,
+            472,
+            474,
+            476
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions watching dating sites (line 268).",
+          "value": "Uses dating sites",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has never used TikTok (line 428).",
+          "value": "Does not use TikTok",
+          "lines": [
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes himself as a passive person with a good heart (line 158).",
+          "value": "Describes himself as passive with a good heart",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a and speaker_b both note they are wearing blue shirts, and speaker_b agrees they are the same color (lines 63-64, 69).",
+          "value": "Wearing a blue shirt (same shade as speaker_a)",
+          "lines": [
+            63,
+            64,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says people often guess he is around 35 (lines 116, 118), and speaker_a expresses surprise at his real age, indicating he looks younger than 50.",
+          "value": "Looks younger than his age; perceived as about 35",
+          "lines": [
+            107,
+            116,
+            118
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

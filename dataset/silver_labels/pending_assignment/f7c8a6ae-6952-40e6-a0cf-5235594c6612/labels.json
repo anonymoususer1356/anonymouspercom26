@@ -1,0 +1,366 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in new york' directly, and references local humidity and a municipal pool two blocks from home.",
+          "value": "New York",
+          "lines": [
+            71,
+            73,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I lived in Canada' while discussing an old mturk account that only paid Amazon credit around 2010.",
+          "value": "Canada (past residence)",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm like actually 35' when responding to school-opening talk.",
+          "value": "35 years old",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a clarifies 'I'm not Canadian, I'm american'.",
+          "value": "American",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I got an antibody test a couple of weeks ago, like late july and it was negative.'",
+          "value": "COVID-19 antibody test negative (late July 2020)",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes being 'really sick in late february and like had lingering symptoms for like a month'.",
+          "value": "Sick in late February 2020 with lingering symptoms for a month",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a explains finding an open outdoor pool at a tennis club and paying $600 for summer membership, confirms it was $600 when leaving.",
+          "value": "Paid $600 for summer tennis-club pool membership",
+          "lines": [
+            81,
+            89,
+            91,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says started using Prolific 'late last year' (2019) and receives Prolific study alerts.",
+          "value": "Prolific participant since late 2019",
+          "lines": [
+            187,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks about 'reb' (phonetically close to 'Rev') and says 'So I made a grab account' (likely ASR for 'Rev'); context is transcription/gig work. Best reading is a Rev account.",
+          "value": "Rev account (transcription platform)",
+          "lines": [
+            197,
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a recalls having an mturk account while living in Canada that paid only Amazon credit, around 2010.",
+          "value": "Old mturk account in Canada (Amazon credit only, ~2010)",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains 'they can't verify my identity' and 'they won't let me in' for a US mturk account.",
+          "value": "Unable to open US mturk account due to identity verification failure",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'I had an online friend in north Carolina' during a discussion about COVID awareness.",
+          "value": "Online friend in North Carolina",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I don't have a cat anymore unfortunately'.",
+          "value": "Currently no cat",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to have cats'.",
+          "value": "Previously owned cats",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is taking part in a scheduled 'chat thing' conversation with speaker_b (a study session). Both discuss how many they have done.",
+          "value": "Participant in a paired chat study with speaker_b",
+          "lines": [
+            14,
+            15,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I ride my bike there' when asked if the pool is close.",
+          "value": "Rides a bicycle for local transportation",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I have like a big whiteboard calendar on my wall' for scheduling.",
+          "value": "Uses a whiteboard wall calendar",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually have one of those like hydration packs for bikers and I totally use that when I'm outside'.",
+          "value": "Uses a hydration pack during outdoor activities",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'TNG is my favorite' and discusses multiple Star Trek series in detail.",
+          "value": "Star Trek fan; favourite series is TNG",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've been meaning to catch up on Discovery. I watched like the first half season'.",
+          "value": "Has watched part of Star Trek: Discovery",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just don't use a VPN' when talking about Prolific surveys.",
+          "value": "Does not use a VPN",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains 'I just wear a swimsuit' for outdoor exercise because of heavy sweating.",
+          "value": "Wears a swimsuit for outdoor exercise due to humidity",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Arizona' and clarifies 'not where I'm at is just straight desert'.",
+          "value": "Arizona (desert region)",
+          "lines": [
+            104,
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm wrapping up grad school'.",
+          "value": "Graduate student",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got furloughed because of covid' and also mentions going back to work in person.",
+          "value": "Furloughed worker due to COVID-19",
+          "lines": [
+            114,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b uses Prolific, found it while looking to administer a study; keeps it open on one screen.",
+          "value": "Prolific user (also researcher)",
+          "lines": [
+            188,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I finally got like a mturk account approved'.",
+          "value": "Has an Amazon Mechanical Turk account",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes 'I have like two screens when I'm sitting at my desk'.",
+          "value": "Desk setup with two monitors",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a meeting on the hour' as a reason to finish the chat.",
+          "value": "Has a meeting scheduled on the hour",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b consistently uses 'we' when talking about pets ('we have four dogs and two cats') and TV habits ('we have watched'), implying shared household.",
+          "value": "Lives with at least one other person (partner/family)",
+          "lines": [
+            64,
+            226
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'we have four dogs and two cats'.",
+          "value": "Owns 4 dogs and 2 cats",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'this is the first occasion that puppy has decided that sitting on the bed with the laptop means it's time to eat you'.",
+          "value": "Has a puppy",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes their biggest dog as heat-sensitive and nicknamed 'Death March doughnut'.",
+          "value": "Biggest dog nicknamed 'Death March doughnut'",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is the other participant in the same scheduled chat study with speaker_a, discussing how many chats each has done.",
+          "value": "Participant in a paired chat study with speaker_a",
+          "lines": [
+            14,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'we have watched um Next Generation and we're watching Deep Space Nine right now'.",
+          "value": "Watches Star Trek; completed TNG, currently on DS9",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'put everything into google' for scheduling.",
+          "value": "Uses Google Calendar for scheduling",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I will still be sitting in my house' when school starts, and earlier mentioned returning to work in person, implying home-based activity.",
+          "value": "Works/studies from home",
+          "lines": [
+            40,
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b comments 'I kind of miss using my like, analog planner'.",
+          "value": "Used to use an analog planner",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts 'my first job was a summer camp in Tucson in the daytime like with seven year olds'.",
+          "value": "First job was a summer camp counsellor in Tucson, AZ",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

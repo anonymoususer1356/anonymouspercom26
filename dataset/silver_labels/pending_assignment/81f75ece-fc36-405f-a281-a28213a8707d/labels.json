@@ -1,0 +1,385 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When speaker_b says they are in L.A., speaker_a responds 'Oh me too' and later confirms 'Midtown' when asked which part of L.A.",
+          "value": "Los Angeles (Midtown area)",
+          "lines": [
+            17,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I moved here from san Diego to Like 10 years ago'.",
+          "value": "Moved from San Diego to Los Angeles about 10 years ago",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they went to 'C. F. D.' (an ASR error for UCSD) for grad school in 2008, lived near 'La Hoya' (La Jolla) and later in 'normal heights' (Normal Heights) in San Diego.",
+          "value": "Lived in San Diego (Normal Heights, near La Jolla) during grad school",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm 40'.",
+          "value": "Age 40",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'what's wrong with these white people man' and 'fucking white people', which implies they are not white.",
+          "value": "Likely non-white",
+          "lines": [
+            109,
+            135
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'I did underground art and like a minor in business' (undergrad art).",
+          "value": "Undergraduate degree in art with a minor in business",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did a M. F. A. And visual arts Masters of Fine arts' and earlier mentions attending grad school in 2008 at 'C. F. D.' (UCSD) near La Jolla.",
+          "value": "Master of Fine Arts in visual arts, likely from UCSD",
+          "lines": [
+            23,
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I did another master's degree in film' at USC about 10 years after 2008.",
+          "value": "Master's in film from USC",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I teach college sometimes online and I'm an edit video editor sometimes... I am an artist, I'm a documentary filmmaker'.",
+          "value": "College teacher, video editor, documentary filmmaker",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we're in the film industry'.",
+          "value": "Works in the film industry",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions completing Prolific tasks: 'this is the second one of these I've done'.",
+          "value": "Prolific user",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I lost that job in March' referring to their video editing job.",
+          "value": "Lost video editing job in March",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their documentary filmmaking 'doesn't pay me anything'.",
+          "value": "Unpaid documentary filmmaker",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm going to pay to put them on as advertisements on social media' for their COVID-19 campaign.",
+          "value": "Plans to pay for social media advertising",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'my one of my best friends lives in New Zealand' and 'she's got like two little kids'.",
+          "value": "Best friend in New Zealand with two children",
+          "lines": [
+            81,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have my cousin Who has these two little kids and his wife has cancer now' and mentions the cousin is in Florida.",
+          "value": "Cousin in Florida with two children, wife has cancer",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have like ex boyfriend who is an anti mask guy... from san Diego'.",
+          "value": "Ex-boyfriend from San Diego who is anti-mask",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I still have friends there' referring to San Diego.",
+          "value": "Friends in San Diego",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a repeatedly uses 'we' when discussing the film industry and plans to move to Canada, suggesting a partner/spouse.",
+          "value": "Likely has a partner or spouse in the film industry",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I had a dog once'.",
+          "value": "Previously owned a dog",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I don't have kids, I never wanted them'.",
+          "value": "Childfree by choice",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a dream travel itinerary: 'L.A. to Hawaii to Japan to china to Russia to Egypt to new york'.",
+          "value": "Dreams of traveling the world (L.A. -> Hawaii -> Japan -> China -> Russia -> Egypt -> New York)",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'this is the second one of these I've done' regarding the Prolific conversation.",
+          "value": "Has participated in two Prolific tasks",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in L.A.' and speaker_a confirms 'you're in L.A. with your parents', which speaker_b agrees with; also says they got stuck at parents' home.",
+          "value": "Los Angeles (living with parents)",
+          "lines": [
+            14,
+            16,
+            26,
+            27,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'raised in L.A.'.",
+          "value": "Raised in Los Angeles",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'moved to SAn Diego and I just like high school there'.",
+          "value": "Lived in San Diego during high school",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just moved here from SAn Diego' and 'I just moved here like a few months ago'.",
+          "value": "Moved to Los Angeles from San Diego a few months ago",
+          "lines": [
+            20,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to live really nearby UCSd'.",
+          "value": "Previously lived near UCSD in San Diego",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm going to U.C.L.A. right now'.",
+          "value": "Attends UCLA",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says they started college two years ago and are now a junior, typical age ~20-21.",
+          "value": "Early 20s (college junior)",
+          "lines": [
+            180
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says they attend UCLA and 'I'll probably do E. Con or something'.",
+          "value": "UCLA student, undeclared major likely economics",
+          "lines": [
+            32,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've never been out of the U.S. I've been to like Canada a few times'.",
+          "value": "Never traveled outside the U.S. except Canada",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses the demographic of Prolific users, implying they are a Prolific user.",
+          "value": "Prolific user",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b lives with parents and is a full-time student with no mentioned job, suggesting financial dependence.",
+          "value": "Financially dependent on parents (student)",
+          "lines": [
+            26,
+            27,
+            28,
+            32
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b confirms they are at home with parents after moving back from school when dorms closed.",
+          "value": "Lives with parents",
+          "lines": [
+            26,
+            27,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'have a lot of friends that go [UCSD] right now'.",
+          "value": "Friends at UCSD",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my east Coast friends'.",
+          "value": "Friends on the East Coast",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'Just been stuck at home pretty much as I guess most people are'.",
+          "value": "Stuck at home during the pandemic",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just wanted to travel to the Eu and stuff, but I don't know if that's going to be possible anymore'.",
+          "value": "Wants to travel to Europe",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when I was really young we went like ice fishing up there' in Canada.",
+          "value": "Went ice fishing in Canada as a child",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'been to like Canada a few times in like hiking trips'.",
+          "value": "Taken hiking trips to Canada",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

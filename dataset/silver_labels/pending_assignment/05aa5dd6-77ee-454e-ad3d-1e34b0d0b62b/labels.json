@@ -1,0 +1,460 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 7, speaker_a says 'I'm older' right after asking for speaker_b's name. The ASR output 'older' is phonetically close to 'Olga', a common Russian name. Given that she is from Russia, this is likely her introducing herself with her name.",
+          "value": "Olga",
+          "lines": [
+            7
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in the United States (line 13). She mentions moving to San Antonio for her husband's job (line 243) and describes currently living in a house there with a yard (lines 247-249).",
+          "value": "San Antonio, Texas, USA",
+          "lines": [
+            13,
+            243,
+            247,
+            249
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 243, she says 'we used to live in dollars for work area', where 'dollars' is likely a mishearing of 'Dallas', referring to the Dallas-Fort Worth area in Texas.",
+          "value": "Dallas-Fort Worth area, Texas (former)",
+          "lines": [
+            243
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm from Russia' (line 91) and discusses completing her bachelor's degree there (lines 123-125).",
+          "value": "Russia (origin)",
+          "lines": [
+            91,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 121, she says 'I've been to the stage for 12 years now', which contextually means she has been in the United States for 12 years.",
+          "value": "In the US for 12 years",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm like 36 almost' in line 87.",
+          "value": "About 36 years old",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She repeatedly refers to herself as a mom (line 31) and discusses pregnancy and being a wife (lines 193, 213, 223).",
+          "value": "Female",
+          "lines": [
+            31,
+            193,
+            213,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is from Russia (line 91) and is an immigrant (line 89). She also mentions being an international student (line 221).",
+          "value": "Russian national",
+          "lines": [
+            91,
+            89,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 81, she says 'I got a PhD from Ut Arlington in social work'.",
+          "value": "PhD in social work from UT Arlington",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 123-125, she describes completing a 5-year specialist degree in Russia, equivalent to a bachelor's/master's.",
+          "value": "Specialist degree (5-year) from Russia",
+          "lines": [
+            123,
+            124,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes being a full-time mom and having a part-time work-from-home job doing phone surveys for a market research firm (lines 31-33).",
+          "value": "Full-time mom; part-time phone surveyor for market research firm",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her husband multiple times (e.g., lines 223, 238).",
+          "value": "Married",
+          "lines": [
+            223,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 193, she states one child will turn four in 10 days and the other is 10 months old.",
+          "value": "Mother of two children (ages almost 4 and 10 months)",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In line 203, she says 'I'm an introvert'.",
+          "value": "Introvert",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "In line 31, she describes her part-time job as 'a slightly above minimum wage type thing'.",
+          "value": "Low income from part-time job (slightly above minimum wage)",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She needed a GoFundMe to pay for a $1,500 emergency vet bill, indicating limited savings (lines 295-297).",
+          "value": "Limited savings; relied on crowdfunding for emergency expense",
+          "lines": [
+            295,
+            297
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 223 and 238 mention her husband. He is described as born and raised in Texas (line 243) and working full-time (line 223).",
+          "value": "Husband: American, from Texas, full-time employed",
+          "lines": [
+            223,
+            238,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 193, she states the ages of her children.",
+          "value": "Child 1: almost 4 years old; Child 2: 10 months old",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 275-291, she tells a detailed story about her cat that was sick and nursed back to health.",
+          "value": "Has a male cat (pet)",
+          "lines": [
+            275,
+            281,
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 223, she says during her PhD she had no family or help, indicating no extended family in the US.",
+          "value": "No extended family in the US",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She indicates this is her third time participating in such a study (lines 19, 21, 23, 25).",
+          "value": "Repeat participant in research studies (third time)",
+          "lines": [
+            19,
+            21,
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 73, she says 'I used to work for... Employment Security Commission'.",
+          "value": "Former employment at Employment Security Commission",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 175-183 and 203-211 show she enjoys living alone and needs alone time as an introvert.",
+          "value": "Enjoys living alone; needs alone time",
+          "lines": [
+            175,
+            181,
+            203,
+            207,
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She owns a cat (lines 275).",
+          "value": "Pet owner (cat)",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "In line 12, he says 'I'm right now I'm in south Carolina', and in line 98, 'so I'm in south Carolina now'.",
+          "value": "South Carolina (current temporary location)",
+          "lines": [
+            12,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 98, he says 'I live in Chicago most of the time'.",
+          "value": "Chicago, Illinois (permanent residence)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 102, he states 'I'm originally from California'.",
+          "value": "California (origin)",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 98-100 explain he is staying with his partner in South Carolina during quarantine and plans to return to Chicago in a couple of months.",
+          "value": "Temporarily staying with partner in South Carolina",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a remarks he seems young and the previous participant was in his twenties (line 87), and he graduated undergrad in 2019 (line 114), suggesting an age in the 20s.",
+          "value": "Likely in his 20s",
+          "lines": [
+            87,
+            114
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "In lines 80-82, he states he is a rising second year PhD student at the University of Chicago in a developmental psychology program.",
+          "value": "PhD student in developmental psychology at University of Chicago",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 114, he mentions graduating in 2019 and going straight into his PhD program, indicating a bachelor's degree.",
+          "value": "Bachelor's degree (graduated 2019)",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is a graduate student (lines 80, 82).",
+          "value": "Graduate student",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his partner is male (line 98, 106) and they have been together since undergrad (line 114).",
+          "value": "In a long-term relationship with a male partner",
+          "lines": [
+            98,
+            106,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 198, he says 'I have a younger sibling'.",
+          "value": "Has a younger sibling",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In line 256, he says 'it's really bring my motivation down because it's just like no change of scenery', indicating a low mood or demotivation due to quarantine.",
+          "value": "Feeling demotivated during quarantine",
+          "lines": [
+            256
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Lines 98, 106, 112 describe his partner as being in South Carolina for school, in an astronomy and physics program, and needing to be in person. They have been together since undergrad (line 114).",
+          "value": "Partner: male, graduate student in astronomy and physics in South Carolina",
+          "lines": [
+            98,
+            106,
+            112,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 104, 106 mention his partner lives with roommates.",
+          "value": "Partner lives with roommates",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 148-152 describe a bad experience with a female roommate in Chicago.",
+          "value": "Former roommate in Chicago: female, had a falling out",
+          "lines": [
+            148,
+            150,
+            152,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 198, he discusses helping to raise his younger sibling because his mom worked.",
+          "value": "Younger sibling",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 198 indicates his mother worked, and he took care of his sibling.",
+          "value": "Mother: working during his childhood; he had caregiving responsibilities",
+          "lines": [
+            198
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "In line 16, he says this is his third study.",
+          "value": "Repeat participant in research studies (third time)",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 40-44: he describes doing phone canvassing for political candidates.",
+          "value": "Past experience with phone canvassing",
+          "lines": [
+            40,
+            42,
+            44
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 200: he mentions working in many places with kids as part of his child development program.",
+          "value": "Experience working with children",
+          "lines": [
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 152-156: he expresses excitement about living alone for the first time and preferring his own space.",
+          "value": "Prefers living alone; looking forward to solo studio apartment",
+          "lines": [
+            152,
+            154,
+            156
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 268: he says he might get or foster a cat or dog.",
+          "value": "Considering getting a pet",
+          "lines": [
+            268
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 96 and 100: he plans to do everything virtually for school and is quarantining with his partner in South Carolina.",
+          "value": "Quarantining with partner; temporary relocation",
+          "lines": [
+            96,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 96: he says he can do his research virtually.",
+          "value": "Conducts research virtually during pandemic",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

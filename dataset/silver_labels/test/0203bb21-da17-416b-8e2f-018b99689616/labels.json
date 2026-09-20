@@ -1,0 +1,393 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'charlotte' at the start. Speaker_b also uses the name.",
+          "value": "Charlotte",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in California' at line 73, earlier mentions a charity bike event that 'traveled all through California' (line 43), and attended Hamilton 'in san Francisco' (line 93).",
+          "value": "California",
+          "lines": [
+            43,
+            73,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'a teacher that I used to work with back in Sydney' (line 141), implying she previously lived or worked in Sydney.",
+          "value": "Sydney, Australia",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Charlotte' and the use of 'auntie' (line 29) strongly suggest female gender.",
+          "value": "female",
+          "lines": [
+            3,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states she's 'almost stopped biting my nails' and previously put fingers in mouth, indicating a nail-biting habit.",
+          "value": "had a nail-biting habit, reduced during pandemic",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She explicitly says 'I work for a tech company' and describes recording a presentation for a conference.",
+          "value": "works for a tech company",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'these little chats... a bit of cash here and there' (line 51) and mentions doing studies on Saturday and previous rounds (lines 57,59), indicating she participates in paid online studies likely on Prolific.",
+          "value": "participates in Prolific paid studies",
+          "lines": [
+            51,
+            57,
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she 'scraped together my money even just to have, like a private one on one class' with a yoga teacher (line 141), indicating she spends money on private yoga sessions.",
+          "value": "spends money on private online yoga classes",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'you look so much like my sister' (line 3), directly implying she has a sister.",
+          "value": "has a sister",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Frequent use of 'we' (e.g., 'we used to have cats' line 21), reference to being 'auntie and uncle' to neighbor's puppy (line 29), and mention of 'the people in the house' (line 225) strongly imply she lives with a partner or husband.",
+          "value": "lives with a partner or spouse",
+          "lines": [
+            21,
+            29,
+            225
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She explicitly says 'our next door neighbors got a new puppy' (line 29), establishing a neighbor relationship.",
+          "value": "has next-door neighbors with a new puppy",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a little kid down the street who hugged her (line 225).",
+          "value": "has a young neighbor child who hugged her",
+          "lines": [
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions reconnecting with a yoga teacher she used to work with back in Sydney, now in Singapore, and takes classes from her (line 141).",
+          "value": "has a yoga teacher formerly from Sydney, now in Singapore, from whom she takes online classes",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states she's 'sort of reconnected with a teacher that I used to work with back in Sydney' and takes yoga classes from her, and 'lived in yoga pants for about six months' (lines 141, 145), indicating regular yoga practice.",
+          "value": "practices yoga, takes online classes",
+          "lines": [
+            141,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes recording a presentation 'at this desk' (line 187), which implies she works from home.",
+          "value": "works from home (at least during pandemic)",
+          "lines": [
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'the last show we saw we saw Hamilton in san Francisco' (line 93), showing she attends musicals.",
+          "value": "enjoys musical theater, attended Hamilton in San Francisco",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm involved with the fundraising charity bicycle event' (line 43), indicating participation in a charity cycling event.",
+          "value": "participates in a fundraising charity bicycle event",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching 'Weakest Link' and a show about making a Marilyn Monroe musical (lines 87, 119).",
+          "value": "watches TV shows (e.g., Weakest Link, Marilyn Monroe musical-making show)",
+          "lines": [
+            87,
+            119
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'I'm jennifer' (line 2) and speaker_a calls her Jennifer (line 3).",
+          "value": "Jennifer",
+          "lines": [
+            2,
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She explicitly says 'I'm in Chicago' (line 80) and references 'the first production outside of new york here in Chicago' (line 104).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            80,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm from Detroit originally' (line 160) and mentions her high school is in Michigan (line 192).",
+          "value": "Detroit, Michigan",
+          "lines": [
+            160,
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Jennifer' (line 2) and consistent female pronoun references imply female gender.",
+          "value": "female",
+          "lines": [
+            2
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I'm allergic' to cats (line 24) and 'I just can't live with one like full time' (line 28).",
+          "value": "allergic to cats",
+          "lines": [
+            24,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I was working for a hotel company' and went on furlough in April, department eliminated end of August (line 44).",
+          "value": "worked for a hotel company (furloughed, department eliminated)",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'I used to work for a theater' (line 36).",
+          "value": "previously worked for a theater",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes currently looking for new jobs, having interviews (line 48), and being unemployed since department elimination.",
+          "value": "currently unemployed, actively searching for jobs",
+          "lines": [
+            44,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've always been a saver and a budgeter' and has a 'rainy day fun' (rainy day fund) that she doesn't want to touch (line 48).",
+          "value": "has savings/rainy day fund, considers herself a saver and budgeter",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I still get season tickets' for theater (line 36).",
+          "value": "holds season tickets to theater",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does studies on Prolific over lunch breaks for extra money (line 54) and has completed four conversations with more scheduled (line 60).",
+          "value": "participates in Prolific paid studies",
+          "lines": [
+            54,
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I do live alone now' (line 32).",
+          "value": "lives alone",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has a dog named Elfi (line 25, 90), a black female rescue approximately four years old, adopted three years ago (line 152).",
+          "value": "has a female dog named Elfi (rescue, ~4 years old)",
+          "lines": [
+            25,
+            90,
+            152,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom lives down in florida' (line 80) and later 'my mom now lives in florida' (line 196).",
+          "value": "mother lives in Florida",
+          "lines": [
+            80,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes previously living with a roommate and the roommate's dog named Pippen (lines 154, 156).",
+          "value": "previously lived with a roommate who had a dog named Pippen",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a friend named Ryan who sublet a place nearby and whom she has run into once (lines 218, 220).",
+          "value": "has a friend named Ryan who recently sublet a place in Chicago",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'a friend of mine who is a maybe two years older than I was as the alumni manager for the high school' (line 196), so she has a friend who works as an alumni manager at her former high school.",
+          "value": "has a friend who is an alumni manager at her high school",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states she is 'a big musical theater fan' (line 34), used to work for a theater, has season tickets, and watches recorded performances and movies when she can't go (lines 36, 38).",
+          "value": "enjoys musical theater, holds season tickets, watches recorded performances",
+          "lines": [
+            34,
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I used to volunteer at a shelter that we have here called pause' (likely PAWS) (line 152).",
+          "value": "volunteered at an animal shelter (PAWS Chicago)",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've got a couple of book clubs and we just went via zoom' and she loves to read (line 206).",
+          "value": "participates in book clubs over Zoom, enjoys reading",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'I was getting really into going to the gym early in the year' (line 212), indicating she went to the gym before the pandemic.",
+          "value": "attended gym earlier in the year",
+          "lines": [
+            212
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I worked from home before this' (line 54), so she had a remote work habit prior to the pandemic.",
+          "value": "worked from home before the pandemic",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm also a big baseball fan' and wanted to name a boy dog Tiger for the Detroit Tigers (line 160).",
+          "value": "baseball fan, supports Detroit Tigers",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

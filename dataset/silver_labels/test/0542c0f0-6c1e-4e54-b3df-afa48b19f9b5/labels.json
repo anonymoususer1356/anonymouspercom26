@@ -1,0 +1,390 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'I am a Leonardo' when introducing himself, giving his name.",
+          "value": "Leonardo",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm looking at as well to the east coast on Delaware swear like at 11 on the clock right now,' indicating he is in Delaware.",
+          "value": "Delaware",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'we were in Venezuela, that's where I'm from.'",
+          "value": "Venezuela (origin)",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Leonardo is male, and no feminine self-references appear.",
+          "value": "Male",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states he is from Venezuela.",
+          "value": "Venezuelan",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I went to school and I just study business management' and later calls himself 'the janitor with a bachelor's degree.'",
+          "value": "Bachelor's degree",
+          "lines": [
+            203,
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He describes having passive income from dividend-paying stocks, reinvesting dividends, and living below his investment income, indicating financial independence.",
+          "value": "Financially independent through passive income from dividend stocks (~$1000/month), reinvests dividends, lives below means",
+          "lines": [
+            297,
+            298,
+            299,
+            300,
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'when my dad was sir he was working' referring to his father.",
+          "value": "Father",
+          "lines": [
+            445
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my ankle was up into businesses' likely meaning 'my uncle was into businesses'.",
+          "value": "Uncle",
+          "lines": [
+            445
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He refers to 'my best friend had a car' in Venezuela.",
+          "value": "Best friend (from Venezuela)",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my neighbor told me this' about his car.",
+          "value": "Neighbor",
+          "lines": [
+            537
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I'm an artist, I pain' and later talks about painting for emotional/spiritual reward.",
+          "value": "Artist (painter)",
+          "lines": [
+            199,
+            211,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he enjoys self-help books, mentions Tony Robbins, and talks about looking for free self-help ebooks/audiobooks.",
+          "value": "Enjoys self-help books and motivational speakers like Tony Robbins",
+          "lines": [
+            57,
+            85,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He traded his Mustang for a 'massa' (likely Mazda), a compact, fuel-efficient car, and now drives it.",
+          "value": "Drives a compact, fuel-efficient car (Mazda)",
+          "lines": [
+            527,
+            529
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions using an essential oil to freshen up after waking.",
+          "value": "Uses essential oils",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b directly says 'I'm molly' when asked her name.",
+          "value": "Molly",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She explicitly states 'where I am Cleveland which is east Coast time zone.'",
+          "value": "Cleveland",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they live in an area with 'lots of multi million dollar mansions in our neighborhoods.'",
+          "value": "Lives in a wealthy neighborhood with multi-million dollar mansions",
+          "lines": [
+            476
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Molly, references to being a mother, wife, sister indicate female gender.",
+          "value": "Female",
+          "lines": [
+            14,
+            110,
+            40,
+            544
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I have a 15 year old' son.",
+          "value": "Mother of a 15-year-old son",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my husband' many times.",
+          "value": "Married",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister is 'like 22' and 'like 15 years younger than me', implying she is about 37.",
+          "value": "Approximately 37 years old",
+          "lines": [
+            544
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm not uh teaching as much as I was because coronavirus', indicating she is a teacher.",
+          "value": "Teacher",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes a detailed family financial strategy: living below means, reinvesting all income, aiming for husband to retire at 60 and live off investments, with 401k, mutual funds, and individual stocks.",
+          "value": "Family lives below means, reinvests all income, aims for husband to retire at 60 and live off investments for 30 years; holds 401k, mutual funds, individual stocks (e.g., Costco, BioNTech)",
+          "lines": [
+            302,
+            304,
+            306,
+            338,
+            346,
+            347,
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says it's a patent law firm where her husband works.",
+          "value": "Husband works at a patent law firm",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly mentions 'my husband'.",
+          "value": "Husband",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a 15 year old' son.",
+          "value": "15-year-old son",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her younger sister, saying 'she's significantly younger than me, she's like 22.'",
+          "value": "Younger sister (about 22 years old)",
+          "lines": [
+            544
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my grandparents are nice and they gave her this giant Mercedes.'",
+          "value": "Grandparents",
+          "lines": [
+            548
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My dad did very well in Tesla.'",
+          "value": "Father",
+          "lines": [
+            376
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my very good for matt' (likely 'my very good friend Matt') who is an unemployed professional violist, and later says 'I'll mention it to my friend' about Tony Robbins.",
+          "value": "Friend Matt (violist)",
+          "lines": [
+            62,
+            64,
+            66,
+            580
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she reads whatever her husband brings from the library and watches YouTube recommended by her son, indicating a passive content consumption habit.",
+          "value": "Avid reader, but reads whatever husband brings from library or son recommends",
+          "lines": [
+            40,
+            42,
+            44,
+            106,
+            108,
+            110,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about traveling to less expensive places, practicing Spanish, loving Costa Rica, and hoping to retire abroad.",
+          "value": "Enjoys traveling, prefers less expensive destinations (e.g., Costa Rica, Nicaragua, Venezuela), wants to retire and leave US",
+          "lines": [
+            314,
+            318,
+            398,
+            402,
+            436
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I drink the same thing but with coffee' implying she drinks coffee.",
+          "value": "Drinks coffee",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says of a place 'it's very cloudy which is my P' (likely meaning 'my preference').",
+          "value": "Prefers cloudy weather",
+          "lines": [
+            322
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She insists on all-wheel drive, buys last year's model or used cars to save money.",
+          "value": "Prefers all-wheel drive vehicles, buys last year's model or used to save money",
+          "lines": [
+            510,
+            512,
+            514,
+            516,
+            522,
+            524
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I worked with little Children and so I always work that they can like get dirty' indicating she works with young kids.",
+          "value": "Works with little children",
+          "lines": [
+            560
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "While describing a lab, she says 'I'm too short, I'm standing on the details' (tiptoes).",
+          "value": "Short stature",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she dresses casually for work, looking like a mom who does not care, so children can get dirty.",
+          "value": "Dresses casually for work (so kids can get dirty)",
+          "lines": [
+            560
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

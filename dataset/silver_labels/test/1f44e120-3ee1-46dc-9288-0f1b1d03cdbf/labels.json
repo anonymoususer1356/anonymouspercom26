@@ -1,0 +1,319 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states \"I live in Georgia\" directly.",
+          "value": "Georgia",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I'm in Atlanta so well like suburbs of the band I guess\" where ASR likely produced \"band\" for \"Atlanta\", making it clear they are in the Atlanta area.",
+          "value": "Atlanta area",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says \"I go to college at Penn State\".",
+          "value": "student at Pennsylvania State University",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"Pre med\" when asked what they study.",
+          "value": "pre-med",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I'm only going to undergraduate for two years\" in the context of an accelerated combined program for med school.",
+          "value": "accelerated combined program for medical school",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions \"I had enough ap credits brought in that I'm finishing\" early.",
+          "value": "has AP credits that shortened time to degree",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says \"I get really really red whenever I exercise\".",
+          "value": "gets red when exercising",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says \"I've been in with my family this whole time\" during isolation.",
+          "value": "lives with family",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"my dad works in a hospital\" and later confirms \"He is an anesthesiologist\".",
+          "value": "father is an anesthesiologist",
+          "lines": [
+            33,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I like my roommate\" when discussing dorm living.",
+          "value": "has a roommate at college",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I have a friend who's like considering going to law school\".",
+          "value": "has friend considering law school",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says \"I was able to get out in the morning and go on a run\".",
+          "value": "goes on morning runs",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I might as well study for the am cats\" (ASR error for \"MCAT\").",
+          "value": "studies for MCAT",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says \"I am doing on campus on indoor mia\" (ASR error likely for \"on campus in a dorm\") and mentions liking their roommate, confirming dorm life.",
+          "value": "lives in a dorm",
+          "lines": [
+            226,
+            227,
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says \"for high school my parents sent me to a private school\".",
+          "value": "attended private high school",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says \"I get really really red whenever I exercise\", which is a visible physical change.",
+          "value": "gets red when exercising",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says \"but richard\" which ASR likely mangled from \"Raphael\"; speaker_a immediately says \"Raphael\", suggesting correct name. Context may imply speaker_b's name is Raphael, though not confirmed.",
+          "value": "Raphael",
+          "lines": [
+            12,
+            13
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says \"I live in Los Angeles\".",
+          "value": "Los Angeles",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I live in like Hollywood\".",
+          "value": "Hollywood",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I sort of like I live apart from my family in a different state\".",
+          "value": "lives apart from family",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says \"now I am ... working for google as a consultant ... I I helped them decide the appropriateness of apps for Children\".",
+          "value": "Google consultant for children's app appropriateness",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I ended up being a teacher ... high school english teacher\".",
+          "value": "former high school English teacher",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I went to law school\" and \"at ST johns in new york\" (St. John's University).",
+          "value": "attended St. John's University Law School",
+          "lines": [
+            120,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes taking typing classes on paper and needing carbon copies, indicating school before widespread internet.",
+          "value": "attended school before widespread internet",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says \"my ears get really rough\" and later \"I go straight to like blistered so like I can't even be in the sun\", indicating sun sensitivity and blistering.",
+          "value": "sun sensitivity, blisters easily",
+          "lines": [
+            104,
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says \"I'm a sweater like anything slightly uncomfortable and I'm sweating\".",
+          "value": "sweats easily",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says \"my boyfriend and I own one, we have a smart crockpot\".",
+          "value": "has boyfriend",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"my sister was near them and my sister is now sick\".",
+          "value": "has a sister",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I live apart from my family in a different state\", establishing separation from family.",
+          "value": "lives apart from family",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I've made friends in the building and stuff\".",
+          "value": "has friends in apartment building",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"my dad was a teacher\".",
+          "value": "father was a teacher",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says \"I like my master\" (ASR for \"mask\") and \"you can accessorize and you can like we're different tourism\" (patterns), indicating wearing fashionable masks.",
+          "value": "wears and accessorizes masks",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says \"we have a smart crockpot\".",
+          "value": "owns a smart crockpot",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says \"I'm still waiting for like my my amazon delivery, same day delivery\".",
+          "value": "uses Amazon same-day delivery",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

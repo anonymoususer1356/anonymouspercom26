@@ -1,0 +1,506 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 3, speaker_a says 'Hi, my name is Tommy john'. However, in line 17 she states 'My name is Tanisha', which contradicts the first name. The first name may be a joke, a fake name, or an ASR error. Given the contradiction, certainty is low.",
+          "value": "Tommy John",
+          "lines": [
+            3
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "In line 17, speaker_a clearly states 'My name is Tanisha' when sharing her location. This appears to be her real name.",
+          "value": "Tanisha",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live here in Knoxville Tennessee' in line 17. She later mentions nearby towns such as Crossville, Clinton, and Oak Ridge (though garbled), indicating local knowledge.",
+          "value": "Knoxville, Tennessee",
+          "lines": [
+            17,
+            21,
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states she has children: 'I got two boys and a girl' (line 161) and 'I got a 21 19 and 13' (line 163). This establishes she is a parent of three.",
+          "value": "parent of three children",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In a discussion about hypertension being a COVID-19 risk factor, speaker_a responds 'Which I have' (line 87) when speaker_b mentions high blood pressure. This directly states she has hypertension.",
+          "value": "hypertension (high blood pressure)",
+          "lines": [
+            87,
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I do customer service and I work from home' (line 125) and later 'I'm a customer service rep' (line 187), establishing her occupation.",
+          "value": "customer service representative",
+          "lines": [
+            125,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I work from home too' (line 125), indicating her work arrangement.",
+          "value": "works from home",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 191-195, she explains she works for a company that has about 44 different clients (e.g., Sirius XM, healthcare) and that she is a regular employee, not a contractor. The company name is not given.",
+          "value": "regular employee at a multi-client call center",
+          "lines": [
+            191,
+            193,
+            195
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I did a couple of deliveries to uh Uber eats before the pandemic started' (line 145), indicating a previous side job.",
+          "value": "former Uber Eats delivery driver",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She states 'I got two boys and a girl' (line 161), specifying the genders and number of her children.",
+          "value": "three children (2 boys, 1 girl)",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 163, she says 'I got a 21 19 and 13', giving the ages of her children.",
+          "value": "children aged 21, 19, and 13",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 155: 'He was born in 99. I got a 2001. Yeah, january.' This indicates one child (a son) born in 1999 and another child born in 2001, consistent with the ages.",
+          "value": "son born 1999; child born 2001",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I have family that's in Montgomery Alabama' (line 37), indicating extended family location.",
+          "value": "family in Montgomery, Alabama",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 103, she says 'my daughter's work those, it starts on Wednesday and ends on Tuesday and then on top of it don't end on Tuesday, like in the afternoon it is at 1:00.' This describes her daughter's job schedule.",
+          "value": "daughter has job with Wed-Tue work week ending at 1pm",
+          "lines": [
+            103
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 153: 'my son, my oldest member, it will support team saturday, saturday was his birthday.' She indicates her oldest son's birthday was on a Saturday.",
+          "value": "oldest son's birthday is on a Saturday",
+          "lines": [
+            153
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 125 and 188-189 describe her working from home taking phone calls all day.",
+          "value": "remote customer service worker",
+          "lines": [
+            125,
+            188,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 145 shows she previously delivered for Uber Eats before the pandemic.",
+          "value": "former Uber Eats driver",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 61 and 167 show she has a child in virtual learning and she is considering sending him back.",
+          "value": "manages virtual learning for her child",
+          "lines": [
+            61,
+            167,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In line 2, speaker_b introduces himself: 'my name is brian'. The ASR 'brian' is phonetically Brian.",
+          "value": "Brian",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I live in metro Detroit' in line 4.",
+          "value": "metro Detroit, Michigan",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 44, he says 'I'm in Melvin doubts it's suburban area'. 'Melvin doubts' is an ASR error for Melvindale, a known suburb of Detroit. He also mentions his kids are in Dearborn.",
+          "value": "Melvindale, Michigan",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 46: 'it's a district district that uh rashida Talib represents'. Rashida Tlaib represents Michigan's 13th congressional district, which includes parts of Detroit and suburbs like Dearborn and Melvindale.",
+          "value": "lives in Rashida Tlaib's congressional district",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In line 8, he states 'I'm 60 Today is my birthday. I'm 60 years old.'",
+          "value": "60 years old",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'since I'm divorced' in line 40, establishing his marital status.",
+          "value": "divorced",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 160, he says 'three Kids, 2 Boys and a Girl', describing his children.",
+          "value": "parent of three children (2 boys, 1 girl)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I'm disabled, so I'm on Social Security' in line 124.",
+          "value": "disabled",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I was essential worker' in line 82, indicating his former employment status during the pandemic.",
+          "value": "former essential worker",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Lines 126-128 describe his disability: he takes medication for pain, used a cane, and cannot stand for more than 10 minutes due to back pain.",
+          "value": "chronic back pain and limited mobility",
+          "lines": [
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 82, he says hypertension put him at higher risk for COVID-19, prompting him to take a leave. Though not an explicit 'I have', the context strongly implies he has hypertension. He also mentions 'high blood pressure' in line 86.",
+          "value": "hypertension (high blood pressure)",
+          "lines": [
+            82,
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 128: 'I used to be used a cane get around', indicating past use of a mobility aid.",
+          "value": "used a cane",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Line 40: 'since I'm divorced' states his legal marital status.",
+          "value": "divorced",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 124: 'I'm on Social Security' in context of disability indicates he receives government disability benefits.",
+          "value": "receives Social Security disability benefits",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 124: 'I'm disabled, so I'm on Social Security.' This is his primary source of income.",
+          "value": "Social Security disability income",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 46 he says 'the Panera bread that I was working at' and in line 114 'I was doing delivery', establishing his job at Panera.",
+          "value": "Panera Bread delivery driver (former)",
+          "lines": [
+            46,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 100-102: 'April seven was my last working day.' He stopped working due to health risk.",
+          "value": "last work day at Panera: April 7",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 84: 'they curtailed my employment in june' and stopped paying dental insurance, indicating his employment was terminated.",
+          "value": "employment terminated in June (likely 2020)",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 126: 'the only reason I was working part time was originally was because my son's school needed more money than he could get in financial aid.' He worked to support his son's education.",
+          "value": "worked part-time to help son with college costs",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 196: 'my employer was a company called Computer and Engineering Services and I was there ah when I was at Gm my lawyer was Mascotech.' 'Lawyer' is likely ASR for 'employer' or a staffing firm. This indicates he previously worked at GM as a contractor.",
+          "value": "former contract engineer at General Motors via Computer and Engineering Services and Mascotech",
+          "lines": [
+            196
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 146: 'I was doing that too when there wasn't enough. I wasn't making enough from Panera... I stopped doing that in january.' He did Uber Eats as a side gig.",
+          "value": "former Uber Eats delivery driver (stopped in January)",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 40: 'since I'm divorced'.",
+          "value": "divorced",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 48: 'my ex wife works for different public schools'.",
+          "value": "ex-wife is a public school employee",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 160: states he has three children, two boys and a girl.",
+          "value": "three children (2 boys, 1 girl)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 154: 'That's what's born in 91.' referring to his oldest son. He corrects 'So no My youngest was born in 2001.' This indicates his oldest son was born in 1991.",
+          "value": "oldest son born in 1991",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 154: 'My youngest was born in 2001.' The youngest is a daughter (line 156 'she's my baby').",
+          "value": "youngest daughter born in 2001",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 66: 'she's going to go to eastern michigan university next year' and she is currently in an engineering program at 'university image and they're born' (ASR for University of Michigan-Dearborn). She wants to be a CAD/CAM designer.",
+          "value": "daughter studies engineering, transferring to Eastern Michigan University",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 18: 'My sister is going to move remember the name of this town she said. But the nearest city is Knoxville. She's actually supposed to be there today to close on the house. They're moving up from Alabama.' His sister is relocating.",
+          "value": "sister moving from Alabama to a town near Knoxville, TN, closing on house today",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 122: 'My sister were except Forward' is ASR for 'My sister works for Ford'. He adds 'that's her daughter and they've been working at home', indicating his niece also works there.",
+          "value": "sister and niece work for Ford",
+          "lines": [
+            122
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 40: 'in mobile area... my former brother in law, his wife and their we left.' He indicates a former in-law in Mobile, Alabama.",
+          "value": "former brother-in-law in Mobile, Alabama",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 152: 'saturday was also my oldest son's birthday.' Since he celebrated his birthday on Saturday, it implies they share the same birth date.",
+          "value": "oldest son shares his birthday",
+          "lines": [
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 152-154: 'My son's birthday was Just before that. My daughter's birthday is uh 13 days from now.' This describes the timing of his other children's birthdays relative to his.",
+          "value": "other son's birthday just before his, daughter's birthday 13 days later",
+          "lines": [
+            152,
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 6: 'Set a timer to remind. 25 minutes were gone.' and line 186: 'we only have a minute in a few seconds till we hit 25 minutes' show he is on a platform that limits conversations to 25 minutes.",
+          "value": "uses a timed 25-minute chat platform",
+          "lines": [
+            6,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 126: 'medication so my pain isn't so bad' indicates he takes pain medication regularly.",
+          "value": "takes pain medication",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 152: 'saturday is when we celebrated my birthday' shows he celebrates his birthday with family.",
+          "value": "celebrates birthday with family",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 98-100: He called his boss after reading hypertension was a risk and was taken off the schedule, showing he actively avoided work due to the pandemic.",
+          "value": "stopped working due to COVID-19 risk",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "In line 10, he says 'I just have a young face' when his age is doubted. Speaker_a also expresses surprise at his age (line 15).",
+          "value": "youthful appearance for age 60",
+          "lines": [
+            10,
+            15
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

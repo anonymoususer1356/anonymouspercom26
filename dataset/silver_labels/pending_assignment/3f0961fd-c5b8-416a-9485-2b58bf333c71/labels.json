@@ -1,0 +1,429 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself directly after speaker_b gives his name.",
+          "value": "Elliot",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states being in Southern California, Orange County area, near Fullerton, and that UC Irvine is in his city. He also mentions attending elementary school in Irvine. Together these imply his current city is Irvine.",
+          "value": "Irvine, Orange County, California",
+          "lines": [
+            9,
+            15,
+            66,
+            69,
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says he is a freshman at UC Berkeley and will study economics.",
+          "value": "freshman at UC Berkeley majoring in economics",
+          "lines": [
+            25,
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states he had a part-time job that ended because of the coronavirus.",
+          "value": "lost part-time job due to COVID-19",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does online surveys/studies for pocket money and has earned about $100-$150 in a month.",
+          "value": "earns pocket money via online surveys/studies, approximately $100-$150 per month",
+          "lines": [
+            237,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions flipping items on eBay for extra money.",
+          "value": "resells items on eBay for extra income",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In high school speaker_a ghost wrote novels for clients, producing ~2000 words/week at 3 cents/word for about a year.",
+          "value": "worked as a ghost writer of novels in high school, earning ~$60/week",
+          "lines": [
+            211,
+            213,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains that a key factor in choosing Berkeley was the much lower in-state tuition compared to out-of-state schools like Emory.",
+          "value": "chose Berkeley partly because in-state tuition was significantly cheaper than out-of-state options",
+          "lines": [
+            333
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a shares that his father went to UCLA.",
+          "value": "father attended UCLA",
+          "lines": [
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has a friend at the University of Notre Dame who caught COVID-19.",
+          "value": "has a friend attending University of Notre Dame",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a regularly plays games with friends and uses online gaming to stay in touch.",
+          "value": "has a regular group of friends for online gaming",
+          "lines": [
+            61,
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a plays clarinet, has done so for 8 years, and performed in All-State bands.",
+          "value": "plays clarinet (8 years), previously in All-State bands",
+          "lines": [
+            71,
+            73,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a acknowledges playing League of Legends and Overwatch, primarily online with friends.",
+          "value": "plays online multiplayer games, specifically League of Legends and Overwatch",
+          "lines": [
+            33,
+            35,
+            37,
+            61,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists the genres he listens to: rap, classical, breakcore, electronic dance music.",
+          "value": "listens to a wide range of music: rap, classical, breakcore, electronic",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having had weekly orchestral practices at UC Irvine in the past.",
+          "value": "used to attend orchestral practices at UC Irvine weekly",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he enjoys watching people play single-player RPGs like Uncharted.",
+          "value": "enjoys watching single-player RPG gameplay, e.g., Uncharted",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he is on Reddit a lot and found the current study through the beermoney subreddit.",
+          "value": "active on Reddit, uses r/beermoney to find side gigs",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he uses Prolific for academic surveys.",
+          "value": "uses Prolific survey platform",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions purchasing headphones for communication and using them for interviews.",
+          "value": "uses headphones for online communication and interviews",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says this is his first time participating in this type of paid conversation/study.",
+          "value": "first time participating in this type of paid online conversation/study",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses hope of moving to the Berkeley campus next semester.",
+          "value": "planning to move to Berkeley for on-campus classes next semester",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as Todd at the start of the conversation.",
+          "value": "Todd",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b explicitly says he lives in Arizona.",
+          "value": "Arizona",
+          "lines": [
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he lived in San Francisco for about 10 years.",
+          "value": "lived in San Francisco for 10 years",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b attended USC, which is located in Los Angeles, and describes the surrounding neighborhood.",
+          "value": "previously lived in Los Angeles while attending USC",
+          "lines": [
+            10,
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says he studied drama at USC.",
+          "value": "studied drama at University of Southern California (USC)",
+          "lines": [
+            144,
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm a screenwriter'.",
+          "value": "screenwriter",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'because I'm a raging lives', which phonetically matches 'raging liberal' in the context of living in San Francisco; speaker_a responds 'exactly'. The ASR likely misheard 'liberal' as 'lives'.",
+          "value": "raging liberal (ASR: 'raging lives')",
+          "lines": [
+            30
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes having a stroke or accident in his 20s that left him paralyzed on the left side and unable to play guitar due to loss of finger dexterity.",
+          "value": "had a stroke/accident causing left-side paralysis and impaired finger movement",
+          "lines": [
+            112,
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says his girlfriend is supporting them financially, so any extra money he brings in helps.",
+          "value": "financially supported by girlfriend",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions using Swagbucks and once receiving $150 for a political roundtable video webcam study.",
+          "value": "supplements income with online surveys and tasks, e.g., Swagbucks, once earned $150 from a political study",
+          "lines": [
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is a screenwriter with a couple of projects currently in progress, indicating that writing is his primary occupation.",
+          "value": "screenwriter currently working on multiple projects",
+          "lines": [
+            322,
+            324
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his girlfriend supports them.",
+          "value": "has a girlfriend",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has a friend who teaches theater at UC Irvine.",
+          "value": "has a friend who teaches theater at UC Irvine",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his mother believes COVID-19 is a hoax.",
+          "value": "has a mother who believes COVID-19 is a hoax",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a buddy whose son is heavily into League of Legends.",
+          "value": "has a buddy whose son is heavily into League of Legends",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he played trumpet in grade school up to 4th/5th grade, then joined choir.",
+          "value": "played trumpet in grade school, then sang in choir",
+          "lines": [
+            74,
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he used to play guitar in his 20s but stopped after a stroke.",
+          "value": "played guitar in his 20s but stopped due to stroke",
+          "lines": [
+            110,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he now creates electronic music with a keyboard and software like Logic.",
+          "value": "creates electronic music using MIDI keyboard and Logic software",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes himself as a 'huge prince fan' who owns bootlegs.",
+          "value": "huge Prince fan, collected bootlegs",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he put 1000 hours into Skyrim.",
+          "value": "played Skyrim extensively (1000+ hours)",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he writes screenplays and currently has a couple of projects.",
+          "value": "writes screenplays as a primary creative activity",
+          "lines": [
+            322,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a Google Cardboard VR headset.",
+          "value": "owns and uses Google Cardboard VR headset",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he signs up for many online platforms like UserTesting and Cambly but rarely follows through.",
+          "value": "signs up for various online gig platforms but often does not complete tasks",
+          "lines": [
+            260,
+            316
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he doesn't like people very much and avoids multiplayer games.",
+          "value": "avoids multiplayer games, prefers single-player experiences",
+          "lines": [
+            178
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

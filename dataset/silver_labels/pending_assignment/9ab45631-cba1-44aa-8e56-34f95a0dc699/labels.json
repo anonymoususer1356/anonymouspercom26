@@ -1,0 +1,456 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states her name clearly: 'My name is Julia.' The following 'lucy' is garbled.",
+          "value": "Julia",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in Louisiana' and later mentions Lafayette when discussing the job market. She also implies she is in the central time zone.",
+          "value": "Lafayette, Louisiana (central time zone)",
+          "lines": [
+            29,
+            257,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'Well from texas' and 'we're both from texas'.",
+          "value": "originally from Texas",
+          "lines": [
+            33,
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She is referred to with female-coded language (e.g., 'all girls'), and speaker_b later calls her 'pretty'. The conversation makes it clear she is a woman.",
+          "value": "female",
+          "lines": [
+            23,
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I hear your accent, I like it', confirming a noticeable regional accent.",
+          "value": "Southern American accent",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm very liberal in a very Republican area' and describes volunteering for the Biden campaign.",
+          "value": "politically liberal, Biden supporter",
+          "lines": [
+            53,
+            229,
+            230,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she 'grew up riding rodeo' and 'competed writing professional rodeo' (competed in professional rodeo).",
+          "value": "former professional rodeo rider",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Describes herself as 'super paranoid' about COVID, did not send kids to school, and feels angry at maskless people.",
+          "value": "high COVID-related anxiety",
+          "lines": [
+            53,
+            57,
+            59,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm really big into exercise' and believes movement is essential.",
+          "value": "physically active, exercises regularly",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She mentions her husband is a mechanical engineer, and he is the primary earner while she homeschools the kids.",
+          "value": "husband is a mechanical engineer",
+          "lines": [
+            143,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She participates in online surveys on Prolific and previously mturk for small income, mentioning she's been on Prolific 'three or 4 weeks'.",
+          "value": "earns money from online surveys",
+          "lines": [
+            179,
+            181,
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my husband' and describes his profession and attitudes.",
+          "value": "married to a mechanical engineer",
+          "lines": [
+            143,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She provides ages 'six and 9' and then confirms 'two boys'.",
+          "value": "mother of two sons, ages 6 and 9",
+          "lines": [
+            143,
+            144,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My family is still in texas, my mom's a little loosey goosey with it'.",
+          "value": "mother lives in Texas",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her sister as obese and mentions she did texting for Biden.",
+          "value": "has a sister who is obese and politically active",
+          "lines": [
+            205,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tells how her dad had brain cancer for years and used yoga to help.",
+          "value": "father had brain cancer",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she didn't put her kids in school and describes teaching them during the day.",
+          "value": "homeschools her children during the pandemic",
+          "lines": [
+            57,
+            151,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She suggests making a cake with the kids for Thanksgiving.",
+          "value": "enjoys cooking or baking with children",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She does online surveys on Prolific, which she found via Reddit.",
+          "value": "participates in online surveys on Prolific",
+          "lines": [
+            179,
+            181,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes making phone calls for Biden to Georgia, Florida, and Pennsylvania.",
+          "value": "volunteered for Biden campaign phone banking",
+          "lines": [
+            229,
+            230,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says for weekly groceries she does online pickup to limit in-store time.",
+          "value": "uses online grocery pickup",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She speaks enthusiastically about Louisiana's culture, history, and Mardi Gras.",
+          "value": "enjoys Louisiana culture and history",
+          "lines": [
+            271,
+            275,
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'you're really pretty, I love your hair' in a direct video-call compliment.",
+          "value": "described as pretty with nice hair",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Her line 'leah, my name's literacy only' is garbled, but 'Leah' is clearly the intended name (likely 'my name's actually Leah').",
+          "value": "Leah",
+          "lines": [
+            244
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked about time zone, she says 'I'm in colorado'.",
+          "value": "Colorado",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was born in Washington state but raised in Colorado.",
+          "value": "born in Washington state, raised in Colorado",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She refers to herself as a 'girl', has a boyfriend, and the context shows she is female.",
+          "value": "female",
+          "lines": [
+            35,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses pro-science, anti-misinformation views, clashed with a Trump supporter, and thanks speaker_a for Biden volunteering, indicating liberal alignment.",
+          "value": "politically liberal, Biden supporter",
+          "lines": [
+            226,
+            234,
+            92,
+            98
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I've had really severe chronic fatigue and insomnia and just a lot of issues recently that made it really hard to work'.",
+          "value": "severe chronic fatigue and insomnia",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as 'naturally more socially anxious' and 'kind of awkward in general'.",
+          "value": "social anxiety",
+          "lines": [
+            222,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is 'way more paranoid' about COVID, considers not going to stores, and aims to get the vaccine without getting COVID.",
+          "value": "high COVID-related anxiety",
+          "lines": [
+            44,
+            136,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states yoga 'helps me a lot' and she copes with 'physical and mental health symptoms' through it.",
+          "value": "uses yoga to manage physical and mental health symptoms",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she is looking for flexible remote work, cannot work due to health, and that her boyfriend works as a graphic designer.",
+          "value": "unemployed, seeks remote work; relies on boyfriend's income as graphic designer",
+          "lines": [
+            194,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She does surveys on Prolific and has used other low-paying survey sites for income.",
+          "value": "earns small income from online surveys",
+          "lines": [
+            186,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly mentions 'my boyfriend', lives with him, and says he is a graphic designer from Florida.",
+          "value": "lives with boyfriend, a graphic designer",
+          "lines": [
+            44,
+            76,
+            196,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are about 45 minutes away from his mother.",
+          "value": "boyfriend's mother lives about 45 minutes away",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes arguments with his 22-year-old sister who believes COVID is a hoax and shared microchip conspiracy theories.",
+          "value": "boyfriend's sister is a 22-year-old COVID hoaxer",
+          "lines": [
+            70,
+            72,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her grandmother who went back to Arizona, whose partner broke both legs, and whom she stayed with earlier in the year.",
+          "value": "grandmother lives in Arizona, has an injured partner",
+          "lines": [
+            214,
+            216,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her mom was never into exercise.",
+          "value": "mother was not physically active",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is working on a yoga teacher certification online and practices yoga regularly.",
+          "value": "practices yoga and pursuing online yoga teacher certification",
+          "lines": [
+            196,
+            198,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we like cooking together' with her boyfriend.",
+          "value": "enjoys cooking with boyfriend",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is highly COVID-cautious, considering stopping store visits and switching to online pickup.",
+          "value": "highly COVID-cautious, limits store visits",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I see I'm on reddit a lot'.",
+          "value": "frequent Reddit user",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She participates in Prolific surveys and has done other online gig work.",
+          "value": "participates in online surveys on Prolific",
+          "lines": [
+            186,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the video calls are good practice for her social anxiety, making random stranger interactions.",
+          "value": "uses video call studies as social anxiety exposure",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses a desire to become more politically involved, especially locally.",
+          "value": "aspires to be more politically active locally",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

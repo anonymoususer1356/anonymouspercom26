@@ -1,0 +1,504 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as 'sunny' in line 13.",
+          "value": "Sunny",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in New Jersey right now' (line 21) and 'I ended up here for a while' (line 37). She also confirms being there for three years (line 155).",
+          "value": "New Jersey",
+          "lines": [
+            21,
+            37,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up here' (line 41) referring to New Jersey.",
+          "value": "New Jersey (grew up)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I lived in san Francisco for a long time' (line 31) and 'That's where I used to live' (line 37).",
+          "value": "San Francisco, California",
+          "lines": [
+            31,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've lived there for short parents [periods]' (line 235) referring to England.",
+          "value": "England",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about proximity to the city, speaker_a replies 'about, I don't know, like an hour on the train' (line 139). The context from line 138 establishes the city is New York City.",
+          "value": "about an hour by train from New York City",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been here for now like three years' (line 155) indicating how long she has been back in New Jersey.",
+          "value": "about 3 years in current location",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes visiting Victoria, BC, for an evening during an Alaskan cruise (lines 273, 275, 277).",
+          "value": "Victoria, British Columbia, Canada",
+          "lines": [
+            273,
+            275,
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a tells speaker_b 'I'm quite a bit older than you' (line 205).",
+          "value": "older than speaker_b",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a references 'well after college' (line 205) implying she attended college.",
+          "value": "attended college",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I have cancer and chemo and all that' (line 143).",
+          "value": "cancer, chemotherapy",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am unfortunately in that susceptible category that you know at risk category because I have cancer and chemo' (line 143) and 'I have to sort of be a little more careful' (line 145).",
+          "value": "at-risk for COVID-19",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'now I've been working online a little bit' (line 201).",
+          "value": "does online work",
+          "lines": [
+            201
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'Probably not back to san Francisco. It's a little pricey for me there' (line 43).",
+          "value": "finds San Francisco too expensive",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she didn't have a computer until about six months ago and previously relied on her iPhone (line 199).",
+          "value": "no personal computer until ~6 months ago; used iPhone",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says she went on a trip with her parents for their anniversary (lines 275-276).",
+          "value": "has married parents",
+          "lines": [
+            275,
+            276
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I had this online friend who lives in Australia' (line 253).",
+          "value": "online friend in Australia",
+          "lines": [
+            253
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I did live on my own and cook my own food' (line 107).",
+          "value": "previously lived independently",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes becoming one of those cooking covid people, learning to bake bread, and making a galette (lines 85, 87, 89, 91).",
+          "value": "pandemic cooking/baking hobby",
+          "lines": [
+            85,
+            87,
+            89,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'there's never much of a outdoor person anyway' (line 79).",
+          "value": "not an outdoor person",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm not a big holiday person... family holiday stuff to me feels very stressful' (line 317).",
+          "value": "dislikes holidays",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses playing an interior decorating game on her iPhone (lines 183, 193).",
+          "value": "plays interior design game on iPhone",
+          "lines": [
+            183,
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I've been walking a lot too' especially in fall (line 147).",
+          "value": "enjoys walking in fall",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a expresses a strong desire to live in Spain, specifically Barcelona (lines 235, 237) and notes her night-person preference aligns with Spain (line 283).",
+          "value": "wants to move to Barcelona, Spain",
+          "lines": [
+            235,
+            237,
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been most States' (line 27).",
+          "value": "has traveled to most U.S. states",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about architect Gaudi, spells his name, and wants to see his buildings (lines 291, 295, 297).",
+          "value": "knowledgeable about architect Gaudi",
+          "lines": [
+            291,
+            295,
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I don't really have the big game console' (line 193).",
+          "value": "does not own a game console",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a night person' (line 283) and that 10 o'clock feels like mid-afternoon (line 285).",
+          "value": "night person",
+          "lines": [
+            283,
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I am ever nice to meet you' (line 14), which is likely a misrecognition of a name (e.g., Avery).",
+          "value": "Ever (likely Avery)",
+          "lines": [
+            14
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in Iowa actually' (line 22), 'I just came back to Iowa... to live with my parents' (line 34), and 'I'm living with my parents now' (line 74).",
+          "value": "Iowa (with parents)",
+          "lines": [
+            22,
+            34,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was living in the Mission district' (line 34) and mentions living in the city (line 32).",
+          "value": "San Francisco, Mission District",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'working in uh like South Bay' (line 32).",
+          "value": "South Bay, California",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've actually spent a couple of months of my life in Toronto enjoyed a lot, a couple of days in Vancouver as well' (line 264).",
+          "value": "Toronto and Vancouver, Canada",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'graduated from college last year' (line 32).",
+          "value": "college graduate",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm quite a bit older than you' (line 205), establishing speaker_b is younger.",
+          "value": "younger than speaker_a",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her knowledge of Spain comes from 'spanish class back in like high school' (line 288).",
+          "value": "took Spanish in high school",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like definitely remember map quest before google mass wizard thing and like a O L' (line 232).",
+          "value": "remembers MapQuest and AOL",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom usually um cooks like chinese food which is kind of where she learned to cook' (line 124), suggesting possible Chinese heritage.",
+          "value": "possibly Chinese descent",
+          "lines": [
+            124
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes work stress piling up, exacerbated by remote work (line 324).",
+          "value": "work-related stress",
+          "lines": [
+            324
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she hasn't been outside the house in the last month to avoid exposing her at-risk parents (line 74).",
+          "value": "staying home to protect parents",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm actually working' (line 30) and 'I've gone toward remote' (line 34).",
+          "value": "employed, works remotely",
+          "lines": [
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually get next week off from work as well' (line 120) and implies it is a full week off (line 322).",
+          "value": "has a week off work",
+          "lines": [
+            120,
+            322
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions that the lenses needed for architectural photography are 'the most expensive' and cost 'A couple of $1000 age' (lines 304, 308).",
+          "value": "finds photography lenses very expensive",
+          "lines": [
+            304,
+            308
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b states she lives with her parents (lines 34, 74).",
+          "value": "lives with parents",
+          "lines": [
+            34,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her mother as micromanaging and bossy in the kitchen, and that she cooks Chinese food (lines 100, 102, 104, 124).",
+          "value": "mother is a bossy cook",
+          "lines": [
+            100,
+            102,
+            104,
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she was on a college dance team (line 62) and a competitive team outside work (line 66).",
+          "value": "former college dance team member",
+          "lines": [
+            62,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've had some friends actually exchanged and England for like a quarter or term base' (line 240).",
+          "value": "has friends who studied abroad in England",
+          "lines": [
+            240
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she did a lot of competitive dancing outside of work before the pandemic (line 66).",
+          "value": "competitive dancer",
+          "lines": [
+            66
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she's been playing a lot of video games since quarantine started, specifically MMORPGs and Among Us (lines 160, 164, 166).",
+          "value": "plays MMORPGs and Among Us",
+          "lines": [
+            160,
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she started picking up photography and wanted to do architectural photography (line 302).",
+          "value": "amateur architectural photographer",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'So I'm a big fan of like snow and rain' (line 150).",
+          "value": "likes snow and rain",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions considering moving to Canada or New Zealand (line 238) and sees Canada as a nice middle ground (line 242).",
+          "value": "considering moving to Canada or New Zealand",
+          "lines": [
+            238,
+            242
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b plans to make guacamole and Mexican tacos next week (line 124).",
+          "value": "planning to cook guacamole and tacos",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says something like 'I'm not making a mobile person' (line 196), likely meaning she is not a mobile gamer.",
+          "value": "not a mobile gamer",
+          "lines": [
+            196
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

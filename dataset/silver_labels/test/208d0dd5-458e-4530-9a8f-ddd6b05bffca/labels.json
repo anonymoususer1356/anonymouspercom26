@@ -1,0 +1,329 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Ohio' when asked what part of the country she is in.",
+          "value": "Ohio",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a talks about her kids in kindergarten and second grade, mentions 'my kids', 'my son', 'my daughter', and 'my husband', indicating she is a mother. The fact she is a mother implies female gender.",
+          "value": "mother of two children (kindergarten and second grade)",
+          "lines": [
+            5,
+            9,
+            47,
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she has 'a part time side gig thing' that is flexible, and later mentions enjoying Prolific surveys as a 'side hustle', suggesting she uses Prolific for income.",
+          "value": "participates in paid online surveys and tasks (Prolific) as a flexible side gig",
+          "lines": [
+            43,
+            279,
+            285
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states her husband was working from home until last month, but then was called back to the office where he sits alone, indicating he is employed in an on‑site office job that contributes to her household economy.",
+          "value": "spouse employed in an office job (required to be on‑site)",
+          "lines": [
+            131,
+            133,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my husband' multiple times.",
+          "value": "husband",
+          "lines": [
+            57,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has a kindergartener and refers to 'my son' who is in kindergarten.",
+          "value": "son in kindergarten",
+          "lines": [
+            17,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her daughter in second grade (via 'kindergarten in second' and 'my second graders teacher').",
+          "value": "daughter in second grade",
+          "lines": [
+            9,
+            47,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my mother in law is about 3.5 hours away too'.",
+          "value": "mother-in-law living about 3.5 hours away",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'our kids have one kid that lives next door is the same age as my daughter', indicating a neighbour child who is a playmate.",
+          "value": "neighbour child (same age as daughter, playmate)",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she just finished homeschooling with virtual schooling with her kids, and that she is 'basically in kindergarten the whole day' supervising her son, indicating she is an at‑home parent overseeing remote learning.",
+          "value": "at‑home parent supervising remote learning for kindergarten and second grade children",
+          "lines": [
+            5,
+            9,
+            13,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she hasn't gone out to eat dinner in months, meets one friend outside six feet apart occasionally, and her kids play with the neighbour child with masks and staying two feet apart, indicating a cautious COVID‑19 social approach.",
+          "value": "cautious about COVID‑19: avoids indoor dining, limited to outdoor distanced socializing, children play masked outdoors",
+          "lines": [
+            147,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she hasn't gotten to the point of allowing sleepovers, preferring not to pretend everything is normal.",
+          "value": "does not allow sleepovers for children",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My father went to Girl Scouts last night' – ASR error for 'My daughter' given she is a mother and the context is about her child seeing other kids at Girl Scouts in an outdoor pavilion. The intended term is 'daughter'.",
+          "value": "daughter attends Girl Scouts",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states they are in New York state, up on the Canadian border, half an hour from the border, in a little college town, seven hours from NYC, near Ottawa, Ontario. She also mentions the 1000 Islands area and that her husband's parents have a summer place there.",
+          "value": "Upstate New York near Canadian border (half hour drive), in a college town, about 7 hours from New York City, close to Ottawa, Ontario",
+          "lines": [
+            84,
+            86,
+            88,
+            98,
+            106,
+            108,
+            118,
+            120,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says they have four kids and details them: pre‑K daughter, third grade daughter, sixth grade son, and a two‑year‑old son. She also mentions her husband, indicating she is a mother.",
+          "value": "mother of four children: pre‑K daughter, third grade daughter, sixth grade son, two‑year‑old son",
+          "lines": [
+            22,
+            24,
+            26,
+            68,
+            74,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states she works from home with flexible hours, and says her job is 10 to 25 hours per week, with the ability to choose how many hours up to 25.",
+          "value": "part‑time remote job (10–25 hours/week, flexible)",
+          "lines": [
+            32,
+            268,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions she started doing Prolific studies in March/April and continues to do paid online surveys and chat tasks (she has done several).",
+          "value": "participates in paid online studies (Prolific) including chat tasks",
+          "lines": [
+            266,
+            272,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my husband works at a university', implying household income from his job.",
+          "value": "spouse employed at a university",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' and says he works at a university.",
+          "value": "husband",
+          "lines": [
+            108,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my daughter who is in pre K' and talks about her pre‑K experience.",
+          "value": "pre‑K daughter (first year of school)",
+          "lines": [
+            68,
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a third grader and uses 'she' when referring to the third grader (line 238), indicating a daughter.",
+          "value": "third grade daughter",
+          "lines": [
+            26,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about her sixth grader being home and helping, and calls him 'my son'.",
+          "value": "sixth grade son",
+          "lines": [
+            32,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the youngest is only two. So he's at home with me.', indicating a two‑year‑old son.",
+          "value": "two‑year‑old son (at home)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions visiting 'my parents' outside and staying in a hotel.",
+          "value": "parents",
+          "lines": [
+            142,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about her in‑laws (husband's parents) who are in their eighties, go out to dinner, and have a summer place in the 1000 Islands.",
+          "value": "in‑laws (husband's parents)",
+          "lines": [
+            118,
+            122,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a few of my siblings have kids in kindergarten' and mentions her sister sent a picture.",
+          "value": "siblings, including sister with kindergarten‑age children",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my sister in law was saying they kind of have similar' regarding neighbour situation.",
+          "value": "sister‑in‑law",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes managing hybrid schooling for her three school‑age kids with different schedules, and working from home flexibly, while the sixth grader sometimes helps with the toddler.",
+          "value": "balances remote part‑time work with supervising children's hybrid school schedules",
+          "lines": [
+            26,
+            28,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they live three miles outside of town, neighbour has 100 acres, and they used to go across the border to Canada for museums, shopping, and an indoor pool, but the border closed in March.",
+          "value": "lives in rural area (3 miles outside town) near Canadian border, previously frequented Canada for pool and museums",
+          "lines": [
+            86,
+            88,
+            98,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions they don't take four kids out to eat, don't have babysitters, require masks for playdates, had kids wear multiple masks at school, followed school symptom protocols and got rapid COVID tests when kids had colds, and avoided sleepovers.",
+          "value": "cautious about COVID‑19: avoids indoor dining, no babysitters, outdoor masked playdates only, adheres to school symptom rules with rapid testing, no sleepovers",
+          "lines": [
+            148,
+            174,
+            176,
+            210,
+            212,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

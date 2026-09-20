@@ -1,0 +1,356 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm just over here in north Carolina' (line 11). He also mentions moving from Ohio to North Carolina about eight years ago (line 13).",
+          "value": "North Carolina",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we came down from Ohio' and refers to Ohio as where they lived before (lines 13, 61, 67).",
+          "value": "Ohio (previous residence)",
+          "lines": [
+            13,
+            61,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to 'my wife' (line 191), strongly implying male gender.",
+          "value": "male",
+          "lines": [
+            191
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife' (line 191), indicating he is married.",
+          "value": "married",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes putting money into a mutual fund as a 'get rich slow scheme' (line 211).",
+          "value": "has invested in a mutual fund",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts trying a roulette strategy with $200 at a casino (line 211).",
+          "value": "gambled $200 at a casino",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I delivered food on campus' (line 121), indicating a past job as a food delivery driver.",
+          "value": "past job as food delivery driver on a college campus",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a uses Prolific and mentions his wife installed the Prolific Assistant extension; he checks the platform during downtime (lines 191, 249).",
+          "value": "uses Prolific platform for extra income via studies",
+          "lines": [
+            191,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my wife' (line 191).",
+          "value": "wife",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a tells a story about a male friend who lived with them and tried to buy a house in Atlanta (line 53).",
+          "value": "friend (male) who lived with speaker_a and considered buying a house in Atlanta",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a female roommate who started converting a van but never finished (lines 155-157).",
+          "value": "female roommate who attempted van conversion",
+          "lines": [
+            155,
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I like to play a little guitar sometimes' (line 117).",
+          "value": "plays guitar occasionally",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes playing GeoGuessr (lines 167-171).",
+          "value": "plays the online game GeoGuessr",
+          "lines": [
+            167,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions living out of his Prius for short trips (lines 141, 163).",
+          "value": "has slept in his Prius during short out-of-town trips",
+          "lines": [
+            141,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we don't get out much' and that even before Covid they were homebodies (line 15).",
+          "value": "homebody, rarely goes out",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names Bob Dylan as a role model and admires his songwriting (line 113).",
+          "value": "fan of Bob Dylan",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he traveled around in his twenties (line 163).",
+          "value": "did some traveling in his twenties",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'I'm jeanne' (line 6) after speaker_a addresses her as Mark; the ASR output 'jeanne' is taken as her name, likely Jeanne or Jean.",
+          "value": "Jeanne",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm coming from Georgia' (line 8). Speaker_a later asks 'where were you before Georgia?' (line 27), implying Georgia is her current location. She also describes the hot, humid weather 'here' (lines 56, 58), consistent with Georgia, and says she moved to the east coast a few months ago (line 12). Georgia is on the east coast.",
+          "value": "Georgia",
+          "lines": [
+            8,
+            12,
+            27,
+            56,
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states she lived in California basically her whole life, specifically the L.A. area (lines 28, 30).",
+          "value": "Los Angeles area, California (previous residence)",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just moved here like a few months ago' (line 12) and 'a couple of weeks before we moved over here, we were living in a van' (line 138), indicating a recent move to her current location.",
+          "value": "moved to current location a few months ago",
+          "lines": [
+            12,
+            138
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b introduces herself with the typically female name Jeanne and refers to 'my husband' (line 120).",
+          "value": "female",
+          "lines": [
+            6,
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her mother grew up in the Philippines and immigrated to the US (lines 102-104, 108), indicating Filipino heritage.",
+          "value": "Filipino heritage (mother from the Philippines)",
+          "lines": [
+            102,
+            103,
+            104,
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my husband' (line 120).",
+          "value": "married",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went back to school ... so I can get my associates degree in library Sciences' (line 184).",
+          "value": "currently pursuing an associates degree in library sciences",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she came into college in 2016 (line 88).",
+          "value": "started college in 2016",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been working the library' (line 186), indicating employment at a library.",
+          "value": "works at a library",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has been on Prolific for over a year (line 250) and discusses using it for studies.",
+          "value": "uses Prolific platform to earn money from studies",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being paid $30 for a study (line 254).",
+          "value": "received $30 for completing a study",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' (line 120).",
+          "value": "husband",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her mother's background: grew up in the Philippines, family was poor and farmed; her grandmother became a nurse; her mother immigrated to the US and built a good life (lines 102-108).",
+          "value": "mother, a Filipino immigrant and nurse",
+          "lines": [
+            102,
+            103,
+            104,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her grandmother had 'six or 7 kids including my mom' and later says 'me and my siblings' (line 108), indicating she has siblings.",
+          "value": "siblings (multiple)",
+          "lines": [
+            104,
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'we were living in a van' before moving to their current location (line 138).",
+          "value": "lived in a van with husband",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists 'travel into van again' as a bucket list item (line 136).",
+          "value": "wants to travel by van again",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to play piano, but now I don't have one since I moved' (line 120).",
+          "value": "used to play piano",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked what one item she would bring to a desert island, speaker_b says 'like it journal' (line 128), meaning a journal.",
+          "value": "enjoys journaling / would bring a journal to a desert island",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't really followed any news' regarding the Georgia recount (line 24).",
+          "value": "does not closely follow news",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

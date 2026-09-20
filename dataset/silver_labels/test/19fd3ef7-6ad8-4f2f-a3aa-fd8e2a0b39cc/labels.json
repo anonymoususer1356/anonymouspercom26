@@ -1,0 +1,228 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 7 speaker_a says 'Melissa. My name's to uh meet you too.' introducing herself as Melissa. At line 257 she says 'well it was nice talking to you melissa,' likely addressing speaker_b by mistake, but together with her own introduction confirms her name is Melissa.",
+          "value": "Melissa",
+          "lines": [
+            7,
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in the U.S. Midwest (lines 9,11,61), from the suburbs (line 13), goes to Purdue university (line 95), lives in a regular suburban neighborhood (line 89), and references Indiana as her state (line 189). These combine to place her in Indiana, suburban area near Purdue.",
+          "value": "Indiana, U.S. (suburban area, near Purdue University)",
+          "lines": [
+            9,
+            11,
+            13,
+            61,
+            89,
+            95,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a's parents immigrated from Pakistan (lines 149, 152-153), and she visits Pakistan (line 153). This establishes Pakistani-American ethnicity.",
+          "value": "Pakistani-American (parents immigrated from Pakistan)",
+          "lines": [
+            149,
+            152,
+            153,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is currently studying general stuff (line 51) and goes to Purdue university (line 95). She later discusses the loss of college structure (line 207), confirming student status.",
+          "value": "Student at Purdue University",
+          "lines": [
+            51,
+            95,
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states her parents are both doctors and very well off (line 99), and they spend a lot of money on travel (line 101). She is part of a high-income household.",
+          "value": "Family is wealthy (parents are doctors)",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says she lives with her family, including two brothers (one older, one younger), mom, and dad (line 89).",
+          "value": "Lives with parents and two brothers (older and younger)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions an uncle in the Midwest, an uncle in Pakistan who is a dentist, and a cousin who went into business (lines 157, 159).",
+          "value": "Extended family includes uncle in Pakistan, uncle in Midwest, and cousin in business",
+          "lines": [
+            157,
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says her family travels a lot and has been to around 30 countries (line 101), naming Morocco, Turkey, etc. (lines 103, 105). She wants to visit Dubai (line 111).",
+          "value": "Frequent international traveler (visited ~30 countries)",
+          "lines": [
+            101,
+            103,
+            105,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a strong interest in fashion, calling it art and expression (lines 217, 219, 221, 223).",
+          "value": "Interested in fashion as self-expression",
+          "lines": [
+            217,
+            219,
+            221,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses career choices: primatologist, zoology (lines 51-55). She finds studying primates intriguing.",
+          "value": "Aspiring primatologist/zoologist",
+          "lines": [
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b gives her name as 'Elissa' (line 6, ASR error phonetically close to Alicia). Later speaker_a calls her Alyssa and speaker_b corrects to 'Alicia' (line 256). The name is Alicia.",
+          "value": "Alicia",
+          "lines": [
+            6,
+            256
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in the northeast, New York City actually (line 12), and originally from farther upstate New York (line 16). She references living in the city for years and working in NYC theater (line 44).",
+          "value": "New York City, originally from upstate New York",
+          "lines": [
+            12,
+            16,
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says her great-grandparents immigrated from Armenia in the early 1900s (line 162), and that she was adopted as a very young child (line 164).",
+          "value": "Armenian-American, adopted",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works in theater (stage manager, line 58) which is shut down (line 44). She describes being stuck in an eternal day off, picking little jobs, and uncertain about the future (line 174).",
+          "value": "Stage manager in theater, currently out of work due to COVID-19, uncertain economic future",
+          "lines": [
+            44,
+            46,
+            58,
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says she lives with a roommate who is a friend from undergrad and formerly worked in theater (lines 84, 86).",
+          "value": "Lives with a roommate who is a friend from undergrad (formerly worked in theater)",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b jokes that you can't take her anywhere because she knows so many theater people and inevitably runs into them (line 72), implying extensive industry connections.",
+          "value": "Has many connections in the theater industry",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is a stage manager (line 58) and actively prefers off-Broadway, avant-garde, smaller productions over Broadway (lines 76, 82).",
+          "value": "Prefers off-Broadway and avant-garde theater over Broadway",
+          "lines": [
+            58,
+            76,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes managing a Zoom reading of a play the day before (line 62).",
+          "value": "Manages Zoom play readings during pandemic",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was invited as a test audience member for an online premiere of a new TV series (lines 64, 66, 70).",
+          "value": "Participates as a test audience member for upcoming TV series online",
+          "lines": [
+            64,
+            66,
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

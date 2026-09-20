@@ -1,0 +1,15 @@
+{
+  "window_lines": 12,
+  "approximate_window_tokens": 264,
+  "passes_per_window": 1,
+  "rag_candidates": 20,
+  "rag_top_k_per_line": 8,
+  "rag_threshold": 0.774,
+  "rag_context_lines": 2,
+  "embedding_model": "nomic-ai/nomic-embed-text-v1.5",
+  "temperature": 0.7,
+  "max_generated_tokens": 2048,
+  "quantization": "Q4_0",
+  "audio_chunk_seconds": 5,
+  "audio_shared_policy": {"lseend": 1, "separation": 2, "embedding": 3, "overlap": 2, "asr": 3}
+}

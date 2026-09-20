@@ -1,0 +1,338 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states her name explicitly.",
+          "value": "Carol",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Florida, and the ASR 'florida's' is clearly Florida.",
+          "value": "Florida",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Carol and context indicate she is female.",
+          "value": "female",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is retired.",
+          "value": "retired",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her husband.",
+          "value": "married",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as someone who could be the listener's grandmother.",
+          "value": "grandmother age (older adult)",
+          "lines": [
+            173
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she is retired and now teaches English online and does surveys for extra income.",
+          "value": "retired; part-time English teacher and survey taker for extra money",
+          "lines": [
+            171,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she used to work in television.",
+          "value": "former television worker",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my husband'.",
+          "value": "has a husband",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her younger brother.",
+          "value": "has a younger brother",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her mother-in-law who is 91.",
+          "value": "has a mother-in-law (age 91)",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she gets on the computer in the morning to teach English to Chinese students.",
+          "value": "teaches English online in the mornings",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is using a shower curtain as a green screen for her computer setup.",
+          "value": "uses a shower curtain as a makeshift green screen",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions receiving a spam call while traveling in Canada.",
+          "value": "travels occasionally (e.g., Canada)",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes blocking spam calls and advises doing so.",
+          "value": "blocks spam calls",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she shows an old phone to her Chinese students who have never seen one.",
+          "value": "owns an old phone she shows students",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses him as Bradley and he responds; ASR 'Bradley' is likely Bradley.",
+          "value": "Bradley",
+          "lines": [
+            6,
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He confirms he lives in Illinois and says it is about an hour from Chicago.",
+          "value": "Illinois, near Chicago (about 1 hour away)",
+          "lines": [
+            212,
+            213,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his city is a smaller city with a population around 140,000.",
+          "value": "smaller city (population ~140,000)",
+          "lines": [
+            216,
+            222
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states he just finished his second year of high school.",
+          "value": "high school student (completed second year)",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He took Spanish at 15 and is in second year of high school, making him roughly 15-16.",
+          "value": "teenager (likely 15-16 years old)",
+          "lines": [
+            54,
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says his mother is Italian (ASR 'I'm an italian mother' likely means 'My mother is Italian').",
+          "value": "of Italian descent through mother",
+          "lines": [
+            194
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He used to work part-time at a grocery store but stopped because the store closed; he now does surveys for extra income.",
+          "value": "unemployed; formerly part-time at grocery store; currently does surveys for extra money",
+          "lines": [
+            14,
+            30,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he may pursue a career in IT.",
+          "value": "career interest in IT",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says he is with one other person, his father.",
+          "value": "lives with father",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his mother cooking and mentions her Italian background.",
+          "value": "has a mother (Italian)",
+          "lines": [
+            194,
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He talks about his grandfather being 82 and alive, though the phrasing is garbled.",
+          "value": "has a living grandfather (age 82)",
+          "lines": [
+            174,
+            176
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he plays console, virtual reality, and phone games.",
+          "value": "plays video games (console, VR, mobile)",
+          "lines": [
+            88,
+            89,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions spending time on YouTube, Facebook, and Instagram.",
+          "value": "uses social media (YouTube, Facebook, Instagram)",
+          "lines": [
+            92,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he used a flip phone for three years before getting a smartphone.",
+          "value": "used a flip phone for 3 years",
+          "lines": [
+            184
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he gets about 10 spam calls a day.",
+          "value": "receives many spam calls (~10/day)",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he has traveled to Las Vegas.",
+          "value": "has traveled to Las Vegas",
+          "lines": [
+            114
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says he is doing online surveys, specifically mentioning Prolific.",
+          "value": "does online surveys (Prolific)",
+          "lines": [
+            159,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he wears a mask for long periods, maybe up to 10 hours a day.",
+          "value": "wears a mask for extended periods",
+          "lines": [
+            72
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He uses a laptop with a poor microphone and mentions his headphones cost $10.",
+          "value": "uses laptop with cheap headphones ($10)",
+          "lines": [
+            98,
+            100,
+            102
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

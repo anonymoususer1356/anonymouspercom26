@@ -1,0 +1,471 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I am from Portland Oregon' (line 15), later mentions living in Portland and Oregon lockdown.",
+          "value": "Portland, Oregon",
+          "lines": [
+            15,
+            27,
+            33,
+            35,
+            79,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm originally from florida' (line 27) and mentions living there with uncle.",
+          "value": "Florida",
+          "lines": [
+            27,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly states 'freaking 30 years old and still in school' (line 111).",
+          "value": "30 years old",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live in Portland so you can guess I'm probably pretty liberal' (line 269).",
+          "value": "Politically liberal",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes educational history, eventually got degree in english comp (line 107).",
+          "value": "Has a degree in English composition",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she is 'starting to go back to school in january to pursue nursing' (line 79).",
+          "value": "Pursuing nursing education",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lost job one month before pandemic (line 79, 211), hasn't been unemployed for nine months ever; conversation is late 2020 so 9 months consistent.",
+          "value": "Unemployed for 9 months",
+          "lines": [
+            79,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 79: 'I was an office manager'.",
+          "value": "Previously employed as office manager",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions partner moving in (line 229) and partner's petition signing (line 247).",
+          "value": "Has a partner",
+          "lines": [
+            229,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I have two dogs' multiple times (lines 35, 45, 53).",
+          "value": "Has two dogs",
+          "lines": [
+            35,
+            45,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes one dog as a Whippet rescue adopted from a shelter in Amory, north Texas (line 35).",
+          "value": "One dog is a Whippet rescue adopted from Texas",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having a cat on lap (line 45) and lists cat among animals (line 53).",
+          "value": "Has a cat",
+          "lines": [
+            45,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists 'bearded dragon' as one of the animals (line 53).",
+          "value": "Has a bearded dragon",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 53 'hamster rats' interpreted as hamsters and rats.",
+          "value": "Has hamsters and rats",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'a human child' (line 53).",
+          "value": "Has a human child",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'another one on the way' (line 53).",
+          "value": "Expecting another child",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'My uncle used to have an iguana' (line 61).",
+          "value": "Has an uncle",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'That reminds me of my ex' (line 217).",
+          "value": "Has an ex-partner",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her WoW guild named 'mediocre at best' (line 199).",
+          "value": "Member of World of Warcraft guild 'mediocre at best'",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I play World of Warcraft' (line 185).",
+          "value": "Plays World of Warcraft",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Estimates about 350 hours over 10+ years (line 185).",
+          "value": "~350 hours in World of Warcraft",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes flying to Texas to adopt a dog and driving 30 hours back (line 35).",
+          "value": "Adopted a dog from Texas, 30-hour road trip",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she is staying home, not working due to pandemic and lockdown (lines 79, 211).",
+          "value": "Stays at home during pandemic, unemployed",
+          "lines": [
+            79,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes dogs being disruptive during calls and interviews (line 122).",
+          "value": "Dogs disrupt phone/video calls",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she is starting nursing school in January (line 79).",
+          "value": "Plans to start nursing school in January",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists many animals and child, describes house as full (line 53).",
+          "value": "Lives in a house full of pets and a child",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I'm from texas' (line 14), confirms always in Texas except one semester (lines 143-146), discusses Texas pandemic (line 292).",
+          "value": "Texas",
+          "lines": [
+            14,
+            143,
+            146,
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'so uh that's the suburbs' (line 296) and 'it's like a nice neighborhood we're in' (line 298).",
+          "value": "Suburbs, nice neighborhood",
+          "lines": [
+            296,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attended college in Georgia for one semester (line 146).",
+          "value": "Lived in Georgia for one semester of college",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm a biology major' (line 72) and 'between junior senior right now' (line 84).",
+          "value": "College student, biology major, junior/senior",
+          "lines": [
+            72,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I don't side with any anything. I'm very independent' (lines 270, 272).",
+          "value": "Politically independent",
+          "lines": [
+            270,
+            272
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "When speaker_a says she is from Portland, speaker_b says 'I have a family living there' (line 18).",
+          "value": "Has family",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we have two dogs right now' (line 38) and 'two dogs and a bird' (line 54).",
+          "value": "Has two dogs",
+          "lines": [
+            38,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes one dog as female (line 42) and the other as male wire-haired pointing griffon with unusual coat (lines 128-140).",
+          "value": "One dog is a wire-haired pointing griffon (male), other is female",
+          "lines": [
+            42,
+            128,
+            130,
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having a bird (line 54).",
+          "value": "Has a bird",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we used to have beauty dragons and not telling you to write an iguana' (line 56) – interpreted as bearded dragons and an iguana.",
+          "value": "Used to have bearded dragons and an iguana",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References parents doing a long drive (lines 38, 48).",
+          "value": "Has parents",
+          "lines": [
+            38,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'one of my aunts' (line 114).",
+          "value": "Has an aunt",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my cousin who is in Portland' (line 186).",
+          "value": "Has a cousin",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Multiple references to friends: 'another friend in Oregon' (line 162), 'friend who's a nurse in Germany' (line 326), and a friend in a difficult living situation (line 216).",
+          "value": "Has friends",
+          "lines": [
+            162,
+            216,
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Plays Rocket League (ASR 'Iraq Italy'), got it in 2015, ~2000 hours (lines 174-178).",
+          "value": "Plays Rocket League, ~2000 hours since 2015",
+          "lines": [
+            174,
+            175,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I like to play a lot of survival games' (line 172).",
+          "value": "Plays survival games",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we have a pool' and 'so like to swim' (lines 160-162).",
+          "value": "Has a pool, enjoys swimming",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I like to go outside' (line 158).",
+          "value": "Enjoys going outdoors",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During pandemic, 'I stay at home... avoid going out... have food delivery, grocery delivery' (lines 294-296).",
+          "value": "Stays home during pandemic, uses delivery services",
+          "lines": [
+            294,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains he went to Georgia for one semester but didn't like it and came back (line 146).",
+          "value": "Attended college in Georgia for one semester, returned to Texas",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to go to medical school and become a neurosurgeon (lines 72-74, 86).",
+          "value": "Plans to attend medical school and become a neurosurgeon",
+          "lines": [
+            72,
+            74,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses needing to take the MCAT exam soon (lines 88-98).",
+          "value": "Needs to take the MCAT for medical school admission",
+          "lines": [
+            88,
+            90,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'Not a big fan of uh big city life' (line 302).",
+          "value": "Dislikes big city living",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recalls playing World of Warcraft when his cousin visited from Portland (line 186).",
+          "value": "Played World of Warcraft during cousin's visit",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

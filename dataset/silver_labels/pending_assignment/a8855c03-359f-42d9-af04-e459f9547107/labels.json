@@ -1,0 +1,262 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states he is in Atlanta and later says he has had enough of Georgia, confirming residence. He also discusses the local stand-up scene as an insider.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            23,
+            307,
+            179,
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I do stand up' multiple times and describes his comedy career, including that he has been at it for about 10 years.",
+          "value": "stand-up comedian",
+          "lines": [
+            39,
+            179,
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was doing trivia hosting in bars for a long time'.",
+          "value": "trivia host",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says 'I'm italian' in a story about an offensive comment.",
+          "value": "Italian",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker refers to meeting girls ('meet girls and stuff') and uses male-gendered terms, indicating he is male.",
+          "value": "male",
+          "lines": [
+            53
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I haven't quite got enough sleep', indicating tiredness.",
+          "value": "sleep-deprived",
+          "lines": [
+            357
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker mentions doing online surveys and phone games for money, saying 'you can really make a lot of money just playing the games on your phone'. The conversation itself is a paid survey.",
+          "value": "earns money from online surveys and phone games",
+          "lines": [
+            77,
+            11,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a car' when discussing Uber rental options.",
+          "value": "owns a car",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I know a trans transvestite comedian that was like I gotta get out Atlanta'.",
+          "value": "knows a transvestite comedian",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states he has been doing stand-up 'for like 10 years'.",
+          "value": "has been a stand-up comedian for about 10 years",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses a desire to leave Atlanta for Los Angeles, saying 'I want to get out but I'm also dreading L.A. but it will be better' and later confirms he thinks he wants to go to L.A.",
+          "value": "plans to move to Los Angeles",
+          "lines": [
+            321,
+            323
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker says 'I'm just got long hair' comparing himself to George Carlin.",
+          "value": "long hair",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When asked his name, speaker_b says 'Sean'. Later speaker_a requests a reminder saying 'remind me Sean Evan', and speaker_b's response is transcribed as 'John nice meeting brother', likely an ASR error for 'Sean nice meeting you brother'.",
+          "value": "Sean",
+          "lines": [
+            18,
+            367,
+            368
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b mentions Dallas after speaker_a's location reveal, then states 'I just moved here like six months ago'. He later says 'I came to Dallas to check it out', confirming his current city.",
+          "value": "Dallas, Texas",
+          "lines": [
+            24,
+            28,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he came from New Mexico, referring to it as home: 'they want from new Mexico right next door' and later 'back in Mexico' (contextually New Mexico).",
+          "value": "originally from New Mexico",
+          "lines": [
+            30,
+            308,
+            310
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I worked in restaurants... I'm a waiter'.",
+          "value": "waiter",
+          "lines": [
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm doing like Postmates, you know like a phone app delivery shit'.",
+          "value": "Postmates delivery driver",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about doing online surveys and finding various ways to make money online, such as surveys and apps.",
+          "value": "earns money from online surveys and apps",
+          "lines": [
+            12,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'right now I'm not working' indicating he is unemployed from a regular job.",
+          "value": "unemployed from regular job",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a really good buddy who's letting me crash in his spare room'.",
+          "value": "staying with a friend",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains that Postmates allows him to get paid immediately after completing a job.",
+          "value": "earns immediate income from Postmates deliveries",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions doing online surveys and gig apps to earn money.",
+          "value": "earns money from online gigs (surveys, games)",
+          "lines": [
+            12,
+            74,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions a good friend in Dallas who is providing him a place to stay.",
+          "value": "has a close friend in Dallas who provides housing",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he moved to Dallas 'like six months ago'.",
+          "value": "moved to Dallas six months ago",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes patching together income from Postmates, surveys, and other non-traditional work instead of holding a regular job.",
+          "value": "makes a living through gig work (Postmates, online tasks)",
+          "lines": [
+            66,
+            94,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

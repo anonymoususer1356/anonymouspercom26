@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Directly states 'I'm in Utah'. Also refers to 'our state' in the context of Utah's emergency declaration.",
+          "value": "Utah",
+          "lines": [
+            21,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Refers to 'my husband' multiple times, establishing marital status.",
+          "value": "married",
+          "lines": [
+            59,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I got my graduate degree in public health'.",
+          "value": "graduate degree in public health",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my underground was in sociology', meaning undergraduate degree in sociology.",
+          "value": "undergraduate degree in sociology",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I've been working from home even before the pandemic' and mentions coworkers.",
+          "value": "employed, works from home",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I consistently earn like $100 a month' on Prolific.",
+          "value": "earns ~$100/month on Prolific",
+          "lines": [
+            213
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we have like our favorite ski resort that already bought tickets to'.",
+          "value": "purchased ski resort tickets",
+          "lines": [
+            279
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_b mentions Amazon's platform, speaker_a replies 'Yeah, I am, yeah', indicating she uses it.",
+          "value": "uses Amazon Mechanical Turk",
+          "lines": [
+            203
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions 'my husband'.",
+          "value": "has a husband",
+          "lines": [
+            59,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My husband's family actually lives in florida'.",
+          "value": "husband's family resides in Florida",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'all my coworkers also work from home now'.",
+          "value": "has coworkers",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States she works from home.",
+          "value": "works from home",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I just came from yoga class this morning'.",
+          "value": "attends yoga classes",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions living near many ski resorts, having bought tickets, and expecting snow for skiing/snowboarding.",
+          "value": "goes skiing/snowboarding",
+          "lines": [
+            267,
+            275,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes going to Disney World and Universal parks multiple times, including in October and last December.",
+          "value": "frequently visits Disney and Universal theme parks",
+          "lines": [
+            37,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she joined Prolific in mid‑May and has completed over 370 studies.",
+          "value": "completes online surveys on Prolific",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we're really just leave for like groceries and stuff now', indicating limited outings.",
+          "value": "primarily leaves home for groceries",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I'm in florida' and when asked what part says 'Orlando'.",
+          "value": "Orlando, Florida",
+          "lines": [
+            22,
+            30,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm actually students' and mentions online classes, indicating he is a college student.",
+          "value": "college student",
+          "lines": [
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked his year, responds 'I'm a junior'.",
+          "value": "junior (3rd year)",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about major, says 'Just studies like piano'.",
+          "value": "music major (piano)",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'it's kind of rough just being like being a musician now'.",
+          "value": "musician",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I need to get a job and I obviously can't', indicating unemployment.",
+          "value": "unemployed, seeking work",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Started Prolific in late summer as a way to earn money online after being unable to find a job.",
+          "value": "uses Prolific to earn money",
+          "lines": [
+            196,
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Applied to Amazon Mechanical Turk but account was suspended before fully signing up.",
+          "value": "applied to Amazon Mechanical Turk but suspended",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'It was actually cheap' and 'it was cheaper for me to go out there' when discussing UNF.",
+          "value": "chose university based on affordability",
+          "lines": [
+            64,
+            70
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'I have a couple of friends who like work there' in reference to Disney World.",
+          "value": "has friends who work at Disney World",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'some of my friends are still over there' referring to friends living on the UNF campus.",
+          "value": "has friends attending UNF",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States he is taking online classes.",
+          "value": "online student",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't really go out' and 'it'll be weeks into like I leave like the neighborhood'.",
+          "value": "stays home most of the time",
+          "lines": [
+            130,
+            252
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Studies piano and identifies as a musician.",
+          "value": "plays piano",
+          "lines": [
+            94,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I used to go a lot when I was smaller' in connection with Disney parks and local passes.",
+          "value": "frequented Disney parks as a child",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I haven't been out in to end the parts in a minute', meaning he hasn't visited theme parks recently.",
+          "value": "has not visited theme parks recently",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Started doing Prolific surveys in late summer.",
+          "value": "does online surveys on Prolific",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes a planned music tour to Argentina and indicates that by not signing up in time, he avoided cancellation troubles.",
+          "value": "missed signing up for Argentina music tour, avoiding cancellation issues",
+          "lines": [
+            116
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

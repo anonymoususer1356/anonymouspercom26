@@ -1,0 +1,299 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name directly.",
+          "value": "Rachel",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is a senior in high school.",
+          "value": "senior in high school",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she plans to major in psychology in college.",
+          "value": "planning to major in psychology",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she lives really close to New York City.",
+          "value": "close to New York City",
+          "lines": [
+            251
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a is a high school senior, indicating she is a teenager.",
+          "value": "high school senior",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she was working a lot during the school year but can no longer do any of that, implying job loss due to the pandemic.",
+          "value": "lost part-time job due to pandemic",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions her brother and his living situation.",
+          "value": "has a brother",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her mother and father separately.",
+          "value": "has parents (mother and father)",
+          "lines": [
+            63,
+            99,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her neighbour is a nurse.",
+          "value": "neighbor is a nurse",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a bakes frequently and is doing baking as a senior project.",
+          "value": "does baking as a hobby/senior project",
+          "lines": [
+            47,
+            48,
+            49,
+            51,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her cat, its age and snoring.",
+          "value": "has a cat",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names several TV shows she watches.",
+          "value": "watches TV shows: New Girl, The Office, Parks and Rec, Brooklyn 99",
+          "lines": [
+            167,
+            171,
+            173,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching specific movies and a Harry Potter marathon.",
+          "value": "watches movies",
+          "lines": [
+            211,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes playing online party games with friends.",
+          "value": "plays online games (Cards Against Humanity, Quiplash)",
+          "lines": [
+            131,
+            133,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states his name, recorded by ASR as 'robert'. The intended name is Robert.",
+          "value": "Robert",
+          "lines": [
+            4
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he completed a master's program recently.",
+          "value": "recently graduated with a master's degree",
+          "lines": [
+            28,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his field is architecture.",
+          "value": "master's in architecture",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is applying for jobs and hasn't heard back, indicating unemployment.",
+          "value": "unemployed",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b explicitly states he lives in Michigan.",
+          "value": "lives in Michigan",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he lives near Detroit.",
+          "value": "near Detroit, Michigan",
+          "lines": [
+            228
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is a recent master's graduate, which places him in the young-adult, highly-educated demographic.",
+          "value": "recent master's graduate",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions bills coming due, unemployment (likely benefits) ending soon, and overall financial worry, indicating financial strain.",
+          "value": "unemployed and financially strained",
+          "lines": [
+            26,
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b states he lives by himself with no roommates.",
+          "value": "lives alone",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he moved out of home for graduate school and may have to move back in with parents.",
+          "value": "may move back in with parents",
+          "lines": [
+            94,
+            96,
+            98
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b states he likes to cook and run.",
+          "value": "enjoys cooking and running",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes getting into baking and lists items he has made.",
+          "value": "bakes as a hobby",
+          "lines": [
+            52,
+            56,
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he enjoys watching baseball, though he no longer plays.",
+          "value": "watches baseball",
+          "lines": [
+            20,
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b names several TV shows he watches.",
+          "value": "watches TV shows: The Great, The Office, Parks and Rec, Brooklyn 99",
+          "lines": [
+            158,
+            170,
+            171,
+            179,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions the movies Joker and Parasite.",
+          "value": "watched movies Joker and Parasite",
+          "lines": [
+            196,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

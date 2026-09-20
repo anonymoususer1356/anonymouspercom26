@@ -1,0 +1,458 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'jennifer, nice to meet you, lucy' (line 57) indicating own name; speaker_b asks 'what's your name, jennifer?' (line 58) confirming.",
+          "value": "Jennifer",
+          "lines": [
+            57,
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states their Steam username is 'masked underscore sarcastic' (line 301), interpreted as 'masked_sarcastic'.",
+          "value": "masked_sarcastic",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a provides a numeric code in fragments: '79 oh' (line 309) and '79 01 87 Yeah. 13 Yeah.' (line 323), forming '79 01 87 13'.",
+          "value": "79 01 87 13",
+          "lines": [
+            309,
+            323
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'we are we're in California' (line 227).",
+          "value": "California",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they lived in Sweden for four or five years (line 207), and moved back in mid-March (line 213).",
+          "value": "Sweden (past, 4-5 years)",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to 'my wife' (line 75), uses 'she' for spouse, and is named Jennifer, indicating female gender.",
+          "value": "female",
+          "lines": [
+            75,
+            165,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We did our master's degree over there' (line 209).",
+          "value": "master's degree",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says looking for research positions in biology (line 207) and specialized in fish welfare (line 259).",
+          "value": "biology (fish welfare specialization)",
+          "lines": [
+            207,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'we don't have health insurance yet' (line 267).",
+          "value": "no health insurance",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'right now I am unfortunately unemployed' (line 69).",
+          "value": "unemployed",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my wife who is also unemployed' (line 75).",
+          "value": "wife also unemployed",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says last two job interviews led to suspended positions due to the virus (lines 71-72).",
+          "value": "job interviews postponed due to COVID",
+          "lines": [
+            71,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they saved enough money to qualify for an apartment (line 235).",
+          "value": "saved enough to qualify for apartment",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says looking for research positions in biology (line 207).",
+          "value": "seeking research positions in biology",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'her name's Autumn' (line 173), referring to wife.",
+          "value": "wife named Autumn",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we just passed three years last month' (line 165) regarding marriage.",
+          "value": "married 3 years",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we've been together for 13 years' (line 167).",
+          "value": "together 13 years",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we met in community college' (line 169).",
+          "value": "met spouse in community college",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions staying with 'Autumns brother and sister in law' (line 233).",
+          "value": "has brother-in-law and sister-in-law via wife",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have family members that I have very little contact with' due to conspiracy arguments (line 35).",
+          "value": "limited contact with some family members",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we have a small gaming friend group' (line 93).",
+          "value": "small gaming friend group",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes playing video games, favoring dungeon crawlers and first-person shooters (line 79).",
+          "value": "video gamer (dungeon crawlers, FPS)",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We've been really big on Diablo three right now' (line 79).",
+          "value": "plays Diablo 3",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms having Steam (line 88) and provides username (line 301).",
+          "value": "Steam user",
+          "lines": [
+            88,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses co-op gaming with wife (lines 101, 161).",
+          "value": "plays co-op games with wife",
+          "lines": [
+            101,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they spend whole weekends marathoning games with friend group (line 93).",
+          "value": "weekend gaming marathons with friends",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'My name is lucy' (line 58), and speaker_a addresses them as 'lucy' (line 57).",
+          "value": "Lucy",
+          "lines": [
+            57,
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says grandma lives in Wyoming and they moved in with her (line 184), and mentions Colorado health insurance implying not in Colorado (line 272).",
+          "value": "Wyoming",
+          "lines": [
+            184,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says lived in northern Colorado (line 184) and in an intentional spiritual community for a year (line 38).",
+          "value": "northern Colorado (intentional community, past)",
+          "lines": [
+            38,
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to 'my boyfriend' (line 30), uses feminine name Lucy, indicating female.",
+          "value": "female",
+          "lines": [
+            30,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says illness 'forced me to drop out of college' (line 194).",
+          "value": "college dropout",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'training to be a yoga teacher right now online' (line 194).",
+          "value": "yoga teacher trainee",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'chronically mentally and physically ill for like most of my 20's' (line 192).",
+          "value": "chronic mental and physical illness in 20s",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says has 'hypersensitive insomnia, anxious brain' (line 194).",
+          "value": "insomnia and anxiety",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm kind of sleep deprived right now' (line 98).",
+          "value": "currently sleep deprived",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'right now I'm kind of like I'm doing a lot better' (line 196).",
+          "value": "health improving",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm looking for a job' (line 188).",
+          "value": "unemployed",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says boyfriend got a job as a graphic designer (line 188).",
+          "value": "boyfriend is graphic designer",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my boyfriend's on Medicaid' (line 280).",
+          "value": "boyfriend on Medicaid",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my health insurance is for colorado' (line 272).",
+          "value": "has Colorado health insurance",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're very blessed to have wealthy relatives' and lives with grandma (line 184).",
+          "value": "living with wealthy grandmother",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're trying to save money and hopefully move out' (line 188).",
+          "value": "saving money to move out",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions boyfriend (line 30), together almost 3 years (line 178), living together 2 years (line 180).",
+          "value": "boyfriend (almost 3 years, cohabiting 2 years)",
+          "lines": [
+            30,
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm taking care of my 88 89 year old grandma' (line 14).",
+          "value": "grandmother (88-89 years old)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was telling my mom' (line 58).",
+          "value": "mother",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions playing Animal Crossing, Breath of the Wild, Assassin's Creed Black Flag on Switch (lines 80, 110).",
+          "value": "plays video games on Nintendo Switch",
+          "lines": [
+            80,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses playing co-op games with boyfriend (line 110).",
+          "value": "plays co-op games with boyfriend",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b loves hula hoop dancing and yoga, training as yoga teacher (line 194).",
+          "value": "practices hula hoop dancing and yoga",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says lived in an intentional spiritual community for a year (line 38).",
+          "value": "lived in intentional spiritual community",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions being isolated due to caregiving and COVID (lines 14, 96).",
+          "value": "socially isolated",
+          "lines": [
+            14,
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

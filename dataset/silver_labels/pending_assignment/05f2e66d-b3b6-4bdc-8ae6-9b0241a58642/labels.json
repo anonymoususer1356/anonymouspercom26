@@ -1,0 +1,320 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'my name's cat' when introducing herself.",
+          "value": "cat",
+          "lines": [
+            1
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'California, Southern California' and asks 'have you ever been out here to California', indicating she resides in Southern California.",
+          "value": "Southern California",
+          "lines": [
+            27,
+            61,
+            389
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she is a teacher and teaches middle school grades 6-8.",
+          "value": "middle school teacher",
+          "lines": [
+            27,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my son' and 'a five year old son', indicating she is a parent.",
+          "value": "parent",
+          "lines": [
+            83,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I'm a single mom'.",
+          "value": "single mother",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She discusses people her age who haven't voted and says she might go in person to vote, implying she is a voter planning to vote.",
+          "value": "plans to vote in person",
+          "lines": [
+            355,
+            361
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She works as a middle school teacher.",
+          "value": "employed as a middle school teacher",
+          "lines": [
+            27,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she uses a regular computer for work, not a gaming one.",
+          "value": "owns a regular computer for work",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my son' and gives his age as five.",
+          "value": "has a 5-year-old son",
+          "lines": [
+            83,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a younger sister, she's a year and a half younger than me'.",
+          "value": "has a younger sister",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She adds 'now she lives in texas' about her sister.",
+          "value": "sister lives in Texas",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she likes reading and used to play computer games a lot, naming The Sims as her favorite.",
+          "value": "enjoys reading and playing computer games, especially The Sims",
+          "lines": [
+            203,
+            205,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is homeschooling her son.",
+          "value": "homeschools her son",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses strong enthusiasm for Harry Potter books and movies.",
+          "value": "Harry Potter fan",
+          "lines": [
+            87,
+            97,
+            121,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'I'm Marie' when asked her name.",
+          "value": "Marie",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I'm from Arkansas' and later clarifies she has lived there the longest and commutes to college from home.",
+          "value": "Arkansas",
+          "lines": [
+            6,
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm a freshman' when asked about her year in school.",
+          "value": "college freshman",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'like 18' and speaker_b confirms with 'Yeah'.",
+          "value": "18 years old",
+          "lines": [
+            345
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her major is 'Theater performance'.",
+          "value": "theater performance major",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She confirms she is going to vote and explains she must vote in person in Arkansas.",
+          "value": "registered voter, plans to vote in person",
+          "lines": [
+            348,
+            358,
+            359
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She is a college student who commutes from her parents' home, indicating financial dependence.",
+          "value": "student living with parents",
+          "lines": [
+            6,
+            38,
+            40,
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions a sister in 8th grade and another who is 14 in 9th grade, so she has two younger sisters.",
+          "value": "has two younger sisters",
+          "lines": [
+            44,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if the school is near her parents' home, she confirms 'Yeah'.",
+          "value": "lives with parents",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has family in California, with most in northern California and some near Disneyland.",
+          "value": "has extended family in California",
+          "lines": [
+            62,
+            64,
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I like baking'.",
+          "value": "enjoys baking",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I play a little bit of a guitar and piano'.",
+          "value": "plays guitar and piano",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I enjoy makeup I suppose'.",
+          "value": "enjoys makeup",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has read all Harry Potter books and seen the movies and discusses them extensively.",
+          "value": "Harry Potter fan",
+          "lines": [
+            112,
+            114,
+            121,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses playing various Sims games and expresses opinions on them.",
+          "value": "enjoys playing The Sims games",
+          "lines": [
+            208,
+            210,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She names the King Killer Chronicles as her favorite series.",
+          "value": "fan of King Killer Chronicles book series",
+          "lines": [
+            178,
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been to Disneyland and Disney World, and has family near Disneyland.",
+          "value": "has visited Disneyland and Disney World",
+          "lines": [
+            62,
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

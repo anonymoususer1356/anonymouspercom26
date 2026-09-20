@@ -1,0 +1,320 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'nice to meet you amy' and speaker_a confirms 'Yeah, definitely. Amy.'",
+          "value": "Amy",
+          "lines": [
+            268,
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where she is from, speaker_a answers 'California'. speaker_b's remark about the time difference supports she is in a western time zone, consistent with California.",
+          "value": "California",
+          "lines": [
+            16,
+            17,
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Amy is typically female, and the conversation contains no contradictory indicators.",
+          "value": "female",
+          "lines": [
+            268,
+            269
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I've been super paranoid. I haven't left my place other than like really important things that I need to go and do.'",
+          "value": "feels super paranoid about COVID-19",
+          "lines": [
+            259
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm so tired' after teaching on Zoom all day.",
+          "value": "tired from teaching on Zoom",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'this whole year has kind of made me really pessimistic about things.'",
+          "value": "feeling pessimistic about the year",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states 'I'm a teacher... I'm teaching third grade.'",
+          "value": "third-grade teacher",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was actually just hired a week ago'",
+          "value": "hired a week ago",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I had just gotten my teaching credential in the spring'",
+          "value": "received teaching credential in spring",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My sister lives in new york' and 'she lives in Brooklyn'. Later speaker_b says 'Say howdy assistant for me from Brooklyn', which contextually refers to speaker_a's sister.",
+          "value": "has a sister who lives in Brooklyn, New York",
+          "lines": [
+            21,
+            23,
+            272
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes being on a Zoom call all day with students and says her school does three hours of Zoom a day.",
+          "value": "teaches over Zoom for three hours a day",
+          "lines": [
+            63,
+            73,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I would much rather be in a classroom' and 'I don't like teaching over zoom'.",
+          "value": "prefers in-person teaching",
+          "lines": [
+            73,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I haven't left my place other than like really important things that I need to go and do.'",
+          "value": "stays at home except for essential errands",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have 28 students'.",
+          "value": "has 28 students in her class",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'halfway through the rest of my student teaching, we had switched online'.",
+          "value": "student teaching was interrupted by pandemic, switched to online",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "ASR output 'pensioners' in line 24 is phonetically close to 'Bensonhurst', a neighborhood in Brooklyn, and later speaker_b says 'from Brooklyn' (line 272). He also repeatedly references New York City (time of day, Manhattan, NYC school system, density). His parents live five blocks away, consistent with living in Brooklyn.",
+          "value": "Brooklyn, New York City",
+          "lines": [
+            24,
+            272,
+            18,
+            20,
+            30,
+            34,
+            96,
+            136,
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he walks around Manhattan where he normally goes to work, and describes the area as normally shoulder to shoulder.",
+          "value": "works in Manhattan",
+          "lines": [
+            30,
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b mentions 'my wife', which typically indicates a male speaker. No pronouns contradict this.",
+          "value": "male",
+          "lines": [
+            184
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b repeatedly states his son is in kindergarten.",
+          "value": "parent of a kindergartener",
+          "lines": [
+            54,
+            110,
+            174,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I work in the construction profession' and 'I work in this industry'.",
+          "value": "works in the construction profession",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'right now I'm working from home'.",
+          "value": "working from home during the pandemic",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my wife' when discussing early pandemic conversations.",
+          "value": "has a wife",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my kid', 'my son', and describes his kindergarten experience.",
+          "value": "has a son",
+          "lines": [
+            54,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his son and the neighbor's son are 'both going to kindergarten' and later 'my kids only in kindergarten'.",
+          "value": "son is in kindergarten",
+          "lines": [
+            54,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a conversation with his neighbor who 'has a son that's literally a few months older than mine'.",
+          "value": "has a neighbor with a son close in age to his own",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My parents live five blocks away from me.'",
+          "value": "parents live five blocks away",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have relatives over in china'.",
+          "value": "has relatives in China",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes lining up at Trader Joe's this morning.",
+          "value": "shops at Trader Joe's",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I mean I walk around Manhattan'.",
+          "value": "walks around Manhattan",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I honestly, I haven't shown my face in one of these meetings' referring to parent-teacher conferences.",
+          "value": "does not attend parent-teacher conferences",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't actually live that far away from the school that my kid goes to and we're walking about by it just yesterday'.",
+          "value": "lives near child's school",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm still on the fence about it' regarding sending his son back to in-person school.",
+          "value": "undecided about sending son back to school",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

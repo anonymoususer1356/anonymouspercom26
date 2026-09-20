@@ -1,0 +1,560 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Rebecca and speaker_b addresses her as Rebecca later.",
+          "value": "Rebecca",
+          "lines": [
+            11,
+            312
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is in California, near Mexico, about 4 hours from Tijuana, mentions protests in Orange County, and says she went to downtown LA. These details point to Southern California, likely the Los Angeles area.",
+          "value": "Southern California, near Los Angeles, USA",
+          "lines": [
+            15,
+            19,
+            67,
+            77,
+            95,
+            271
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_b says it is 5 p.m. (Eastern), speaker_a says it is 2 p.m., a 3-hour difference, placing her in the Pacific Time zone.",
+          "value": "Pacific Time zone (UTC-8/UTC-7)",
+          "lines": [
+            14,
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Directly states her age.",
+          "value": "21",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is Mexican.",
+          "value": "Mexican",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing a little bit of math in college, indicating she has taken some college courses.",
+          "value": "Has some college education",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says she is a tutor at a school, specifically for middle schoolers, and refers to her school district.",
+          "value": "Tutor at a school district (middle schoolers)",
+          "lines": [
+            21,
+            25,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes it is summer break and she hasn't been doing anything, implying she is not currently working.",
+          "value": "On summer break, currently not working",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She did a previous session of this conversation study but her audio didn't work so she didn't get paid, indicating the study normally pays participants.",
+          "value": "Participated in a previous session of this study and wasn't paid due to audio issues",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States she has one dog named Coco.",
+          "value": "Has a dog named Coco",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her sister in the context of her sister having a dog.",
+          "value": "Has a sister",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her sister lives about five minutes away from her.",
+          "value": "Sister lives about 5 minutes away",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her sister's recently adopted senior dog named Shelly, who is 10 years old and overweight.",
+          "value": "Sister has a dog named Shelly (senior, obese)",
+          "lines": [
+            137,
+            143,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she and her dad moved into an apartment together, and he complains about hair dye stains, so she currently lives with her father.",
+          "value": "Lives with her father",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts that a male friend was hit by a rubber bullet at a protest and still has a bruise weeks later.",
+          "value": "Has a male friend who was injured by a rubber bullet at a protest",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells about a female friend who was very cautious but caught COVID-19 after a single trip to the supermarket.",
+          "value": "Has a female friend who caught COVID-19 from a supermarket visit",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she knows 10-20 people who have gotten COVID-19.",
+          "value": "Knows 10-20 people who have had COVID-19",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her coworkers who also work at high schools, indicating she has colleagues at the school.",
+          "value": "Has coworkers at the school where she tutors",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about her grandfather who at age 85 still had a full head of salt-and-pepper hair.",
+          "value": "Has a grandfather",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a past living situation with roommates where they collectively had four dogs.",
+          "value": "Previously lived with roommates",
+          "lines": [
+            155,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her family wanted to do something for the 4th of July.",
+          "value": "Has family that wanted to gather for 4th of July",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She tutors middle schoolers as her job.",
+          "value": "Tutors middle schoolers",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "On summer break, she stays at home all the time and hasn't been doing anything.",
+          "value": "Stays home all the time during summer break",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly expresses strong dislike for fireworks because they scare her dogs.",
+          "value": "Hates fireworks",
+          "lines": [
+            55,
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms she attended protests and specifies she went to three.",
+          "value": "Attended three protests",
+          "lines": [
+            85,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she used to foster kittens, taking one at a time with help from roommates.",
+          "value": "Used to foster kittens",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She fostered through a shelter named Siaca in her city.",
+          "value": "Fostered kittens through a shelter called Siaca",
+          "lines": [
+            173
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she has never been out of the United States, only to Las Vegas, Nevada.",
+          "value": "Never traveled internationally; only been to Las Vegas",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she loves not working and enjoys the extra free time.",
+          "value": "Enjoys having free time and not working",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has frequently dyed her hair in the past and now plans to cut it all off.",
+          "value": "Frequently dyes her hair; plans to cut it off",
+          "lines": [
+            229,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses love for cats, wishes she had one, and jokes about becoming a crazy cat lady.",
+          "value": "Likes cats and wants to have them",
+          "lines": [
+            133,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes mole as her favorite food and enthusiastically recommends Oaxacan mole.",
+          "value": "Enjoys Mexican food, especially mole",
+          "lines": [
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to give her dogs CBD pills to calm them during fireworks.",
+          "value": "Gives her dogs CBD for fireworks anxiety",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Explains her dyed hair was meant to be purple but is now faded to a 'raw chicken' color; speaker_b guesses red. So it appears faded red/purple.",
+          "value": "Dyed hair, currently a faded red/purple",
+          "lines": [
+            225,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to a comment about looking young, she says she gets that a lot and hates it, implying she looks younger than 21.",
+          "value": "Looks younger than her age (21)",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as Sam.",
+          "value": "Sam",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is currently living in Philadelphia, with family from Pennsylvania and New Jersey.",
+          "value": "Philadelphia, Pennsylvania, USA",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Directly gives his age.",
+          "value": "25",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says he has a lot of anxiety and finds cats relaxing because of it.",
+          "value": "Has anxiety",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he works as an online tutor, teaching math to high school students.",
+          "value": "Online math tutor for high schoolers",
+          "lines": [
+            16,
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions he is looking to pick up a part-time job and notes supermarkets are hiring.",
+          "value": "Looking for a part-time job",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly refers to his roommates: watching fireworks from the roof, planning to drink with them on the 4th, and they won't let him get a cat.",
+          "value": "Has roommates",
+          "lines": [
+            62,
+            72,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his mom is from England and lives there now; mentions his dad in the context of balding; says his parents have a dog adopted when he was in high school.",
+          "value": "Has parents (mother in England, father with a dog)",
+          "lines": [
+            152,
+            210,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recalls his sister going through a hair-dyeing phase in high school.",
+          "value": "Has a sister",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes that his friends who are doctors and nurses have likely been heavily exposed to COVID-19.",
+          "value": "Has friends who are doctors/nurses",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he grew up with cats and once had a cat that weighed 30 pounds, indicating a pet cat in the past.",
+          "value": "Had a cat growing up",
+          "lines": [
+            132,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He tutors math up to pre calculus and says trigonometry is probably his favorite.",
+          "value": "Tutors math up to pre calculus; enjoys trigonometry",
+          "lines": [
+            28,
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has gone to a couple of protests and describes marching peacefully across the city.",
+          "value": "Attended protests",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes going on the roof with roommates to count and watch fireworks.",
+          "value": "Watches fireworks from the roof with roommates",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states he much prefers larger dogs and explains his reasons.",
+          "value": "Prefers large dogs",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has been to England about 20 times, plus Spain, Portugal, Hungary, and Mexico.",
+          "value": "Well-traveled: England, Spain, Portugal, Hungary, Mexico",
+          "lines": [
+            254,
+            256,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to stay home and drink with his roommates on the 4th of July.",
+          "value": "Plans to drink with roommates on 4th of July",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions volunteering at an animal shelter with friends during high school.",
+          "value": "Volunteered at an animal shelter in high school",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts bleaching and dying half his hair crimson for a swim team event.",
+          "value": "Was on a swim team and dyed hair for it",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says visiting a cat cafe is on his bucket list for when the world reopens.",
+          "value": "Wants to visit a cat cafe",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Responds that he doesn't leave the house anyway, implying a generally homebound lifestyle.",
+          "value": "Stays home most of the time",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Grew up with cats and says they are relaxing, especially helpful for his anxiety.",
+          "value": "Likes cats and finds them calming",
+          "lines": [
+            132,
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a tells him he looks really young; he confirms he gets that a lot, so he appears younger than 25.",
+          "value": "Looks younger than his age (25)",
+          "lines": [
+            193,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his hair as very blondish brown, with some gray hairs that are easy to see.",
+          "value": "Blondish brown hair with some gray hairs",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he once bleached his hair and dyed half of it crimson for a swim team.",
+          "value": "Previously dyed hair crimson/red",
+          "lines": [
+            216,
+            218
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,393 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'I'm desiree.'",
+          "value": "Desiree",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I live in Cincinnati Ohio.'",
+          "value": "Cincinnati, Ohio",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm 51' when discussing the pandemic.",
+          "value": "51 years old",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a professor in college and says 'I got too many degrees', indicating higher education and multiple degrees.",
+          "value": "has multiple degrees",
+          "lines": [
+            191,
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I get these anxiety attacks before I go in the grocery store' due to stress about masks.",
+          "value": "experiences anxiety attacks",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have nightmares about it sometime' regarding the political situation.",
+          "value": "experiences nightmares",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes her work: 'I'm in the helping field, so my work has range from working with homeless, the domestic violence survivors.'",
+          "value": "works in social services with homeless and domestic violence survivors",
+          "lines": [
+            21,
+            22,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Not real text salary', interpreted as 'not real big salary', indicating a modest income.",
+          "value": "modest salary",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she made $1000 from surveys in a year and had to file taxes on it.",
+          "value": "earned $1000 from online surveys in a year",
+          "lines": [
+            149,
+            150,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions receiving free pizzas and cosmetics for reviews.",
+          "value": "receives free products for review",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a laundry survey study that sent a router, scale, and speaker to her home.",
+          "value": "participates in in-home product testing studies",
+          "lines": [
+            129,
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I have a 30 year old and he lives with autism' and refers to him as her son.",
+          "value": "mother of a 30-year-old son with autism",
+          "lines": [
+            95,
+            96,
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have the little big sister, which he calls her. She is 23' indicating a daughter.",
+          "value": "mother of a 23-year-old daughter",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my daughter's son had it but he's like 20', indicating a grandson.",
+          "value": "has a grandson (daughter's son, ~20 years old)",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom... she would have been like in her nineties' and 'born in 1926', implying her mother is deceased.",
+          "value": "mother is deceased (born 1926)",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'my brothers and sisters are baby boomers.'",
+          "value": "has siblings who are baby boomers",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had a professor tell me...' indicating she had a professor in college.",
+          "value": "had a college professor",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'I was just telling one of my girlfriends...' indicating female friends.",
+          "value": "has female friends",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I love doing the surveys. It makes me kind of weird. Like it's one of my hobbies.'",
+          "value": "enjoys taking online surveys as a hobby",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses a long-held desire to visit New York City, calling it 'my bucket list'.",
+          "value": "wants to visit New York City",
+          "lines": [
+            159,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she learned about Run DMC as a teenager and implies she is a fan.",
+          "value": "likes the group Run DMC",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I don't think I've been to a club in 20 years.'",
+          "value": "has not been to a nightclub in about 20 years",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself: 'my name is Ian'.",
+          "value": "Ian",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in Central Jersey.'",
+          "value": "Central Jersey",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm probably half an hour outside of new york city.'",
+          "value": "about 30 minutes from New York City",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I moved to New Jersey when I was 11 actually from Kansas.'",
+          "value": "moved from Kansas to New Jersey at age 11",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I'm 44' when discussing age.",
+          "value": "44 years old",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "He says he dropped off his ballot for early voting in New Jersey.",
+          "value": "voted early in New Jersey",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He describes his work: 'I'm a freelance marketer... I do some digital marketing work for small to medium businesses.'",
+          "value": "freelance digital marketer",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions using Prolific to make extra money during the pandemic.",
+          "value": "uses Prolific for extra income",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked about kids, he says 'five and eight oldest corn' (interpreted as ages 5 and 8) and discusses the 8-year-old's birthday.",
+          "value": "has two children, ages 5 and 8",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He describes setting up an American Ninja Warrior obstacle course for the 8-year-old's birthday party.",
+          "value": "child had an American Ninja Warrior themed birthday party",
+          "lines": [
+            88,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states his parents are in a 55+ retirement community.",
+          "value": "parents are in a 55+ retirement community",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'My dad was born in 45'.",
+          "value": "father born in 1945",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he hasn't seen his parents since the pandemic began.",
+          "value": "has not seen parents since start of COVID-19 pandemic",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says a friend gave him a Run DMC action figure set for his birthday.",
+          "value": "received a Run DMC action figure from a friend",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he was a hip hop DJ in the late 90s/early 2000s, spinning records in the city.",
+          "value": "was a hip hop DJ in late 1990s/early 2000s",
+          "lines": [
+            198,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes partying all night and says he couldn't keep up anymore, so he wouldn't set foot in a club now.",
+          "value": "used to party frequently, now avoids nightclubs",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He points out a weight rack behind him and says he works out at home instead of going to a gym.",
+          "value": "has a home gym with a weight rack",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'Run DMC was one of my favorite groups going up to' (growing up).",
+          "value": "likes Run DMC",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I love going down the shore as we say down here.'",
+          "value": "enjoys visiting the Jersey Shore",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions past work travel: 'I used to travel to Dayton a couple of times a year for work'.",
+          "value": "used to travel to Dayton, Ohio for work",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

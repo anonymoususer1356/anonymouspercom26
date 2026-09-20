@@ -1,0 +1,346 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself in line 5 with 'My name's cat.' Speaker_b repeats the name as 'Cat' in line 6.",
+          "value": "Cat",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a confirms she is in California through multiple cues: speaker_b refers to her location as 'you California' (line 16), the 3-hour time difference from Florida places her in the Pacific time zone (lines 18-21), she discusses the California TK program and says 'Since I was born' (line 145), and she later references California's COVID-19 restrictions (line 341).",
+          "value": "California",
+          "lines": [
+            16,
+            21,
+            145,
+            341
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'I am a teacher' (line 25), specifies she teaches middle school (line 93), and teaches English and Social Studies (line 109).",
+          "value": "middle school teacher (English and Social Studies)",
+          "lines": [
+            25,
+            93,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she got her master's degree before teaching (line 227).",
+          "value": "has a master's degree",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she attended UCLA for college in Los Angeles (line 147).",
+          "value": "attended UCLA",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks 'Are you a mother to her son?' (line 142) and speaker_a refers to her mom (line 199), together indicating she is female.",
+          "value": "female",
+          "lines": [
+            142,
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she has a son (line 141), establishing she is a mother.",
+          "value": "mother",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a says her son is five (line 141), just turned five (line 143), and is in transitional kindergarten (TK) in California (line 145).",
+          "value": "son, age 5, in transitional kindergarten (TK)",
+          "lines": [
+            141,
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 199 speaker_a states 'My mom works in a hospital too so she's a therapist.'",
+          "value": "mother is a hospital therapist",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'Oh, I teach online' (line 13) and later discusses her students' issues with computers and internet, consistent with online teaching (line 383).",
+          "value": "teaches online",
+          "lines": [
+            13,
+            383
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 421 speaker_a states 'some of my classes I have over 45 students.'",
+          "value": "has classes with over 45 students",
+          "lines": [
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses her passion in lines 231 and 245: 'I love, especially middle school students' and 'it just makes me so happy, I just love it.'",
+          "value": "enjoys teaching middle school students",
+          "lines": [
+            231,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 257 speaker_a says 'I've only been to florida once. I went to Orlando to Disneyworld.'",
+          "value": "visited Disneyworld once",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 281 speaker_a says 'I'm planning to take my son in like two years' referring to Disneyworld.",
+          "value": "plans to take son to Disneyworld in about 2 years",
+          "lines": [
+            281
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In line 2 speaker_b says 'My name char.' In line 3 speaker_a repeats it as 'Chow.' The intended name is likely 'Chow' despite the ASR transcription 'char'.",
+          "value": "Chow",
+          "lines": [
+            2,
+            3
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b establishes he lives in Florida through lines 16 ('florida which stayed on you California'), 25 (asks about Florida), 68 ('from a cold place to a warm place here'), 70 ('15 years ago') and 72 ('I stayed here since then').",
+          "value": "Florida",
+          "lines": [
+            16,
+            25,
+            68,
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 52 speaker_b states 'I was originally from china.'",
+          "value": "China (originally)",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b describes his work with 'I'm doing research actually' (line 36), 'I work in lab' (38), 'Chemistry' (40), and details the lab's work (44, 46).",
+          "value": "researcher in chemistry",
+          "lines": [
+            36,
+            38,
+            40,
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he studied chemistry for a PhD degree (line 54) and attended what sounds like University at Albany (line 62). The PhD itself is clearly stated.",
+          "value": "PhD in Chemistry",
+          "lines": [
+            54,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he was originally from China (line 52), indicating Chinese nationality or ethnicity.",
+          "value": "Chinese",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my wife' (line 76), indicating he is male.",
+          "value": "male",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my kids' (line 76) and 'I hold daughter' (line 78), so he is a father.",
+          "value": "father",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my wife' in line 76, showing he is married.",
+          "value": "married",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "In line 56 speaker_b says 'So I got a scholarship' when talking about coming to the US for his PhD.",
+          "value": "received scholarship for PhD",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 188, 190, 202 reveal his wife works as a nurse in a hospital rehab center; line 368 adds she works the night shift.",
+          "value": "wife is a nurse in hospital rehab center, works night shift",
+          "lines": [
+            188,
+            190,
+            202,
+            368
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 78 mentions a daughter, line 92 gives her age as '12 years old right now.'",
+          "value": "daughter, age 12",
+          "lines": [
+            78,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 131-132, speaker_b confirms he has family in China and visits 'every few years.'",
+          "value": "has family in China",
+          "lines": [
+            131,
+            132
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes his daily work in a lab with biology and chemistry (lines 38, 40, 44).",
+          "value": "works in a chemistry lab",
+          "lines": [
+            38,
+            40,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm not a traveling person' (line 150) and 'we never go traveling, we just stay home' (line 302).",
+          "value": "does not travel much, stays home",
+          "lines": [
+            150,
+            302
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "On weekends, he says they go to parks (line 248).",
+          "value": "goes to parks on weekends",
+          "lines": [
+            248
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions visiting Disney World, SeaWorld, and Bush Gardens in Orlando (lines 258, 268, 274, 282).",
+          "value": "has visited Orlando theme parks (Disney World, SeaWorld, Bush Gardens)",
+          "lines": [
+            258,
+            268,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about wearing a mask (line 30), avoiding risk, washing hands, and social distancing (lines 302, 326).",
+          "value": "follows COVID safety measures (mask, hand washing, distancing)",
+          "lines": [
+            30,
+            302,
+            326
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 58 he states 'I've been here 20 years' referring to the US.",
+          "value": "has lived in the US for 20 years",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 70 and 72 indicate he moved to Florida approximately 15 years ago and has remained there.",
+          "value": "has lived in Florida for 15 years",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

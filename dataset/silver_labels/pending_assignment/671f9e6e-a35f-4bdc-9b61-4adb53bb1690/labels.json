@@ -1,0 +1,357 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When asked her name, she replies 'Yeah Amanda, what's yours?'",
+          "value": "Amanda",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is from Georgia and specifies Athens when asked 'We're at in Georgia' (where at in Georgia).",
+          "value": "Athens, Georgia",
+          "lines": [
+            7,
+            11
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She identifies as a woman through statements like 'women like our our shit does not like to behave either' and refers to 'us as ladies'.",
+          "value": "female",
+          "lines": [
+            223,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I am a sex therapist' when asked what she does for a living.",
+          "value": "sex therapist",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a six-year-old child.",
+          "value": "mother of a six-year-old",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she finished her master's in social work in May.",
+          "value": "holds a Master's degree in social work",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "She tells speaker_b that she has a six-year-old child who does online school.",
+          "value": "has a six-year-old child",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she met her current partner and now feels 'boring' because she enjoys simple things like looking at fall leaves.",
+          "value": "has a current romantic partner",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I've been in open relationships for three years now.'",
+          "value": "has been in open relationships for three years",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she is doing all teletherapy from home, and discusses the challenges of working from home with a child.",
+          "value": "works from home as a teletherapist",
+          "lines": [
+            73,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains that her six-year-old is doing online school while she works, making it tough, especially during sessions.",
+          "value": "cares for a school-age child while working from home",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she used to sit at the dining room table but now uses a desk in her bedroom because of limited space.",
+          "value": "works from either the dining room or bedroom at home",
+          "lines": [
+            85,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses satisfaction with her job, saying 'I do I really love it.'",
+          "value": "enjoys her work as a sex therapist",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes a shift from being boring in her early/mid-twenties to now being more adventurous and wanting to live life fully.",
+          "value": "transitioned from a self-described boring lifestyle to a more adventurous one",
+          "lines": [
+            317,
+            319,
+            321
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She talks about wanting to sit and look at pretty fall leaves with her partner, indicating a current enjoyment of simple outdoor activities.",
+          "value": "enjoys simple leisure activities like viewing fall foliage with her partner",
+          "lines": [
+            293,
+            295
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses him as Andy when they exchange names (the ASR of speaker_b's self-introduction is garbled, but speaker_a's reply confirms his name).",
+          "value": "Andy",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is from Ohio, from the Canton area, about an hour and a half south of Cleveland.",
+          "value": "Canton area, Ohio, near Cleveland",
+          "lines": [
+            8,
+            12,
+            14
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He identifies as male in multiple statements, calling himself 'a guy' and 'a man'.",
+          "value": "male",
+          "lines": [
+            148,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states his age explicitly: 'I am 41'.",
+          "value": "41 years old",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I am a drug and alcohol counselor' when asked about his job.",
+          "value": "drug and alcohol counselor",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lists his children's ages: 23, 21, and 15.",
+          "value": "father of three children",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was self-employed for about 20 years, selling on eBay and Amazon.",
+          "value": "former self-employed online retailer",
+          "lines": [
+            88,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions coaching football, baseball, and basketball for about 18 years.",
+          "value": "youth sports coach (football, baseball, basketball)",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He states 'I have erection problems too' and later adds 'It's a mental thing', indicating erectile dysfunction.",
+          "value": "experiences erectile dysfunction",
+          "lines": [
+            160,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I don't have a high sex drive, I get bored very easily' and discusses getting bored with sex.",
+          "value": "low sex drive and easily bored with sex",
+          "lines": [
+            146,
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "He states the ages of his children: 'I have a 23 year old, a 21 year old, and a 15 year old', and later mentions his son is 23.",
+          "value": "has three children (23, 21, 15)",
+          "lines": [
+            98,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is dating a 26-year-old woman: 'I am 41 she's 26'.",
+          "value": "has a 26-year-old girlfriend",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his ex in the context of never wanting sex: 'not maybe my ex, I just never wanted to have sex'. The existence of an ex is implied but not elaborated.",
+          "value": "has an ex-partner",
+          "lines": [
+            149
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes his work schedule: 'I have a 10 or 11 to 7' at the detox center.",
+          "value": "works a shift from approximately 10-11 AM to 7 PM at a detox center",
+          "lines": [
+            116,
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he worked from home for almost 20 years as a self-employed seller on eBay and Amazon.",
+          "value": "worked from home for ~20 years as an online reseller",
+          "lines": [
+            88,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he coached football, baseball, and basketball for about 18 years while self-employed.",
+          "value": "coached youth football, baseball, and basketball for ~18 years",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He repeatedly expresses a preference for open relationships, describes his unconventional view of love, and says he doesn't want a classic girlfriend/wife.",
+          "value": "advocates for and prefers open relationships / non-monogamy",
+          "lines": [
+            228,
+            248,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He calls himself immature, says he refuses to grow up, and runs around with his son's friends who are in their 20s.",
+          "value": "socializes with younger people (20s), considers himself immature",
+          "lines": [
+            302,
+            306,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions playing video games when describing a previous awkward conversation.",
+          "value": "plays video games",
+          "lines": [
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He dislikes having a fixed schedule and being on someone else's time, preferring the freedom of self-employment.",
+          "value": "dislikes fixed work schedules, values freedom",
+          "lines": [
+            100,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says when self-employed he sometimes worked at 3 a.m. to work around his life.",
+          "value": "used to work late nights (e.g., 3 a.m.) while self-employed",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He says 'take away all of my like I don't know, boyish good looks which I don't have', indicating he believes he lacks youthful good looks.",
+          "value": "self-described as not having boyish good looks",
+          "lines": [
+            288
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

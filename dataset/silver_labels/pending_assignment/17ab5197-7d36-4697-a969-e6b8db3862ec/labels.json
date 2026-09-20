@@ -1,0 +1,277 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States they are living in Ohio for grad school, and confirms being a Buckeye (Ohio State).",
+          "value": "Lives in Ohio",
+          "lines": [
+            29,
+            110,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they are originally from Missouri.",
+          "value": "Originally from Missouri",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions being on a research trip in Massachusetts when the pandemic hit.",
+          "value": "Traveled to Massachusetts for research",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States they are in grad school and study linguistics.",
+          "value": "Graduate student in linguistics",
+          "lines": [
+            29,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms being a Buckeye when asked what school, implying Ohio State University.",
+          "value": "Affiliated with Ohio State University",
+          "lines": [
+            110,
+            111
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says they teach a psycholinguistics course.",
+          "value": "Teaches psycholinguistics",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In a discussion about the HPV vaccine (Gardasil), says 'I actually did get back to me for that' which likely means 'I actually did get the vaccine for that'. ASR error.",
+          "value": "Received HPV vaccine",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Describes having throat irritation and coughing before a research trip, and seeking a doctor.",
+          "value": "Had throat symptoms and sought medical attention",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Is a graduate student with a teaching role, implying a stipend or income.",
+          "value": "Graduate student with teaching income",
+          "lines": [
+            29,
+            115
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Has been doing Prolific studies for about three weeks, which typically pay participants.",
+          "value": "Earns money from Prolific studies",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says their mother worked as a medical transcriptionist for years and years.",
+          "value": "Mother was a medical transcriptionist",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes self as not a party person, preferring to hang out with people they already know, likely meaning introverted. ASR 'integrated' for 'introverted'.",
+          "value": "Introverted, not a party person",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says they listen to the Washington Post's news podcast.",
+          "value": "Listens to Washington Post news podcast",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing Prolific studies for three weeks.",
+          "value": "Participates in online studies",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States they live in Arizona, in the desert part.",
+          "value": "Lives in Arizona (desert area)",
+          "lines": [
+            30,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States they are originally from Illinois.",
+          "value": "Originally from Illinois",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says they are a transcriptionist with a medical background, typically doing medical files.",
+          "value": "Medical transcriptionist",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Believes her family had COVID-19 in March based on sudden cough and doctor's presumption; no test was available.",
+          "value": "Likely had COVID-19 in March 2020",
+          "lines": [
+            138,
+            140,
+            142
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Expresses reluctance to take new vaccines, specifically mentions not feeling comfortable with the HPV vaccine (Gardasil).",
+          "value": "Vaccine hesitant, did not receive HPV vaccine",
+          "lines": [
+            164,
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works as a transcriptionist from home; says it's not the best job but allows her to be home for kids.",
+          "value": "Works as a transcriptionist from home",
+          "lines": [
+            66,
+            68,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes there are no jobs in the northern part of Arizona where she would prefer to live.",
+          "value": "Limited job opportunities in preferred area",
+          "lines": [
+            40
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicitly says her daughter is 13 and a middle schooler.",
+          "value": "Mother of a 13-year-old daughter",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a son who struggles with online schooling; implies he is younger, around 8 based on the comment 'I'm not eight, so they need to be with other eight year olds'.",
+          "value": "Mother of a son (~8 years old)",
+          "lines": [
+            86,
+            88,
+            108
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'one of us, somebody was having to take off to like be the teacher', indicating another adult caregiver in the household.",
+          "value": "Has a partner/spouse",
+          "lines": [
+            90
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says in real life would never just start chatting with someone, and agrees with speaker_a's self-description as introverted.",
+          "value": "Introverted, avoids chatting with strangers",
+          "lines": [
+            22,
+            26
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Works from home, supervises children's online schooling.",
+          "value": "Works from home and supervises kids' online schooling",
+          "lines": [
+            72,
+            80,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing Prolific-like studies, including video tasks and taking a selfie with a product.",
+          "value": "Participates in online research studies",
+          "lines": [
+            14,
+            16,
+            18
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

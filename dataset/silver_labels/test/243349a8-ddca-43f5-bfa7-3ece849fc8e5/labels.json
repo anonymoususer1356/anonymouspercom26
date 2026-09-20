@@ -1,0 +1,337 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'up in Washington' and speaker_b confirms 'Washington state'. Also refers to 'here' when comparing weather to Boston.",
+          "value": "Washington",
+          "lines": [
+            5,
+            6,
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 177 'I studied uh quantitative ecology instead'. Later says 'quantitative psychologist' in same line, but the first stated field is quantitative ecology; likely a slip.",
+          "value": "studied quantitative ecology",
+          "lines": [
+            177
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I ended up ... marketing and software doing product training'.",
+          "value": "marketing and software product training",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions talking to people online and considering a transition after hearing about a person with a graphic design degree in a membrane company. Says 'maybe I could actually transition into that industry'.",
+          "value": "considering career transition to building materials/construction industry",
+          "lines": [
+            201,
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I wish I had followed in my dad's footsteps, he's a civil engineer'.",
+          "value": "father is a civil engineer",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'My coworker, she was also sent to Boston...' indicating a female coworker went on a work trip.",
+          "value": "has a female coworker who went to Boston for a work conference",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a tells a story: 'A friend of mine, she in college, she found this aquarium for really cheap...'",
+          "value": "has a friend from college who acquired a large aquarium",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I used to go sailing quite a bit'.",
+          "value": "used to go sailing regularly",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a couple of succulents that I've been kind of neglecting'.",
+          "value": "has succulents (neglected)",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'Fine Homebuilding' magazine/podcast and discusses its content.",
+          "value": "listens to Fine Homebuilding podcast",
+          "lines": [
+            109,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes watching a YouTube lecturer and spells out 'L. S. T. I. B. U. R. E. K.'",
+          "value": "watches building science lectures on YouTube (Lstiburek)",
+          "lines": [
+            153,
+            155,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'This is my 3rd 1' (line 41) and 'this is only like my third time' (line 239), indicating participation in a series of video chat conversations for data collection or similar.",
+          "value": "participating in a series of video chat conversations (3rd session)",
+          "lines": [
+            41,
+            239
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b directly says 'I am in massachusetts'.",
+          "value": "Massachusetts",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm a single mom' which implies female gender.",
+          "value": "female",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got it for my birthday in May' referring to the orchid.",
+          "value": "birthday in May",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my degree when I studied in school, I did latin and ancient greek'.",
+          "value": "degree in Latin and Ancient Greek",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm an estimator, I do pricing' and 'I do flexible pack' (flexible packaging).",
+          "value": "estimator in flexible packaging industry",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says '3 years ago I had a job that did ... crates ... and that's what I was pricing.'",
+          "value": "previously worked in pricing for crates (3 years ago)",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it wasn't actually until the pandemic because I started working from home'.",
+          "value": "working from home due to pandemic",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my actual job is about an hour from my house'.",
+          "value": "job location is about an hour drive from home",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My house is from 1950 ... renovated right before I bought it in 2003'.",
+          "value": "homeowner: house built 1950, purchased in 2003",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I did just have insulation all blown in for the first floor'.",
+          "value": "recently added blown-in insulation to first floor of house",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I keep thinking ... if I just jumped into construction'.",
+          "value": "considering career change to construction industry",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I have two Children who have been explicitly warned to be quiet' and 'I'm a single mom with two kids'.",
+          "value": "has two children",
+          "lines": [
+            48,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says 'I'm a single mom'.",
+          "value": "single mother",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got my fish tank for free when my sister moved and couldn't take it with her'.",
+          "value": "has a sister",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents actually have a goldfish pond in their backyard'.",
+          "value": "parents have a goldfish pond",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts 'visiting a friend in college and they still actually like had like the wood stove'.",
+          "value": "has a friend from college",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes having many plants: orchid, pitcher plant, trying venus flytrap. Says 'I do have many plants on the table'.",
+          "value": "has multiple plants (orchids, pitcher plant, attempts venus flytrap)",
+          "lines": [
+            48,
+            50,
+            52,
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms 'I do have an aquarium' and mentions buying fish cheaply.",
+          "value": "has an aquarium with fish",
+          "lines": [
+            69,
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'a daycare on top of that' in the context of single parenthood.",
+          "value": "uses daycare for children",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Same as economic fact; working from home shapes daily life.",
+          "value": "works from home (during pandemic)",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have actually been to Washington state once uh like 20 years ago' and 'I spent three days in Seattle'.",
+          "value": "visited Washington state once, ~20 years ago, spent three days in Seattle",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'this is my third or fourth conversation, I've done this' and references feedback procedures, indicating structured participation.",
+          "value": "participating in a series of video chat conversations (3rd or 4th session)",
+          "lines": [
+            40,
+            242
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'for a while when I was in my twenties I really wanted to do a like an earth shelter at home'.",
+          "value": "in twenties wanted an earth sheltered home",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

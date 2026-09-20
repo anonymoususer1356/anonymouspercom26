@@ -1,0 +1,396 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 9: speaker_a says 'I'm drugs'. ASR 'drugs' is phonetically close to 'Drew'. The intended name is Drew.",
+          "value": "Drew",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 13: speaker_a says 'I am over in California'. Time 8:03 (line 17) matches Pacific Time.",
+          "value": "California",
+          "lines": [
+            13,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 39: 'I actually go to school in Canada'. Line 270: speaker_b says 'get back to Canada' confirming school is in Canada.",
+          "value": "Canada (school location)",
+          "lines": [
+            39,
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 39: 'I'm a college student'. Lines 173 and 219 refer to being in college.",
+          "value": "college student",
+          "lines": [
+            39,
+            173,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 85: speaker_a, after mentioning someone Asian who grew up in that culture, says 'I, I mean obviously I'm, you know, Americanized as well', implying he is that someone.",
+          "value": "Asian (Americanized)",
+          "lines": [
+            85
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 107: 'I get motions like really easily' -> intended 'motion sick'.",
+          "value": "gets motion sick easily",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 173: 'my intention span is shorter than I would like it to be' -> intended 'attention span'.",
+          "value": "short attention span (self-reported)",
+          "lines": [
+            173
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 37: 'I get paid to just talk to people across the country'.",
+          "value": "gets paid for this conversation service",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 47: 'I had a cousin who was supposed to do a year abroad in Korea'.",
+          "value": "has a cousin (who planned to study abroad in Korea)",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'He is a friend of mine who actually became a japanese teacher or an english teacher in Japan'.",
+          "value": "has a friend who is an English teacher in Japan",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 107: 'my sister used to watch this like korean baby show'.",
+          "value": "has a sister",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 229: 'my old friend from high school actually became an animator for uh for anime'.",
+          "value": "has a friend from high school who is an anime animator",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 197: 'I have a friend who was really into transformers'.",
+          "value": "has a friend who is a Transformers enthusiast",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 117: 'I was actually playing Minecraft right before this'.",
+          "value": "plays Minecraft",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 123: 'I'm more of a counterstrike person'.",
+          "value": "plays Counter-Strike",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 123: 'I was among the travel to' phonetically 'Among Us too'; context is speaker_b just mentioning Among Us.",
+          "value": "plays Among Us",
+          "lines": [
+            123
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 123: 'I did try and Valerie' -> Valorant.",
+          "value": "tried Valorant",
+          "lines": [
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 141: 'I do play some refugees myself' -> intended 'RPGs', recommends Katana Zero.",
+          "value": "plays RPGs",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 215: 'I'm more of an animal person' -> 'anime person'. Line 217: 'used to be a really hardcore fan, watch 12-13 episodes a day'.",
+          "value": "watches anime, used to binge-watch",
+          "lines": [
+            215,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 95,97,99 mention following specific YouTube vloggers (city planning, Chris Broad Japan tours, farm in Vermont).",
+          "value": "watches YouTube vlogs about city planning, Japan tours, and farm life",
+          "lines": [
+            95,
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 95: 'I'm not much of a Tiktok person'.",
+          "value": "not a regular TikTok user",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 53: 'I'm actually learning japanese myself'.",
+          "value": "learning Japanese",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 39: 'I do not leave my home often unfortunately' because college is online.",
+          "value": "stays home often, does not go out",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 161: 'I remember playing it before' referring to Goat Simulator.",
+          "value": "has played Goat Simulator",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 8: speaker_b says 'I'm Sarah'. Clear self-introduction.",
+          "value": "Sarah",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 10: 'I'm in Virginia'. Time 11:03 (line 18) matches Eastern Time.",
+          "value": "Virginia",
+          "lines": [
+            10,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Sarah is female and she mentions a boyfriend (line 118); strongly implies female gender, though not explicitly stated.",
+          "value": "female",
+          "lines": [
+            8,
+            118
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 180: 'when I was in college' indicates she attended college in the past.",
+          "value": "attended college",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 38: 'all I do is like go to work and come home'.",
+          "value": "employed (goes to work)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 164: 'the little boy that I used to nanny'.",
+          "value": "used to work as a nanny",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 118: 'My boyfriend's playing Minecraft'. Line 126: 'Drew was like'. Line 152: 'I'll just ask Drew'.",
+          "value": "has a boyfriend named Drew",
+          "lines": [
+            118,
+            126,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 172: 'I have two younger brothers'.",
+          "value": "has two younger brothers",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 124: 'hanging out with one of my co workers'.",
+          "value": "has a co-worker she socialises with",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 164: 'the little boy that I used to nanny'.",
+          "value": "used to nanny a little boy",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 50,64,90,92,196 show she follows specific TikTok accounts (goat farm, teacher in Spain, cosplay etc.).",
+          "value": "uses TikTok, follows lifestyle/cosplay content",
+          "lines": [
+            50,
+            64,
+            90,
+            92,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 100: 'I've never been a youtube person like besides like music videos or like a funny video'.",
+          "value": "not a regular YouTube viewer (only music/funny videos)",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 136: 'I grew up playing the lego games and then I played them as an adult'.",
+          "value": "plays Lego video games",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 158: 'I like goat simulator'.",
+          "value": "plays Goat Simulator",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 136,138,156: she describes only liking games with a linear path, avoiding open-world or complex games.",
+          "value": "prefers linear, simple games; avoids open-world/complex games",
+          "lines": [
+            136,
+            138,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 172 'I like to read', 180 'I've always been into reading'.",
+          "value": "enjoys reading",
+          "lines": [
+            172,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 220: 'I've never, I don't think I've ever seen an animal before' -> 'anime'. Line 232: only seen Pokemon.",
+          "value": "has not watched anime (except possibly Pokemon)",
+          "lines": [
+            220,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 38: 'all I do is like go to work and come home'.",
+          "value": "daily routine mainly work and home",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

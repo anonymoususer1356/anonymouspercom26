@@ -1,0 +1,543 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At line 9, speaker_a says 'I'm steven Margaret'. 'steven' is phonetically close to 'Steven', the intended name. 'Margaret' is likely an ASR error for another word or a last name not confirmed. No other name given.",
+          "value": "Steven",
+          "lines": [
+            9
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm over here in Georgia' (line 69, 'enamel' likely ASR error). Also mentions schools in Georgia (line 189) and moving there over 8 years ago (line 83).",
+          "value": "Georgia, USA",
+          "lines": [
+            69,
+            83,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm actually from ... Nigeria to be precise' (line 161).",
+          "value": "Nigeria (origin)",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to live in New Jersey' (line 85, 'believe' ASR for 'live') and lists it among states lived in (line 87).",
+          "value": "New Jersey, USA (previous residence)",
+          "lines": [
+            85,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved here ... over eight years now' (line 83), with 'here' referring to Georgia based on context.",
+          "value": "Has lived in Georgia for over 8 years",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "From line 161: 'I'm actually from ... Nigeria to be precise'.",
+          "value": "Nigerian",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms work and school brought them to America (lines 154-157) and that family were already in the US (line 159).",
+          "value": "Immigrant to the United States",
+          "lines": [
+            154,
+            155,
+            157,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I also have ... a 20 month old son' (line 175).",
+          "value": "Father of a 20-month-old son",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did business management in school' (line 159).",
+          "value": "Studied business management",
+          "lines": [
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I walk with amazon' (likely 'work', line 33) and 'Process assistant ... inventory ... quality assurance' (line 35).",
+          "value": "Process assistant at Amazon in inventory/quality assurance",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a male-sounding name 'Steven' (line 9) and refers to 'my son' (line 175). Gender not explicitly stated but strongly implied.",
+          "value": "Male",
+          "lines": [
+            9,
+            175
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a mentions 'it's a lot of stress' in the context of working at an Amazon facility with Covid cases (line 53).",
+          "value": "Experiences work-related stress",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes working at Amazon (lines 33, 35).",
+          "value": "Employed at Amazon",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do, they trade forex' (line 195) and mentions day trading.",
+          "value": "Active in forex (foreign exchange) trading",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses plan to become consistently profitable and leave their job (line 195).",
+          "value": "Goal to become a full-time forex trader",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I haven't been able to do it because of the cost' regarding a Master's degree (line 159).",
+          "value": "Financial constraints prevent pursuing a Master's degree",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states having a 20-month-old son (line 175).",
+          "value": "Has a 20-month-old son",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my families are we're up here already' (line 159) indicating family members in the United States.",
+          "value": "Has family in the United States",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'go to London to see my cousin' (line 265).",
+          "value": "Has a cousin in London",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a discussion about Siberian huskies, speaker_a says 'I had a friend as well, we have one' (line 233), likely meaning a friend owned one.",
+          "value": "Friend owned a Siberian husky",
+          "lines": [
+            233
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I went to Istanbul. I went to is man and car' (line 135), referring to Istanbul and likely Izmir and Ankara.",
+          "value": "Has traveled to Turkey (Istanbul, likely Izmir and Ankara)",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do take courses online here and there' (line 159).",
+          "value": "Takes online courses",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I haven't eat out in I don't know since this started' (line 269).",
+          "value": "Avoids eating out since the pandemic began",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses dislike for small dogs and preference for larger breeds like Golden Retriever and German Shepherd (line 229).",
+          "value": "Prefers large dog breeds (e.g., Golden Retriever, German Shepherd)",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm trying to adopt one' regarding a dog (line 229).",
+          "value": "Wants to adopt a dog",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I've never been to texas' (line 81).",
+          "value": "Never visited Texas",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes pulling information and making reports at Amazon (line 39).",
+          "value": "Job involves data retrieval and report generation",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'only been to about a few stickers' (states) (line 81) and lists about six states (lines 87-91).",
+          "value": "Has visited only a few US states (approximately 6)",
+          "lines": [
+            81,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces themselves as 'Mark' at line 10.",
+          "value": "Mark",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm out of Indianapolis' (line 66).",
+          "value": "Indianapolis, Indiana, USA",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up in the Chicago land area' (line 70).",
+          "value": "Originally from the Chicago area",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Have been around here for about 10 years or so now' (line 70) referring to the Indianapolis area.",
+          "value": "Has lived in the Indianapolis area for about 10 years",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Grew up in Chicago area and lives in Indiana (lines 66, 70).",
+          "value": "American",
+          "lines": [
+            66,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes work with computers, databases, AWS (lines 22, 24, 40).",
+          "value": "Works in IT (databases, AWS)",
+          "lines": [
+            22,
+            24,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References 'me and my wife' (lines 94, 176, 184).",
+          "value": "Married",
+          "lines": [
+            94,
+            176,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions daughter almost 3 (line 176) and wife pregnant (line 176).",
+          "value": "Father of a nearly 3-year-old daughter and expecting second child",
+          "lines": [
+            170,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my wife is a nurse' (line 184).",
+          "value": "Wife is a nurse",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name 'Mark', references to 'my wife', 'father' (lines 10, 94).",
+          "value": "Male",
+          "lines": [
+            10,
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In the context of dogs, speaker_b says 'I'm just allergic to them' (line 242).",
+          "value": "Allergic to dogs",
+          "lines": [
+            242
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'what gets me up in the morning to go on a run' (line 204, 'Iran' ASR for 'a run').",
+          "value": "Goes running for exercise",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'completely work from home' (line 26) and describes IT job (lines 22, 24).",
+          "value": "Works from home in IT",
+          "lines": [
+            22,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions wife's nursing job and reliance on both incomes (lines 184, 190).",
+          "value": "Dual-income household (IT and nursing)",
+          "lines": [
+            184,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says extra money goes toward travel, not house or clothes (lines 104-106).",
+          "value": "Discretionary income prioritized for travel",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains flights from Indianapolis are expensive, so they drive to Atlanta or New York/New Jersey for intercontinental flights (lines 144-146).",
+          "value": "Often uses airports in Atlanta or New York/New Jersey for cheaper international flights",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "References to wife (lines 94, 184).",
+          "value": "Wife (nurse)",
+          "lines": [
+            94,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions daughter almost 3 (line 176).",
+          "value": "Daughter, nearly 3 years old",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Wife is pregnant, due any week (line 176).",
+          "value": "Expecting second child",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions relatives living in the general area when visiting the UK (line 164).",
+          "value": "Has relatives in the UK",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I had a friend who had one' (line 230) referring to a Siberian husky.",
+          "value": "Friend owned a Siberian husky",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mother in law had one' (line 232) referring to a husky.",
+          "value": "Mother-in-law owned a Siberian husky",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'completely work from home' (line 26).",
+          "value": "Works from home",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions trips to Spain (line 100), Turkey (line 130), China (line 116), and Europe generally.",
+          "value": "Has traveled internationally to Spain, Turkey, China, and various European countries",
+          "lines": [
+            100,
+            116,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we have two cats in the house' (line 222).",
+          "value": "Owns two cats",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Goes running for exercise (line 204).",
+          "value": "Goes running for exercise",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'probably gonna vote democrat' (line 208).",
+          "value": "Plans to vote Democratic in upcoming election",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they only do takeout, not eating in restaurants, feels weird (lines 268, 272).",
+          "value": "Avoids indoor dining due to Covid, relies on takeout",
+          "lines": [
+            268,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'we do some decent amount of work with the AWS' (line 40).",
+          "value": "Uses AWS at work",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Egypt has always been sort of the top of the list' (line 170) regarding travel destinations.",
+          "value": "Wants to visit Egypt",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'Never been to texas though' (line 78).",
+          "value": "Never visited Texas",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

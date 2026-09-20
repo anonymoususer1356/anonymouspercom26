@@ -1,0 +1,412 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as 'Lynn Michael' (line 265). Speaker_b later addresses her as 'Lynn' (line 296), and during the name exchange speaker_b repeats 'Lynn, Clinton, Michael' (ASR for 'Lynn Michael') confirming the name (line 266).",
+          "value": "Lynn Michael",
+          "lines": [
+            265,
+            266,
+            296
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in Virginia (line 13), specifically Northern Virginia just outside Washington D.C. (lines 15, 17). She says she lives about half an hour from downtown D.C. in the suburbs (line 127) and refers to 'up here in D.C.' (line 77).",
+          "value": "Northern Virginia, near Washington D.C.",
+          "lines": [
+            13,
+            15,
+            17,
+            77,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says she is a writer (line 59), does nonfiction (line 61), and currently works as a storyteller for a nonprofit that serves paralyzed veterans (lines 61, 187).",
+          "value": "Writer and storyteller for a nonprofit serving paralyzed veterans",
+          "lines": [
+            59,
+            61,
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a notes that 'writer doesn't really pay a lot of money' (line 189), implying her income from writing is modest.",
+          "value": "Likely modest income from writing",
+          "lines": [
+            189
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b mentions they will get paid for staying on the call (line 96), and speaker_a agrees to stay (line 97).",
+          "value": "Receives payment for participating in this survey",
+          "lines": [
+            96,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says she usually drives through Knoxville as the halfway point to visit her family (line 19).",
+          "value": "Has family (likely parents) living at a distance requiring a stop in Knoxville",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions her aunt and uncle lived in Vernon Hills, Illinois (line 119).",
+          "value": "Has an aunt and uncle who lived in Vernon Hills, Illinois",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has a female friend from Chattanooga, Tennessee (line 241).",
+          "value": "Has a female friend from Chattanooga, Tennessee",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Throughout the transcript, speaker_a converses with speaker_b (Michael).",
+          "value": "Conversation partner: speaker_b (Michael)",
+          "lines": [
+            1,
+            2,
+            3,
+            4,
+            265,
+            266,
+            267,
+            268,
+            296,
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says her workplace shifted to working from home during Covid, eliminating her commute (lines 75, 77).",
+          "value": "Works from home since the COVID-19 pandemic",
+          "lines": [
+            75,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has tried eating on outdoor patios but felt scared and uncomfortable afterward and now avoids it (line 91).",
+          "value": "Avoids indoor dining and feels anxious about COVID-19 exposure",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'it's weird to not have a social life really' (line 77), indicating limited social activity.",
+          "value": "Has limited social life",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she likes taking these surveys in the morning with coffee before checking email (line 277).",
+          "value": "Enjoys taking paid surveys in the morning with coffee",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I put like a post it note' (line 11) in the context of covering webcams, indicating she sometimes covers her webcam with a sticky note.",
+          "value": "Sometimes covers webcam with a post-it note",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes having to remind herself to crank her car after leaving it for days during lockdown (line 139), showing she owns a car but drives infrequently.",
+          "value": "Owns a car and drives infrequently during the pandemic",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'Bye Michael' at the end of the conversation, addressing speaker_b (line 299). Speaker_b does not state his own name, but speaker_a uses 'Michael'.",
+          "value": "Michael",
+          "lines": [
+            299
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is in Tennessee (line 12) and specifies he is in Chattanooga, south of Knoxville (line 20).",
+          "value": "Chattanooga, Tennessee",
+          "lines": [
+            12,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he moved to Chicago for a few years (line 52) and describes living in a historic building near Lake Michigan (lines 100-106). He also mentions friends there (line 110).",
+          "value": "Chicago, Illinois (previous residence)",
+          "lines": [
+            52,
+            100,
+            102,
+            104,
+            106,
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states he is a writer (line 52), majored in writing and theater directing, and writes plays and short fiction (lines 52, 72).",
+          "value": "Writer (playwright, short fiction writer)",
+          "lines": [
+            52,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his college major was writing and theater directing (line 52).",
+          "value": "College major in writing and theater directing",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to speaker_b as 'you're a personable guy' (line 237), indicating speaker_b is male.",
+          "value": "Male",
+          "lines": [
+            237
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he will stay on the call because 'we're still get paid at the end' (line 96).",
+          "value": "Receives payment for participating in this survey",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions living in a rent-controlled apartment in Chicago (line 100), suggesting lower housing costs and possibly modest income at that time.",
+          "value": "Previously lived in rent-controlled housing, implying modest income",
+          "lines": [
+            100
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says his mom got ill and he came back to Tennessee to take care of her (line 52).",
+          "value": "Has a mother in Tennessee for whom he is the caregiver",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having a sister and an 8-year-old nephew and 6-year-old niece, with whom he spends Halloween (lines 148-150).",
+          "value": "Has a sister, a nephew (age 8), and a niece (age 6)",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says a friend recently started a sound form podcast and he is contributing to it (line 74).",
+          "value": "Has a friend who started a podcast",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a friend who works for the school board (line 160).",
+          "value": "Has a friend who works for the school board",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he still has friends who work at Chicago Shakespeare Theater (line 110).",
+          "value": "Has friends who work at Chicago Shakespeare Theater",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a trip to Virginia Beach with a female friend (line 250).",
+          "value": "Has a female friend with whom he visited Virginia Beach",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Throughout the transcript, speaker_b converses with speaker_a (Lynn).",
+          "value": "Conversation partner: speaker_a (Lynn Michael)",
+          "lines": [
+            2,
+            3,
+            4,
+            265,
+            266,
+            267,
+            268,
+            296,
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b moved from Chicago back to Tennessee to care for his ill mother (line 52).",
+          "value": "Relocated from Chicago to Tennessee to be a caregiver for his mother",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the pandemic shutdown gave him more time to write (lines 54-56) and that it forced productivity (line 82).",
+          "value": "Used pandemic downtime to focus on writing",
+          "lines": [
+            54,
+            56,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he only gets takeout and is not comfortable dining in restaurants (lines 88, 90).",
+          "value": "Only gets takeout, avoids dine-in restaurants due to COVID-19",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he sees a couple of close friends occasionally (line 90).",
+          "value": "Occasionally meets a couple of close friends in person",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he hadn't had a real haircut since January, family had been cutting it, he wore a hat, and he finally got a professional haircut yesterday (lines 84, 86).",
+          "value": "Had long hair during pandemic, recently got a professional haircut",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes finishing work at 5 p.m. in Chicago and walking to the beach in summer (lines 122-124).",
+          "value": "In Chicago, walked to the beach after work in summer",
+          "lines": [
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he lived above a bar, across from restaurants, and near a 24-hour bus and Red Line train in Chicago (lines 104-106).",
+          "value": "Previously lived in a vibrant urban area with easy access to transit and dining",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he puts a piece of tape over his webcam when not in use (line 8).",
+          "value": "Covers laptop webcam with tape when not in use",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions talking to homeless people living in tents behind a gas station near his home (lines 196-198).",
+          "value": "Occasionally converses with homeless individuals in his neighborhood",
+          "lines": [
+            196,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions watching a movie called 'Leave No Trace' (line 212).",
+          "value": "Enjoys watching movies",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b describes his hair as having grown long during the pandemic, requiring a hat, and that he recently cut it (lines 84, 86).",
+          "value": "Had long hair, recently cut short",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

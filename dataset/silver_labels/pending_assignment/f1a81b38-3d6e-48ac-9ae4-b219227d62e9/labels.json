@@ -1,0 +1,437 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 5: speaker_a states 'My name, my name is dan'.",
+          "value": "Dan",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 9: 'I'm located in columbus Georgia' (ASR: columbus -> Columbus). Line 241 references 'columbus Georgia like bar trivia scene', confirming location.",
+          "value": "Columbus, Georgia",
+          "lines": [
+            9,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 13: 'I live across the street from an enormous park'.",
+          "value": "Lives across the street from an enormous park",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 17: 'I'm a college professor in music'.",
+          "value": "College professor in music",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 45: 'I have my my PhD'.",
+          "value": "PhD holder",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 17: college professor in music; line 19: 'hit the jazz clubs and play', indicating he is a performing musician.",
+          "value": "Musician",
+          "lines": [
+            17,
+            19
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 45: 'when things were like, particularly dark in school' indicating mental distress during PhD studies.",
+          "value": "Experienced dark periods during PhD",
+          "lines": [
+            45
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 321: 'I have my days of being all star crazy stuff in china' (ASR for 'stir crazy'), referring to feeling confined during lockdown.",
+          "value": "Experiences days of feeling stir crazy",
+          "lines": [
+            321
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 17: states he is a college professor, indicating current employment.",
+          "value": "Employed as a college professor",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 57: 'I was job searching this year'.",
+          "value": "Was job searching this year",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'we switched online classes completely for the rest of the semester'.",
+          "value": "Classes moved online this semester",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 19: 'I have a lot of friends that live in new york city'.",
+          "value": "Has many friends in New York City",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 21: 'my friends typically either live in Harlem area or in Brooklyn'.",
+          "value": "Has friends in Harlem or Brooklyn",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 95: 'my three closest friends are all in tech'.",
+          "value": "Has three close friends who work in tech",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 96-97: 'one of them works for um he's a senior developer at Apple'.",
+          "value": "Has a close friend who is a senior developer at Apple",
+          "lines": [
+            96,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 97: 'and then there's a senior developer for his following company.' ASR garbled; intended company unclear. Indicates another close friend who is a senior developer.",
+          "value": "Has a close friend who is a senior developer at an unspecified company (ASR 'his following company')",
+          "lines": [
+            97
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Line 287: 'um is it the curator for the National Jazz Museum?' implying he has a friend who holds that position.",
+          "value": "Has a friend who is the curator for the National Jazz Museum",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 217: 'a lot of my family of physicians' (ASR 'of' likely 'are'). Indicates many family members are physicians.",
+          "value": "Many family members are physicians",
+          "lines": [
+            217
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 217: 'I really enjoy bike racing and cycling a lot'.",
+          "value": "Enjoys cycling and bike racing",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 221: 'I've been riding indoors on like a a smart bike trainer'.",
+          "value": "Rides indoors on a smart bike trainer",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 201-211: Describes a preference for ~60-minute activities and watching serial television over movies. Lines 207: 'internal clock after 60 minutes', 211: 'If it's any kind of media it's um any kind of serial television'.",
+          "value": "Prefers watching serial television over movies",
+          "lines": [
+            201,
+            207,
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 19: 'I actually go up there quite often to usually once or twice a year to come spend five days... and hit the jazz clubs and play'.",
+          "value": "Visits New York City once or twice a year to go to jazz clubs and play",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 33, 83: 'I just in the past like three weeks started going through... web development, particularly javascript', and 'Yes, I definitely enjoy it. It's more for a couple like projects and ideas'.",
+          "value": "Learning web development (JavaScript) as a hobby",
+          "lines": [
+            33,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 239: 'I used to while I was on like my my schools like trivia, I don't know what we like quiz bowl team'.",
+          "value": "Formerly on a quiz bowl team",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 241, 245: 'the columbus Georgia like bar trivia scene isn't really that happening' and 'I do miss it... I get pretty nostalgic'.",
+          "value": "Enjoys trivia and misses participating",
+          "lines": [
+            241,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 223, 229: 'I did watch through quite a few, like the the marvel's Avenger series' and 'I think that I got into that... when in game came out'.",
+          "value": "Watched the Marvel Avengers series while cycling indoors",
+          "lines": [
+            223,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 177: 'I'll just create another copy of it and then just comment through it and just like describe every line'.",
+          "value": "Practices coding by commenting through code",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 107, 109: Describes preference for learning resources that are 'very detail oriented' with repetitive practice, and frustration when pushed to problem-solve without deep understanding first.",
+          "value": "Prefers a detailed, step-by-step approach to learning coding",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 299: 'usually play in Atlanta almost every weekend' (implied subject 'I'), in context of talking about his own activities and proximity to Atlanta.",
+          "value": "Performs in Atlanta almost every weekend",
+          "lines": [
+            299
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: speaker_b states 'My name's Hector.'",
+          "value": "Hector",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 6-8: 'I'm located right now in new york. Yeah.' and in reply to 'metropolitan area or?' says 'Yeah sweetie.' (ASR for 'Yes, city.'). Line 248: 'at least in, in the city' confirms New York City.",
+          "value": "New York City",
+          "lines": [
+            6,
+            8,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 16: 'I live outside like a small park' implies he lives near a small park.",
+          "value": "Lives near a small park",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 24, 26: 'now I'm a health care worker.' 'I'm a home health care worker.'",
+          "value": "Home health care worker",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 24: 'I used to be a web developer'.",
+          "value": "Former web developer",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 114: 'I went to college for electrical engineering'.",
+          "value": "Studied electrical engineering in college",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 26: states he is a home health care worker, indicating current employment.",
+          "value": "Employed as a home health care worker",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: 'I had a bad experience with an employer... I was mostly trying to find myself and healthcare was something I was interested in'.",
+          "value": "Left web development due to a bad experience with an employer",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 38: 'I do it on the side, not as a way to earn income, but just for myself because I find it fun.'",
+          "value": "Engages in web development as a hobby, not for income",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 188, 190: 'my friends have taken to like watching a movie a week. That's that's pretty fun.'",
+          "value": "Has friends with whom he watches a movie weekly",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 188: 'I like to read, I liked a game and I like to play trivia.'",
+          "value": "Enjoys reading, gaming, and trivia",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 188, 190: 'my friends have taken to like watching a movie a week. That's that's pretty fun.'",
+          "value": "Participates in weekly movie watching with friends",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 38, 40: 'I still really enjoy web development. I do it on the side... um javascript mostly like I've used python and C sharp in the past'.",
+          "value": "Does web development as a hobby, primarily JavaScript (also used Python and C#)",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 16: 'I generally don't go out much nowadays.'",
+          "value": "Doesn't go out much nowadays",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 274: 'I went to a free concert once for Shaggy'.",
+          "value": "Attended a free Shaggy concert",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 276-280: 'I went to a off broadway play about a a Syrian refugee... I think it was called The Strip.'",
+          "value": "Attended an off-Broadway play possibly titled 'The Strip'",
+          "lines": [
+            276,
+            278,
+            280
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 114-118: 'I really enjoyed um struggling through um my classes... I took my own time... eventually it all started clicking'.",
+          "value": "Enjoys learning programming by struggling through material",
+          "lines": [
+            114,
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 248, 252: Describes teleconferencing trivia events and apps like HQ, implying he plays trivia online.",
+          "value": "Plays trivia through online/teleconference events",
+          "lines": [
+            248,
+            252
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

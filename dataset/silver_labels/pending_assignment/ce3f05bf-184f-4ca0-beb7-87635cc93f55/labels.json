@@ -1,0 +1,464 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'Yeah, my name is Rick.' Speaker_b later calls him 'Richard', confirming the full name.",
+          "value": "Rick (Richard)",
+          "lines": [
+            19,
+            296,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a gives his MTurk Crowd username as 'itsme' and clarifies the spelling as I.T.S.M.E.",
+          "value": "itsme (I.T.S.M.E.) on MTurk Crowd",
+          "lines": [
+            99,
+            102,
+            103,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he is on a forum called MTurk Crowd and instructs speaker_b to sign up at mturkcrowd.com.",
+          "value": "Member of MTurk Crowd forum",
+          "lines": [
+            69,
+            93,
+            94,
+            95,
+            96,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Arkansas' when asked where he is.",
+          "value": "Arkansas",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions 'my wife and my kids'.",
+          "value": "Married",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my wife and my kids'.",
+          "value": "Parent (has children)",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states he got sick a few years ago and could not stand on his feet all day, leading him to seek work he could do from home.",
+          "value": "Got sick a few years ago and could not stand on feet all day",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a says he never cheated on taxes, counts bonuses, and deducts home-office items such as coffee and toilet paper.",
+          "value": "Reports MTurk income on taxes and deducts home-office expenses",
+          "lines": [
+            269,
+            271,
+            272,
+            273,
+            275,
+            277
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'My home is paid for, it's been paid for...'",
+          "value": "Home is fully paid for",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my car, paid for...'",
+          "value": "Car is fully paid for",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'all the furniture's pay, everything is paid for.'",
+          "value": "Furniture is fully paid for",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says all he has is 'electric bill, food, telephone, internet, stuff like that'.",
+          "value": "Only recurring bills are electric, food, telephone, internet",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I can make 300 a week without killing myself' in reference to MTurk earnings.",
+          "value": "Makes approximately $300 per week from online work",
+          "lines": [
+            259
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'last year I got a tax form' from MTurk.",
+          "value": "Receives 1099 tax form from MTurk",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I got instant payment with prolific cash out and instantly it goes to my paypal.'",
+          "value": "Prolific pays instantly to PayPal",
+          "lines": [
+            141,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm set up with them trying to get paid every three days on my mint vine account. That's instant.'",
+          "value": "Has a Mint Vine account that pays every three days",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says a tax document showed 'I had so much, my wife had so much', implying she also earns MTurk income.",
+          "value": "Wife also earns MTurk income",
+          "lines": [
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my wife'.",
+          "value": "Married to a wife",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my kids'.",
+          "value": "Has children",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates his wife also earns income on MTurk.",
+          "value": "Wife also does MTurk work",
+          "lines": [
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he looked for 'something I could do working at home'.",
+          "value": "Works from home",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'sitting here in my pajamas'.",
+          "value": "Wears pajamas while working",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'drinking a cup of coffee' and later 'pour a cup of coffee'.",
+          "value": "Drinks coffee",
+          "lines": [
+            47,
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'or smoking a great and if I want' (ASR for cigarette/cigar).",
+          "value": "Smokes",
+          "lines": [
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes 'I used to have two computers running well I had 31 on each side of me' (garbled but indicates multiple computers).",
+          "value": "Uses multiple computers for work",
+          "lines": [
+            255
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a states he works on MTurk, has been on Prolific for years, and uses Mint Vine.",
+          "value": "Does microtask work on MTurk, Prolific, and other platforms",
+          "lines": [
+            27,
+            25,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself: 'I'm tim pleasure to meet you rick.'",
+          "value": "Tim",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives his email, spelled as W.R.A.P.P.E.R. producer, like a candy wrapper, one word at yahoo.com.",
+          "value": "wrapperproducer@yahoo.com",
+          "lines": [
+            108,
+            110,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives his Reddit username spelled Y U N G T U R K 82.",
+          "value": "Reddit username: yungturk82",
+          "lines": [
+            86,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm always on the beer money chat room' on Reddit.",
+          "value": "Active in r/beermoney chat room on Reddit",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in California, I'm in the Bay Area actually' and later mentions 'san Francisco, Bay Area'.",
+          "value": "California, San Francisco Bay Area",
+          "lines": [
+            8,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b's Reddit username ends with 82, a common birth-year suffix; he also indicates the name predates his MTurk use.",
+          "value": "Born circa 1982",
+          "lines": [
+            86,
+            264,
+            266
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b mentions 'me and my wife are' and 'my wife'.",
+          "value": "Married",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b states he did not qualify for unemployment in California, met the criteria, reapplied, and is waiting.",
+          "value": "Applied for California unemployment, did not initially qualify, reapplied",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I was a photographer prior' to the pandemic.",
+          "value": "Was a photographer prior to the pandemic",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he started on MTurk 'in july when the pandemic hit and they locked down everything.'",
+          "value": "Started working on MTurk in July (likely 2020) when pandemic lockdowns began",
+          "lines": [
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says UHRS is 'one of my main moneymakers right now but I use mturk it's kind of a backup.'",
+          "value": "UHRS is primary moneymaker; MTurk is backup",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has 'a good like a couple 100 in that account' waiting from Clickworker.",
+          "value": "Has approximately $200 pending in Clickworker account",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I use a hit scraper and I use ... panda crazy ... and ... the one that calculates your per hourly rate.'",
+          "value": "Uses Hit Scraper, Panda Crazy, and an hourly-rate script on MTurk",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I didn't qualify for unemployment which is insane ... I reapplied'.",
+          "value": "Did not initially qualify for California unemployment benefits",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'me and my wife'.",
+          "value": "Married",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'me and my wife are' in the context of housing his parents.",
+          "value": "Lives with wife",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm housing my at risk parents right now, me and my wife are'.",
+          "value": "Housing at-risk parents together with wife",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I remember going to Maui Back in 2012 for my honeymoon with my wife.'",
+          "value": "Went to Maui for honeymoon in 2012",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he was a photographer and 'went out for a shoot two or three weeks ago'.",
+          "value": "Does photography",
+          "lines": [
+            28,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes 'driving on the freeway right? And traffic here in the bay area like san Francisco, Bay Area'.",
+          "value": "Drives on Bay Area freeways",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions working on MTurk, Prolific, Clickworker, and UHRS.",
+          "value": "Does online microtask work on multiple platforms",
+          "lines": [
+            28,
+            130,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'you're my last chat because you can only do six. I did six already.'",
+          "value": "Has completed six Prolific chat tasks",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists Hit Scraper, Panda Crazy, and an hourly-rate script that he uses on MTurk.",
+          "value": "Uses multiple scripts and tools for MTurk",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

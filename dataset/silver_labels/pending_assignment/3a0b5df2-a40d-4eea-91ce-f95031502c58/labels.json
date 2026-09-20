@@ -1,0 +1,492 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states her name directly.",
+          "value": "Cynthia",
+          "lines": [
+            9,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she currently lives in Wake Forest, North Carolina, having moved from Raleigh.",
+          "value": "Wake Forest, North Carolina",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes neighbors as senior citizens and says people tell her 'You're too young to be living in here, you gotta be 55', indicating she lives in an age‑restricted community.",
+          "value": "55+ senior community",
+          "lines": [
+            81,
+            375
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions she used to live in New York and moved to North Carolina after retiring from Transit, and earlier lived in Brooklyn.",
+          "value": "Formerly New York",
+          "lines": [
+            295,
+            325
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she will be 60 in January, so her current age is 59.",
+          "value": "Age 59",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Inferred from her name and self‑references as 'mommy' and 'grandma'.",
+          "value": "Female",
+          "lines": [
+            9,
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has a grown son.",
+          "value": "Mother of a grown son",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is a grandma with a granddaughter (11) and grandson (9).",
+          "value": "Grandmother of two",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She directly states she retired in 2009.",
+          "value": "Retired",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she retired disabled because of her back situation.",
+          "value": "Disabled",
+          "lines": [
+            281
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She lives in a 55+ community and is almost 60, so she belongs to the senior citizen demographic.",
+          "value": "Senior citizen",
+          "lines": [
+            81,
+            375,
+            33
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes having her L4 and L5 discs collapse, leading to bad back issues.",
+          "value": "Collapsed discs (L4, L5) and chronic back problems",
+          "lines": [
+            277,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains that the back injury forced her into disability retirement.",
+          "value": "Disabled due to back injury",
+          "lines": [
+            281
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she has made over 400 euros from Prolific and has paid bills with the money.",
+          "value": "Earned over 400 euros from Prolific surveys",
+          "lines": [
+            71,
+            73,
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions also using Aspen and Amazon MTurk survey platforms.",
+          "value": "Participates in multiple online survey sites",
+          "lines": [
+            413,
+            415
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She recalls paying $30 each for Wizard of Oz figurines at a state fair.",
+          "value": "Spends money on collectibles (Wizard of Oz figurines, $30 each)",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She talks about her grown son.",
+          "value": "Has a grown son",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has a granddaughter (11) and grandson (9).",
+          "value": "Granddaughter (11) and grandson (9)",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tells her sister about Prolific, calls her sister 'stupid', and addresses her as 'Shelley' (ASR 'Shelley') in a later story.",
+          "value": "Sister named Shelley",
+          "lines": [
+            73,
+            305,
+            313
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says her father is in a VA nursing home in Queens, NY, is a Korean War veteran, and will be 89 in November.",
+          "value": "Father (Korean War vet, age 88, lives in VA nursing home in Queens, NY)",
+          "lines": [
+            357,
+            359,
+            361,
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her mother is in her eighties.",
+          "value": "Mother, in her eighties",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a close neighbor named Kathy who has a rescue dog named Joey.",
+          "value": "Neighbor Kathy with rescue dog Joey",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about a female friend who is an amputee, uses a wheelchair, and owns a cat that fetches bottle caps.",
+          "value": "Friend who is an amputee (wheelchair user) with a fetching cat",
+          "lines": [
+            97,
+            111,
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says the best time for her to go out is when it rains because fewer people are out.",
+          "value": "Goes out in rainy weather to avoid crowds",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She walks to the mailbox daily and says the loop can be about a mile.",
+          "value": "Walks to mailbox daily (about 1‑mile loop)",
+          "lines": [
+            379,
+            381
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She calls herself an arts and crafts person, describing making a purple pumpkin decoration, Christmas wreaths, etc.",
+          "value": "Arts and crafts (wreaths, holiday decorations)",
+          "lines": [
+            195,
+            199,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She collects Wizard of Oz figurines (scarecrow, Tin Man, Wicked Witch) and has had them since 2010.",
+          "value": "Collector of Wizard of Oz memorabilia",
+          "lines": [
+            221,
+            227,
+            235,
+            249,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she rides the bus every other day when asked what she does.",
+          "value": "Rides the bus every other day",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes herself as a 'gift for Gab', meaning very talkative.",
+          "value": "Very talkative",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions buying alcohol at an ABC store and being carded, indicating she drinks occasionally.",
+          "value": "Drinks alcohol occasionally",
+          "lines": [
+            389,
+            391,
+            401,
+            403
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She spends a lot of time on Prolific and other survey sites, often keeping her 'about you' up to date and catching high‑paying surveys.",
+          "value": "Frequent online survey taker",
+          "lines": [
+            63,
+            75,
+            411,
+            421
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She states she looks like she is in her forties, and people are shocked she lives in a 55+ community because she appears too young.",
+          "value": "Looks much younger than her age (appears 40s, actual 59)",
+          "lines": [
+            33,
+            375
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself directly as Wendy.",
+          "value": "Wendy",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in Northern Wisconsin and the time is 9 o'clock, one hour behind speaker_a.",
+          "value": "Northern Wisconsin",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lives in the country and has a private well.",
+          "value": "Rural area with well water",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about state fairs, she says she is about five hours away from where it is, implying a remote location within Wisconsin.",
+          "value": "About 5 hours from state fair location",
+          "lines": [
+            240
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Inferred from name and references to being a mother.",
+          "value": "Female",
+          "lines": [
+            10,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her kids are all in their twenties.",
+          "value": "Mother of children in their twenties",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says she has five sisters and no brothers.",
+          "value": "Has five sisters, no brothers",
+          "lines": [
+            462
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is 'smack dab in the middle' of six siblings.",
+          "value": "Middle child among six",
+          "lines": [
+            462
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she is terrified of heights.",
+          "value": "Acrophobia (fear of heights)",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She has been on Prolific for about six months and acknowledges the pay is good.",
+          "value": "Earns money from Prolific surveys",
+          "lines": [
+            46,
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She did DIY roof shingling, well pump, and water heater replacements specifically to save money, and says saving money was the whole reason.",
+          "value": "Saves money by doing home repairs herself",
+          "lines": [
+            184,
+            185,
+            186,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She states her kids are all in their twenties.",
+          "value": "Has children in their twenties",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her dog as a Pitbull mix, about 2 years old, 50 lbs, adopted at the end of May. The name appears to be 'E' (ASR 'that's an E').",
+          "value": "Pet dog (Pitbull mix, female, ~2 years, 50 lbs, adopted May), named 'E'",
+          "lines": [
+            48,
+            50,
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she has five sisters and no brothers.",
+          "value": "Has five sisters",
+          "lines": [
+            462
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She spent the summer on home improvement, reshingling her garage and house, and replacing a well pump and water heater, doing much of the work herself.",
+          "value": "Does DIY home improvement projects",
+          "lines": [
+            184,
+            186,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a well and living in the country.",
+          "value": "Rural living with well water",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is usually in bed by nine o'clock.",
+          "value": "Usually in bed by 9 p.m.",
+          "lines": [
+            466
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After the call she plans to stay up and read for a while, indicating reading is part of her evening routine.",
+          "value": "Reads before bed",
+          "lines": [
+            466
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She has been active on Prolific for about six months.",
+          "value": "Takes online surveys (Prolific)",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

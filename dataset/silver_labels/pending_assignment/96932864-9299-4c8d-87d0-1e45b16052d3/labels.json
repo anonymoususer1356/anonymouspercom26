@@ -1,0 +1,510 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'I'm Izzy' (line 25) and speaker_b later calls her 'lizzie' (line 268), confirming the name Izzy/Lizzie.",
+          "value": "Izzy",
+          "lines": [
+            25,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in Washington' (line 25), the time difference (3 hours behind Florida) matches Pacific time (lines 30-32), and she says she has always lived there (line 179).",
+          "value": "Lives in Washington state",
+          "lines": [
+            25,
+            30,
+            31,
+            32,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her mom lives about 10-15 minutes away (line 179).",
+          "value": "Lives within 10-15 minutes of her mother",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are going to Leavenworth, Washington this weekend (lines 215-217) and describes the drive (line 221).",
+          "value": "Planning a weekend trip to Leavenworth, Washington",
+          "lines": [
+            215,
+            217,
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b asks 'Your 22?' and speaker_a confirms 'Yeah' (lines 124-127). She also says she was 19 three years ago (line 67), consistent with 22.",
+          "value": "22 years old",
+          "lines": [
+            67,
+            124,
+            125,
+            126,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does online school (line 35) and specifies her major as integrated design in multimedia (lines 39-41).",
+          "value": "Online student majoring in integrated design in multimedia",
+          "lines": [
+            35,
+            39,
+            40,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I go to work' and also mentions online work (line 35).",
+          "value": "Employed (also does online work)",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Izzy, reference to a fiancé (line 97), and wedding dress shopping (lines 155, 159) strongly indicate female gender.",
+          "value": "Female",
+          "lines": [
+            25,
+            97,
+            155,
+            159
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She mentions going to work (line 35) and discusses budget considerations for vacations (line 175).",
+          "value": "Employed, has income",
+          "lines": [
+            35,
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to 'my fiancée' (line 97).",
+          "value": "Engaged",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'He's 25' directly (line 127) after confirming her own age.",
+          "value": "Fiancé is 25 years old",
+          "lines": [
+            124,
+            125,
+            126,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes his job as working for a well drilling company (lines 139-141).",
+          "value": "Fiancé works at a well drilling company",
+          "lines": [
+            139,
+            140,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I got engaged on August 24' (line 105).",
+          "value": "Engaged on August 24",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'We're getting married August. So like 10 months now' (line 163).",
+          "value": "Wedding planned for August (approximately 10 months from the conversation)",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they have a venue, photographer, and a specific cake from Paradise Cakes in Seattle (lines 149, 151).",
+          "value": "Wedding vendors booked: venue, photographer, cake from Paradise Cakes in Seattle",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She recounts meeting him through her brother-in-law, brother, and sister at church and camp (lines 131-133).",
+          "value": "Met fiancé through family members (brother-in-law, brother, sister)",
+          "lines": [
+            131,
+            132,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She gives the dog's name as Mochi, age 5-6, and breed as miniature Pinscher/Pomeranian mix (lines 57-59).",
+          "value": "Owns a dog named Mochi, 5-6 years old, miniature Pinscher/Pomeranian mix",
+          "lines": [
+            57,
+            58,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if her parents are still married, she answers 'Yeah' (lines 208-209).",
+          "value": "Parents are still married",
+          "lines": [
+            208,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom lives about like 10, 15 minutes away' (line 179).",
+          "value": "Mother lives nearby (10-15 minutes away)",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my brother', 'my sister', and 'my brother-in-law' in the engagement story (lines 131, 133).",
+          "value": "Has a brother, a sister, and a brother-in-law",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about putting down two dogs in the past, including a black lab when she was 19 (lines 65, 67).",
+          "value": "Previously owned two dogs that were euthanized, including a black lab at age 19",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she's been watching The Blacklist with her fiancé (line 97).",
+          "value": "Watches the TV series The Blacklist",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tells the jeweler she likes art deco and fantasy elvish styles (line 107).",
+          "value": "Prefers art deco and fantasy elvish styles",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says L.A. is 'too city for me' but likes the surrounding area (line 199).",
+          "value": "Dislikes large, dense cities; prefers surrounding areas",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I love the heat' (line 199).",
+          "value": "Loves hot weather",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she has been to Disneyland in California (line 185).",
+          "value": "Has visited Disneyland in California",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes the current trip to Leavenworth, staying at a cabin (lines 215-217).",
+          "value": "Taking a weekend trip to Leavenworth, WA to stay at a cabin",
+          "lines": [
+            215,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I definitely want like a bigger dress, I like the bigger styles' (line 159).",
+          "value": "Prefers larger-style wedding dresses",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are not cake fans but loved a specific half mango/half guava cake from Paradise Cakes (lines 149-151).",
+          "value": "Dislikes most cake but enjoys a specific mango/guava cake",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She shows her ring and says 'it was made in 1880' (lines 99-101).",
+          "value": "Wears a vintage engagement ring made in 1880",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'jodi' (line 20) and spells it 'J O D Y' (line 266). The ASR 'toady' (line 265) is a misrecognition that she corrects.",
+          "value": "Jodi (spelled J O D Y)",
+          "lines": [
+            20,
+            265,
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in florida' (line 28) and the time reference (11 a.m.) matches Eastern time (lines 29-32).",
+          "value": "Lives in Florida",
+          "lines": [
+            28,
+            29,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live down the street from my parents, I'm like 15 minutes away' (lines 206-207).",
+          "value": "Lives about 15 minutes from her parents",
+          "lines": [
+            206,
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Jodi, mention of a husband (line 238), and general context indicate female gender.",
+          "value": "Female",
+          "lines": [
+            20,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm married so I have my husband' (line 238).",
+          "value": "Married",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we don't have Children' (line 238).",
+          "value": "No children",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I am in thanking' (line 36), phonetically likely 'banking', given the context of hating it and later references to a corporate job.",
+          "value": "Works in banking",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I had gone to law school' (line 78).",
+          "value": "Attended law school",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she didn't get her first job until she was 28 (line 82), providing a lower bound for her age.",
+          "value": "Got first job at age 28",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She repeatedly references putting her dog down on Monday, crying, and feeling depressed (lines 52, 90, 92).",
+          "value": "Grieving the recent loss of her dog (euthanized on Monday)",
+          "lines": [
+            52,
+            90,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works in banking (line 36), so she has employment and income.",
+          "value": "Employed in banking",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she and her husband each had their own condos (line 244), indicating property ownership or rental.",
+          "value": "Owns or lives in a condo",
+          "lines": [
+            244
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She is married (line 238) and mentions her husband works from home (line 244).",
+          "value": "Married to a man who works from home",
+          "lines": [
+            238,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she had an Italian greyhound that was 17 years old and had to euthanize it on Monday (lines 52, 62).",
+          "value": "Owned an Italian greyhound (age 17) that was recently euthanized",
+          "lines": [
+            52,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her parents are divorced, her mother has been with her stepdad since (line 212).",
+          "value": "Parents divorced; mother remarried, has a stepfather",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her wedding: the property manager was a notary and married them quickly with no fanfare (lines 246-248).",
+          "value": "Married by her property manager (a notary) in a brief, informal ceremony",
+          "lines": [
+            246,
+            247,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives down the street from her parents, about 15 minutes away (lines 206-207).",
+          "value": "Lives close to her parents (about 15 minutes away)",
+          "lines": [
+            206,
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She explicitly says 'I am in banking... I hate it' (lines 36-37).",
+          "value": "Dislikes her banking job",
+          "lines": [
+            36,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I love the cold. I'm so happy winter is coming… this summer was brutally hot' (lines 202-203).",
+          "value": "Prefers cold weather; dislikes hot Florida summers",
+          "lines": [
+            202,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she has been to San Francisco twice (line 196).",
+          "value": "Has visited San Francisco twice",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says when you're from Florida you grow up with Disney World passes, implying she did (line 186).",
+          "value": "Grew up going to Disney World frequently",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about weekend plans she says 'I don't have any plans. Just another weekend' and agrees with 'chilling at home' (lines 234-236).",
+          "value": "Typically spends weekends relaxing at home",
+          "lines": [
+            234,
+            235,
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as Elizabeth when speaker_b says 'Alex Elizabeth'. She says 'I'm Elizabeth, nice to meet you.'",
+          "value": "Elizabeth",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Georgia, and after speaker_b asks 'The U.S. State?' she confirms it is the U.S. state.",
+          "value": "Georgia, USA",
+          "lines": [
+            51,
+            52,
+            53,
+            54,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she grew up in England.",
+          "value": "grew up in England",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she was born in California and moved to England when she was three.",
+          "value": "born in California, USA",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a uses the name Elizabeth, refers to an ex-husband, and uses female-coded conversation patterns, indicating she is female.",
+          "value": "female",
+          "lines": [
+            15,
+            245
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions she works at a courthouse while telling a story about a Spanish translation mistake.",
+          "value": "works at a courthouse",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she started online teaching right before Covid because she wanted extra money for traveling.",
+          "value": "online teacher (side job)",
+          "lines": [
+            213,
+            214,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she kept the house after her divorce, noting it was hers before the marriage, indicating home ownership.",
+          "value": "homeowner (kept house in divorce)",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes a sewage problem in 'the studio where I live now' and tells them to break her lease, indicating she currently rents a studio apartment.",
+          "value": "rents a studio apartment",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says she went through a divorce that was finalized about two years ago.",
+          "value": "divorced",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a male friend from Belize who is fluent in Spanish, with whom she traveled to Peru.",
+          "value": "has a male friend from Belize",
+          "lines": [
+            111,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her parents moved from California to England when she was three, implying she has parents.",
+          "value": "has parents who relocated to England",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'my cats attacking my arm down', indicating she owns at least one cat.",
+          "value": "owns a cat",
+          "lines": [
+            339
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a discusses rafting the Grand Canyon, wanting to visit more national parks, and getting stuck in Peru, showing she regularly travels.",
+          "value": "enjoys traveling",
+          "lines": [
+            39,
+            49,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she is trying to learn Spanish and sometimes practices with her friend.",
+          "value": "learning Spanish",
+          "lines": [
+            169,
+            171,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states he is in Tucson, Arizona, when asked where he is from.",
+          "value": "Tucson, Arizona",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is originally from Michigan, north of speaker_a.",
+          "value": "Michigan",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he is just outside his storage unit during the call, indicating that is his current location.",
+          "value": "at storage unit (temporary location)",
+          "lines": [
+            320
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to himself as an 'old man' and his ex-partner is female, strongly suggesting he is male.",
+          "value": "male",
+          "lines": [
+            76,
+            64
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions he was adopted and looked up his birth mother, implying he is an adoptee.",
+          "value": "adopted",
+          "lines": [
+            62
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes living in a house where freon was leaking into the air intake from the air conditioner, and says it impacted their health; a technician confirmed the leak.",
+          "value": "exposed to freon leak, potential respiratory/health impact",
+          "lines": [
+            234,
+            236,
+            238
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states the bulk of his work is German to English translation of documents, emails and other materials.",
+          "value": "freelance translator (German to English)",
+          "lines": [
+            152,
+            190,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms he worked for Airbnb in customer service for a few years.",
+          "value": "formerly Airbnb customer service",
+          "lines": [
+            105,
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes losing his apartment due to the financial impact of the pandemic, leaving his belongings in storage and having no fixed place to sleep or eat.",
+          "value": "financial hardship, housing insecure",
+          "lines": [
+            324,
+            325,
+            326,
+            148,
+            150
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he started a degree programme at the university and lost the tuition reduction after the breakup.",
+          "value": "university student (degree programme)",
+          "lines": [
+            249,
+            250
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b talks about his girlfriend Caitlyn, who got a job in Tucson; they moved together but later broke up.",
+          "value": "ex-girlfriend/domestic partner Caitlyn",
+          "lines": [
+            64,
+            250,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he looked up his birth mother, who lived in Hawaii.",
+          "value": "has a birth mother",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions talking with his mom yesterday about a book, likely his adoptive mother.",
+          "value": "has a mother (likely adoptive)",
+          "lines": [
+            284
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes walking from California to Oregon over a year, covering about 20 miles a day.",
+          "value": "long-distance walker / hiker",
+          "lines": [
+            62,
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b works as a translator, speaks Spanish, English, German, French, and has some knowledge of Dutch, Norwegian, Danish, Swedish; he learned many from thrift-store books.",
+          "value": "polyglot, self-taught linguist",
+          "lines": [
+            152,
+            155,
+            156,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his belongings are in storage and he is scattered in terms of where he sleeps, eats, and works, indicating a transient lifestyle.",
+          "value": "nomadic living situation",
+          "lines": [
+            320,
+            324,
+            326
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b describes himself as looking scruffy and like an old man when he was walking with a backpack.",
+          "value": "scruffy, older appearance",
+          "lines": [
+            76
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

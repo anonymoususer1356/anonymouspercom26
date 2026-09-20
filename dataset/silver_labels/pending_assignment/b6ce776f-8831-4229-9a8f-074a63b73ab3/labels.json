@@ -1,0 +1,618 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Shannon.",
+          "value": "Shannon",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is from Texas, lives there, was born there, and dreams of leaving Texas.",
+          "value": "Texas",
+          "lines": [
+            13,
+            103,
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states her age explicitly.",
+          "value": "48 years old",
+          "lines": [
+            19,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Shannon is typically female; she refers to being a mother and an ex-wife, strongly indicating female gender.",
+          "value": "Female",
+          "lines": [
+            13,
+            65,
+            127
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says she has a bunch of anxiety issues and that some weeks she can work all out, others not at all.",
+          "value": "Anxiety issues",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she doesn't feel good all the time and lacks energy.",
+          "value": "Chronic low energy / unwellness",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions she tends to scream sometimes and asks to be told if she is screaming.",
+          "value": "Tendency to scream involuntarily",
+          "lines": [
+            35,
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she draws blanks when talking and can't remember anything half the time.",
+          "value": "Memory issues / forgetfulness",
+          "lines": [
+            21,
+            263
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she does transcription work for rev.com (transcribed as 'red dot com').",
+          "value": "Freelance transcriptionist for rev.com",
+          "lines": [
+            131,
+            177,
+            233,
+            234,
+            235,
+            241,
+            243,
+            245,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she makes about $25 a week from Prolific studies.",
+          "value": "Earns ~$25/week from Prolific studies",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions she is in the 'amazon buying program' (Amazon Vine) and receives free products.",
+          "value": "Participates in Amazon Vine (receives free products)",
+          "lines": [
+            269,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a did a 4-day online focus group about pasta sauce via Hive Mind and was paid $200 plus a $25 bonus.",
+          "value": "Completed paid focus group ($200+$25) for Hive Mind",
+          "lines": [
+            203,
+            204,
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a bought Far Cry 5 Gold Edition on sale for $13.",
+          "value": "Purchased Far Cry 5 on sale for $13",
+          "lines": [
+            61,
+            59
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions her son multiple times; he works 12-hour midnight shifts and lives with her.",
+          "value": "Has a son",
+          "lines": [
+            65,
+            89,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her daughter and gives her age.",
+          "value": "Has a daughter",
+          "lines": [
+            89,
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her daughter is 29 years old (she is pretty sure she is 29 now).",
+          "value": "Daughter is 29 years old",
+          "lines": [
+            89,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my son five' which in context of children older than 23 and a daughter age 29 likely means son is 25.",
+          "value": "Son is approximately 25 years old",
+          "lines": [
+            89
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a states she is divorced.",
+          "value": "Divorced",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions she has an online friend in Illinois.",
+          "value": "Has an online friend in Illinois",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions visiting her grandmother in Missouri.",
+          "value": "Has a grandmother in Missouri",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her cousin's name is Kristen (she compares to speaker_b's name Christian).",
+          "value": "Has a cousin named Kristen",
+          "lines": [
+            315,
+            316,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she and her kids are pretty close.",
+          "value": "Close relationship with children",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a plays video games on PlayStation and computer; mentions several games.",
+          "value": "Plays video games on PlayStation and PC",
+          "lines": [
+            17,
+            21,
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names Ratchet and Clank and GTA San Andreas as favorites.",
+          "value": "Favourite games include Ratchet and Clank franchise and GTA San Andreas",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she uses mods and trainers to make games easier, especially for difficult action sequences.",
+          "value": "Uses game mods/cheats (trainers) to reduce difficulty",
+          "lines": [
+            37,
+            47,
+            63,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she sucks at multiplayer and action-heavy games, freaks out with too much action.",
+          "value": "Avoids multiplayer and high-action games due to skill level",
+          "lines": [
+            35,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she got Far Cry 5 mainly for fishing and likes exploration and collection in games.",
+          "value": "Enjoys in-game fishing, exploration, and collection activities",
+          "lines": [
+            57,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says she does not sports ball at all.",
+          "value": "Does not follow/watch sports",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she dislikes a lot of cold; prefers places not too cold.",
+          "value": "Dislikes cold weather",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a dreams of having an RV and traveling place to place, getting to know different places.",
+          "value": "Dreams of traveling in an RV / nomadic lifestyle",
+          "lines": [
+            129,
+            131,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a watches YouTube videos of people exploring abandoned towns and amusement parks.",
+          "value": "Watches urban exploration / abandoned places content on YouTube",
+          "lines": [
+            147,
+            165,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses interest in visiting abandoned places like Chernobyl.",
+          "value": "Interested in abandoned places (e.g., Chernobyl)",
+          "lines": [
+            155,
+            156,
+            157,
+            158,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she listens to rap, grunge, rock, and is a big Billie Eilish fan; no longer listens to country (except older Dixie Chicks).",
+          "value": "Listens to rap, grunge, rock, and Billie Eilish; not country music",
+          "lines": [
+            297,
+            298,
+            299,
+            300,
+            303,
+            305,
+            307,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has watched Billie Eilish's live performance about seven times (ASR 'I want' likely 'I watched').",
+          "value": "Has seen Billie Eilish live multiple times",
+          "lines": [
+            309
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions she lives in a small trailer with her son.",
+          "value": "Lives in a small trailer",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she uses a quiet keyboard to avoid disturbing her son.",
+          "value": "Uses a quiet keyboard for work",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she tends to scream sometimes, which she has to control.",
+          "value": "Tends to scream sometimes (involuntary vocalization)",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a does online work from home, using platforms like Prolific and rev.com.",
+          "value": "Works from home doing online studies and transcription",
+          "lines": [
+            5,
+            131,
+            177,
+            181,
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as Christian.",
+          "value": "Christian",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he is from Illinois; later he says he just moved into his first place, and runs a landscaping business 'up here', confirming he currently resides in Illinois.",
+          "value": "Illinois",
+          "lines": [
+            14,
+            96,
+            140,
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states his age explicitly.",
+          "value": "23 years old",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Christian is typically male; he refers to his girlfriend, indicating male gender.",
+          "value": "Male",
+          "lines": [
+            12,
+            96
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he started a landscaping business during college and it is doing well; he continues to run it.",
+          "value": "Runs a landscaping business",
+          "lines": [
+            140,
+            216,
+            217,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions he has a degree in public health, which he keeps as a backup.",
+          "value": "Has a degree in public health",
+          "lines": [
+            216,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in Prolific studies, having started last August.",
+          "value": "Prolific participant (since approximately August)",
+          "lines": [
+            4,
+            174,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b uses PlaytestCloud, a platform that pays $9 per 15-minute play-through ($36/hour).",
+          "value": "Uses PlaytestCloud to earn money",
+          "lines": [
+            250,
+            258,
+            260,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions he has a smartphone and checks email frequently for PlaytestCloud opportunities.",
+          "value": "Owns a smartphone and uses email for side gigs",
+          "lines": [
+            250,
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says he lives with his girlfriend.",
+          "value": "Has a girlfriend",
+          "lines": [
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states his girlfriend is a surgical technician.",
+          "value": "Girlfriend is a surgical technician",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have been dating for five years.",
+          "value": "Dating girlfriend for 5 years",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they started dating in high school.",
+          "value": "Started dating girlfriend in high school",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they moved in together last month.",
+          "value": "Moved in with girlfriend last month",
+          "lines": [
+            96,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'buddies' who are not into making extra money; implies he has friends.",
+          "value": "Has friends ('buddies')",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he is an avid Xbox gamer and his favorite game is Red Dead Redemption 2 because of story lines.",
+          "value": "Avid Xbox gamer; favorite game Red Dead Redemption 2",
+          "lines": [
+            22,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about fishing in Red Dead Redemption 2, including legendary fish and special lures.",
+          "value": "Enjoys in-game fishing in Red Dead Redemption 2",
+          "lines": [
+            58,
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is pretty diverse in music, likes rock, hasn't gotten much into country.",
+          "value": "Listens to diverse music, mainly rock; not much into country",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses a YouTube channel about exploring abandoned houses and finds it interesting.",
+          "value": "Watches urban exploration / abandoned places content on YouTube",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions wanting to see Chernobyl and other abandoned places.",
+          "value": "Interested in visiting abandoned places (e.g., Chernobyl)",
+          "lines": [
+            154,
+            155,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he went to Nashville and really liked it.",
+          "value": "Has traveled to Nashville and liked it",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b declares he is a Dallas Mavericks fan.",
+          "value": "Dallas Mavericks (NBA) fan",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b does online side hustles including Prolific studies and PlaytestCloud to earn money.",
+          "value": "Engages in online side hustles (Prolific, PlaytestCloud)",
+          "lines": [
+            4,
+            184,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recently moved into his first apartment with his girlfriend; this is his first place.",
+          "value": "Moved into first apartment recently",
+          "lines": [
+            96,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

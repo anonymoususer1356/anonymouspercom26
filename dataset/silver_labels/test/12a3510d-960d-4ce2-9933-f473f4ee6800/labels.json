@@ -1,0 +1,269 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states current city and state: \"I'm in columbus. Ohio.\" (line 31). 'columbus' is a phonetic ASR error for 'Columbus'. Further confirmation of Ohio residence appears in lines 65 (\"we moved here two years ago\") and 67 (\"we moved from florida\").",
+          "value": "Columbus, Ohio",
+          "lines": [
+            31,
+            65,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states \"I'm from India\" (line 331), identifying national origin.",
+          "value": "Indian",
+          "lines": [
+            331
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states \"I work as a business analyst in a retail company here in Ohio\" (line 85).",
+          "value": "Business analyst in a retail company in Ohio",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker confirms 'I t.' (ASR for IT) and describes work as a consultant (lines 71, 83-84).",
+          "value": "IT consultant",
+          "lines": [
+            71,
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says \"I've been doing that from like 7-10 years\" (line 87), referring to consulting/business analysis experience.",
+          "value": "7-10 years of experience in consulting/business analysis",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker explains relocations: \"whenever the project complete so then we start finding the new project and that's the reason for the move\" (line 71).",
+          "value": "Job requires frequent relocation for new projects",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they started Prolific \"probably a couple of months ago\" (line 217) and that it provides \"extra income\" (line 231).",
+          "value": "Uses Prolific platform for extra income, started a couple of months ago",
+          "lines": [
+            217,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states Prolific \"directly send the money to your Paypal account\" (line 239), indicating personal use of PayPal for earnings.",
+          "value": "Receives Prolific payments via PayPal",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes working from home all the time (line 49) but also going to office when needed with team rotations (lines 307-315), and that attendance is optional based on safety (line 319).",
+          "value": "Hybrid work arrangement (home and office), employer does not compel office attendance",
+          "lines": [
+            49,
+            307,
+            308,
+            309,
+            310,
+            311,
+            312,
+            313,
+            314,
+            315,
+            319
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states company guidelines allow working from home until Labor Day (line 323).",
+          "value": "Company policy permits working from home at least until Labor Day",
+          "lines": [
+            323
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says \"it's just me and me and my wife here\" (line 365), indicating marital status and cohabitation.",
+          "value": "Married, lives with wife",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says \"my wife is working as well so she works in banking\" (line 369).",
+          "value": "Wife works in banking",
+          "lines": [
+            369
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says \"I also have one of my cousin ... she's also in this research and everything\" (line 107).",
+          "value": "Has a cousin involved in research",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker mentions listening to news on the radio (\"today I was listening on the radio\", line 155) and discusses COVID-19 case counts from the news (line 137).",
+          "value": "Listens to radio news/current events",
+          "lines": [
+            137,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes staying at home and avoiding crowds as much as possible during the pandemic (lines 45, 51).",
+          "value": "Stays home to avoid COVID-19 exposure",
+          "lines": [
+            45,
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states \"I'm from New Jersey\" (line 26) and later says they have lived there for the majority of their life (line 58).",
+          "value": "New Jersey",
+          "lines": [
+            26,
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states they are \"currently a student\" (line 48), \"currently a junior, going to be a junior in college\" (line 94), and studies \"biological sciences\" (line 98).",
+          "value": "Undergraduate junior majoring in biological sciences",
+          "lines": [
+            48,
+            94,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says \"I'm planning to go to medical school in the future\" and may take a gap year or two (line 358).",
+          "value": "Pre-medical, plans to attend medical school after a gap period",
+          "lines": [
+            358
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says they started Prolific \"this summer\" (line 44) and continues to use it for surveys (line 210).",
+          "value": "Uses Prolific for survey income, started summer 2020",
+          "lines": [
+            44,
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes trying to open an Amazon Mechanical Turk account, but their email got banned and support never resolved it (line 248).",
+          "value": "Attempted to use Amazon Mechanical Turk but unable to activate account",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they were supposed to work in a research lab this summer but it didn't work out, and they are taking classes instead (line 104).",
+          "value": "Not currently employed; planned summer research lab position fell through",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says \"I have like a few friends who are like doing consulting like internships this summer\" (line 74).",
+          "value": "Has friends doing consulting internships",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions \"talking to people I guess like doing some networking here and there\" for consulting opportunities (line 96).",
+          "value": "Engaging in professional networking for consulting",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says \"I've been trying to work out more\" and doing \"youtube, like online workout video\" (lines 300-302).",
+          "value": "Exercises using online workout videos",
+          "lines": [
+            300,
+            301,
+            302
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states \"I've just been taking like summer classes at home right now\" (line 104).",
+          "value": "Taking summer college classes online from home",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes doing \"remote work, like data analysis\" for a research lab (line 120).",
+          "value": "Performs remote data analysis for research",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

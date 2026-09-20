@@ -1,0 +1,365 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm from Illinois' when asked where they are from.",
+          "value": "from Illinois",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm kind of by Springfield' (line 21). Speaker_b later asks 'How's the Springfield?' (line 60), confirming the location. Speaker_a also places Springfield as 'three hours south' of Chicago (line 69) and 'two hours North ST Louis' (line 75), all consistent with Springfield, Illinois.",
+          "value": "near Springfield, Illinois",
+          "lines": [
+            21,
+            60,
+            69,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just moved from ST louis not too long ago' (line 75). Speaker_b asks 'So you moved from Missouri?' and speaker_a confirms (lines 76-77).",
+          "value": "formerly lived in St. Louis, Missouri",
+          "lines": [
+            75,
+            76,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions the town where they went to school: 'Kirksville Missouri my senior year' (line 239) and that it was in 2013 (line 243). The location Kirksville, Missouri is a clear reference to a place they attended school.",
+          "value": "attended school in Kirksville, Missouri",
+          "lines": [
+            239,
+            243
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I don't do well with the heat like at all' (line 33) and 'I like the dead of winter, like 20° for whatever reason' (line 35). These show a strong preference for cold and intolerance for heat.",
+          "value": "heat intolerant, prefers cold weather",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'right now I have a temp job and I'm working for the census' (line 41).",
+          "value": "temporary job with the U.S. Census Bureau",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "While describing the house in Kirksville, speaker_a says '4 75 months' (line 241) which in context means $475 per month, and confirms the year as 2013 (line 243). The house was a three-bedroom, three-bathroom with front and back yard (lines 239-240).",
+          "value": "paid $475 per month rent in 2013 in Kirksville, Missouri",
+          "lines": [
+            239,
+            241,
+            243
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'a friend who lives up in the bay' (line 27). Later refers to 'my best blood' (ASR for 'best bud') who lives in the Bay Area and whose wife is a data scientist (line 203). Together these establish a close friend in the Bay Area.",
+          "value": "has a close friend in the San Francisco Bay Area",
+          "lines": [
+            27,
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes the Kirksville house: 'There's just two of us. I had one roommate' (line 253).",
+          "value": "had a roommate while attending school in Kirksville",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm really big into woodworking' and watches YouTube woodworkers (lines 187-189).",
+          "value": "enjoys woodworking and watches woodworking YouTube channels",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've gotten hooked on hot chicken since going and I'd like to make it at home now' (line 149).",
+          "value": "cooks Nashville-style hot chicken at home",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they miss being able to walk to get food: 'I could walk 50 ft and get take euros' (ASR for takeout, line 79) and 'Now I have to drive half an hour' (line 81). Also says 'That's what I miss about city lives' (line 117) and 'I miss the food the most' (line 119).",
+          "value": "misses walkable city life and food options, now car-dependent",
+          "lines": [
+            79,
+            81,
+            117,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'every time I go to Nashville I go to that place the pharmacy' (line 131), a burger place (line 133). So they visit Nashville occasionally and have a go-to restaurant.",
+          "value": "occasionally visits Nashville and dines at the pharmacy burger restaurant",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm sure I'll go to L.A. someday. I really want to try some of the korean stuff' (lines 123-125).",
+          "value": "plans to visit Los Angeles to try Korean food",
+          "lines": [
+            123,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses planning to visit a friend in SF for a mission-style burrito (lines 215, 219) but says 'I was planning on going and then Covid just totally um kind of put my plans through the ringer' (line 233), and they have not been to Frisco (line 233).",
+          "value": "planned to visit San Francisco for a mission-style burrito before trip was disrupted by COVID-19",
+          "lines": [
+            215,
+            219,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I stayed home' (line 307) and 'quarantines ... it's just been me and my thoughts' (lines 359-361).",
+          "value": "stayed home during COVID-19 and spent time alone with own thoughts",
+          "lines": [
+            307,
+            359,
+            361
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When asked where they are from, speaker_b says 'From California? From L.A.' (line 14). Later says 'me and my mother and all of us were from L.A.' (line 136).",
+          "value": "from Los Angeles, California",
+          "lines": [
+            14,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I currently stay in the high desert' (line 30) and later references 'even here when I'm in the hot desert' (line 184). The high desert is a region in Southern California, distinct from L.A.",
+          "value": "lives in the high desert, California",
+          "lines": [
+            30,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my other my second home is Nashville Tennessee' (line 130), mentions having lived there when younger and going to school there, and says 'we kind of bounce back and forth between those two cities' (line 136). Father is from Tennessee (line 136). Sister is going next month (line 134). This indicates strong ongoing ties and a second residence.",
+          "value": "has a second home in Nashville, Tennessee (formerly lived there)",
+          "lines": [
+            130,
+            134,
+            136,
+            138
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "At the end of the conversation, speaker_a addresses speaker_b as 'ma'am' (line 429), indicating speaker_b is female.",
+          "value": "female",
+          "lines": [
+            429
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I do real estate' (line 374), 'I'm an investor' (line 378), and 'I like buying and renting' (line 380).",
+          "value": "real estate investor (buys and rents properties)",
+          "lines": [
+            374,
+            378,
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I live off of savings you know' (line 406).",
+          "value": "living off savings",
+          "lines": [
+            406
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my mother raised us on everything' (line 102) regarding food, indicating a mother and siblings ('us').",
+          "value": "mother raised her on diverse foods",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'our father is from Tennessee' (line 136).",
+          "value": "father is from Tennessee",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being with 'my sister' (line 258) and later 'me and my two sisters' (line 316) and 'my sister and my sister' on a hike (line 330). This shows she has at least two sisters.",
+          "value": "has two sisters",
+          "lines": [
+            258,
+            316,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'one of my cousins is a real talent there' (line 170). 'real talent' is an ASR error for 'realtor,' as context is housing market in Nashville. So she has a cousin who is a realtor in Nashville.",
+          "value": "has a cousin who is a realtor in Nashville",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a friend, he does it, he won't stop because he makes money doing it, you know he throws it those mentioned parties' (line 350), referring to mansion parties.",
+          "value": "has a friend who organizes mansion parties in Los Angeles",
+          "lines": [
+            350
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I just have a person a female that I play scrabble with and she's in the Bahamas' (line 292).",
+          "value": "plays Scrabble with a female friend in the Bahamas",
+          "lines": [
+            292
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions 'a thing for one of my relatives that passed a few weeks ago' (line 362) and 'I went to a baby shower' (line 368).",
+          "value": "attends family events (baby shower, relative's funeral)",
+          "lines": [
+            362,
+            368
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes going to Long Beach and Santa Monica over the weekend, walking on the boardwalk, and getting in the water (lines 308-310).",
+          "value": "frequently visits Los Angeles area beaches (Long Beach, Santa Monica)",
+          "lines": [
+            308,
+            310
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I went hiking in the Hollywood Hills' and describes the Hollywood Reservoir loop (lines 320, 326).",
+          "value": "hikes in Hollywood Hills (Hollywood Reservoir)",
+          "lines": [
+            320,
+            326
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions In-N-Out (line 98), certain Mexican spots (line 100), sushi in Rancho Cucamonga (line 104), California fish and grill (line 338), and Lucille's BBQ in Long Beach (line 342).",
+          "value": "dines out at a variety of restaurants (In-N-Out, Mexican, sushi, California Fish and Grill, Lucille's)",
+          "lines": [
+            98,
+            104,
+            338,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'you can subscribe to Los Angeles magazine... I used to get a few years ago' (line 128).",
+          "value": "used to subscribe to Los Angeles magazine",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b repeatedly mentions wearing masks during outings: on the boardwalk (line 314), with two sisters (line 316), while hiking (line 326, 332), and outdoor dining (line 342). This shows a consistent COVID-19 precaution behavior.",
+          "value": "follows COVID-19 precautions (wearing mask during outdoor activities, outdoor dining)",
+          "lines": [
+            314,
+            316,
+            326,
+            332,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes playing scrabble with someone in the Bahamas (line 292), indicating an online gaming hobby.",
+          "value": "plays Scrabble online with a person in the Bahamas",
+          "lines": [
+            292
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions staying in the high desert but going 'down there' to L.A. for the weekend (line 30) and visiting Long Beach, Santa Monica, Hollywood Hills. This indicates regular travel between the high desert and Los Angeles.",
+          "value": "travels regularly between high desert and Los Angeles",
+          "lines": [
+            30,
+            308
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

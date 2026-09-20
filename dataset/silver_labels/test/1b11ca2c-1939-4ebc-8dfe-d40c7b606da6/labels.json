@@ -1,0 +1,249 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is in the Central time zone.",
+          "value": "Central time zone",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm in bloomington.'",
+          "value": "Bloomington",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly refers to 'my husband', indicating female gender.",
+          "value": "female",
+          "lines": [
+            89,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states origin: 'India' and confirms 'from India' in response to speaker_b.",
+          "value": "originally from India",
+          "lines": [
+            39,
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker describes her daytime being 'full occupied' with the children while her husband works from home, and she manages routines like walks and remote schooling, indicating she is a full-time parent/homemaker.",
+          "value": "full-time parent/homemaker",
+          "lines": [
+            107,
+            108,
+            109,
+            111
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my husband' multiple times.",
+          "value": "married",
+          "lines": [
+            89,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'My husband who works in um I. D.' (ASR for 'IT') and later 'he's working from home'.",
+          "value": "husband works in IT",
+          "lines": [
+            128,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I have two small kids' and gives ages 'one is 5 and one is 2', later refers to 'my daughter'.",
+          "value": "two children: daughter age 5, and a 2-year-old",
+          "lines": [
+            19,
+            23,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'all my husband and kids here, we our really like my mother's sisters everywhere. Everyone there outside us actually' and 'my husband's family as well, they're outside us', implying parents/extended family outside the US.",
+          "value": "parents and extended family outside the US",
+          "lines": [
+            193,
+            194,
+            195
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states 'some cousins there in Ohio and some are in New York'.",
+          "value": "cousins in Ohio and New York",
+          "lines": [
+            197,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'one of our friends, his son got autism'.",
+          "value": "has a friend whose son has autism",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'we are a total vegetarian family' and reiterates vegetarian upbringing.",
+          "value": "vegetarian",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'It's 6:00 AM for me' and speaker_a confirms 'Central time zone as well', placing speaker_b in Central time.",
+          "value": "Central time zone",
+          "lines": [
+            6,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm in texas' and later 'I'm in austin'.",
+          "value": "Austin, Texas",
+          "lines": [
+            12,
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to 'my wife', indicating male gender.",
+          "value": "male",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm from Hong kong'.",
+          "value": "from Hong Kong",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker mentions 'I have a coworker' and 'she shows up to work and we're like okay why are you here?', indicating current employment.",
+          "value": "employed, has coworkers",
+          "lines": [
+            120,
+            124
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my wife is uh white american'.",
+          "value": "married to a white American woman",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'I have had 22 Children nine and 7' – ASR error '22' for 'two', corrected to two children ages 9 and 7.",
+          "value": "two children, ages 9 and 7",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'My parents are in Hong kong'.",
+          "value": "parents live in Hong Kong",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'My sister is in texas … my sister's in Dallas'.",
+          "value": "sister lives in Dallas, Texas",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'I have cousins across the coast like in California and new york'.",
+          "value": "cousins in California and New York",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I wake up early I usually wake up at five'.",
+          "value": "wakes up at 5 AM",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes disliking turkey and deciding 'we're not doing this anymore', so they stopped traditional Thanksgiving turkey.",
+          "value": "discontinued traditional Thanksgiving turkey",
+          "lines": [
+            210,
+            211,
+            212
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

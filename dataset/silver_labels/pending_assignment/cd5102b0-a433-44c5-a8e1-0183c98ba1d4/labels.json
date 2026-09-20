@@ -1,0 +1,519 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states their current location: 'I'm in Boise Idaho' (line 27) and later 'I've been here in Boise Idaho since 93' (line 279).",
+          "value": "Boise, Idaho",
+          "lines": [
+            27,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they were born in Weatherford, Oklahoma: 'I was born in Weatherford. Oklahoma' (lines 39, 41). The ASR 'Alice' in line 39 is likely a mishearing of 'I was' or filler.",
+          "value": "Weatherford, Oklahoma (birthplace)",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they were raised mainly in Dallas, Texas: 'raised mainly in Dallas texas' (line 41).",
+          "value": "Dallas, Texas (raised)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a considers themselves Southern: 'So I'm kind of considering myself Southern' (line 41).",
+          "value": "Considers themselves Southern",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates they were homeschooled and were the only graduate: 'I had a small little school home school, it was very small... I was the only graduate of my class' (line 221). The phrase 'home school' is clearly a reference to homeschooling.",
+          "value": "Homeschooled (only graduate of class)",
+          "lines": [
+            221
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes a terrible childhood that has affected their adult relationships: 'I just had a terrible childhood and so I just kind of carried on into my adulthood where I didn't have any business marrying anybody' (line 389) and 'I protect my heart and so I just don't even go out there and try that' (line 395).",
+          "value": "Reports a terrible childhood with lasting emotional impact, avoids romantic relationships to protect self",
+          "lines": [
+            389,
+            395
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a participates in online paid survey/money-making sites: Prolific (about 4 months, earned ~$200, lines 115,123,125), Branded Surveys (line 133, 'Brandon surveys' ASR), Swagbucks (line 149: 'flag bucks'), and Reddit Beer Money (line 171-173). Also mentions converting currency on Prolific (line 125-127).",
+          "value": "Earns money through online sites: Prolific (~4 months, ~$200), Branded Surveys, Swagbucks, Reddit Beer Money",
+          "lines": [
+            115,
+            123,
+            125,
+            133,
+            149,
+            171,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions living in a mobile home: 'I could fix my mobile home up' (line 421).",
+          "value": "Lives in a mobile home",
+          "lines": [
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes depositing a check via mobile app and being charged a fee when it bounced; says this happened three times (lines 445-451). This implies they have a bank account.",
+          "value": "Has a bank account; victim of check scams multiple times, incurred bank fees",
+          "lines": [
+            445,
+            447,
+            449,
+            451
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a has a brother who works as a chiropractor in Dallas: 'My brother is a chiropractor down in Dallas' (line 277).",
+          "value": "Brother is a chiropractor in Dallas, Texas",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a cousin with a ranch about 45 minutes from Boise, ~200 acres, aged 70-73, who hunts elk and deer (lines 283, 289). The ASR '20 200' is interpreted as ~200 acres.",
+          "value": "Cousin owns a ~200 acre ranch near Boise, aged 70-73, hunts",
+          "lines": [
+            283,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a female roommate: 'Somebody my roommate came in so she started letting me know somebody's home' (line 329).",
+          "value": "Has a female roommate",
+          "lines": [
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they have never been married and have no family (children): 'I've never been married so I've never had a family, you know?' (line 379).",
+          "value": "Never married, no children",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about a grandmother raised on a 50-acre farm with 8 siblings (line 91) and a great-grandfather who made sorghum in Northern Arkansas (line 103).",
+          "value": "Grandmother from large family on 50-acre farm; great-grandfather was a sorghum producer in Northern Arkansas",
+          "lines": [
+            91,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a shows a small dog on camera, says 'Can you see him?' (line 323-327). The word 'Israel' (line 327) might be the dog's name or a mishearing; the dog's presence is certain.",
+          "value": "Has a small dog",
+          "lines": [
+            323,
+            325,
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a uses an Alexa smart home device, issuing commands: 'Alexa turn on kitchen light, Alexa mute' (line 1).",
+          "value": "Uses Amazon Alexa smart home device",
+          "lines": [
+            1
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I love to can' (line 101), indicating they enjoy home canning of food.",
+          "value": "Enjoys home canning",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes travel history: been to New York twice, Atlanta once, North Carolina (line 35); Hattiesburg, Mississippi (line 205); mostly West Coast/Northwest (line 207).",
+          "value": "Travel history: New York City (twice), Atlanta, North Carolina, Hattiesburg MS; mostly lived on West Coast/Northwest",
+          "lines": [
+            35,
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a got first computer in 1995 and used AOL (line 411, 413).",
+          "value": "First computer in 1995, used AOL",
+          "lines": [
+            411,
+            413
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being on Prolific for about 4 months (line 115) and using other online money sites, indicating a regular side activity.",
+          "value": "Regularly does online surveys/tasks for money on multiple platforms",
+          "lines": [
+            115,
+            133,
+            149,
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b confirms they are in Kentucky (line 26-27) and later specifies their town has a population of 800 (line 52).",
+          "value": "Lives in a small town in Kentucky, population 800",
+          "lines": [
+            26,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the town amenities: one gas station, one Dollar General, one family-owned grocery store, no Walmart; nearest Walmart is 30 minutes away (lines 56-64,72-74).",
+          "value": "Town has 1 gas station, 1 Dollar General, 1 family-owned grocery; no Walmart (nearest 30 min away)",
+          "lines": [
+            56,
+            58,
+            60,
+            62,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lives on a 46-acre family farm (line 80).",
+          "value": "Resides on a 46-acre family farm",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates proximity to Ohio: 'borders Southern Ohio and northern Kentucky' and 'about half an hour from the bridge that goes to Ohio' (lines 200-202). The ASR 'Pataki' is 'Kentucky'.",
+          "value": "Located in northern Kentucky near Ohio border, approx. 30 minutes from Ohio River bridge",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's local time is 4 PM when speaker_a (in Boise, Idaho, Mountain time) is 2 PM, placing speaker_b in the Eastern time zone (lines 30-32).",
+          "value": "Time zone: Eastern (UTC-5/-4)",
+          "lines": [
+            30,
+            31,
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b grew up as one of four children: 'there was four of us kids growing up' (line 100).",
+          "value": "One of four siblings",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b graduated high school in a class of 32: 'I had, I think 32 people graduated in my graduating class' (line 220).",
+          "value": "Graduated high school in a class of 32",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is a smoker: 'I'm gonna grab this cigarette real quick' (line 262).",
+          "value": "Smokes cigarettes",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b mentions having a doctor's appointment earlier that day, located about 1 hour and 10 minutes away (lines 8, 272).",
+          "value": "Had a doctor's appointment on the day of the conversation, 1 hr 10 min drive from home",
+          "lines": [
+            8,
+            272
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b earns money from online platforms: Prolific (about 7 years, total ~$1500, ~$100/month) (lines 118,122,130), Qmee (line 138-144), Swagbucks (gets PayPal gift cards, lines 148-156), and product testing for Procter & Gamble (line 160-164).",
+          "value": "Online income from Prolific (~$1500 over ~7 years, ~$100/month), Qmee, Swagbucks, and product testing (P&G)",
+          "lines": [
+            118,
+            122,
+            130,
+            138,
+            144,
+            148,
+            152,
+            160,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b formerly worked as an over-the-road truck driver, mainly in the Southeast (line 208).",
+          "value": "Former over-the-road truck driver (southeast US)",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was a power seller on eBay, refurbishing and selling laptops (line 416).",
+          "value": "Former eBay power seller, refurbished and sold laptops",
+          "lines": [
+            416
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes discussing a fraudulent check at the bank, indicating they have a bank account (lines 432-440).",
+          "value": "Has a bank account",
+          "lines": [
+            432
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b received a scam check for $1500 for a car wrap offer, but recognized it as a scam and did not lose money (lines 428-444).",
+          "value": "Experienced a fake check scam attempt but avoided financial loss",
+          "lines": [
+            428,
+            430,
+            432,
+            436,
+            438,
+            440
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b has three children: oldest daughter born October 14, 1980 (age 40) living near the town with Walmart (line 192-194), a son in Florida (line 196), and a daughter in Dayton, Ohio (line 196-198).",
+          "value": "Three children: daughter (b. Oct 14, 1980) near local town, son in Florida, daughter in Dayton, Ohio",
+          "lines": [
+            192,
+            194,
+            196,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b reveals they are divorced, having been married three times (lines 376, 380-386).",
+          "value": "Divorced three times",
+          "lines": [
+            376,
+            380,
+            384,
+            386
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's brother lives in the house on the family farm (line 80).",
+          "value": "Brother lives in the main house on the family farm",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's sister lives on the other side of the farm and is involved in animal rescue (lines 80, 330-334).",
+          "value": "Sister lives on other side of farm, volunteers with animal rescue/no-kill shelter",
+          "lines": [
+            80,
+            330,
+            332,
+            334
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b owns a 14-year-old golden retriever, currently staying at the sister's (lines 316-322).",
+          "value": "Owns a 14-year-old golden retriever (staying with sister)",
+          "lines": [
+            316,
+            318,
+            320,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b met his last wife online on Yahoo Chat in 1999 (lines 396-408).",
+          "value": "Met last wife on Yahoo Chat in 1999",
+          "lines": [
+            396,
+            402,
+            406,
+            408
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b currently lives in a camper on the family farm and plans to build a cabin (lines 80, 86).",
+          "value": "Lives in a camper on family farm; plans to build a cabin",
+          "lines": [
+            80,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b smokes cigarettes (line 262).",
+          "value": "Smokes cigarettes",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b used to hunt but no longer does because they became 'too soft hearted' (line 288).",
+          "value": "Used to hunt, no longer due to change of heart",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits to driving fast: 'I was driving like a maniac' (line 10) and driving a 1.5-hour trip in 45 minutes (line 24).",
+          "value": "Tends to drive fast/speed",
+          "lines": [
+            10,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b prefers using a laptop over a phone for online tasks (lines 266-268).",
+          "value": "Prefers laptop over phone for online work",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's family did a lot of canning and freezing of food when they were growing up (lines 100-102).",
+          "value": "Grew up with family canning and freezing produce",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After high school, speaker_b and a friend fixed up a car and drove to California, visiting Hollywood, Disney, and Long Beach (lines 220-226).",
+          "value": "Took a road trip to California after high school (Hollywood, Disney, Long Beach)",
+          "lines": [
+            220,
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As a child, speaker_b's family vacations were to Florida or Myrtle Beach (line 232).",
+          "value": "Childhood vacations to Florida and Myrtle Beach",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b enjoys watching deer and wildlife on the property (line 286).",
+          "value": "Watches deer and wildlife on the farm",
+          "lines": [
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b assists his sister with animal rescue transport; he met a woman from Ohio at a dollar store to transfer three beagle puppies (lines 348-366).",
+          "value": "Helps sister transport rescue animals (e.g., beagle puppies)",
+          "lines": [
+            348,
+            350,
+            352,
+            358,
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b uses an antenna for TV and gets about 6 channels (lines 342-346). The ASR 'I got an antenna' and 'I get like six channels'.",
+          "value": "Watches over-the-air TV with antenna (~6 channels)",
+          "lines": [
+            342,
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

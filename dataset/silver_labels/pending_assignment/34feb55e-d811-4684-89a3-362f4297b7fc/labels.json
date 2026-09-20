@@ -1,0 +1,417 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She explicitly introduces herself by name.",
+          "value": "Hannah",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she lives in Kansas City and later specifies Missouri.",
+          "value": "Kansas City, Missouri",
+          "lines": [
+            19,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states her age as 24.",
+          "value": "24 years old",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is a student in the social work program.",
+          "value": "student in social work program",
+          "lines": [
+            19,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions it is her last year of school.",
+          "value": "final year student",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she is currently in quarantine because she was exposed on Wednesday.",
+          "value": "in quarantine due to COVID-19 exposure",
+          "lines": [
+            25,
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says she has no symptoms.",
+          "value": "no COVID-19 symptoms",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she got tested for COVID-19 today.",
+          "value": "received a COVID-19 test today",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been tested twice and never positive.",
+          "value": "tested for COVID-19 twice, never positive",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She repeatedly indicates she has not eaten today as of 1:15 PM local time.",
+          "value": "has not eaten today as of 1:15 PM",
+          "lines": [
+            95,
+            97,
+            101,
+            109,
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she works at an outpatient program for children with serious mental health problems, likely her internship.",
+          "value": "employed at an outpatient program for children with serious mental health problems",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is a student, which implies a student economic status.",
+          "value": "student",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her mother teaches preschool special education.",
+          "value": "mother is a preschool special education teacher",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her father is now a drug and alcohol counselor.",
+          "value": "father is a drug and alcohol counselor",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states both of her parents have been teachers.",
+          "value": "both parents have been teachers",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a friend who is Bengali.",
+          "value": "has a Bengali friend",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a friend from India and a friend from Bangladesh.",
+          "value": "has friends from India and Bangladesh",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says cooking is her main hobby; she watches cooking shows, reads about cooking, and often cooks multiple dishes a day.",
+          "value": "main hobby is cooking; watches/reads about cooking; cooks multiple dishes daily",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She plans to cook carrot soup tonight.",
+          "value": "plans to cook carrot soup tonight",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She attributes forgetting to eat to anxiety over the COVID-19 test.",
+          "value": "forgot to eat due to anxiety about COVID-19 test",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She references the study organizers, a 25-minute time limit, and mentions two prior conversations in the same study.",
+          "value": "participant in a research study with 25-minute video conversations",
+          "lines": [
+            17,
+            77,
+            79,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she learns by doing and practice, not online learning.",
+          "value": "prefers hands-on learning style",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Deborah; ASR may have misrecognized the name but this is the verbatim rendering.",
+          "value": "Deborah",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He explicitly states he lives in Florida.",
+          "value": "Florida",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He claims his area had only 9-10 people exposed and no deaths, indicating a community with very low COVID-19 impact.",
+          "value": "lives in a Florida area with reportedly very few COVID-19 cases and no deaths",
+          "lines": [
+            36,
+            38,
+            40
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says his age is almost 40 this year.",
+          "value": "almost 40 years old",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He learned Bangla in college from Bangladeshi friends and can now speak it; speaker_a also notes him speaking another language at the start.",
+          "value": "speaks Bangla",
+          "lines": [
+            133,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he barely speaks Spanish.",
+          "value": "speaks some Spanish",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he speaks a little Hindi.",
+          "value": "speaks some Hindi",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions being in college when he learned Bangla, indicating he attended college.",
+          "value": "attended college",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states outright that he is a financial broker.",
+          "value": "financial broker",
+          "lines": [
+            20,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes working at a bank handling customers, loans, mortgages, and savings accounts.",
+          "value": "works at a bank handling loans, mortgages, and savings accounts",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he is a team leader who supervises colleagues and manages a team.",
+          "value": "team leader / supervisor at work",
+          "lines": [
+            124,
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He hired a private tutor for his child, implying sufficient financial resources.",
+          "value": "can afford a private tutor for his child",
+          "lines": [
+            54
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says he has a wife.",
+          "value": "has a wife",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he has one child.",
+          "value": "has one child",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his child is in 8th grade.",
+          "value": "child is in 8th grade",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mother passed away.",
+          "value": "mother deceased",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his father is still alive.",
+          "value": "father alive",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He references the 25-minute time slot, the study, and a prior conversation with Michael from Chicago.",
+          "value": "participant in a research study with 25-minute video conversations",
+          "lines": [
+            70,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He apologizes for joining late and attributes it to being busy.",
+          "value": "joined the conversation late due to being busy",
+          "lines": [
+            60,
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He expresses that his community's COVID-19 management was outstanding and kept cases very low.",
+          "value": "believes his community managed COVID-19 very well",
+          "lines": [
+            36,
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He hired a private tutor for his child because online schooling was ineffective.",
+          "value": "hired a private tutor for his child due to poor online schooling",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a describes seeing a person outline and headphones on her screen, indicating speaker_b was wearing headphones during the call.",
+          "value": "wearing headphones during the video call",
+          "lines": [
+            15
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

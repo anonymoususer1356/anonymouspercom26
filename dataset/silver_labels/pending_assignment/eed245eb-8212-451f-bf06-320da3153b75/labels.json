@@ -1,0 +1,391 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'my name's um Crystal' directly.",
+          "value": "Crystal",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'When I moved to texas four years ago' implying current residence in Texas. Also line 7 'Um Lemon texas' is likely ASR error for 'I'm in Texas'.",
+          "value": "Texas",
+          "lines": [
+            277,
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Crystal is typically female.",
+          "value": "female",
+          "lines": [
+            5
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says she started keeping iguanas at age 8 and has had iguanas for 32 years, making her approximately 40 years old.",
+          "value": "~40 years old",
+          "lines": [
+            37,
+            65,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she used to be Republican and is now a Democrat.",
+          "value": "Democrat",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a explicitly says 'I've got a lung disease'.",
+          "value": "lung disease",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a says she is 'on disability' multiple times, indicating legal recognition of disability and receipt of benefits.",
+          "value": "on disability",
+          "lines": [
+            85,
+            189,
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she lives off $1300 a month disability.",
+          "value": "$1300/month disability income",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes earning extra money through Prolific surveys, mentioning $5-10 per day and $50-55 projects, and doing it for about 1.5 years.",
+          "value": "supplements income with Prolific surveys",
+          "lines": [
+            211,
+            219,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts that her parents are wealthy (father has house, cars, boat; mother votes to avoid taxes) but she receives minimal support and lives on disability, indicating financial independence from wealthy parents.",
+          "value": "wealthy parents but no financial support",
+          "lines": [
+            189,
+            193,
+            195,
+            199,
+            201,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I flipped my credit around' implying she improved her credit score.",
+          "value": "improved credit score",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my brother just had a baby there in Tennessee'.",
+          "value": "brother in Tennessee with new baby",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists 'two brothers and then a stepbrother and stepsister'.",
+          "value": "two brothers, one stepbrother, one stepsister",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a shares that her mother admitted voting for Trump to avoid higher taxes, indicating the mother's political motivation and wealth.",
+          "value": "mother votes Trump for tax reasons",
+          "lines": [
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her father's assets: 'my dad, he's got his own house on cars, got his boat'.",
+          "value": "father owns house, cars, boat",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my best friend does surveys too' and they motivate each other.",
+          "value": "best friend also does surveys",
+          "lines": [
+            275,
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she was never much for going out and prefers to stay at home, and later agrees both speakers are homebodies.",
+          "value": "homebody",
+          "lines": [
+            13,
+            15,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a 17 year old dog'.",
+          "value": "17-year-old dog",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has 'a five year old cat'.",
+          "value": "5-year-old cat",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her current iguana: 'a little one, she's about seven months' and 'she was seven months and she's a little chunky'.",
+          "value": "7-month-old female iguana",
+          "lines": [
+            41,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her last big male iguana passed away last November; he was almost 7 years old and about 10 lbs.",
+          "value": "previous iguana (male, ~7yr, 10lb) died last November",
+          "lines": [
+            37,
+            38,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts starting with iguanas at age 8 after responding to a newspaper ad, and trading the large aggressive one for a healthy little one.",
+          "value": "started keeping iguanas at age 8",
+          "lines": [
+            65,
+            67,
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked with pets for a long time... My first job was at a private pet store' and mentions seeing a huge snail, handling crocodiles and alligators, and attending reptile swaps.",
+          "value": "previously worked at a pet store and with reptiles",
+          "lines": [
+            75,
+            77,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she's been doing Prolific surveys for about a year and a half and recommends it.",
+          "value": "active Prolific user for ~1.5 years",
+          "lines": [
+            217,
+            211,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'When I moved to texas four years ago'.",
+          "value": "moved to Texas 4 years ago",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't have a vehicle'.",
+          "value": "no vehicle",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm an apartment' in the context of losing her iguana outside, likely meaning she lives in an apartment.",
+          "value": "lives in an apartment",
+          "lines": [
+            101
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'Here's Lonnie, nice to meet what?' which is likely an introduction (ASR error, probably 'I'm Lonnie, nice to meet you'). The name is garbled but appears to be Lonnie.",
+          "value": "Lonnie",
+          "lines": [
+            6
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b confirms being in South Florida: initially says 'That's in South florida' and then 'we're both in terrible places' implying she is in South Florida. Later explicitly confirms living in South Florida with family.",
+          "value": "South Florida",
+          "lines": [
+            8,
+            9,
+            10,
+            115,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she lives with her family: when asked 'you live with your family in... south florida' she replies 'Oh, I do.'",
+          "value": "lives with family",
+          "lines": [
+            115,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm still in college too'.",
+          "value": "college student",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes her job: 'My job I basically run the social media for a small boutique' and works remotely.",
+          "value": "social media manager for a small boutique",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does Prolific surveys with her boyfriend as a competition and has been doing it for about two months.",
+          "value": "uses Prolific for extra income with boyfriend",
+          "lines": [
+            234,
+            236,
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'I do it with my boyfriend' and describes competing with him on surveys.",
+          "value": "boyfriend",
+          "lines": [
+            234,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'when my siblings were younger' and 'my parents got mad', and later 'my mom just came'. She also lives with family.",
+          "value": "parents and siblings",
+          "lines": [
+            32,
+            244,
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I kind of just usually a home body' and agrees when speaker_a says both are homebodies.",
+          "value": "homebody",
+          "lines": [
+            18,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is in college.",
+          "value": "attends college",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains she always wanted a pet but her parents never allowed it after her siblings neglected a dog.",
+          "value": "no pets due to parental rule",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes making Prolific surveys a competition with her boyfriend, betting on who earns more.",
+          "value": "competes with boyfriend on Prolific earnings",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

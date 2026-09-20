@@ -1,0 +1,388 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states 'My name is Deborah. Yes.' Later self-describes as a 'White Dude', creating a gender inconsistency. The name is recorded verbatim.",
+          "value": "Deborah",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly says they live in California's central valley and identifies the city as Bakersfield (ASR 'Bakersfield' / 'baker skills').",
+          "value": "Bakersfield, California",
+          "lines": [
+            39,
+            93,
+            95,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions moving from Portland, indicating prior residence.",
+          "value": "previously lived in Portland, Oregon",
+          "lines": [
+            237,
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm 24' and earlier describes life as 'mid 20s'.",
+          "value": "24 years old",
+          "lines": [
+            201,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a self-identifies as 'White Dude', indicating white and male, though the stated name is Deborah.",
+          "value": "white male",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states earning an associate's degree while in the Navy.",
+          "value": "Associate's degree",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was actually the Navy' and got his degree there.",
+          "value": "served in U.S. Navy",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I work in I.T.' suggesting current or ongoing IT employment.",
+          "value": "works in IT",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes phasing into a part-time role transcribing, earning about $1000 per paycheck.",
+          "value": "earns ~$1000 per paycheck from part-time transcription work",
+          "lines": [
+            137,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using Prolific, Amazon Mechanical Turk, and Qmee to earn extra money.",
+          "value": "participates in online paid studies/tasks (Prolific, mturk, Qmee)",
+          "lines": [
+            351,
+            355,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they like to play on the stock market using apps for fractional investments.",
+          "value": "uses stock trading apps for fractional investments",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a explicitly mentions having a girlfriend multiple times.",
+          "value": "has a girlfriend",
+          "lines": [
+            127,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I got a dog' and later refers to getting a dog in March.",
+          "value": "has a pet dog",
+          "lines": [
+            127,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his pet bearded dragon, named Spiro (possibly intended Spyro), acquired in February.",
+          "value": "has a pet bearded dragon named Spiro",
+          "lines": [
+            295,
+            299,
+            301
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a lists playing golf as a hobby.",
+          "value": "plays golf",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they are learning German.",
+          "value": "learning German",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a asks about Joe Rogan (ASR 'joe morgan') and says they listen to many comedian podcasts.",
+          "value": "listens to podcasts (Joe Rogan, comedy)",
+          "lines": [
+            223,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about playing No Man's Sky extensively.",
+          "value": "plays video games (No Man's Sky)",
+          "lines": [
+            187,
+            191,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a reveals doing stand-up comedy in Portland and at open mics in Bakersfield for about a year.",
+          "value": "performs stand-up comedy at open mics",
+          "lines": [
+            237,
+            241,
+            245,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm on Reddit fairly often'.",
+          "value": "uses Reddit",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions working from home in several lines.",
+          "value": "works from home",
+          "lines": [
+            25,
+            135,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b explicitly states 'I'm David Devry'.",
+          "value": "David Devry",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in texas' and confirms central time zone.",
+          "value": "Texas",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b directly says 'I'm 41'.",
+          "value": "41 years old",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b is named David, is called 'man', and self-references are consistent with male.",
+          "value": "male",
+          "lines": [
+            16,
+            284
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a teacher' and 'I teach at the college level'.",
+          "value": "college teacher",
+          "lines": [
+            30,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly states having three kids with specific ages.",
+          "value": "parent of three children (ages 14, 12, 7)",
+          "lines": [
+            280,
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b identifies as a teacher at the college level, providing primary income.",
+          "value": "primary employment as a college teacher",
+          "lines": [
+            30,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions missing summer teaching opportunities and turning to Prolific for extra income.",
+          "value": "missed summer teaching opportunities, sought alternative income via Prolific",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how many of these studies he has done, speaker_b replies 'That's number three.'",
+          "value": "has completed 3 Prolific studies (including this one)",
+          "lines": [
+            352
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b states having three children and gives their ages.",
+          "value": "has three children (ages 14, 12, 7)",
+          "lines": [
+            280,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes being 'a family of five in a small house together', implying a spouse/partner and three kids.",
+          "value": "lives in a household of five (partner and three children)",
+          "lines": [
+            314
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions playing Minecraft with his kids during quarantine.",
+          "value": "plays video games with his children",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they play Minecraft, got into Fallout, and enjoys a Spelunky-like game (ASR 'spunky'/'spelunker').",
+          "value": "plays video games (Minecraft, Fallout, Spelunky)",
+          "lines": [
+            166,
+            168,
+            174,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b acknowledges listening to Joe Rogan (ASR 'joe morgan') and discusses Mark Normand's podcast.",
+          "value": "listens to podcasts (Joe Rogan, comedy)",
+          "lines": [
+            224,
+            250,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions gardening as a frequent activity.",
+          "value": "gardens",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they don't go to restaurants or theaters during the pandemic, only getting take-out.",
+          "value": "avoids dining in restaurants due to COVID-19",
+          "lines": [
+            322,
+            324
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a comments on 41-year-olds with beards, directed at speaker_b; speaker_b responds 'Yeah, maybe.'",
+          "value": "has a beard",
+          "lines": [
+            291,
+            292
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says speaker_b looks 28; speaker_b reflects on dressing young. Perception acknowledged but not confirmed outright.",
+          "value": "appears younger than his age (looks around 28)",
+          "lines": [
+            287,
+            290
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

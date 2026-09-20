@@ -1,0 +1,363 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself: 'My name's truck by the way.' Phonetically 'truck' matches 'Chuck'; typical given name. ASR transcript shows 'truck' but intended name is Chuck.",
+          "value": "Chuck",
+          "lines": [
+            71
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is from upstate New York, specifically Buffalo. Later mentions living in Buffalo area, describes local lake-effect snow patterns, and places Niagara Falls nearby. Lines 9: 'I'm from new york'; 11: 'upstate buffalo'; 15: references lake-effect cold; 17: talks about snow distribution across Buffalo; 163: says Niagara Falls is 'in the Buffalo area'.",
+          "value": "Buffalo, upstate New York",
+          "lines": [
+            9,
+            11,
+            15,
+            17,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he is originally from Virginia. Line 19: 'I'm originally from uh from Virginia'; line 137 clarifies 'northern Virginia close to Washington D.C. Area'.",
+          "value": "Virginia (northern Virginia, near Washington D.C.)",
+          "lines": [
+            19,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When speaker_b says he is 35, speaker_a confirms same age. Line 193: 'Okay, so am I 35?'.",
+          "value": "35 years old",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states marital status. Line 119: 'I'm married'.",
+          "value": "married",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has two children. Line 119: 'I got two kids'; line 121 gives ages: 'five and 5 and three'.",
+          "value": "has two children",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his college education. Lines 197 and 199: 'bachelor's degree in communication studies'; line 203: 'school in Ohio marietta college'.",
+          "value": "BA in Communication Studies, Marietta College (Ohio)",
+          "lines": [
+            197,
+            199,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he works for the military as a sensor operator on drones. Line 27: 'I work for the military'; line 229: 'I'm in the military … aviation field'; line 233: 'I work as a sensor operator'; line 235: describes controlling the camera on drones.",
+          "value": "military sensor operator (drone camera operator)",
+          "lines": [
+            27,
+            229,
+            233,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he is employed by the military. Line 27: 'I work for the military'.",
+          "value": "employed by the military (sensor operator)",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a side job as a bartender at a casino. Line 157: 'I worked at a casino as a bartender … little side gig thing'.",
+          "value": "side gig bartending at a casino",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Indicates he participates in online microtask/survey platforms for money. Line 73 asks about Prolific, shows familiarity; line 83: 'other site that I do called click worker'; line 87 describes click worker tasks; line 171: 'this is my 2nd one' (Prolific study); line 277: 'definitely some good scratch money'.",
+          "value": "receives income from online microtask platforms (Prolific, Clickworker)",
+          "lines": [
+            73,
+            83,
+            87,
+            171,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he used Amazon Mechanical Turk in the past. Line 79: 'I did that a long, long long time ago'.",
+          "value": "previously used Amazon Mechanical Turk for microtasks",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States he is married. Line 119: 'I'm married'.",
+          "value": "has a spouse",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates one child is 5 years old. Line 121: 'five and 5 and three'.",
+          "value": "child aged 5",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates the other child is 3 years old. Line 121: 'five and 5 and three'.",
+          "value": "child aged 3",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his brother is an airline pilot. Line 243: 'my brother and my dad were both are both airline pilots'.",
+          "value": "brother is an airline pilot",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his father is an airline pilot. Line 243: 'my brother and my dad were both are both airline pilots'.",
+          "value": "father is an airline pilot",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Works night shift starting at 11pm. Line 25: 'I go to work at 11 p.m.'.",
+          "value": "works night shift (11pm)",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Drinks coffee to stay awake during the day. Line 25: 'I got a little coffee so we let me through the day'.",
+          "value": "drinks coffee regularly",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Plays Call of Duty Mobile on his phone. Line 261: 'like Call of Duty Mobile, I'll play that every now and then'.",
+          "value": "plays Call of Duty Mobile",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses desire to become a pilot. Line 231: 'I wanted to be a pilot'; line 243: 'I'm kind of hoping one day to just kind of transition to the manned aircraft'.",
+          "value": "aspires to become a pilot (manned aircraft)",
+          "lines": [
+            231,
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Directly states his name. Line 70: 'My name is Elias'.",
+          "value": "Elias",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Initially says he lives in Delaware; line 12 ASR gives 'I live in new york, Delaware' but later clarifies. Line 12: 'it's like North Delaware'; line 136: 'I've always lived in Delaware actually'; line 148 references Atlantic City being an hour or two away, consistent with northern Delaware.",
+          "value": "Delaware (specifically northern Delaware)",
+          "lines": [
+            12,
+            136,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has always lived in the same state. Line 136: 'I've always lived in Delaware actually, I've never um never lived in another state'.",
+          "value": "Delaware (lifelong resident)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Answers direct question about age. Line 192: 'Ah 35.'",
+          "value": "35 years old",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is single. Line 108: 'No, I'm still single'; line 114: 'Yeah, I'm still single'.",
+          "value": "single",
+          "lines": [
+            108,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has no children. Line 112: 'Uh no kids yet'.",
+          "value": "no children",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his educational background. Line 196: 'a bachelors degree then. Um I got an M. B. A. Degree.'; line 204: 'University of Delaware.'",
+          "value": "BA and MBA from University of Delaware",
+          "lines": [
+            196,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Currently taking a course for certification. Line 54: 'I'm taking a course in um oracle uh programming'; line 56: 'trying to get a certification in that'.",
+          "value": "currently taking Oracle programming certification course",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is without work and describes previous temp job. Line 28: 'I'm in between jobs'; line 30: 'I had a job until earlier this year … temp job … ended'; line 36: 'I was doing data entry'.",
+          "value": "unemployed (previously did temp data entry)",
+          "lines": [
+            28,
+            30,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Clearly states he is without a job. Line 28: 'I'm in between jobs'; line 30 describes looking for another.",
+          "value": "currently unemployed",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates he earns money from Prolific surveys. Line 74: 'I've been using the site for a few years'; line 82: 'I like prolific more … gives better hits'; line 278: 'when they're available it is good' (referring to payment).",
+          "value": "receives income from Prolific surveys",
+          "lines": [
+            74,
+            82,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a past income source. Line 290: 'I was just selling video games … on Ebay'.",
+          "value": "previously sold video games on eBay for income",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions visiting a relative. Line 22: 'I was visiting a relative, so uh yeah I guess I'm just going home'.",
+          "value": "visited a relative (unspecified)",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes current gaming habit. Line 258: 'I've been playing games on my three Ds. There's this game 00 Virtue's last reward or zero escape'.",
+          "value": "plays video games on Nintendo 3DS (Zero Escape series)",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses a browser extension for Prolific. Line 280: 'Yeah I've got that for for chrome. Yeah I use that.'",
+          "value": "uses Chrome Prolific notification extension",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates he does not go to casinos. Line 154: 'No really, I've been there in a long time actually … I'm not really interested in going to casinos'.",
+          "value": "does not go to casinos (or rarely)",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

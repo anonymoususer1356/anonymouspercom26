@@ -1,0 +1,333 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She says 'I'm outside of D.C. in Ireland.' 'Ireland' is an obvious ASR error for a location near Washington D.C. (e.g. Arlington, Maryland). The intended meaning is that she resides outside Washington D.C.",
+          "value": "outside Washington D.C.",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she was born on Long Island.",
+          "value": "Long Island, New York",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She directly says 'I'm a research veterinarian' and describes her work with laboratory animals.",
+          "value": "research veterinarian (laboratory animal veterinarian)",
+          "lines": [
+            7,
+            79,
+            81,
+            87,
+            159,
+            161,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she works for the government and with the military, though she is not military herself.",
+          "value": "civilian employee of the U.S. government, works with military",
+          "lines": [
+            69,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I specialize monkeys' and discusses her work with primates.",
+          "value": "specializes in non-human primates (monkeys) in research",
+          "lines": [
+            87,
+            249,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my husband's family', implying she is female and married to a man.",
+          "value": "female",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm an introvert' directly.",
+          "value": "introvert",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states a doctorate of veterinary medicine is required and mentions vet school alongside large debt; she therefore holds the DVM degree.",
+          "value": "holds a Doctor of Veterinary Medicine (DVM) degree",
+          "lines": [
+            157,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'where I did my residency' and describes a residency site with a monkey breeding colony.",
+          "value": "completed a residency in laboratory animal medicine",
+          "lines": [
+            272,
+            301
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she got a concussion while snowboarding on icy fake snow as a beginner.",
+          "value": "experienced a concussion from snowboarding",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states 'I'm almost 200 grand in debt', which in context of vet school is almost certainly student loans.",
+          "value": "approximately $200,000 in student debt",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses her job, teleworking, and her government employment, indicating a full-time salaried position.",
+          "value": "full-time employed as a research veterinarian with the U.S. government",
+          "lines": [
+            69,
+            75,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She complains about a window making noise and mentions 'new studies available on prolific', a site where users earn money for surveys. She closes the window, suggesting she uses Prolific for extra income.",
+          "value": "likely earns extra income via online surveys on Prolific",
+          "lines": [
+            71,
+            73,
+            75
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she will 'visit my husband's family' for Christmas.",
+          "value": "married, spouse is husband",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my brother lives upstate'.",
+          "value": "has a brother",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her cat, and speaker_b sees it on video and says 'I see it's a cat'.",
+          "value": "owns a pet cat",
+          "lines": [
+            321,
+            326,
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she has been working from home and loves teleworking days.",
+          "value": "works from home regularly, enjoys teleworking",
+          "lines": [
+            5,
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her commute is 35-50 minutes when she goes to the office.",
+          "value": "commutes 35-50 minutes to workplace",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is not a morning person and appreciates waking up later when teleworking.",
+          "value": "dislikes mornings, prefers sleeping in",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about liking snow, having skied once and snowboarded once, and wanting to snowboard again.",
+          "value": "enjoys snow and winter sports; has tried skiing and snowboarding",
+          "lines": [
+            115,
+            117,
+            119,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her daily work involving physical exams, inoculations, animal care, and euthanasia, especially with monkeys.",
+          "value": "works directly with laboratory animals including monkeys, performing procedures and euthanasia",
+          "lines": [
+            79,
+            81,
+            185,
+            249,
+            253,
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in New York City' and discusses subway commuting.",
+          "value": "New York City, New York",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He explains 'I work in finance ... for a financial services company ... on the strategy side' and his team handles funding allocations.",
+          "value": "finance professional, strategy/funding allocations at a financial services firm",
+          "lines": [
+            10,
+            12,
+            227,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm an introvert' and dislikes managing stakeholders.",
+          "value": "introvert",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions studying health sciences when younger and switching to business, indicating his educational background.",
+          "value": "formerly studied health sciences, later moved to business",
+          "lines": [
+            210,
+            211,
+            212
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he still has two weeks of vacation to take and his company delayed vacations until year-end.",
+          "value": "has two weeks of unused vacation time from employer",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his job and team, indicating a stable salaried position.",
+          "value": "salaried professional in financial services",
+          "lines": [
+            10,
+            12,
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "He says he has been working from home since April/May (context of COVID-19 pandemic).",
+          "value": "works from home since around April or May 2020 due to COVID-19",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he actually prefers working at the office but his company was flexible pre-COVID and may become more flexible.",
+          "value": "prefers office work but appreciates remote flexibility",
+          "lines": [
+            18,
+            20,
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions taking the subway or biking, discussing crowd levels at different times.",
+          "value": "commutes in NYC via subway or bicycle",
+          "lines": [
+            38,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he used to ski, it's been a long time, and hopes to ski again this winter.",
+          "value": "has skied in the past, plans to ski again",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He tells speaker_a there is a veterinarian's office next to his residence.",
+          "value": "lives next door to a veterinary clinic",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

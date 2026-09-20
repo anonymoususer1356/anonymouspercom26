@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b asks 'You are Georgia.' speaker_a replies 'I'm George' (phonetic error for 'I'm in Georgia'), then later discusses the state's COVID situation and driving habits, confirming residence.",
+          "value": "Georgia (US state)",
+          "lines": [
+            24,
+            25,
+            34,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was born there' when asked about living in Nigeria, and describes leaving at ages 6, 9, and 11.",
+          "value": "Nigeria (birth country, lived until age 11)",
+          "lines": [
+            155,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I was in Ghana'.",
+          "value": "Ghana",
+          "lines": [
+            137
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I stayed in London months'.",
+          "value": "London (short stay)",
+          "lines": [
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I've lived in South Korea and that's it.'",
+          "value": "South Korea",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'okay, I'm still in college.'",
+          "value": "college student",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I studied Microbiology.'",
+          "value": "Microbiology major",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was born in Nigeria, indicating Nigerian origin.",
+          "value": "of Nigerian origin",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have family lived in the UK'.",
+          "value": "has relatives living in the UK",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My parents took me' when describing childhood.",
+          "value": "has parents",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my friend' and refers to friends multiple times.",
+          "value": "has friends",
+          "lines": [
+            311
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a finished a new season in two days and once watched 300 episodes in a week, indicating binge-watching behavior.",
+          "value": "binge-watches TV series",
+          "lines": [
+            75,
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'right now I'm in love with Umbrella Academy.'",
+          "value": "favorite TV show: Umbrella Academy",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'it's like enemy and that's like k dramas but I was like, you know, gore like it depends on my mood.'",
+          "value": "enjoys K-dramas and gore genres",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I use java, javascript implied town mostly, but I haven't done it since I left high school' (implied town → Python).",
+          "value": "coded in Java, JavaScript, Python in high school",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm not a morning person'.",
+          "value": "not a morning person",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'you don't need a car to get anywhere... just hop on a bus and a train' and expresses frustration with driving in the States.",
+          "value": "prefers public transportation over driving",
+          "lines": [
+            169,
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'what possessed me to take a chemistry lab at 7:00 AM'.",
+          "value": "took a chemistry lab at 7 AM",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I understand in new york the moment' and 'I'm only here for like a week just visiting from Rhode island'.",
+          "value": "visiting New York City",
+          "lines": [
+            26,
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my girlfriend, she moved to Rhode Island um so I moved to live with her... I'm just living with her for a year'.",
+          "value": "lives in Rhode Island",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'when I go back to new Zealand' and earlier describes connection to New Zealand.",
+          "value": "from New Zealand",
+          "lines": [
+            218,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was 11 when I left England.'",
+          "value": "lived in England until age 11",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to live in London'.",
+          "value": "used to live in London",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked if British, speaker_b says 'Yeah, I lived like half and half, half indian and half in new Zealand.' The phrase describes ethnic background.",
+          "value": "half Indian, half New Zealander ethnicity",
+          "lines": [
+            118
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'because I'm a foreigner'.",
+          "value": "foreigner in the US",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b says 'just came on like a working holiday Visa'.",
+          "value": "on a working holiday visa in the US",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains 'I had to get insurance to come here... it was part of the program that you have to get insurance if you come into the country'.",
+          "value": "required to have health insurance as a foreigner",
+          "lines": [
+            206,
+            207,
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'trying to find a job but it's kind of hard at the moment'.",
+          "value": "unemployed",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I had a little motorbike, but I didn't even have experience on that'.",
+          "value": "owned a motorbike in New Zealand",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my girlfriend, she's working from home' and 'my girlfriend, she moved to Rhode Island... I'm just living with her'.",
+          "value": "has a girlfriend, lives with her",
+          "lines": [
+            104,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a lot of friends in the union quarantine' (union → uni, referring to university).",
+          "value": "has friends from university",
+          "lines": [
+            288
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'my favorite tv show uh got to be misfits.'",
+          "value": "favorite TV show: Misfits",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm sort of skating a bit but I haven't scared it in like two months' (scared → skated).",
+          "value": "skateboarding hobby",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've got a kind of into coding recently... I like styling online course'.",
+          "value": "learning coding (online course)",
+          "lines": [
+            92,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says about London 'the nightlife is amazing... tons of like hubs throughout the city'.",
+          "value": "enjoys nightlife and city hubs",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

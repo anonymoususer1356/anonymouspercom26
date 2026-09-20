@@ -1,0 +1,394 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in California, L.A.' (lines 9-11) and later confirms 'I'm in L.A.' (line 233).",
+          "value": "Los Angeles, California",
+          "lines": [
+            9,
+            11,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up like two hours away' from LA (line 233).",
+          "value": "Grew up approximately two hours away from Los Angeles",
+          "lines": [
+            233
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b asks 'So you're in college right now?' and speaker_a responds with current studies (lines 26-27).",
+          "value": "College student",
+          "lines": [
+            26,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm studying molecular bio and global health' (line 27).",
+          "value": "Studies molecular biology and global health",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my last year, right this year, if all goes well, I graduate this year' (line 33).",
+          "value": "In final year, expects to graduate this year",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I recently joined student government' (line 153).",
+          "value": "Member of student government",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm literally working so many hours a week' (line 151).",
+          "value": "Works many hours per week",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'my sister, she's a teacher for 1/5 grade' (line 61); '1/5' likely means 5th grade but is unclear.",
+          "value": "Has a sister who is a teacher",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'my older siblings play violin' (line 83).",
+          "value": "Has older siblings who play violin",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my cousin just moved up there' (line 229) referring to Oregon.",
+          "value": "Has a cousin who moved to Oregon",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My movement. My freshman year, she was a music performance major' (line 95); 'movement' is likely an ASR error for 'roommate'.",
+          "value": "Had a roommate freshman year who was a music performance major",
+          "lines": [
+            95
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a describes elementary school music as 'recorders or like basic stuff' and not picking up an instrument until '6th grade' (lines 107-111).",
+          "value": "Grew up in a school district where instrumental music started in middle school",
+          "lines": [
+            107,
+            109,
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'my job I have to go onto campus... I have to like wander around to make sure everything's like safe and stuff' (lines 217-219).",
+          "value": "Has a campus job involving safety rounds",
+          "lines": [
+            217,
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'even for student government get paid... probably like less than $20 a week' (lines 199-201).",
+          "value": "Earns less than $20 per week from student government work",
+          "lines": [
+            199,
+            201
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I'm literally working so many hours a week' (line 151).",
+          "value": "Works many hours per week while studying",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my sister, she's a teacher' (line 61).",
+          "value": "Has a sister who is a teacher",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my older siblings play violin' (line 83).",
+          "value": "Has older siblings who play violin",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my cousin just moved up there' (line 229).",
+          "value": "Has a cousin who moved to Oregon",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a freshman year roommate who was a music performance major (line 95).",
+          "value": "Had a roommate freshman year who was a music performance major",
+          "lines": [
+            95
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions having a midterm this week (lines 21, 23) and discusses online classes (lines 36-41).",
+          "value": "Attends college with midterms and online classes",
+          "lines": [
+            21,
+            23,
+            36,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I used to always walk past and like see them working all the time' regarding marching band (line 173).",
+          "value": "Used to observe marching band rehearsals on campus",
+          "lines": [
+            173
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a describes campus as a 'ghost town' with reduced housing density (lines 217-219).",
+          "value": "College campus is nearly empty due to COVID-19",
+          "lines": [
+            217,
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'I'm good Teresa' (line 7), addressing speaker_b by name. No other name appears for speaker_b.",
+          "value": "Teresa",
+          "lines": [
+            7
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked about shutdowns in Oregon, speaker_b replies 'It's still pretty open here' (line 208), indicating they are in Oregon; also says 'I grew up in Oregon' (line 228).",
+          "value": "Currently lives in Oregon",
+          "lines": [
+            208,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Um in near Eugene, I went to you. Oh... that's where I went to college' (line 48), implying they are from that area.",
+          "value": "Grew up near Eugene, Oregon",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I used to... my sister and my parents on a house near campus and I was staying there' (line 226).",
+          "value": "Previously lived near U of O campus in a family-owned house",
+          "lines": [
+            226
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I teach elementary school now' (line 52) and 'kindergarten through 5th grade' (line 54).",
+          "value": "Elementary school music teacher (kindergarten through 5th grade)",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'it's a title school' (line 134).",
+          "value": "Teaches at a Title I (low-income) school",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to you. Oh' (U of O) (line 48) and later references the music program (line 194).",
+          "value": "Graduated from University of Oregon (U of O)",
+          "lines": [
+            48,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'So I studied music education' (line 50).",
+          "value": "Studied music education",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'saxophone was my main instrument' (line 76).",
+          "value": "Main instrument: saxophone",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was in it for three years' (line 172) regarding marching band.",
+          "value": "Member of marching band for three years",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I left the marching and I started working for them' (line 172).",
+          "value": "Worked for the marching band after leaving the band",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Yeah I grew up in in Oregon' (line 228).",
+          "value": "Grew up in Oregon",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions two scholarship amounts: '$600-100' (likely $600) and $1200 (line 198). Speaker_b participated in one of these bands.",
+          "value": "Received a marching band scholarship of approximately $600-$1200 per year",
+          "lines": [
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I got paid for it' regarding marching band work (lines 172-173).",
+          "value": "Was paid for working for the marching band",
+          "lines": [
+            172,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b currently teaches (lines 52, 134).",
+          "value": "Employed as a teacher",
+          "lines": [
+            52,
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my sister' (line 226).",
+          "value": "Has a sister",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my sister and my parents on a house near campus' (line 226).",
+          "value": "Parents own a house near U of O campus",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes online music teaching and using Seesaw (lines 56, 68).",
+          "value": "Teaches music online using the Seesaw platform",
+          "lines": [
+            56,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm trying to get into teaching social emotional learning with music' (line 114) and discusses it (lines 116, 136).",
+          "value": "Incorporates social emotional learning into music lessons",
+          "lines": [
+            114,
+            116,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'it's really pretty over here so it's nice just kind of go outside' (line 230).",
+          "value": "Enjoys outdoor activities in Oregon",
+          "lines": [
+            230
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,347 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states she is in Arizona when discussing time zones, later references 'out here' for education, and mentions schools 'out here' regarding graduation.",
+          "value": "Arizona",
+          "lines": [
+            13,
+            43,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is originally from western New York.",
+          "value": "western New York",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker mentions her kids are in bed, identifies as a stay-at-home mom, and talks about having little kids.",
+          "value": "mother",
+          "lines": [
+            13,
+            25,
+            47,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she taught for ten years, elementary grades 1st, 3rd, and 4th, but is now a stay-at-home mom.",
+          "value": "former elementary school teacher",
+          "lines": [
+            23,
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Inferred from references to being a mom, a wife, and using the term 'stay-at-home mom'.",
+          "value": "female",
+          "lines": [
+            25,
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states her husband is an actuarial analyst and works from home, providing the household income.",
+          "value": "husband is an actuarial analyst, employed working from home",
+          "lines": [
+            99,
+            101,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they haven't been affected at all because her husband works from home.",
+          "value": "household not financially impacted by pandemic",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In her tenth year of teaching her salary was $41,000.",
+          "value": "earned $41,000 in 10th year of teaching",
+          "lines": [
+            171,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is a stay-at-home mom and states she would need higher pay to return to work, indicating no current personal income.",
+          "value": "currently not employed, stay-at-home mom",
+          "lines": [
+            25,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker repeatedly refers to her husband.",
+          "value": "married",
+          "lines": [
+            99,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions kids multiple times, including being a stay-at-home mom.",
+          "value": "has children",
+          "lines": [
+            13,
+            25,
+            47,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her sister's age, occupation ('hair toilets' ASR for hairstylist), location (Scottsdale), and income.",
+          "value": "sister, age 25, hairstylist in Scottsdale, AZ, earning over $100,000 annually",
+          "lines": [
+            91,
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has a high school senior living across the street.",
+          "value": "neighbor is high school senior",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states she is now a stay-at-home mom.",
+          "value": "stay-at-home mom",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she taught elementary school for ten years, grades 1, 3, 4.",
+          "value": "taught elementary school (1st, 3rd, 4th grade) for 10 years",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she was a reading specialist at her school.",
+          "value": "worked as a reading specialist",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes the school as a 'really rough area' and that all the middle school reading teachers quit.",
+          "value": "taught in a rough school area",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions teaching a class of refugee children and finding it rewarding.",
+          "value": "taught a class of refugee children",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is originally from western New York and now lives in Arizona, citing weather as a reason for leaving.",
+          "value": "relocated from western New York to Arizona",
+          "lines": [
+            15,
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as Dwayne.",
+          "value": "Dwayne",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states he is on the East Coast and later specifies Pennsylvania.",
+          "value": "Pennsylvania",
+          "lines": [
+            8,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states he is a teacher and specifically teaches high school English.",
+          "value": "high school English teacher",
+          "lines": [
+            22,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Inferred from the typically male name Dwayne and his statements about being hit on by a female student.",
+          "value": "male",
+          "lines": [
+            22,
+            38,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker explicitly says he does not have any kids of his own.",
+          "value": "no children",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions graduating and then doing student teaching, implying a college degree.",
+          "value": "college graduate",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says he is in his 13th year, at step six, and makes 'just under 60', referring to thousands of dollars annually.",
+          "value": "annual salary just under $60,000 as a teacher",
+          "lines": [
+            174,
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker is still teaching via online classes and has not been laid off during the pandemic.",
+          "value": "employed as a teacher during COVID-19 pandemic",
+          "lines": [
+            32,
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions his aunt who lives outside Phoenix, Arizona.",
+          "value": "has an aunt living outside Phoenix, Arizona",
+          "lines": [
+            14,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states his cousin is an elementary teacher in the Phoenix area.",
+          "value": "has a cousin who is an elementary teacher in Phoenix, AZ",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says everyone in his immediate family works for state or local government or a business that kept them on.",
+          "value": "immediate family members hold government or stable private jobs",
+          "lines": [
+            106
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes himself as usually a night owl.",
+          "value": "night owl",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about putting buckets over garden stuff before a freeze.",
+          "value": "gardens",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a Facebook notification.",
+          "value": "uses Facebook",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he got a high school job and has been there for the last 13 years.",
+          "value": "has worked at the same high school for 13 years",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker conducts an online face-to-face class once a week during the pandemic.",
+          "value": "teaches through online classes during pandemic",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

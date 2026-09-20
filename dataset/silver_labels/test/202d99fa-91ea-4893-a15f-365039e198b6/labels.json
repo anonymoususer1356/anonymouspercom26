@@ -1,0 +1,215 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b addresses her as Kelsey in line 6, and she states 'My name is Kelsey' in line 7.",
+          "value": "Kelsey",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in new york' (7), specifies 'About an hour and a half outside of New york city' (13), mentions moving back to New York two years ago (29), and confirms New York is doing the same thing (243).",
+          "value": "New York state, about an hour and a half outside of New York City",
+          "lines": [
+            7,
+            13,
+            29,
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she works for a music production company making music for TV/film (37) and does A&R recruiting artists (137).",
+          "value": "works at a music production company, role A&R (artist recruitment)",
+          "lines": [
+            37,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'My partner really likes this band' in line 207.",
+          "value": "has a partner",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She dropped out of school to tour with the band (115), toured for three years on East Coast and Central US (117), band name Kevlar (185), and she screamed and sang (197).",
+          "value": "toured as vocalist in a band (Kevlar) for about three years, covering East Coast and Central US",
+          "lines": [
+            115,
+            117,
+            185,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses fandom for mewithoutYou (49), saw Paramore cruises and a show in Allentown (57), had tickets to follow Hayley Williams' tour in multiple cities (89-91), tickets to NF (93), and saw Ice Nine Kills (111).",
+          "value": "avid concert attendee, has seen many bands and planned to attend multiple concerts",
+          "lines": [
+            49,
+            57,
+            89,
+            91,
+            93,
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b asks if a photo shows her with black hair, and she confirms 'that's what it was, a couple years ago' (190-191).",
+          "value": "had black hair a couple years ago",
+          "lines": [
+            190,
+            191
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He states 'I'm William by the way' in line 6.",
+          "value": "William",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states 'I live like a little north of Pittsburgh western pennsylvania' (16), implies proximity to Clarion University 'up here' (22), mentions Western PA (102), applying to jobs in Pittsburgh (230), and drilling near Pittsburgh (238).",
+          "value": "western Pennsylvania, a little north of Pittsburgh",
+          "lines": [
+            16,
+            22,
+            102,
+            230,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes living in upstate New York, a little bit outside Rochester in a place called Greece, right on Lake Ontario (10,12), and contrasts with his current location (16).",
+          "value": "Greece, New York (outside Rochester, upstate New York)",
+          "lines": [
+            10,
+            12,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He attends Clarion University (ASR 'Clearing') as a state school (18), and is finishing a bachelor's in Biology (226).",
+          "value": "college student at Clarion University",
+          "lines": [
+            18,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he has been in the army for eight years and is a sergeant (236,238).",
+          "value": "army sergeant",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "As a sergeant in the army, he holds a legal standing with the state (236,238).",
+          "value": "army sergeant (military service)",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He is a student finishing a bachelor's at Clarion University (18,226) and is applying for jobs (230).",
+          "value": "student, finishing bachelor's in Biology, currently applying for research jobs",
+          "lines": [
+            18,
+            226,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He serves in the army as a sergeant, drills on weekends, which implies he receives pay (236,238).",
+          "value": "army sergeant (reservist, likely paid)",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my little sisters were all upset because they're in high school still' (280).",
+          "value": "has little sisters",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He had multiple concerts planned and received refunds (48), got a guitar pick from The Wonder Years' singer (86), saw Typhoon at Mr Smalls (96,98), and states 'I've been to a lot of concerts' (100).",
+          "value": "avid concert-goer, collects band merchandise/guitar picks",
+          "lines": [
+            48,
+            86,
+            96,
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he drilled this weekend and drills near Pittsburgh (238).",
+          "value": "army reservist, drills on weekends",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

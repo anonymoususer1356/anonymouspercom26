@@ -1,0 +1,485 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is Jim'.",
+          "value": "Jim",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm not far up the road about five hours north, just north of Charlotte in North Carolina.'",
+          "value": "Lives just north of Charlotte, North Carolina",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I teach history and I'm the tennis coach here at the high school', implying his workplace is a high school in his locality.",
+          "value": "Works at a high school near Charlotte, North Carolina",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions finishing graduate school and working a semester 'at the University of north Carolina's campus'.",
+          "value": "Previously worked at the University of North Carolina campus (Chapel Hill, NC)",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'll keep in prayer and keep you company in prayer and your family and our nation'.",
+          "value": "Religious (prays)",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'when I finished graduate school'.",
+          "value": "Completed graduate school",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked what he teaches, replies 'I teach history'.",
+          "value": "History teacher",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a driver's ed instructor as well as a teacher' and 'I do driving in the mornings' on Saturdays.",
+          "value": "Driver's education instructor",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm the tennis coach here at the high school'.",
+          "value": "Tennis coach at the high school",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've coached the words to basketball and football' (ASR 'words' likely means 'sports').",
+          "value": "Previously coached basketball and football",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I've done, I do prolific. My daughter is the one that told me about that'.",
+          "value": "Participates in Prolific surveys for extra income",
+          "lines": [
+            75,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions 'my wife' (line 67 'my wife's grandfather', line 131 'a kid with my wife', line 133 'my wife').",
+          "value": "Married",
+          "lines": [
+            67,
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my daughter' who told him about Prolific and who evaluated surgeons.",
+          "value": "Has a daughter",
+          "lines": [
+            75,
+            81,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'our youngest 21 so Or 20'.",
+          "value": "Youngest child is 20 or 21 years old",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'he's the one that fill in college. So she's actually down in Mississippi' about the youngest child.",
+          "value": "Has a child attending college in Mississippi",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shares 'my wife's grandfather originally came from Ohio from Ironton'.",
+          "value": "Wife's grandfather came from Ironton, Ohio",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes growing up in a family that didn't like poultry 'except for me', looking forward to holidays because of it; his mom would make Cornish game hens for him.",
+          "value": "Enjoys poultry, unlike his family",
+          "lines": [
+            23,
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I grew up being a Cincinnati reds fan'.",
+          "value": "Cincinnati Reds baseball fan",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I really enjoy the tennis, it's a little more laid back'.",
+          "value": "Finds tennis coaching laid back and enjoyable",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'home projects this afternoon with window coverage'.",
+          "value": "Does home projects (e.g., window covering)",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I worked some on Saturdays. I'm a driver's ed instructor ... so I do driving in the mornings'.",
+          "value": "Works on Saturday mornings doing driver's education",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'My name's Hunter'.",
+          "value": "Hunter",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I'm in Atlanta ... I'm in decatur area of the Cobb county' (later clarified as 'Dekalb County').",
+          "value": "Lives in Decatur area, DeKalb County, Atlanta, Georgia",
+          "lines": [
+            44,
+            142,
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'from Ohio originally uh columbus'.",
+          "value": "Originally from Columbus, Ohio",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I went to college in Cleveland, I went to art school in Cleveland'.",
+          "value": "Attended art school in Cleveland, Ohio",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes 'since 2008, so Yeah, 12 years' since moving to Georgia.",
+          "value": "Moved to Georgia in 2008",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'um actually um thanksgiving day is my birthday' and notes this year it falls on the same day.",
+          "value": "Birthday falls on Thanksgiving Day (periodically)",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he went to art school, majored in visual arts painting (lines 62, 100-102).",
+          "value": "Art school graduate (visual arts painting major)",
+          "lines": [
+            62,
+            100,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'all of the work I've done over the years kind of took a number on my body also'.",
+          "value": "Body has taken a toll from years of physical kitchen work",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Explains current role: 'I work at a big hotel ... I was a purchasing manager at that point' and 'I was furloughed'.",
+          "value": "Purchasing manager at a large convention hotel, currently furloughed",
+          "lines": [
+            70,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I was a chef many years'.",
+          "value": "Previously a chef for many years",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was a butcher at the hotel before I was the purchasing manager'.",
+          "value": "Previously a butcher at the hotel",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he started doing Mechanical Turk and Prolific after being furloughed, making a full-time go of it when not called in.",
+          "value": "Does Mechanical Turk and Prolific for income while furloughed",
+          "lines": [
+            74,
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions still getting benefits and the hotel filing partial unemployment claims for him.",
+          "value": "Receives employment benefits and partial unemployment",
+          "lines": [
+            82,
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states 'I don't own a home yet'.",
+          "value": "Does not own a home (renter)",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Consistently refers to 'my partner', distinguishing from 'my wife at the time'.",
+          "value": "In a relationship with a female partner (not married)",
+          "lines": [
+            56,
+            138,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my wife at the time' and 'previous marriage'.",
+          "value": "Previously married (divorced)",
+          "lines": [
+            62,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I have two kids from my previous marriage'.",
+          "value": "Has two biological children from previous marriage",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my partner um her daughter'.",
+          "value": "Has a stepdaughter (partner's daughter)",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Gives the ages of the three children: 'um well now 10 10 and eight'.",
+          "value": "Children's ages: 10, 10, and 8",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my partner, she still works full time, she's in health care' and 'she's in like specimen processing'.",
+          "value": "Partner works full-time in healthcare (specimen processing)",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my partners from carol north Carolina'.",
+          "value": "Partner is from North Carolina",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my dad was really into Ohio state basketball' and 'my extended family ... we would get together and watch the games'.",
+          "value": "Father was an Ohio State basketball fan; extended family gathered to watch games",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes 'Saturdays are kind of relaxing ... watching movies and videos playing some video games with the kids cleaning'.",
+          "value": "Relaxes on Saturdays: watches movies, plays video games with kids",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Career is culinary; mentions 'getting into cooking' and making Cornish game hens.",
+          "value": "Enjoys cooking",
+          "lines": [
+            34,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I love cornish game hens' and describes preparing them.",
+          "value": "Likes Cornish game hens",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I like boxing and martial arts, mixed martial arts, uh uh tennis and in some basketball'.",
+          "value": "Enjoys boxing, martial arts, MMA, tennis, and some basketball",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Admits 'I don't really follow sports super closely'.",
+          "value": "Does not follow team sports closely",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes art school, thesis with ceramic busts and a novella, and says 'I still draw and I still make things'.",
+          "value": "Pursues art (visual arts, mixed media) and still creates",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recalls the busy season schedule: 'I get there you know between six and 6:30 and uh you know stay until five or 6 sometimes'.",
+          "value": "Used to work long hours (6:30 am–5/6 pm)",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'all of our kids are at home so I'm I'm with them you know most of the time and you know doing class during the day'.",
+          "value": "Currently stays home with kids during virtual school",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains 'I've more or less made a full time go of it when I don't get called in' regarding MTurk/Prolific.",
+          "value": "Does MTurk/Prolific full-time when not called to hotel job",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

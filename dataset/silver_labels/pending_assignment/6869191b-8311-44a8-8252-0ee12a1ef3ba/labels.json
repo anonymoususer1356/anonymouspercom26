@@ -1,0 +1,393 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses speaker_a as 'Alexandra' in line 424; speaker_a does not correct it, and earlier line 1 may contain 'Alex' which could be a short form. The name is thus established for speaker_a.",
+          "value": "Alexandra",
+          "lines": [
+            424
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in the panhandle of florida' (line 23) and 'Right by Pensacola' (line 27). Speaker_b notes speaker_a is in Central Time (line 6) and speaker_a confirms (line 7), later adding 'just barely out of the Eastern time zone' (line 31). Speaker_a also describes the town as very small: '500 people in town at most' (line 137). All these facts combine to one location description.",
+          "value": "Panhandle of Florida near Pensacola; small town of approximately 500 inhabitants; Central time zone",
+          "lines": [
+            6,
+            7,
+            23,
+            27,
+            31,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'high school education' in line 41, indicating their highest level of completed education.",
+          "value": "High school education",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my family is heavily irish' in line 355, indicating Irish ethnic background.",
+          "value": "Heavily Irish family background",
+          "lines": [
+            355
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'protestant baptist' (line 271), 'my father was a protestant but my mother was catholic' (lines 272-273), and 'I'm not particularly religious' (line 263), indicating a mixed Protestant/Catholic upbringing but no current religious practice.",
+          "value": "Raised in a Protestant (Baptist) and Catholic family; currently not religious",
+          "lines": [
+            263,
+            271,
+            272,
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a directly states 'I have epilepsy' in line 101, which limits their ability to play fast-paced games.",
+          "value": "Has epilepsy",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I'm just a cashier honestly' (line 55), 'Food line' (line 127, intended 'Food Lion' given context), and 'help with other stuff like stocking' (line 135). This establishes their job and employer.",
+          "value": "Cashier at Food Lion, also performs stocking tasks",
+          "lines": [
+            55,
+            127,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains they found Prolific 'a couple of years back when I was without a job ... looking online for extra money ... best source of extra cash' (line 37). This shows current use for supplemental income.",
+          "value": "Uses Prolific platform for extra income",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a remarks 'around here you could live on less than $1200 a month' (line 59), strongly implying their own cost of living is within that low amount.",
+          "value": "Lives in a low-cost area where monthly expenses can be under $1200",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I just broke up actually' in line 177, indicating current single status.",
+          "value": "Single (recently broke up)",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I have a cousin with autism' in line 65.",
+          "value": "Has a cousin with autism",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'She's an auditor' (line 345) and 'She travels a lot' (line 343) in reference to their mother.",
+          "value": "Mother is an auditor who travels frequently",
+          "lines": [
+            343,
+            345
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my grandmother and my mother both smokers. My grandmother said she repeat me with me if I did' (line 409) and clarifies it means a branch (line 411). The intended word is 'whip' (threaten punishment).",
+          "value": "Grandmother and mother are/were smokers; grandmother threatened physical punishment if speaker_a smoked",
+          "lines": [
+            409,
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks 'Couldn't I have 22 dogs' (line 237), likely an ASR error for 'I have two dogs'; speaker_b responds 'Yeah, you have shoot dogs out' intended as 'two dogs'. This confirms the pet ownership.",
+          "value": "Has two dogs",
+          "lines": [
+            237,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a shares 'I used to have a cat' (line 239), 'He was an american short hair' (line 241), 'He died of old age' (line 243), 'around 20 years old' (line 249), 'until he got kidney issues' (line 251).",
+          "value": "Previously owned an American Shorthair cat that died of old age at about 20 years due to kidney failure",
+          "lines": [
+            239,
+            241,
+            243,
+            247,
+            249,
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I like to just go fishing and I like clockwork, like pottery prepared' (line 83; 'clockwork' likely ASR for 'clay work'), and 'making things that are useful, like balls that you can eat out of, cups, figurines' (line 87).",
+          "value": "Hobbies include fishing and pottery, especially making functional vessels and figurines",
+          "lines": [
+            83,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explains 'I have epilepsy so I can't play stuff with requires lightning fast reflexes ... role playing games will be best' (line 101) and 'used to like the Harvest Moon series' (line 103).",
+          "value": "Plays role-playing video games (e.g., Harvest Moon) due to epilepsy limiting fast-paced games",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'progressive rock' (line 303), 'Pink Floyd' (line 305), 'taken a liking to opera' (line 305), and 'Poets of the Fall' (line 325).",
+          "value": "Music tastes include progressive rock, Pink Floyd, opera, and the band Poets of the Fall",
+          "lines": [
+            303,
+            305,
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a answers 'it's titanic look' (line 185, intended 'Titanic') and calls it 'kind of a chick flick honestly' (line 187).",
+          "value": "Favorite movie is Titanic (considers it a 'chick flick')",
+          "lines": [
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I did watch Breaking Bad when it was still airing' (line 159) and 'I haven't watched that sequel though, it seems kind of boring' (line 161, referring to Better Call Saul).",
+          "value": "Watched Breaking Bad; not interested in its sequel Better Call Saul",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just never enjoyed it' (line 287) regarding alcohol, 'I don't really drink at all. I do use it for cooking wine' (line 289), and mentions using scotch and bourbon for cooking (line 291).",
+          "value": "Does not drink alcohol; uses it only for cooking",
+          "lines": [
+            287,
+            289,
+            291
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a lists 'fried catfish' as a favorite (line 381) and says 'I love like beer battered chicken' (line 391).",
+          "value": "Enjoys fried catfish and beer battered chicken",
+          "lines": [
+            381,
+            391
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes COVID precautions at work: 'just general cleaning ... always wearing a mask' (line 337), 'standard mask' (line 339), and says 'name provided, but I also have something that I'm safe from my mother' (line 341; 'name' likely 'they' referring to employer).",
+          "value": "Wears a standard mask at work; employer provides masks and mother also supplied some",
+          "lines": [
+            337,
+            339,
+            341
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in north Carolina' (line 24) and 'I'm in the Eastern time zone' (line 8). They later reveal 'I'm from new york' and 'I grew up on Long Island' (line 212), and 'I've lived here for about two years' (line 382), meaning they moved to NC roughly two years ago.",
+          "value": "Currently lives in North Carolina (Eastern time zone); originally from Long Island, New York; moved to NC approximately two years ago",
+          "lines": [
+            8,
+            24,
+            212,
+            382
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm a graduate student' (line 40), 'I went to grad school in New Orleans and Loyola' (line 46, meaning Loyola University), and 'music therapy' (line 48).",
+          "value": "Graduate student in music therapy; attended Loyola University New Orleans",
+          "lines": [
+            40,
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I was raised catholic, but I don't practice now' (line 270).",
+          "value": "Raised Catholic; currently non-practising",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I used it to pay my tuition' (line 42) referring to Prolific, indicating the platform is used to support their studies financially.",
+          "value": "Uses Prolific earnings to pay tuition",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains 'I live with my dad right now, he's letting me stay with him while I read my thesis' (line 62, 'read' likely 'write'), showing they live with a parent to reduce expenses during graduate school.",
+          "value": "Lives with father to save money while writing thesis",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I do a lot of work with the disabled' (line 50), 'I work a lot with Children with autism' (line 52), and 'turned my main hobby into my job, you know playing music' (line 82). This establishes their occupation as a music therapist working with disabled/autistic children.",
+          "value": "Works as a music therapist, primarily with children with autism",
+          "lines": [
+            50,
+            52,
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b describes their father: 'my dad ... he's a position' (line 168, intended 'physician'), 'he's a general practitioner' (line 170), and 'he's actually very passionate about addiction medicine' (line 168); additionally 'my dad's actually what's called an attending physician ... supervises residents' (line 402) and 'he doesn't eat fried foods either' (line 396).",
+          "value": "Father is a general practitioner (attending physician) with a focus on addiction medicine; follows a strict diet (no fried foods)",
+          "lines": [
+            168,
+            170,
+            396,
+            402
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b shares 'my nana she's unfortunately no longer with us ... got lung cancer' (line 414) and 'she was a heavy smoker all her life' (line 408).",
+          "value": "Paternal grandmother died of lung cancer after being a lifelong heavy smoker",
+          "lines": [
+            408,
+            414
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b states 'I kind of turned my main hobby into my job, you know playing music' (line 82), indicating music is a central personal and professional activity.",
+          "value": "Music is primary hobby and also career",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to a question about favorite movie, speaker_b says 'My favorites. Mean Girls' (line 190).",
+          "value": "Favorite movie is Mean Girls",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'lately I've been listening to a lot of Townes Van Zandt' (line 316).",
+          "value": "Recently listening to the country artist Townes Van Zandt",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like a glass of wine every once in a while' (line 288).",
+          "value": "Enjoys an occasional glass of wine",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm not a vegetarian at all' (line 292).",
+          "value": "Not a vegetarian",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like fish, I like salmon' (line 368).",
+          "value": "Likes salmon",
+          "lines": [
+            368
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I don't own a deep fryer though' (line 388).",
+          "value": "Does not own a deep fryer",
+          "lines": [
+            388
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes 'you're the first person outside my family that I've had a conversation with ... since the last time I did this experiment' (line 334) and 'Just been doing a lot of writing' (line 336), indicating recent isolation due to thesis work.",
+          "value": "Has been reclusive and focused on writing thesis; first non-family conversation in some time",
+          "lines": [
+            334,
+            336
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,367 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker directly states they live in Brooklyn, New York City.",
+          "value": "Brooklyn, New York City",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says they studied philosophy in school, indicating their college major.",
+          "value": "Studied philosophy in college",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states they work for a nonprofit in operations, involving financial/budget management.",
+          "value": "Works for a nonprofit in operations (budget management)",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says they don't have a car and explains why driving is impractical.",
+          "value": "Does not own a car",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they moved into their own place a year ago and lives alone.",
+          "value": "Lives alone in own apartment",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they work from home because of COVID-19.",
+          "value": "Currently working from home due to COVID-19",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions their family lives in New Jersey and they occasionally go home to visit.",
+          "value": "Family (parents) living in New Jersey",
+          "lines": [
+            167,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says one of their essential-worker friends is an art therapist at a hospital.",
+          "value": "Friend who is an art therapist working at a hospital",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says another friend works for a school and helped set up temporary morgues.",
+          "value": "Friend who works for a school and set up temporary morgues",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker had Billie Eilish tickets with a friend; that friend contracted COVID after a work trip to Colorado.",
+          "value": "Friend (concert companion) who got COVID after a work trip to Colorado",
+          "lines": [
+            205,
+            209,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says they're really into live music, attending concerts and music festivals.",
+          "value": "Enjoys live music, concerts, and music festivals",
+          "lines": [
+            171,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker had tickets to see Billie Eilish at Madison Square Garden in mid-March.",
+          "value": "Had tickets to Billie Eilish concert at Madison Square Garden",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes their music taste: alternative rock, mainstream hip hop, pop, and weird electronic/electro funk-soul.",
+          "value": "Music preference: alternative rock, hip hop, pop, electro funk/soul",
+          "lines": [
+            191,
+            193,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker participates in workplace walking challenges, logging steps weekly.",
+          "value": "Participates in workplace walking challenges",
+          "lines": [
+            217,
+            219,
+            223,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions baking bread and watching Tiger King during quarantine.",
+          "value": "Baked bread and watched Tiger King during COVID-19 quarantine",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker does not own a car and uses the subway for transportation.",
+          "value": "Car-free; relies on subway for commuting",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states they live alone.",
+          "value": "Lives alone",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'Williams'. The ASR output is taken verbatim, though it may be a surname or misheard; no other name is given.",
+          "value": "Williams",
+          "lines": [
+            4
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says he lives in Clarion, a small town about an hour north of Pittsburgh, and also says they live near the Allegheny National Forest.",
+          "value": "Clarion, Pennsylvania (near Allegheny National Forest)",
+          "lines": [
+            6,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker is finishing his undergraduate degree in three weeks, majoring in biology.",
+          "value": "Undergraduate student, biology major",
+          "lines": [
+            24,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker enlisted right out of high school, currently serves in an Army unit (Reserve/Guard) with a contract, attending drill and summer training.",
+          "value": "Enlisted in U.S. Army (Reserve component)",
+          "lines": [
+            64,
+            68,
+            74,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker receives pay as an Army reservist; mention of contract and drill pay.",
+          "value": "U.S. Army Reserve service (with pay)",
+          "lines": [
+            64,
+            68,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he drove straight home after drill, indicating car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he lives with roommates in an apartment.",
+          "value": "Lives in an apartment with roommates",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has a Zoom interview for a research lab position at the University of Pittsburgh.",
+          "value": "Has interview for research lab job at University of Pittsburgh",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker and roommates spent a lot of money on beer and liquor when lockdowns started.",
+          "value": "Spent a significant amount on alcohol early in the pandemic",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker held tickets to multiple concerts, including the mewithoutYou farewell tour that was postponed.",
+          "value": "Had tickets to multiple concerts (including mewithoutYou farewell tour)",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker has roommates; they watched Tiger King together and spent the summer together.",
+          "value": "Roommates (multiple)",
+          "lines": [
+            96,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions parents; father is retired military, still working, will fully retire at 55; speaker plans to visit for Thanksgiving.",
+          "value": "Parents (father retired military, still working; mother implied)",
+          "lines": [
+            78,
+            80,
+            88,
+            138,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has a friend who works at a University of Pittsburgh research lab, rerouted from HIV to COVID-19 research.",
+          "value": "Friend working at University of Pittsburgh research lab (COVID-19 research)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker encountered his female microbiology professor at a bar after finals.",
+          "value": "Microbiology professor (female) from his college",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker enjoys hiking; during the summer he went as often as 3–4 times a week.",
+          "value": "Hiking regularly",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker learned to play guitar during quarantine.",
+          "value": "Learning guitar",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is a concert-goer; favorite band is mewithoutYou, emo/indie rock, and he had tickets to their farewell tour.",
+          "value": "Concert-goer; favorite band mewithoutYou (emo/indie rock)",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker goes to bars socially, drank with roommates, and watched Tiger King together.",
+          "value": "Enjoys socializing at bars, watching TV with roommates (Tiger King)",
+          "lines": [
+            34,
+            92,
+            162,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker attends monthly Army Reserve drills and two-week summer training periods.",
+          "value": "Attends monthly Army Reserve drills and summer training",
+          "lines": [
+            64,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is finishing his undergraduate degree.",
+          "value": "Finishing undergraduate degree (biology)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

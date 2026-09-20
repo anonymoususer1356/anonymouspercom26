@@ -1,0 +1,438 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "In line 187 he says 'I'm from south Alabama.' In line 272 speaker_b says 'And you're in Alabama' and speaker_a confirms. In line 273 he says 'the school I go to the primarily medical school'. In line 277 he says 'this is the place in the state where everyone was getting treated and actually wearing masks' referring to the school's area. These establish he attends college in Alabama, specifically a medical school environment.",
+          "value": "Attends a primarily medical school in Alabama",
+          "lines": [
+            187,
+            272,
+            273,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 37 he says 'so we we move out of the dorms,' indicating he lives in a dorm. Line 45 says 'I live about four hours away from the dorms,' further confirming dorm residence.",
+          "value": "Lives in college dorms",
+          "lines": [
+            37,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 187: 'I'm from south Alabama.' Line 45: 'I live about four hours away from the dorms, so it's not far, but it's not a, I can go home regularly type thing.' This implies his permanent home is in south Alabama, 4 hours away.",
+          "value": "From south Alabama, family home ~4 hours from college",
+          "lines": [
+            45,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 333-335, he says 'after I graduate from school, I'm planning to move around California for game development stuff.' This is a stated future plan.",
+          "value": "Plans to relocate to California after graduation",
+          "lines": [
+            333,
+            334,
+            335
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In line 251 he mentions 'freshman area' (likely 'freshman year'). In line 252 speaker_b asks if it is his first year. Lines 260, 325, 330-331 refer to freshman experiences and high school graduation, implying speaker_a is in his first year of college. Strongly implied.",
+          "value": "College freshman",
+          "lines": [
+            251,
+            252,
+            260,
+            325,
+            330
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 257, speaker_b asks 'What's your major?' and speaker_a replies 'Computer science.'",
+          "value": "Computer Science major",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 8 speaker_b asks 'this is your first time doing something like this sir?' implying a paid activity. Line 14 speaker_b asks 'what are you using your money to buy?' Line 15 speaker_a says 'I'm saving it ... college students so every little bit counts.' This confirms he receives money and is saving it.",
+          "value": "Receives payment from a study/activity, currently saving it",
+          "lines": [
+            8,
+            14,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 265, he says 'tuition was not discounted' in response to speaker_b's comment about loans, indicating he pays full tuition.",
+          "value": "Tuition not discounted during Covid-19",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 47, he says 'No, I don't, My roommate does though. Oh, I'm not a fan of driving, so my parents never got me my own car.'",
+          "value": "Does not own a car; parents never bought him one",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 183: 'I'm trying to get a 3080 right now,' indicating he is attempting to purchase a high-end graphics card.",
+          "value": "Trying to buy an RTX 3080 graphics card",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 47: 'my parents never got me my own car' indicates he has parents.",
+          "value": "Has parents",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'My roommate does though' (referring to owning a car) indicates he has a roommate with a car.",
+          "value": "Has a roommate who owns a car",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 119-121: 'I have a few groups I can't play league with. Oh only group I still play lead with the type of people...' indicates he plays with a specific friend group.",
+          "value": "Has a group of friends he plays League of Legends with",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 363: 'I know people that are one in two years ahead of me with that one that's graduated' indicates he knows upperclassmen and graduates.",
+          "value": "Knows upperclassmen and alumni at his college",
+          "lines": [
+            363
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 350, 351, 353: speaker_b asks about family in California, speaker_a replies 'Uh none over there. All of my family is from texas to north Carolina.'",
+          "value": "No family in California; family is from Texas to North Carolina",
+          "lines": [
+            350,
+            351,
+            353
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 8-9: speaker_b: 'this is your first time doing something like this sir?' speaker_a: 'No... this is my 4th.' He explicitly states it is his fourth time participating in this activity.",
+          "value": "4th time participating in a paid activity (likely study/focus group)",
+          "lines": [
+            8,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 53: 'I play a lot of fighting games competitively.' Line 55: 'I mainly play blaze blue, guilty gear taken.' (Tekken). Line 59 lists main characters. So he is a competitive fighting game player for specific titles.",
+          "value": "Competitive fighting game player (BlazBlue, Guilty Gear, Tekken)",
+          "lines": [
+            53,
+            55,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 105: 'I've been playing on and off since season three.' Line 139: 'I'll play mid and 80 carry most of the time.' So he plays League of Legends, preferring mid and ADC roles.",
+          "value": "League of Legends player since season 3, mains mid and ADC",
+          "lines": [
+            105,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 205: 'Most of my free time that I do is tinkering around with computers, so.'",
+          "value": "Enjoys tinkering with computers in free time",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 229: 'I'm using a pixel right now for excel.' The phrase 'for excel' is likely an ASR error, but 'pixel' clearly refers to a Google Pixel phone.",
+          "value": "Uses a Google Pixel phone",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 247: 'I was looking at all the smart home stuff, It looks fun, I gotta I got to mess around with it and at least make my room back home It Yeah.' Shows interest in smart home technology.",
+          "value": "Interested in smart home technology",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'I used to play a lot of smash' indicates he formerly played Super Smash Bros.",
+          "value": "Former Super Smash Bros. player",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 184: 'I live in southern California.' He states this directly.",
+          "value": "Southern California",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 348: 'I live pretty far, I live like about an hour away' in context of affordable living. Lines 376-382 he lists many places within 1-2 hours (LA, Santa Monica, San Diego, etc.). This places him in a suburb of the greater LA area.",
+          "value": "Lives ~1 hour from Los Angeles area, in a more affordable suburb",
+          "lines": [
+            348,
+            376,
+            377,
+            378,
+            380,
+            382
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 184: 'we have microphone and they don't get regular ship them shipments of it' is an ASR error for Micro Center. Micro Center is a known computer store with a location in Tustin, CA, consistent with his southern California location. Indicates he lives near one.",
+          "value": "Lives near a Micro Center store",
+          "lines": [
+            184
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 62 and 46 indicate he has roommates. Lines 242-244 talk about upgrading his house with smart home tech. So he lives in a shared house.",
+          "value": "Lives in a shared house (with roommates); upgrading with smart home tech",
+          "lines": [
+            46,
+            62,
+            242,
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 214: 'I already graduated from getting my bachelor's right now, I'm trying to get my masters'. Line 216: 'my masters as a marriage and family therapy.' So he is a graduate student in this program.",
+          "value": "Master's student in Marriage and Family Therapy",
+          "lines": [
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 214: 'my life has just worked from 8 to 5 Mondays and Thursdays go to class from 5 to 10...' So he has a full-time job.",
+          "value": "Works a full-time job, 8am-5pm",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 294-296: 'my school is pretty small. At school.' 'we have maybe 10,000.' Line 306: 'my school, we have such a huge asian population.' This describes his college (likely undergrad) demographics.",
+          "value": "Attended a college with ~10,000 students and a large Asian population",
+          "lines": [
+            294,
+            296,
+            306
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 14-16: speaker_b asks 'what are you using your money to buy?' and then says 'I've been blowing through all mine on video games'. This implies he also receives payment from the same activity and spends it.",
+          "value": "Receives payment from study/activity, spends on video games",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 226-232: he mentions having had a Pixel 3 XL and recently got a 3a, and bought one for his mom, girlfriend, and plans for girlfriend's dad. This indicates he has purchased multiple phones for family.",
+          "value": "Has bought multiple Google Pixel 3a phones for family members",
+          "lines": [
+            226,
+            230,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 168, 182, 196: he mentions wanting a PS5 but sold out, considering 3080, and got a new TV. Indicates intent to purchase high-end gaming hardware.",
+          "value": "Intends to buy a PS5 or RTX 3080; has already purchased a new TV for it",
+          "lines": [
+            168,
+            182,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 224: 'Sorry my brother came in right the same everything.' Indicates he has a brother.",
+          "value": "Has a brother",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 232: 'I bought one for my mom' indicates he has a mother.",
+          "value": "Has a mother",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 232: 'I bought one for my girlfriend and I think I'm gonna buy one for my girlfriend's dead.' (dad). So he has a girlfriend and knows her father.",
+          "value": "Has a girlfriend; has a girlfriend's father he knows",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 62: 'one of my roommates' and line 46: 'rely on my room in for.' (roommates) indicate he has roommates.",
+          "value": "Has roommates",
+          "lines": [
+            46,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 114-116: 'All my friends there too toxic. ... I don't even want to play with them anymore.' Indicates he has friends who are toxic in League of Legends.",
+          "value": "Has friends who are 'toxic' in League of Legends",
+          "lines": [
+            114,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 10: 'I think this is like my or actually I'm somewhere there though' in response to speaker_a saying it's his 4th time. Indicates he has participated multiple times. Also whole context of them both being in the same paid activity.",
+          "value": "Multiple-time participant in paid study/activity",
+          "lines": [
+            8,
+            10,
+            14,
+            16
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 80-94: 'I have a switch and I have a pc... trying to finish paper Mario... I got a ring fit so I've been playing ring fit.' So he actively plays these games.",
+          "value": "Gamer on Nintendo Switch and PC; currently playing Paper Mario and Ring Fit Adventure",
+          "lines": [
+            80,
+            82,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 98: 'on my computer I play uh legal evidence' (League of Legends). Line 108: 'for me it was brand suffering' (when he started). Line 236: 'now I'll be playing the new legal evidence one' (Wild Rift). Indicates he plays League and its mobile version.",
+          "value": "Plays League of Legends and Wild Rift; started around Brand's release",
+          "lines": [
+            98,
+            108,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 208: 'I remember when I was like that, I would take it with my computer all the time with my phone. I was mocked everything.' (modded). Indicates he used to heavily customize his devices.",
+          "value": "Formerly heavily into computer and phone tinkering/modding",
+          "lines": [
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 94, 96: 'I got a ring fit so I've been playing ring fit.' 'it's definitely a workout.' So he uses it for exercise.",
+          "value": "Uses Ring Fit Adventure for exercise",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 226, 230: 'I had a Pixel 3 XL and then recently got the 3a.' So he currently uses a Pixel 3a.",
+          "value": "Google Pixel 3a user (upgraded from Pixel 3 XL)",
+          "lines": [
+            226,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 242-244: 'turn your house into a smart home... I've been upgrading my house recently'. So he is actively upgrading his residence with smart home technology.",
+          "value": "Upgrading his residence with smart home technology",
+          "lines": [
+            242,
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

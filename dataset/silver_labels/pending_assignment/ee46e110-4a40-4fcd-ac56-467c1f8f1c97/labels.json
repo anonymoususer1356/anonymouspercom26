@@ -1,0 +1,390 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At the end of the call, speaker_b says 'Take well, Garcia you fight', likely 'Take care, Garcia, good night', addressing speaker_a as Garcia.",
+          "value": "Possibly named Garcia",
+          "lines": [
+            230
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a describes his current location as south-central Washington, in the mountains near Mount Adams, with White Salmon and Trout Lake as nearby towns, elevation about 800 ft, about an hour east of Portland and 20 minutes from Oregon.",
+          "value": "Rural south-central Washington, near Mount Adams/White Salmon/Trout Lake, ~800 ft elevation, ~1 hr east of Portland, OR",
+          "lines": [
+            13,
+            15,
+            17,
+            19,
+            29,
+            33,
+            35,
+            149,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is staying with his mother.",
+          "value": "Living with his mother",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Previously lived in Ann Arbor, Michigan for six years.",
+          "value": "Former residence: Ann Arbor, Michigan (6 years)",
+          "lines": [
+            57,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attended college in Olympia, Washington.",
+          "value": "Former residence: Olympia, Washington (college)",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lived in Portland, Oregon about 10 years ago.",
+          "value": "Former residence: Portland, Oregon (~10 years ago)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'when I was growing up here' referring to the rural Washington area.",
+          "value": "Grew up in rural Washington state near Mount Adams/White Salmon",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Went to college in Olympia, WA; the geoduck mascot indicates The Evergreen State College.",
+          "value": "Attended The Evergreen State College in Olympia, WA",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Explicitly states he has never purchased property.",
+          "value": "Has never bought property",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives with his mother, implying shared housing and possibly reduced expenses.",
+          "value": "Resides with mother",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shops in Oregon to avoid sales tax and access larger supermarkets, indicating cost-conscious behavior.",
+          "value": "Shops in Oregon to save on sales tax",
+          "lines": [
+            149
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his brother buying property and referencing his brother's experience with humidity.",
+          "value": "Has a brother",
+          "lines": [
+            89,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives with his mother.",
+          "value": "Has a mother (lives with her)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a buddy who lives in Canada.",
+          "value": "Has a friend in Canada",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says there is family in Oregon, where he goes shopping.",
+          "value": "Has family in Oregon",
+          "lines": [
+            149
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States his main sport is hockey and finds football too slow.",
+          "value": "Prefers hockey; main sport is hockey",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Previously supported Detroit Red Wings, now considering switching to the new Seattle Kraken team.",
+          "value": "Former Red Wings fan; considering supporting Seattle Kraken",
+          "lines": [
+            61,
+            65,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Enjoys hunting mushrooms, picking wild berries, taking pictures, and fishing.",
+          "value": "Enjoys mushroom hunting, berry picking, photography, and fishing",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Used to go bait fishing with worms and crickets as a child.",
+          "value": "Used to bait fish as a child",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he needs to go stack firewood, indicating a regular chore.",
+          "value": "Stacks firewood as a chore",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Dislikes Walmart but shops there due to lack of alternatives.",
+          "value": "Dislikes Walmart but shops there out of necessity",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses Verizon because it is the only cell company that works in his rural area.",
+          "value": "Uses Verizon for cell service (only one with coverage)",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses appreciation for both urban and rural living.",
+          "value": "Appreciates both city and country living",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has visited Southern California once.",
+          "value": "Has visited Southern California once",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recalls going up to Madison, Wisconsin.",
+          "value": "Has visited Madison, Wisconsin",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes driving on dirt and gravel roads and not wanting to wreck his vehicle.",
+          "value": "Drives on rural dirt/gravel roads and is careful to avoid damage",
+          "lines": [
+            173
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Only did a little grouse hunting as a teen and never did much hunting overall.",
+          "value": "Not a regular hunter; only hunted grouse briefly as a teenager",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Says 'Pittsburgh pennsylvania' (garbled), is a long way from speaker_a, and describes local weather consistent with Pittsburgh.",
+          "value": "Lives in Pittsburgh, Pennsylvania",
+          "lines": [
+            56,
+            58,
+            120,
+            184,
+            190
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Mentions his son's preferences.",
+          "value": "Is a parent (has a son)",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Owns a 1992 Detroit Red Wings Stanley Cup championship shirt received from his uncle.",
+          "value": "Owns a 1992 Red Wings championship shirt",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Refers to his son.",
+          "value": "Has a son",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has relatives in Saginaw, Michigan.",
+          "value": "Has relatives in Saginaw, Michigan",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His uncle sent him a Red Wings shirt in 1992.",
+          "value": "Has an uncle (who gave him a shirt)",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recently spoke with a person from Indiana on this platform.",
+          "value": "Recently talked with someone from Indiana",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Went fishing in Michigan when younger, and describes fishing experiences.",
+          "value": "Enjoys fishing; has fished in Michigan",
+          "lines": [
+            44,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Received a Red Wings championship shirt, mentions liking San Jose, and discusses hockey.",
+          "value": "Hockey fan (supports Detroit Red Wings historically, likes San Jose Sharks)",
+          "lines": [
+            72,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions watching game warden shows on TV.",
+          "value": "Watches game warden TV shows",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Went to Ann Arbor for a University of Michigan football game once.",
+          "value": "Attended a Michigan football game in Ann Arbor",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Traveled to Michigan when younger for fishing and a football game.",
+          "value": "Has traveled to Michigan",
+          "lines": [
+            44,
+            60,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asks about and describes salmon snagging techniques.",
+          "value": "Knowledgeable about salmon snagging",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Describes summer heat in his area with temperatures in the 90s.",
+          "value": "Experiences hot summers (90s°F) in Pittsburgh",
+          "lines": [
+            120
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

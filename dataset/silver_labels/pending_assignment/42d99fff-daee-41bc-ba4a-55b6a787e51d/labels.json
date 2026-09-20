@@ -1,0 +1,369 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in the midwest' and later 'I'm in Illinois'.",
+          "value": "Illinois",
+          "lines": [
+            17,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live in a like a high rise' and mentions 'like 60 floors where I live'.",
+          "value": "lives in a high-rise building (about 60 floors)",
+          "lines": [
+            23,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we live in like a one bedroom place'.",
+          "value": "lives in a one-bedroom apartment",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'it's like right in the middle of the city'.",
+          "value": "lives in the city center",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'there's a lot of hospitals like by where I am too'.",
+          "value": "lives near many hospitals",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'when I got my graduate degree'.",
+          "value": "has a graduate degree",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I don't have Children'.",
+          "value": "does not have children",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I went to public school like, you know, as a kid'.",
+          "value": "attended public school as a child",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I also go to go to therapy' indicating they attend therapy.",
+          "value": "attends therapy",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'health insurance as a strategy director'.",
+          "value": "strategy director at a health insurance company",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was at a job that was entirely remote' and indicates current role is remote.",
+          "value": "works remotely from home",
+          "lines": [
+            63,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a repeatedly refers to 'my husband'.",
+          "value": "married",
+          "lines": [
+            73,
+            75,
+            77,
+            167,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my husband works in Ohio' and 'he was already like traveling like basically every week for work'.",
+          "value": "husband works in Ohio and travels weekly for work",
+          "lines": [
+            75,
+            77,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my parents are like in my dad's in his seventies', implying both parents.",
+          "value": "has parents",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dad's in his seventies'.",
+          "value": "father is in his 70s",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'a lot of my friends that you have kids' and 'my just like friends or colleagues'.",
+          "value": "has friends",
+          "lines": [
+            115,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly says 'I don't have Children'.",
+          "value": "does not have children",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'my husband I had this trip planned to to Miami like South Beach a few months ago' and indicates they postponed.",
+          "value": "planned a leisure trip to Miami South Beach with husband, postponed",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In a conversation where speakers were instructed to imagine they just met, speaker_b says 'Uh huh um Eleanor, I'm working from home' which likely is an introduction 'I'm Eleanor'. The ASR may have misheard 'I'm' as 'um'.",
+          "value": "Eleanor",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I love in Georgia' which contextually means 'I live in Georgia'.",
+          "value": "Georgia",
+          "lines": [
+            192
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I live in an apartment' and 'I moved into an apartment building'.",
+          "value": "lives in an apartment building",
+          "lines": [
+            80,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her apartment as having the living/dining/kitchen combined with a separate bedroom ( 'like one of those with the bedroom' ).",
+          "value": "lives in a small apartment (combined living/dining/kitchen with separate bedroom)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was in the house and then I moved into an apartment building'.",
+          "value": "previously lived in a house",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually went to college in New Orleans'.",
+          "value": "attended college in New Orleans, Louisiana",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I actually went to college in New Orleans'.",
+          "value": "attended college in New Orleans",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I am a mental health therapist for kids'.",
+          "value": "mental health therapist for kids",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states her occupation: 'I am a mental health therapist for kids'.",
+          "value": "mental health therapist for kids",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'the company I work for'.",
+          "value": "works for a company",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm working from home' and describes doing therapy sessions on the computer.",
+          "value": "works from home currently",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I do I work at schools part of the time so I do like therapy in the school'.",
+          "value": "works at schools part-time as a therapist",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my boyfriend' and describes living together ('we're all trying to do this thing').",
+          "value": "has a boyfriend",
+          "lines": [
+            26,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b uses 'we' when describing her apartment and says 'my boyfriend was really for a little bit' indicating they share the space.",
+          "value": "lives with boyfriend",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b directly refers to 'my mom' and 'my parents'.",
+          "value": "has parents",
+          "lines": [
+            194,
+            196,
+            198,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my grandma is like 88 she's in a... assisted living'.",
+          "value": "has a grandmother (age 88) in assisted living",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My two best friends actually, we're supposed to get married in May and june' (meaning her friends were to be married).",
+          "value": "has two best friends who were supposed to get married",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'my alarm went off at like 5:30 p.m. And I just cleaned up all my head like make myself just clean it up' to separate work from home.",
+          "value": "sets a 5:30 p.m. alarm to stop work and clean up",
+          "lines": [
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I was driving yesterday'.",
+          "value": "drives a car",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually moved like in the middle of april'.",
+          "value": "moved in mid-April from a house to an apartment",
+          "lines": [
+            178
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I missed like the bachelorettes in the wedding' referring to her friends' postponed weddings.",
+          "value": "missed bachelorette parties and weddings due to postponements",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

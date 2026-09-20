@@ -1,0 +1,333 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b discusses the lack of women in STEM, speaker_a agrees and identifies with being a woman in her CS/IT classes.",
+          "value": "Female",
+          "lines": [
+            206,
+            207,
+            209
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she transitioned from high school to college and is an undergrad.",
+          "value": "College student (undergraduate freshman)",
+          "lines": [
+            51,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is a 'perspectives' major (ASR error), later clarified as Computer Science.",
+          "value": "Computer Science major",
+          "lines": [
+            187,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I'm like naturally introverted'.",
+          "value": "Introvert",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes her sleeping schedule as 'super erratic', sometimes sleeping 12 hours, sometimes not at all.",
+          "value": "Erratic sleep schedule",
+          "lines": [
+            33,
+            34,
+            35
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states 'my savings account is like running dry'.",
+          "value": "Savings account depleted",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She had a job in high school helping teachers with their laptops/desktops.",
+          "value": "High school help desk assistant",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is thinking of working at Whole Foods because she needs money.",
+          "value": "Considering a job at Whole Foods",
+          "lines": [
+            85,
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she has a little sister to take care of.",
+          "value": "Has a younger sister",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her parents work in the tourism industry.",
+          "value": "Parents employed in tourism",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says a family member passed away during quarantine.",
+          "value": "Family member died during quarantine",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she doesn't get dressed at all unless going out, and that she's wearing her 'peaches' (likely pajamas) when home.",
+          "value": "Does not dress daily, wears loungewear",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She mentions she's wearing her 'peaches' (likely meaning pajamas), indicating casual home attire.",
+          "value": "Wears pajamas at home",
+          "lines": [
+            79
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself with 'Hi I'm jane'. The later 'I'm Red' is likely a misrecognition of 'ready'.",
+          "value": "Jane",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When speaker_a asks, she confirms she is in the Eastern time zone.",
+          "value": "Eastern time zone",
+          "lines": [
+            23,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She mentions her boyfriend and discusses being a woman in the workplace, indicating female gender.",
+          "value": "Female",
+          "lines": [
+            82,
+            222
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'I'm in graduate school right now' and discusses her class 'Human resources leadership'.",
+          "value": "Graduate student (Human Resources Leadership)",
+          "lines": [
+            210,
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She explicitly says 'I'm a gambling addict' and mentions attending Gamblers Anonymous.",
+          "value": "Gambling addiction",
+          "lines": [
+            108,
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she works for a utility company and is in a call center.",
+          "value": "Utility company call center employee",
+          "lines": [
+            138,
+            139,
+            36,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses working from home due to the pandemic and dreading going back.",
+          "value": "Remote worker during pandemic",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a normal job where she works about 42 hours a week.",
+          "value": "Works ~42 hours/week",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she gave all her cards to her sister to help control her spending.",
+          "value": "Gave credit/debit cards to sister for financial control",
+          "lines": [
+            114
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to her boyfriend multiple times, discussing his job, living situation, and holiday plans.",
+          "value": "Has a boyfriend",
+          "lines": [
+            82,
+            84,
+            170,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I live with my mom'.",
+          "value": "Lives with mother",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her sister multiple times, including giving her cards and her sister's husband.",
+          "value": "Has a sister",
+          "lines": [
+            94,
+            114,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister's sister-in-law is pregnant and her sister is going to be an aunt, which implies she has a brother who is married to the pregnant woman.",
+          "value": "Likely has a brother",
+          "lines": [
+            94,
+            95,
+            96
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says her mom is retired and volunteers for Saint Vincent DePaul.",
+          "value": "Mother is retired volunteer",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says on weekends she usually sleeps until 11 or 12.",
+          "value": "Sleeps until 11-12 on weekends",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't really cook and goes out every day to get food.",
+          "value": "Eats out daily, does not cook",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she used to volunteer at the Ronald McDonald House in high school.",
+          "value": "Previously volunteered at Ronald McDonald House",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she now attends Gamblers Anonymous on the phone.",
+          "value": "Attends Gamblers Anonymous remote meetings",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the only time she gets dressed is on weekends because her work doesn't use webcams.",
+          "value": "Does not dress up for remote work during week",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes joining a Reddit gift exchange and stopping because it took too much time.",
+          "value": "Participated in Reddit gift exchange",
+          "lines": [
+            62,
+            63,
+            64,
+            65,
+            66
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

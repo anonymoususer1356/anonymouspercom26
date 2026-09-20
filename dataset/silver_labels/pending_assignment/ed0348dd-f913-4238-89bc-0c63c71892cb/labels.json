@@ -1,0 +1,463 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 11 speaker_a states 'my name is Gabe'.",
+          "value": "Gabe",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 13 speaker_a states 'I live in Rochester new york, so I just moved here last year'. Line 15 confirms move and current job.",
+          "value": "Rochester, New York",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 15 speaker_a states 'I was in, living in Pittsburgh working at a school called Westminster College, um a little bit north of the city um for I was there for eight years and I just took the job in Rochester last august'.",
+          "value": "Previously lived in Pittsburgh area (near Westminster College, north of the city) for eight years",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 21 speaker_a states 'I grew up in Philly, so it's like a train ride away'.",
+          "value": "Grew up in Philadelphia, Pennsylvania area",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Gabe is typically male; speaker_a also mentions having a girlfriend (line 215), further supporting male gender. Not explicitly stated.",
+          "value": "Male",
+          "lines": [
+            11,
+            215
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Grew up in Philadelphia, lives in US, references US politics (Trump, CARES Act), travelled internationally with US team; strongly indicative of American nationality.",
+          "value": "American",
+          "lines": [
+            21,
+            39,
+            49,
+            67
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 13: 'coach, soccer at the University of Rochester, so that's kind of my job right now'. Line 15 confirms he took the job last August. Line 25 mentions recruiting for the team.",
+          "value": "Soccer coach at University of Rochester",
+          "lines": [
+            13,
+            15,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 67: 'I would also coached club soccer and I've been furloughed for that'.",
+          "value": "Club soccer coach (currently furloughed)",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 71: 'I'm going on a scheduled furlough for the month of july' from the university job. ASR garbles 'july six dogs first' likely meaning July 6th to August 1st or similar.",
+          "value": "On scheduled furlough from university job for July",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 67-69: 'I've honestly benefited from that because of the cares act money and everything else. I'm making more money.'",
+          "value": "Receiving CARES Act benefits, making more money than usual",
+          "lines": [
+            67,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 1: 'I just started doing these surveys through prolific and uh, amazon turk'. Further discussion confirms he does them for money.",
+          "value": "Earns money from online surveys on Prolific and Amazon Turk",
+          "lines": [
+            1,
+            3,
+            341,
+            359
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 215: 'my girlfriend, her sister has stage four breast cancer'.",
+          "value": "Has a girlfriend",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 215: 'my girlfriend, her sister has stage four breast cancer'.",
+          "value": "Girlfriend's sister has stage 4 breast cancer",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 101: 'I took my sister I've through nieces and nephew' (garbled; clearly 'I have a sister, I have nieces and nephew').",
+          "value": "Has a sister",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 101 mentions nieces and nephew; line 165: 'my one niece and nephew they're seven'.",
+          "value": "Has at least one niece and one nephew, one pair aged 7",
+          "lines": [
+            101,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 255-257: 'my dad's like that... he's so I grew up in the philadelphia area, so he still lives there, my mom still lives there.'",
+          "value": "Parents (father and mother) live in Philadelphia area",
+          "lines": [
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 259: 'I really only have like an aunt and uncle and two cousins that live there and the rest of my family is like just spread out however Jersey to texas to florida to uh and where else Rhode island'.",
+          "value": "Aunt, uncle, and two cousins in Philadelphia area; other family in New Jersey, Texas, Florida, Rhode Island",
+          "lines": [
+            259
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 35: 'I'm definitely someone that likes to travel.'",
+          "value": "Likes to travel",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 37-39 describe the trip to Portugal with the team when coronavirus hit, departing March 7, returning March 14.",
+          "value": "Traveled to Portugal with the soccer team in March 2020",
+          "lines": [
+            37,
+            39,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 263: 'I've been to Hawaii twice'.",
+          "value": "Visited Hawaii twice",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 31, 33: 'I've been in sacramento and san Francisco but not anything further north'.",
+          "value": "Visited Sacramento and San Francisco, California",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 261: 'I would love to move to southern California and I would definitely love that.'",
+          "value": "Desires to move to Southern California",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'The first like two weeks I quarantined.'",
+          "value": "Quarantined for the first two weeks of the COVID-19 pandemic",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 79: 'I've been on zoom every day anywhere from like 2 to 6 hours like with creams or doing presentations like for coaching stuff or webinar.'",
+          "value": "Spends 2–6 hours per day on Zoom for coaching and webinars",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 12: 'Hi I'm misty.'",
+          "value": "Misty",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 22: 'I'm out in Washington state'; line 24: 'I'm born and raised here in Washington. Never lived anywhere else.'",
+          "value": "Washington state",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 50: 'I'm outside, I'm not a couple hours from Seattle, but you know, Seattle Kirkland... the county I live in is we're really good... a couple counties below where Seattle is' — indicates suburban area south of Seattle, within a couple hours drive. Line 138: 'I just live in a standard suburban area'.",
+          "value": "Suburban area south of Seattle, Washington",
+          "lines": [
+            50,
+            138
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Misty is typically female; references to being a mother (son, 16) and working as a nanny support this, though gender is not explicitly stated.",
+          "value": "Female",
+          "lines": [
+            12,
+            24,
+            82,
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Multiple references to having a son (lines 82, 84, 156, 158).",
+          "value": "Mother",
+          "lines": [
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 140: 'I'm actually an experienced home school or I home school my kid until he went to high school.'",
+          "value": "Experienced homeschooler (homeschooled son until high school)",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 114: 'one of my main jobs as as a nanny, so and I worked for two different families'.",
+          "value": "Nanny for two families",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 204: 'I mean I work also in a grocery store'; line 212: 'I do a kind of a heavy lifting merchandising type job and it's busy, busy, busy, I go straight for nine hours'.",
+          "value": "Grocery store worker (merchandising, heavy lifting)",
+          "lines": [
+            204,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 76: 'I have a couple of jobs and I haven't stopped working' — she has multiple jobs and worked through the pandemic.",
+          "value": "Has multiple jobs and worked throughout the pandemic",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 2: 'I just go through prolific'; line 348: 'I put it all in my travel fund' — she earns extra income from Prolific surveys and saves it for travel.",
+          "value": "Earns extra income from Prolific surveys, saves in a travel fund",
+          "lines": [
+            2,
+            348
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 82: 'my kid'; line 84: 'he was in high school'; line 156: 'it's super fun when they're 16' (referring to son); line 158: 'he's awesome'.",
+          "value": "Son, age 16",
+          "lines": [
+            82,
+            84,
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 24: 'my ex husband is from Virginia'.",
+          "value": "Ex-husband",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 24: 'my ex husband is from Virginia'.",
+          "value": "Ex-husband is from Virginia",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 174: 'I haven't seen my parents since february... because they're 77 years old'.",
+          "value": "Parents, age 77",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 224: 'My sister, she's a writer actually'.",
+          "value": "Sister who is a writer",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 240: 'She's on a very socially distance trip to Yellowstone right now'.",
+          "value": "Sister is on a socially distanced trip to Yellowstone",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 96: 'I have a niece that had lots of zoom classes'.",
+          "value": "Niece",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 262: 'We, my father in law lived in the long beach California. So we went there all the time.' Likely ex-father-in-law given ex-husband, but relation existed.",
+          "value": "Father-in-law lived in Long Beach, California (former?)",
+          "lines": [
+            262
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 306-312: discussion of lack of air conditioning in Washington; she says 'I have all my windows open and the fans blowing in and it's survivable' implying no AC, or at least not using it regularly.",
+          "value": "Does not use air conditioning; relies on open windows and fans",
+          "lines": [
+            306,
+            312
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 250: 'I get out and walk every day with the little girl that I watch'.",
+          "value": "Takes daily walks with nanny child",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 204-212 (wearing mask at work), 250 (standing 10 ft apart), 176 (mailed masks to parents) show adherence to COVID-19 precautions.",
+          "value": "Follows COVID-19 precautions (mask wearing, social distancing)",
+          "lines": [
+            204,
+            250,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 62: 'I'm obsessed. I will confess. So I look at everything every day.'",
+          "value": "Checks COVID-19 news daily",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 348: 'I put it all in my travel fund'; line 350 'anticipating for next year' — she is saving for future travel.",
+          "value": "Has a travel fund and plans future travel",
+          "lines": [
+            348,
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 282: 'I'm good all the way up until Colorado done lots of travel, all the way over to colorado Montana, all of that South Dakota, North Dakota West, I'm good.'",
+          "value": "Traveled extensively in the western US (Colorado, Montana, Dakotas)",
+          "lines": [
+            282
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 292: 'I've gone to Disney World, oh, I've gone to a family reunion in florida too. So just when it was like the worst season, I think it was july in florida'.",
+          "value": "Visited Disney World and attended a family reunion in Florida in July",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

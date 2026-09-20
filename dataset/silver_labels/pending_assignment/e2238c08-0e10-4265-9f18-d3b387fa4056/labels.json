@@ -1,0 +1,545 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'nice to meet you Alex' (line 4) and speaker_a confirms 'My name is Alex' (line 5).",
+          "value": "Alex",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in north Carolina' (lines 25, 27) and mentions North Carolina reopening (line 243).",
+          "value": "North Carolina",
+          "lines": [
+            25,
+            27,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm actually from new york' (line 27).",
+          "value": "New York",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm 27' (line 267).",
+          "value": "27",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I'm very low risk for contracting the virus' (line 203).",
+          "value": "low risk for COVID-19",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I found this on prolific' (line 281).",
+          "value": "uses Prolific",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I used to use survey junkie a lot' (line 285).",
+          "value": "used Survey Junkie",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I do a younger sister named Sidney' (line 5).",
+          "value": "younger sister named Sidney",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his sister is in a similar program and heavily loaded with work (line 115).",
+          "value": "sister is a student with heavy workload",
+          "lines": [
+            115
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'both of my parents work in healthcare' (line 47).",
+          "value": "both parents in healthcare",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dad's a doctor' (line 185).",
+          "value": "father is a doctor",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his mom is a sonographer (ASR 'sonography') (line 193).",
+          "value": "mother is a sonographer",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My dad's letting you live with him while I write my master's thesis' (line 27), indicating he lives with his father.",
+          "value": "lives with father",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a lot of relatives who are engineers' (line 41).",
+          "value": "has relatives who are engineers",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'nobody I know has contracted the virus' (line 175).",
+          "value": "knows no one who contracted COVID-19",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his father still goes in to work in person during the pandemic (line 197).",
+          "value": "father works in person during pandemic",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm actually a music therapy graduate student' (line 41) and mentions writing his master's thesis (line 27) and being accepted to a masters program (line 49).",
+          "value": "music therapy graduate student",
+          "lines": [
+            27,
+            41,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I did a bachelors in music performances' (line 45).",
+          "value": "bachelor's in music performance",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I clarinets, my primary instrument' (line 45), indicating clarinet.",
+          "value": "plays clarinet",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I hope to get a position working with Children with disabilities' (line 51).",
+          "value": "aspires to work with children with disabilities",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I prefer to read rather than to do something' (line 91), indicating a preference for reading over hands-on activity.",
+          "value": "prefers reading",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I was a big harry potter fan as a kid' (line 99).",
+          "value": "Harry Potter fan",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm watching Lucifer on netflix right now' (line 109).",
+          "value": "watching Lucifer on Netflix",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I love the good place' (line 125).",
+          "value": "likes The Good Place",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says math makes his brain explode (line 71), implying difficulty with math.",
+          "value": "finds math difficult",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes participating in a study evaluating pictures of flowers (line 293).",
+          "value": "participated in flower rating study",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a study from New Zealand involving a criminal case about a little girl (line 299).",
+          "value": "participated in NZ criminal case study",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I'm claire' (line 4). ASR wrote 'claire', intended Claire.",
+          "value": "Claire",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a asks 'Are you in the Eastern time zone too?' and speaker_b confirms (lines 23-24).",
+          "value": "Eastern time zone",
+          "lines": [
+            23,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a guesses Virginia (line 25) and later assumes it (line 55); speaker_b does not correct, and her parents worked near Pentagon in Virginia (line 270).",
+          "value": "Virginia",
+          "lines": [
+            25,
+            55,
+            270
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she had just returned from a training trip to Florida for spring break (line 160).",
+          "value": "traveled to Florida for training trip",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a estimates speaker_b's age as 21 (line 269, ASR '11 21' likely 'like 21') and she is a junior in college (line 30), typical age 20-21; she does not correct the guess.",
+          "value": "21",
+          "lines": [
+            30,
+            269
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b's name is Claire (female-coded) and speaker_a addresses her as 'girl' (line 111).",
+          "value": "female",
+          "lines": [
+            4,
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm on a prolific as well' (line 284).",
+          "value": "uses Prolific",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she has two older brothers and one older sister, and is the youngest (line 10).",
+          "value": "two older brothers, one older sister, youngest child",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she takes movie/TV recommendations from her older brother (line 104).",
+          "value": "older brother gives media recommendations",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a best friend from high school who wants to pursue music therapy (line 52).",
+          "value": "best friend from high school interested in music therapy",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says this friend goes to Virginia Tech (line 56).",
+          "value": "best friend attends Virginia Tech",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says both her parents are in government work (line 210).",
+          "value": "both parents in government work",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her parents work in FBI and similar government sectors (line 214).",
+          "value": "parents work in FBI/government sectors",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mom is at high risk for COVID-19 and works from home (line 222).",
+          "value": "mother high risk for COVID-19, works from home",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her dad believes he already had COVID-19, describing symptoms (lines 222, 228).",
+          "value": "father believes he had COVID-19",
+          "lines": [
+            222,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mom was a police officer near the Pentagon on 9/11 (line 270).",
+          "value": "mother was police officer near Pentagon on 9/11",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her dad was a firefighter near the Pentagon on 9/11 (line 270).",
+          "value": "father was firefighter near Pentagon on 9/11",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her uncle has COVID-19 with rare brain symptoms and is hospitalized (lines 178, 186).",
+          "value": "uncle has COVID-19 with brain symptoms, hospitalized",
+          "lines": [
+            178,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm an engineering major Electrical' (line 34).",
+          "value": "electrical engineering major",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a junior in college right now' (line 30).",
+          "value": "junior in college",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Finals week is next week' (line 32).",
+          "value": "finals week next week",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she has never been musically inclined (line 66) and has no rhythm (line 82).",
+          "value": "not musically inclined, no rhythm",
+          "lines": [
+            66,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she had guitar lessons for a few years but didn't progress (line 68).",
+          "value": "took guitar lessons without progress",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she is a kinesthetic learner (line 90) and prefers hands-on learning and labs (lines 76, 88).",
+          "value": "kinesthetic learner, prefers hands-on learning",
+          "lines": [
+            76,
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she hates reading and finds it hard to focus (line 94).",
+          "value": "dislikes reading, difficulty focusing",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her favorite subject is math (line 74).",
+          "value": "enjoys math",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she watched all Marvel movies in order, binge-watching, last summer (line 106).",
+          "value": "binge-watched Marvel movies",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the last series she watched was The Good Place (line 124).",
+          "value": "watched The Good Place",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is on a college rowing team, Division 1 (lines 156, 158).",
+          "value": "member of Division 1 rowing team",
+          "lines": [
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her school sent students home around March 10 (line 138).",
+          "value": "school closed campus around March 10 due to COVID-19",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes having to pack and leave campus in one day after state shutdown (line 146).",
+          "value": "had to leave campus with one day notice",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is considering government work later in life (line 218).",
+          "value": "considers government career",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a study where she was told it was all fake to observe reactions (line 290).",
+          "value": "participated in deception study",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a study involving anagrams and riddles (line 294).",
+          "value": "participated in puzzle study",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

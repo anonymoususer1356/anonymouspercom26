@@ -1,0 +1,669 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a explicitly states her name.",
+          "value": "Lee",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a quotes her family calling her 'leah' when discussing her weight gain, indicating it is a name or nickname they use for her.",
+          "value": "Leah",
+          "lines": [
+            187
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she is originally from the Philippines.",
+          "value": "Originally from the Philippines",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states Ohio is where she is from now, indicating current residence.",
+          "value": "Currently lives in Ohio",
+          "lines": [
+            27,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions living in a rural area in the Philippines and raising animals.",
+          "value": "Lived in a rural area in the Philippines",
+          "lines": [
+            85,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she visited London right before coming to the US.",
+          "value": "Visited London",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has never been anywhere other than Ohio and West Virginia in the US, so she has been to West Virginia.",
+          "value": "Has been to West Virginia",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states she is originally from the Philippines.",
+          "value": "Filipino/a",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she moved to the States last year.",
+          "value": "Immigrant to the United States",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is a lawyer in the Philippines.",
+          "value": "Lawyer",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her pre-law course was philosophy.",
+          "value": "Has a pre-law degree in philosophy",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a explicitly says she has hypothyroidism.",
+          "value": "Has hypothyroidism",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions medication for her condition.",
+          "value": "Takes medication for hypothyroidism",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says the doctor told her she is overweight.",
+          "value": "Overweight (per doctor)",
+          "lines": [
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes gaining weight since moving, with a bigger face and beer belly.",
+          "value": "Gained weight since moving to the US",
+          "lines": [
+            183,
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she has no COVID symptoms and feels healthy.",
+          "value": "No COVID-19 symptoms",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she would wear a mask still.",
+          "value": "Wears a mask",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a states she is a lawyer in the Philippines, indicating she is licensed there.",
+          "value": "Licensed lawyer in the Philippines",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she moved to the US last year, which implies immigration.",
+          "value": "Immigrated to the United States last year",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a is converting her law degree and waiting to take the bar, suggesting she is not currently employed as a lawyer and likely depends on her husband's income.",
+          "value": "Not currently employed as a lawyer; converting credentials",
+          "lines": [
+            243,
+            245
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions buying jackets, sweatshirts, thick socks, and an electric blanket upon arrival, indicating some disposable income.",
+          "value": "Has spending money for personal items",
+          "lines": [
+            115,
+            119
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Both speakers discuss the survey link and getting paid, showing this is a compensated task.",
+          "value": "Participating in a paid survey/conversation",
+          "lines": [
+            371,
+            372,
+            374
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says she married her husband whom she met in the Philippines.",
+          "value": "Married to a man from the Philippines",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions messaging her in-laws.",
+          "value": "Has in-laws",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her sister lives in London.",
+          "value": "Has a sister living in London",
+          "lines": [
+            333
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her dog sleeping on the floor and plans to walk her puppy later.",
+          "value": "Has a dog",
+          "lines": [
+            81,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes an Indian friend in London who cooks well.",
+          "value": "Has an Indian friend in London",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about a friend from Florida who also owns property in the Philippines.",
+          "value": "Has a friend from Florida with property in the Philippines",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a friend from Philadelphia asking about travel.",
+          "value": "Has a friend from Philadelphia",
+          "lines": [
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she and a friend share the same endocrinologist.",
+          "value": "Has a friend who shares the same endocrinologist",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions schoolmates from law school in Manila who passed the New York and Washington bar exams.",
+          "value": "Has former law school classmates in Manila who passed US bar exams",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a repeatedly expresses love for Indian food and describes enjoying it at a temple.",
+          "value": "Enjoys Indian food",
+          "lines": [
+            155,
+            157,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is not athletic and prefers walking over running.",
+          "value": "Prefers walking over running",
+          "lines": [
+            205,
+            207,
+            211,
+            213
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she would usually stay home and binge on Netflix.",
+          "value": "Binge watches Netflix",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes raising poultry, pigs, and chickens in the Philippines.",
+          "value": "Raised poultry and pigs in the Philippines",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a accepted a Facebook invite for a July 4th party but is hesitant due to COVID concerns.",
+          "value": "Plans to attend a July 4th party but uncertain",
+          "lines": [
+            35,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she drinks a 200-calorie beverage and is on her second bottle.",
+          "value": "Drinks high-calorie beverages",
+          "lines": [
+            223,
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a found Ohio shockingly cold compared to London and the Philippines, and uses an electric blanket even in summer.",
+          "value": "Finds Ohio cold; uses electric blanket in summer",
+          "lines": [
+            97,
+            101,
+            103,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she will walk her puppy later.",
+          "value": "Walks her dog",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts accidentally giving her husband food poisoning at a Chinese restaurant in the Philippines.",
+          "value": "Accidentally food-poisoned her husband",
+          "lines": [
+            169,
+            171,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a describes gaining 15 pounds, a bigger face, and a beer belly since moving to the US.",
+          "value": "Heavier than before, with larger face and beer belly",
+          "lines": [
+            183,
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she will just buy bigger shirt sizes now.",
+          "value": "Buys larger shirt sizes",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'what's your name? Karen' and speaker_b does not correct them, but speaker_b never states their own name. The inference is weak.",
+          "value": "Karen",
+          "lines": [
+            55
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states they are in Rhode Island at the moment.",
+          "value": "Rhode Island",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are near Boston.",
+          "value": "Near Boston, Massachusetts",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are near a college town.",
+          "value": "Near a college town",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b comments that Rhode Island is a small state.",
+          "value": "Lives in a small state (Rhode Island)",
+          "lines": [
+            348,
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says Rhode Island is right next to the coast and has beaches.",
+          "value": "Close to beaches",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says their parents are from India and they were born in the US.",
+          "value": "Indian-American (born in the US, parents from India)",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says their work is software, describes computer science tasks, and is on a lunch break.",
+          "value": "Software developer",
+          "lines": [
+            60,
+            258,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they did computer science and never pursued an advanced degree.",
+          "value": "Has a computer science degree (no advanced degree)",
+          "lines": [
+            260,
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says they lost weight 3.5 years ago through diet and now runs daily.",
+          "value": "Lost significant weight 3.5 years ago",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b runs 6‑7 miles every morning and counts calories to maintain weight.",
+          "value": "Maintains weight through daily running and calorie counting",
+          "lines": [
+            200,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says since mid‑March they have had very few face‑to‑face conversations and it is lonely.",
+          "value": "Experiencing loneliness due to social isolation",
+          "lines": [
+            64
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says their work is software at a small company, and they are taking this call during a lunch break.",
+          "value": "Employed as a software developer at a small company",
+          "lines": [
+            60,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes the company is small so not like Google or Facebook, but having a job is good.",
+          "value": "Income is decent but not as high as major tech companies",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says running the AC gets expensive but they do it anyway because they dislike heat.",
+          "value": "Runs air conditioning despite cost",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions getting paid for the effort, indicating this conversation is compensated.",
+          "value": "Participating in a paid survey/conversation",
+          "lines": [
+            370,
+            372,
+            374
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says their parents are still in the US and the father is retired.",
+          "value": "Parents live in the US, retired",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says their older sister is in Boston and works in marketing.",
+          "value": "Older sister lives in Boston and works in marketing",
+          "lines": [
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a cousin in Indiana.",
+          "value": "Cousin in Indiana",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they live alone, have no pets, and have had very few in‑person conversations, implying no cohabiting partner.",
+          "value": "Lives alone, no partner",
+          "lines": [
+            62,
+            64,
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they run 6‑7 miles every morning.",
+          "value": "Runs 6‑7 miles every morning",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are always sitting at a desk, so running is necessary.",
+          "value": "Has a sedentary desk job",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they used to go to the gym regularly before it closed.",
+          "value": "Used to go to the gym regularly",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they checked every single calorie to build the habit.",
+          "value": "Meticulously tracks calories",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions reading finance, law, and a book on the Supreme Court.",
+          "value": "Reads widely across finance and law",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says they like the cold and dislike heat.",
+          "value": "Likes cold weather, dislikes heat",
+          "lines": [
+            140,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they went to India in December and will only go when it is not extremely hot.",
+          "value": "Visits India only in cooler months (Nov‑Dec)",
+          "lines": [
+            298,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b wore a mask at the grocery store because it was required.",
+          "value": "Wears a mask when required",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they have had very few in‑person conversations since mid‑March.",
+          "value": "Extremely limited in‑person social interaction since March",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have always been comfortable speaking to people, likening it to putting on an act.",
+          "value": "Comfortable with public speaking",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says they used to be quite fat before losing weight.",
+          "value": "Used to be quite fat",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,343 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm in Los Angeles right now' and also says she has lived in California all her life. The most specific location is Los Angeles.",
+          "value": "Los Angeles, California",
+          "lines": [
+            35,
+            369
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to 'my boyfriend', has sisters, long hair, a mother who braided her hair, and other female-gendered context. She never explicitly states her gender but the consistent cues imply female.",
+          "value": "female",
+          "lines": [
+            3,
+            177,
+            185,
+            207,
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she lived 'in different cities for college and stuff', indicating she attended college.",
+          "value": "attended college",
+          "lines": [
+            369
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I work from home' outright.",
+          "value": "works from home",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I only work four days' and confirms a three-day weekend every week.",
+          "value": "works four days a week",
+          "lines": [
+            38,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a complains 'my job doesn't is it like it's like cutting everyone's hours'.",
+          "value": "employer is cutting hours",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she just got off work and the time is 'by PM'; speaker_b says 'Npm. You uh five?', which together reconstruct as 5 PM. Speaker_a confirms with 'Yeah'.",
+          "value": "workday ends at 5 PM",
+          "lines": [
+            35,
+            36
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my boyfriend's playing guitar right now'.",
+          "value": "has a boyfriend",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is in the bathroom while her boyfriend plays guitar, implying they share the same home. She also says 'my bathroom' and refers to shared space.",
+          "value": "lives with boyfriend",
+          "lines": [
+            3,
+            5
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my parents have like an hour away' and 'they're like actually like 60 or so'.",
+          "value": "has parents (approximately 60 years old, about an hour away)",
+          "lines": [
+            109,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my aunt had a cat'.",
+          "value": "has an aunt",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have 66 sisters and one brother'; ASR error for 'six sisters'. She also mentions 'my other sisters' and multiple siblings lining up for hair braiding, supporting multiple sisters.",
+          "value": "six sisters and one brother",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do actually have a sister, like kind of like your situation to where we haven't talked in like four years maybe, or three years'.",
+          "value": "has an estranged sister, not spoken to in 3-4 years",
+          "lines": [
+            177
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says 'ouch I sat on my hair' and 'every time I sit down, I sit on it because it's so long'. She also says she has always had long hair.",
+          "value": "extremely long hair (long enough to sit on)",
+          "lines": [
+            187,
+            265,
+            291
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a opens with 'charlie, wait, hi, can you hear me okay?', addressing speaker_b as Charlie. Speaker_b does not correct it, and the conversation continues with that address confirming it as her name.",
+          "value": "Charlie",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b answers 'Austin texas' when asked where she is located, and later says 'we are in Austin'.",
+          "value": "Austin, Texas",
+          "lines": [
+            34,
+            434
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b speaks about growing her hair out, dyeing it pink, braiding, and says 'I was looking at and thinking how a girl so good at this', comparing herself to a girl, indicating she is female. Mother braids her hair, etc.",
+          "value": "female",
+          "lines": [
+            188,
+            218,
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't go to school. I'm, yeah, I am done with academia.'",
+          "value": "done with academia (not a student)",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions taking a forensic science class covering hair cycles, blood spatter, decomposition, body farms, and uses of forensic science.",
+          "value": "has taken a forensic science class",
+          "lines": [
+            310,
+            316,
+            318,
+            326,
+            329,
+            334
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes her sleep pattern: 'I actually tend I usually would have wake woken up about one hour from now or right now and I'll stay awake all the way until like probably 78 or nine in the morning.' This indicates a nocturnal rhythm.",
+          "value": "nocturnal sleep pattern (wakes in the evening, stays awake until early morning)",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she went to a salon to dye her hair pink and states the price: 'it was like $80 for just you know that quick thing' and later 'Like 80 bucks.'",
+          "value": "paid $80 for a professional pink hair dye job",
+          "lines": [
+            232,
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says she lives with 'My mother right now'.",
+          "value": "lives with mother",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a sister that I haven't seen in like eight years as well for about eight years. And a strange sister.' The 'strange sister' is the ASR rendering of 'estranged sister', so she has one sister who is estranged.",
+          "value": "has an estranged sister (not seen in about 8 years)",
+          "lines": [
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a cat' and describes her as brown and darker brown with white paws, and states she has had her for about four years.",
+          "value": "owns a brown and darker brown cat with white paws (had for ~4 years)",
+          "lines": [
+            50,
+            52,
+            54,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms having a dog: 'A dog Dalmatian, can you?' and describes it as a Dalmatian/German shepherd crossbreed, small with many spots, a rescue, and owned for 8-10 years.",
+          "value": "owns a Dalmatian/German shepherd crossbreed dog (rescue, owned 8-10 years)",
+          "lines": [
+            76,
+            86,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'all the older friends I have are like that, but all the younger friends, people I know in college' indicating she maintains friendships with people from college and older friends.",
+          "value": "has college friends and older friends",
+          "lines": [
+            114
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is studying Japanese 'very slowly' and expresses a love for the language and its writing system, distinguishing it from Chinese.",
+          "value": "studies Japanese (slowly, self-directed)",
+          "lines": [
+            383,
+            384,
+            386
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she wants to move to a completely different country and lists 'Japan or um Netherlands' as her two options.",
+          "value": "wants to move to Japan or the Netherlands",
+          "lines": [
+            372
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she dyed her hair neon pink before and is thinking of dying the tips pink again when her hair gets longer, showing enjoyment of pink hair dye.",
+          "value": "enjoys dyeing hair pink",
+          "lines": [
+            218,
+            220,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains she bought a cookie cake on impulse, describing the craving and that she just got it for herself.",
+          "value": "impulse-bought a cookie cake",
+          "lines": [
+            10,
+            12,
+            14,
+            20,
+            24,
+            26,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually got involved twice and within maybe a month me going bald. My hair is only like an inch or two' indicating she shaved her head on two occasions.",
+          "value": "shaved head twice (buzzed down to an inch or two)",
+          "lines": [
+            302
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I have long hair now' and references growing it to a point where she could sit on it, but says it is 'nowhere near that length' yet. So she has long hair but not yet waist-length.",
+          "value": "currently has long hair (not yet waist-length)",
+          "lines": [
+            188,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she dyed her hair 'neon pink' about two years ago.",
+          "value": "previously had neon pink hair (dyed ~2 years ago)",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

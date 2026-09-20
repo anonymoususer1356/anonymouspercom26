@@ -1,0 +1,359 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'you're from Chicago as well' and speaker_a agrees. Later speaker_a says 'I live kind of like a far suburb of Chicago', providing a specific home location.",
+          "value": "far suburb of Chicago",
+          "lines": [
+            22,
+            23,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'you and I one one in Havana' (ASR for 'U of I, the one in Urbana') indicating he attends the University of Illinois at Urbana-Champaign. He later mentions having a bike on campus and no car on campus, confirming he is on campus.",
+          "value": "University of Illinois at Urbana-Champaign campus",
+          "lines": [
+            31,
+            119,
+            121,
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states his age directly.",
+          "value": "20 years old",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was doing a mechanical engineering internship designing brake parts and that engineering is his field. He attends the University of Illinois at Urbana-Champaign (U of I).",
+          "value": "mechanical engineering student at University of Illinois at Urbana-Champaign",
+          "lines": [
+            17,
+            31,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states he lost his internship, and later describes it as a mechanical engineering internship.",
+          "value": "lost mechanical engineering internship",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he does not have a car on campus and says 'that's the goal' in reference to getting a car.",
+          "value": "does not own a car",
+          "lines": [
+            119,
+            125,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my girlfriend' multiple times, including describing her remote nursing program and that he was with her in Spain.",
+          "value": "has a girlfriend",
+          "lines": [
+            61,
+            179,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions talking to his uncle about marijuana prices.",
+          "value": "has an uncle",
+          "lines": [
+            369
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says a few of his friends go to UIC for nursing.",
+          "value": "has friends who attend UIC for nursing",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he and his friends have gone camping since they were kids.",
+          "value": "goes camping with friends",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a suggests exchanging email or phone number, and speaker_b then dictates his number with speaker_a acknowledging and accepting.",
+          "value": "exchanged phone numbers with Patrick (speaker_b)",
+          "lines": [
+            421,
+            426,
+            427,
+            434,
+            435,
+            436,
+            437,
+            438,
+            439
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he loves the outdoors, spends time camping, and is focused on learning plants and animals.",
+          "value": "enjoys outdoor activities and camping, learning about plants and animals",
+          "lines": [
+            97,
+            101,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a directly states his goal.",
+          "value": "aspires to be a forest ranger",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was in Spain this semester on a study abroad program in Madrid.",
+          "value": "studied abroad in Madrid, Spain",
+          "lines": [
+            159,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions he and his girlfriend traveled to Morocco during the study abroad period.",
+          "value": "traveled to Morocco",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes buying tickets and fleeing Spain right when the shutdown hit because of the pandemic.",
+          "value": "returned early from Spain due to COVID-19 pandemic",
+          "lines": [
+            289,
+            291,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he doesn't have a car on campus but has a bike, which is all one needs for getting around campus.",
+          "value": "does not own a car, uses a bike on campus",
+          "lines": [
+            119,
+            128,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My actually Patrick' (ASR: 'My name's actually Patrick'), correcting speaker_a's earlier misnaming. This establishes his name.",
+          "value": "Patrick",
+          "lines": [
+            414
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b dictates phone number fragments: '8 4 7845 25' then '21' then '25 21', with speaker_a repeating digits. Probable reconstruction: area code 847, then 845-2521.",
+          "value": "847-845-2521",
+          "lines": [
+            434,
+            435,
+            436,
+            437,
+            438
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm from the hair area right now' (ASR for 'the area here') and earlier says 'Oh, you're from Chicago as well.', implying he is also from Chicago.",
+          "value": "Chicago area",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm 23' then clarifies 'Gonna be 23 and 22 right now', establishing his current age.",
+          "value": "22 years old (turning 23)",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he currently goes to 'you I see' (UIC) and is doing CS (Computer Science). He later notes he was originally admitted into Mathematics and Computer Science and switched to the engineering CS program.",
+          "value": "Computer Science student at University of Illinois at Chicago (UIC)",
+          "lines": [
+            32,
+            38,
+            82,
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'My family's from Poland'.",
+          "value": "of Polish descent",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he does IT for student affairs, which manages over 35 departments at UIC.",
+          "value": "works in IT at UIC student affairs",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his sister multiple times, including her trip to Spain and her profession.",
+          "value": "has a sister",
+          "lines": [
+            208,
+            398
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks if speaker_a knows David Figueroa, describing him as a buddy in a study abroad program.",
+          "value": "friend David Figueroa (study abroad)",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a buddy who is a mechanical engineering major and lost a Rivian internship.",
+          "value": "has a friend in mechanical engineering who lost a Rivian internship",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states his family is from Poland.",
+          "value": "family from Poland",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b offers to exchange numbers, dictates his own, and speaker_a accepts; a new contact is formed.",
+          "value": "exchanged phone numbers with speaker_a",
+          "lines": [
+            426,
+            427,
+            434,
+            435,
+            436,
+            437,
+            438,
+            439
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes his morning as working from home and hanging out.",
+          "value": "works from home during pandemic",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has hiked before but there are few trails near him and he hasn't had time to get more into it.",
+          "value": "occasional hiker",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the UIC bus system in detail, including a 30-minute ride between campuses and limited frequency, indicating he uses it.",
+          "value": "uses UIC shuttle buses for campus transit",
+          "lines": [
+            138,
+            140,
+            144,
+            146
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b states he went to a dispensary recently just to see what it's like.",
+          "value": "visited a cannabis dispensary out of curiosity",
+          "lines": [
+            372
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he may go more into IT temporarily and then start a business.",
+          "value": "aspires to start a business",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

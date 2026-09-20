@@ -1,0 +1,530 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself by name at the start of the conversation.",
+          "value": "Jimmy",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he lives in the Midwest when asked where he is from.",
+          "value": "the Midwest",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes where he lives as a rural area with more animals than people, and later reiterates it is a rural area with no big hotspots.",
+          "value": "rural area",
+          "lines": [
+            73,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'We got to' (two), the oldest is seven and the other is two; uses 'she' for both, indicating two daughters.",
+          "value": "father of two daughters",
+          "lines": [
+            25,
+            27,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to his wife and does not correct speaker_b's reference to 'your wife,' confirming he is married.",
+          "value": "married",
+          "lines": [
+            130,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his job at a factory, indicating he is a factory worker.",
+          "value": "factory worker",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes his job at a factory that does foam fabrication and makes headliners for tractors.",
+          "value": "works at a foam fabrication factory making tractor headliners",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he works full time in contrast to his wife who works part time.",
+          "value": "works full time",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his hours have been cut, he had to take two weeks off last month and two weeks off this month, and different departments take time off.",
+          "value": "work hours cut; required to take multiple weeks off",
+          "lines": [
+            39,
+            175,
+            177,
+            179,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having vacation time from work that he used when the pandemic started.",
+          "value": "has vacation time from work",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his wife works part-time at a group home for troubled teenage girls and is starting an on-call counseling job for depressed people.",
+          "value": "wife works part-time at a group home and is starting an on-call counseling job",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions living in an apartment until a couple of years ago and now describes having a house with a fenced backyard, swing set, and pool.",
+          "value": "moved from apartment to house with backyard a couple of years ago",
+          "lines": [
+            73,
+            74,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions his wife in multiple lines; speaker_b refers to 'your wife' and speaker_a confirms by describing her work.",
+          "value": "has a wife",
+          "lines": [
+            130,
+            131,
+            135,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his oldest child is seven, uses 'she,' and says she is in school.",
+          "value": "has a 7-year-old daughter",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states the other child is two, later calls her his youngest and says she is two when describing her crying at the park.",
+          "value": "has a 2-year-old daughter",
+          "lines": [
+            27,
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a coworker who uses grocery pickup and will continue after the pandemic.",
+          "value": "has a coworker who prefers grocery pickup",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he plays video games, was playing right before the call, and has played since age six or seven.",
+          "value": "plays video games regularly since childhood",
+          "lines": [
+            101,
+            103,
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he likes sports, football is number one, and also likes baseball and basketball.",
+          "value": "avid sports fan; football is favorite, also likes baseball and basketball",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes himself as not very athletic and probably below average.",
+          "value": "describes himself as not very athletic, below average",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he tries to schedule early morning appointments for these calls.",
+          "value": "prefers early morning appointments",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they take the kids for walks in the evening.",
+          "value": "takes kids for evening walks",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes having a small fenced backyard with a swing set and a small pool.",
+          "value": "has a swing set and small pool in backyard",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his kids' top shows are 'Pop Patrol' and 'sponge rubber,' ASR errors for Paw Patrol and SpongeBob.",
+          "value": "children watch Paw Patrol and SpongeBob",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he has to wear a mask at work.",
+          "value": "wears a mask at work",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his kids have been vaccinated and he believes vaccines are probably a good thing.",
+          "value": "children are vaccinated",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they try to stay inside during the pandemic.",
+          "value": "tries to stay inside during the pandemic",
+          "lines": [
+            187,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself by name at the start of the conversation.",
+          "value": "Sangeeta",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is from Bloomington when speaker_a guesses her location. The attached 'lena' may be a mishearing of a state name, but the city is clearly stated.",
+          "value": "Bloomington",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states they live in an apartment, contrasting with speaker_a's house.",
+          "value": "lives in an apartment",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says she has a two-year-old son and a daughter who is almost six; she is a mother of two.",
+          "value": "mother of two children",
+          "lines": [
+            28,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she does not go out for work and is basically a homemaker.",
+          "value": "homemaker",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her husband multiple times, confirming she is married.",
+          "value": "married",
+          "lines": [
+            34,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is not a computer graduate when explaining difficulty finding online work.",
+          "value": "not a computer graduate",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she does not work outside the home and is a homemaker.",
+          "value": "does not work outside the home; homemaker",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband works in IT.",
+          "value": "husband works in IT",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they use Walmart grocery pickup and she has not been inside a store for over four months.",
+          "value": "uses Walmart grocery pickup",
+          "lines": [
+            62,
+            66,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her husband works in IT from home, is ambitious, constantly updates his skills, and gets angry when interrupted.",
+          "value": "has a husband who works in IT from home, is ambitious, and gets angry when interrupted",
+          "lines": [
+            34,
+            158,
+            160,
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her son is two years old.",
+          "value": "has a 2-year-old son",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her daughter is five and a half, turning six in two months.",
+          "value": "has a 5-year-old daughter (almost 6)",
+          "lines": [
+            28,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she used to send her daughter to a friend's home to play before the pandemic.",
+          "value": "daughter has a friend she used to visit before the pandemic",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she spoke with a person from Georgia who was a computer geek and recommended learning Python.",
+          "value": "spoke with a person from Georgia who recommended learning Python",
+          "lines": [
+            142,
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a previous conversation with a retired social worker who is against masks and vaccines.",
+          "value": "spoke with a retired social worker who is anti-mask and anti-vaccine",
+          "lines": [
+            190,
+            194,
+            204,
+            206
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she takes care of the kids full time, especially now that they do not go to school.",
+          "value": "takes care of kids full time",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her kids started remote school on the 24th.",
+          "value": "kids started remote school on the 24th",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they go for walks in the evening maintaining distance, and take the kids to an empty office parking lot to play and ride bikes.",
+          "value": "takes kids for evening walks and to empty office parking lot to play and ride bikes",
+          "lines": [
+            58,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she misses going inside stores but has not been inside one in over four months due to safety concerns with the kids.",
+          "value": "has not been inside a store in over four months",
+          "lines": [
+            66,
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she chooses early morning times for these calls and had a 6 AM appointment.",
+          "value": "prefers early morning appointments, had a 6 AM session",
+          "lines": [
+            46,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says this is her fourth time participating in these calls.",
+          "value": "this is her fourth session on this platform",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists children's shows: 'Perrotto po koyo' (likely Peppa Pig or Pocoyo, ASR garbled) and Tom and Jerry.",
+          "value": "children watch cartoons including Tom and Jerry and likely Peppa Pig or Pocoyo",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says her daughter is heavily into electronics and it is hard to stop her.",
+          "value": "daughter is heavily glued to electronics",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she feels safe with vaccination, wants her kids vaccinated, and recently took her daughter for her 5-year shots (ASR '50-year vaccination').",
+          "value": "pro-vaccination; children are vaccinated; daughter recently got 5-year shots",
+          "lines": [
+            208,
+            218,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says if wearing a mask protects us, we should wear it even if uncomfortable.",
+          "value": "supports mask-wearing",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is scared to take the kids out and restricts herself from going inside stores due to COVID concerns.",
+          "value": "restricts outings due to COVID safety concerns",
+          "lines": [
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she feels she cannot learn new things at her age and rejected learning Python despite a recommendation.",
+          "value": "feels unable to learn new skills like programming",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has to keep the kids from disturbing her husband while he works from home, often having to carry them away from his door.",
+          "value": "has to manage kids to prevent them from disturbing husband working from home",
+          "lines": [
+            34,
+            36,
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

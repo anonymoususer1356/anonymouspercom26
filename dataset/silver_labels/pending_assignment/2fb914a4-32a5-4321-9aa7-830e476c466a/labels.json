@@ -1,0 +1,362 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I'm in Tucson Arizona' in line 15. Mentions Tucson Sentinel, local politics, and a local paper that prints in Phoenix, all consistent with living in Tucson, AZ.",
+          "value": "Tucson, Arizona",
+          "lines": [
+            15,
+            207,
+            215,
+            241,
+            251,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I have a second grader' (line 43) and refers to 'my daughters' (line 165), establishing she is a parent of a second-grade girl.",
+          "value": "parent of a second-grade daughter",
+          "lines": [
+            43,
+            45,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm a freelance writer, which is another underpaid profession' (line 107).",
+          "value": "freelance writer",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions signing up for Prolific (line 105), using UserTesting (123), Neevo (127-129, spoken as 'Nevo any E V O'), and Survey Junkie (135) to supplement income.",
+          "value": "uses multiple side gig platforms: Prolific, UserTesting, Neevo, Survey Junkie",
+          "lines": [
+            105,
+            107,
+            123,
+            127,
+            129,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_b's donation, speaker_a says 'We've done that for a long time. Our local food bank.' (line 227).",
+          "value": "regular donor to a local food bank",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I do The Times and then actually started WAPO' (line 241) and supports the nonprofit Tucson Sentinel (line 243). 'WAPO' is a known abbreviation for Washington Post.",
+          "value": "subscribes to The Times, Washington Post, and supports Tucson Sentinel",
+          "lines": [
+            241,
+            243
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says they switched from Centurylink and Cox to a local microwave internet provider (lines 159-161).",
+          "value": "uses a local microwave-based internet provider instead of major ISPs",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a has a daughter in second grade (line 43) and calls her 'my daughters' (line 165).",
+          "value": "parent of a daughter (second grader)",
+          "lines": [
+            43,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my brother lives in Switzerland' (line 309).",
+          "value": "has a brother living in Switzerland",
+          "lines": [
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a uses 'we' and 'all three of us' (line 165) and notes 'most of us work at home' (line 87), indicating a co-parent in the household. There is a partner/spouse sharing parenting duties.",
+          "value": "has a spouse or partner (co-parent of daughter)",
+          "lines": [
+            87,
+            89,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I know some of them too' about down-ballot candidates, citing shared causes (line 265).",
+          "value": "personally knows some local political candidates",
+          "lines": [
+            265
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions 'all of us are working at home' (line 89) and is a freelance writer (line 107).",
+          "value": "works from home as a freelance writer",
+          "lines": [
+            89,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We did form a like a little pod for still doing the schools remote learning' (line 81) and describes rotation of parents (line 87).",
+          "value": "participates in a remote learning pod with other families",
+          "lines": [
+            81,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I started going to board... board of supervisors meetings' (line 279).",
+          "value": "attends board of supervisors meetings",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they began doing outdoor play dates (line 101) and that improved things.",
+          "value": "organizes outdoor play dates for daughter",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we've relaxed so much on the whole screen time thing' (line 185).",
+          "value": "has relaxed screen time rules for daughter",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b explicitly states 'I'm in Baltimore Maryland' (line 14) and makes repeated references to Baltimore throughout.",
+          "value": "Baltimore, Maryland",
+          "lines": [
+            14,
+            38,
+            152,
+            248,
+            256,
+            262,
+            284
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I work at a private school' (line 40) and 'I teach... Second through 5th Grade Science' (line 52), indicating he belongs to the demographic group of private school elementary science teachers.",
+          "value": "private school elementary science teacher",
+          "lines": [
+            40,
+            42,
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b works at a private school (line 40), teaches science to 2nd-5th grade (line 52), and implies low pay with 'teaching cards are terrible' (line 84, likely 'teaching salaries are terrible').",
+          "value": "teacher at a private school (2nd-5th grade science), underpaid",
+          "lines": [
+            40,
+            42,
+            52,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions going out to do census work (line 16), getting paid for his own census (line 24), and planning to knock on doors (line 314).",
+          "value": "works as a census taker (enumerator)",
+          "lines": [
+            16,
+            24,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the boy I was nanny and for' (line 178, meaning nannying) and earlier he mentions trying to provide childcare to earn money (line 86).",
+          "value": "works as a nanny / childcare provider for a family",
+          "lines": [
+            178,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he uses Prolific for 'knockaround money for dumb stuff' (line 108) and has done multiple conversations (line 114).",
+          "value": "uses Prolific for extra spending money",
+          "lines": [
+            108,
+            112,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm starting a monthly donation to a food bank' (line 226).",
+          "value": "has started a monthly donation to a food bank",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he pays for Washington Post (line 234), previously paid for The Times (line 236), and has a subscription to the Baltimore Sun (line 248).",
+          "value": "subscribes to Washington Post and Baltimore Sun; formerly paid for The Times",
+          "lines": [
+            234,
+            236,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b called Comcast to remove cable from his internet plan and saves $3 a month (lines 156-158).",
+          "value": "saves $3/month by canceling cable TV from Comcast internet plan",
+          "lines": [
+            156,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I interviewed my wife for information about who lives in my own house' (line 20).",
+          "value": "married (has a wife)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my buddy is a PhD student in psych' (line 138) and that this friend told him about Prolific.",
+          "value": "has a friend who is a PhD student in psychology",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes being a nanny for a boy and his family (line 178 ff.).",
+          "value": "has a nannying relationship with a family (boy he cares for)",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b tells a story of connecting a grad student from California, whom he met via Prolific, with the head of his science department (lines 118-120).",
+          "value": "connected a graduate student with his department head for a potential job",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he used to play Starcraft 2 and became friends with a player from Bolivia through the chat feature (line 170).",
+          "value": "used to play Starcraft 2 and formed an online friendship with someone from Bolivia",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes a weekly ritual of buying something fun to keep spirits up during quarantine, funded by Prolific earnings (lines 110-112).",
+          "value": "buys a small fun item every week to cope with quarantine",
+          "lines": [
+            110,
+            112
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he started attending community association meetings in Baltimore (line 284).",
+          "value": "attends community association meetings in Baltimore",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b got involved in local politics by knocking on doors for candidates; one won, one lost (line 262).",
+          "value": "campaigned for local political candidates by door-knocking",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions this conversation is likely his third on Prolific (line 114 says 'not a third' but context suggests 'the third'; the survey allows up to four).",
+          "value": "has participated in multiple Prolific conversation studies (this is the third)",
+          "lines": [
+            114
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions ordering supplies (D cell batteries, wires) for his classroom (lines 54-56).",
+          "value": "prepares hands-on science lessons, orders classroom supplies",
+          "lines": [
+            16,
+            54,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

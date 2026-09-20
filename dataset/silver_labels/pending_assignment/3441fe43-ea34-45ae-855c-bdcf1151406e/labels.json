@@ -1,0 +1,510 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states 'I just moved to Tennessee' and repeatedly refers to their current location as 'down here' in contrast to Pennsylvania.",
+          "value": "Tennessee (currently lives)",
+          "lines": [
+            13,
+            19,
+            45,
+            49,
+            93,
+            197,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Come from philadelphia yourself' which in context implies they are from Philadelphia; they discuss Philly and PA mask rules with familiarity and contrast their previous urban environment with rural Tennessee.",
+          "value": "Philadelphia, Pennsylvania (previously lived)",
+          "lines": [
+            17,
+            257,
+            259,
+            351
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 29: 'Yeah, it was born here too.' This could be 'I was born here too' in response to speaker_b mentioning Pittsburgh. However, the transcript is garbled and the claim is ambiguous.",
+          "value": "Pittsburgh, Pennsylvania (possibly born)",
+          "lines": [
+            29
+          ],
+          "certainty": 2
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they've been out of work since April, and speaker_a replies 'me too'.",
+          "value": "Unemployed since approximately April 2020",
+          "lines": [
+            40,
+            41,
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm still collecting their 200 hours a week unemployment' (likely misheard from '$200 a week'), indicating they receive unemployment benefits.",
+          "value": "Receives unemployment benefits (~$200/week)",
+          "lines": [
+            99
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a expresses desire to deliver food and find a cash-paying job while collecting unemployment.",
+          "value": "Seeking cash job in food delivery",
+          "lines": [
+            93,
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a prioritises paying rent: 'That's the first thing I was doing was making sure my damn rent was paid.'",
+          "value": "Pays rent for housing",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my cats broke it' and later expresses a preference for cats.",
+          "value": "Has cats",
+          "lines": [
+            5,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my girlfriend' in line 315.",
+          "value": "Has a girlfriend",
+          "lines": [
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains the barking dog belongs to a friend and says 'I'm just down here staying with my friends.'",
+          "value": "Currently staying with friends",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My parents were like 30 years, 40 years older than me actually.'",
+          "value": "Has parents who are 30-40 years older",
+          "lines": [
+            253
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a agrees 'Yeah. I like college football.'",
+          "value": "Enjoys college football",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I've always been a drew Brees fan so I've always been in New Orleans stain' (Saints).",
+          "value": "New Orleans Saints fan",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't like dogs' and explains they dislike the barking and noise.",
+          "value": "Dislikes dogs",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes wearing a mask in Tennessee while others do not, saying 'I'm M. P. A. with mass'.",
+          "value": "Wears a face mask in public",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I haven't been to New York at the last time I was there for like 15 years ago.'",
+          "value": "Has not visited NYC in ~15 years",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a complains about a broken computer: 'my cats broke it so it only stays open one way.'",
+          "value": "Owns a broken laptop (damaged by cats)",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In a story about a close call with police, the officers say 'we know William, he's fine,' identifying speaker_b as William.",
+          "value": "William (first name)",
+          "lines": [
+            374
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I grew up in Mississippi actually.'",
+          "value": "Mississippi (grew up in)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the place I had previously lived before I was bouncing around and was florida'.",
+          "value": "Florida (previously lived)",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm in Aliquippa which I guess is like 1520 minutes away from the city' (Pittsburgh) and notes they just moved two weeks ago.",
+          "value": "Aliquippa, Pennsylvania (current residence)",
+          "lines": [
+            18,
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions crashing on a buddy's couch in Michigan, renting in Chicago, and crashing with buddies in North Dakota during his period of homelessness.",
+          "value": "Temporarily stayed in Michigan, Chicago, North Dakota",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I just turned 30.'",
+          "value": "30 years old",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to be in the military so I had to' when discussing flu shots.",
+          "value": "Military veteran",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b self-identifies 'I'd say I'm pretty much an independent' in political context.",
+          "value": "Political independent",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from the south you know?'",
+          "value": "Southerner",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being a 'later in life baby' and that his parents are in their 70s, implying they were older when he was born.",
+          "value": "Child of older parents",
+          "lines": [
+            250,
+            252
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I don't drink anymore but let me tell you.'",
+          "value": "Sober (no longer drinks alcohol)",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b reports 'I just got over something, but the symptoms did not correspond with Covid'.",
+          "value": "Recently recovered from a non-COVID illness",
+          "lines": [
+            248
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'they made us wear them, so I've been wearing them since March' in reference to masks.",
+          "value": "Has worn a mask since March 2020",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm healthy knock on wood' and 'I walk a lot. I eat okay.'",
+          "value": "Generally healthy lifestyle (walks, eats moderately)",
+          "lines": [
+            268,
+            270
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been out of work since april'.",
+          "value": "Unemployed since April 2020",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I was only, I think I was making 12 something an hour' at his previous job.",
+          "value": "Earned ~$12/hour at previous job",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b recalls a temp job in 2017: 'I was making 15 an hour in Florida'.",
+          "value": "Earned $15/hour in Florida (2017)",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'this CVS is going to have me at 11' and 'about to start working at a CBS'.",
+          "value": "Starting job at CVS, $11/hour",
+          "lines": [
+            36,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I ended up being able to get the, you know, that expanded that all unemployment.'",
+          "value": "Received expanded unemployment benefits",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I was technically homeless from like July two, like two weeks ago.'",
+          "value": "Experienced homelessness from July until recent move",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was paying 500 a month' for rent with roommates.",
+          "value": "Paid $500/month rent with roommates",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm carless' and refers to lacking a vehicle.",
+          "value": "Does not own a car",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I've got like call center experience' as a work background.",
+          "value": "Has call center work experience",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes using his $1200 stimulus check to buy a Chromebook for about $600.",
+          "value": "Purchased a $600 Chromebook with stimulus money",
+          "lines": [
+            286,
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explains the job he started at lockdown moved: 'we're moving everyone's job to the Dominican republic'.",
+          "value": "Previous job outsourced to Dominican Republic",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my parents are in their seventies and I'm terrified for him now'.",
+          "value": "Parents in their 70s (alive)",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my roommate was like, hey, my wife and I want to get our own place'.",
+          "value": "Had a roommate who moved out",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my buddy had two dogs' in Florida.",
+          "value": "Has friend in Florida with dogs",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions crashing with buddies in Michigan and North Dakota, and renting in Chicago, indicating friends in those places.",
+          "value": "Has friends in Michigan, Chicago, North Dakota",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm more of a basketball guy but I like uh I grew up more of a college football kind of guy.' Also 'I'm a casual I don't have a team.'",
+          "value": "Casual sports fan; prefers basketball and college football",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't drink anymore' (same as health).",
+          "value": "Sober (no alcohol)",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b tells a story about having 'an ounce or two of the shittiest weed' in 2008.",
+          "value": "Used marijuana in the past",
+          "lines": [
+            368
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes bouncing around: 'crashed on my Buddy's couch in Michigan... rented in Chicago... crashed on my buddies in North Dakota'.",
+          "value": "Recent multi-state travel",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm carless' and 'I walk a lot'.",
+          "value": "Walks for transportation (no car)",
+          "lines": [
+            96,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I want to hit Pittsburgh like actually see it'.",
+          "value": "Plans to explore Pittsburgh",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'll probably tune into that debate that starts eight PM here I think.'",
+          "value": "Watches political debates",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I'm talking to you on a Chromebook' and 'I've got one of those ones you can flip it into a tablet'.",
+          "value": "Uses a convertible Chromebook",
+          "lines": [
+            280,
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've done new york before, new york's a lot of fun.'",
+          "value": "Has visited New York City",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'this is going to be my first winter actually out north so I am going to miss that' referring to southern climate.",
+          "value": "First winter in a northern state",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

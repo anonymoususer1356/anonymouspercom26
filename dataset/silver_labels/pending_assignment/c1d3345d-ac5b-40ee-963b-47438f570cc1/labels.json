@@ -1,0 +1,581 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states her name directly.",
+          "value": "Mila Nila",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she used to live in Florida.",
+          "value": "used to live in Florida",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she is currently not working.",
+          "value": "currently not working",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is taking online classes for pharmacy school, training to be a pharmacist.",
+          "value": "pharmacy student",
+          "lines": [
+            19,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has to finish the last day of her rotation tomorrow at a cBS (likely CVS pharmacy, ASR error for 'CVS').",
+          "value": "completing a rotation at CVS",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a asks about Prolific usage and states she started one or two months ago, indicating she uses it.",
+          "value": "uses Prolific",
+          "lines": [
+            165,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she started using Prolific maybe one or two months ago.",
+          "value": "started using Prolific one to two months ago",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has been doing user testing a few every week.",
+          "value": "does user testing",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms she looks at the beer money subreddit.",
+          "value": "visits beer money subreddit",
+          "lines": [
+            169,
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says in her free time she likes cooking.",
+          "value": "likes cooking",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she likes trying different restaurants.",
+          "value": "likes trying different restaurants",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she likes trying new shows.",
+          "value": "likes trying new shows",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she does a little bit of gardening.",
+          "value": "likes gardening",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she sometimes does karaoke.",
+          "value": "likes karaoke",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes driving in a storm, indicating she drives a car.",
+          "value": "drives a car",
+          "lines": [
+            53,
+            55,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she will be taking online classes for pharmacy school.",
+          "value": "takes online classes for pharmacy school",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions opening her laptop in the morning.",
+          "value": "uses a laptop",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a acknowledges using the Prolific Chrome extension when speaker_b mentions it.",
+          "value": "uses Prolific Chrome extension",
+          "lines": [
+            186,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions setting an alarm to remember the call, though ASR is garbled ('I don't alarm go off' likely means 'I set an alarm to go off').",
+          "value": "set an alarm for the call",
+          "lines": [
+            45
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Lindsay.",
+          "value": "Lindsay",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she used to live in Texas.",
+          "value": "used to live in Texas",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to herself as a woman when discussing her parents' views.",
+          "value": "woman",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states she has physical disability stuff.",
+          "value": "has a physical disability",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b indicates she couldn't stand in a pharmacy all day due to physical disability.",
+          "value": "cannot stand for long periods",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she still walks with a cane.",
+          "value": "walks with a cane",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has an allergic disorder.",
+          "value": "has an allergic disorder",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she cannot have gluten.",
+          "value": "allergic to gluten",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says can't do eggs.",
+          "value": "allergic to eggs",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says can't do dairy.",
+          "value": "allergic to dairy",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says can't use corn starch (transcribed as 'corn start').",
+          "value": "allergic to corn starch",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is hideously allergic to rice.",
+          "value": "allergic to rice",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has problems with anything fermented.",
+          "value": "has problems with fermented foods",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has light sensitivity issues.",
+          "value": "has light sensitivity",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her vision used to swim badly, could barely read a computer screen, but cleared up after treatment.",
+          "value": "previously had severe vision problems (swimming vision)",
+          "lines": [
+            114,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the allergic reactions affected her hearing and sense of smell.",
+          "value": "hearing and sense of smell were affected by allergies",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is on medications and supplements that cleared her vision.",
+          "value": "takes medications and supplements",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she gets really serious infections every once in a while.",
+          "value": "gets serious infections occasionally",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she had so much pain issues all the time.",
+          "value": "had chronic pain",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her body constantly fighting itself due to allergic reaction.",
+          "value": "constant allergic reaction causes body to fight itself",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says if she had an in-person physical job she would have needed a wheelchair.",
+          "value": "would have needed a wheelchair for in-person work",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she works as a transcriptionist.",
+          "value": "works as a transcriptionist",
+          "lines": [
+            30,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she used to do quite a bit of freelance writing work.",
+          "value": "former freelance writer",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is taking Skillshare online classes in pattern making, art, and writing.",
+          "value": "takes Skillshare online classes",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she uses Prolific and mentions when she started.",
+          "value": "uses Prolific",
+          "lines": [
+            168,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she started using Prolific back in March or so.",
+          "value": "started using Prolific around March",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions the beer money subreddit and seeing posts there.",
+          "value": "uses beer money subreddit",
+          "lines": [
+            168,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she signed up for UserTesting but hasn't done the try out test yet.",
+          "value": "signed up for UserTesting but hasn't taken intro test",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she got onto a data labeling project that looks good.",
+          "value": "participating in a data labeling project",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b implies she had a five-year gap in work history due to illness, which she now doesn't have to explain because of transcription work.",
+          "value": "had a five-year employment gap due to illness",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her mom in the context of feeling old.",
+          "value": "has a mother",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her parents were a little more conservative.",
+          "value": "has conservative parents",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her parents didn't encourage her to go into science or computer fields, as a woman.",
+          "value": "parents did not encourage STEM career",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she just moved into a new house with a really nice backyard.",
+          "value": "lives in a house with a backyard",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she just moved into a new house.",
+          "value": "recently moved into a new house",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has only had indoor plants for a long time.",
+          "value": "has indoor plants",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she just bought an Instant Pot pressure cooker.",
+          "value": "owns an Instant Pot pressure cooker",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes learning to cook all over again due to allergies, making gluten-free bread.",
+          "value": "cooks gluten-free and allergen-free food",
+          "lines": [
+            88,
+            92,
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she had to make her own gluten-free flours.",
+          "value": "makes own gluten-free flour blends",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has gotten into making her own tea due to fermentation issues.",
+          "value": "makes own tea",
+          "lines": [
+            102,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she spends free time on blogs looking up recipes.",
+          "value": "spends free time on food blogs",
+          "lines": [
+            100,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she works from home as a transcriptionist.",
+          "value": "works from home",
+          "lines": [
+            42,
+            117,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions looking at a computer screen for work.",
+          "value": "spends a lot of time on the computer",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions using the Prolific Chrome extension and having issues with it.",
+          "value": "uses Prolific Chrome extension",
+          "lines": [
+            186,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b mentions wearing glasses for light sensitivity.",
+          "value": "wears glasses",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she still walks with a cane.",
+          "value": "uses a cane",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

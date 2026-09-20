@@ -1,0 +1,230 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as Thomas; ASR 'thomas this mission' interpreted as 'Thomas, nice to meet you'.",
+          "value": "Thomas",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explicitly states he is in California.",
+          "value": "California",
+          "lines": [
+            125,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes living in dorm-like university-affiliated housing with a mail centre.",
+          "value": "university-affiliated housing",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States he is studying engineering.",
+          "value": "engineering student",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Does not deny being a senior when asked; gives upperclassman advice and mentions his journey has been longer.",
+          "value": "college senior",
+          "lines": [
+            258,
+            263
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Describes a period that was 'really dark', didn't take care of his health, and didn't find a will to live.",
+          "value": "experienced a period of dark mental health and lack of will to live",
+          "lines": [
+            265,
+            266,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Mentions his girlfriend is a medical student rotating through different hospitals.",
+          "value": "girlfriend is a medical student",
+          "lines": [
+            41,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that because his girlfriend is away on rotations, he has to care for her black cat, which he calls his roommate; names it JJ Caputo (Joe Joe).",
+          "value": "takes care of his girlfriend's cat JJ Caputo",
+          "lines": [
+            19,
+            41,
+            43,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States he feels he is more of a dog person.",
+          "value": "prefers dogs over cats",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses desire to take a welding class and mentions a viticulture club/class.",
+          "value": "interested in welding and viticulture",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes receiving a misdelivered butcher box and cooking a turkey using Alton Brown's recipe.",
+          "value": "cooked a turkey using Alton Brown's recipe",
+          "lines": [
+            217,
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as Isabelle; ASR 'What I'm Isabelle' interpreted as 'Hi, I'm Isabelle'.",
+          "value": "Isabelle",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is from Houston, Texas.",
+          "value": "Houston, Texas",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is currently in Philly, and speaker_a confirms she is in Pennsylvania.",
+          "value": "Philadelphia, Pennsylvania",
+          "lines": [
+            186,
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States she is Chinese.",
+          "value": "Chinese",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is a sophomore.",
+          "value": "sophomore in college",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is studying design and her path is graphic design.",
+          "value": "design/graphic design major",
+          "lines": [
+            110,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Mentions having a roommate who is an engineering major and visits the roommate's family in Jersey.",
+          "value": "has a roommate who is an engineering major",
+          "lines": [
+            120,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says back at home she recently got a cat and dog, implying her family has these pets.",
+          "value": "family has a cat and dog in Houston",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says they are currently fostering a calico cat.",
+          "value": "fostering a calico cat",
+          "lines": [
+            24,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is more of a dog person after getting the cat; ASR 'off a dog person' → 'more of a dog person'.",
+          "value": "prefers dogs over cats",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Expresses desire to design t-shirts and loves drawing and designing.",
+          "value": "interested in fashion design and drawing",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live in Houston' at line 97, and earlier says 'I was in Houston' (line 7) and speaker_b confirms 'So you say you live in Houston' (line 96).",
+          "value": "Houston, Texas",
+          "lines": [
+            7,
+            96,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I go to texas tech' (line 7) and 'I live on campus' (line 49). Texas Tech is in Lubbock, Texas.",
+          "value": "Texas Tech University, Lubbock, Texas",
+          "lines": [
+            7,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Yeah I live on campus' (line 49). He later clarifies he hasn't moved in yet for this semester but is about to (line 55), indicating he generally lives on campus during the school year.",
+          "value": "lives on campus at Texas Tech during the school year",
+          "lines": [
+            49,
+            55
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in college right now' (line 7) and 'I'm in my second year I'm going into it my second year' (line 47).",
+          "value": "second-year college student",
+          "lines": [
+            7,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a major in business' (line 7) and discusses business-specific classes starting second semester (line 93).",
+          "value": "business major",
+          "lines": [
+            7,
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says this is his second time doing such a study (line 157). Speaker_b mentions the bonus (line 6), implying the study is paid. It is likely speaker_a also receives payment.",
+          "value": "participates in paid online studies",
+          "lines": [
+            157,
+            6
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I still work out and I play like basketball' (line 277) and 'I like the rec leagues and stuff' (line 279).",
+          "value": "plays basketball and participates in recreational leagues",
+          "lines": [
+            277,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I still work out' (line 277).",
+          "value": "works out",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a lot of online classes' (line 59) and 'Most of my classes are online' (line 61).",
+          "value": "takes mostly online classes this semester",
+          "lines": [
+            59,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we still have fun and stuff' (line 107) and 'we just like to be running around, like to go out to places' (line 109), indicating active social life during quarantine.",
+          "value": "socializes and goes out with friends during quarantine",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live just like 45 minutes north of Austin' (line 12) and 'the city that I live in is called Harker Heights' (line 14). She adds it is about 10 minutes from Fort Hood and Killeen (transcribed as 'clean'). She also confirms living in Texas (line 6).",
+          "value": "Harker Heights, Texas (approx 45 min north of Austin, near Fort Hood and Killeen)",
+          "lines": [
+            6,
+            12,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I just turned 35 this year' (line 130) and 'I'm 35' (line 258).",
+          "value": "35 years old",
+          "lines": [
+            130,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm born and raised in texas. I've never lived in another state.' (line 16).",
+          "value": "born and raised in Texas",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to school for teaching' (line 38), 'I went for elementary school' (line 78), and she needs one more test for her Texas license (line 40), indicating she completed a teaching degree.",
+          "value": "holds an elementary teaching degree",
+          "lines": [
+            38,
+            40,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm married' (line 6).",
+          "value": "married",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have two kids. My son is seven and my daughter's eight and then I have a stepdaughter, she's 19.' (line 6).",
+          "value": "parent of three children",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I had to quit because I don't have the lung capacity to be trying to work out with mask on' (line 294). This suggests a respiratory limitation.",
+          "value": "limited lung capacity (difficulty working out with a mask)",
+          "lines": [
+            294
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says 'I have to take one more test to get my texas license' (line 40), indicating she is pursuing her Texas teaching license.",
+          "value": "needs to pass one more test to obtain Texas teaching license",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I have a weekend job that I take care of people at a group home... I have four ladies that I take care of and they all have disabilities' (line 6). She also mentions working 15-hour shifts (line 198).",
+          "value": "weekend caregiver at a group home, 15-hour shifts, cares for four women with disabilities",
+          "lines": [
+            6,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got like $23,000 worth of student loans right now to pay off' (line 38).",
+          "value": "approximately $23,000 in student loan debt",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses school district hiring being frozen and expects to wait until next year (line 210). Speaker_a asks 'So are you working at school district next then?' and speaker_b confirms 'Yeah, which is fine.' (lines 211-212).",
+          "value": "seeks employment as an elementary school teacher, hiring currently frozen",
+          "lines": [
+            210,
+            211,
+            212
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions doing studies on this site for weeks and notes the bonus (line 6). She has done other paid studies (lines 142, 164).",
+          "value": "participates in paid online studies",
+          "lines": [
+            6,
+            142,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'killing me to have to pay the government every month' (line 38) regarding student loans.",
+          "value": "makes monthly student loan payments",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I'm married' (line 6).",
+          "value": "married",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My son is seven' (line 6).",
+          "value": "has a 7-year-old son",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my daughter's eight' (line 6).",
+          "value": "has an 8-year-old daughter",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a stepdaughter, she's 19.' (line 6).",
+          "value": "has a 19-year-old stepdaughter",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I gotta work out, I need to lift weights' (line 270).",
+          "value": "lifts weights / works out",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was a member of the y' (line 280) and later explains she quit due to the mask requirement (line 294).",
+          "value": "was a YMCA member, quit due to mask mandate",
+          "lines": [
+            280,
+            294
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b had plans to attend the world's biggest bouncy park, a renaissance festival, and a concert, all canceled (lines 188, 192). This shows she enjoys attending events.",
+          "value": "enjoys attending events like festivals, concerts, and bouncy parks",
+          "lines": [
+            188,
+            192
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'We've been through Houston, like going to Galveston to leave on cruises' (line 100).",
+          "value": "takes cruises departing Galveston",
+          "lines": [
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'october is my favorite month' (line 180) and 'I love Halloween' (line 182).",
+          "value": "favorite month is October, loves Halloween",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I talk a lot even with people I don't really know' (line 170) and acknowledges she sometimes talks too much (line 176).",
+          "value": "talkative, tends to talk a lot",
+          "lines": [
+            170,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b works 15-hour shifts at the group home on weekends (line 198).",
+          "value": "works 15-hour shifts on weekends",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

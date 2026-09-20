@@ -1,0 +1,345 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'chrissy. Yeah. Nice to meet you.' while adding on Facebook, and speaker_a confirms 'so that's me'. The name Chrissy is established.",
+          "value": "Chrissy",
+          "lines": [
+            345,
+            346
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b asks 'Oh my we're in Connecticut. Do you live, are you more inland? Are you by the coast?' and speaker_a confirms 'Yeah.' Later says 'you don't get to where I live where on Long Island sound' and mentions living near Foxwoods casino (in Connecticut) and Sandy Hook (in Connecticut).",
+          "value": "Connecticut, on the coast near Long Island Sound",
+          "lines": [
+            36,
+            37,
+            47,
+            103,
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Mentions not having a man, exes costing money, mother's advice to buy a vibrator, advising young girls, and references to being a woman in context of relationships and society.",
+          "value": "female",
+          "lines": [
+            121,
+            125,
+            135,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States outright 'I'm almost 60 years old'.",
+          "value": "almost 60 years old",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when my child went to school and the 30 years old' (ASR error, intended 'he's 30 years old'), indicating they have a 30-year-old child.",
+          "value": "parent of a 30-year-old child",
+          "lines": [
+            253
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I'm bipolar' and 'I'm bipolar too' and discusses medication and manic phases.",
+          "value": "diagnosed with bipolar disorder",
+          "lines": [
+            271,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Watching the Democratic convention, praising Obama and Elizabeth Warren, clearly aligning with Democratic/liberal politics.",
+          "value": "Democrat/liberal",
+          "lines": [
+            5,
+            9,
+            221
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States explicitly 'I'm bipolar' and 'I'm bipolar too' (bipolar II), mentions being medicated, and describes manic phases. Distinguishes from bipolar I.",
+          "value": "bipolar II disorder, medicated",
+          "lines": [
+            271,
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I have more money than I know what to do with technically' and describes financial independence after leaving relationships.",
+          "value": "financially comfortable, has more money than needed",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions going back through and counting numerous paid conversation sessions, says 'They paid me for it anyway', and has made Facebook friends from it.",
+          "value": "participates in paid conversation study",
+          "lines": [
+            305,
+            306,
+            308,
+            321
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Indicates having a child by saying 'when my child went to school and the 30 years old' (ASR error).",
+          "value": "has a child, age 30",
+          "lines": [
+            253
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'My ex used to work at the Reebok out there'.",
+          "value": "has an ex-partner",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my friend that lives in California, she says let's at all this old bitches get a house together'.",
+          "value": "friend in California",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I have actually made several friends on facebook from doing this' and refers to older women who became Facebook friends.",
+          "value": "has friends made through the conversation task",
+          "lines": [
+            311,
+            327
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'It's to know people from Wisconsin, but I don't remember' indicating acquaintances from Wisconsin.",
+          "value": "acquaintances from Wisconsin",
+          "lines": [
+            25
+          ],
+          "certainty": 2
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'you know I have three of them, there's two over here' referring to cats, and describes two kittens and a 17-pound cat. Confirms adoption of two sisters.",
+          "value": "owns three cats",
+          "lines": [
+            173,
+            174,
+            179,
+            183,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a dog that died, named Chubby, and how he used to walk him in winter. Says 'I will gladly get more cats but I'm not getting any more dogs'.",
+          "value": "previously had a dog named Chubby who died; does not want another dog",
+          "lines": [
+            187,
+            193,
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I live near Fox Woods and you give sense' (Foxwoods casino).",
+          "value": "lives near Foxwoods casino",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts mother's advice 'you know, your buy a vibrator' and says 'My mother's advice, you know, because it's not worth the aggravation'.",
+          "value": "owns a vibrator",
+          "lines": [
+            125
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'I love the stock market hot, right?' which likely means 'I love the stock market' (ASR error).",
+          "value": "interested in the stock market",
+          "lines": [
+            161
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Says 'Oh I am watching the democratic convention' and 'I like to always listen to him' (Obama).",
+          "value": "enjoys watching political speeches",
+          "lines": [
+            5,
+            9
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'But I wouldn't swim in the sound.' about Long Island Sound.",
+          "value": "avoids swimming in Long Island Sound",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When exchanging Facebook details, speaker_b says 'Um uh Dion.' and spells it 'D. I. O. and N. S. S. E.' with last name fragments. The first name Dion is clearly intended.",
+          "value": "Dion",
+          "lines": [
+            330,
+            332,
+            334
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Answers 'I'm from Wisconsin' when asked, adds 'we're a little north of Kansas' and states 'I live right on the coast of lake michigan to.'",
+          "value": "Wisconsin, on the coast of Lake Michigan",
+          "lines": [
+            20,
+            26,
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "References a boyfriend who cheated, indicating female gender.",
+          "value": "female",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States explicitly 'I've committed to not having Children in this lifetime.'",
+          "value": "childfree (committed to not having children)",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Grew up with Hannah Montana and school shooting drills, placing them in a younger generation than speaker_a, likely 20s-30s.",
+          "value": "young adult, likely in 20s-30s",
+          "lines": [
+            112,
+            114,
+            244
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In response to an earlier remark, says 'No it's allergies.' suggesting they are experiencing allergies.",
+          "value": "has allergies",
+          "lines": [
+            296
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my own experiences with my relationship and my boyfriend shooting on me' (cheating on me), indicating an ex-boyfriend.",
+          "value": "ex-boyfriend who cheated",
+          "lines": [
+            128
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'My aunt my answer kindergarten teacher' (ASR for 'My aunt is a kindergarten teacher') and describes her experience.",
+          "value": "aunt is a kindergarten teacher",
+          "lines": [
+            286
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'we have a cat in the back' and 'I have mine over here' and later 'My cat likes it taste.'",
+          "value": "owns a cat",
+          "lines": [
+            174,
+            176,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After mentioning boyfriend's cheating, says 'I was like well maybe monogamy isn't the way to go.'",
+          "value": "questioning monogamy",
+          "lines": [
+            128
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "When telling speaker_a how to find them on Facebook, says 'I will be a black profile pic'.",
+          "value": "has a black Facebook profile picture",
+          "lines": [
+            344
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says 'You look tired honey. I'm not gonna hold you too long.' This is an observation about speaker_b's appearance.",
+          "value": "looks tired (according to speaker_a)",
+          "lines": [
+            299
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is paul' at line 5, intended as 'Paul'.",
+          "value": "Paul",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in California' at line 33.",
+          "value": "California",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions attending college and studying business: 'I did go to college' (line 23) and 'I studied business in school' (line 25).",
+          "value": "college graduate (business)",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a references 'my wife' at line 79, indicating male gender.",
+          "value": "male",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I worked for a software development company. I do product management' at line 23.",
+          "value": "product manager at a software development company",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked at Disney before' at line 195.",
+          "value": "previously worked at Disney",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses payment for the conversation study: 'you get paid like a buck' (line 67) and 'it's such good money' (line 75).",
+          "value": "receives payment for participating in conversation study",
+          "lines": [
+            67,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my wife' at line 79.",
+          "value": "has wife",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my wife and kids' (line 79) and 'my kids are younger' (line 83).",
+          "value": "has children",
+          "lines": [
+            79,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my friend and my brother are both texting me' at line 311.",
+          "value": "has brother",
+          "lines": [
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'go see my mother in law' at line 85.",
+          "value": "has mother-in-law",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his cat's name is Manny (line 275) and they adopted him a little over a year ago (line 291).",
+          "value": "has cat named Manny",
+          "lines": [
+            275,
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm a dodger fan' (line 51) and describes his Dodgers hat (lines 51, 53).",
+          "value": "Dodgers baseball fan",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was watching the playoff baseball game' at line 41.",
+          "value": "watches playoff baseball",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'through high school I played baseball and I played football' at line 313.",
+          "value": "played baseball and football in high school",
+          "lines": [
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was actually thinking about getting into like an adult like softball league' at line 315.",
+          "value": "considers joining adult softball league",
+          "lines": [
+            315
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do like the outdoors also' at line 257, indicating enjoyment of outdoor activities like hiking.",
+          "value": "enjoys outdoors and hiking",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts a cruise to Alaska with his wife at lines 261-265: 'I went with my wife to Alaska like a little over a year ago and that was, we did it on a cruise'.",
+          "value": "went on cruise to Alaska with wife",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Working from home has been really weird' at line 175, implying he currently works from home.",
+          "value": "works from home",
+          "lines": [
+            175
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes making cold brew coffee at lines 159 ('I did just brewed coffee... put it in fridge') and 161 ('I used to do like make cold brew myself').",
+          "value": "makes cold brew/iced coffee at home",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his straw as 'stainless steel reusable' at line 155.",
+          "value": "uses reusable stainless steel straw",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a describes the hat he is wearing: 'It stands for Brooklyn... I'm a dodger fan' at line 51, indicating a Dodgers hat.",
+          "value": "wears Brooklyn Dodgers hat",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'you can call me cloud' at line 6.",
+          "value": "Cloud",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in the south part of the Yeah' at line 34, in response to a question about what part of the country. The intended completion is likely 'south part of the US'.",
+          "value": "south part of the US",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b confirms being a sophomore at lines 92 ('Yes yes I'm a sophomore').",
+          "value": "college sophomore",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm studying human resources development' at line 14.",
+          "value": "human resources development major",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions spending time with 'my boyfriend' at line 10, implying female gender.",
+          "value": "female",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b discusses participating in the study: she had a previous scheduled attempt two days ago where the person didn't show up (line 72). Speaker_a discusses payment (line 75), and speaker_b is also a participant, so she is receiving payment.",
+          "value": "participates in paid conversation study",
+          "lines": [
+            72,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says on-campus housing is 'really expensive because you'd have to buy the meal plan rent' (line 106-108) and that she almost did it but opted out, indicating financial constraint.",
+          "value": "finds on-campus housing too expensive",
+          "lines": [
+            106,
+            107,
+            108
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'spending time with my boyfriend' (line 10), 'my boyfriend' (line 180), and that they started dating about two months ago (line 184).",
+          "value": "has boyfriend (dating ~2 months)",
+          "lines": [
+            10,
+            180,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she met her boyfriend through a game: 'it was their a game actually... League of Legends' at lines 188-190.",
+          "value": "met boyfriend through playing League of Legends",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'one of my mom's best friends coming over' at line 8, so she has a mother.",
+          "value": "has mother",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about pets, speaker_b says 'No, unfortunately I don't' at line 272.",
+          "value": "no pets",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b states she plays League of Legends (line 190) and Overcooked (line 226).",
+          "value": "plays video games (League of Legends, Overcooked)",
+          "lines": [
+            190,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm with this club that is like we volunteer at elementary schools and we teach the kids there robotics' at line 128.",
+          "value": "volunteers teaching robotics to elementary students",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she took a road trip to Oklahoma and visited a national park (lines 246, 250).",
+          "value": "took road trip to Oklahoma, visited a national park",
+          "lines": [
+            246,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I love the outdoors' at line 256.",
+          "value": "enjoys outdoors and hiking",
+          "lines": [
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she is taking classes completely virtual (line 114).",
+          "value": "attends college classes virtually",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her previous study habits: 'I would study basically the entire time I was on campus or in the library and come home and just relax' at lines 170-172, indicating a separation of work and home.",
+          "value": "used to study on campus to separate work and home",
+          "lines": [
+            170,
+            171,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says she does not live on campus at line 106 ('No not on campus').",
+          "value": "does not live on campus",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,587 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 5 ASR: 'My name's Alina Elliot.' Speaker_b mishears as 'Aaliyah' (line 6) and speaker_a accepts it ('Thank you'). The intended name is Aaliyah Elliot; 'Alina' is a phonetic ASR error.",
+          "value": "Aaliyah Elliot",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 129-131: 'I'm in new york. Yeah, but not like the city, but like one of the up stadium buffalo can.' 'Up stadium' is ASR for 'upstate', 'buffalo can' for 'Buffalo kinda'. Resides in upstate New York near Buffalo.",
+          "value": "New York (upstate, near Buffalo)",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 187: speaker_a answers 'Uh University of Rochester?' when asked where she goes to college.",
+          "value": "University of Rochester",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 15 confirms she is a freshman; line 187 gives the university.",
+          "value": "college freshman at University of Rochester",
+          "lines": [
+            15,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 31-33: 'Currently I'm undecided… I'm kind of interested in accounting at the moment.'",
+          "value": "undecided major, considering accounting",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 25: 'I'm allergic alerted to most things' (allergic to most things). Line 205: 'I'm more allergic to cats.'",
+          "value": "allergic to many things (especially cats)",
+          "lines": [
+            25,
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 88-89: she says she lives 'At home currently.' Lines 165,169 mention mom and stepdad.",
+          "value": "lives at home with mom and stepdad",
+          "lines": [
+            89,
+            165,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 83: 'I guess like I guess I just might find a job next year.' Currently not employed.",
+          "value": "unemployed, plans to seek job next year",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 91: speaker_b asks 'Do you have brothers and sisters?' speaker_a: 'Yeah. One older brother.'",
+          "value": "has an older brother",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 165 and 169 mention her mom and stepdad ('Yeah I gotta step dad').",
+          "value": "has a mother and stepfather",
+          "lines": [
+            165,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 160-161: asked 'Are you seeing anyone?' she hesitantly replies 'Oh uh yeah I guess.'",
+          "value": "possibly in a romantic relationship",
+          "lines": [
+            161
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 193-195: 'most of them are going to different colleges right now… We're kind of separated.'",
+          "value": "most friends attend different colleges",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 11,13: 'I enjoy playing tennis usually.' 'Not good, but playing it.'",
+          "value": "plays tennis recreationally",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 67,99,101: mentions 'The Enemy' (anime), 'five centimeters person' (anime film), and watching anime.",
+          "value": "watches anime",
+          "lines": [
+            67,
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 119: 'The only cause I really have in person is japanese.'",
+          "value": "studies Japanese language",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 45: 'Probably like pop or hip hop.'",
+          "value": "listens to pop and hip hop music",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 147,153: 'Really just see Japan… because I like their food a lot.'",
+          "value": "wants to visit Japan",
+          "lines": [
+            147,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 329: 'I just prefer tv shows.'",
+          "value": "prefers television shows over movies",
+          "lines": [
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 257,287: lists The Boys, Umbrella Academy and confirms enjoying superhero movies.",
+          "value": "enjoys superhero television and films",
+          "lines": [
+            257,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 295-299: 'I like nightwear' (Nightwing), 'It's like Robin… I like the sidekicks.'",
+          "value": "favorite superhero: Nightwing",
+          "lines": [
+            295,
+            297,
+            299
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 259: describes a Korean variety show called Running Man that she watches.",
+          "value": "watches Korean variety show Running Man",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 205: 'I think I just want to pet first… debating between dogs or cats, but I'm more allergic to cats.'",
+          "value": "wants a dog as a pet (allergic to cats)",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 222-223: asked if she cooks, she replies 'Yeah. Uh Sometimes'.",
+          "value": "cooks occasionally",
+          "lines": [
+            222,
+            223
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 221: 'I guess it depends on the mood but or anything like noodles.'",
+          "value": "likes noodles",
+          "lines": [
+            221
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 111: 'I would play those games, but I'm bad at shooting.'",
+          "value": "avoids shooter video games due to lack of skill",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 77-79: about Haunting of Hill House: 'I can't watch it. It's too scary.'",
+          "value": "dislikes scary/horror content",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 203: plans to stay in her city after graduation until mid-to-late twenties.",
+          "value": "plans to stay in current city after college",
+          "lines": [
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 141-143: 'I just hate the trip, like the airplane rides, car rides or anything like that.'",
+          "value": "dislikes the act of travelling (planes, cars)",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: 'Right, my name is Jesse.'",
+          "value": "Jesse",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 128: 'Oh yeah, I'm in Ohio'. Line 180: attended Wright State outside Dayton. Line 280: protests downtown Dayton. Resides in Dayton area, Ohio.",
+          "value": "Ohio (Dayton area)",
+          "lines": [
+            128,
+            180,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 180: 'I went to write state, it's a university outside of Dayton.' ASR 'write state' = Wright State University.",
+          "value": "attended Wright State University",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 186: 'And Sinclair community College.'",
+          "value": "attended Sinclair Community College",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 18: 'I'm 42.'",
+          "value": "42 years old",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 20: 'I'm pretty much a stay at home mom.'",
+          "value": "stay-at-home mother",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 162: 'My son's 23… my daughter is 21.'",
+          "value": "mother of a 23-year-old son and 21-year-old daughter",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: 'I was a history major.'",
+          "value": "history major in college",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 38: 'I got hurt and had to come home' from job, ending employment at a special needs school.",
+          "value": "suffered an injury that ended previous employment",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 20: she identifies as a stay-at-home mom, implying no outside employment.",
+          "value": "unemployed (stay-at-home mom)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 38: 'I did work at a school for special needs kids… and I drove a school bus for a little while.'",
+          "value": "former special needs school worker and school bus driver",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 210: 'my study right now, the roof has a leak in it' indicates homeownership.",
+          "value": "homeowner (has a house with a study)",
+          "lines": [
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 210-211: 'I'm using a gaming laptop… it's a Acer predator.'",
+          "value": "owns an Acer Predator gaming laptop",
+          "lines": [
+            210,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 162: 'My son's 23 he's up in his room… my daughter is 21 she just left for work' – both adult children live at home.",
+          "value": "adult son and daughter live with her",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 26: 'I have a dog and my daughter has a cat.'",
+          "value": "has a dog; daughter has a cat",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 92: 'I'm pretty much the oldest. I've got a younger brother and a younger half sister and a younger half brother.'",
+          "value": "oldest sibling; has younger brother, half-sister, half-brother",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 208: 'My mom, however, she's like, but I want great grandkids' confirms her mother is alive and part of her life.",
+          "value": "mother is alive",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 104: 'most of my friends, they're really into animate'",
+          "value": "has friends who are anime enthusiasts",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 212: 'a couple of my gaming buddies, they're Canadian'",
+          "value": "has Canadian online gaming friends",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 108-110: 'I'd like to play video games. Overwatch, World of Warcraft… Fortnite… Borderlands…'",
+          "value": "plays video games (Overwatch, WoW, Fortnite, Borderlands)",
+          "lines": [
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 42: 'I like to drive, so it worked out well.'",
+          "value": "enjoys driving",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 50,52,56,60-62: classic/alternative rock, now pop; likes Harry Styles, Blackpink; discovers music on TikTok.",
+          "value": "music tastes: pop, classic rock, alternative; fan of Harry Styles, Blackpink",
+          "lines": [
+            50,
+            52,
+            56,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 52,54: 'if it's on Tiktok, I probably listen to it.' 'my kids got me into it.'",
+          "value": "uses TikTok",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 104: 'I enjoy watching it [anime] but… I'm not really… into it'",
+          "value": "casual anime viewer",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 70,72,76,238,246,250,262,272: names Dragon's Dogma, Haunting of Hill House, The Boys, Umbrella Academy, Upload, Black Mirror, Great British Bake Off.",
+          "value": "watches various TV shows (The Boys, Umbrella Academy, Upload, Black Mirror, etc.)",
+          "lines": [
+            70,
+            72,
+            76,
+            238,
+            246,
+            250,
+            262,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 250: 'well like a lot of sci fi'",
+          "value": "science fiction fan",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 324,330: watches movies at home; 'I do not like 12 theaters at all even before the whole covid thing'",
+          "value": "dislikes movie theaters; prefers streaming at home",
+          "lines": [
+            330,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 224,226: 'I love to cook.' 'I just made a cabbage soup last night.'",
+          "value": "passionate home cook",
+          "lines": [
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 230: 'My favorite food is probably salad'",
+          "value": "favorite food: salad",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 120: 'I took german.'",
+          "value": "studied German language in college",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 280: 'I went to two down and date when things first started getting after George Floyd. This murder is…' (ASR for 'two downtown Dayton' protests).",
+          "value": "attended George Floyd protests in Dayton",
+          "lines": [
+            280
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 300,306,308,310,316: 'I'm a Deadpool girl', likes Gambit and Wonder Woman; dislikes Superman and Captain Marvel.",
+          "value": "favorite superheroes: Deadpool, Gambit, Wonder Woman; dislikes Superman, Captain Marvel",
+          "lines": [
+            300,
+            306,
+            308,
+            310,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 210: 'my study right now, the roof has a leak in it' shows she has a dedicated study room.",
+          "value": "has a home study room",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 120: 'I'd love to second asian language' (study an Asian language).",
+          "value": "interested in learning an Asian language",
+          "lines": [
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 124: 'when I took a religions courses, the eastern religions were my favorite to learn about.'",
+          "value": "interested in Eastern religions",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

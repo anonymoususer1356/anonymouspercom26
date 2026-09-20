@@ -1,0 +1,422 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states his name directly when asked.",
+          "value": "Joe",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b first says Michigan, then specifies East Lansing.",
+          "value": "East Lansing, Michigan",
+          "lines": [
+            12,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is originally from Livonia.",
+          "value": "Livonia, Michigan",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states his residency is in Jackson, and speaker_a confirms he is moving there for it. He also mentions moving out of his current apartment.",
+          "value": "Jackson, Michigan (residency location, future move)",
+          "lines": [
+            26,
+            28,
+            71,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says he just graduated with an undergraduate degree in biomedical sciences and finished his medical degree.",
+          "value": "graduated with undergraduate degree in biomedical sciences and medical degree",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b corrects speaker_a's question about residency location by saying 'No psychiatry', and later confirms that is his specialty.",
+          "value": "psychiatry resident",
+          "lines": [
+            32,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions his landlord, move-out date, and extension, indicating he currently rents an apartment.",
+          "value": "currently renting an apartment in East Lansing",
+          "lines": [
+            136,
+            206,
+            234,
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is in the process of purchasing a house, has signed the agreement, and it is his first time buying a home.",
+          "value": "first-time home buyer, purchase in progress",
+          "lines": [
+            138,
+            140,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states his future mortgage payment will be about half of his current rent. ASR 'margin market' intended as 'mortgage'.",
+          "value": "mortgage will be half of current rent",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists the appliances that come with the house he is buying.",
+          "value": "house includes refrigerator, dishwasher, stove/oven, washer/dryer",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his current apartment came furnished, so he does not have much furniture.",
+          "value": "currently has little furniture; apartment came furnished",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes the size of the house he is buying.",
+          "value": "house is 1200 square feet",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states the number of bedrooms.",
+          "value": "house has three bedrooms",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states the number of bathrooms.",
+          "value": "house has one bathroom",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes the house as a 1.5 story with a slanted upper floor.",
+          "value": "house is 1.5 story",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he has been to Meyer; ASR likely Meijer, a Michigan grocery chain.",
+          "value": "shops at Meijer",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I drive by', implying he drives a car.",
+          "value": "drives a car",
+          "lines": [
+            170
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says he bought a decorative picture online from Wayfair or Overstock for his apartment.",
+          "value": "buys home decor online (Wayfair/Overstock)",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he has never done a video chat like this before.",
+          "value": "first time participating in a video chat study",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions using electronic signature for house documents.",
+          "value": "uses electronic signatures",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his current apartment was furnished and he will need to buy a mattress, dresser, and couch for the new house.",
+          "value": "will need to purchase basic furniture for new unfurnished house",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself after speaker_b gives his name.",
+          "value": "Sarah",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Bloomfield Hills.",
+          "value": "Bloomfield Hills, Michigan",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she and her husband have an apartment in Houston in addition to their house in Michigan.",
+          "value": "also has an apartment in Houston, Texas",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states she is married.",
+          "value": "married",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has two kids, refers to them as sons, and gives details about each.",
+          "value": "mother of two sons",
+          "lines": [
+            41,
+            77,
+            213,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's name is Sarah, and she repeatedly refers to herself as a wife and mother; female gender is clearly implied by context.",
+          "value": "female",
+          "lines": [
+            11,
+            213
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she used to work in marketing for hearing aids.",
+          "value": "former marketing professional (hearing aids)",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she currently does nothing work-wise and stopped working a couple of years ago.",
+          "value": "currently not employed outside the home",
+          "lines": [
+            211,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a contrasts 'our house here' with the Houston apartment, indicating they own a house in Bloomfield Hills.",
+          "value": "owns a house in Bloomfield Hills",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have an apartment in Houston.",
+          "value": "has an apartment in Houston (second residence)",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states her husband's job title and employer.",
+          "value": "husband is director of brand management at the University of Houston",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her first house was a bungalow. ASR 'hear house' intended as 'first house'.",
+          "value": "previously owned a bungalow as a first home",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her washing machine died and a new one is coming.",
+          "value": "recently purchased a replacement washing machine",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'when Pat moved like started his job at Houston' while earlier stating her husband works at the University of Houston.",
+          "value": "husband named Pat",
+          "lines": [
+            215,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her older son works for a printing company in Dearborn.",
+          "value": "older son works at a printing company in Dearborn",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her younger son is a high school senior and will attend the University of Houston honors college.",
+          "value": "younger son is a high school senior, committed to University of Houston honors college",
+          "lines": [
+            77,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has a friend whose daughter is a first-year student at Wayne State.",
+          "value": "has a friend with a daughter in medical school at Wayne State",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she is sitting at home a lot since stopping work.",
+          "value": "spends most of her time at home",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes assembling an iron bed frame and memory foam mattress.",
+          "value": "assembles furniture",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using Amazon frequently for purchases and deliveries.",
+          "value": "uses Amazon for shopping and furniture delivery",
+          "lines": [
+            219,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she was at 'the mire' in Waterford; ASR likely Meijer, as earlier context about grocery stores. She shops at a Michigan Meijer location.",
+          "value": "shops at Meijer in Waterford",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her washing machine dying, indicating she does laundry.",
+          "value": "does laundry at home",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a speaks about the home closing process and says it's been a while since she bought a house, and earlier described her first house, showing she has experience as a home buyer.",
+          "value": "has previous experience buying a home",
+          "lines": [
+            145,
+            147,
+            159,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes helping her husband move to Houston, packing suitcases, and furnishing his apartment within a few days.",
+          "value": "assisted in moving and fully furnishing an apartment quickly",
+          "lines": [
+            247,
+            249,
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

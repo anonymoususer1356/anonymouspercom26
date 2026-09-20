@@ -1,0 +1,414 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She states she is from Korea.",
+          "value": "Korea",
+          "lines": [
+            21,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is visiting her boyfriend in the States. Speaker_b identifies the location as east coast, which she confirms.",
+          "value": "United States (east coast, visiting)",
+          "lines": [
+            21,
+            22,
+            23,
+            202
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She explicitly says she is 21.",
+          "value": "21",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as 'asian as fuck'.",
+          "value": "Asian",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'and mexican' (ASR for Mexican) right after stating she is Asian; likely describing mixed ethnicity, but the phrasing could also be garbled. Recorded with lower certainty.",
+          "value": "Mexican",
+          "lines": [
+            211
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She is currently enrolling in an online college for urban architecture engineering, having previously attended an art school and a technical school.",
+          "value": "student",
+          "lines": [
+            55,
+            47,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is from Korea, implying Korean nationality or ethnicity.",
+          "value": "Korean",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she has a mental disorder, though she does not specify which one.",
+          "value": "mental disorder (unspecified)",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions experiencing depressive episodes that keep coming back.",
+          "value": "depressive episodes",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is very tired and just woke up.",
+          "value": "tired",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says her family is not doing well financially.",
+          "value": "family financial struggles",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She attended a government-funded technical school in Korea that paid her a monthly stipend of about $500.",
+          "value": "received government stipend of ~$500/month for technical school in Korea",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She is visiting her boyfriend, who is American and was born and raised in the US.",
+          "value": "has an American boyfriend",
+          "lines": [
+            21,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is meeting her boyfriend's grandmother for the first time today.",
+          "value": "meeting boyfriend's grandmother",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her father when discussing political disagreements.",
+          "value": "has a father",
+          "lines": [
+            221,
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is currently visiting her boyfriend in the United States.",
+          "value": "visiting boyfriend",
+          "lines": [
+            21,
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says she looks like a mess because she is tired and just woke up.",
+          "value": "looks tired/messy",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He says he is from Pennsylvania, suburbs of Philadelphia.",
+          "value": "Pennsylvania, suburbs of Philadelphia",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has lived in a couple of different states including Maryland and New Jersey, staying within the tri-state area; implies he currently lives somewhere in that region.",
+          "value": "tri-state area (PA/NJ/MD)",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states he is 25 years old; earlier the ASR may have misheard '20', but he later clarifies with an explicit 'I'm 25 now'.",
+          "value": "25",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to having a girlfriend and the context (e.g. jail talk about 'other dudes') strongly suggests he is male.",
+          "value": "male",
+          "lines": [
+            126,
+            231,
+            238,
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He is in his last semester of college studying finance and management.",
+          "value": "student (finance and management)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is from the United States (Pennsylvania).",
+          "value": "American",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He describes a serious problem with drugs and alcohol, started using at 17, still uses, and has been to rehab multiple times.",
+          "value": "drug and alcohol addiction",
+          "lines": [
+            82,
+            152,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been to rehab a bunch of times.",
+          "value": "multiple rehab stints",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He currently sees a therapist and says it helps.",
+          "value": "in therapy",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he has always had an addictive personality.",
+          "value": "addictive personality",
+          "lines": [
+            160
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He says he has three DUIs (ASR 'three D. us').",
+          "value": "three DUIs",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He spent the whole last summer in county jail, actually 3-4 months, for a probation violation (failed drug test).",
+          "value": "served 3-4 months in county jail for probation violation",
+          "lines": [
+            74,
+            84,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is currently on probation in a neighboring county.",
+          "value": "currently on probation",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He violated probation by relapsing and providing a urine sample that contained drugs ('hot urine').",
+          "value": "violated probation with drug use",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes a method of faking supervised urine tests to continue using drugs without his probation officer knowing.",
+          "value": "fakes supervised urine tests",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He admits to driving under the influence many times beyond the three DUIs without being caught.",
+          "value": "frequent past DUI not caught",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The jail he was held in is the only privately run jail in Pennsylvania.",
+          "value": "incarcerated in private Pennsylvania jail",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He says he has significant fines and debt from lawyers and court fees.",
+          "value": "debt from legal fees",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He does online surveys for money; this Prolific survey pays $15, which he says is the highest paying one he has seen.",
+          "value": "earns money through online surveys (Prolific)",
+          "lines": [
+            8,
+            10,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He has been dating his girlfriend for about two years; they met at his current school.",
+          "value": "long-term girlfriend (2 years)",
+          "lines": [
+            126,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He has a dog named Gates, after Kevin Gates, adopted about two years ago.",
+          "value": "dog named Gates",
+          "lines": [
+            132,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His father passed away two years ago, around the time he got the dog.",
+          "value": "father deceased",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has family in his life that loves him.",
+          "value": "has supportive family",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He currently uses drugs while on probation and has learned to fake the tests; he expresses a desire to be sober but struggles.",
+          "value": "currently uses drugs despite being on probation",
+          "lines": [
+            148,
+            150,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He set an alarm specifically to wake up for this survey.",
+          "value": "uses alarm for survey participation",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He says he doesn't look his best because he just woke up.",
+          "value": "looks tired/just woke up",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

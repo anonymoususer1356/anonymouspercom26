@@ -1,0 +1,603 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says they are in New York, right near Buffalo, about two hours south of Niagara Falls, and right by one of the Great Lakes (Lake Erie). Lines 7, 21, 23, 69.",
+          "value": "Lives near Buffalo, New York, about 2 hours south of Niagara Falls, near Lake Erie",
+          "lines": [
+            7,
+            21,
+            23,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a moved to their current location a few years ago from a suburb closer to a city (line 89).",
+          "value": "Moved a few years ago from a suburb near a city",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes the immediate area as near the college, industrial, but with farmland and deer a short walk away (line 93).",
+          "value": "Lives near college in an industrial area with nearby farmland and wildlife",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm still like young' (line 47), implying young adulthood.",
+          "value": "Young adult",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm finishing up my master's in college' with major 'music education' (lines 15, 17).",
+          "value": "Graduate student (master's in music education)",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I usually would be teaching summer school' (line 13).",
+          "value": "Teacher (summer school)",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a plays trombone (line 183) and studies music, classifying them as a musician.",
+          "value": "Musician (trombone player)",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states directly 'I have severe asthma' and that it puts them at risk (line 281).",
+          "value": "Has severe asthma",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I just got a job doing doordash' (ASR for DoorDash) (line 275).",
+          "value": "Works as a DoorDash delivery driver",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having the 'Robin Hood' (Robinhood) app and planning to invest in stocks (line 53).",
+          "value": "Uses Robinhood app; plans to invest in stocks",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I try to not use credit as much as possible' because they are young (line 47).",
+          "value": "Avoids using credit cards",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a started Prolific ~3 months ago and has made '85 euros or their pounds pounds' – actually £85 (lines 149, 151).",
+          "value": "Earned £85 from Prolific in approximately 3 months",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says there is no summer school this year (line 13) and 'I'm not teaching this year' (line 271), implying loss of that income.",
+          "value": "No summer school teaching income this year",
+          "lines": [
+            13,
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my partner' and later refers to the partner as 'he' (lines 69, 147).",
+          "value": "Has a male partner",
+          "lines": [
+            69,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my partner's parents were talking about' a Buffalo post‑office issue (line 69).",
+          "value": "Partner's parents involved in local Buffalo affairs",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a buddy who works at 'Maid of the Mist' (ASR: 'maid of the mist') at Niagara Falls (lines 25, 27).",
+          "value": "Friend works at Maid of the Mist boat ride",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'My grandparents have like a really nice cottage on a lake' (line 33).",
+          "value": "Grandparents own a lake cottage",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My aunt lives in texas' (line 247).",
+          "value": "Aunt lives in Texas",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My mom told me about it' referring to Prolific (line 151).",
+          "value": "Mother introduced speaker_a to Prolific",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a stopped reading to play video games (line 177).",
+          "value": "Plays video games",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a plays trombone, listens to 'pop punk and walk' – ASR likely for 'pop punk and rock' – plus classical and jazz (line 183).",
+          "value": "Plays trombone; enjoys classical, jazz, pop punk, and rock music",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'sometimes I listen to country on the radio' (line 185).",
+          "value": "Listens to country music occasionally",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is taking a class called 'Psychological Research in music' this semester, with a 40‑page reading (lines 175, 177).",
+          "value": "Taking 'Psychological Research in Music' class",
+          "lines": [
+            175,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a worked with Amish people (ASR 'monday nights' for Mennonites) in high school, rebuilding a historic warehouse in Rochester that had burned down (lines 97, 99).",
+          "value": "Volunteered in high school in Rochester rebuilding a historic warehouse with Amish/Mennonite workers",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has scheduled three of these audio studies but only one person (speaker_b) showed up (lines 133, 135).",
+          "value": "Participates in audio research studies; experienced no‑shows in previous sessions",
+          "lines": [
+            133,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a started using Prolific about three months ago (line 149).",
+          "value": "Active on Prolific survey platform for ~3 months",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a dislikes touching bugs; killed a wolf spider by dropping a book on it (lines 235, 239, 243).",
+          "value": "Dislikes touching bugs; killed a wolf spider with a book",
+          "lines": [
+            235,
+            239,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a finds textbooks hard to process and takes breaks while reading (line 179).",
+          "value": "Takes frequent breaks when reading academic textbooks",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'nobody's really vacation this year' (line 37), implying they are not traveling.",
+          "value": "Not vacationing this year",
+          "lines": [
+            37
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Virginia', 'about four hours from Virginia Beach', 'I live out in the woods' '15 minutes from town', with deer, and Amish buggies about 10 minutes away (lines 6, 22, 76, 88, 94).",
+          "value": "Lives in rural Virginia, about 4 hours from Virginia Beach, in the woods ~15 minutes from nearest town, near an Amish community",
+          "lines": [
+            6,
+            22,
+            76,
+            88,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'if I remember I grew up for about an hour south of Pittsburgh' (line 92).",
+          "value": "Grew up about an hour south of Pittsburgh, Pennsylvania",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we lived in Cleveland for a number of years' (line 28).",
+          "value": "Lived in Cleveland, Ohio for several years",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's area has 'tons and tons of poultry plants' and nursing homes that spread disease (line 266).",
+          "value": "Lives in an area with many poultry plants and nursing homes",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm 37' outright (line 50).",
+          "value": "37 years old",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my wife' (line 268), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm a pharmacy pharmacy manager' (line 10).",
+          "value": "Pharmacy manager",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was actually a manager at Chick fil A for eight years' (line 166).",
+          "value": "Former Chick-fil-A manager (8 years)",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly mentions growing up Mennonite (ASR 'monday night'), raised without TV or car (lines 104, 106, 108, 114).",
+          "value": "Raised Mennonite",
+          "lines": [
+            104,
+            106,
+            108,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my kids' (line 6), 'a couple of my kids' (line 258), and being married for 13 years (line 186).",
+          "value": "Married with children",
+          "lines": [
+            6,
+            186,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my wife and I actually both went to school to be teachers' (line 268).",
+          "value": "Studied teaching/education",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b is a pharmacy manager (line 10), a regular job.",
+          "value": "Employed as a pharmacy manager",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we've probably paid I don't know about $12,000 of debt off this year' (line 44).",
+          "value": "Paid off approximately $12,000 of debt this year",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b had eight credit cards with high interest; now 'down to 11 credit card' (line 46). ASR '11' is almost certainly 'one' given the context of paying down debt. The intended value is 'one'.",
+          "value": "Reduced credit cards from 8 to 1, eliminating high interest payments",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I get about $40.40 a month' doing Prolific (line 152).",
+          "value": "Earns ~$40 per month from Prolific surveys",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'They're paying me 15 bucks' for this study (line 142).",
+          "value": "Received $15 for participating in this research study",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the positive of not vacationing is 'we saved a bunch of money' (line 42).",
+          "value": "Saved money by not taking a vacation this year",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'maybe when I'm older and retired and have an RV' (line 30), indicating a future economic goal.",
+          "value": "Plans to purchase an RV and travel when retired",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I've been married for 13 years' and 'it'll be 13 next month' (lines 186, 188).",
+          "value": "Married to wife for 13 years",
+          "lines": [
+            186,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says both he and his wife studied teaching, and they are homeschooling (lines 268, 266).",
+          "value": "Wife is a teacher by training; they homeschool their children",
+          "lines": [
+            268,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my kids' (line 6) and 'a couple of my kids had to go to the doctor' (line 258), indicating multiple children.",
+          "value": "Has multiple children",
+          "lines": [
+            6,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his mom 'would play by ear, like play piano by ear' and 'can sing beautifully too' (lines 212, 214, 216).",
+          "value": "Mother is musically talented (plays piano by ear, sings)",
+          "lines": [
+            212,
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my grandpa and my grandma, which passed away a couple years ago, still had that like very Amish look' (line 102).",
+          "value": "Grandparents deceased, looked Amish",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'most of my family, majority of the family are still by tonight' (ASR for 'Mennonite') and 'I always felt a little bit like the black sheep' (lines 122, 124).",
+          "value": "Majority of extended family still Mennonite; speaker_b feels like the black sheep",
+          "lines": [
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes 'my big family reunions still have like 50 cousins' (line 122).",
+          "value": "Has a large extended family (~50 cousins) with regular reunions",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'just at home watching movies with my kids' on a rainy Saturday (line 6).",
+          "value": "Enjoys watching movies with his children",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b worked a half day on Saturday in the past (line 6).",
+          "value": "Sometimes works half days on Saturdays",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b got into country music before his wedding because love songs are emotional (lines 188, 190, 194).",
+          "value": "Listens to country music, especially love songs",
+          "lines": [
+            188,
+            190,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b played piano for years, learned an easy version of Moonlight Sonata, and played it nightly before bed to calm down (lines 216, 222, 226).",
+          "value": "Plays piano casually (favorite piece: Moonlight Sonata, easy version)",
+          "lines": [
+            216,
+            222,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b grew up Mennonite without TV or car, now embraces modern comforts (line 106).",
+          "value": "Grew up in a simple Mennonite lifestyle without TV or car; now enjoys modern amenities",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has deer, raccoons, skunks on his property, and once saw a rattlesnake (lines 88, 256).",
+          "value": "Lives in a wildlife‑rich rural area (deer, raccoons, skunks, rattlesnake)",
+          "lines": [
+            88,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b hasn't travelled much but would like to travel in an RV when retired (line 30).",
+          "value": "Does not travel much currently; aspires to RV travel in retirement",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b started Prolific in January/February, makes ~$40/month, and finds it educational and fun (lines 152, 154).",
+          "value": "Active on Prolific, values the educational and academic nature of the studies",
+          "lines": [
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says this is his fourth (and last allowed) audio conversation study (lines 128, 142).",
+          "value": "Participates in audio conversation research studies (completed all 4 allowed sessions)",
+          "lines": [
+            128,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b watched CNN and C‑SPAN yesterday about the postmaster general (line 66).",
+          "value": "Follows news on CNN and C‑SPAN",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we were going to home school' and that both he and his wife have teaching backgrounds (lines 266, 268).",
+          "value": "Homeschooling his children",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b planned to go to Virginia Beach but canceled due to pandemic danger (line 38).",
+          "value": "Canceled vacation plans due to the COVID‑19 pandemic",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

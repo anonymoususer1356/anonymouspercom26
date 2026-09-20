@@ -1,0 +1,517 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States she is in Philadelphia, her office is on Independence Mall, and she lives in the suburbs and works in the city.",
+          "value": "Philadelphia, PA area (lives in suburbs, works in city)",
+          "lines": [
+            37,
+            43,
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I work in marketing at a nonprofit'.",
+          "value": "Works in marketing at a nonprofit",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I was married three years ago' and refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'went to school in Vermont'.",
+          "value": "Attended school in Vermont",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Employed in marketing at a nonprofit, providing income.",
+          "value": "Employed in marketing at a nonprofit",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when I got a house' implying homeownership.",
+          "value": "Homeowner",
+          "lines": [
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Confirms using Prolific and says she 'just started last week' for extra money.",
+          "value": "Participates in Prolific surveys for side income",
+          "lines": [
+            9,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions 'my husband'.",
+          "value": "Has a husband",
+          "lines": [
+            67,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my in laws live nearby'.",
+          "value": "In-laws live nearby",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My cousins from there' when discussing Cincinnati.",
+          "value": "Has a cousin from Cincinnati",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I make my coworkers hold their cats up'.",
+          "value": "Has coworkers",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about friends in multiple contexts (game nights, less fortunate friends).",
+          "value": "Has friends",
+          "lines": [
+            81,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I don't like being at home at all' and 'I like to be out doing things'.",
+          "value": "Prefers going out over staying home",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'been kind of traveling a lot' since marriage.",
+          "value": "Enjoys traveling",
+          "lines": [
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes playing Scribble.io and Code Names online with friends.",
+          "value": "Plays online games with friends",
+          "lines": [
+            143,
+            149,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly asks about drinking over Zoom and says she will drink her beverage.",
+          "value": "Drinks beverages during video calls",
+          "lines": [
+            135,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses desire for a cat; currently has no pets.",
+          "value": "Wants a cat, currently pet-free",
+          "lines": [
+            65,
+            67,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates she is working from home currently.",
+          "value": "Works from home",
+          "lines": [
+            71,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'it's a long commute for me' when discussing return to office.",
+          "value": "Has a long commute to work",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm also relatively introverted'.",
+          "value": "Introverted",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about ordering food from local places to support them.",
+          "value": "Supports local restaurants by ordering takeout",
+          "lines": [
+            199,
+            203,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her background is a beige blank wall.",
+          "value": "Has a plain beige wall as video background",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'I'm Lindsay laura' which speaker_a interprets as 'Laura'; the intended name is almost certainly Laura.",
+          "value": "Laura",
+          "lines": [
+            268,
+            269
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Confirms she is in Cincinnati, mentions nearby states, and says she was born in Columbus but is Ohio-based.",
+          "value": "Cincinnati, OH",
+          "lines": [
+            32,
+            33,
+            46,
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm a teacher' and works in an inner city school district.",
+          "value": "Teacher at inner city school district",
+          "lines": [
+            4,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a history teacher'.",
+          "value": "History teacher",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'this will be my fifth year'.",
+          "value": "Fifth-year teacher",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions coaching basketball in winter and buying food for the girls.",
+          "value": "Basketball coach",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "References being in college and an apartment that wouldn't allow pets.",
+          "value": "College graduate",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was born in columbus'.",
+          "value": "Born in Columbus, OH",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Primary occupation is teacher.",
+          "value": "Employed as a teacher",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Does Prolific surveys (and other sites) for extra money, started in the fall.",
+          "value": "Earns extra income from Prolific surveys",
+          "lines": [
+            16,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she used her stimulus money to buy a washer and dryer.",
+          "value": "Used federal stimulus money for appliances",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my house', repaints rooms, and talks about making a guest room.",
+          "value": "Lives in a house (own or rent)",
+          "lines": [
+            228,
+            244
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she bought a washer and dryer.",
+          "value": "Owns a washer and dryer",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'no, I live by myself'.",
+          "value": "Lives alone",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my brother used to live with me'.",
+          "value": "Has a brother",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she visits her parents and they live nearby.",
+          "value": "Parents live nearby",
+          "lines": [
+            176,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my cats behind here' and later describes the cat's behavior.",
+          "value": "Has a cat",
+          "lines": [
+            10,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a dog also'.",
+          "value": "Has a dog",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses teaching and interacting with her students.",
+          "value": "Has students",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Coached a basketball team and bought food for the girls.",
+          "value": "Coaches a basketball team",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about setting up online games with them.",
+          "value": "Has friends",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I've enjoyed this time at home'.",
+          "value": "Enjoys spending time at home",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am pretty introverted anyway'.",
+          "value": "Introverted",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes repainting a room, making a guest room, and wanting to redo the bathroom.",
+          "value": "Engages in home improvement projects",
+          "lines": [
+            228,
+            238,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions ordering wings from a local bar that recently reopened.",
+          "value": "Orders takeout from local wing bar",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about playing Farmville, having a Tamagotchi, and wanting Animal Crossing.",
+          "value": "Plays casual video games",
+          "lines": [
+            160,
+            162,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses posting assignments online, struggling with student access, and doing professional development for remote teaching.",
+          "value": "Teaches remotely and does online professional development",
+          "lines": [
+            84,
+            86,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she picked up and delivered 11 iPads to students.",
+          "value": "Delivered devices to students",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she used Prolific earnings to buy food for the basketball team.",
+          "value": "Uses survey income for team expenses",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she visits her parents when she feels lonely.",
+          "value": "Visits parents for company",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has always had a pet, except one year in college when the apartment didn't allow it.",
+          "value": "Lifelong pet owner (except one college year)",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes there are many Indian restaurants around her.",
+          "value": "Lives near Indian restaurants",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Wanted Animal Crossing but didn't want to buy a Switch just for that.",
+          "value": "Considered buying Nintendo Switch for Animal Crossing",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she used to take laundry to her parents' house before buying the washer/dryer.",
+          "value": "Used to do laundry at parents' house",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

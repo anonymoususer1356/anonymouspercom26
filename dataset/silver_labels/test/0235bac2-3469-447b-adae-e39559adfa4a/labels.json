@@ -1,0 +1,233 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name twice: 'I'm James'.",
+          "value": "James",
+          "lines": [
+            5,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in the Connecticut suburb'.",
+          "value": "Connecticut suburb",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in my mid thirties'.",
+          "value": "mid thirties",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'll vote' in the context of the U.S. presidential election and discusses candidates like Biden and Trump, indicating he is a U.S. citizen/voter.",
+          "value": "U.S. voter",
+          "lines": [
+            29,
+            91,
+            95,
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'because I have a motor disability which is fine'.",
+          "value": "motor disability",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions participating in paid conversation studies: 'I've done these studies... every once in a while... they've offered it multiple times' and the conversation itself is a timed study session.",
+          "value": "participates in paid research studies",
+          "lines": [
+            227,
+            1,
+            9,
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says his mother died at 51: 'my mother was 51... She passed' and refers to 'my mother's last holiday' as Thanksgiving.",
+          "value": "mother deceased at age 51",
+          "lines": [
+            141,
+            143,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a bunch of nurses' implying multiple caregivers due to his disability.",
+          "value": "has multiple nurses",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm really not in the mood to go out' even though the weather is nice, indicating a preference for staying indoors.",
+          "value": "prefers staying home",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says his best dish is microwave popcorn, suggesting minimal cooking.",
+          "value": "microwave popcorn as best dish",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions attending Halloween parties in his twenties.",
+          "value": "attended Halloween parties in 20s",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a calls himself 'a gigantic wrestling mark', indicating he is a passionate fan of professional wrestling.",
+          "value": "wrestling fan",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he participates in these conversation studies repeatedly over time.",
+          "value": "regularly participates in conversation studies",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in the midwest. I'm in Illinois.' then specifies 'I'm in Chicago.'",
+          "value": "Chicago, Illinois",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I got a two year old daughter now', indicating he is a parent of a young child.",
+          "value": "parent of a 2-year-old daughter",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b encourages voting and discusses U.S. election outcomes, implying he is a U.S. citizen/voter.",
+          "value": "U.S. voter",
+          "lines": [
+            30,
+            32,
+            86,
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'No, I'm an attorney actually.'",
+          "value": "occupation: attorney",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I switched jobs to start working at a hospital about three months before the pandemic started' and describes assisting with hospital logistics.",
+          "value": "employed at a hospital",
+          "lines": [
+            70,
+            74,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I got a two year old daughter now'.",
+          "value": "has a 2-year-old daughter",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My dad made it to 80 and ... passed away months later' and when asked confirms cancer.",
+          "value": "father deceased at age 80 from cancer",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he will be doing trick-or-treating for the first time in years because of his daughter.",
+          "value": "going trick-or-treating with daughter this year",
+          "lines": [
+            216,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions enjoying the rest of the NBA finals, suggesting he follows basketball.",
+          "value": "watches NBA",
+          "lines": [
+            234
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

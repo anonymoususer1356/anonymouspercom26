@@ -1,0 +1,384 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are in their brother's room (line 35), that their brother is not home (line 37), and they are using his monitor to study (lines 39, 125). They also refer to 'my house' (line 165), indicating this is their residence.",
+          "value": "in brother's room at home",
+          "lines": [
+            35,
+            37,
+            39,
+            125,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions construction near their house that started around the time COVID began (line 165), with work literally right outside their house (line 167), and that it intermittently resumes after completion (line 179).",
+          "value": "lives near road construction that occurs intermittently",
+          "lines": [
+            165,
+            167,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says they need to catch up with studying for school (line 79), are currently in pharmacy school (line 83), and are in their second year (line 101).",
+          "value": "second-year pharmacy school student",
+          "lines": [
+            79,
+            83,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I majored in biochemistry' (line 327).",
+          "value": "biochemistry major",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes holding a teaching assistant position (line 265) and later specifies it was for organic chemistry lab (line 271, ASR 'taking' but context shows TAing). They also mention meeting other TAs (line 307).",
+          "value": "TA for organic chemistry lab",
+          "lines": [
+            265,
+            271,
+            307
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'it was actually my birthday on friday' (line 75). Speaker_b earlier confirms the day is Sunday (line 14), placing the birthday two days earlier.",
+          "value": "birthday was last Friday",
+          "lines": [
+            75,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they work at a pharmacy inside a grocery store (line 143) and that it is not a CVS or Walgreens (line 145).",
+          "value": "pharmacy employee at a grocery store",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they started using Prolific around April ('me or like april' line 237, likely 'maybe around April'), during a time when they were bored in school.",
+          "value": "started Prolific around April",
+          "lines": [
+            237
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'I haven't been going to work recently' (line 141).",
+          "value": "has not been going to work recently",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they work at a pharmacy inside a grocery store (line 143) and that it is not a CVS or Walgreens (line 145).",
+          "value": "works at a pharmacy inside a grocery store",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions looking for ways to make extra cash (line 241) and having started Prolific (line 237).",
+          "value": "uses Prolific to earn extra money",
+          "lines": [
+            237,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my brother's room' (line 35) and 'he's not at home' (line 37).",
+          "value": "has a brother",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my friend had like a camera, like she took most of the pictures' (line 71) and adds 'she's like the type of person who's on top of things' (line 73).",
+          "value": "has a female friend who took photos at the pumpkin patch",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a male friend who got lost driving to the farm, noting it was 'part of like his birthday weekend sort of thing' (line 55) and that he went home angry (line 57).",
+          "value": "has a male friend who got lost on his birthday weekend",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says a female friend they told about Prolific gets constant notifications (line 253).",
+          "value": "has a female friend who gets many Prolific notifications",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says another female friend tried Prolific but she can't get any studies (line 257, ASR 'she can get anything' meaning can't).",
+          "value": "has a female friend who tried Prolific unsuccessfully",
+          "lines": [
+            257
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a explains they study in their brother's room because he has a monitor they lack (lines 35, 39, 125), and that libraries and cafes are inaccessible (line 119).",
+          "value": "studies at home using brother's monitor due to closed libraries/cafes",
+          "lines": [
+            35,
+            39,
+            119,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a takes classes from home via computer, only going in person for exams involving patient interaction (lines 101, 103).",
+          "value": "attends pharmacy classes online, with in-person patient exams",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a went to a farm to see pumpkin patches yesterday (line 47).",
+          "value": "visited a pumpkin patch on the weekend",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a went out both Friday and Saturday for their birthday (line 75).",
+          "value": "went out on Friday and Saturday for birthday celebration",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a claims to be a fast typer ('fast hyper' line 355) and recounts writing a 15-page paper the day before it was due (line 353).",
+          "value": "fast typer, wrote a 15-page paper in one day",
+          "lines": [
+            353,
+            355
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a's TA job involved grading many assignments and proctoring exams (lines 265, 361).",
+          "value": "worked as a TA grading papers and proctoring exams",
+          "lines": [
+            265,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has done the current study a few times before (line 25).",
+          "value": "has participated in this study a few times before",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b mentions hearing a car's brakes screech in their neighborhood (line 160).",
+          "value": "resides in a neighborhood",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they also experience construction near home, with work resuming after they think it's done (lines 168, 182).",
+          "value": "experience intermittent construction near home",
+          "lines": [
+            168,
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also like looking for jobs' (line 186).",
+          "value": "currently seeking employment",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they 'do mostly home stuff and my partner' (line 186), suggesting home management.",
+          "value": "primarily handles home responsibilities",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I started it like three weeks ago' regarding Prolific (line 232).",
+          "value": "started using Prolific three weeks ago",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b used to participate in studies during undergrad (line 264, ASR 'new' for 'do').",
+          "value": "did research studies as an undergrad",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I had physics' (line 320) when discussing lab courses.",
+          "value": "took physics courses in college",
+          "lines": [
+            320
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b's undergraduate school had biology as a weed-out class (line 344).",
+          "value": "school where biology was a weed-out class",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also like looking for jobs' (line 186).",
+          "value": "unemployed and looking for jobs",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b has a romantic partner (lines 44, 86).",
+          "value": "has a partner",
+          "lines": [
+            44,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'My partner is in nursing school' (line 86).",
+          "value": "partner is in nursing school",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says friends in undergrad got tons of studies while they got few (line 264).",
+          "value": "had friends who received many research studies",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b spent time with their partner on the weekend (line 44).",
+          "value": "hung out with partner during the weekend",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b actively uses Prolific, having started three weeks ago (line 232).",
+          "value": "participates in Prolific studies",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b hears car brake screeches in their neighborhood (line 160).",
+          "value": "hears car brake screeches in neighborhood",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b deals with intermittent construction noise (lines 168, 182).",
+          "value": "experience intermittent construction noise at home",
+          "lines": [
+            168,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has completed the current study four times in its current version (line 30).",
+          "value": "completed the current study four times",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

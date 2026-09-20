@@ -1,0 +1,429 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name directly.",
+          "value": "William",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b asks what he does in Pittsburgh and wishes him luck there; speaker_a says he has only been there four or five days.",
+          "value": "Pittsburgh, Pennsylvania",
+          "lines": [
+            7,
+            18,
+            19,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is originally from Mississippi and later refers to 'the governor back home' in Mississippi.",
+          "value": "Mississippi (originally from)",
+          "lines": [
+            13,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he spent time in North Carolina and later mentions voting from North Carolina in 2016.",
+          "value": "North Carolina (has lived in)",
+          "lines": [
+            13,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he spent time in Florida and later mentions doing an open enrollment thing in Florida.",
+          "value": "Florida (has lived in)",
+          "lines": [
+            13,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was briefly stationed in San Antonio while in the military.",
+          "value": "San Antonio, Texas (briefly stationed)",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I used to be in the military' and mentions Tricare and being stationed.",
+          "value": "former military (veteran)",
+          "lines": [
+            131,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He expresses views aligned with the Democratic party: likes Warren, Bernie, Julian Castro; says any Democrat; wants to get rid of Electoral College; supports Medicare for All.",
+          "value": "left-leaning / Democrat",
+          "lines": [
+            129,
+            137,
+            195,
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He asks about Prolific and says he has been doing it for six weeks.",
+          "value": "Prolific participant",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He admits he is probably one of the people who are not good at sleep and mentions trying to wake up by 8:30 without napping.",
+          "value": "poor sleep habits / trying to wake at 8:30",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says he has been sneezing a lot and hopes it is not Covid; possible cold symptoms.",
+          "value": "sneezing / possible cold symptoms",
+          "lines": [
+            175
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He says he got to vote from North Carolina in 2016, indicating he was a registered voter there.",
+          "value": "registered voter in North Carolina (2016)",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He says he has only been in Pittsburgh four or five days and is still trying to find something, implying current unemployment/seeking work.",
+          "value": "currently unemployed / seeking employment",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having a customer service text background.",
+          "value": "background in customer service",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions working for one of the contractors Apple uses (ASR 'I you still work' interpreted as 'I used to work').",
+          "value": "previously worked for an Apple contractor",
+          "lines": [
+            21
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says doing Prolific is an easy way to make a few bucks.",
+          "value": "earns money through Prolific studies",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'I have a friend who lives in Lafayette indiana'.",
+          "value": "has a friend in Lafayette, Indiana",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I like basketball'.",
+          "value": "basketball fan",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been working his way through Grey's Anatomy for about three years.",
+          "value": "watches Grey's Anatomy",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about the book Hillbilly Elegy and the Netflix adaptation, expressing interest in watching it.",
+          "value": "interested in film Hillbilly Elegy",
+          "lines": [
+            165,
+            166,
+            167,
+            168,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I started wearing my last like in March' where 'last' is phonetically 'mask', indicating he wears a face mask for COVID.",
+          "value": "wears a face mask for COVID-19",
+          "lines": [
+            175
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I have done a pretty good job of not doing things' referring to avoiding risky activities during the pandemic.",
+          "value": "avoids activities due to COVID-19",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions looking forward to being able to go to concerts next year.",
+          "value": "enjoys concerts",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states her name directly.",
+          "value": "Carisa",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I am in indiana' when asked where she is talking from.",
+          "value": "Indiana (current)",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she moved to Indiana for school about a year ago.",
+          "value": "moved to Indiana for school a year ago",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm originally from the East Coast'.",
+          "value": "originally from the East Coast",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says previously she was voting in Rhode Island, indicating she lived there before Indiana.",
+          "value": "previously lived in Rhode Island",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I am a grad student' and describes her study area and teaching.",
+          "value": "graduate student (sleep, stress, memory)",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name and no contradictory cues indicate female gender.",
+          "value": "woman",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses support for Bernie, Warren, opposes Trump, wants popular vote, aligned with left-leaning politics.",
+          "value": "left-leaning / Democrat",
+          "lines": [
+            130,
+            138,
+            202,
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She confirms she found this study through Prolific and mentions signing up for similar studies.",
+          "value": "Prolific participant",
+          "lines": [
+            44,
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She says she is pretty excited to vote in Indiana this year, indicating she is a registered voter there or will be.",
+          "value": "registered voter in Indiana (current)",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says previously she was voting in Rhode Island, indicating she was a registered voter there.",
+          "value": "previously voted in Rhode Island",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says 'I'm working remotely which is fine' and is a grad student who teaches, implying she has a graduate assistantship or similar paid position.",
+          "value": "employed remotely as graduate student (research/teaching)",
+          "lines": [
+            24,
+            26,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She participates in online studies, likely for payment through Prolific.",
+          "value": "earns money through online studies",
+          "lines": [
+            44,
+            52
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my boyfriend tries to explain it to me'.",
+          "value": "has a boyfriend",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have five siblings'.",
+          "value": "has five siblings",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says three of her siblings are under the age of six.",
+          "value": "three siblings under age six",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my parents are crazy'.",
+          "value": "has parents",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I like baseball' and mentions going to Red Sox games when back home.",
+          "value": "baseball fan (Boston Red Sox)",
+          "lines": [
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to concerts last year and wanted to go this year.",
+          "value": "enjoys concerts",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching 'Into the Lake' on Netflix (ASR 'wanted washing' interpreted as 'watching').",
+          "value": "watches Netflix (show Into the Lake)",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is working remotely due to the pandemic.",
+          "value": "works remotely",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes signing up for and participating in online research studies like this one.",
+          "value": "participates in online research studies",
+          "lines": [
+            52,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

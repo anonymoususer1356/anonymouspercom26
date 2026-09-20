@@ -1,0 +1,433 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "After speaker_b says her name is Andrea, speaker_a remarks it is almost the same as his, minus Andrea's, and spells out 'And E' for short. The exchange suggests his short name is Andi, though ASR is ambiguous; exact spelling may be Andy.",
+          "value": "Andi (short name)",
+          "lines": [
+            6,
+            7,
+            8,
+            9
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm in Missouri' and later clarifies they moved back to Kansas City, and mentions Kauffman Stadium (Royals Stadium) in Kansas City.",
+          "value": "Kansas City, Missouri (current residence)",
+          "lines": [
+            25,
+            147,
+            149,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'Originally I'm from Germany'.",
+          "value": "Germany (origin country)",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says 'my hometown, which is cologne'.",
+          "value": "Cologne, Germany (hometown)",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions they lived in a small town close to Indianapolis called Plainfield for almost three years.",
+          "value": "Plainfield, Indiana (former residence)",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Refers to 'my wife', indicating male gender.",
+          "value": "male",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my wife'.",
+          "value": "married",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'last year I finally became a US citizen' and details the naturalization process.",
+          "value": "US citizen (naturalized)",
+          "lines": [
+            95,
+            187,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'Originally I'm from Germany' and later notes he lost German citizenship.",
+          "value": "German origin",
+          "lines": [
+            25,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'you can probably hear my accent' and speaker_b confirms 'a little bit'.",
+          "value": "speaks English with a German accent",
+          "lines": [
+            25,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Describes becoming a US citizen last year, oath ceremony on August 29 at Kauffman Stadium.",
+          "value": "naturalized US citizen, oath ceremony August 29 at Kauffman Stadium, Kansas City",
+          "lines": [
+            95,
+            187,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've lost my german citizenship' and explains that without asking for permission it was automatically lost when acquiring US citizenship.",
+          "value": "lost German citizenship",
+          "lines": [
+            179,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions going to Chicago in 2014 to renew his German passport at the embassy.",
+          "value": "held German passport, renewed in 2014",
+          "lines": [
+            167,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my green card was expiring last year' before applying for citizenship.",
+          "value": "held a US green card prior to citizenship",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Says he does 'a lot of free land stuff and prolific', 'micro workers', and works at the computer with the Prolific extension open all day, getting 2-4 studies a day.",
+          "value": "does freelance micro-work and Prolific surveys for income",
+          "lines": [
+            31,
+            35,
+            37,
+            41,
+            53,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm trying to find something new' after the web design business ended.",
+          "value": "currently looking for new job or career",
+          "lines": [
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he had a job as a web designer, started a website business with a partner in 2006, which lasted 13 years.",
+          "value": "former co-owner of a web design business (2006–~2019)",
+          "lines": [
+            37,
+            135,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he learned to be a tax consultant in Germany and worked as one for 16.5 years.",
+          "value": "worked as a tax consultant in Germany for 16.5 years",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his wife getting a job offer with the government, moving to Indiana and then back to Kansas City.",
+          "value": "married to a wife who works for the government",
+          "lines": [
+            143,
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says the business partner and he 'kind of broke up' and he started the website business with a partner in Georgia.",
+          "value": "had a business partner in Georgia, partnership ended",
+          "lines": [
+            37,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My parents live there and my brother' in Germany.",
+          "value": "parents and brother living in Germany",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his dad's two sisters immigrated to England and Australia, giving him relatives there.",
+          "value": "has extended family (aunts) in England and Australia",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he started studying weather as an amateur, checks the Storm Prediction Center website daily, and learned about tornado formation over almost 10 years.",
+          "value": "amateur meteorologist, daily weather study",
+          "lines": [
+            317,
+            323,
+            349,
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is totally interested in space, reads space.com every day, and would love to work for NASA.",
+          "value": "space enthusiast, daily follower of space news",
+          "lines": [
+            357,
+            359,
+            361,
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses appreciation for state parks, especially those in Indiana, and says Indiana was his favorite place.",
+          "value": "enjoys state parks and outdoor scenery",
+          "lines": [
+            155,
+            157,
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Misses German food, mentions German goulash and white asparagus as favorites, and cooks a little bit.",
+          "value": "enthusiast of German cuisine, occasional home cook",
+          "lines": [
+            253,
+            255,
+            263,
+            273
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he is 'locked in there all day long' at the computer with Prolific extension open.",
+          "value": "works from home at the computer all day",
+          "lines": [
+            59,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself with 'My name is Andrea'.",
+          "value": "Andrea",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I live in michigan' and later 'I am a student um in michigan'.",
+          "value": "Michigan (current residence)",
+          "lines": [
+            22,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions being in Massachusetts for a while and the flight leaving Boston.",
+          "value": "Boston, Massachusetts (past residence)",
+          "lines": [
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Recalls a trip to Germany a few years ago and says 'we were living in Heidelberg'.",
+          "value": "Heidelberg, Germany (past temporary residence)",
+          "lines": [
+            272
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I am a student um in michigan' and describes her residency/internship.",
+          "value": "student, dietetic intern",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she finished her Master's degree this past May.",
+          "value": "holds a Master's degree (dietetics/nutrition)",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is 'going to be a dietitian' and after internship and exam will start practicing.",
+          "value": "aspiring dietitian",
+          "lines": [
+            202,
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Describes the one-year residency/internship as 'actually not paid'.",
+          "value": "unpaid dietetic internship",
+          "lines": [
+            202,
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is impressed by how much she can make on Prolific in a short time, and confirms she uses it like speaker_a.",
+          "value": "earns money through Prolific surveys",
+          "lines": [
+            36,
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Recounts having a friend studying abroad in the US who lived in her house, then traveling to France with her.",
+          "value": "close friend (exchange student) lived with her",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she grew up camping every summer, suggesting family tradition.",
+          "value": "family that goes camping together",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes camping trips in state parks every summer and walking along sand dunes; also did camping trips this past summer.",
+          "value": "avid camper and outdoor enthusiast",
+          "lines": [
+            162,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions walking 12 miles in one day in Paris to see everything.",
+          "value": "enjoys hiking and sightseeing on foot",
+          "lines": [
+            246
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Traveled to France for a month over Christmas/New Year's, experienced local traditions, and visited Germany a few years ago.",
+          "value": "international traveler, enjoys cultural immersion",
+          "lines": [
+            108,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her favorite part of France was the food, and everything tasted amazing.",
+          "value": "food lover, enthusiastic about trying cuisines",
+          "lines": [
+            250,
+            252
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Does Prolific surveys when she logs on, doesn't sit on it all day, and asked about the Chrome extension.",
+          "value": "casual online survey earner, tech-savvy student",
+          "lines": [
+            48,
+            64,
+            68
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

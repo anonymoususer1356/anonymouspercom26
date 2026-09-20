@@ -1,0 +1,267 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm in michigan' (13) and later mentions Michigan's cold weather as current experience (197). Previously she states 'I was in Connecticut beforehand' (23) and 'I was from Connecticut' (245).",
+          "value": "currently lives in Michigan; formerly lived in Connecticut",
+          "lines": [
+            13,
+            197,
+            23,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I major in kinesiology' (271) and attended college (245), implying a degree. She also explicitly states she was in the Peace Corps (75, 327) and plans to join the Coast Guard in January (281).",
+          "value": "college graduate (kinesiology major)",
+          "lines": [
+            271,
+            245
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "explicitly says she was in the Peace Corps beforehand (75) and describes her service (327).",
+          "value": "former Peace Corps volunteer",
+          "lines": [
+            75,
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "states 'I'm actually going to join the Coast Guard in january' (281).",
+          "value": "planning to join the Coast Guard in January",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I like to take care of kids currently' (73) and later specifies the children's ages (189), indicating paid childcare.",
+          "value": "works as a nanny for two children",
+          "lines": [
+            73,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "she says she uses Prolific 'to make extra cash as well' (73) and notes this is her third time on the task (7).",
+          "value": "uses Prolific to earn extra cash",
+          "lines": [
+            73,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "explicitly says 'the kids that I take care of their five and 6' (189).",
+          "value": "nanny for a 5‑year‑old and a 6‑year‑old",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "mentions 'my parents wanted to do the whole appellation trim' (373).",
+          "value": "has parents",
+          "lines": [
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "says 'then I found like my best friend after that' referring to college years (261).",
+          "value": "has a best friend from college",
+          "lines": [
+            261
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "states 'we have two hermit crabs' (163), indicating shared pet ownership.",
+          "value": "has two hermit crabs as pets",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "describes Peace Corps living conditions: bamboo house, no electricity, no running water in a South West Pacific nation (327, 349).",
+          "value": "lived in a bamboo hut without electricity/running water on a Pacific island as a Peace Corps volunteer",
+          "lines": [
+            327,
+            349
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "says she took a gap semester in Asia: 'volunteered in ASia … Tyler (Thailand) and Vietnam cambodia, then went up to Nepal' (275).",
+          "value": "traveled to Thailand, Vietnam, Cambodia, Nepal during a gap semester",
+          "lines": [
+            275
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I am in south Carolina' (10). When asked where in SC, she says 'Mhm upstairs.' (56), which ASR likely captured as 'upstairs' but phonetically matches 'upstate'. She says 'I go to school up in the mountains' (368) confirming upstate. She also indicates she is not near Myrtle Beach: 'No, no, where close, close to Myrtle Beach' (62) meaning nowhere close.",
+          "value": "Upstate South Carolina (mountainous area)",
+          "lines": [
+            10,
+            56,
+            62,
+            368
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "when asked years left in school, says 'I'm a junior' (82) and 'Almost done' (86).",
+          "value": "college junior",
+          "lines": [
+            82,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "when asked what she wants to go into, says 'Marine biology.' (36) and later 'I just do biology for undergrad' (38).",
+          "value": "marine biology major",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "explains 'it's a private school so I guess that's why we haven't ended up going home yet' (264).",
+          "value": "attends a private college",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "says 'my health has kind of gotten to where I can't do it so much but I used to go hiking with every weekend' (366), indicating a limiting condition.",
+          "value": "health condition that restricts physical activity",
+          "lines": [
+            366
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "when asked what brings her to Prolific, says 'Just making some extra cash' (68).",
+          "value": "uses Prolific to earn extra cash",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "states 'I don't really have a good job going' and 'mostly the school' (208).",
+          "value": "unemployed, full‑time student",
+          "lines": [
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "when asked why she chose her school, says 'Yeah I got a good scholarship' (266).",
+          "value": "has a scholarship for college",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "in response to 'You always lived there?' she says 'I have family.' (16), connecting family to South Carolina.",
+          "value": "has family in South Carolina",
+          "lines": [
+            16
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "confirms on‑campus living with a roommate: 'Yeah I do I have one roommate.' (238) and 'she's been my roommate for all of college' (240). She also indicates the roommate is a senior and in biology (308, 316).",
+          "value": "has a female college roommate (senior, biology major)",
+          "lines": [
+            238,
+            240,
+            308,
+            316
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "mentions having a dog beside her; when asked what kind, says 'Yeah he said Deborah and Mix.' (148), phonetically 'Doberman mix'. She calls him 'he' and refers to him being 'a little bit of a mess' (150).",
+          "value": "owns a Doberman‑mix dog",
+          "lines": [
+            146,
+            148,
+            150
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "states 'I swam for most of my life competitively' (106) and 'now right now college is too much' (108).",
+          "value": "former competitive swimmer",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "says 'I live on campus pretty much … I'm about two minutes from the building' (262) and earlier indicated on‑campus roommate.",
+          "value": "lives on campus (college housing)",
+          "lines": [
+            262,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "states 'I love the outdoors … I used to go hiking with every weekend' before health limited it (366).",
+          "value": "used to hike regularly",
+          "lines": [
+            366
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

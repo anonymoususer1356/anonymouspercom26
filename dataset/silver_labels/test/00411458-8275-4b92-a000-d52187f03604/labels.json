@@ -1,0 +1,366 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name directly.",
+          "value": "Chris",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I live here in which to Kansas' (ASR error for Wichita, Kansas) and later specifies living in Wichita right next to the airport.",
+          "value": "Wichita, Kansas",
+          "lines": [
+            9,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions speaking German and having lived in Germany growing up.",
+          "value": "Lived in Germany while growing up",
+          "lines": [
+            97,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly calls himself a millennial.",
+          "value": "Millennial",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I speak german as well'.",
+          "value": "Speaks German",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when I was in working my master's degree', indicating he was working on a master's degree. Completion is not explicitly stated, but the act of pursuing it is clear.",
+          "value": "Worked on a master's degree",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I work at a construction supply company here' in Wichita.",
+          "value": "Employed at a construction supply company in Wichita, Kansas",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a managerial position'.",
+          "value": "Has a managerial position",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions getting on his forklift to finish assigned work.",
+          "value": "Operates a forklift at work",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses using Prolific, MTurk, and user testing as flexible side hustles for extra money.",
+          "value": "Participates in online task/survey platforms (Prolific, MTurk, user testing) for extra income",
+          "lines": [
+            17,
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I do a lot of the stocks and crypto on Robin Hood'.",
+          "value": "Uses Robinhood app for stock and cryptocurrency trading",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his dad was in the Air Force, came to McConnell in Wichita.",
+          "value": "Father served in the Air Force, stationed at McConnell AFB",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his mom got a farm when they moved to Kansas.",
+          "value": "Mother owns a farm in Kansas",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my brother is married to a black woman'.",
+          "value": "Brother is married to a Black woman",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions sending a screenshot to his sister.",
+          "value": "Has a sister",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his little brother who was three or four and startled the goats.",
+          "value": "Has a little brother",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My best friend is asian'.",
+          "value": "Has an Asian best friend",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'the next door neighbors are really good friends with our black' (garbled but indicates Black neighbors who are friends).",
+          "value": "Has Black neighbors who are good friends",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Mentions having a white cat from a shelter and says 'we have two of them there from a shelter'.",
+          "value": "Owns two cats adopted from a shelter",
+          "lines": [
+            205,
+            211,
+            223
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm just a millennial who wants to go home and watch my Net player' (likely Netflix).",
+          "value": "Uses Netflix",
+          "lines": [
+            159
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Describes getting into stocks/crypto through Reddit, and later mentions Reddit communities for Prolific, indicating personal use.",
+          "value": "Uses Reddit",
+          "lines": [
+            57,
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes family farm with horses, goats, pigs, cows, and fainting goats, and his childhood interactions with them.",
+          "value": "Grew up on a farm with horses, goats, pigs, cows",
+          "lines": [
+            163,
+            189,
+            191,
+            193,
+            231,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "States 'My name is Ireland'.",
+          "value": "Ireland",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says she lives in Oklahoma, and later specifies 'northwest of Tulsa' then corrects to 'Northeast of Tulsa'.",
+          "value": "Northeast of Tulsa, Oklahoma",
+          "lines": [
+            12,
+            140
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I am currently a student' and 'I'm an english major'.",
+          "value": "College student, English major",
+          "lines": [
+            12,
+            23,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'My spouse has a job', establishing she is married.",
+          "value": "Married",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Describes using Prolific, MTurk, and user testing for flexible income, found MTurk through Reddit.",
+          "value": "Participates in online task/survey platforms (Prolific, MTurk, user testing) for extra income",
+          "lines": [
+            46,
+            47,
+            48,
+            52,
+            56,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My spouse has a job'.",
+          "value": "Spouse is employed",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we share one car'.",
+          "value": "Shares a single car with spouse",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicitly mentions having a spouse.",
+          "value": "Has a spouse",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a little bit of family in Kansas, like just over the border'.",
+          "value": "Has family in Kansas near the Oklahoma border",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'most of my family lives in this area' (Oklahoma).",
+          "value": "Most family lives in Oklahoma",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes adopting a cat named Peanut about six months ago, part Somali, fluffy orange, and shows picture.",
+          "value": "Owns a cat named Peanut (adopted, part Somali, orange, fluffy)",
+          "lines": [
+            180,
+            181,
+            182,
+            220,
+            221,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she does 'mainly poking on an animal crossing' (Pokémon and Animal Crossing).",
+          "value": "Plays Pokémon and Animal Crossing",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists Netflix and Hulu as things she does for fun.",
+          "value": "Watches Netflix and Hulu",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she discovered MTurk 'through a Reddit community' and 'through a subreddit', confirming Reddit use.",
+          "value": "Uses Reddit",
+          "lines": [
+            52,
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she stays pretty busy between schoolwork, Turk stuff, and daily errands.",
+          "value": "Busy with schoolwork and daily errands",
+          "lines": [
+            174,
+            175,
+            176
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

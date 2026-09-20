@@ -1,0 +1,376 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [],
+      "demographic": [],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_a directly says 'my visa expired'.",
+          "value": "visa expired",
+          "lines": [
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just got my week' which in the job-search/visa context very likely means a work permit or employment authorization. The ASR 'week' is a mishearing.",
+          "value": "recently obtained work authorization",
+          "lines": [
+            367
+          ],
+          "certainty": 2
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I used to be a cop'. This may be an ASR error, but taken literally it indicates earlier law enforcement work. The surrounding conversation strongly emphasises a science background, so certainty is low.",
+          "value": "former job: police officer (possible ASR error)",
+          "lines": [
+            359
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Speaker_a says 'my previous job was a scientist' and 'I make the influenza vaccines', establishing a recent occupation in vaccine development.",
+          "value": "former occupation: scientist making influenza vaccines",
+          "lines": [
+            359,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually looking for jobs', 'now I'm looking for a job', and mentions having interviews.",
+          "value": "currently unemployed and seeking employment",
+          "lines": [
+            357,
+            365,
+            389
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms 'I actually do programming' when programming is suggested for remote work.",
+          "value": "has programming skills",
+          "lines": [
+            381
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife and I normally spend like $100 ish every month on Amazon'.",
+          "value": "household Amazon spending approximately $100 per month",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has used Prolific for a month or two and uses the earnings for Amazon purchases.",
+          "value": "earns money via Prolific",
+          "lines": [
+            19,
+            284,
+            285,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I got only like three or 4 pairs of shoes'.",
+          "value": "owns 3-4 pairs of shoes",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he got an interview from 'the biotin', a large pharmaceutical company, for an Alzheimer's project. 'biotin' is likely a mishearing of a company like Biogen.",
+          "value": "received job interview from a major pharmaceutical company for an Alzheimer's project",
+          "lines": [
+            397,
+            399,
+            401
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a implies having played Pokémon: Let's Go (a Switch exclusive) and uses that experience to explain not buying Sword/Shield. Together with extensive Breath of the Wild play, this strongly suggests he owns a Nintendo Switch.",
+          "value": "owns a Nintendo Switch",
+          "lines": [
+            123,
+            105
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my wife', indicating a marital relationship.",
+          "value": "has a wife",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states he spent 300 hours playing Zelda: Breath of the Wild.",
+          "value": "spent 300 hours playing Zelda: Breath of the Wild",
+          "lines": [
+            181,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'A weapon. I draw that. Yeah, I draw it.' and is complimented, indicating a drawing hobby.",
+          "value": "enjoys drawing",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a routinely uses Prolific to fund Amazon purchases, making it a regular side activity.",
+          "value": "uses Prolific as a side gig for extra income",
+          "lines": [
+            19,
+            284,
+            285,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he prefers to go to physical stores rather than buy shoes online.",
+          "value": "prefers buying shoes in physical stores",
+          "lines": [
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching YouTube videos of a 100% Breath of the Wild completion and a Goose Game playthrough.",
+          "value": "watches gaming videos on YouTube",
+          "lines": [
+            213,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b explicitly says 'I'm in California'.",
+          "value": "California",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes a Pokémon announcement was at 6 a.m. their time, consistent with Pacific Time.",
+          "value": "likely in Pacific Time Zone",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I work at a mental health clinic with Youth between the ages of 16 - 26'.",
+          "value": "works at a mental health clinic with youth ages 16-26",
+          "lines": [
+            338
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asserts speaker_b made ~$100 on Prolific; speaker_b does not deny and later discusses saving for shoes with Prolific money.",
+          "value": "earns money from Prolific",
+          "lines": [
+            21,
+            22,
+            284,
+            292
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says they are saving Prolific earnings for shoes.",
+          "value": "saving Prolific earnings for shoes",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes buying replica shoes directly from China and finding sellers on Reddit.",
+          "value": "buys replica shoes from China via Reddit",
+          "lines": [
+            296,
+            298,
+            300,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b guesses having '12 maybe at least nine' pairs of shoes.",
+          "value": "owns approximately 9-12 pairs of shoes",
+          "lines": [
+            324
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b answers 'Yeah' to 'Do you have a switch?'.",
+          "value": "owns a Nintendo Switch",
+          "lines": [
+            101,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly states buying and playing Pokémon Sword.",
+          "value": "bought and plays Pokémon Sword",
+          "lines": [
+            44,
+            46,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b considered the online subscription for raids but chose not to buy it because they don't play other online games.",
+          "value": "did not purchase Nintendo Switch Online subscription",
+          "lines": [
+            153,
+            154,
+            158,
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b plays Super Smash Bros. with kids at work, removing the need for online.",
+          "value": "plays Super Smash Bros. at work",
+          "lines": [
+            166,
+            168,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I work with kids' and describes gaming with them at the clinic.",
+          "value": "works with youth/children in a mental health clinic",
+          "lines": [
+            166,
+            338
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b is completing a living Pokédex in Sword and says 'only have like 50 left'.",
+          "value": "aiming to complete living Pokédex in Pokémon Sword (50 Pokémon remaining)",
+          "lines": [
+            58,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b estimates playing Zelda: Breath of the Wild for 60-80 hours and did not complete everything.",
+          "value": "played Zelda: Breath of the Wild for 60-80 hours without full completion",
+          "lines": [
+            190,
+            192,
+            194,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a game about messing with people, matching Untitled Goose Game, and says it took 8 hours. ASR 'girls came' is likely 'Goose Game'.",
+          "value": "played and finished Untitled Goose Game in about 8 hours",
+          "lines": [
+            228,
+            230,
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b heard of Prolific through Reddit and uses Reddit for replica shoe links.",
+          "value": "uses Reddit for product information and online communities",
+          "lines": [
+            10,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms walking for both work and exercise, and earlier mentions needing comfortable shoes due to lots of walking.",
+          "value": "walks a lot for work and exercise",
+          "lines": [
+            320,
+            332,
+            334
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they go to the gym when asked about exercise.",
+          "value": "goes to the gym",
+          "lines": [
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recommends Adidas Ultra Boost, calling them the most comfortable shoes ever, indicating a strong comfort preference and likely ownership.",
+          "value": "prefers comfortable shoes, especially Adidas Ultra Boost",
+          "lines": [
+            308,
+            310,
+            312,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was aware of a Pokémon announcement that morning, offered to look it up, and discussed its details, showing active engagement with Pokémon news.",
+          "value": "follows Pokémon news and announcements",
+          "lines": [
+            256,
+            264,
+            270,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

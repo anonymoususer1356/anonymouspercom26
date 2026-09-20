@@ -1,0 +1,407 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'What's your name? Nancy?' and speaker_a replies 'Yeah' without correcting, suggesting her name may be Nancy.",
+          "value": "Nancy",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is originally from Sacramento.",
+          "value": "Originally from Sacramento, California",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she moved back to Sacramento and mentions house-sitting there, confirming current residence.",
+          "value": "Currently lives in Sacramento, California",
+          "lines": [
+            9,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she lived in the Bay Area for six years.",
+          "value": "Lived in the Bay Area, California for six years",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she graduated a few years ago, implying a college degree.",
+          "value": "College graduate",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explicitly states her occupation.",
+          "value": "Product designer",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she works as a product designer at a clinical research company based in San Francisco.",
+          "value": "Product designer at a clinical research company based in San Francisco",
+          "lines": [
+            43,
+            63,
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she used to work at LinkedIn (ASR 'Lincoln') as a recruiter.",
+          "value": "Former recruiter at LinkedIn",
+          "lines": [
+            479
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions her friend introduced her to Prolific, and she implies she does these studies for extra money, like speaker_b.",
+          "value": "Participates in online studies (Prolific) for extra money",
+          "lines": [
+            145,
+            149,
+            151
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'we're moving into a new house'.",
+          "value": "Moving into a new house",
+          "lines": [
+            285
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my boyfriend's also an engineer'.",
+          "value": "Has a boyfriend who is an engineer",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is with her parents but currently house-sitting, indicating she normally lives with them.",
+          "value": "Lives with parents",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is house-sitting for her aunt and uncle temporarily.",
+          "value": "House-sitting for aunt and uncle",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a references her brother watching a show.",
+          "value": "Has a brother",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her friend contracted COVID-19.",
+          "value": "Has a friend who had COVID-19",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions daily stand-up meetings at 9:30 am as part of her routine.",
+          "value": "Has daily stand-up meetings at 9:30 am",
+          "lines": [
+            431
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she plays Pandemic, Apples to Apples, and Cards Against Humanity.",
+          "value": "Plays board games: Pandemic, Apples to Apples, Cards Against Humanity",
+          "lines": [
+            355,
+            365,
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she recently watched The Social Dilemma.",
+          "value": "Watched documentary The Social Dilemma",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes grocery shopping at 8 am to avoid crowds, enabled by work from home.",
+          "value": "Grocery shops during off-peak hours (e.g., 8 am)",
+          "lines": [
+            423,
+            425
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions a board game cafe in Berkeley that she used to go to.",
+          "value": "Used to go to a board game cafe in Berkeley",
+          "lines": [
+            331
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself explicitly.",
+          "value": "Steven",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states he is currently in San Jose Bay Area, California, visiting family.",
+          "value": "San Jose Bay Area, California",
+          "lines": [
+            8,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he works in Seattle.",
+          "value": "Seattle, Washington (work location)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he lived in Seattle for three years.",
+          "value": "Lived in Seattle for three years",
+          "lines": [
+            83,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states his occupation.",
+          "value": "Software engineer",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is considered a back end engineer.",
+          "value": "Back end engineer",
+          "lines": [
+            456
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he works on the Windows operating system and confirms he works at Microsoft.",
+          "value": "Microsoft employee",
+          "lines": [
+            48,
+            462
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states his official title is Software Engineer 2, between entry and senior.",
+          "value": "Software Engineer 2 (mid-level)",
+          "lines": [
+            518,
+            520
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b explicitly says he has asthma.",
+          "value": "Asthma",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he is a software engineer, works on Windows, and confirms Microsoft, establishing his current job.",
+          "value": "Software engineer at Microsoft",
+          "lines": [
+            22,
+            48,
+            462
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is currently looking for a new job and preparing for interviews.",
+          "value": "Job searching and interview preparation",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he wants to make extra money on the side to hopefully retire earlier; he is doing this study for that purpose.",
+          "value": "Participates in studies for extra money, with goal of early retirement",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says this is his first time doing this study.",
+          "value": "First time participating in this type of study",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b states he is living with his parents right now.",
+          "value": "Lives with parents",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his sister attended UC Davis.",
+          "value": "Sister attended UC Davis",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has a lot of friends who went to Berkeley.",
+          "value": "Friends who attended UC Berkeley",
+          "lines": [
+            334
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions watching The Last Kingdom, New Girl, and Kim's Convenience.",
+          "value": "Watches TV shows: The Last Kingdom, New Girl, Kim's Convenience",
+          "lines": [
+            274,
+            292,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he plays Dominion and social deception games like Avalon, Resistance, Secret Hitler online.",
+          "value": "Plays board games online: Dominion, Avalon, Resistance, Secret Hitler",
+          "lines": [
+            324,
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states that job interview preparation takes up most of his free time outside of work.",
+          "value": "Spends most free time on interview preparation",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes staying up late watching TV due to depression about work, then waking up late and skipping work.",
+          "value": "Irregular sleep schedule; stays up late watching TV, wakes up late",
+          "lines": [
+            438
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he blocked the game Dominion to avoid distraction while studying for interviews.",
+          "value": "Blocked Dominion game to focus on studying",
+          "lines": [
+            398
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he does not leave the house at all and prefers staying home.",
+          "value": "Rarely leaves the house; prefers staying home",
+          "lines": [
+            160,
+            162,
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a describes seeing speaker_b's silhouette and headphone set, indicating he is wearing headphones.",
+          "value": "Wearing headphones",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

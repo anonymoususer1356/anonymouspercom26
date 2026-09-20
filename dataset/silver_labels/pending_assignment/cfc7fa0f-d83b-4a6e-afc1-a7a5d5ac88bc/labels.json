@@ -1,0 +1,256 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b addresses speaker_a as 'charlotte' and speaker_a confirms 'charlotte with a C'",
+          "value": "Charlotte",
+          "lines": [
+            23,
+            24
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in California' and 'just south of san Francisco'",
+          "value": "south of San Francisco, California",
+          "lines": [
+            7,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'from Australia originally'",
+          "value": "Australian originally",
+          "lines": [
+            159
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I have no reason to believe that I've had ... more than a sneeze' regarding COVID-19",
+          "value": "No known COVID-19 infection; only had a sneeze",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says 'I am a citizen' in a conversation about the US, and is originally from Australia",
+          "value": "US citizen",
+          "lines": [
+            159
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions 'my company' working from home until July next year, and the company having offices in South Bay, North Carolina, and Colorado",
+          "value": "Employed at a company with offices in South Bay, North Carolina, Colorado; working from home until July next year",
+          "lines": [
+            161,
+            173,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my dad's in the UK and he's older'",
+          "value": "Father lives in the UK",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we had some friends who have been in ITaly for a few years'",
+          "value": "Friends who lived in Italy",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions doing four of 'these' conversations and asks if speaker_b has been with Prolific long",
+          "value": "Prolific participant",
+          "lines": [
+            19,
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm wearing my san Francisco marathon half marathon shirts'",
+          "value": "Owns/wears a San Francisco half marathon shirt",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I really like traveling'",
+          "value": "Enjoys traveling",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I hated grocery shopping for the first couple of months'",
+          "value": "Disliked early pandemic grocery shopping",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'I'm Ryan' and spells it 'R Y A N'",
+          "value": "Ryan",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b agrees 'me too' when California is mentioned and specifies 'just north of san Francisco'",
+          "value": "north of San Francisco, California",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm a student my semester starts September six' and mentions transferring from a junior college",
+          "value": "College student",
+          "lines": [
+            160,
+            240
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says they were sick in January with flu-like symptoms and that it could have been COVID",
+          "value": "Had flu-like illness in January (possibly COVID-19)",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says they work part-time doing data entry for a tax accounting business, and are alone in the office",
+          "value": "Part-time data entry for tax accounting business, works alone in office",
+          "lines": [
+            166,
+            168,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I have one friend of mine who got it' (COVID-19)",
+          "value": "Friend had COVID-19",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have one friend that had moved to spain like five years ago'",
+          "value": "Friend moved to Spain",
+          "lines": [
+            180
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes a friend who is studying to become a fireman/EMT",
+          "value": "Friend studying to be a fireman/EMT",
+          "lines": [
+            242
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they have been doing these interviews since April and this is their fourth",
+          "value": "Prolific participant",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they are still quarantined but go for walks and runs",
+          "value": "Quarantined but goes for walks/runs",
+          "lines": [
+            82,
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes wearing reusable masks with sports team logos",
+          "value": "Wears sports-themed reusable masks",
+          "lines": [
+            280
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they would take this sports over no sports, indicating enjoyment of watching sports",
+          "value": "Enjoys watching sports",
+          "lines": [
+            288,
+            296
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b replies 'No, I don't know pets' when asked if they have any pets (ASR error for 'own')",
+          "value": "No pets",
+          "lines": [
+            334
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

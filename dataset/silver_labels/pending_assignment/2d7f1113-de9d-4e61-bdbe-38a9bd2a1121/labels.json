@@ -1,0 +1,408 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself: 'My name is Whitney'.",
+          "value": "Whitney",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I am in Mississippi' and 'I live right outside of Memphis'.",
+          "value": "Mississippi, right outside of Memphis",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my husband and I are both from Northwest Arkansas'.",
+          "value": "Northwest Arkansas (origin)",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions moving to Jacksonville, Florida when husband was stationed at Kings Bay submarine base.",
+          "value": "Jacksonville, Florida (past residence)",
+          "lines": [
+            89,
+            93,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says husband's shore duty was in Nebraska.",
+          "value": "Nebraska (past residence)",
+          "lines": [
+            123,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she went to Oklahoma State University for undergrad and master's.",
+          "value": "Oklahoma State University, Oklahoma (college location)",
+          "lines": [
+            175,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I am 43 years old'.",
+          "value": "43 years old",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Whitney and references to husband and children indicate female gender.",
+          "value": "female",
+          "lines": [
+            11,
+            71,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has a husband and two daughters.",
+          "value": "married, mother of two",
+          "lines": [
+            71,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she did undergrad and both her master's at Oklahoma State, and studied psychology.",
+          "value": "holds bachelor's and master's degrees",
+          "lines": [
+            155,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says she works as an analyst for a company that sells bath products (like Dr. Teal's) to retailers like Walmart, has been with the company 14 years, total 18 years in the field, and works from home.",
+          "value": "employed as an analyst, 14 years at current company, 18 years in the field, works from home",
+          "lines": [
+            15,
+            19,
+            23,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions her husband who went to the Naval Academy, was a submarine officer on the USS Maryland, did shore duty at STRATCOM in Nebraska, and later left the Navy.",
+          "value": "husband: former Navy submarine officer (USS Maryland), Naval Academy graduate, STRATCOM shore duty",
+          "lines": [
+            71,
+            83,
+            103,
+            123,
+            131,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has two daughters, ages 10 and 12.",
+          "value": "two daughters, ages 10 and 12",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her parents live about five hours away.",
+          "value": "parents live approximately 5 hours away",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about her best friend since age 10 who became a neonatologist.",
+          "value": "best friend is a neonatologist",
+          "lines": [
+            33,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her sister is 16 years older and attended Oklahoma State.",
+          "value": "sister 16 years older",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she works from home, which allowed her to be with her kids when they were young, and had someone come in to help.",
+          "value": "works from home, had in-home childcare assistance",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they moved six times in eight years due to husband's military career.",
+          "value": "moved frequently (6 times in 8 years) due to military",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she loves her job.",
+          "value": "enjoys her job",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she is a Razorbacks fan (Arkansas), saying 'I'm a razor, I'm in Arkansas fan' (ASR error, likely 'I'm a Razorback, I'm an Arkansas fan')",
+          "value": "Arkansas Razorbacks fan",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'maddie'.",
+          "value": "Maddie",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in Cleveland now'.",
+          "value": "Cleveland, Ohio",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my family like we were from southwest Ohio'.",
+          "value": "southwest Ohio (origin)",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she went to undergrad at 'minority in indiana' (ASR error, intended 'Notre Dame'), later confirmed by speaker_a asking about Notre Dame and speaker_b agreeing.",
+          "value": "University of Notre Dame, Indiana (undergraduate location)",
+          "lines": [
+            58,
+            193,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says her sister is turning 15 and is 10 years younger, making her 25.",
+          "value": "25 years old",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Name Maddie and interest in women's health strongly suggest female gender.",
+          "value": "female",
+          "lines": [
+            10,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm a second year medical student right now'.",
+          "value": "second-year medical student",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker indicates she attended the University of Notre Dame for undergrad.",
+          "value": "University of Notre Dame graduate",
+          "lines": [
+            58,
+            193,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I've always gotten motion sick'.",
+          "value": "motion sickness",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says the VR headset gives her a 'pretty bad headache'.",
+          "value": "headaches from VR headset",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I worked as in Danny this summer' (ASR error, likely 'as a nanny').",
+          "value": "worked as a nanny during a summer",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my dad's but as a doctor' (ASR error, likely 'my dad is a doctor').",
+          "value": "father is a doctor",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she and her dad are working on a research project together.",
+          "value": "works on research project with father",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a sister who's turning 15 at the end of the month'.",
+          "value": "younger sister, age 15",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a brother who's two years younger'.",
+          "value": "younger brother, two years younger",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm the oldest'.",
+          "value": "oldest child",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker discusses her best friend from college who was ROTC, is a submarine officer, went to power school, and is assigned to the USS Georgia.",
+          "value": "best friend from college is a submarine officer on the USS Georgia",
+          "lines": [
+            78,
+            80,
+            94,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'So my roommate and I went'.",
+          "value": "has a roommate",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker confirms when speaker_a says 'I see you have a cat' with 'Yes'.",
+          "value": "owns a cat",
+          "lines": [
+            25,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses interest in women's health and says she's thinking of OB/GYN as a specialty.",
+          "value": "interested in OB/GYN (women's health)",
+          "lines": [
+            26,
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she plans to visit her friend in Jacksonville after exams.",
+          "value": "planning a trip to Jacksonville, Florida",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'going to school online at the moment' and discusses remote learning.",
+          "value": "attending medical school online",
+          "lines": [
+            10,
+            206
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

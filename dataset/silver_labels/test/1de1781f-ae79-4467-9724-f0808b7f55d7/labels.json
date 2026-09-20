@@ -1,0 +1,196 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name directly when asked by speaker_b: 'I'm john nice to meet you'.",
+          "value": "John",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I am from Kentucky, Central Kentucky' in response to 'where are you from?'. He later says 'I'm a student here at the University of Kentucky', reinforcing that he is in Kentucky.",
+          "value": "Central Kentucky",
+          "lines": [
+            13,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm a student here at the University of Kentucky', indicating he is currently a student.",
+          "value": "student",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my brother used to live in Richmond', establishing he has a brother.",
+          "value": "has a brother",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm also a computer hobbyist' and discusses building PCs and troubleshooting.",
+          "value": "computer hobbyist",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses PC gaming, including playing Borderlands 2, needing a graphics card, and using an old computer for games, implying he plays video games regularly.",
+          "value": "plays video games",
+          "lines": [
+            65,
+            69,
+            73,
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself: 'my name is brian'.",
+          "value": "Brian",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I am from Virginia', and when speaker_a mentions his brother lived in Richmond, he confirms 'that's actually where I am, is Richmond?'. He later says he lives in the middle of the city and references Richmond's music scene.",
+          "value": "Richmond, Virginia",
+          "lines": [
+            12,
+            16,
+            18,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I was actually born in California'.",
+          "value": "California",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'now I'm doing um work for a home security company, doing tech support' and mentions training in the office.",
+          "value": "tech support worker",
+          "lines": [
+            30,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recalls waiting in line for the Wii and says 'I was still in college, I had nothing else to do', indicating he was a college student in the past.",
+          "value": "former college student",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b explains that his previous corporate dining job paid him to stay home during the transition to remote work: 'The cool thing was that they paid me to stay home and do nothing for like six months.'",
+          "value": "received paid leave for six months from corporate dining job",
+          "lines": [
+            20,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states about his new tech support job: 'I'm being paid more, so.'",
+          "value": "earning more than previous restaurant job",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my girlfriend' when discussing cancelled hotel reservations for Orlando Studios.",
+          "value": "has a girlfriend",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b discusses playing PC games such as Pillars of Eternity 2, Divinity Original Sin 2, and Baldur's Gate 3, indicating he is a gamer.",
+          "value": "plays video games",
+          "lines": [
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I do some art sometimes, like a draw sometimes. I've got like a small little instagram with some stupid drawings on it.'",
+          "value": "draws and posts on Instagram",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'd like to go to like electronic music shows before, ... Richmond is really good for that, like I could just drive like 15 minutes in the downtown, like their shows going on.'",
+          "value": "attends electronic music shows",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b points out a band on his shirt: 'I don't know if you know this band that's on my shirt? Um It's not metal, it's carpenter brut'.",
+          "value": "wearing a Carpenter Brut shirt",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

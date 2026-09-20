@@ -1,0 +1,319 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'Lexi'.",
+          "value": "Lexi",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in the D.C. area when asked.",
+          "value": "Washington D.C. area",
+          "lines": [
+            17,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her current residence as having lax pet policies with a weight limit around 70 lbs.",
+          "value": "Residence with lax pet policies, weight limit ~70 lbs",
+          "lines": [
+            149
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her commute is about 40 minutes and that it is the shortest she has ever had.",
+          "value": "Commute of ~40 minutes",
+          "lines": [
+            49,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm a vet.'",
+          "value": "Veterinarian",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she works in infectious disease research.",
+          "value": "Works in infectious disease research",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is the lead vet for a few different protocols.",
+          "value": "Lead vet for research protocols",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her specialty is monkeys.",
+          "value": "Specializes in non-human primates (monkeys)",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She contrasts current income with poverty-level eating ('ramen') during school, indicating she now has a stable veterinary income.",
+          "value": "Has a stable income as a veterinarian",
+          "lines": [
+            95
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She discusses a 40-minute commute and saving gas money, strongly implying car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            45,
+            49
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she has two cats and a dog, and later clarifies the dog is a pit bull.",
+          "value": "Has two cats and a pit bull dog",
+          "lines": [
+            115,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a female friend who watches her dog; this friend owns two pit bulls and has a big yard.",
+          "value": "Friend with two pit bulls who watches her dog",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a male friend who is in his 10th year of a PhD program.",
+          "value": "Friend in 10th year of a PhD program",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I hate moving'.",
+          "value": "Hates moving",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'pimples are my favorite' (pit bulls).",
+          "value": "Prefers pit bulls",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she likes cooler weather.",
+          "value": "Prefers cooler weather",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as Amanda.",
+          "value": "Amanda",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Her initial garbled line places her in Cincinnati; she later confirms she lives there by saying she is 'not from Cincinnati originally'.",
+          "value": "Cincinnati",
+          "lines": [
+            16,
+            26
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her family is in New Jersey and she is not originally from Cincinnati.",
+          "value": "Originally from New Jersey",
+          "lines": [
+            26,
+            178
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she lives in an apartment that is five minutes from her workplace.",
+          "value": "Lives in an apartment close to work (5-minute commute)",
+          "lines": [
+            60,
+            118,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she is doing a PhD in biomedical informatics and is in her second year.",
+          "value": "Ph.D. student in biomedical informatics (2nd year)",
+          "lines": [
+            34,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she completed a master's degree before starting her PhD.",
+          "value": "Has a master's degree",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I'm a vegetarian'.",
+          "value": "Vegetarian",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her research is all 'dry lab' (computational).",
+          "value": "Works in dry lab (computational research)",
+          "lines": [
+            230
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Despite an earlier ambiguous remark, she clearly states 'I've never taken any type of test' and later says she has had no COVID symptoms.",
+          "value": "Has not taken a COVID-19 test",
+          "lines": [
+            322,
+            324
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She comments that PhD pay is low and she has never made much money.",
+          "value": "Low income as a graduate student",
+          "lines": [
+            94,
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she went straight from undergrad to masters to PhD and has never had a full-time job.",
+          "value": "Never had a full-time job",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her sister is an occupational therapist and works at a nursing home.",
+          "value": "Sister is an occupational therapist at a nursing home",
+          "lines": [
+            102,
+            334
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her family is in New Jersey and she also has family in California.",
+          "value": "Family in New Jersey and California",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she volunteers at an animal shelter.",
+          "value": "Volunteers at an animal shelter",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She expresses a desire to have a pet but says her apartment does not allow animals.",
+          "value": "Wants a pet but apartment prohibits animals",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She agrees with speaker_a, saying she hates moving too.",
+          "value": "Hates moving",
+          "lines": [
+            122
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explains that she travels by plane to visit her family.",
+          "value": "Travels by airplane to visit family",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

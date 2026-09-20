@@ -1,0 +1,384 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states his name at line 13.",
+          "value": "johnny",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Oakland, California at line 27.",
+          "value": "Oakland, California",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was born in Saint Petersburg, Russia at line 89.",
+          "value": "Saint Petersburg, Russia",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says at line 211 that he is on disability.",
+          "value": "on disability",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was born in Russia and came to the US at age 11 (lines 89, 95).",
+          "value": "immigrant from Russia (arrived at age 11)",
+          "lines": [
+            89,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says at line 147 that he is in a high-risk category for COVID-19 complications.",
+          "value": "high risk for COVID-19 complications",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he is on disability, implying an underlying health condition (line 211).",
+          "value": "disability (qualifies for Medicare)",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was in the middle of major dental procedures and now has a bunch of missing teeth (lines 191, 197).",
+          "value": "currently missing teeth due to interrupted dental procedures",
+          "lines": [
+            191,
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says technically they were refugees when leaving the Soviet Union (line 111).",
+          "value": "refugee (technical)",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he is on disability, indicating he receives disability benefits (line 211).",
+          "value": "on disability (receiving disability benefits)",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has Medicare (line 211).",
+          "value": "Medicare recipient",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a explains he goes to Mexico for dental work because it is affordable and Medicare does not cover most dental procedures (lines 189, 191, 211).",
+          "value": "travels to Mexico for affordable dental care because Medicare doesn't cover it",
+          "lines": [
+            189,
+            191,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says at line 121 that he is married.",
+          "value": "married",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has not been in close contact with anybody except his housemate (line 151).",
+          "value": "has a housemate",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his mother as 77, a stroke survivor, and living half an hour away (line 151).",
+          "value": "mother (77 years old, stroke survivor, lives half an hour away)",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he comes from a very small family (line 101).",
+          "value": "comes from a very small family",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having dear friends and classmates in Saint Petersburg (lines 103, 105).",
+          "value": "has dear friends and classmates in Saint Petersburg",
+          "lines": [
+            103,
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he strictly isolates during COVID-19, only close contact with his housemate, and has not entered his mother's house since it started (lines 151, 153).",
+          "value": "strict COVID-19 isolation, avoids in-person contact with mother",
+          "lines": [
+            151,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says this is his 4th time doing this conversation and they have 25 minutes (lines 21, 45, 257).",
+          "value": "participant in a 25-minute conversation study (4th session)",
+          "lines": [
+            21,
+            45,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about going to Mexico for dental work (lines 189, 191).",
+          "value": "travels to Mexico for dental procedures",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says you can tell a bunch of missing teeth right now (line 197).",
+          "value": "missing teeth",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states she is in Chicago, lives in a high-rise right by the lake (lines 24, 28, 64, 76).",
+          "value": "Chicago, Illinois (high rise apartment by the lake)",
+          "lines": [
+            24,
+            28,
+            64,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is from Chicago and grew up there (line 64).",
+          "value": "Chicago native (grew up there)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lived on the East Coast for a while during her early career (line 64).",
+          "value": "lived on the East Coast for a while during early career",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says she and her brother are first-generation Americans, with parents who immigrated (line 162).",
+          "value": "first generation American",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is in her thirties (line 158).",
+          "value": "in her 30s",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she is a strategy director for a healthcare company, works remotely, and that the company is a large global health insurance company (lines 126, 128, 222).",
+          "value": "strategy director at a large health insurance company (remote worker)",
+          "lines": [
+            126,
+            128,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her husband, his job in Cleveland, and his travel schedule (lines 132, 134, 138, 140).",
+          "value": "married (husband works in Cleveland, travels frequently)",
+          "lines": [
+            132,
+            134,
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mom lives 20–30 minutes away, brings a home-cooked meal every week, and is an immigrant (lines 156, 158, 164).",
+          "value": "mother (immigrant, lives 20–30 min away, brings weekly meals)",
+          "lines": [
+            156,
+            158,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her parents nearby, implying a father (lines 64, 156).",
+          "value": "father (lives 20–30 min away)",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my brother and I' are first generation Americans (line 162).",
+          "value": "has a brother",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a couple of friends living out there (California) (line 56).",
+          "value": "has a couple of friends in California",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions that her husband's parents are still in Cleveland and are elderly (line 144).",
+          "value": "parents-in-law in Cleveland (elderly)",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she is a little bit of a home body (line 132).",
+          "value": "homebody",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she worked remotely full time even before COVID restrictions (lines 124, 128).",
+          "value": "full-time remote worker (even before pandemic)",
+          "lines": [
+            124,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions wanting to go for a walk but being unable due to heat, implying she normally enjoys walking (line 90).",
+          "value": "enjoys walking",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says pre-COVID she would travel to see teams and have conferences (line 130).",
+          "value": "used to travel for work to see teams and conferences",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has seen her parents a handful of times from a distance since COVID started (lines 156, 157).",
+          "value": "limited in-person visits with parents due to COVID-19",
+          "lines": [
+            156,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mom brings her a home-cooked meal every week (line 158).",
+          "value": "receives weekly home-cooked meals from mother",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has only done this one time before and the conversation ends after 25 minutes (lines 20, 257).",
+          "value": "participant in a 25-minute conversation study (second session)",
+          "lines": [
+            20,
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

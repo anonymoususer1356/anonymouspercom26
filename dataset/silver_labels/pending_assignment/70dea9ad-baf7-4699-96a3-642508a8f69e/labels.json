@@ -1,0 +1,258 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b asks for his name; speaker_a responds with an utterance transcribed as 'That's our Mustafa most of them with it.' Speaker_b repeats back 'Mustafa' (line 6) and the conversation proceeds without correction. Despite ASR errors, the intended name is likely Mustafa.",
+          "value": "Mustafa",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he lives in D.C. (line 9) and has lived there for eight years (line 35). He gives details about D.C.'s mask mandates, quarantine rules, traffic, and political climate (lines 21, 44-52, 153-155), all confirming his residence.",
+          "value": "Washington, D.C.",
+          "lines": [
+            9,
+            35,
+            21,
+            44,
+            47,
+            51,
+            153,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When speaker_b states she is 19, speaker_a immediately responds '20 years I live in in D.C.', indicating his age is 20.",
+          "value": "20 years old",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He studied 'for matics' (phonetically close to informatics), which he describes as a mix of computer science and business, and confirms he graduated (lines 53-61). The exact degree name is uncertain due to ASR, but the field and graduation are clear.",
+          "value": "Graduated with degree in informatics (business and computer science)",
+          "lines": [
+            53,
+            54,
+            55,
+            57,
+            59,
+            61,
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he was in college at Indiana for 2-3 years (line 35). Later ASR transcribes 'India' (line 41) but the earlier, clearer mention points to Indiana. He corrects speaker_b's misunderstanding without specifying which, but the context of 'indiana' is stronger.",
+          "value": "Attended college in Indiana",
+          "lines": [
+            35,
+            41
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He explains he concentrated on computer work and now works as a freelancer doing independent work, specifically building websites for businesses (lines 65, 67, 71, 75).",
+          "value": "Freelance software / web developer",
+          "lines": [
+            65,
+            67,
+            71,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to a question about Prolific, he says he uses Prolific, Amazon MTurk, and UserTesting as part of his work (lines 242-259), describing the platforms and tasks.",
+          "value": "Online gig worker (Prolific, MTurk, UserTesting)",
+          "lines": [
+            242,
+            243,
+            245,
+            255,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "He mentions playing soccer with friends and that he wishes he were professional (lines 165, 167).",
+          "value": "Plays soccer recreationally",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states he watches European soccer games every week, with Sundays and Saturdays reserved for it (line 173).",
+          "value": "Watches European soccer weekly",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he prefers online classes over in-person because he wants to stay home and finish up (line 91).",
+          "value": "Prefers online classes and staying home",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself clearly as Alexa when speaker_a answers the call (line 4).",
+          "value": "Alexa",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she lives in Hawaii (line 8) and later explains her family is there because her father was given orders to Hawaii while serving in the Air Force (line 218). She also describes Hawaii's strict lockdowns and tourism economy.",
+          "value": "Hawaii",
+          "lines": [
+            8,
+            116,
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states her age as 19 when first talking with speaker_a (line 8).",
+          "value": "19 years old",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is going to university for social work (line 84), plans to get a bachelor's and then a master's, and is only a junior (line 206).",
+          "value": "University student, social work major",
+          "lines": [
+            84,
+            136,
+            138,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I'm only a junior' (line 206), indicating her year of study.",
+          "value": "Junior (3rd year) in university",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains the term 'ambivert' and identifies as one, describing herself as a mix of introvert and extrovert, and noting the pandemic made her realize she is not an extrovert (lines 106, 108, 110).",
+          "value": "Self-identified ambivert",
+          "lines": [
+            106,
+            108,
+            110
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She lives with her parents, says her family can afford the technology needed for online classes, and that they could not afford to live in Hawaii if not for her father's Air Force career (lines 214, 218, 222).",
+          "value": "Financially dependent on family; father's Air Force income",
+          "lines": [
+            214,
+            218,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I live with my parents, my entire family lives here' (line 116), indicating a multi-generational household.",
+          "value": "Lives with parents and extended family",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her dad is in the Air Force and was given orders to Hawaii, which is why the family is there (line 218).",
+          "value": "Father serves in U.S. Air Force",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She explains that all her university classes have moved online and they are required to use Zoom (lines 84, 122, 124).",
+          "value": "Attends university classes online via Zoom",
+          "lines": [
+            84,
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says spending about eight hours on Zoom plus computer-based homework is 'really draining' (line 130).",
+          "value": "Finds prolonged online learning draining",
+          "lines": [
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_a mentions the idea of working in the midwest, she says she had not considered it because pay is low and she would not want to live there, especially given the political climate (lines 148, 152).",
+          "value": "Dislikes idea of living in the midwestern U.S.",
+          "lines": [
+            148,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'Grand Tour', and she says she used to watch it a lot with her dad until it ended and a new version was created (line 276).",
+          "value": "Watches 'The Grand Tour' with her father",
+          "lines": [
+            276
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,232 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states that people they talk to are often in Oklahoma, and then says 'That's where I am', indicating they live in Oklahoma.",
+          "value": "Oklahoma",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm a medical researcher.'",
+          "value": "medical researcher",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I do research university', interpreted as doing research at a university, indicating their workplace is a university.",
+          "value": "works at a university",
+          "lines": [
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I work during the day.'",
+          "value": "works during the day",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "In response to speaker_b asking how many times they have done this type of task, speaker_a says 'This is my 3rd 1.'",
+          "value": "has done this prolific task 3 times",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have to schedule after five because they work during the day, and they do 'this stuff' in the evening.",
+          "value": "does prolific tasks in the evening after 5pm",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I think I started in around february. So it's gonna be it's almost a year.'",
+          "value": "started using prolific around February",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'd say I'm in north Carolina', and speaker_a confirms 'North Carolina?' to which speaker_b affirms.",
+          "value": "North Carolina",
+          "lines": [
+            26,
+            27,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I go to a community college right now'.",
+          "value": "community college student",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'but I'm transferring to a university next year'.",
+          "value": "plans to transfer to a university next year",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm trying to become a toy designer'.",
+          "value": "aspiring toy designer",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'right now I'm measuring in a transfer degree', interpreted as 'majoring in a transfer degree', indicating an associate's degree for transfer.",
+          "value": "pursuing a transfer degree",
+          "lines": [
+            118
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I was a theater manager for regal cinemas ... I was like the junior manager ... one of the smaller locations that regal had.'",
+          "value": "previously worked as a junior theater manager at Regal Cinemas",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I need an internship um to get a degree. It's that's I think third year I need to do.', indicating a degree requirement for an internship.",
+          "value": "needs an internship for degree, likely in third year",
+          "lines": [
+            198
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'I have various friends in who worked in the toy industry'.",
+          "value": "has friends in the toy industry",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have friends who do it' in reference to Warhammer painting.",
+          "value": "has friends who do Warhammer painting",
+          "lines": [
+            174
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I have made connections. So it's not even really a problem of getting one of the internships. It's more a problem of I have multiple people who could probably get me get me one'.",
+          "value": "has connections that can secure a toy industry internship",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b responds to the same question about how many times they've done this task with 'Um this is the six I believe.'",
+          "value": "has done this prolific task 6 times",
+          "lines": [
+            9,
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I think I started probably March or a whole', where 'a whole' is likely an ASR error for 'April' or similar; the month March is clear.",
+          "value": "started using prolific around March",
+          "lines": [
+            40
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I kind of took a break for a while ... and then I I came back probably a month ago'.",
+          "value": "took a break from prolific and returned about a month ago",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states they customize action figures (line 110) and customize lego figures by sculpting and painting on them (lines 164, 170).",
+          "value": "customizes action figures and Lego figures",
+          "lines": [
+            110,
+            164,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes hand-sculpting a figure with clay, making a silicone mold, and casting it in resin; they call it 'the lazy robot'.",
+          "value": "created a resin-cast robot figure called 'lazy robot'",
+          "lines": [
+            150,
+            152,
+            156,
+            158,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a rather large collection, various action for using stuff', interpreted as 'action figures' based on context.",
+          "value": "has a large collection of action figures",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

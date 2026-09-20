@@ -1,0 +1,438 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states he is a college student living in an apartment in Boston. He also mentions attending the New England Conservatory, which is in Boston.",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            21,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he is from California; he mentions living in Orange County and also refers to 'north cal' and L.A.",
+          "value": "California (Orange County and Northern California)",
+          "lines": [
+            45,
+            47,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he moved to Chicago for two or three years to study with a teacher.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he went to New York a few days ago, and later explains it was to see a specialist.",
+          "value": "New York City, New York",
+          "lines": [
+            21,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he went to Taiwan during the pandemic, has relatives there, and plans to return for performances in December.",
+          "value": "Taiwan",
+          "lines": [
+            103,
+            107,
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to himself as 'an indoor guy', indicating male gender.",
+          "value": "male",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions the high percentage of Asian students at his school in a way that includes himself, discusses Asian parenting, and states his parents came from Taiwan. This strongly implies he is of Asian/Taiwanese descent.",
+          "value": "Asian (Taiwanese descent)",
+          "lines": [
+            59,
+            65,
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states he is a college student, a junior at the New England Conservatory, and a music student who plays violin.",
+          "value": "college student (junior), music major at New England Conservatory, violinist",
+          "lines": [
+            21,
+            25,
+            27,
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker describes a playing-related injury: overusing his bicep caused pinched nerves, leading to shakiness in his hand when playing violin. It was diagnosed four days before the conversation.",
+          "value": "Repetitive strain injury: pinched nerves in hand from overusing bicep, causing shakiness while playing violin",
+          "lines": [
+            31,
+            121,
+            123,
+            127,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions he will need to switch technique, massage, heat therapy, and currently limits practice to about one hour per day.",
+          "value": "Treating injury with massage, heat, technique change, and limiting practice to about one hour per day",
+          "lines": [
+            127,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he is usually calm and relaxed but has been worried about the injury.",
+          "value": "Usually calm and relaxed; currently worried about the injury",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker states his parents are divorced.",
+          "value": "parents divorced",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his mom is in 'north cal' (Northern California).",
+          "value": "mother lives in Northern California",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his dad is in Orange County now.",
+          "value": "father lives in Orange County, California",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states his dad 'done some better programming job and Walden', likely a programming job at a company named Walden (ASR may be garbled).",
+          "value": "father worked in programming at Walden",
+          "lines": [
+            151
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says his parents came from Taiwan about 23-24 years ago.",
+          "value": "parents immigrated from Taiwan 23-24 years ago",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having relatives in Taiwan.",
+          "value": "has relatives in Taiwan",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he used to go to a school called Crossroads in Santa Monica.",
+          "value": "attended Crossroads school in Santa Monica",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states he plays violin and has been playing for 16 years.",
+          "value": "plays violin",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he currently practices about an hour a day due to injury.",
+          "value": "practices violin about one hour per day",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes himself as an indoor guy who goes to practice rooms and then back to his dorm.",
+          "value": "indoor-oriented; spends time in practice rooms and dorm",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he is competing in international competitions.",
+          "value": "competes in international music competitions",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has performances in Taiwan in December.",
+          "value": "travels to Taiwan for violin performances",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he now enjoys cold weather more than expected, contrasting with California's lack of seasons.",
+          "value": "enjoys cold weather more than anticipated",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he does not play sports and does not have the physique for it, describing himself as a 'tiny little kid'.",
+          "value": "non-athletic, does not play sports",
+          "lines": [
+            237,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker refers to himself as 'a tiny little kid', indicating a small physical stature.",
+          "value": "small physical stature",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states he lives north of New York City, about 20 minutes north.",
+          "value": "North of New York City, New York",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he is from New York, comparing winters to Boston.",
+          "value": "originally from New York",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he 'went to undergrad at Harvard' (ASR: 'I won't undergrad to harvard'), located in Cambridge, Massachusetts.",
+          "value": "Cambridge, Massachusetts (Harvard undergraduate)",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states he had a job where he lived in New York and commuted to Chicago during the week, around 2014-2015.",
+          "value": "commuted to Chicago, Illinois for work during the week",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker explicitly says 'I'm 44'.",
+          "value": "44 years old",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to himself as a 'white suburban dad' and uses masculine pronouns (husband, dad).",
+          "value": "male",
+          "lines": [
+            156,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he is a 'white suburban dad' and that his parents are Irish from Ireland.",
+          "value": "White (Irish descent)",
+          "lines": [
+            156,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has been married for 17 years.",
+          "value": "married for 17 years",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he has two boys, a nine-year-old and a twelve-year-old.",
+          "value": "father of two sons, ages 9 and 12",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he attended Harvard for undergraduate studies.",
+          "value": "Harvard University alumnus (undergraduate)",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I'm 44 so like everything creaks a little bit more if I don't move it', indicating age-related joint stiffness.",
+          "value": "age-related joint stiffness",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker says his wife is a writer, she wanted to be a writer since age 14, and she is 'pretty successful at it'.",
+          "value": "wife is a successful writer",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states they were high school sweethearts.",
+          "value": "wife is high school sweetheart",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions his college roommate was Korean.",
+          "value": "college roommate was Korean",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he had a friend who went to Juilliard as a dancer and later worked for Google.",
+          "value": "friend who attended Juilliard and later worked at Google",
+          "lines": [
+            176
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states his parents are both Irish and came from Ireland.",
+          "value": "parents are Irish immigrants from Ireland",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says he has been 'shoving baseball down my son's throat' and discusses coaching his son's hitting technique.",
+          "value": "actively coaches son in baseball",
+          "lines": [
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he attends minor league baseball games where tickets are $10 compared to $150 for Mets games.",
+          "value": "attends minor league baseball games",
+          "lines": [
+            228,
+            229,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he had a job where he commuted to Chicago during the week.",
+          "value": "commuted weekly to Chicago for a previous job",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has learned to 'pamper myself and just make sure I'm in like a climate controlled environment'.",
+          "value": "prefers staying in climate-controlled environments",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I set that alarm' referring to a timer for the 25-minute conversation.",
+          "value": "set an alarm for this conversation",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

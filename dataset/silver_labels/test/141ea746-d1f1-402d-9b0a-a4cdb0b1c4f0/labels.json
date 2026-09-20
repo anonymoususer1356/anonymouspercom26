@@ -1,0 +1,340 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'My name is Jazz, jasmine.' (23) and 'Jazz and legislative.' (27, likely ASR for Jasmine).",
+          "value": "Jazz (Jasmine)",
+          "lines": [
+            23,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I live in Arizona.' (31), 'I moved here at the end of november' (55), and discusses Arizona heat.",
+          "value": "Arizona",
+          "lines": [
+            31,
+            45,
+            49,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was born and raised in California' (221).",
+          "value": "California",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was living in Costa rica ... for like a year and a half' (55) and 'In total I was there for about a year and a half' (91).",
+          "value": "Costa Rica (lived there 1.5 years)",
+          "lines": [
+            55,
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm from the US' (55).",
+          "value": "American",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker teaches English online (301) to adults (313).",
+          "value": "online English teacher",
+          "lines": [
+            301,
+            313
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'my health I have an auto immune disease' (87).",
+          "value": "autoimmune disease",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I started feeling kind of depressed' during shutdown (271).",
+          "value": "felt depressed during quarantine",
+          "lines": [
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker says 'I had to apply for disability for because of my autoimmune disease' (301).",
+          "value": "applied for disability benefits",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I teach english online a few hours a day, and that gives me a little bit of an income' (301) and teaches adults (313).",
+          "value": "part-time online English teacher (teaches adults)",
+          "lines": [
+            301,
+            313
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my mother and I live together' (275) and 'my mom is here' (225).",
+          "value": "lives with mother",
+          "lines": [
+            275,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have my aunt, my uncle, my cousins ... in Arizona' (221).",
+          "value": "has aunt, uncle, cousins in Arizona",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I had always wanted to live abroad' (81), lived in Costa Rica, 'I would like to try somewhere new' (227), 'I've never lived in snow. I would like to just experience that' (229).",
+          "value": "enjoys traveling and living abroad, open to new experiences",
+          "lines": [
+            81,
+            55,
+            227,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I wake up at like four a.m. ... and I have some coffee and then I go walk around' (271).",
+          "value": "takes early morning walks (4am), drinks coffee",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my mom and I are both introverts' (291).",
+          "value": "introverted",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I prefer cold much more to the heat' (237).",
+          "value": "prefers cold weather",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'I'm jane.' (28).",
+          "value": "Jane",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm in the northern tip of Kentucky. So right across the river from Cincinnati.' (34) and describes a suburb 25 minutes from downtown Cincinnati (174).",
+          "value": "northern Kentucky, near Cincinnati, suburb",
+          "lines": [
+            34,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I grew up on a farm... about 10 minutes south of here' (176).",
+          "value": "grew up on a farm in Kentucky",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I have two girls Um they're 11 and four.' (112).",
+          "value": "mother of two daughters",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've been married previously, so my first daughter that's from my first husband' (114).",
+          "value": "previously married",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Had first daughter at 31 (114) and that daughter is now 11 (112); 31+11=42.",
+          "value": "about 42 years old",
+          "lines": [
+            112,
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I have some friends um in my mom's group here' (306).",
+          "value": "member of a moms group",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I am an office manager at a small construction company' (322).",
+          "value": "office manager",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says she is an office manager part-time, works from home, boss flexible (322-324).",
+          "value": "part-time office manager at a small construction company, flexible schedule",
+          "lines": [
+            322,
+            324
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I have two girls Um they're 11 and four.' (112).",
+          "value": "two daughters, ages 11 and 4",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'my first husband' as father of her first daughter (114).",
+          "value": "ex-husband (first husband)",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my mom took the kids for the day' (260) and daughter loves going to her mom's (184).",
+          "value": "mother lives nearby, involved with grandchildren",
+          "lines": [
+            260,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my uncle actually has a dairy farm that he still operate' (178).",
+          "value": "uncle who operates a dairy farm",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have some friends um in my mom's group here' (306).",
+          "value": "friends in moms group",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a friend in her moms group who teaches English online, likely to kids in China (306-310).",
+          "value": "friend who teaches English online (to kids in China)",
+          "lines": [
+            306,
+            308,
+            310
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I would love to just curl up with a good book, I love to read' (260).",
+          "value": "enjoys reading",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I love to exercise... I used to teach jazzercise... I was still going before the quarantine as a student' (260).",
+          "value": "enjoys jazzercise (used to teach, now student)",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'most of my free time is spent, you know entertaining them are running them to activities' (258).",
+          "value": "free time mostly spent on kids' activities",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I grew up on a farm... we had horses mostly... I would ride horses' (178, 180).",
+          "value": "grew up on a farm, rode horses",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

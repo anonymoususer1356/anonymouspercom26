@@ -1,0 +1,308 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I am living in New york city' and describes using the subway, confirming residence in New York City.",
+          "value": "New York City",
+          "lines": [
+            227,
+            231
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly states her age as 28.",
+          "value": "28 years old",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my family came from china' and mentions moving 'to here', indicating Chinese origin.",
+          "value": "Chinese origin (family immigrated from China)",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I am the only child'.",
+          "value": "only child",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions taking classes, studying International Marketing, finishing her Bachelor's, and being in her last semester.",
+          "value": "Bachelor's student in International Marketing (last semester)",
+          "lines": [
+            13,
+            17,
+            35,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says she is scared of needles and has a phobia, and describes the difficulty of getting her annual flu shot.",
+          "value": "fear of needles (phobia)",
+          "lines": [
+            267,
+            293,
+            294,
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she has been working while also going to school, causing tiredness.",
+          "value": "employed while attending school",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she used to work at a pediatric office two years ago.",
+          "value": "previously worked at a pediatric office",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to her mother's comments about her life.",
+          "value": "has a mother",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions going to visit a friend via subway.",
+          "value": "has at least one friend",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a strained relationship with coworker Davina, saying it is almost impossible to be friends and she will only work cordially.",
+          "value": "strained relationship with coworker Davina",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a expresses excitement for Maya, indicating a positive connection.",
+          "value": "positive relationship with Maya (likely coworker)",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes using the subway to visit a friend and waiting for a second train because the first was packed.",
+          "value": "commutes by subway",
+          "lines": [
+            231,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions tension 'in the office between us', indicating she works in an office setting.",
+          "value": "works in an office",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she is studying International Marketing.",
+          "value": "studies international marketing",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says the tattoo on her ring finger is the couple's last initial, and speaker_a comments on the 'little J', establishing her surname starts with J.",
+          "value": "surname initial J (tattooed on ring finger)",
+          "lines": [
+            240,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says she is 30 and just turned 30 this year.",
+          "value": "30 years old",
+          "lines": [
+            26,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has a seven-month-old baby and gives his name as Rudy.",
+          "value": "parent of a 7-month-old son named Rudy",
+          "lines": [
+            82,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I have two siblings'.",
+          "value": "has two siblings",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says when her whole family gets together for a holiday it is about 50 people, indicating a large extended family.",
+          "value": "comes from a large extended family (gatherings ~50 people)",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she does not like getting shots and is freaked out by needles, despite having many tattoos.",
+          "value": "fear of injections (needle phobia)",
+          "lines": [
+            284,
+            286,
+            288,
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked what she does, speaker_b replies she has a kid and describes being the primary caregiver with no access to childcare or nearby family, indicating she is a stay-at-home parent.",
+          "value": "stay-at-home parent (primary caregiver for infant)",
+          "lines": [
+            80,
+            122,
+            123,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her husband coming downstairs and describes matching initial tattoos instead of wedding rings.",
+          "value": "married (husband)",
+          "lines": [
+            144,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has a 7-month-old son named Rudy, shown in photos.",
+          "value": "has a son named Rudy",
+          "lines": [
+            82,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has two siblings.",
+          "value": "has two siblings",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes holiday gatherings of about 50 people, indicating a large extended family.",
+          "value": "large extended family (~50 people at holidays)",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she and the baby go to the park and the coffee shop.",
+          "value": "takes baby to park and coffee shop",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having many tattoos, traveling to Toronto specifically to get a tattoo, and planning a new one for her other ring finger.",
+          "value": "tattoo enthusiast (travels for tattoos, plans new pieces)",
+          "lines": [
+            240,
+            250,
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says she has 'so many' tattoos and that they are 'everywhere', describing placements on neck, chest, fingers, etc.",
+          "value": "heavily tattooed",
+          "lines": [
+            240,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a remarks that speaker_b looks very young, and speaker_b confirms that people always say that, often thinking she is about 24.",
+          "value": "youthful appearance, often mistaken for early 20s",
+          "lines": [
+            27,
+            30,
+            31
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

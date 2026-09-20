@@ -1,0 +1,312 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states 'My name is Michelle.'",
+          "value": "Michelle",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'Right now I live in boston'.",
+          "value": "currently lives in Boston, Massachusetts",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she moved from St. Louis and lived there for 10 years.",
+          "value": "formerly lived in St. Louis, Missouri for about 10 years",
+          "lines": [
+            13,
+            17,
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Michelle and references to a male partner suggest speaker_a is female.",
+          "value": "female",
+          "lines": [
+            5,
+            45
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says she visited New York when she was 18, over 10 years ago.",
+          "value": "likely late 20s to early 30s",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I went to college there' referring to St. Louis.",
+          "value": "college educated",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a explicitly states 'I can't really eat seafood.'",
+          "value": "cannot eat seafood",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes her job at a startup, remote, building ML models, company based in California, about 15 people.",
+          "value": "works remotely at a small tech startup (approx. 15 employees) that builds machine learning models for customer service, company based in California",
+          "lines": [
+            67,
+            69,
+            73,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my partner got a job appear' (ASR for 'up here') and 'take him', indicating a male partner.",
+          "value": "has a male partner",
+          "lines": [
+            17,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my grandma... she lives in the midwest as well'.",
+          "value": "has a grandmother who lives in the Midwest",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to 'some of our friends' while describing a board game video call.",
+          "value": "has friends",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'we like to travel' and appreciates hearing different languages at the grocery store.",
+          "value": "enjoys travel and cultural diversity",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions universities have free summer stuff and she plans to research free activities.",
+          "value": "likes attending free events and plans to seek them out",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes playing a board game remotely with friends via video call.",
+          "value": "plays board games with friends over video calls",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says working from home makes her 'way too close to my bed' and misses separating personal and professional life.",
+          "value": "works from home and misses the separation of office and home life",
+          "lines": [
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she would like to take her partner to New York and spend a couple weeks.",
+          "value": "plans to visit New York City again for an extended stay",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she doesn't have a heavy winter coat yet and will need to buy one for Boston winters.",
+          "value": "does not yet own a heavy winter coat suitable for Boston",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'My name is Michelle'.",
+          "value": "Michelle",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is from the Bronx, lives in Parkchester about 10 minutes from the Bronx zoo.",
+          "value": "lives in Parkchester, Bronx, New York City",
+          "lines": [
+            12,
+            26,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was really raised in Brooklyn'.",
+          "value": "raised in Brooklyn, New York",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Michelle and context suggest female.",
+          "value": "female",
+          "lines": [
+            6
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a bible person' and stays away from Halloween.",
+          "value": "Christian (Bible believer)",
+          "lines": [
+            150,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'I got to that age where it's just like it doesn't matter anymore is no one to impress', suggesting middle age or older.",
+          "value": "middle-aged or older",
+          "lines": [
+            56
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she now works as a brand and health ambassador at Chelsea Market, reminding people to wear masks.",
+          "value": "currently employed as a brand and health ambassador at Chelsea Market",
+          "lines": [
+            96,
+            98,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions past work including background acting on shows like Bull and Blindspot, event staffing, brand ambassador, maintenance, and census enumerator.",
+          "value": "previously worked as a background actor and held various other jobs (event staffing, brand ambassador, maintenance, census worker)",
+          "lines": [
+            84,
+            86,
+            94,
+            114,
+            116,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she will do a Zoom party with 'my family only'.",
+          "value": "has family",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she likes to go to the movies and now goes to thrift shops.",
+          "value": "enjoys going to movies and thrift shopping",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b attended free concerts and events in Manhattan last year.",
+          "value": "attends free concerts and events when available",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she does not celebrate Halloween due to religious beliefs.",
+          "value": "avoids Halloween due to religious beliefs",
+          "lines": [
+            150,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b plans a virtual family gathering (Zoom party) for Halloween/holidays.",
+          "value": "hosts virtual family gatherings for holidays",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes background acting as 'easy money' and says she did a lot of shows in New York.",
+          "value": "enjoys doing background acting work as easy income",
+          "lines": [
+            114,
+            118,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

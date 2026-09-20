@@ -1,0 +1,280 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm from America'.",
+          "value": "America",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm in florida right now' and specifies 'calm beach county southeast florida', phonetically matching Palm Beach County, Florida.",
+          "value": "Palm Beach County, Florida",
+          "lines": [
+            9,
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I'm from the northeast to though uh from New Jersey and new york'.",
+          "value": "New Jersey and New York",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I used to live up north end over a couple times', referring to the North End neighbourhood of Boston.",
+          "value": "North End, Boston",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Directly describes themselves as 'pretty intensely liberal' and later 'Uber liberal', supporting welfare state and libertarian economy.",
+          "value": "Intensely liberal, supports welfare state and libertarian economy",
+          "lines": [
+            33,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Self-deprecatingly says 'I'm a head case', indicating a view of their own mental state.",
+          "value": "head case (self-described)",
+          "lines": [
+            201
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I do ap testing and testing freelance writing gig economy stuff', full-time, and works from home.",
+          "value": "Freelance writer, AP tester, gig economy, full-time, works from home",
+          "lines": [
+            33,
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions previously being an administrative assistant and assistant editor at a publishing house, doing historical research on WWII and Holocaust survivors.",
+          "value": "Previously administrative assistant and assistant editor at a publishing house, conducted historical research on WWII and Holocaust",
+          "lines": [
+            101,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my backyard' and eating dinner there, indicating a residential setting with a yard.",
+          "value": "Has a backyard where they eat dinner",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'she kind of changed my life' in the context of a previous job, implying a significant female influence.",
+          "value": "A female person positively changed their life",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions neighbours having gatherings 'right in my backyard'.",
+          "value": "Neighbors who hold gatherings adjacent to their backyard",
+          "lines": [
+            205
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I jog pretty early in the morning' and 'I top out of bed and go run right away'.",
+          "value": "Jogs early morning, runs immediately after waking",
+          "lines": [
+            23,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm a pretty hardcore yankee fan'.",
+          "value": "Hardcore New York Yankees fan",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains they stopped watching football after the NFL banned kneeling during the anthem, referencing Colin Kaepernick.",
+          "value": "Stopped watching football due to the NFL's ban on kneeling during the anthem (Colin Kaepernick protest)",
+          "lines": [
+            79,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I still watch baseball book', likely meaning 'still watch baseball though'.",
+          "value": "Watches baseball",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions dining in their backyard.",
+          "value": "Eats dinner in backyard",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Talks hypothetically about walking around with a Yankees hat, implying they own or wear one as a fan.",
+          "value": "Owns or wears a New York Yankees hat",
+          "lines": [
+            75
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Confirms 'The same from America'.",
+          "value": "America",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm in the Northeast', later 'so boston', 'the patriots are big here', and 'we're really dense up here'.",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            8,
+            62,
+            78,
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I feel pretty safe politically that you're not like a trump supporter', and speaker_b answers 'Yeah' confirming.",
+          "value": "Not a Trump supporter",
+          "lines": [
+            107,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I'm an admin assistant right now um for a company', 'I five people that I work with', 'things have definitely died down and we're working from home'.",
+          "value": "Admin assistant, works with five people, working from home, reduced workload due to COVID",
+          "lines": [
+            100,
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a context of unemployment and reduced work, says 'like like ours cut and everything', suggesting hours or pay were cut.",
+          "value": "Work hours or pay reduced",
+          "lines": [
+            48
+          ],
+          "certainty": 2
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'I five people that I work with', indicating they work with or support five colleagues.",
+          "value": "Works with five colleagues/people",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'we had a girl that left us so I took some of her people on'.",
+          "value": "Had a female coworker who left the company",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I run, I did the opposite, I run late at night to avoid people'.",
+          "value": "Runs late at night to avoid people",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I just kind of like I'm on the sidelines, I don't participate too much' about sports fandom.",
+          "value": "Not an active sports fan",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I have like my face mask over there' and describes face‑mask requirements in Boston, implying they comply.",
+          "value": "Has a face mask and wears it when going out",
+          "lines": [
+            66,
+            64,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Stated to have a face mask and required to wear it, therefore wears a face mask.",
+          "value": "Wears a face mask",
+          "lines": [
+            66
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a confirms she is in Wisconsin and mentions Green Bay in a way that implies she lives there ('the only thing I don't like about, you know like Green Bay').",
+          "value": "Wisconsin, likely Green Bay area",
+          "lines": [
+            27,
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I was born in Georgia'.",
+          "value": "Georgia (birthplace)",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists having lived in Washington state.",
+          "value": "Washington state (former residence)",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists having lived in Sugar Land, Texas.",
+          "value": "Sugar Land, Texas (former residence)",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists having lived in South Carolina and confirms it as where she grew up when asked.",
+          "value": "South Carolina (grew up and former residence)",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a attended UW-Stout and describes the town as a small town that doubled in population during school; ASR 'my nominee' is likely Menomonie, the town where UW-Stout is located.",
+          "value": "Menomonie, Wisconsin (college town)",
+          "lines": [
+            343,
+            405,
+            407
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a discusses playing as a boy in Animal Crossing and comments that the game's clothing is centered toward women, implying she is female.",
+          "value": "Female",
+          "lines": [
+            121,
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I have actually got a bachelor's in engineering' and attended UW-Stout.",
+          "value": "Has a bachelor's degree in engineering",
+          "lines": [
+            237,
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm from the south'.",
+          "value": "Identifies as from the Southern United States",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I'm immuno compromised'.",
+          "value": "Immunocompromised",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was diagnosed with 'stomach square derma' (ASR likely for scleroderma) and that it is an autoimmune disease affecting everything.",
+          "value": "Diagnosed with 'stomach square derma' (autoimmune disease, likely scleroderma)",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is 'always in pain, never feel good, tired all the time'.",
+          "value": "Chronic pain and fatigue",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she is 'very slow at processing... basically can't do math anymore... memory problems that are terrible'.",
+          "value": "Cognitive impairments (slow processing, cannot do math, memory problems)",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has 'a lot of anxiety' and that her therapist recommended Animal Crossing for it.",
+          "value": "Has anxiety",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a relays her doctor's instructions: 'no stores, no restaurants, no contact people and groceries are all delivered'.",
+          "value": "Under doctor's orders to avoid stores, restaurants, and physical contact with people",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains she cannot take live vaccines (like measles or shingles) because of her immunocompromised state, and must avoid people who recently received them for three days.",
+          "value": "Cannot receive live vaccines; must avoid individuals recently vaccinated with live vaccines for 3 days",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a says she applied for disability, has gone through multiple appeals, and is awaiting a decision; if denied again she faces a federal appeal.",
+          "value": "Applied for disability benefits and is in the appeals process",
+          "lines": [
+            249,
+            255,
+            257,
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she hasn't been able to work for about a year and a half.",
+          "value": "Unemployed for approximately 1.5 years due to health",
+          "lines": [
+            233,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she does surveys for money.",
+          "value": "Earns money through online surveys",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses hope for another stimulus check, indicating reliance on or expectation of such payments.",
+          "value": "Hopes to receive another stimulus check",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my doctor'.",
+          "value": "Has a doctor",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my therapist'.",
+          "value": "Has a therapist",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I gotta feed my friends cat'.",
+          "value": "Has a friend with a cat; feeds the cat",
+          "lines": [
+            427
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my great, great uncle taught at texas A and M'.",
+          "value": "Great-great-uncle taught at Texas A&M",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is speaking to speaker_b as part of a 'chats sessions' program; she says 'you're my second I've talked to'.",
+          "value": "Participant in video chat sessions; paired with speaker_b",
+          "lines": [
+            13,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she stays inside her house exclusively due to her immunocompromised state, reinforced by her doctor's orders.",
+          "value": "Stays home isolated because of immunocompromisation",
+          "lines": [
+            17,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says groceries are all delivered.",
+          "value": "Has groceries delivered to avoid contact",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a process of ordering from a restaurant and waiting in the car for pickup.",
+          "value": "Uses car-side pickup for restaurant orders",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses various Animal Crossing activities (bridges, flowers, playing as a boy, etc.).",
+          "value": "Plays Animal Crossing on Nintendo Switch",
+          "lines": [
+            101,
+            103,
+            107,
+            115,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a wish that Animal Crossing had features like Harvest Moon (crops, cooking).",
+          "value": "Enjoys farming/life simulation video games (e.g., Harvest Moon)",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she loves ethnic food and lists missing cuisines in Green Bay.",
+          "value": "Enjoys diverse ethnic foods (Asian, Ethiopian, Middle Eastern, Greek, Indian)",
+          "lines": [
+            63,
+            65,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I love it when they squeak' about cheese curds.",
+          "value": "Enjoys cheese curds",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Very conservative government here' in a negative tone.",
+          "value": "Dislikes Wisconsin's conservative government",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I will take it in a second' regarding a COVID-19 vaccine and says 'after there's a vaccine, it'll be safe for me'.",
+          "value": "Eager to receive a COVID-19 vaccine",
+          "lines": [
+            83,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she attended University of Wisconsin Stout.",
+          "value": "Alumna of University of Wisconsin Stout",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in texas' and mentions 100-degree heat.",
+          "value": "Texas",
+          "lines": [
+            24,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We have that in often here' (ASR for Austin) and describes his city as a 'little liberal bastion in the middle of a very conservative states', matching Austin's reputation.",
+          "value": "Austin, Texas (inferred)",
+          "lines": [
+            400,
+            402
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he is 'not from there originally' regarding Texas.",
+          "value": "Not originally from Texas",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' and presents as a math teacher; typical male gender role inference.",
+          "value": "Male",
+          "lines": [
+            36,
+            288
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm a math teacher' and specifies 'the college level'.",
+          "value": "Math teacher at the college level",
+          "lines": [
+            288,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have three kids, two sons and one daughter'.",
+          "value": "Parent of three children",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my wife' multiple times.",
+          "value": "Married",
+          "lines": [
+            36,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he is a math teacher at the college level and is currently in his office at work.",
+          "value": "Employed as a college math teacher; works in an office",
+          "lines": [
+            288,
+            296,
+            92,
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my wife'.",
+          "value": "Wife (married)",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a 14 year old brother' but the person is referred to as 'she', 'her mom' (his wife), and later he mentions 'my daughter' who plays The Sims; the ASR likely misrecognized 'daughter' as 'brother'. She plays Animal Crossing and cares about outfits.",
+          "value": "Daughter, age 14 (ASR error: 'brother' for 'daughter')",
+          "lines": [
+            128,
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions a 12-year-old child who is 'not as interested' in Animal Crossing; context shows this is one of his sons.",
+          "value": "Son, age 12",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has two sons.",
+          "value": "Son (another son besides the 12-year-old)",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife has been playing Animal Crossing and has an advanced island.",
+          "value": "Wife plays Animal Crossing avidly",
+          "lines": [
+            102,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his daughter's favorite game is The Sims, and she also plays Animal Crossing focusing on outfits.",
+          "value": "Daughter plays The Sims and Animal Crossing",
+          "lines": [
+            128,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his 12-year-old son likes a shooting game called 'Platini' (likely Paladins) with many accessories.",
+          "value": "12-year-old son plays a shooting video game (like Paladins)",
+          "lines": [
+            136
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'my wife went with our family to like the mills' (ASR for 'the Dells'); speaker_a confirms the Dells. He may have gone as well ('we were actually just there'), but it is clear the family visited the Wisconsin Dells.",
+          "value": "Wife and family visited the Wisconsin Dells",
+          "lines": [
+            36,
+            38,
+            54
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b is speaking to speaker_a as part of a 'chats sessions'; he says 'you're my second as well'.",
+          "value": "Participant in video chat sessions; paired with speaker_a",
+          "lines": [
+            14,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says regarding Animal Crossing: 'I think it's been my biggest relief during the last few months'.",
+          "value": "Plays Animal Crossing for stress relief",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm really a big fan of indian food'.",
+          "value": "Enjoys Indian food",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he was 'shelter[ing] in place for about three months or so just going out to the grocery store remotely occasionally picking things up from restaurants'.",
+          "value": "Sheltered in place for approximately 3 months early in the pandemic",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is at work in his office with hardly anyone else there; he closed the blinds.",
+          "value": "Works in a mostly empty office with blinds closed",
+          "lines": [
+            92,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says school starts in a couple of weeks with a hybrid approach, seeing part of the class in person.",
+          "value": "College starting hybrid classes soon; teaching both in-person and online",
+          "lines": [
+            298,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his department has always opposed online math courses but now has no choice.",
+          "value": "Math department previously opposed online teaching",
+          "lines": [
+            320,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having over 10 restaurants with cheese curds where he used to live, and says he can eat them plain.",
+          "value": "Enjoys cheese curds",
+          "lines": [
+            372,
+            386
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recommends Stardew Valley, indicating he is familiar with it.",
+          "value": "Familiar with and recommends Stardew Valley",
+          "lines": [
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when we started we had remarked we had just traveled' before the school announced quarantine for travelers.",
+          "value": "Traveled shortly before pandemic lockdowns began",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he visited 'Morning Medicine University' (likely University of Minnesota) and 'radisson' (likely Madison) as an adult and could buy beer at the student union.",
+          "value": "Visited University of Minnesota and Madison, Wisconsin as an adult",
+          "lines": [
+            356,
+            358,
+            364
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,562 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Rebecca in line 5. Speaker_b confirms this by addressing her as Rebecca in line 570.",
+          "value": "Rebecca",
+          "lines": [
+            5,
+            570
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In line 7 she states 'I'm from Nebraska', and in line 18 she confirms she is originally from Nebraska when asked.",
+          "value": "Originally from Nebraska",
+          "lines": [
+            7,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm pursuing graduate school here' (line 17) and 'my husband has a good job here' (line 19), in the context of Nebraska weather, establishing she currently lives in Nebraska.",
+          "value": "Currently lives in Nebraska",
+          "lines": [
+            17,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asked what time it is, she replies 'I am central so it's three here' (line 565), placing her in the Central Time Zone.",
+          "value": "Central Time Zone",
+          "lines": [
+            565
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discussing electoral votes, she says 'Biden won one electoral college vote in Omaha, which is not where I am' (line 461).",
+          "value": "Not in Omaha, Nebraska",
+          "lines": [
+            461
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions Lincoln as the other single-vote college town that didn't vote Biden (lines 461-463) and then remarks 'there's no reason that a college town should not' (line 467). As a PhD student in Nebraska, the flagship University of Nebraska-Lincoln is the most likely institution; thus she likely resides in Lincoln.",
+          "value": "Likely lives in Lincoln, Nebraska",
+          "lines": [
+            461,
+            463,
+            467
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She has a female name (Rebecca) and speaker_b calls her 'young lady' (line 586).",
+          "value": "Female",
+          "lines": [
+            5,
+            586
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'I'm married' in line 19.",
+          "value": "Married",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 21 she says she is 'going to school for a PhD in school psychology'.",
+          "value": "PhD student in school psychology",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I am a third year' (line 57) and clarifies she is finishing the first semester of her third year (line 59).",
+          "value": "Third-year PhD student",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she attended Catholic school growing up but no longer holds religious beliefs (line 521).",
+          "value": "Raised Catholic, currently non-religious",
+          "lines": [
+            521
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She declares 'I am a Biden supporter' (line 465).",
+          "value": "Biden supporter",
+          "lines": [
+            465
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she won't be experiencing a crying baby anytime soon (line 279) and is 'okay either way' about kids (line 331), indicating she has no children.",
+          "value": "No children",
+          "lines": [
+            279,
+            331
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She mentions having had therapists and shares her own therapy experiences (line 143), showing she has been a client.",
+          "value": "Has received therapy in the past",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she never feared losing paychecks within the bounds of graduate school (line 447), implying she receives a stipend or salary.",
+          "value": "Receives paychecks from graduate school",
+          "lines": [
+            447
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She talks of building equity (line 19), having a big backyard (line 249), and being in her basement (line 265), all signs of homeownership.",
+          "value": "Homeowner (with husband)",
+          "lines": [
+            19,
+            249,
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I just have like a sedan' (line 31).",
+          "value": "Owns a sedan",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She notes 'my husband has a truck' (line 31).",
+          "value": "Husband owns a truck",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she takes surveys on Prolific (lines 200-203), a platform that typically pays participants.",
+          "value": "Earns money from Prolific surveys",
+          "lines": [
+            200,
+            203
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly refers to 'my husband' (lines 19, 31, 257 etc.).",
+          "value": "Married to a husband",
+          "lines": [
+            19,
+            31,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister is also a graduate student and lives in the South (lines 387-388).",
+          "value": "Has a sister who is a graduate student in the South",
+          "lines": [
+            387,
+            388
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her sister's dog as a rescue pit bull/retriever mix (line 411).",
+          "value": "Sister owns a rescue dog (pit bull/retriever mix)",
+          "lines": [
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She introduces her dogs: Georgia, a 2.5-year-old blue heeler (lines 231, 233, 241), and another blue heeler aged 5.5 years (line 257).",
+          "value": "Owns two dogs: Georgia (blue heeler, 2.5) and older blue heeler (5.5)",
+          "lines": [
+            231,
+            233,
+            241,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we have cats too' (line 127) and later specifies two cats (line 361).",
+          "value": "Owns two cats",
+          "lines": [
+            127,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having had a pet rat that died (line 345).",
+          "value": "Had a pet rat (deceased)",
+          "lines": [
+            345
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my advisor' in line 217, confirming a mentoring relationship.",
+          "value": "Has a PhD advisor",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She speaks about friends from her program and childhood (lines 173-175).",
+          "value": "Has friends from graduate program and childhood",
+          "lines": [
+            173,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions her basement (line 265) and a large backyard (line 249).",
+          "value": "Lives in a house with a basement and large backyard",
+          "lines": [
+            249,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she sometimes asks to work from home (line 29).",
+          "value": "Works from home occasionally",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her partnership with the Nebraska Department of Education on an intervention website (lines 43-45).",
+          "value": "Works on a research project with the Nebraska Department of Education",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is a survey taker on Prolific and this is her second time (lines 200-203, 572-573).",
+          "value": "Prolific survey taker (second session)",
+          "lines": [
+            200,
+            203,
+            572,
+            573
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is not a 'big big city person' (line 299) and would prefer a larger city than now but not a metropolis (line 305).",
+          "value": "Prefers medium-sized city over large metropolis",
+          "lines": [
+            299,
+            305
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions plans to move to a southern state after her PhD (lines 19, 21).",
+          "value": "Plans to move to a southern state after PhD",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She and her sister plan to meet for Thanksgiving (line 389).",
+          "value": "Plans to meet sister for Thanksgiving",
+          "lines": [
+            389
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In line 4, she introduces herself as Sherry.",
+          "value": "Sherry",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where she is from, she answers 'California' (line 8).",
+          "value": "From California",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explains they moved from L.A. south towards San Diego for her husband's job, and it's a small town (lines 284-286).",
+          "value": "Currently lives in a small town in southern California near San Diego",
+          "lines": [
+            284,
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states they moved from L.A. (line 284).",
+          "value": "Previously lived in Los Angeles",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says it's 1:00 there when speaker_a says it's 3:00 Central (lines 564-565), making her time zone two hours behind – Pacific.",
+          "value": "Pacific Time Zone",
+          "lines": [
+            564,
+            565
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Her name is Sherry, and she discusses childbirth fears (line 328), indicating female gender.",
+          "value": "Female",
+          "lines": [
+            4,
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She regularly refers to 'my husband' (e.g., line 36).",
+          "value": "Married",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't have any kids' (line 324) and is considering adoption (line 326).",
+          "value": "No children, considering adoption",
+          "lines": [
+            324,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The transcript reads 'I wasn't accounting', but the context (a discussion about jobs) and the phonetics make 'I was in accounting' the intended meaning; she is likely an accountant. (ASR error noted.)",
+          "value": "Accountant (likely)",
+          "lines": [
+            284
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She calls religion 'the root of all evil' (line 530), expressing a non-religious, even anti-religious stance.",
+          "value": "Non-religious (anti-religion sentiment)",
+          "lines": [
+            530
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I'm allergic to cats' in line 364.",
+          "value": "Allergic to cats",
+          "lines": [
+            364
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't know if I have anxiety issues' (line 328), acknowledging a possible mental health concern.",
+          "value": "Possible anxiety issues",
+          "lines": [
+            328
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She describes attending therapy for a full year but feeling it was unfulfilling (lines 140-142).",
+          "value": "Has undergone therapy for a year",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She remarks that there aren't many jobs in her current town, implying she is not employed in her field (line 284).",
+          "value": "Likely not currently working (or not in accounting)",
+          "lines": [
+            284
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "They relocated for her husband's job and she says she goes wherever he goes (lines 284, 296), indicating financial dependence.",
+          "value": "Relies on husband's income",
+          "lines": [
+            284,
+            296
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states they bought their first house together a year ago (line 382).",
+          "value": "Homeowner (with husband)",
+          "lines": [
+            382
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her husband is a senior researcher in computational biology/statistics who worked in a lab for 15 years (lines 36, 38, 292).",
+          "value": "Married to a senior researcher in computational biology/statistics",
+          "lines": [
+            36,
+            38,
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her husband's frustration with students who don't work hard enough (lines 38-40).",
+          "value": "Husband supervises students with poor work ethic",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her husband had a cat that they gave away because of her allergies; the cat later died (lines 366, 378).",
+          "value": "Husband's former cat died; given away due to her allergy",
+          "lines": [
+            366,
+            378
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tells a story about a friend who is a teacher with a short temper (line 132).",
+          "value": "Has a teacher friend with an attitude problem",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She recounts an anecdote about a coworker's dog (line 418), implying she has had coworkers.",
+          "value": "Had a coworker (at a previous job)",
+          "lines": [
+            418
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she prefers big‑city life and wants to move back to L.A. (lines 286, 288).",
+          "value": "Dislikes small-town life; wants to return to a big city (L.A.)",
+          "lines": [
+            286,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her husband enjoys watching Trump's removal and she finds it entertaining (line 480).",
+          "value": "Follows politics and finds Trump's antics entertaining",
+          "lines": [
+            480
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is a first‑time participant on the Prolific survey platform (lines 200, 574).",
+          "value": "First-time Prolific survey taker",
+          "lines": [
+            200,
+            574
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She reveals they don't yet have a couch on one side (line 382), showing they are still settling into their new home.",
+          "value": "New home still being furnished",
+          "lines": [
+            382
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she loves dogs (line 110) but currently has no pets because they are too busy (lines 383-384).",
+          "value": "Dog lover but currently petless",
+          "lines": [
+            110,
+            383,
+            384
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

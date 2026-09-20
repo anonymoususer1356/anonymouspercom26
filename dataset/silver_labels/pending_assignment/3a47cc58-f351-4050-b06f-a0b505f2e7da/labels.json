@@ -1,0 +1,243 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'Jackson' in line 3.",
+          "value": "Jackson",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Arizona' in line 15.",
+          "value": "Arizona",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b remarks that a previous participant was 'also a woman' (line 214), implying both speakers are women.",
+          "value": "female",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a grad student in clinical psychology, so I'm trying to get my doctoral dissertation stuff rolling' (line 23).",
+          "value": "doctoral student in clinical psychology",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm gonna be 1/5 year' (line 235). ASR '1/5' is interpreted as 'fifth', meaning he is a fifth-year doctoral student.",
+          "value": "fifth year doctoral student",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I'm furloughed from my job' (line 113).",
+          "value": "furloughed from job",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains he turned to Prolific to earn money after being furloughed: 'I could make money on' (lines 113-115).",
+          "value": "earns money via Prolific",
+          "lines": [
+            113,
+            114,
+            115
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'I have a little sister who's a freshman at a um Arizona university like um and she just turned 18' (line 51).",
+          "value": "has a little sister who is a freshman at an Arizona university and recently turned 18",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I have 44 dogs' (ASR likely misheard 'four dogs') 'and I have two cats and I have hermit crabs and I have a pond full of fish and have a bullfrog that moved in' (line 193).",
+          "value": "owns four dogs, two cats, hermit crabs, a pond of fish, and a bullfrog",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm usually pretty uh resistant to being on the webcam' (line 11).",
+          "value": "resistant to webcam use",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I spend a lot of time commuting regularly' (line 159), describing a past routine.",
+          "value": "spent a lot of time commuting regularly",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When speaker_a says 'charlotte right?' (line 247), speaker_b responds 'Yeah. Yeah, jasmine. Yes.' (line 248), directly stating her name is Jasmine. The earlier 'charlotte' is likely an ASR or perception error.",
+          "value": "Jasmine",
+          "lines": [
+            247,
+            248
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in California' (line 16).",
+          "value": "California",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b remarks that a prior participant was 'also a woman' (line 214), implying both she and speaker_a are women.",
+          "value": "female",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I come from Australia originally' (line 98).",
+          "value": "originally from Australia",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I mean I. T. And computing and stuff so' (line 108).",
+          "value": "works in IT/computing",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my husband cooks all kinds of indian food' (line 224).",
+          "value": "married",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'like I'm still working at home' (line 30).",
+          "value": "employed, works from home",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' in line 224.",
+          "value": "has a husband",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my sister lives in a state that has really had almost no cases' (line 98).",
+          "value": "has a sister",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a friend of mine is provost at one of the universities in Arizona' (line 24).",
+          "value": "has a friend who is a provost at an Arizona university",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'my last cat died a few months ago' and implies she currently has no pets (line 196).",
+          "value": "last cat died a few months ago, currently no pets",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives 'indian food I think' as her favorite food (line 222).",
+          "value": "favorite food is Indian food",
+          "lines": [
+            222
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'we went camping the other week' (line 66).",
+          "value": "goes camping",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I think I've been in four sessions' on Prolific (line 214).",
+          "value": "participates in Prolific research studies",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

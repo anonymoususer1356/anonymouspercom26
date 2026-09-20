@@ -1,0 +1,258 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is in Chicago and has been there for seven years.",
+          "value": "Chicago",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he moved to Chicago from D.C., implying he previously lived in Washington, D.C.",
+          "value": "Washington, D.C.",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says he is married.",
+          "value": "married",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has one child.",
+          "value": "parent of one child",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a identifies with the Seattle Mariners baseball team, using 'we', 'our stadium', and discussing Mariners players and trades.",
+          "value": "Seattle Mariners fan",
+          "lines": [
+            3,
+            9,
+            13,
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions his work telling him to work from home, indicating he is employed.",
+          "value": "employed",
+          "lines": [
+            89,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a participates in online surveys and research studies for extra money, earning hundreds of dollars per week at times.",
+          "value": "earns supplemental income from surveys and research studies",
+          "lines": [
+            59,
+            63,
+            69,
+            71,
+            75,
+            79,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions his wife.",
+          "value": "has a wife",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has one child.",
+          "value": "has one child",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having friends in Washington D.C. who are in politics, and a friend who signed him up for Trump emails as a prank.",
+          "value": "has friends (including some in D.C. politics and one who pranked him)",
+          "lines": [
+            143,
+            163,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a talks about going to baseball games at Wrigley Field with his wife, noting it is the only time she is interested.",
+          "value": "attends baseball games at Wrigley Field",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a was instructed by his work to start working from home again, indicating he works remotely at least part of the time.",
+          "value": "works from home",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he is in Connecticut.",
+          "value": "Connecticut",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states he is married.",
+          "value": "married",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he has two children, ages seven and nine.",
+          "value": "parent of two children (ages 7 and 9)",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b identifies as a die-hard New York Mets fan.",
+          "value": "New York Mets fan",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says he did not sleep for three days due to anxiety about the election and inability to stop watching the news.",
+          "value": "experienced insomnia (three days sleepless) during 2020 election",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states he runs a grocery store and goes to work every day.",
+          "value": "runs a grocery store",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in paid surveys and research studies, making money for small expenses like beer or gas.",
+          "value": "earns supplemental income from surveys and research studies",
+          "lines": [
+            58,
+            62,
+            64,
+            82,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his wife and being married.",
+          "value": "has a wife",
+          "lines": [
+            4,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he has two children, ages seven and nine.",
+          "value": "has two children (ages 7 and 9)",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions his brother used to live in Chicago.",
+          "value": "has a brother",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he and his wife enjoy visiting breweries.",
+          "value": "visits breweries with wife",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has attended a baseball game at Wrigley Field and speaks highly of the experience.",
+          "value": "attends baseball games (has been to Wrigley Field)",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he couldn't stop watching the news during the election, indicating heavy news consumption.",
+          "value": "follows news closely",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

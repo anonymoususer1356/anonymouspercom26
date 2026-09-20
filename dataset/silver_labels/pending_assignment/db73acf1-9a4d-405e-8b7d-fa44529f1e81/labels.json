@@ -1,0 +1,357 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name is Jack; speaker_b later calls him Jack.",
+          "value": "Jack",
+          "lines": [
+            9,
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'Nice Rhode island' when speaker_b gives her location, confirms 'providence' as his city, and later mentions a city next to Providence (ASR 'problems') and a Rhode Island rule.",
+          "value": "Rhode Island (Providence area)",
+          "lines": [
+            17,
+            39,
+            41,
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked his age, speaker_a answers '33'.",
+          "value": "33 years old",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I work at the Department of Human Services'.",
+          "value": "Works at Department of Human Services",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states he has back pain, no back surgery; it started from a desk job and he manages it with exercise and yoga.",
+          "value": "Has back pain, no back surgery",
+          "lines": [
+            47,
+            49,
+            61,
+            63,
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states his regular job is at DHS and gives hours as 8:30 to 4 (likely AM, though he said PM once).",
+          "value": "Day job at Department of Human Services, hours 8:30 AM - 4 PM",
+          "lines": [
+            35,
+            69,
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes doing side gigs on Craigslist, Amazon MTurk, Prolific and other websites to earn extra money.",
+          "value": "Engages in side hustles including MTurk, Prolific, Craigslist gigs",
+          "lines": [
+            71,
+            73,
+            75,
+            77,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has worked and saved money since age 10 and hopes to stop working full‑time within a year or two.",
+          "value": "Has saved money since age 10 and plans early retirement (within 1-2 years)",
+          "lines": [
+            203,
+            207,
+            215,
+            235,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions paying off his mortgage in a year or two.",
+          "value": "Has a mortgage and plans to pay it off within 1-2 years",
+          "lines": [
+            215,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his day job at DHS provides health insurance and a pension.",
+          "value": "Receives health insurance and pension from DHS job",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says a relative was diagnosed with a terminal illness, then clarifies it is an uncle.",
+          "value": "Has an uncle diagnosed with a possibly terminal illness",
+          "lines": [
+            207,
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is engaged in a timed video conversation with speaker_b for a study/task.",
+          "value": "Participant in a research study conversation with speaker_b",
+          "lines": [
+            23,
+            219,
+            249,
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a wakes at 5 AM and rides his bike 5‑10 miles on weekdays and up to 40 miles on weekends.",
+          "value": "Wakes at 5 AM, cycles regularly (5-10 miles weekdays, 40 miles weekends)",
+          "lines": [
+            35,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he does yoga as much as he can to help his back.",
+          "value": "Practises yoga",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a lot of travelling after paying off his mortgage and retiring.",
+          "value": "Plans to travel after retirement",
+          "lines": [
+            215
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states her name is Gina; speaker_a greets her as Gina.",
+          "value": "Gina",
+          "lines": [
+            10,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in New Jersey, and later specifies central Jersey near the ocean, contrasting with her sister in North Jersey.",
+          "value": "Central New Jersey, near the ocean",
+          "lines": [
+            16,
+            110,
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I recently became disabled'.",
+          "value": "Disabled",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was in the Peace Corps in Ethiopia about 20 years ago.",
+          "value": "Former Peace Corps volunteer in Ethiopia",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she has bipolar disorder and describes severe anxiety, racing thoughts, panic, dread, nightmares and nausea.",
+          "value": "Bipolar disorder with severe anxiety symptoms",
+          "lines": [
+            120,
+            122,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes blowing a disk, the contents pressing on a nerve, leg numbness, and having surgery to remove it.",
+          "value": "Underwent back surgery for a blown disk with leg numbness",
+          "lines": [
+            50,
+            54,
+            56,
+            58,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I have a very bad memory when it comes to things that happened in my life'.",
+          "value": "Poor memory for life events",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b receives disability benefits, contacted disability about earning a small amount, and received a review letter; she must report income monthly.",
+          "value": "Receives disability benefits and is required to report income",
+          "lines": [
+            120,
+            158,
+            160,
+            164,
+            190,
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b has limited income from disability but does small gigs: a $50/week online chat task, helping at a restaurant for cash, and online tasks like Prolific.",
+          "value": "Limited income from disability, supplemented by small gigs (online chatting $50/week, helping at restaurant)",
+          "lines": [
+            120,
+            154,
+            156,
+            178,
+            180,
+            184,
+            186,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is trying to put more money aside in her 401(k) each month.",
+          "value": "Has a 401(k) retirement account",
+          "lines": [
+            242,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses fear that earning extra money could cause her to lose disability benefits, especially after receiving a file‑review letter.",
+          "value": "Concerned about losing disability benefits if she earns extra income",
+          "lines": [
+            148,
+            158,
+            160,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says her sister lives in North Jersey near New York City.",
+          "value": "Has a sister living in North Jersey near NYC",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a friendly relationship with a woman who runs an Ethiopian Dominican restaurant and helps there occasionally.",
+          "value": "Friendly with a restaurant owner; helps at an Ethiopian Dominican restaurant",
+          "lines": [
+            178,
+            180,
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is engaged in a timed video conversation with speaker_a for a study/task.",
+          "value": "Participant in a research study conversation with speaker_a",
+          "lines": [
+            24,
+            26,
+            28,
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b calls herself a sedentary person and says a 15‑20 minute walk would be a big achievement.",
+          "value": "Sedentary, aims for 15-20 minute walks",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being attracted to Ethiopian people and restaurants and wanting to practise the language, stemming from her Peace Corps experience.",
+          "value": "Enjoys Ethiopian culture and wants to practise the language",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she normally likes a morning routine and isn't used to talking at 9 AM, but accepted it for this study.",
+          "value": "Prefers having a morning routine; adapted to 9 AM call for study",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,509 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states their first name when asked at the end of the call.",
+          "value": "Perry",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a dual citizen', combined with being from Nova Scotia, having an American wife, and choosing to be in Canada rather than the US.",
+          "value": "Dual citizen (US and Canada)",
+          "lines": [
+            19,
+            203,
+            247
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explicitly states they are sitting in Vancouver, British Columbia, and later references Stanley Park.",
+          "value": "Vancouver, British Columbia, Canada",
+          "lines": [
+            17,
+            51,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm from the other coast, I'm from the merit nova Scotia' (ASR 'merit' likely 'Maritimes', Nova Scotia is explicit).",
+          "value": "Nova Scotia, Canada",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked where based, says 'Virginia, Richmond Virginia'; later notes 'we used to live two blocks from that statue' (Robert E. Lee statue in Richmond).",
+          "value": "Richmond, Virginia",
+          "lines": [
+            15,
+            259
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'Last summer I spent the summer in victoria' and 'I spent six weeks there last summer'.",
+          "value": "Victoria, British Columbia",
+          "lines": [
+            31,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes spending a lot of time in Austin while discussing Medicaid work in Texas.",
+          "value": "Austin, Texas",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly uses 'my wife' (e.g., 'my wife and I love to travel').",
+          "value": "Married",
+          "lines": [
+            201,
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I do have two kids'.",
+          "value": "Father of two children",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm a liberal by now'.",
+          "value": "Liberal",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Describes working in healthcare IT, focusing on Medicaid systems and providing services to states.",
+          "value": "Healthcare IT consultant (Medicaid systems)",
+          "lines": [
+            189,
+            191,
+            194,
+            195
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'my wife is american'.",
+          "value": "Wife is American",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Already noted as father of two children.",
+          "value": "Has two children",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my sister in law's boyfriend's daughter'.",
+          "value": "Has a sister-in-law",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'friends here' and 'my very good friend here' while in Vancouver.",
+          "value": "Has friends in Vancouver",
+          "lines": [
+            21,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'some family here about family all over Canada'.",
+          "value": "Family spread across Canada",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I travel a lot' and 'we've kind of been doing a lot of traveling the last number of years'.",
+          "value": "Frequent traveler",
+          "lines": [
+            17,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I go golfing on average twice a week if I can'.",
+          "value": "Plays golf twice a week",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes walking the five‑mile loop around Stanley Park most mornings, starting between 5 and 5:30 AM.",
+          "value": "Walks 5 miles around Stanley Park most mornings",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Asks to drink coffee and confirms having coffee.",
+          "value": "Drinks coffee",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'A lot of hiking' when discussing Victoria.",
+          "value": "Enjoys hiking",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States they have not eaten inside a restaurant since March and only eat outside.",
+          "value": "Avoids indoor dining since March 2020",
+          "lines": [
+            121,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they wore N95 masks and face shields on flights.",
+          "value": "Uses N95 mask and face shield when flying",
+          "lines": [
+            327,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I do subscribe to the new york times'.",
+          "value": "Subscribes to New York Times",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'although I have CNN on'.",
+          "value": "Watches CNN",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts being in the UK in March and leaving on March 23 when lockdown began.",
+          "value": "Was in UK in March 2020, left on March 23",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I think our plan is to be someplace warmer in january'.",
+          "value": "Plans trip to warmer location in January",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'to quarantine for a couple of weeks we've done it now three times'.",
+          "value": "Has quarantined three times",
+          "lines": [
+            309
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as Christi when asked for first name.",
+          "value": "Christi",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explicitly states 'I'm in Dallas texas' and later confirms 'here in Dallas'.",
+          "value": "Dallas, Texas",
+          "lines": [
+            16,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was born in California, um on an air force base'.",
+          "value": "Born on an air force base in California",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists moving to Connecticut, Massachusetts, Virginia (near D.C.), and then Texas.",
+          "value": "Lived in Connecticut, Massachusetts, Virginia (near D.C.), and Texas",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I've been in texas since high school'.",
+          "value": "Texas resident since high school",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions visiting Vancouver and Victoria on a family vacation and confirms 'I've been to both'.",
+          "value": "Visited Vancouver and Victoria, British Columbia",
+          "lines": [
+            30,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I live alone'.",
+          "value": "Lives alone",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've got no kids'.",
+          "value": "No children",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'no pets'.",
+          "value": "No pets",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Regarding mask/government stance, says 'I'd say middle there in texas'.",
+          "value": "Political moderate",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Explains 'I work in project management for an insurance company', leads a team, handles property & casualty insurance for businesses.",
+          "value": "Project manager at property and casualty insurance company",
+          "lines": [
+            164,
+            168,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I work from home'.",
+          "value": "Works from home",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says this is her first management role and she has been in it for about two years.",
+          "value": "First management role, held for about 2 years",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her company's headquarters is in Boston.",
+          "value": "Employer headquartered in Boston",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shares that her professional background is in underwriting and analyzing risk.",
+          "value": "Professional background in underwriting and risk analysis",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've got some money saved up'.",
+          "value": "Has savings",
+          "lines": [
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States parents live about 30 minutes from her house in Dallas.",
+          "value": "Parents live approximately 30 minutes away",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'friends actually working in downtown Dallas'.",
+          "value": "Has friends in downtown Dallas",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Mentions hoping to hit the gym, describes gym mask policy, and references her gym's downtown location.",
+          "value": "Goes to the gym",
+          "lines": [
+            28,
+            102,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've done 14 years but only in colorado' – most plausible reading is '14ers' (mountains over 14,000 feet), indicating a specific hiking activity.",
+          "value": "Hikes 14ers in Colorado",
+          "lines": [
+            50
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Explicitly states 'I don't drink alcohol anymore'.",
+          "value": "Does not drink alcohol",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts being in San Diego for work the first week of March and missing business travel.",
+          "value": "Traveled for business",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Brings up 'The Amazing Race' and says she really enjoys it.",
+          "value": "Watches 'The Amazing Race'",
+          "lines": [
+            206,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes weekend plan to attend 'painting with a twist', a socially distanced painting class with a friend.",
+          "value": "Plans to attend a socially distanced painting class",
+          "lines": [
+            268,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses her own mask-wearing habits and managing COVID risk.",
+          "value": "Wears mask in public",
+          "lines": [
+            84,
+            102,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has been throughout many states, Alaska, Hawaii, and across the border to Tijuana.",
+          "value": "Has traveled extensively within the US (many states, Alaska, Hawaii) and Tijuana, Mexico",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Comments that she is 'still waking up no makeup on' during the call.",
+          "value": "Not wearing makeup at time of call",
+          "lines": [
+            180
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

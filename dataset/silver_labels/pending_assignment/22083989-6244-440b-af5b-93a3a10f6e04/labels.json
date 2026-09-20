@@ -1,0 +1,212 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'From L. A.' and later 'I live in England would but we're based I'm basically part of L. A. County.' 'England would' is an ASR error for 'Inglewood', a city in Los Angeles County. He also discusses LA County COVID-19 numbers as 'out here'.",
+          "value": "Inglewood, California",
+          "lines": [
+            11,
+            23,
+            25,
+            27,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a tells speaker_b she is 'the first female' he did this with and that 'the other guys were both males', implying he is male.",
+          "value": "Male",
+          "lines": [
+            411,
+            413
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I'm a caregiver that's that's one of my jobs I care for the elderly' and that he works in a senior building, and he cares for his mother through a health care program.",
+          "value": "Caregiver for the elderly",
+          "lines": [
+            51,
+            87,
+            89,
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my line of work is computers' and describes working with android boxes, Fire sticks, and online projects, as well as side hustles like Youtube and social media.",
+          "value": "Computer and online work, including android boxes, Fire sticks, and social media projects",
+          "lines": [
+            111,
+            143,
+            145,
+            155,
+            157,
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says he cares for his mother because his siblings did not want to, and he mentions having three sisters and a brother.",
+          "value": "Has a mother, three sisters, and a brother; primary caregiver for his mother",
+          "lines": [
+            105,
+            107,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'enjoying the game Lakers' indicating he watches Los Angeles Lakers games.",
+          "value": "Enjoys watching Los Angeles Lakers games",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he tries to stay indoors, uses delivery, and hasn't been to a physical store in a while.",
+          "value": "Avoids physical stores and relies on delivery services during the COVID-19 pandemic",
+          "lines": [
+            47,
+            49,
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I experienced the a riot here in on 92 basically', referring to the 1992 Los Angeles riots.",
+          "value": "Experienced the 1992 Los Angeles riots",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he did not vote in the 2016 presidential election.",
+          "value": "Did not vote in the 2016 U.S. presidential election",
+          "lines": [
+            345
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is 'all the way on the other side of the country' from LA, refers to 'Philadelphians', 'Philly', and 'down town', and mentions Pennsylvania voting for Trump, indicating she is in Philadelphia, PA.",
+          "value": "Philadelphia, Pennsylvania",
+          "lines": [
+            12,
+            36,
+            174,
+            176,
+            230,
+            316
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says to speaker_b 'you're the first female that I did this with', indicating speaker_b is female.",
+          "value": "Female",
+          "lines": [
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it's my place as a white person', self-identifying as white.",
+          "value": "White",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually studied microbiology' and 'about to finish this degree in microbiology', and mentions schooling.",
+          "value": "Student studying microbiology",
+          "lines": [
+            64,
+            124,
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says 'I am registered' and she voted by mail in the primary election earlier this year.",
+          "value": "Registered voter",
+          "lines": [
+            378,
+            398,
+            382
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been working in the lab as well' and 'mostly my work in the lab'.",
+          "value": "Employed in a lab",
+          "lines": [
+            120,
+            122
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to work in a senior living facility' and 'I worked in a few living facility' (ASR error for 'senior living').",
+          "value": "Previously worked in a senior living facility",
+          "lines": [
+            66,
+            78
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she voted by mail in the primary election and it worked well.",
+          "value": "Voted by mail in primary election",
+          "lines": [
+            398,
+            400
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she voted for Hillary Clinton in the 2016 presidential election.",
+          "value": "Voted for Hillary Clinton in 2016 U.S. presidential election",
+          "lines": [
+            336
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

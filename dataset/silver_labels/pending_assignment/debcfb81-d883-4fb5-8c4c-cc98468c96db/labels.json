@@ -1,0 +1,257 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I am from texas' (line 11), discusses Houston weather and driving (lines 149, 155), and states 'I've lived in Houston for almost 20 years now' (line 177).",
+          "value": "Houston, Texas",
+          "lines": [
+            11,
+            149,
+            155,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly refers to 'my wife' (lines 61, 119), indicating male gender and married status.",
+          "value": "Male",
+          "lines": [
+            61,
+            119
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Repeatedly refers to 'my wife' (lines 61, 119).",
+          "value": "Married",
+          "lines": [
+            61,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I work in in the oil and gas industry... I'm in the finance department' (line 73).",
+          "value": "Oil and gas industry, finance department",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The conversation is a side gig; speaker_b mentions it pays '$15 or so' (line 10), speaker_a says he is 'trying to find new things to make a little cash' (line 11) and 'I can make a little side change' (line 71).",
+          "value": "Side gig: paid conversation",
+          "lines": [
+            10,
+            11,
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' (lines 61, 119).",
+          "value": "Wife",
+          "lines": [
+            61,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my parents house' while describing a drive (line 155).",
+          "value": "Parents",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Joined Big Brothers Big Sisters (line 213) and refers to 'my little brother' (lines 217, 225) who was 13 at the time.",
+          "value": "Little brother (Big Brothers Big Sisters mentee)",
+          "lines": [
+            213,
+            217,
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'since the pandemic I've basically been working at home' (line 71).",
+          "value": "Works from home",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I joined big brothers, big sisters' (line 213).",
+          "value": "Volunteers with Big Brothers Big Sisters",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself: 'my name's Delia' (line 12) and spells/says 'Wimberly' (line 14).",
+          "value": "Delia Wimberly",
+          "lines": [
+            12,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Works 'at the University of Toledo' (line 16), in Ohio (line 90), 'only 15 minutes from the Michigan border' (line 110), and lives 'like 15 minutes from campus' (line 166).",
+          "value": "Toledo, Ohio area, near Michigan border",
+          "lines": [
+            16,
+            90,
+            110,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm originally from south florida' (line 186).",
+          "value": "South Florida, USA (originally)",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name 'Delia' and mentions 'my wife' (line 144), so likely female.",
+          "value": "Female",
+          "lines": [
+            12,
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Refers to 'my wife' (line 144) and calls someone 'Honey' (line 180) in context of wife.",
+          "value": "Married (to a woman)",
+          "lines": [
+            144,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my daughter' (line 142) and her job transfer to San Antonio.",
+          "value": "Has a daughter",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when I got in my forties' (line 34) and recalls being a 'little kid' in 1978 (line 192), placing her in her late 40s to 50s.",
+          "value": "In her 40s or 50s",
+          "lines": [
+            34,
+            192
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I work at the University of Toledo... I'm an instructor there and I also in the programme manager' (line 16) and has been in the role 'about seven years' (line 20).",
+          "value": "Instructor and programme manager, University of Toledo",
+          "lines": [
+            16,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Worked 'at a treatment center' (line 30) doing juvenile justice 'for 24 years' (line 22), providing last chance before prison (line 30).",
+          "value": "Previously worked in juvenile justice (treatment center) for 24 years",
+          "lines": [
+            22,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls the conversation 'not a bad little side gig when they're worth $15 or so' (line 10).",
+          "value": "Side gig: paid conversation",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'my brother is a state patrolman out there' (line 126) in Fairfield, Texas (line 128), on DPS for seven years (line 134), previously in Colleen, Texas and a veteran (line 138).",
+          "value": "Brother, Texas state patrolman in Fairfield",
+          "lines": [
+            126,
+            128,
+            134,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my daughter, used to live here her job transport her to san Antonio' (line 142).",
+          "value": "Daughter, moved to San Antonio for job",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my wife' (line 144) and calls out to 'Honey' (line 180) in a spousal context.",
+          "value": "Wife",
+          "lines": [
+            144,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Explains 'higher education is a second career for me' (line 24) after leaving juvenile justice because it's 'a lot more laid back' (line 26).",
+          "value": "Transitioned from juvenile justice to higher education as a second career",
+          "lines": [
+            22,
+            24,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

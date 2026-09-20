@@ -1,0 +1,507 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'Sarah' in line 7; the utterance 'I'm Sarah good' is interpreted as 'I'm Sarah, good' (responding to 'how are you doing') rather than a full name 'Sarah Good'.",
+          "value": "Sarah",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is 'in the D. C. Area' (line 133) and references 'In D. C.' (line 141). This establishes her current location as Washington, D.C. area.",
+          "value": "Washington, D.C. area",
+          "lines": [
+            133,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I grew up in florida and Illinois' (line 63), indicating her places of upbringing.",
+          "value": "grew up in Florida and Illinois",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've been on the east Coast for Uh 11 years now' (line 65), specifying how long she has lived on the East Coast.",
+          "value": "has lived on the East Coast for about 11 years",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "First name Sarah (line 7) and multiple references to having a boyfriend (e.g., line 111 'my boyfriend') strongly indicate she is female.",
+          "value": "female",
+          "lines": [
+            7,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'friends from like grad school' (line 111), which normally implies she herself attended graduate school.",
+          "value": "attended graduate school",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "References her job and office throughout: 'after work stuff' (line 9), 'take a break from work' (line 51), 'my work already said' (line 81), 'office clothes' (line 95). Clearly employed.",
+          "value": "employed full-time",
+          "lines": [
+            9,
+            51,
+            81,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses anti-Trump sentiments (e.g., 'you voted in trump, you're gonna get what you deserve' line 169, schadenfreude at Herman Cain death line 171). Speaker_b states 'it sounds like you're probably not a trump supporter' and she does not contradict (line 170).",
+          "value": "not a Trump supporter",
+          "lines": [
+            169,
+            170,
+            171
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I guess I'm more introverted than I thought' (line 109), a self-assessment about her mental/psychological state.",
+          "value": "considers herself more introverted than previously thought",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Has a job and works from home; multiple mentions of work and office (lines 9, 51, 81, 95).",
+          "value": "employed full-time",
+          "lines": [
+            9,
+            51,
+            81,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she uses Prolific and another site (User Testing) for studies; mentions this is her second study (line 7) and she signs in to waste time (line 35), indicating it's for extra money, not primary income.",
+          "value": "does online studies for extra money on Prolific and UserTesting",
+          "lines": [
+            7,
+            35,
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'the only person that I see regularly is my boyfriend' (line 111) and mentions traveling with him (line 133).",
+          "value": "has a boyfriend",
+          "lines": [
+            111,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my mom in central Illinois' (line 129) and describes her as older and a smoker (line 173).",
+          "value": "mother lives in central Illinois, is older and a smoker",
+          "lines": [
+            129,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a friend who is 'immune compromised' and got COVID (line 157).",
+          "value": "has an immunocompromised friend who contracted COVID",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my friends from like grad school or high school' (line 111).",
+          "value": "has friends from graduate school and high school",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My friend told me about that' referring to Prolific and UserTesting (line 49).",
+          "value": "has a friend who introduced her to online study platforms",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'colleagues' (line 145) who have traveled during the pandemic.",
+          "value": "has colleagues",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes her former commute: 'a five minute walk to work' and wearing sunscreen daily for it (line 153).",
+          "value": "used to walk five minutes to work and apply sunscreen daily",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was climbing and hiking' (line 93).",
+          "value": "enjoys climbing and hiking",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions being 'sucked into video games' and names 'Pardew valley' (ASR for Stardew Valley) (line 91).",
+          "value": "plays video games such as Stardew Valley",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she does Prolific studies 'to take a break from work' (line 51).",
+          "value": "does online studies during work breaks",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Regarding restaurants: 'they opened up the restaurants... I don't really trust it still' (line 113), indicating she avoids indoor dining.",
+          "value": "avoids indoor dining during pandemic",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions being overwhelmed by 'covid stuff' on 'twitter or news feeds' (line 165).",
+          "value": "uses Twitter and reads news feeds",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shares that she 'got iced tea from a coffee shop' while running errands (line 99).",
+          "value": "occasionally buys iced tea from coffee shops",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists activities she used to do but cannot now: 'go just shows or rock climb or even go out to eat' (line 111).",
+          "value": "used to attend shows, rock climb, and eat out",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how long using Prolific, she replies 'maybe about a year' (line 47).",
+          "value": "has used Prolific for about a year",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions not wearing 'office close workout clothes' (ASR for 'office clothes, workout clothes') (line 95), implying she used to wear them pre-pandemic.",
+          "value": "formerly wore office and workout clothes regularly",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Complains of 'internet troubles recently' and 'bandwidth and wifi issues' (lines 119, 121).",
+          "value": "experiencing internet/WiFi issues at home",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes precautions when flying to visit mom: self-isolated before trip, stocked hand sanitizer, rented a car, avoided stops (line 133).",
+          "value": "took extensive COVID precautions when traveling to visit mother",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'dave' (intended 'Dave') in line 6: 'I'm dave how you doing'.",
+          "value": "Dave",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is in 'just massachusetts' (line 56), then clarifies 'not boston proper but the boston metro area' (line 58) and mentions his 'apartment in Quincy' (line 60).",
+          "value": "Quincy, Massachusetts (Boston metro area)",
+          "lines": [
+            56,
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Specifies he has 'a little uh studio' apartment in Quincy (line 60).",
+          "value": "lives in a studio apartment in Quincy",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Dave (line 6) and mentions 'my girlfriend' (line 60) strongly indicate male gender.",
+          "value": "male",
+          "lines": [
+            6,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about 'post work' (line 26), commuting by train to work and going to the gym after work (line 86), and refers to 'my coworker' (line 180).",
+          "value": "employed full-time",
+          "lines": [
+            26,
+            86,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states 'I am definitely not' a Trump supporter (line 170) after opining about reality-denying folks.",
+          "value": "not a Trump supporter",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says he is 'not gonna go running for a little bit just hurting my back' (line 154), indicating a current back problem causing pain.",
+          "value": "experiencing back pain",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Has a full-time job (lines 26, 86, 180) and does gig work online for extra money, saying 'I'm just doing this for chump change' (line 44).",
+          "value": "employed full-time with side gig work on MTurk and Prolific",
+          "lines": [
+            26,
+            40,
+            44,
+            86,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he was 'hauling in like 100 bucks a week' on Mechanical Turk (line 40) and earns a few dollars on Prolific. This is extra income.",
+          "value": "earns about $100 per week on Mechanical Turk",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives in a studio apartment (line 60), indicating modest housing.",
+          "value": "lives in a studio apartment",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my girlfriend's house' (line 60) and goes 'up there occasionally' (line 102).",
+          "value": "has a girlfriend",
+          "lines": [
+            60,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'she's just got a new job' (line 102).",
+          "value": "girlfriend recently got a new job",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions staying at 'my parents house' (line 60).",
+          "value": "has parents and sometimes stays at their house",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my coworker' in line 180.",
+          "value": "has a coworker",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he was 'trying to make new friends uh for the first time in like over a decade' online but pandemic interrupted (line 108).",
+          "value": "was attempting to make new online friends before the pandemic",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes his pre-pandemic routine: 'take the train', then go to the gym, then walk home (line 86).",
+          "value": "commuted by train, went to gym, and walked home",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I would play on the Nintendo switch while listening to an audiobook on the way in' (line 86).",
+          "value": "played Nintendo Switch and listened to audiobooks during train commute",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I was when I was going running' but currently not due to back pain (line 154).",
+          "value": "used to go running; stopped due to back pain",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recommends 'This Week in Virology' podcast and says he listens to it (line 162).",
+          "value": "listens to the podcast 'This Week in Virology'",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I joined a uh discord server for mechanical turk' (line 32).",
+          "value": "member of a Mechanical Turk Discord server",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he stopped buying coffee from Dunkin Donuts in March (line 98).",
+          "value": "previously bought coffee from Dunkin Donuts, stopped due to pandemic",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls restaurants and bars 'bad idea' and 'hot spots' (line 114), indicating he avoids them.",
+          "value": "avoids restaurants and bars during pandemic",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having 'wifi issues' and rebooting the router (line 122).",
+          "value": "has occasional WiFi issues; reboots router to fix",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says Prolific supports 'a add on that notifies you when one goes up' and he uses it (line 34).",
+          "value": "uses a browser add-on to get notifications for new Prolific studies",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Stated using Prolific 'just a week, a few weeks' (line 30).",
+          "value": "has used Prolific for a few weeks",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he's been using Mechanical Turk 'off and on since 2012' (line 46).",
+          "value": "has used Mechanical Turk since 2012",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

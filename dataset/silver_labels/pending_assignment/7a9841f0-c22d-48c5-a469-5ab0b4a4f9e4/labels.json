@@ -1,0 +1,458 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states his name directly as 'hank fan' in line 5.",
+          "value": "hank fan",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where he is based, he responds 'Hi in Silicon Valley, you know some of the bay area California?' (line 15). He later mentions his commute to work is about 45 minutes (line 105), confirming his workplace is in Silicon Valley.",
+          "value": "Works in Silicon Valley, Bay Area, California",
+          "lines": [
+            15,
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I lived about 45 minutes you know, come to my work.' (line 105) and describes a 40-60 minute drive (line 107). He also states 'We we don't have snow here in California' (line 239), placing his residence in California within commuting distance of Silicon Valley.",
+          "value": "Resides in California, approximately 45 minutes drive from Silicon Valley",
+          "lines": [
+            105,
+            107,
+            239
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I came from Vietnam have been 14 years' (line 31) and confirms '14' (line 33).",
+          "value": "Vietnamese origin",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he came from Vietnam 14 years ago (lines 31, 33) and mentions 'never been back since two and 4' (line 71, likely 2004), indicating he is an immigrant who has lived in the US for about 14-16 years.",
+          "value": "Immigrant to US, resident for approximately 14 years",
+          "lines": [
+            31,
+            33,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'My oldest one in 12, seconds, 10 and the last one in eight. So every two years.' (line 63), indicating three children aged 12, 10, and 8.",
+          "value": "Parent of three children (ages 12, 10, 8)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'my wife' in lines 67 and 69, indicating he is married.",
+          "value": "Married",
+          "lines": [
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He indicates he came to the US at around age 20-21 (line 81: 'I'm almost 21 years so I played 20 years, six months'), and has been in the US for 14 years, suggesting a current age around 34-35.",
+          "value": "Approximately 35 years old",
+          "lines": [
+            81,
+            31
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states 'I work for a big company. I'm working in the White House' (line 19 – ASR likely misheard 'warehouse'), and 'I'm doing I'm shipping and receiving' (line 21) and 'sipping a receiving dog' (line 23, dock). This indicates he works in a warehouse doing shipping and receiving.",
+          "value": "Works in warehouse shipping/receiving for a big company",
+          "lines": [
+            19,
+            21,
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm a print printer. I'm doing printing and mailing' (line 153), and describes database work for mailing lists (lines 175-179), and mentions working in a mail house (line 171). This appears to be part of his job or a related business.",
+          "value": "Performs printing and mailing / database work (mail house)",
+          "lines": [
+            153,
+            171,
+            175,
+            176,
+            177,
+            179
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about side business, he says 'selling some stuff on Ebay' (line 91).",
+          "value": "Side business selling items on Ebay",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I used to do, you know, affiliate marketing online. No paper click. I used to set up a google outward campaign.' (line 119) and describes losing money on it (lines 121,127). This indicates past involvement in online affiliate marketing.",
+          "value": "Previously engaged in affiliate marketing (Google AdWords)",
+          "lines": [
+            119,
+            121,
+            127
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my wife' in lines 67 and 69, indicating he is married.",
+          "value": "Wife",
+          "lines": [
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his children: 'My oldest one in 12, seconds, 10 and the last one in eight.' (line 63), so he has three children.",
+          "value": "Three children (ages 12, 10, 8)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'My father and my mother is here' (line 75), indicating his parents live in the US.",
+          "value": "Parents (father and mother) live in the US",
+          "lines": [
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'My brother's in there' (line 73) when asked about family in Vietnam, indicating he has a brother living in Vietnam.",
+          "value": "Brother lives in Vietnam",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He agrees that he is working out of his garage (lines 10-11), and mentions he cannot connect to company internet and uses cell phone hotspot (line 13), indicating he currently works from home.",
+          "value": "Works from home (garage) currently",
+          "lines": [
+            10,
+            11,
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He describes his normal commute: 'it took me about one hour with the traffic ... now it's only like 40 minutes Normally' (line 107).",
+          "value": "Commute to work normally 40-60 minutes",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'My kids online study online' (line 207), indicating his children are doing remote learning.",
+          "value": "Children attend school online",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'My kids, you know, we've been to Vegas one time and they love it' (line 55).",
+          "value": "Has taken family to Las Vegas",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He sells items on Ebay as a side business (line 91).",
+          "value": "Engages in online selling (Ebay) as side business",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked if he skis, he responds 'No. Uh No.' (lines 242-243).",
+          "value": "Does not ski",
+          "lines": [
+            242,
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as 'marty' in line 4.",
+          "value": "Marty",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I live just north of Manhattan. I'm about 25 miles north just in the suburbs outside of Manhattan.' (line 28) and repeats 'about 25 miles from Manhattan' (line 104).",
+          "value": "Lives in a suburb approximately 25 miles north of Manhattan, New York",
+          "lines": [
+            28,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes seasonal weather typical of the Northeast: snow (line 234), leaves changing colors (line 236), confirming location in the New York region.",
+          "value": "Resides in the Northeast US (New York area)",
+          "lines": [
+            234,
+            236
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I have a 12 year old and a nine year old' (line 64).",
+          "value": "Parent of two children (ages 12 and 9)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'My oldest son plays baseball' (line 100), indicating at least one child is a son.",
+          "value": "Has a son",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He uses 'we' in the context of having children and stopping at two, implying a spouse or partner (lines 64, 100, etc.).",
+          "value": "Likely married or partnered",
+          "lines": [
+            64,
+            100
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says 'I have a dog' and describes the dog's behavior (line 204).",
+          "value": "Dog owner",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I've been doing it since 1999, so I'm 20, years' (line 250) referring to his career in online marketing. Assuming he started working in his 20s, he is likely in his 40s or 50s.",
+          "value": "Approximately 40-55 years old",
+          "lines": [
+            250
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says 'I work for a company called Hunter Douglas, we sell window treatments' (line 140).",
+          "value": "Employed by Hunter Douglas (window treatments company)",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I work in online advertising. So everything that we can do, yeah, uh, on social media google all of that stuff, email marketing' (line 116) and describes managing campaigns, tracking conversions (lines 118, 132).",
+          "value": "Works in online advertising / digital marketing",
+          "lines": [
+            116,
+            118,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having a team in Colorado (line 246), and doing reporting, analysis, and giving direction to his team (line 254), indicating a managerial role.",
+          "value": "Managerial role in online marketing (oversees team, reporting, planning)",
+          "lines": [
+            246,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I've been doing it since 1999, so I'm 20, years' (line 250), indicating his long tenure in the industry.",
+          "value": "Working in online marketing since 1999",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his company's office building is closed until January (line 114) and he hasn't been there since March (line 116), indicating he is currently working from home.",
+          "value": "Working from home since March 2020",
+          "lines": [
+            114,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'I have a 12 year old and a nine year old' (line 64).",
+          "value": "Two children (ages 12 and 9)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Implied spouse or partner by context.",
+          "value": "Spouse/partner",
+          "lines": [
+            64,
+            100
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He mentions 'I have a dog' (line 204).",
+          "value": "Dog",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'My oldest son plays baseball' (line 100).",
+          "value": "Son plays baseball",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He mentions working from home since March, office closed (lines 114, 116).",
+          "value": "Works from home",
+          "lines": [
+            114,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes the commute to Manhattan: 'we have to take bridges ... $18 ... trains ...' (lines 112-114).",
+          "value": "Commutes to Manhattan via bridge/train (normally)",
+          "lines": [
+            112,
+            113,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his children 'go to school two days a week, so monday and Tuesday and then they're at home three days a week' (line 206).",
+          "value": "Children attend school in person two days per week",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'My oldest son plays baseball, so sometimes I go to the field to see him play' (line 100).",
+          "value": "Attends son's baseball games",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have a team based in colorado and I used to go out there every other month or so' (line 246).",
+          "value": "Used to travel to Colorado for work every other month",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have it on my phone' regarding TikTok (line 142) and 'My son is a budding tiktok star' (line 144).",
+          "value": "Uses TikTok; son creates TikTok content",
+          "lines": [
+            142,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I know uh san Francisco pretty well' (line 36) and mentions being there in January and July (line 244).",
+          "value": "Has visited San Francisco",
+          "lines": [
+            36,
+            244
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I've never been to either actually' referring to Disneyland and Universal (line 52).",
+          "value": "Has never been to Disneyland or Universal theme parks",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He owns a dog (line 204).",
+          "value": "Owns a dog",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

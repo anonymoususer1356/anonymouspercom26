@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parda"
+version = "0.1.0"
+description = "On-device audio privacy for smart glasses"
+requires-python = ">=3.10"
+dependencies = ["json-repair", "numpy", "sentence-transformers", "transformers"]
+
+[project.optional-dependencies]
+audio = ["onnxruntime", "soundfile", "scipy"]
+models = ["huggingface-hub", "onnxruntime"]
+plots = ["matplotlib", "pandas", "seaborn", "scikit-learn"]
+dev = ["pytest", "ruff"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100

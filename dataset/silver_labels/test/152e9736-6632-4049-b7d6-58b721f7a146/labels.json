@@ -1,0 +1,336 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he is from North Carolina, and later confirms he came back there and lives within an hour of where he grew up.",
+          "value": "North Carolina",
+          "lines": [
+            17,
+            26,
+            75,
+            116,
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b addresses speaker_a as 'man' at the end, indicating male gender.",
+          "value": "male",
+          "lines": [
+            274
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_b mentions his degree in political science and history, speaker_a says he doesn't use his degree anymore either, that he enjoyed it, and that it's cool to meet someone else who does that, implying he holds a degree in that field.",
+          "value": "degree in political science or history",
+          "lines": [
+            38,
+            39,
+            40,
+            41
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he used to work at the Department of Justice.",
+          "value": "formerly worked at Department of Justice",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he is now a small business owner doing auctions and estate sales.",
+          "value": "small business owner (auctions, estate sales)",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a compares DC rent to getting a house with a mortgage under $1200 a month, implying he owns such a home.",
+          "value": "owns house with mortgage under $1200/month",
+          "lines": [
+            85
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions that off and on every few years he teaches intro to American government at a community college.",
+          "value": "occasionally teaches American government at a community college",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says his parents are both around 72 and in good health.",
+          "value": "parents (both around 72)",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his brother lives an hour and a half away, with a wife and kids, and they'll see them for Thanksgiving.",
+          "value": "brother (with wife and children)",
+          "lines": [
+            117,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says one of his nephews is five years old.",
+          "value": "nephew (age 5)",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says most of his extended family lives on the coast.",
+          "value": "extended family on the coast",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions some of his friends are teachers.",
+          "value": "friends who are teachers",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a lists video games he plays: FIFA, Star Wars Galaxy of Heroes, Civilization, and previously Madden.",
+          "value": "plays video games (FIFA, Star Wars Galaxy of Heroes, Civilization, Madden)",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he likes the board game Risk.",
+          "value": "likes board game Risk",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has season tickets for University of North Carolina football.",
+          "value": "UNC football season ticket holder",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions doing four or five Prolific studies over the summer, indicating participation in paid research studies.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            19,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he lives in southwest Florida, specifically Naples, and mentions moving there for school.",
+          "value": "Naples, Florida",
+          "lines": [
+            14,
+            30,
+            33,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is originally from California.",
+          "value": "originally from California",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a addresses speaker_b as 'man' at the end, indicating male gender.",
+          "value": "male",
+          "lines": [
+            274
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions his wife repeatedly, so he is married.",
+          "value": "married",
+          "lines": [
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he has a degree in political science and history.",
+          "value": "degree in political science and history",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has a four-year-old son.",
+          "value": "father of a 4-year-old son",
+          "lines": [
+            130,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he works at a local school, teaches there and online, and later adds he works in real estate, teaching real estate classes online. The combined role is a real estate instructor.",
+          "value": "real estate instructor (teaches at local school and online)",
+          "lines": [
+            64,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'the mint out' and an app that can 'trap dances', phonetically suggesting the Mint budgeting app and tracking finances. He then discusses the drop in his food budget.",
+          "value": "uses Mint budgeting app",
+          "lines": [
+            242
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says his wife is from Kentucky and they met at school in Naples.",
+          "value": "wife (from Kentucky)",
+          "lines": [
+            30,
+            34,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has a four-year-old son who watches and tries to play games.",
+          "value": "4-year-old son",
+          "lines": [
+            130,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his parents are in their late sixties and in fairly good shape.",
+          "value": "parents (late sixties, in good shape)",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a board gaming group of adults, including two professors and a nurse, that they play with on weekends.",
+          "value": "board gaming group of friends",
+          "lines": [
+            162,
+            163,
+            164,
+            170,
+            174,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he plays Borderlands 3 with his wife, Warhammer 3 alone, and Fall Guys with his son.",
+          "value": "plays video games (Borderlands 3, Warhammer 3, Fall Guys)",
+          "lines": [
+            150,
+            134,
+            135,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he and his wife got into board games and now play with a group, listing Dominion, Terraforming Mars, 7 Wonders, and a werewolf/mafia game.",
+          "value": "plays board games (Dominion, Terraforming Mars, 7 Wonders, werewolf)",
+          "lines": [
+            162,
+            166,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he volunteers at a local church, helping a Hispanic community with supplies and cards.",
+          "value": "volunteers at a local church helping Hispanic community",
+          "lines": [
+            188,
+            189,
+            190,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms he came to the conversation via Prolific and mentions doing these on and off.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            19,
+            20,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he and his wife loved going to local high school football games.",
+          "value": "high school football fan",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

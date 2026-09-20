@@ -1,0 +1,304 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states her name explicitly: 'I'm Jessica'.",
+          "value": "Jessica",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is in southeastern Wisconsin, about an hour from Chicago.",
+          "value": "Southeastern Wisconsin, about an hour from Chicago",
+          "lines": [
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she was living in Bangkok for six months before returning at the end of February.",
+          "value": "Bangkok, Thailand (former residence)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She speculates about the platform pairing women together, implying she is a woman.",
+          "value": "Female",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions being part of an honors program with a small group of 'nerdy' students.",
+          "value": "Honors program participant (college)",
+          "lines": [
+            149
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes the first three months of COVID-19 as 'super depressive' for her.",
+          "value": "Experienced depression-like symptoms during the first three months of COVID-19",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she is an accountant and can work from anywhere.",
+          "value": "Accountant",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes volunteering as a small business mentor for SCORE, which is partnered with the SBA.",
+          "value": "Volunteer small business mentor for SCORE (partnered with the Small Business Administration)",
+          "lines": [
+            41,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was on sabbatical and traveled full-time for two years.",
+          "value": "Took a sabbatical from work to travel full-time",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions one of her best friends from her honors program who played online poker.",
+          "value": "Has a best friend from her college honors program",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her father's retirement in the context of his work associates.",
+          "value": "Father is retired",
+          "lines": [
+            221
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She traveled full-time for two years, has only 8 states left to visit, and planned a Dakotas road trip.",
+          "value": "Avid traveler, has visited most US states",
+          "lines": [
+            85,
+            89,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She enjoys doing online surveys because she is opinionated and finds them interesting.",
+          "value": "Participates in online surveys for fun",
+          "lines": [
+            135,
+            139,
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She expresses a desire to visit Black Hills and national parks in the Dakotas.",
+          "value": "Interested in visiting national parks, especially Black Hills",
+          "lines": [
+            73,
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'My name's Imo Yeah' (line 24). speaker_a immediately responds 'Maybe Emily' (line 25), indicating the intended name is Emily and the ASR misrecognized it as 'Imo Yeah'.",
+          "value": "Emily",
+          "lines": [
+            24,
+            25
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in Nebraska, and her family ended up in Lincoln; she attends the University Hospital Medical Center there.",
+          "value": "Lincoln, Nebraska",
+          "lines": [
+            42,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she grew up in North Dakota.",
+          "value": "North Dakota (childhood)",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lived in South Dakota for a while and returned there for her undergraduate degree.",
+          "value": "South Dakota (former residence and undergrad location)",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The discussion implies she was paired with another woman on Prolific, and her name is typically female; she also refers to being young.",
+          "value": "Female",
+          "lines": [
+            169
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'when you're young and I'm young'.",
+          "value": "Young adult",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is currently pursuing a Master of Public Health at the University Hospital Medical Center (likely University of Nebraska Medical Center).",
+          "value": "Master's student in Public Health",
+          "lines": [
+            30,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing her undergraduate degree in South Dakota.",
+          "value": "Undergraduate degree holder (college in South Dakota)",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works at a homeless prevention services nonprofit and helps with their food pantry line.",
+          "value": "Employee at a homeless prevention services nonprofit",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She participates in Prolific surveys to earn a little extra money.",
+          "value": "Prolific survey participant for extra income",
+          "lines": [
+            134,
+            146
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She states her father was a professor.",
+          "value": "Father is a professor",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lists her immediate family as dad, mom, sister.",
+          "value": "Has a sister and both parents",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having extended family with differing political views.",
+          "value": "Has extended family with conservative political views",
+          "lines": [
+            220
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she is on the student association at her university.",
+          "value": "Member of student association",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She planned an online event that only two students attended.",
+          "value": "Organized an online student event with low attendance",
+          "lines": [
+            62,
+            63,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She took a trip to the Black Hills this summer.",
+          "value": "Traveled to Black Hills this summer",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She joined Prolific partly to observe it as a social experiment.",
+          "value": "Uses Prolific as a social experiment",
+          "lines": [
+            130,
+            132,
+            134
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

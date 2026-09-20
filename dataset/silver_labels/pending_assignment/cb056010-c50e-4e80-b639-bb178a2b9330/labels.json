@@ -1,0 +1,273 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'Um Montana, by the way, nice to meet you' (line 13), which appears to be a name introduction. The ASR may be slightly off, but the context strongly indicates a name.",
+          "value": "Montana",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she lives in Georgia (line 253), in the metro Atlanta area (line 255), and right outside of Atlanta (line 257).",
+          "value": "right outside of Atlanta, Georgia, in the metro Atlanta area",
+          "lines": [
+            253,
+            255,
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When discussing politics, speaker_a says 'I personally am more left leaning' (line 191).",
+          "value": "left leaning",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "In line 1 speaker_a says she is looking for a different challenge and that her 'current position, okay. Only sales position', indicating she holds a sales job and is considering a change.",
+          "value": "holds a sales position, seeking new opportunities",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my partner' (lines 1, 9) and 'my boyfriend' (lines 9, 17, 67), establishing a romantic relationship.",
+          "value": "has a boyfriend (partner)",
+          "lines": [
+            1,
+            9,
+            17,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my sister' in lines 51 and 65.",
+          "value": "has a sister",
+          "lines": [
+            51,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 65 speaker_a says 'my sister has two kids under the age of five', making speaker_a an aunt.",
+          "value": "aunt to two children (sister's kids)",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom loves those kind of shows' (line 173).",
+          "value": "has a mother",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my dad is very high risk' (line 233).",
+          "value": "has a father",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 39 speaker_a mentions 'one of my best friends'.",
+          "value": "has a best friend",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a frequently mentions watching Netflix (lines 19, 21, 89) and Disney Plus (line 75), showing regular use of streaming services.",
+          "value": "frequently watches Netflix and other streaming services",
+          "lines": [
+            19,
+            21,
+            75,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 65 and 67 speaker_a explains she puts on subtitles because of noise at her house or at her boyfriend's house.",
+          "value": "uses subtitles while watching shows",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 31 and 39 speaker_a describes taking a long time to finish episodes, watching one and then doing something else, indicating she doesn't binge-watch.",
+          "value": "prefers watching one episode at a time, takes breaks between episodes",
+          "lines": [
+            31,
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm not a Star Wars person' (line 77) and hasn't watched most franchise films (line 79).",
+          "value": "not a fan of Star Wars or Marvel; hasn't watched many franchise movies",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being in the living room of her boyfriend's house (line 67), indicating she spends time there.",
+          "value": "spends time at boyfriend's house",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she tends to watch mostly dramas (line 73) and likes anything funny (line 71).",
+          "value": "prefers drama and comedy shows",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In response to speaker_a's introduction, speaker_b says 'How kira? Nice to meet you too' (line 14). The phrase 'How kira' is likely an ASR corruption of 'I'm Kira'.",
+          "value": "Kira",
+          "lines": [
+            14
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I consider myself a little bit more conservatives' (lines 192-193).",
+          "value": "conservative",
+          "lines": [
+            192,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b speaks of 'the faith' and 'people who I looked up to in the faith' (line 200), and criticises how 'they give Christianity such a bad name', implying she identifies as Christian.",
+          "value": "Christian",
+          "lines": [
+            200,
+            210
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' multiple times (lines 80, 124, 176, 204), indicating she is married.",
+          "value": "has a husband (married)",
+          "lines": [
+            80,
+            124,
+            176,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my mom' in lines 64, 210, and 238.",
+          "value": "has a mother",
+          "lines": [
+            64,
+            210,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I binge watch' (line 42), uses subtitles for foreign shows (lines 64, 94), and has a Fire Stick for streaming (line 82).",
+          "value": "binge-watches TV series, often using subtitles, via streaming devices (Fire Stick)",
+          "lines": [
+            42,
+            64,
+            82,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 184 she says 'I've really been addicted to the news'.",
+          "value": "follows the news closely",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 40 and 42 describe her habit of watching the last episode of a series first to decide if she'll watch the rest.",
+          "value": "watches last episode of a series first to decide if it's worth watching",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching Spanish shows (line 58) and Asian martial arts shows (line 94) with subtitles.",
+          "value": "enjoys Spanish and Asian TV dramas",
+          "lines": [
+            58,
+            62,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her husband loves crime shows and she has to sit through them (lines 176-178), implying she watches them reluctantly.",
+          "value": "watches crime shows reluctantly with husband",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

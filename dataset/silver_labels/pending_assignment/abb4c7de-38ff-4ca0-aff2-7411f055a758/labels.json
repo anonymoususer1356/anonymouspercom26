@@ -1,0 +1,333 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'my name is Jackie' when introducing herself.",
+          "value": "Jackie",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is in California, describes the Central Valley, and names Fresno as her city.",
+          "value": "Fresno, California",
+          "lines": [
+            9,
+            23,
+            25,
+            27,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she has had a cat since seventh grade and now is 'like 28'.",
+          "value": "28 years old",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she attended university, double majored (fields garbled by ASR) and minored in music, but dropped out when her health worsened.",
+          "value": "attended university, double major, minor in music, dropped out",
+          "lines": [
+            227,
+            231
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I'm actually disabled but I have multiple physical stuff'.",
+          "value": "disabled with multiple physical issues",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she deals with depression.",
+          "value": "depression",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has social anxiety.",
+          "value": "social anxiety",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has 'a kind of a fewer dogs' (phonetic: fear of dogs) and later agrees she is not comfortable around them.",
+          "value": "fear of dogs",
+          "lines": [
+            213,
+            215
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says she is going to try a new treatment for her conditions.",
+          "value": "trying a new treatment",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b notes 'they won't pay us unless we do 25 minutes', indicating the conversation is a paid task; speaker_a is actively participating and has done similar surveys before.",
+          "value": "earns money from online surveys/tasks",
+          "lines": [
+            300,
+            45,
+            289
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "when someone knocks, speaker_a says it was her brother.",
+          "value": "has a brother",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she stays inside as much as possible.",
+          "value": "stays inside most of the time",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says there is a reason she does not drive, and that it is not safe to drive in her area.",
+          "value": "does not drive",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a plays music throughout the conversation and comments on songs.",
+          "value": "listens to music regularly",
+          "lines": [
+            1
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she watches Stephen Colbert comedy shows, usually on YouTube.",
+          "value": "watches Stephen Colbert on YouTube",
+          "lines": [
+            361,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I love psychology so it's fascinating to me'.",
+          "value": "interested in psychology",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using an app called Calm for guided meditation.",
+          "value": "uses Calm meditation app",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she lived in New York for a month when asked about visiting the East Coast.",
+          "value": "lived in New York for a month",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a names cats Pause and Milo, mentions a kitten and an older cat she has had since seventh grade, and shows them.",
+          "value": "owns multiple cats (Pause, Milo, kitten, older cat)",
+          "lines": [
+            95,
+            101,
+            107,
+            117,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly says 'We actually do have three dogs'.",
+          "value": "owns three dogs",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I'm terry' when greeting speaker_a.",
+          "value": "Terry",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she is in New Jersey, mentions the governor of New Jersey, and her time zone is Eastern (7pm vs 4pm in CA).",
+          "value": "New Jersey",
+          "lines": [
+            10,
+            258,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'they won't pay us if we don't do 25 minutes', indicating this conversation is a paid task.",
+          "value": "earns money from online surveys/tasks",
+          "lines": [
+            300
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she has a son who will start college soon, mentions having three teenagers, and says her kids came home from college early.",
+          "value": "has children, including college-age son and teenagers",
+          "lines": [
+            232,
+            264,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says a friend recommended she try meditation on YouTube.",
+          "value": "has a friend",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says everyone in her household has been home since March when New York and New Jersey shut down.",
+          "value": "staying home since March 2020 due to COVID-19 shutdown",
+          "lines": [
+            180
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she started binge-watching Netflix during the pandemic.",
+          "value": "watches Netflix",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she likes music a lot and listens to it to cope.",
+          "value": "listens to music",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves doing these online surveys and finds them fun.",
+          "value": "enjoys doing online surveys",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes doing a 20-minute guided meditation on YouTube and enjoying it enough to consider using an app.",
+          "value": "tried guided meditation on YouTube",
+          "lines": [
+            160,
+            166,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her family used to vacation in California frequently, visiting San Francisco, LA, Santa Barbara, and Palm Springs.",
+          "value": "frequently vacations in California",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces her cat Angel, says she turned 16, and mentions another cat that passed away 2.5 years ago.",
+          "value": "owns a cat named Angel (previously had another cat)",
+          "lines": [
+            100,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is not comfortable around dogs and prefers cats.",
+          "value": "uncomfortable around dogs",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves to write and express herself.",
+          "value": "enjoys writing",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

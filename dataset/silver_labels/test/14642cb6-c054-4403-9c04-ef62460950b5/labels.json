@@ -1,0 +1,415 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 31: speaker_a says 'I'm in New Orleans'. Line 177: 'New Orleans, I've lived here forever'. Line 249: 'I live uptown'. So she lives in the uptown neighborhood of New Orleans and is a lifelong resident.",
+          "value": "Uptown New Orleans, Louisiana (lifelong resident)",
+          "lines": [
+            31,
+            177,
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 69: speaker_a says 'we're all young and healthy' including herself with friends. Identifies as young and healthy.",
+          "value": "young and healthy",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 81: 'I'm a vet tech'. She belongs to the occupational group of veterinary technicians.",
+          "value": "veterinary technician",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 69: 'we're all young and healthy apart' implies speaker_a is healthy with no known issues.",
+          "value": "healthy",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 81: 'I'm a vet tech'. Line 302: speaker_b references 'your veterinary work'.",
+          "value": "veterinary technician",
+          "lines": [
+            81,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'we're 10 essential' (essential worker). Line 99: explains she goes to work, taking all cases, curbside service, meaning in-person work during pandemic.",
+          "value": "essential worker, works in-person at a veterinary clinic during COVID-19 pandemic",
+          "lines": [
+            81,
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 67: 'a few of my friends have gotten it because their nurses.' Indicates friends who work as nurses.",
+          "value": "has friends who are nurses",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 65: 'My friends and family are all good.' States her friends and family are healthy.",
+          "value": "friends and family are in good health",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 217: 'My grandmother lives in an independent senior like apartment complex'.",
+          "value": "grandmother in independent senior living apartment",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 277: 'My cousins live in a in frisco.' Indicates cousins residing in Frisco, Texas.",
+          "value": "has cousins living in Frisco, Texas",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 133-135: 'I've got one rescue one... his previous owners didn't want him anymore... he is the best dog ever.' Describes a male rescue dog previously unwanted.",
+          "value": "owns a male rescue dog (unnamed)",
+          "lines": [
+            133,
+            134,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 137-148: 'we rescued this little baby'. Line 143 speaker_b asks name; line 148 says 'what winky wants when he gets', indicating the dog's name is Winky. ASR 'winky' accepted as intended name.",
+          "value": "owns a female rescue dog named Winky",
+          "lines": [
+            137,
+            143,
+            148
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 53,55: 'I also love hiking' and describes swamp trails, seeing gators.",
+          "value": "enjoys hiking, especially swamp trails with alligators",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 164-165: speaker_b asks 'You like to eat at nice places' and speaker_a confirms 'I do.'",
+          "value": "enjoys dining at nice restaurants",
+          "lines": [
+            164,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 167: 'I like to go see music'.",
+          "value": "enjoys live music",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 257: 'total history nerd so like oh I love just all the old architecture'.",
+          "value": "history enthusiast, loves old architecture",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 251: 'I'm very stuck between being a city girl and being a country girl because I can really play both parts very well.'",
+          "value": "enjoys both urban and rural living",
+          "lines": [
+            251
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 79,83: 'I'm definitely not in that camp' (not clamoring to go out) and 'I'm going to wait it out and see how that goes before I'm going anywhere'.",
+          "value": "cautious about COVID-19 reopening, avoiding crowds",
+          "lines": [
+            79,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 81,99: 'I already have to go to work still because I'm a vet tech' and describes workplace precautions, showing in-person work continues.",
+          "value": "continues to work in-person at veterinary clinic during pandemic",
+          "lines": [
+            81,
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Lines 6-7: speaker_b says 'my name is Sam Sarah.' ASR combined 'I'm Sarah' into 'Sam Sarah'. speaker_a confirms 'Hi, you're Sarah.' The intended name is Sarah. (Line 14 'I'm pam' is ASR error and ignored.)",
+          "value": "Sarah",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 32: 'I'm outside of Dallas in a place called Alan.' (ASR Alan for Allen). Line 284: 'I am in a town called Alan and there are like these four cities... main cities in Collin County.' Current city is Allen (spoken as Alan) in Collin County, Texas, near Dallas.",
+          "value": "Allen, Texas (outside Dallas, in Collin County)",
+          "lines": [
+            32,
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 178: 'I'm from pennsylvania and then I lived in Chicago for a while and I was northwestern pennsylvania.' Indicates origin.",
+          "value": "originally from northwestern Pennsylvania",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 178: 'then I lived in Chicago for a while'.",
+          "value": "formerly lived in Chicago, Illinois",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 184: 'I lived in Austin' (Texas).",
+          "value": "formerly lived in Austin, Texas",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 84: 'I have a husband'. She is married.",
+          "value": "married",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 192: 'I'm an executive recruiter'.",
+          "value": "executive recruiter",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Lines 36,40: 'I've been on crutches... I have a little fracture, I'm getting a hip replacement' and 'I just ditched him last week.' Hip fracture requiring replacement; recently stopped using crutches.",
+          "value": "hip fracture, scheduled for hip replacement; recently stopped using crutches",
+          "lines": [
+            36,
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 192: 'I'm an executive recruiter'.",
+          "value": "executive recruiter",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 192: 'for a technology company called Gemini'.",
+          "value": "Gemini (technology company)",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 194: 'I work from C.' Interpreted as 'work from home' based on context 'that's been no change at all'.",
+          "value": "works from home",
+          "lines": [
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 306: 'I've just helped people get jobs that pay a lot more than what I make.' She earns less than her placements.",
+          "value": "earns less than the candidates she places",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 19-20,26: Responds 'Yeah, I do with this.' to question about surveys for extra money; says 'it's nice little coffee change'. Participates in surveys for small supplemental money.",
+          "value": "earns a little extra money from online surveys",
+          "lines": [
+            19,
+            20,
+            26
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 84: 'I have a husband who's got chronic fatigue and all kinds of immune things around that.'",
+          "value": "husband with chronic fatigue and immune system issues",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 96: 'molly was supposed to get her teeth done'; 113: 'What kind of dog is molly?'; 114-120: small mix, about 14 lbs, black and white; 152: 'she's five now'.",
+          "value": "pet dog named Molly, 5-year-old small mixed-breed rescue dog",
+          "lines": [
+            96,
+            113,
+            114,
+            120,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 202,204,206,210: 'we brought my mom here for quite a while. She lives in a senior living place... independent... she stayed here for a very long time'. Mother in independent senior facility, stayed temporarily with speaker_b.",
+          "value": "mother in independent senior living facility; temporarily stayed with speaker_b during pandemic",
+          "lines": [
+            202,
+            204,
+            206,
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 42-46: 'normally I like to hike... exercise... read... travel'.",
+          "value": "enjoys hiking, exercise, reading, travel",
+          "lines": [
+            42,
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 58: 'I do like to... just find those little places that are a little different to hike.'",
+          "value": "enjoys finding unique places to hike",
+          "lines": [
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 60: 'We actually have some nice trails behind where we live, you cross a golf course to get to them.'",
+          "value": "hikes on trails behind home, crossing a golf course",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 86,90: 'I'd love to go to a patio and just have one nice meal and a nice glass of wine' and 'I just want that nice meal... on that patio.'",
+          "value": "desires dining out on a patio with a meal and wine",
+          "lines": [
+            86,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 84,92: 'I have a husband who's got chronic fatigue... please don't go out' and 'he's right in the demographic that just doesn't do well' causing caution.",
+          "value": "cautious about going out in public due to husband's health risk",
+          "lines": [
+            84,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 22,26: 'these prolific ones are very interesting... it's not really for the money... to see what they're up to'.",
+          "value": "participates in Prolific surveys out of curiosity",
+          "lines": [
+            22,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 126: 'I posted it on facebook' indicating Facebook activity.",
+          "value": "active on Facebook",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 194,308: works from home (line 194 'work from C' interpreted as home) and 'I don't see them but I talk on the phone', indicating phone-based recruiting from home.",
+          "value": "works from home, phone-based recruiting",
+          "lines": [
+            194,
+            308
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

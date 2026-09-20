@@ -1,0 +1,549 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in the Midwest and specifies Nebraska when asked (lines 47-49). Later confirms she is in the eastern part of the state (line 295).",
+          "value": "Nebraska",
+          "lines": [
+            47,
+            49,
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives in a more rural area (line 83), has been at her parents' house in the middle of nowhere (line 89), and is in the eastern part of Nebraska (line 295).",
+          "value": "Rural area in eastern Nebraska, currently at parents' house",
+          "lines": [
+            83,
+            89,
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she goes to school in Omaha (line 85) and is a senior at the university in Omaha (line 151).",
+          "value": "Attends university in Omaha, Nebraska",
+          "lines": [
+            85,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her work is based out of Omaha (line 85), works in research at a research hospital (line 91), and technically works out of the hospital (line 343). She references 'U. N. M. C. Hospital' (UNMC) as part of the university system (lines 195-197).",
+          "value": "Works at a research hospital in Omaha, Nebraska",
+          "lines": [
+            85,
+            91,
+            343,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I was born here' (in Nebraska) when discussing her parents being out here and extended family in Pennsylvania (line 55).",
+          "value": "Born in Nebraska",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She explicitly states 'I'm a senior at the university in Omaha' (line 151).",
+          "value": "College senior",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I was raised catholic' (line 629) in the context of discussing traditional values.",
+          "value": "Raised Catholic",
+          "lines": [
+            629
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She says she got her learner's permit at 14 (line 263: 'Like I got my 14').",
+          "value": "Obtained learner's driving permit at age 14",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes driving regularly for commuting and trips (lines 225, 327, 331), implying she holds a driver's license.",
+          "value": "Holds a driver's license",
+          "lines": [
+            225,
+            327,
+            331
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She states she works in research at a research hospital (line 91) and has been there over a year (line 401).",
+          "value": "Employed in research at a hospital in Omaha",
+          "lines": [
+            91,
+            401
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses frustration about paying full tuition for remote classes, referring to 'my money' (line 159).",
+          "value": "Pays university tuition",
+          "lines": [
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explains her parents don't have actual wifi and she uses her phone hotspot or a jetpack for internet (line 471).",
+          "value": "Lacks broadband internet at home; relies on mobile hotspot",
+          "lines": [
+            471
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she needs a car (line 225), drives to school (line 327), and commutes from Bellevue (line 331), implying car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            225,
+            327,
+            331
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her boss put her on a study and she is 'on that I. R. B.' (Institutional Review Board protocol) (lines 391-393).",
+          "value": "Serves on an IRB protocol for a research study",
+          "lines": [
+            391,
+            393
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her boyfriend is in the Air Force and stationed in Florida (line 359), and describes how they met when he was TDY in Nebraska (line 519).",
+          "value": "Has a boyfriend in the U.S. Air Force, stationed in Florida",
+          "lines": [
+            359,
+            519
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She details her boyfriend's severe dairy allergy that requires an EpiPen (line 479).",
+          "value": "Boyfriend has a severe dairy allergy",
+          "lines": [
+            479
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her sister bringing rice (line 525) and going golfing (line 537).",
+          "value": "Has a sister",
+          "lines": [
+            525,
+            537
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is at her parents' house (line 89) and mentions her parents live out here (line 55).",
+          "value": "Has parents, lives with them currently",
+          "lines": [
+            55,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states all of her extended family lives in Pennsylvania (lines 53, 55).",
+          "value": "Has extended family in Pennsylvania",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes an aunt taking her to New York City for the day (line 57) and an aunt taking her to Boston (line 651).",
+          "value": "Has an aunt who took her on trips to NYC and Boston",
+          "lines": [
+            57,
+            651
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her best friend has two cats, one aged 19 (line 21).",
+          "value": "Has a best friend who owns two cats",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to Colorado for a weekend camping trip with a friend (line 121).",
+          "value": "Has a friend with whom she camped in Colorado",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her boss as 'she' and discusses her boss's decisions (lines 387, 428).",
+          "value": "Has a female boss at the research hospital",
+          "lines": [
+            387,
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about a research assistant who started in late February 2020 (lines 397, 399).",
+          "value": "Has a coworker who started in late February 2020",
+          "lines": [
+            397,
+            399
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her neighbors' extended family owns the golf course where her sister works (line 537).",
+          "value": "Has neighbors whose extended family owns a golf course",
+          "lines": [
+            537
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes her dog on the floor (line 7), says he's a black lab/Australian shepherd mix, and says she'll be getting a golden retriever puppy on Saturday (line 9).",
+          "value": "Owns a mixed-breed dog and is getting a golden retriever puppy",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she needs a car to get around (line 225), discusses driving to school and knowing potholes (line 327), and commuting from Bellevue (line 331).",
+          "value": "Drives a car regularly",
+          "lines": [
+            225,
+            327,
+            331
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she feels out of place wearing her mask because few others do (line 111), indicating she wears one.",
+          "value": "Wears a face mask in public",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes working remotely due to Covid and buying a desk to avoid working on the bed (line 353).",
+          "value": "Works remotely from home",
+          "lines": [
+            89,
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She went camping in Colorado (line 121) and speaks positively of outdoor activities.",
+          "value": "Enjoys camping",
+          "lines": [
+            121
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She mentions trips to Pennsylvania (line 51), New York City (line 57), Colorado (line 121), and Boston (line 651).",
+          "value": "Travels to other states (Pennsylvania, New York, Colorado, Massachusetts)",
+          "lines": [
+            51,
+            57,
+            121,
+            651
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she gets her hair cut twice a year (line 453) and recently got it lightened (line 455).",
+          "value": "Gets haircuts twice a year; recently lightened her hair",
+          "lines": [
+            445,
+            453,
+            455
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she needs a PhD and is looking at grad schools outside Nebraska (lines 633, 635).",
+          "value": "Plans to pursue a Ph.D.",
+          "lines": [
+            633,
+            635
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she grew up with farm cats that came and went (line 21).",
+          "value": "Grew up around farm cats",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she was nominated by her boss to be a test dummy for an EEG ('eggy') cap demonstration, describing the gel and needles (lines 427, 429, 433).",
+          "value": "Served as a test dummy for an EEG cap demonstration",
+          "lines": [
+            427,
+            429,
+            433
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been looking at Boulder and Penn State for graduate school (line 635).",
+          "value": "Considering PhD programs at University of Colorado Boulder and Penn State",
+          "lines": [
+            635
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She describes her hair as curly (line 445).",
+          "value": "Curly hair",
+          "lines": [
+            445
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she got the ends of her hair 'leached a little bit' (line 455), referring to lightening/bleaching.",
+          "value": "Recently lightened/bleached the ends of her hair",
+          "lines": [
+            455
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She explicitly says 'I'm in new york city' (line 50) and later confirms it by noting there are no Walmarts in NYC (line 142).",
+          "value": "New York City, New York",
+          "lines": [
+            50,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I graduated last year' (line 166).",
+          "value": "College graduate",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lost her job and has been on unemployment (lines 102, 104).",
+          "value": "Unemployed",
+          "lines": [
+            102,
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes that she can no longer eat tapioca pearls, bubble tea, or things that are glutinous or stretchy (line 484), indicating a food intolerance that started around age 16.",
+          "value": "Food intolerance to tapioca and glutinous/starchy foods",
+          "lines": [
+            484
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She says 'I still do not know how to drive' and relies on trains (line 264).",
+          "value": "Does not hold a driver's license / does not know how to drive",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She states she was working in an acupuncture clinic, a private practice, and lost her job due to Covid (line 102).",
+          "value": "Lost job at an acupuncture clinic",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've just been on unemployment' (line 104).",
+          "value": "Receiving unemployment benefits",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions signing up for studies on Prolific (lines 26, 28, 38) and describes completing various online experiments (line 408).",
+          "value": "Participates in paid online research studies (e.g., Prolific)",
+          "lines": [
+            26,
+            28,
+            38,
+            408
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she has cats (line 12), indicates one is by the window (line 14), and says she got them from a shelter (line 16).",
+          "value": "Owns cats adopted from a shelter",
+          "lines": [
+            12,
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about talking to younger friends at her school about pandemic changes (line 170).",
+          "value": "Has younger friends who are still in college",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a friend from California who is in the Navy (line 510).",
+          "value": "Has a friend from California serving in the U.S. Navy",
+          "lines": [
+            510
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says one of her friends from Virginia is deploying to Texas or Illinois (line 502).",
+          "value": "Has a friend deploying from Virginia",
+          "lines": [
+            502
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She refers to the doctor at the acupuncture clinic as 'she' and discusses the decision to close (line 104).",
+          "value": "Had a female boss at the acupuncture clinic",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she takes the train everywhere and does not drive (line 264).",
+          "value": "Uses public transportation (trains) instead of driving",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't leave unless she really has to and doesn't feel safe going out (line 106).",
+          "value": "Stays home most of the time due to COVID-19",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has never been to a Walmart (line 142).",
+          "value": "Has never been to a Walmart",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to St. Louis a few years ago for an internship (line 562).",
+          "value": "Completed an internship in St. Louis",
+          "lines": [
+            562
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes participating in an EEG study at school, wearing a cap with suction cups (lines 420, 422, 424).",
+          "value": "Participated in an EEG study with a cap at school",
+          "lines": [
+            420,
+            422,
+            424
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says her hair is long, down to her waist (line 444).",
+          "value": "Hair length down to waist",
+          "lines": [
+            444
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has never done anything to her hair color-wise (line 458).",
+          "value": "Never colored her hair",
+          "lines": [
+            458
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

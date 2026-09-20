@@ -1,0 +1,536 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States living in Wisconsin (line 89), and later specifies a rural town with limited amenities (lines 193, 195).",
+          "value": "rural town in Wisconsin",
+          "lines": [
+            89,
+            193,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having lived in Texas for about a year.",
+          "value": "lived in Texas for about a year",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States having two kids (line 151). This places the speaker in the parent demographic.",
+          "value": "parent of two children",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he went to public high school and finished, implying no college. Line 219: 'I went to last if there's no way I could have done that...' confirms high school but not further education.",
+          "value": "high school graduate (public school)",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states working in a factory quality department (line 51).",
+          "value": "factory worker",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions growing up in a family of five children (line 155: 'there was five of us kids'), indicating the speaker is one of five siblings.",
+          "value": "grew up in a family of five children",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works in quality department at a foam factory; hit 10‑year mark (line 51). ASR 'quality apartment' interpreted as 'quality department'.",
+          "value": "quality department worker at a foam factory (10-year tenure)",
+          "lines": [
+            51,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'We get a lot of vacation at work' (line 155).",
+          "value": "receives a lot of vacation time from employer",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plant shut down temporarily, causing missed work (line 167: 'Plant was closed down for a little bit so I got to spend a lot of time at home').",
+          "value": "experienced temporary plant shutdown causing missed work",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeated use of 'we' in contexts of shared parenting, shopping, trips (lines 99, 151, 159, 161, 173) strongly implies a cohabiting partner.",
+          "value": "has a partner (spouse/significant other)",
+          "lines": [
+            99,
+            151,
+            159,
+            161,
+            173
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Directly states having two children (line 151).",
+          "value": "has two children",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a close friend met at work, friendship of 12‑13 years (line 179).",
+          "value": "has a close friend from work known for 12-13 years",
+          "lines": [
+            179,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Participates in a Discord group with friends, regular movie nights (lines 181-184).",
+          "value": "has a group of online friends via Discord, participates in movie nights",
+          "lines": [
+            181,
+            183,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his father was in and out of jail (line 157).",
+          "value": "father has a history of incarceration",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States his mother worked (line 157).",
+          "value": "mother worked",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Growing up with five kids means four siblings (line 155).",
+          "value": "has four siblings",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they don't talk a whole lot, mainly holidays (lines 145, 147).",
+          "value": "infrequent contact with siblings, mainly gets together on holidays",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a buddy in Texas planned to visit (line 153).",
+          "value": "has a friend (buddy) in Texas",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "A buddy recommended F1 racing (line 139).",
+          "value": "has a friend who watches F1 racing",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Discusses playing many games, prefers multiplayer but often single player due to scheduling; mentions Resident Evil, survival horror, sports, action, not good at shooters (lines 23-35, 47).",
+          "value": "plays video games (various genres, prefers multiplayer, currently single player due to timing)",
+          "lines": [
+            23,
+            25,
+            29,
+            33,
+            35,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he watches a horror movie every day in October (line 29), with October being favorite month (line 25).",
+          "value": "watches a horror movie daily in October",
+          "lines": [
+            25,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Primarily follows Green Bay Packers and football; also casually follows Wisconsin Badgers, Brewers, Bucks (lines 121-127).",
+          "value": "avid Green Bay Packers fan, follows football and casually other Wisconsin sports teams",
+          "lines": [
+            121,
+            123,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Enjoys snow and winter activities like sliding, doesn't mind winter (lines 93-95).",
+          "value": "enjoys snow and winter play, doesn't mind winters",
+          "lines": [
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Dislikes winter driving, especially slush, and mentions people tailgating (lines 107, 109, 115).",
+          "value": "dislikes winter driving, especially slushy roads",
+          "lines": [
+            107,
+            109,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Commute is a 4-minute drive, about a mile, in town with 25 mph limit (lines 105, 113).",
+          "value": "commute to work is a 4-minute drive (1 mile, in-town, 25 mph speed limit)",
+          "lines": [
+            105,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has an annual family trip to Wisconsin Dells for seven years, canceled this year (lines 161-165).",
+          "value": "annual family trip to Wisconsin Dells (7-year tradition, canceled this year)",
+          "lines": [
+            161,
+            163,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Occasionally visits Green Bay for a 5K race and amusement park (line 159).",
+          "value": "occasional trips to Green Bay for 5K and amusement park",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses Discord for socializing and weekly movie nights with online friends (lines 181-184).",
+          "value": "participates in Discord group with weekly movie nights",
+          "lines": [
+            181,
+            183,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has done the stranger chat platform 3 or 4 times (lines 7, 13).",
+          "value": "used the stranger chat platform three or four times",
+          "lines": [
+            7,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Planning a group trip to Florida in March, driving, renting an Airbnb split among 10 people (lines 173, 175, 185-187).",
+          "value": "plans a group trip to Florida in March (driving, Airbnb split with ~10 people)",
+          "lines": [
+            173,
+            175,
+            185,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States living in a rural town with Walmart, grocery store, couple fast food places (lines 193, 195).",
+          "value": "lives in a rural town with limited amenities (Walmart, grocery store, fast food)",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses dislike for cars, says they only give him problems, and he's not a car guy (lines 139, 141).",
+          "value": "dislikes cars, not a car enthusiast",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he traveled a lot before having kids, but now cost and kids limit travel (lines 151, 153).",
+          "value": "traveled a lot before having children, now limited due to cost and kids",
+          "lines": [
+            151,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Enjoys the technology aspect of his job, finds using the coordinate measuring machine like a game (lines 69, 71).",
+          "value": "finds his work with CMM machine engaging, compares it to a game",
+          "lines": [
+            69,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States living in Arizona (line 76) and specifies a pretty urban area (line 84).",
+          "value": "urban area in Arizona",
+          "lines": [
+            76,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly identifies as a business student seeking a marketing degree (line 48).",
+          "value": "college student, business major in marketing",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions attending online high school (line 208) and being homeschooled before that (line 220).",
+          "value": "homeschooled and online-schooled K-12",
+          "lines": [
+            208,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes having a brother in college and a younger sister in undergraduate (line 220).",
+          "value": "has two siblings (brother in college, younger sister undergraduate)",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States immediate family size of five (line 148).",
+          "value": "immediate family of five members",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Currently a college student with no mention of employment; mentions heavy schoolwork (lines 20, 48).",
+          "value": "college student, no known employment",
+          "lines": [
+            20,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls travel to Canada expensive, and family canceled a yearly trip, suggesting financial constraints (lines 150, 202).",
+          "value": "considers travel expensive, indicating financial constraints",
+          "lines": [
+            150,
+            202
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States immediate family of five, includes parents and siblings (lines 148, 220).",
+          "value": "immediate family of five (parents and two siblings)",
+          "lines": [
+            148,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Specific sibling details: brother in college, younger sister undergraduate (line 220).",
+          "value": "brother in college, younger sister in undergraduate",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Relatives mainly in Canada, some in Mexico (line 150).",
+          "value": "has relatives mostly in Canada, some in Mexico",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions a close friend nearby met in real life (line 250).",
+          "value": "has a close friend who lives nearby (met in real life)",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Had another close friend who moved away, now stays in touch online (line 252).",
+          "value": "has a close friend who moved away, now online contact",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Majority of close friends are online (line 252).",
+          "value": "majority of close friends are online",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Made friends through people in her apartment complex neighborhood (line 232).",
+          "value": "has friends from apartment complex neighborhood",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about Discord, she acknowledges 'They do.' (line 182), suggesting familiarity.",
+          "value": "knows about Discord",
+          "lines": [
+            182
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Plays a couple of shooters, tried Overwatch, Paladins, dabbled in League and Dota (line 40).",
+          "value": "plays multiplayer shooters and MOBA games (Overwatch, Paladins, League, Dota)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Was in a board game club and an art club (line 232).",
+          "value": "enjoys board games and art, participated in clubs",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Family goes to a California beach yearly, canceled this year (line 202).",
+          "value": "annual family trip to California beach (canceled this year)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives in an apartment complex (line 232).",
+          "value": "lives in an apartment complex",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Went to online high school, so accustomed to being at home; found shift back to online college jarring (lines 208, 278).",
+          "value": "accustomed to being at home due to online schooling history",
+          "lines": [
+            208,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms it is her first time using the stranger chat platform (lines 5-6).",
+          "value": "first time using the stranger chat platform",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Currently has a lot of schoolwork, limiting hobbies (line 20).",
+          "value": "has a lot of schoolwork, limiting time for hobbies",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Acknowledges knowledge of Discord (line 182), suggesting online socializing.",
+          "value": "familiar with Discord, likely uses it for socializing",
+          "lines": [
+            182
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are in California and later clarifies they are living in Sacramento ('back with my parents in the capital Sacramento').",
+          "value": "Sacramento, California, USA",
+          "lines": [
+            21,
+            441
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they used to live in the Bay Area, San Francisco.",
+          "value": "previously lived in San Francisco Bay Area",
+          "lines": [
+            431
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says their family is from Taiwan and China, and that they immigrated here at age three.",
+          "value": "Immigrated from Taiwan/China at age 3; of Taiwanese and Chinese descent",
+          "lines": [
+            201,
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes a recent episode of work stress causing poor sleep, headache, and chills.",
+          "value": "Experienced work-related stress, insomnia, headache, and chills recently",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states their occupation directly.",
+          "value": "product designer",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my brother' and his night-owl habits.",
+          "value": "has a brother",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my mom' when discussing cultural advice.",
+          "value": "has a mother",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they are currently living with their parents in Sacramento.",
+          "value": "lives with parents",
+          "lines": [
+            441
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about keeping in touch with cousins, aunts, and uncles in Taiwan/China and describes a specific cousin.",
+          "value": "has extended family (cousins, aunts, uncles) in Taiwan/China",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions friends who still live in San Francisco, in the context of the heat wave there.",
+          "value": "has friends in San Francisco",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they went on a vacation in January before the pandemic shutdowns.",
+          "value": "took a vacation in January",
+          "lines": [
+            513
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm Virginia' (ASR error for 'I'm in Virginia'), speaker_a later refers to speaker_b's location as Virginia, and the 11:00 PM time for speaker_b vs. 8:28 PM for speaker_a aligns with the Eastern time zone (Virginia).",
+          "value": "Virginia, USA",
+          "lines": [
+            16,
+            59,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they were living in Germany before coming to the US.",
+          "value": "previously lived in Germany",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they were born in Ethiopia.",
+          "value": "born in Ethiopia",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says they were born in Ethiopia, moved to Germany at age 12, lived there about 12-15 years, then moved to the US in 2006.",
+          "value": "Ethiopian-born; moved to Germany at age 12; immigrated to the US around 2006",
+          "lines": [
+            124,
+            128,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks about children; speaker_b confirms with 'Yeah. Yeah. Yeah.' and mentions the children are at home doing distance learning.",
+          "value": "parent of school-age children",
+          "lines": [
+            73,
+            74,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says thinking about moving back to Germany gives them anxiety.",
+          "value": "experiences anxiety about the prospect of moving back to Germany",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b directly states their occupation.",
+          "value": "business analyst",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they work from home at the moment due to the situation.",
+          "value": "currently works from home",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b confirms having children who are at home (see demographic).",
+          "value": "has children",
+          "lines": [
+            73,
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In the story about a food order, speaker_b says 'it was from my sister' (ASR 'water' for 'order'), indicating the order was for their sister.",
+          "value": "has a sister",
+          "lines": [
+            378
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions a brother who still lives in Germany.",
+          "value": "has a brother living in Germany",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have family members in the US and 'all over the place'.",
+          "value": "has extended family in the United States",
+          "lines": [
+            122,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my grandmother or back home' when discussing childhood visits.",
+          "value": "has a grandmother in home country (Ethiopia)",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I am a knight on', phonetically a match for 'night owl', and the context is a discussion about morning vs. night preferences.",
+          "value": "night owl (prefers staying up late)",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states that at their current job they do not work Saturdays, contrasting with a previous job.",
+          "value": "currently does not work Saturdays",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

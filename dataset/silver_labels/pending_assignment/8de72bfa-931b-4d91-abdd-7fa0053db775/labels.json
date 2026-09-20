@@ -1,0 +1,433 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm up in Minnesota in the midwest' (line 17). The context establishes they are in the U.S. (lines 15-16). Later he refers to arriving in Minnesota (line 143).",
+          "value": "Minnesota, United States",
+          "lines": [
+            15,
+            16,
+            17,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in my mid thirties' (line 35).",
+          "value": "mid-30s",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I knew boy because that's what I was' (line 131), indicating male gender.",
+          "value": "male",
+          "lines": [
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I was born in Vietnam' (line 127) and describes immigrating to the U.S. in 1995 (line 129). He is of Vietnamese origin and now a U.S. resident.",
+          "value": "Vietnamese-American immigrant",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a learned English as a second language after immigrating (lines 131, 145) and still speaks fluent Vietnamese (line 137).",
+          "value": "bilingual Vietnamese and English",
+          "lines": [
+            131,
+            137,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm uh alcohol drug counselor and I'm also therapist' (line 61) and 'I'm a substance abuse counselor' (line 75).",
+          "value": "alcohol and drug counselor / therapist",
+          "lines": [
+            61,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was a free lunch kid and also the sl kid' (ESL) (line 147), indicating a low-income childhood.",
+          "value": "low-income childhood (free lunch student)",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I usually use cannabis myself back when I was a teenager' (line 75) and 'I got out of it' (line 77).",
+          "value": "former teenage cannabis user",
+          "lines": [
+            75,
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states his occupation as a counselor/therapist (lines 61, 75), which is his primary source of income.",
+          "value": "employed as alcohol and drug counselor/therapist",
+          "lines": [
+            61,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions he started investing in stocks 'less than a month ago' (line 43), used Robinhood and lost $100 (line 45), switched platforms for long-term investing (line 51), and reads about investing (line 121).",
+          "value": "amateur retail stock investor",
+          "lines": [
+            43,
+            45,
+            51,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a joined Prolific last week (line 9) and notes 'a little money on the side doesn't hurt' (line 193), showing surveys provide extra income.",
+          "value": "Prolific survey participant for extra income",
+          "lines": [
+            9,
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to sell stuff on Ebay like uh imported Dvds' (line 169) acknowledging it was against platform rules.",
+          "value": "former seller of imported DVDs on eBay",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I would like to go back but I haven't been able to save enough money to do that yet' (line 141), indicating he is saving for a trip to Vietnam.",
+          "value": "saving money to visit Vietnam",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to his parents multiple times; they are Vietnamese immigrants who hate the communists (lines 129, 137, 139).",
+          "value": "parents are Vietnamese immigrants",
+          "lines": [
+            129,
+            137,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I have three siblings' (line 199).",
+          "value": "has three siblings",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'myself and my other brother who were who were born over there [Vietnam]' (line 155), indicating one brother was born in Vietnam.",
+          "value": "one brother born in Vietnam",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my sister has gone back. She was working as a teacher in japan permit' (line 141); the ASR 'permit' is likely 'for a bit'.",
+          "value": "sister worked as a teacher in Japan",
+          "lines": [
+            141
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'my grandfather was he was a pilot for the south' (line 129), referencing South Vietnam.",
+          "value": "grandfather was a South Vietnamese pilot",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my uncle married a person over here and they helped us immigrate' (line 129).",
+          "value": "uncle sponsored family immigration to US",
+          "lines": [
+            129
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'both of my grandfathers had two wives' (line 199) and describes his paternal grandfather marrying another woman in the US without divorcing his grandmother (lines 201-203).",
+          "value": "paternal grandfather had two wives",
+          "lines": [
+            199,
+            201,
+            203
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a works as a counselor/therapist (lines 61, 75).",
+          "value": "works as a substance abuse counselor/therapist",
+          "lines": [
+            61,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a participates in Prolific surveys (line 9) and enjoys them (line 193).",
+          "value": "online survey participant",
+          "lines": [
+            9,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a spends time reading and learning about stock investing (lines 43, 121).",
+          "value": "self-educates on stock investing",
+          "lines": [
+            43,
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a used to sell imported DVDs on eBay (line 169).",
+          "value": "former eBay reseller of imported DVDs",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he would like to visit Vietnam but hasn't been able to save money, and his parents opposed it due to political views (lines 139, 141).",
+          "value": "has not visited Vietnam since immigration",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself: 'My name is Kelsey' (line 6).",
+          "value": "Kelsey",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In response to 'Are you in the U.' she says 'God yeah I'm in florida' (line 16). Context places her in the United States.",
+          "value": "Florida, United States",
+          "lines": [
+            15,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I am a student right now' (line 34) and 'I am a rising second year' (line 36).",
+          "value": "second-year college student",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm studying Yukon right now' (line 34) and later 'icons more applicable' (line 54); 'Yukon' and 'icons' are ASR errors for 'econ' (economics). The context of discussing investment banking and finance confirms economics.",
+          "value": "economics major",
+          "lines": [
+            34,
+            54
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she is considering 'investment banking' (line 40) and describes the accelerated recruitment timeline (line 38).",
+          "value": "considering career in investment banking",
+          "lines": [
+            34,
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was born here' (line 122) and 'my parents came from china' (line 126).",
+          "value": "Chinese-American (US-born, Chinese descent)",
+          "lines": [
+            122,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my first language is english' (line 148) and that she can read and write Chinese because of Chinese school (line 150).",
+          "value": "bilingual English and Chinese",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes herself as a 'poor college student' (line 84) and says she has not invested because of that.",
+          "value": "low-income college student",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I kind of have a part time job, I'm working for my lab remotely' (line 184).",
+          "value": "part-time remote lab worker",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about investing in stocks, she says 'I have not uh poor college student' (line 84).",
+          "value": "does not invest in stocks",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my brother' (lines 102, 104, 196) and says family of four including her and brother (line 196). The subsequent exchange (lines 197-198) is ambiguous but overall she indicates one brother.",
+          "value": "has one brother",
+          "lines": [
+            102,
+            104,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her brother 'is actually like working in the finance industry' (line 104) and describes him as 'typical banker kind of guy' (line 116).",
+          "value": "brother works in finance/banking",
+          "lines": [
+            104,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom has, she, she works with the tour company' to get cheap tickets (line 208).",
+          "value": "mother works at a tour company",
+          "lines": [
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I have no extended family like in the States ... I have something in europe, but the rest is still in china' (line 204).",
+          "value": "extended family mostly in China, some in Europe",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes everyone being home from college (line 90) and colleges moving to online/hybrid; she is in Florida, implying she lives with parents.",
+          "value": "lives at home with parents during college remote period",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b joined Prolific from Reddit (line 10) and says she likes taking random quizzes for fun (line 188).",
+          "value": "Prolific survey participant for enjoyment",
+          "lines": [
+            10,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we go back [to China] every like three or four years maybe' (line 206).",
+          "value": "travels to China every 3-4 years",
+          "lines": [
+            206
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents signed me up for chinese school and so I can still like read and write' (line 150).",
+          "value": "attended Chinese school; literate in Chinese",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'trying to stay up to date with the news and like what's going on' (line 84).",
+          "value": "follows news regularly",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions having an 'NPC' next to her at the airport (line 176); 'NPC' is an ASR error for 'N95' (mask), and people avoided her. This indicates she uses an N95 mask.",
+          "value": "uses N95 mask",
+          "lines": [
+            176
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

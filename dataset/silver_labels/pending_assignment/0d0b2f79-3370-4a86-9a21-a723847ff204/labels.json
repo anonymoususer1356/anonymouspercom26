@@ -1,0 +1,390 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When asked his name, he responds 'All right, I'm terry'.",
+          "value": "Terry",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm down in florida'.",
+          "value": "Florida",
+          "lines": [
+            13,
+            55,
+            57,
+            59,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he is in central Florida, about 40 minutes to an hour north of Disney World, north of Orlando, and near Daytona Beach, about 20 minutes from Daytona in the same county.",
+          "value": "Near Daytona Beach, central Florida",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he was born in Jacksonville when his father was stationed there in 1969.",
+          "value": "Jacksonville, Florida (birthplace)",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he grew up in Key West for the first half of his childhood until age nine or ten.",
+          "value": "Key West, Florida (childhood residence)",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States that after Key West, the family moved to central Florida and he has been there ever since.",
+          "value": "Central Florida (lifelong residence)",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has been up and down the East Coast from Florida to Maine.",
+          "value": "Has traveled the East Coast of the US",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has never been to the West Coast; the farthest west he has gone is Ohio (for a wedding) and Oklahoma (for work).",
+          "value": "Farthest west traveled: Ohio and Oklahoma",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions he has been to New York, Atlanta, and London.",
+          "value": "Has visited New York, Atlanta, London",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm 50, I'm 51 actually just turned 51 last month' and refers to being born in 1969.",
+          "value": "Age 51 (born 1969)",
+          "lines": [
+            51,
+            67,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to as 'man' and 'bro' by speaker_b; uses 'bro' himself; typical male name Terry in context. No explicit gender statement but strongly implied.",
+          "value": "Male",
+          "lines": [
+            291,
+            293,
+            294,
+            295,
+            315
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'all my health issues are not things that put me more at risk' regarding COVID-19, indicating he has some health issues but not high-risk conditions.",
+          "value": "Has unspecified health issues that are not COVID-19 risk factors",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions attending a convention for work in Oklahoma, implying employment that involves business travel.",
+          "value": "Employed, attends work conventions",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Discusses payment for the current conversation rounds, noting 'they didn't pay as much' earlier but then 'bumped it up again', indicating he receives money for these interactions.",
+          "value": "Receives payment for participating in conversation platform",
+          "lines": [
+            305,
+            307
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says his parents were from New Jersey, his father was in the Navy stationed in Jacksonville and Key West, and retired in Florida.",
+          "value": "Parents: father in Navy, originally from New Jersey, retired in Florida",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions his brother was born in Key West and currently lives in Maine.",
+          "value": "Brother (born Key West, lives in Maine)",
+          "lines": [
+            69,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he drove to Ohio for a cousin's wedding.",
+          "value": "Cousin (in Ohio)",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he prefers cool weather; wears shorts when it's in the mid-fifties while others wear heavy jackets.",
+          "value": "Prefers cool weather, wears shorts in 55°F",
+          "lines": [
+            277,
+            279,
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls Miami 'a big noisy ugly city' and says he doesn't go there often.",
+          "value": "Dislikes Miami",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes Key West as a place where people are 'just chill and relax and nothing bothers them', indicating he enjoys that atmosphere.",
+          "value": "Enjoys the relaxed atmosphere of Key West",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he likes big cities but wouldn't want to live in one full-time; if he won the lottery he'd get an apartment in New York City.",
+          "value": "Would not live full-time in a big city but would get a NYC apartment if wealthy",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses participating in multiple rounds of this conversation platform, mentioning previous conversations with other people.",
+          "value": "Participates in a paid conversation platform",
+          "lines": [
+            305,
+            307,
+            309,
+            311
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When asked his name, he says 'my name is joe terry'. ASR may have joined 'Joe' and 'Terry'; intended as first name Joe, last name Terry.",
+          "value": "joe terry",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'out here in L.A.' and 'out here in California'.",
+          "value": "Los Angeles, California (residence)",
+          "lines": [
+            34,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was born and raised here in uh in L.A.'",
+          "value": "Born and raised in Los Angeles",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live near L.A.X.'",
+          "value": "Lives near LAX airport",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live in a city called Anglo work', which phonetically matches Inglewood, a city near LAX.",
+          "value": "Inglewood (transcribed as 'Anglo work')",
+          "lines": [
+            200
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'I haven't been to any other state' except 'I just been to Vegas I think that's it'.",
+          "value": "Only traveled to Nevada (Las Vegas) outside California",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've never been to new york'.",
+          "value": "Never been to New York",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name 'Joe' is typically male; addressed as 'man' repeatedly; no contradictory indicators.",
+          "value": "Male",
+          "lines": [
+            292,
+            294,
+            314,
+            316
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I'm a caregiver I work with seniors'.",
+          "value": "Caregiver for seniors",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've been indoors a lot and I guess it has to do with the type of work that I do' and 'I can't be out there just being on the streets'.",
+          "value": "Works indoors, limits outside exposure due to caring for high-risk seniors",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes the high cost of living in his area: a one-bedroom apartment costs $1500, the cheapest you can find.",
+          "value": "Cheapest one-bedroom apartment in his area is $1500/month",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses pay for the conversation rounds, says 'they kind of up the price' and asks about speaker_a's rounds, indicating he also gets paid.",
+          "value": "Receives payment for participating in conversation platform",
+          "lines": [
+            304,
+            306
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'I've had family members that have had it' referring to COVID-19.",
+          "value": "Has family members who contracted COVID-19",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'a lot of my buddies, I don't see em' because the gym across the street closed.",
+          "value": "Has a group of buddies he used to see at the gym",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'for me personally me, I don't go out much'.",
+          "value": "Does not go out much",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we have the gym right across the street' which closed, causing him to lose touch with buddies. He used to go regularly.",
+          "value": "Used to frequent a gym across the street",
+          "lines": [
+            298,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "At the start, he says he's watching the Dodgers game.",
+          "value": "Watches baseball (Dodgers)",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I enjoy the winter better than the summer', 'I can't stand the heat'.",
+          "value": "Prefers winter, dislikes heat",
+          "lines": [
+            264,
+            266,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

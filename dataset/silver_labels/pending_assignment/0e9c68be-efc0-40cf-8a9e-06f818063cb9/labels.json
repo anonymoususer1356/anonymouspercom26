@@ -1,0 +1,595 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as Carly.",
+          "value": "Carly",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Gives her blog URL spelled letter by letter as C A R L Y K A X T dot com (ASR 'Carly Cat dot com').",
+          "value": "carlykaxT.com",
+          "lines": [
+            131,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is in California right now and specifies she is 'right outside of Palm Springs' in the desert.",
+          "value": "Near Palm Springs, California",
+          "lines": [
+            13,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is from Michigan.",
+          "value": "Michigan (home state)",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions living in Northern New Jersey (across from NYC) and then Southern New Jersey while traveling with her husband.",
+          "value": "Previously lived in New Jersey (northern and southern)",
+          "lines": [
+            49,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I am 29'.",
+          "value": "29",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Identifies as female through pronouns, references to being a wife, and discussing women's issues including herself.",
+          "value": "female",
+          "lines": [
+            47,
+            219,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she told her mother she is bisexual and talks about her own experiences as a bisexual woman.",
+          "value": "bisexual",
+          "lines": [
+            219,
+            225,
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'I have a history of panic attacks'.",
+          "value": "History of panic attacks",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes waking with racing heart and says she thinks they are nocturnal panic attacks.",
+          "value": "Nocturnal panic attacks",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions her diagnosis of borderline personality disorder, noting she is no longer diagnosable.",
+          "value": "Borderline Personality Disorder (history)",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have A. D. D.'.",
+          "value": "ADD (Attention Deficit Disorder)",
+          "lines": [
+            629
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she used to cut herself when younger.",
+          "value": "History of self-harm",
+          "lines": [
+            791
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to a period when her depression was severe.",
+          "value": "History of depression",
+          "lines": [
+            801
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she used to have really bad anger problems.",
+          "value": "History of anger problems",
+          "lines": [
+            641
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I'm a writer' and discusses her blog and novel.",
+          "value": "writer (blogger, novelist)",
+          "lines": [
+            121,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her husband makes enough that she doesn't have to work.",
+          "value": "Financially supported by husband, not employed for wages",
+          "lines": [
+            685
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she used to be the breadwinner.",
+          "value": "Previously primary earner",
+          "lines": [
+            685
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks extensively about using the Prolific survey platform and why she does it despite not needing the money.",
+          "value": "Participates in Prolific surveys for extra income",
+          "lines": [
+            685,
+            687,
+            693
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Frequently references 'my husband' and says she married at 21.",
+          "value": "Married to a husband",
+          "lines": [
+            47,
+            821
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her mother's preferences, attitudes, and interactions with her.",
+          "value": "Has a mother",
+          "lines": [
+            157,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my sister's trans'.",
+          "value": "Has a transgender sister",
+          "lines": [
+            577
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says one of her best friends is in Florida and later names her Jess.",
+          "value": "Best friend in Florida (Jess)",
+          "lines": [
+            73,
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my good friend Chaz'.",
+          "value": "Friend named Chaz",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says one of her best friends is a witch.",
+          "value": "Friend who is a witch",
+          "lines": [
+            416
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she had a German shepherd.",
+          "value": "Previously owned a German shepherd dog",
+          "lines": [
+            601
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I meditate every day' and mentions doing it for 3 years.",
+          "value": "Daily meditation",
+          "lines": [
+            385,
+            617
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she started incorporating yoga before bed.",
+          "value": "Yoga before bed",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes rarely going out except for exciting/terrifying grocery trips.",
+          "value": "Mostly homebound during quarantine",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her sleep schedule has gotten weird.",
+          "value": "Disrupted sleep schedule",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is taking online classes.",
+          "value": "Online student",
+          "lines": [
+            685
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she was a daily walker before moving to California.",
+          "value": "Used to walk daily for anxiety",
+          "lines": [
+            613
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions throwing an annual Halloween party in the past.",
+          "value": "Used to host annual Halloween parties",
+          "lines": [
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says inauthenticity is one of the top three most important things to her.",
+          "value": "Highly values authenticity",
+          "lines": [
+            749
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I love your glasses' directed at speaker_a.",
+          "value": "Wears glasses",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as Alexa.",
+          "value": "Alexa",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells speaker_a her Instagram is 'spicy avocado' (ASR splits the phrase but the intended handle is clear).",
+          "value": "spicy avocado (Instagram handle)",
+          "lines": [
+            826
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm in Hawaii' and explains her father is stationed there.",
+          "value": "Hawaii (current stationing)",
+          "lines": [
+            12,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says family has a house in central New Jersey, she lived there for last two years of high school, and they will return after dad retires.",
+          "value": "New Jersey (central; family home)",
+          "lines": [
+            40,
+            44,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm 19'.",
+          "value": "19",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Identifies as female through pronouns, self-references as girl/woman, and discussion of women's issues.",
+          "value": "female",
+          "lines": [
+            224,
+            562
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Includes herself when discussing bisexuality: 'because we are also attracted to men...' and implies bisexuality is her orientation.",
+          "value": "bisexual",
+          "lines": [
+            224,
+            218
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes her parents as 'hispanic, white Hispanics'.",
+          "value": "Hispanic (white Hispanic)",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States her major is social work and she attends university.",
+          "value": "University student, majoring in social work",
+          "lines": [
+            316,
+            596
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says she has had nightmares every night since quarantine started.",
+          "value": "Frequent nightmares since quarantine",
+          "lines": [
+            98,
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asks about nail biting, implies she is one, and says she joined the Reddit nail biting community.",
+          "value": "Nail biting habit",
+          "lines": [
+            776,
+            784
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'maybe I have like a little form of anxiety' and plans to look into it.",
+          "value": "Self-suspected anxiety",
+          "lines": [
+            144
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Describes deliberately depriving herself and sitting in anxiety as a form of self-punishment.",
+          "value": "Engages in self-deprivation when upset",
+          "lines": [
+            788
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lives with parents, father is in Air Force, she is a student and thus financially dependent.",
+          "value": "Dependent on parents (student, father in Air Force)",
+          "lines": [
+            40,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses using Prolific and recommends it to friends, indicating she participates in the platform.",
+          "value": "Participates in Prolific surveys",
+          "lines": [
+            682,
+            696
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says she lives with parents, dad in Air Force, and mom is 37.",
+          "value": "Lives with parents (father Air Force, mother age 37)",
+          "lines": [
+            40,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my little brother' and he appears in the background.",
+          "value": "Has a little brother",
+          "lines": [
+            217,
+            670
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has a dog and specifies he's a husky.",
+          "value": "Owns a husky dog",
+          "lines": [
+            600
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my best friend' while discussing texting.",
+          "value": "Has a best friend",
+          "lines": [
+            562
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a past relationship where she felt drained and relieved when apart.",
+          "value": "Had a draining friendship/relationship",
+          "lines": [
+            398
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'my parents have never said they're sorry to me'.",
+          "value": "Parents never apologize",
+          "lines": [
+            321
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Attends university, majoring in social work.",
+          "value": "University student (social work major)",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't leave my neighborhood at all' during quarantine.",
+          "value": "Restricted to her neighborhood during quarantine",
+          "lines": [
+            606
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Takes her dog on walks throughout the day in the neighborhood.",
+          "value": "Daily dog walks",
+          "lines": [
+            606
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Hates exercise but does dance fitness via YouTube.",
+          "value": "Dance fitness via YouTube (avoids traditional exercise)",
+          "lines": [
+            606,
+            607
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I listen to podcasts like pretty often'.",
+          "value": "Regular podcast listener",
+          "lines": [
+            666
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions sharing feminist and BLM content on Instagram.",
+          "value": "Shares social justice content on Instagram",
+          "lines": [
+            470
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes realizing she prefers close friends and not going out, identifying as introverted/ambivert.",
+          "value": "Identifies as introverted/ambivert",
+          "lines": [
+            364,
+            365,
+            368
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I'm a selfish person' explicitly.",
+          "value": "Considers herself selfish",
+          "lines": [
+            540
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has been doing a lot of self-reflection during quarantine.",
+          "value": "Regular self-reflection",
+          "lines": [
+            141,
+            364
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

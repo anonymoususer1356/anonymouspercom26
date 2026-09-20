@@ -1,0 +1,401 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 5, speaker_a says 'My name is life.' in response to speaker_b asking 'what's your name?'. ASR output 'life' may be a garbled rendering of a name; recorded verbatim as per instruction.",
+          "value": "life",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 29 and 231: speaker_a states 'the state I'm in is Maryland' and later confirms 'I'm in the us and the east coast,' establishing current residence in Maryland, USA.",
+          "value": "Maryland, United States",
+          "lines": [
+            29,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 7 and 9: speaker_a says 'I'm from Canada', 'born in Ontario. But lived most of my life on the prairies, the central center of the country.' This establishes his origin as Canada, specifically Ontario-born and prairie-raised.",
+          "value": "Canada, born in Ontario, lived on the prairies",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 21: speaker_a recalls 'When I was in the Navy, my wife and I were living in victoria' indicating a past residence in Victoria, British Columbia, Canada.",
+          "value": "Victoria, British Columbia, Canada",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 7 and 91: speaker_a says 'I'm from Canada' and 'I'm Canadian so I can't vote', establishing Canadian nationality.",
+          "value": "Canadian",
+          "lines": [
+            7,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 93: speaker_a states 'I'm a landed immigrant. Which means I'm hold a green card', establishing he is a US permanent resident (green card holder).",
+          "value": "US permanent resident (green card holder)",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 21, 177, 183, 191: speaker_a mentions being in the Navy, on a ship, and references 'for a sailor' etc., establishing he is a Navy veteran.",
+          "value": "former Navy sailor",
+          "lines": [
+            21,
+            177,
+            183,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 111: speaker_a says 'I'm Crosby retired' (ASR likely misrecognizing 'cross-retired' or 'sort of retired') and discusses pension, establishing he is retired. The context makes the meaning clear despite the garbled term.",
+          "value": "retired",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 209: speaker_a states 'I'm a high risk, I have a heart condition.' establishing a heart condition and high risk for COVID.",
+          "value": "heart condition, high risk for COVID",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Lines 91 and 93: speaker_a says 'I'm Canadian so I can't vote' and 'I'm a landed immigrant... green card', establishing his legal status as a US permanent resident who is ineligible to vote.",
+          "value": "US permanent resident (green card holder), ineligible to vote",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 111: speaker_a states 'trying to find more employment because they don't get enough. My pension is not for me to live in the US.' This establishes his pension is insufficient and he seeks additional work.",
+          "value": "retired with insufficient pension, seeking additional employment",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 93-95: speaker_a explains that due to his green card, 'my wife cannot get anything' because of a presidential order, indicating the household loses access to benefits like Obamacare and disability support.",
+          "value": "wife unable to receive benefits (Obamacare, disabilities) due to his green card",
+          "lines": [
+            93,
+            94,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Numerous lines refer to 'my wife'; line 21 mentions living with wife in Victoria; line 91 says she is American; line 49 says she is from New York.",
+          "value": "married to an American woman from New York",
+          "lines": [
+            21,
+            49,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 29: 'my wife was trained to be a nurse'.",
+          "value": "wife is a trained nurse",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 209, 211: speaker_a says 'if Covid comes into this house and my wife gets it, She has less than a 1% chance of survivability' and 'my wife has a major breathing issue condition'.",
+          "value": "wife has major breathing condition, high risk for COVID",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 91: 'My wife is an independent.'",
+          "value": "wife is politically independent",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 88-89: speaker_a confirms 'my wife's mom was a republican'.",
+          "value": "mother-in-law was a Republican",
+          "lines": [
+            88,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 49, 77, 81-85: speaker_a states 'she's from new york, she worked for people and she knew trump and she knows she has friends at trump, oh millions of dollars to it won't pay' and describes how Trump never paid interior construction people who finished trump plaza, among them wife's friends.",
+          "value": "wife knew Trump; her friends (interior constructors) were never paid by Trump",
+          "lines": [
+            49,
+            77,
+            81,
+            83,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 37: 'my parents are elderly, my mom's very ill'; line 133: 'They're firstly 90, and They've been married for over 62 years'.",
+          "value": "elderly parents, mother very ill",
+          "lines": [
+            37,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 133, 149: speaker_a says dad goes to see mom every day, walks everywhere.",
+          "value": "father walks everywhere, visits ill mother daily",
+          "lines": [
+            133,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 133: 'they married within three weeks of meeting each other' and married over 62 years.",
+          "value": "parents married over 62 years, married within 3 weeks of meeting",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 119, 121: 'My younger brother Laos used to see over military unit. ... he's the ceo'. ASR 'Laos' is likely a garbled name, but the relationship and role are clear.",
+          "value": "younger brother is CEO of a military unit",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 121, 123: 'My twins in the same boat. He's a principal of the school system. He looks after five schools'.",
+          "value": "twin brother is a school principal overseeing five schools",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 151: 'my sister is a federal judge, so she isn't retired and she won't be retired until she's 75'.",
+          "value": "sister is a federal judge, will retire at 75",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 151: 'my sister's husband is retired'.",
+          "value": "sister's husband is retired",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 167: speaker_a mentions playing games for nieces and nephews. The phrasing is messy, but the reference to having nieces and nephews is clear.",
+          "value": "has nieces and nephews",
+          "lines": [
+            167
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 41-43: speaker_a says 'I have a friend is Japanese and american'.",
+          "value": "friend who is Japanese and American",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 165, 167: speaker_a describes playing World of Warcraft, Diablo 3, League of Legends, and beta testing games with his wife.",
+          "value": "gamer with wife, plays WoW, Diablo 3, LoL, beta tests games",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 205, 207, 209: speaker_a explains he wears a mask when near people, avoids crowds, and emphasizes his and his wife's high risk for COVID.",
+          "value": "takes COVID precautions seriously, wears mask in public near others",
+          "lines": [
+            205,
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 45, 47: speaker_a says 'I get most of my news from outside the U. S.' and 'I don't tend to watch things like fox news and all that. I laugh at it at the commentators.'",
+          "value": "gets most news from outside US, avoids Fox News",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 143: speaker_a mentions 'I've been to europe' and earlier in the same line references going to Australia while in the Navy.",
+          "value": "has traveled to Europe and Australia",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 6: speaker_b says 'I'm Andrea' introducing herself. Speaker_a acknowledges with 'Hi Andrea' in line 7.",
+          "value": "Andrea",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 8 and 109: speaker_b indicates Las Vegas as her location, and speaker_a asks 'What do you do in las Vegas?' confirming she is based there. Line 6 also mentions 'I'm from Nevada'.",
+          "value": "Las Vegas, Nevada, USA",
+          "lines": [
+            6,
+            8,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 136, 138: speaker_b says 'I have family in europe where I'm originally from. And uh it's uh Romania, Romania.'",
+          "value": "originally from Romania",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Based on the statement that she is originally from Romania.",
+          "value": "Romanian (originally)",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 108 and 116: speaker_b states 'we lost most of us left our jobs ... I work in the art industry, like art galleries' and later asks about filing for unemployment, indicating she lost her job in the art industry due to the pandemic and may be seeking unemployment.",
+          "value": "worked in art galleries, lost job due to pandemic",
+          "lines": [
+            108,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 12: speaker_b says 'I do have some friends uh they used to leave the United States in San Diego but they moved back to Canada last year and they are in uh Toronto actually'.",
+          "value": "friends who moved from San Diego to Toronto",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 136, 138: speaker_b states she has family in Europe and is originally from Romania, strongly implying family in Romania.",
+          "value": "family in Romania",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 52: speaker_b says 'I used to live with yoga' – ASR output 'yoga', likely a garbled name of a person she lived with.",
+          "value": "used to live with a person named 'yoga' (ASR output)",
+          "lines": [
+            52
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 52: speaker_b says 'I actually met him once and before, like five years ago, before the election or something' in the context of discussing Trump, indicating she met Donald Trump once about five years ago.",
+          "value": "met Donald Trump once, approximately 5 years ago",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 172-173: speaker_b mentions 'The only gambling games I tried with a casino um they call those machines like slots' and 'That's well I tried I I'm not no.' indicating she has tried playing slot machines at a casino.",
+          "value": "has tried slot machines at casinos",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

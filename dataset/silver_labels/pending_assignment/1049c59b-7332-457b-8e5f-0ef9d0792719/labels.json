@@ -1,0 +1,330 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in Atlanta and I'm at home' and later reiterates that no place has worse traffic than Atlanta, confirming current residence.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            15,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Refers to 'my husband', indicating marital status.",
+          "value": "Married",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm glad I don't have any kids right now'.",
+          "value": "No children",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses 'my husband'; in context most likely identifies as female.",
+          "value": "Female",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'have a very very bad immune system, so I'm still like quarantine so I can't go back to work until March'.",
+          "value": "Severely compromised immune system, quarantining until at least March",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I own a Vape shop with my my husband' (ASR 'leona' in 'I have leona Vape shop' is likely a mis‑recognition of 'I own a').",
+          "value": "Owns a vape shop with husband",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm one of the I work 11 of the main uh like sales reps uh we do a lot of wholesale contracting' – intended meaning 'I'm one of the main sales reps'.",
+          "value": "Works as a main sales rep and handles wholesale contracting for the shop",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my husband'.",
+          "value": "Husband",
+          "lines": [
+            27,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my husband and my roommate' play video games.",
+          "value": "Roommate",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Discusses using multiplayer video games with chat as a cathartic outlet during lockdown, and mentions past experience with games like PlayStation 1.",
+          "value": "Enjoys playing multiplayer video games",
+          "lines": [
+            169,
+            199,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I only have to I have a cat and then I have a dog and they're both tiny. The capsule almost a year old' (ASR 'capsule' interpreted as 'cat's almost').",
+          "value": "Has a small dog and a small cat (cat almost one year old)",
+          "lines": [
+            251
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Remarks 'I've scheduled five of these... I've scheduled six and you're only the third person to show up' – indicating she schedules and participates in these types of virtual meetings.",
+          "value": "Participates in scheduled virtual meetings",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Says 'I'm in Ohio and I'm in my office'.",
+          "value": "Ohio",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes 'we live in the middle of nowhere', 'a town that's there's two square miles and uh we have one stop light in the whole county'.",
+          "value": "Lives in a very small town (about two square miles, one stoplight in the county) in rural Ohio",
+          "lines": [
+            28,
+            86,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Works at a high school and says 'I drive into the next county for work and it takes me 30 minutes and that's about 40 miles'.",
+          "value": "Works at a high school in a neighboring county",
+          "lines": [
+            18,
+            88,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Refers to 'my wife', 'my ex wife', and responds affirmatively to 'dad and the dog he didn't want'.",
+          "value": "Male",
+          "lines": [
+            28,
+            132,
+            241
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions a current wife and an ex-wife, indicating a previous divorce and current remarriage.",
+          "value": "Remarried (has ex‑wife and current wife)",
+          "lines": [
+            28,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have three' kids, discusses oldest child and six‑year‑old daughter, and references 'kids' multiple times.",
+          "value": "Has three children",
+          "lines": [
+            132,
+            182,
+            186,
+            188,
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I work at a high school' and later refers to 'my students'.",
+          "value": "Teacher at a high school",
+          "lines": [
+            18,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains 'I had a second job when all this started and it was fixing, installing and fixing technology and elderly people's houses' and later indicates the work went remote and he was laid off.",
+          "value": "Previously had a second job installing/fixing technology in elderly homes; laid off when work became remote",
+          "lines": [
+            142,
+            144,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Comments 'the biggest stress on earth is the bottom house. That's expensive. And now you got to pay for it' in a way that strongly implies personal homeownership with a mortgage.",
+          "value": "Owns a home with a mortgage",
+          "lines": [
+            224
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' multiple times.",
+          "value": "Current wife",
+          "lines": [
+            28,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my ex wife has to send them' when discussing children's school arrangements.",
+          "value": "Ex‑wife",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Provides details: oldest kid is 13, a six‑year‑old daughter, and total of three children.",
+          "value": "Three children: 13‑year‑old son, 6‑year‑old daughter, and a third child",
+          "lines": [
+            182,
+            186,
+            188,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my nephew had told me' about a video game feature.",
+          "value": "Nephew",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we have two dogs and three cats, so there's five pets' and later narrates how a third cat joined.",
+          "value": "Has two dogs and three cats",
+          "lines": [
+            232,
+            234,
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Talks about initiating music sessions with a fiddle‑playing shop employee: 'let's play some music' and 'he plays some music with me sometimes', implying active musical participation.",
+          "value": "Plays music (likely guitar) with others",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Discusses playing Rayman repeatedly, Brawlhalla, and nostalgia for Atari/Nintendo; expresses preference for in‑person multiplayer.",
+          "value": "Enjoys playing video games (retro and co‑op, especially in‑person)",
+          "lines": [
+            172,
+            204,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we take the kids to Camden park every year'.",
+          "value": "Takes family to Camden Park amusement park annually",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References kids playing fall baseball, mask rules at games vs. practices, and his attendance/involvement.",
+          "value": "Involved in kids’ fall baseball league",
+          "lines": [
+            114,
+            116,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions starting a timer, doing calls during lunch break, and having a routine of scheduling such activities.",
+          "value": "Participates in scheduled calls during lunch breaks",
+          "lines": [
+            6,
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes living in an area with no grocery store within 30 miles for many years, stores closing at 9‑10 PM, and reliance on dollar stores.",
+          "value": "Rural residential lifestyle with very limited shopping options and long drives for necessities",
+          "lines": [
+            28,
+            86,
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

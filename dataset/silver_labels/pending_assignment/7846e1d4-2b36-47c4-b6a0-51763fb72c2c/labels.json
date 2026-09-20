@@ -1,0 +1,307 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states 'I'm Louisa' directly.",
+          "value": "Louisa",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she lives in Texas and specifies the Dallas-Fort Worth area.",
+          "value": "Dallas-Fort Worth area, Texas",
+          "lines": [
+            7,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to college in Connecticut, implying she lived there for a period.",
+          "value": "Connecticut (for college)",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says her mother's side is mainly Native American and has been in Texas for eight generations; her father's side is from other countries.",
+          "value": "Native American ancestry on mother's side; father's side from other countries",
+          "lines": [
+            409,
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she attended college in Connecticut.",
+          "value": "Attended college in Connecticut",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions joking with her husband.",
+          "value": "Married",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works at UT Arlington in the grants office and can work from home.",
+          "value": "Employed at UT Arlington grants office, works from home",
+          "lines": [
+            25,
+            27,
+            29,
+            31,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to travel a lot for her previous job.",
+          "value": "Previously had a job that required frequent travel",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions being in a guest room of her home.",
+          "value": "Has a home with a guest room",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my husband' while telling a story.",
+          "value": "Has a husband",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her nephew multiple times, giving his age and current location.",
+          "value": "Has a 23-year-old nephew living in Lancaster, California",
+          "lines": [
+            107,
+            339,
+            341
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes her cat: 12 years old, tuxedo, found as a kitten on her porch.",
+          "value": "Owns a 12-year-old tuxedo cat",
+          "lines": [
+            171,
+            181,
+            183,
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she usually drives to Houston instead of flying.",
+          "value": "Usually drives to Houston rather than flying",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she plans to vote early in person.",
+          "value": "Plans to vote early in person",
+          "lines": [
+            239,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She reads news on her phone and currently avoids news because of politics.",
+          "value": "Reads news on phone; currently avoids news due to politics",
+          "lines": [
+            233,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She works from home sitting on a day bed in her guest room.",
+          "value": "Works from home on a day bed in guest room",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She says 'I'm sherry' directly.",
+          "value": "Sherry",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in Salt Lake City and lives right by the airport.",
+          "value": "Salt Lake City, Utah, near the airport",
+          "lines": [
+            6,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having been in Philadelphia before returning to Salt Lake, indicating she lived there.",
+          "value": "Previously lived in Philadelphia",
+          "lines": [
+            220
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says her grandparents were born in Norway, indicating Norwegian ancestry.",
+          "value": "Norwegian ancestry",
+          "lines": [
+            408
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to the University of Utah and studied psychology. 'The U' is heavily implied to be the University of Utah given the context.",
+          "value": "Studied psychology at the University of Utah",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states she has asthma, which puts her at higher risk for COVID-19.",
+          "value": "Has asthma",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She says she held dual citizenship for a long time, which context suggests is US and Norway.",
+          "value": "Held dual citizenship (US and Norway)",
+          "lines": [
+            428
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She is currently unemployed and receiving unemployment; she was a flight attendant for a small airline and briefly for Skywest before the pandemic disrupted it.",
+          "value": "Unemployed, receiver of unemployment benefits; former flight attendant (small private airline and briefly Skywest)",
+          "lines": [
+            22,
+            70,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her home as having a big room with high ceilings and a couch area with 16-inch memory foam.",
+          "value": "Lives in a residence with a big room, high ceilings, and a comfortable couch area",
+          "lines": [
+            158,
+            160,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her mother moved in with her and lives with her; also mentions her mother's vertigo.",
+          "value": "Lives with her mother",
+          "lines": [
+            128,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her family is in the Utah region.",
+          "value": "Has family in the Utah region",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she got her first skis at age four, indicating she is a long-time skier.",
+          "value": "Skier, started at age 4",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a cat and describes it as long-haired and low-shedding, suggesting a Norwegian forest cat, though not confirmed outright.",
+          "value": "Owns a cat (possibly Norwegian forest cat)",
+          "lines": [
+            178,
+            192,
+            194
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She implies she receives a mail-in ballot automatically and votes by mail in Utah.",
+          "value": "Votes by mail (automatic mail-in ballot)",
+          "lines": [
+            236,
+            244
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,273 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 3: speaker_a states 'I'm from massachusetts', directly identifying their place of origin.",
+          "value": "Massachusetts",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 35: speaker_a says 'I go to school for um physics during my undergraduate', establishing an undergraduate degree in physics.",
+          "value": "undergraduate degree in physics",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 35: 'now in my graduate degree I'm doing a computational science is what they call it.' Lines 73-75 state 'I'm just about to finish my Master's degree' and correct the month to January, confirming current pursuit of a Master's in computational science finishing in January.",
+          "value": "currently pursuing a Master's degree in computational science, finishing in January",
+          "lines": [
+            35,
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 45: 'I considered myself um uh able to speak decent japanese' demonstrates Japanese proficiency.",
+          "value": "speaks decent Japanese",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 23: 'I was an english teacher out there for a few years' (Japan). Lines 51 and 109 confirm participation in the JET program ('I did' and a recommendation to do JET), indicating former English teaching in Japan via JET.",
+          "value": "former English teacher in Japan via the JET program",
+          "lines": [
+            23,
+            51,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 115-121 refer repeatedly to 'my younger brother' and describe interactions with him, establishing a younger brother.",
+          "value": "has a younger brother",
+          "lines": [
+            115,
+            117,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 23, 39-43, and 53 show speaker_a lived in Japan for several years, teaching English and residing in 'Naegleria and Kanazawa' (garbled city names).",
+          "value": "lived in Japan for a few years, residing in 'Naegleria' and Kanazawa",
+          "lines": [
+            23,
+            39,
+            43,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 71: speaker_a says 'I haven't been to new york', explicitly stating they have never visited New York.",
+          "value": "has never visited New York",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 2: speaker_b says 'My name is kevin', providing a first name.",
+          "value": "Kevin",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 4: 'I live in Atlanta'. Line 10 mentions returning to stay with family in Atlanta after an attempt to move to New York, confirming Atlanta as current residence.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            4,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 26: 'my family's like Nigerian and I was born in Nigeria' establishes Nigerian ethnicity and birthplace.",
+          "value": "Nigerian, born in Nigeria",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 10: describing his situation, speaker_b remarks 'that's pretty much a millennial life at this point', self-identifying as a millennial.",
+          "value": "millennial",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 46: 'my major was economics' indicates undergraduate degree in economics.",
+          "value": "undergraduate degree in economics",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 46: 'I took chinese as a language and undergrad ... from my freshman year, all the way through my senior year' shows study of Chinese throughout undergraduate.",
+          "value": "studied Chinese language throughout undergraduate",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'I studied abroad in China like Shanghai back in 2015' provides details of a study abroad experience.",
+          "value": "studied abroad in Shanghai, China in 2015",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 10: 'when I was in university I did like a small program up there, just a certificate program' in the NY/NJ area indicates completion of a certificate program.",
+          "value": "completed a certificate program in the NY/NJ area during university",
+          "lines": [
+            10
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 78: 'I'm a Powerlifter' and 2020 was supposed to be 'my debut for competing competitively', demonstrating involvement in powerlifting and athletic ambition.",
+          "value": "powerlifter, planned competitive debut in 2020",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 48: 'I applied to five jobs a day' and line 58: 'trying to search for work in like what I want to do here in the States' indicate active job searching in the US.",
+          "value": "currently job searching, applying to 5 jobs per day",
+          "lines": [
+            48,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 30: 'I actually taught english when I was in Taiwan as well' shows past employment as an English teacher in Taiwan.",
+          "value": "former English teacher in Taiwan",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 4: 'I was working um as a resident assistant for the summer at Tufts' refers to a previous summer job as an RA.",
+          "value": "former resident assistant at Tufts University",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 48-50: speaker_b discusses working on a Fulbright application for Taiwan (due tomorrow) and looking at the JET program for Japan, indicating applications for fellowships/teaching programs as backup options.",
+          "value": "applying for Fulbright (Taiwan) and JET (Japan) as backup options",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 10: 'ended up coming back to stay with my family' and line 4 ('live in Atlanta') show current cohabitation with family in Atlanta.",
+          "value": "currently staying with family in Atlanta",
+          "lines": [
+            10,
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 170: 'he's a close friend of mine, I met while studying abroad and he lives in New Jersey' establishes a specific friendship.",
+          "value": "close friend from study abroad who lives in New Jersey",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 14: 'I also lived in Taiwan from 2017 to 2018' confirms a period of residence in Taiwan.",
+          "value": "lived in Taiwan from 2017 to 2018",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 14-20 and 64: speaker_b mentions studying in Shanghai, traveling around Asia (Japan, Korea, Singapore, Malaysia, Hong Kong) and going to Europe (Germany, Paris), demonstrating extensive international travel.",
+          "value": "extensively traveled to China, Japan, Korea, Singapore, Malaysia, Hong Kong, Germany, and Paris",
+          "lines": [
+            14,
+            18,
+            20,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 92-94: 'another thing that I do in my free time is like I've been running through the past year a job search, like support group' and 'it's basically like an online group that I started last october' show an ongoing volunteer project.",
+          "value": "runs an online job search support group, started last October",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 146: 'I always make like a list of things that I need to accomplish for the day' indicates a daily productivity ritual.",
+          "value": "makes daily to-do lists",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

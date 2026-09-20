@@ -1,0 +1,387 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as Misha in line 17 and later speaker_a confirms the name 'Misha and Arnold' in line 271.",
+          "value": "Misha",
+          "lines": [
+            17,
+            271
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in California' (line 21) and 'I'm in sacramento' (line 29).",
+          "value": "Sacramento, California",
+          "lines": [
+            21,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm an analyst. ... to work for the state government' (line 47) and describes giving exams for state jobs (line 49).",
+          "value": "State government employee",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I work in HR' (line 155).",
+          "value": "HR professional",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_b says 'I'm an introvert', speaker_a responds 'Same. Yeah.' (line 137), confirming she also identifies as an introvert.",
+          "value": "Introvert",
+          "lines": [
+            137
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm an examination analyst so I give exams for people who want to get jobs with the state pretty much' (line 49).",
+          "value": "Examination Analyst for the state government",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we just got furloughed so pay cuts and stuff' (line 201) and 'we won't get raises for two years now' (line 219).",
+          "value": "Furloughed with pay cuts",
+          "lines": [
+            201,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains employees must use their own computers, paper, and ink for remote work and is skeptical about reimbursement (lines 157, 159).",
+          "value": "Uses personal computer and resources for remote work without reimbursement",
+          "lines": [
+            157,
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says her office requires her to be in the office at least two days a week despite telework (line 109).",
+          "value": "Required to work in office at least two days per week",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my boyfriend, he works in I. T. For the state as well' (line 161).",
+          "value": "Has a boyfriend",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dad, he's like I'm not getting vaccinated' (line 185).",
+          "value": "Has a father",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my grandma had a trip planned' (line 169).",
+          "value": "Has a grandmother",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I love to shop' (line 139).",
+          "value": "Enjoys shopping",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we would go to concerts a lot' (line 139) and mentions a specific festival Aftershock.",
+          "value": "Frequently attends concerts",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I take the bus to work' (line 71).",
+          "value": "Takes the bus to work",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says regarding Disney World 'that's one of my goals is to go there' (line 39).",
+          "value": "Wants to visit Disney World",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I love theme park' (line 41).",
+          "value": "Enjoys theme parks",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses enjoyment of the new teleworking lifestyle (line 123) and agrees with introvert preferences (line 137).",
+          "value": "Prefers teleworking",
+          "lines": [
+            123,
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I did it once, like I think back in May' (line 9) referring to a similar conversation task.",
+          "value": "Participated in a similar conversation task in May",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as Arnold (line 18); speaker_a later confirms with 'Arnold' (line 271).",
+          "value": "Arnold",
+          "lines": [
+            18,
+            271
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in florida right now' (line 18) and 'Southwest florida' (line 20).",
+          "value": "Southwest Florida",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born and lived on and off in southern California' (line 32).",
+          "value": "Southern California (originally)",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I am a data analyst for a local transit agency' (line 44).",
+          "value": "Data analyst",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b works for a local transit agency (line 44) and discusses transit agency operations at length.",
+          "value": "Transit agency employee",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm an introvert' (line 136).",
+          "value": "Introvert",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I studied urban planning and transportation' (line 238).",
+          "value": "Studied urban planning and transportation",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to USC' (line 54).",
+          "value": "USC alumnus",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I am a data analyst for a local transit agency' (line 44).",
+          "value": "Data analyst at a local transit agency",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes his position as 'very entry level' (line 228) and mentions needing three years to qualify for better things (line 228).",
+          "value": "Entry-level position",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I am working from home' (line 56) and 'I took the first chance I could get' (line 58).",
+          "value": "Works from home",
+          "lines": [
+            56,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes receiving a tiny laptop (line 130) and setting up a complex remote chain to use his home setup (lines 132-136).",
+          "value": "Provided with a small work laptop; uses personal home setup via remote access",
+          "lines": [
+            130,
+            132,
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the agency's fare revenue is small (line 74) and they are bracing for major budget cuts next year (line 198).",
+          "value": "Transit agency facing potential budget cuts",
+          "lines": [
+            74,
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'if I get laid off, you know, I won't be too devastated' (line 204).",
+          "value": "Would not be devastated if laid off",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'My wife still, she still has to go into office' (line 150).",
+          "value": "Has a wife",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a trip to 'go visit family in Utah' (line 142).",
+          "value": "Has family in Utah",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b expresses strong preference for working from home and says he is an introvert (lines 56, 58, 136).",
+          "value": "Prefers working from home",
+          "lines": [
+            56,
+            58,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he had trips to West Palm Beach and Utah canceled due to the pandemic (lines 141-142).",
+          "value": "Had trips canceled due to pandemic",
+          "lines": [
+            141,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions visiting Disneyland as a kid (line 36) and Universal Studios (line 40).",
+          "value": "Enjoys theme parks (been to Disneyland, Universal Studios)",
+          "lines": [
+            36,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he likes analyzing data, running models, doing forecasts (line 238) and studied urban planning.",
+          "value": "Interested in transportation planning and data analysis",
+          "lines": [
+            238,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions wanting to be a professor or think tank (line 244) and later an independent consultant (line 262).",
+          "value": "Aspires to be an independent consultant or professor",
+          "lines": [
+            244,
+            262
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he participated once before in a similar conversation task without prompts (line 10).",
+          "value": "Participated in a similar conversation task once before",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

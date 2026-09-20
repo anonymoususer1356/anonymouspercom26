@@ -1,0 +1,289 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Josh when asking speaker_b's name.",
+          "value": "Josh",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he lived in Seattle.",
+          "value": "Seattle, WA",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has lived in New York City for a couple months at a time, multiple times.",
+          "value": "New York City (short stays)",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he is in tech/software.",
+          "value": "tech/software professional",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In response to speaker_b's injury, he says 'I have that. Have to do that all the time,' implying he frequently rests from injuries.",
+          "value": "prone to injuries requiring rest",
+          "lines": [
+            43
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He says 'luckily it doesn't apply to me anymore' referring to the military draft, indicating he is no longer eligible, likely due to age.",
+          "value": "not subject to military draft",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He mentions being in tech/software, implying employment.",
+          "value": "employed in tech/software",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says in high school he had a job.",
+          "value": "had a job in high school",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions doing Prolific studies, first around February/March, and they keep sending them.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "He states he played basketball, soccer, and baseball in school.",
+          "value": "plays basketball, soccer, baseball",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I just get them running' which likely means he goes running.",
+          "value": "goes running",
+          "lines": [
+            39
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He mentions getting a new computer.",
+          "value": "owns a new computer",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was always a little bit more remote anyway in his tech work, indicating his pre-pandemic work arrangement.",
+          "value": "works remotely",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions thinking about something the next time he is playing on his Xbox, indicating he owns and plays Xbox.",
+          "value": "plays Xbox",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "The ASR produces 'morgan' in line 28. Speaker_a then asks 'What's your name? Morgan?' and speaker_b does not correct it, so his name is likely Morgan.",
+          "value": "Morgan",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is in New York, a little bit upstate, not in New York City. He later describes his location as two counties north of Westchester, which is just north of the Bronx.",
+          "value": "upstate New York (two counties north of Westchester)",
+          "lines": [
+            36,
+            56,
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He confirms he grew up in New York City.",
+          "value": "New York City (grew up)",
+          "lines": [
+            67,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he lived in Vancouver for a couple of years, 2009-2012.",
+          "value": "Vancouver, 2009-2012",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'we're both artists or in some art communities' referring to himself and his girlfriend.",
+          "value": "artist (in art communities)",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He mentions having a weird injury that made him want to rest from running.",
+          "value": "had a running-related injury",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says his first job was waiting tables when he was about 19.",
+          "value": "waited tables at age 19",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions doing Prolific studies since last October; this is his third.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was 'mooching off someone' while living in Vancouver.",
+          "value": "financially dependent in Vancouver",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He talks about his girlfriend visiting him in NYC, and later states she is from Lithuania and lives there.",
+          "value": "girlfriend in Lithuania",
+          "lines": [
+            99,
+            144,
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mom drove him to his first job and that she worked at IBM/Phillips.",
+          "value": "mother worked at IBM/Phillips",
+          "lines": [
+            52,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes plugging in a USB microphone and using it with headphones, indicating he owns and uses a USB microphone.",
+          "value": "owns a USB microphone",
+          "lines": [
+            6,
+            18,
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions swimming at an outdoor club pool and trying to do it almost every day.",
+          "value": "swims regularly at an outdoor pool",
+          "lines": [
+            32,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been cycling since he was about 12 and still does.",
+          "value": "cycles",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes the underbrush and terrain of local trails, indicating he spends time hiking or walking in nature.",
+          "value": "enjoys hiking/nature trails",
+          "lines": [
+            130,
+            132
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

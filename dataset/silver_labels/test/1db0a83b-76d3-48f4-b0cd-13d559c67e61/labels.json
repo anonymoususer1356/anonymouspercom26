@@ -1,0 +1,280 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'that was part worth area' (ASR phonetic rendering of 'Fort Worth area') in line 9, and later confirms being in Texas when speaker_b says 'I assume in texas' and speaker_a replies 'Yeah' in line 123.",
+          "value": "Fort Worth area, Texas",
+          "lines": [
+            9,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm an artist' in line 227.",
+          "value": "artist",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I grew up in Michigan' in line 131.",
+          "value": "grew up in Michigan",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a responds 'Me neither' to speaker_b's 'I'm not trump fan' (line 125) and later calls Trump a nightmare (lines 127, 129), establishing an anti-Trump stance.",
+          "value": "anti-Trump / not a Trump fan",
+          "lines": [
+            125,
+            127,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they do microtask work 'basically to survive' for grocery money (line 37), is working toward minimum wage (line 53), and is scraping by on about $100 a month, eating ramen and skipping meals (line 61).",
+          "value": "Relies on microtask work for basic survival; currently earning about $100/month",
+          "lines": [
+            37,
+            53,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they were averaging $400 a month before the pandemic (line 49).",
+          "value": "Previously averaged $400/month from microtask work",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I can become a burden to my Children' in line 85, indicating they have children.",
+          "value": "has children",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually worked on her campaign team for her when she ran for governor' referring to Wendy Davis (line 169).",
+          "value": "worked on Wendy Davis's campaign for governor",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a mentions using Prolific and mturk (lines 24, 37, 49), indicating regular microtask work.",
+          "value": "does microtask work on mturk and Prolific",
+          "lines": [
+            24,
+            37,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm an artist' in line 227.",
+          "value": "is an artist",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'll binge watch a show or something like that if I just really need to totally escape' in line 239.",
+          "value": "binge-watches TV shows to escape stress",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'll read various online newspapers... and then put it aside and pick up a novel or something... just to distract myself' in line 221.",
+          "value": "reads online newspapers and novels for distraction",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I got rid of live TV a long time ago... once I didn't have that anymore, I realized how much less I was like this distressed out all the time' in lines 217, indicating a deliberate lifestyle choice to reduce stress.",
+          "value": "cut off live TV to reduce stress",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'Hell right around boston massachusetts' (ASR phonetic rendering of 'Yeah, right around Boston, Massachusetts') in line 6.",
+          "value": "right around Boston, Massachusetts",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm not trump fan' in line 124.",
+          "value": "anti-Trump / not a Trump fan",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'our bird' and when asked what kind, replies 'Oh, budgie' (lines 204-206), indicating ownership of a budgie.",
+          "value": "budgie (pet bird) owner",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I got my flu shot' in line 140.",
+          "value": "got a flu shot",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I stopped falling corona because I was driving me nuts' (ASR for 'I stopped following corona because it was driving me nuts') in line 144, indicating a mental health coping action.",
+          "value": "stopped following COVID news due to mental distress",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I was doing it for hobby money essentially' in line 28.",
+          "value": "does microtask work for hobby money, not survival",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I made 300 bucks a week' using a script (line 46).",
+          "value": "at one point earned $300/week via mturk with scripts",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a point where they were 'very under employed... basically volunteering as a job and... getting paid when money was available' (line 104).",
+          "value": "previously underemployed, volunteered for a job with intermittent pay",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b implies current employment with 'I was able to continue to work during all this' (line 80), suggesting mturk is a side activity.",
+          "value": "currently employed, mturk is side income",
+          "lines": [
+            80
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'our bird' (line 204) and 'We just got back from the vet' (line 208), implying they share the pet with a partner or housemate.",
+          "value": "shares pet budgie with a partner/housemate",
+          "lines": [
+            204,
+            208
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'one of the guys let me a private message with a script' (line 44) and explains using it (line 46), indicating a contact in the mturk community.",
+          "value": "has a contact in mturk community who provided a script",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b talks about 'hit forker in panda' (ASR for Hit Forker and Panda), 'hit for kirpan a Crazy' (Hit Forker and Panda Crazy), and advanced auto-accept scripts (lines 32, 34, 36, 42, 48), showing deep engagement with mturk tools.",
+          "value": "advanced mturk user; uses scripts and tools like Hit Forker and Panda Crazy",
+          "lines": [
+            32,
+            34,
+            36,
+            42,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was completely obsessed about this over the summer' (line 38).",
+          "value": "was obsessed with mturk over the summer",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions following 'the entire crowd forum' and a Discord (line 44), and the Beer Money subreddit (line 80) for money-making tips.",
+          "value": "follows TurkerHub/Discord and Reddit Beer Money for money-making tips",
+          "lines": [
+            44,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes taking their budgie to the vet and dealing with a sick bird (lines 206, 208, 210).",
+          "value": "takes pet budgie to vet, currently dealing with sick bird",
+          "lines": [
+            206,
+            208,
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

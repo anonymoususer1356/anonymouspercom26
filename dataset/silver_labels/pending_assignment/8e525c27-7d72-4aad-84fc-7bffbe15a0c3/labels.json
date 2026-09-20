@@ -1,0 +1,576 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm I'm in Minnesota' (line 75), 'I live in Minneapolis' (line 107), and 'I'm from michigan and I've been here for 13 years' (line 97), establishing current location.",
+          "value": "Minneapolis, Minnesota",
+          "lines": [
+            75,
+            97,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm from michigan' (line 97) and specifies 'the town that I'm from um it's in the upper peninsula of Michigan, it's right on the lake' (line 125), and calls it 'my home state michigan' (line 307).",
+          "value": "Upper Peninsula of Michigan",
+          "lines": [
+            97,
+            125,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm a counselor and I was doing a group at the time and it's substance use' (line 89) and later 'I'm a substance abuse counselor' (line 197).",
+          "value": "substance abuse counselor",
+          "lines": [
+            89,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm finishing my um uh post back program' (line 259). The ASR 'post back' is likely a mis‑recognition of 'post‑bacc', indicating a post‑baccalaureate student.",
+          "value": "post-baccalaureate student",
+          "lines": [
+            259
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She repeatedly refers to 'my husband' (lines 57, 117, 323, 325).",
+          "value": "married",
+          "lines": [
+            57,
+            117,
+            323,
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Having a husband and using female‑associated terms without contradiction strongly implies she is female.",
+          "value": "female",
+          "lines": [
+            57,
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'I have two cats' (line 35) and gives their names and ages: 'chainsaw … lunch box … they're both three' (lines 49‑51).",
+          "value": "owns two cats: Chainsaw and Lunchbox, both 3 years old",
+          "lines": [
+            35,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't want any' (line 339) regarding children and 'I really don't want to be pregnant' (line 353), indicating she has no children.",
+          "value": "no children",
+          "lines": [
+            339,
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm from michigan' (line 97) and 'in my home state michigan' (line 307).",
+          "value": "from Michigan",
+          "lines": [
+            97,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'like I have back problems' (line 165) when explaining why she uses heated seats even in summer.",
+          "value": "back problems",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I cry like probably every third or fourth day … it's pretty much a normal thing' (line 323).",
+          "value": "frequent crying (every 3‑4 days)",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes past problem drinking and states 'but then I sobered up' (line 169).",
+          "value": "sober (recovered from alcohol misuse)",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She says 'I got a D Dub when I was 20' (line 169) – context makes clear this is a DUI. She mentions 'some damage down into a police vehicle', blowing high, the judge throwing the book at her, and getting her license back at 32 (lines 169‑177, 181).",
+          "value": "DUI conviction at age 20, involving damage to a police vehicle, high BAC, and license suspension until age 32",
+          "lines": [
+            169,
+            175,
+            177,
+            181
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She currently works as a substance abuse counselor (lines 89, 197, 263).",
+          "value": "employed as a substance abuse counselor",
+          "lines": [
+            89,
+            197,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I was working for lift and for door dash' (line 255) and 'I kept doing door dash' (line 257).",
+          "value": "former Lyft and DoorDash driver",
+          "lines": [
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I actually used to work for a towing company … I was there for five years' (line 233).",
+          "value": "worked at a towing company for 5 years",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a Subaru' (line 117).",
+          "value": "owns a Subaru",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we least our second car to a couple of friends' (line 241), meaning they lease a second car to friends.",
+          "value": "leases a second car to friends",
+          "lines": [
+            241
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I didn't qualify for unemployment' (line 273) in the context of COVID‑19.",
+          "value": "did not qualify for unemployment benefits during COVID‑19",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'you want to give me 17 bucks and let me do it six times' (line 31) and mentions doing it for 'extra money' (line 33), showing she participates in paid studies.",
+          "value": "participates in paid research studies",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had to give the state so much money' (line 181) for her DUI.",
+          "value": "paid fines/fees for DUI conviction",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Multiple references to 'my husband' (lines 57, 117, 323, 325).",
+          "value": "has a husband",
+          "lines": [
+            57,
+            117,
+            323,
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my sister and her husband' (line 327).",
+          "value": "has a sister",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my niece was born in january' (line 327); the year is implied to be 2020 from the conversation, but the existence of the niece is clear.",
+          "value": "has a niece (born in January)",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I visited my parents in florida a couple years ago' (line 143).",
+          "value": "parents live in Florida",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'it was my buddies, 40th birthday' (line 53) and describes the surprise party.",
+          "value": "has a close friend who turned 40",
+          "lines": [
+            53,
+            55,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'one of my friends brought his dog' and 'my buddies dog Edward' (lines 61, 69).",
+          "value": "has a friend with a dog named Edward",
+          "lines": [
+            61,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She owns two cats, Chainsaw and Lunchbox (lines 35, 49‑51).",
+          "value": "owns cats: Chainsaw and Lunchbox",
+          "lines": [
+            35,
+            49,
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I've always loved having animals with bizarre names' (line 211) and illustrates with Chainsaw and Lunchbox.",
+          "value": "prefers giving pets bizarre names",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've got heated seats' (line 161) and uses them even in summer because of back problems (line 165).",
+          "value": "enjoys heated car seats",
+          "lines": [
+            161,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My husband has a two wheel drive chevy and I have a Subaru' (line 117).",
+          "value": "drives a Subaru; husband drives a two‑wheel‑drive Chevy",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does not want children (lines 339, 353).",
+          "value": "childfree by choice",
+          "lines": [
+            339,
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'we all wear masks' (line 271) and argues for mask‑wearing (line 293).",
+          "value": "wears mask and follows COVID‑19 precautions",
+          "lines": [
+            271,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she sobered up (line 169) and now works as a substance abuse counselor, indicating a sober lifestyle.",
+          "value": "maintains a sober lifestyle",
+          "lines": [
+            169,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I did not own a car at that time, I took the city bus everywhere' (line 153).",
+          "value": "formerly relied on city bus for transportation",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we have an off street parking spot' (line 239).",
+          "value": "residence has off‑street parking",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He states 'I'm in Connecticut' (line 76) and has lived there for almost 30 years (line 86).",
+          "value": "Connecticut",
+          "lines": [
+            76,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'younger age group Vermont' (line 86), likely a mis‑recognition of 'I grew up in Vermont', indicating his origin.",
+          "value": "originally from Vermont",
+          "lines": [
+            86
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'well I'm 36' (line 86).",
+          "value": "36 years old",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I work in manufacturing' (line 250).",
+          "value": "manufacturing worker",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks 'you live with your brother' (line 227) and he confirms; earlier he says 'with my brother stays here with me' (line 74).",
+          "value": "lives with his brother",
+          "lines": [
+            74,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'No kids. No, no kids for me or him' (line 340).",
+          "value": "no children",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his dog: 'it's a female una … She's 13' (lines 44, 46). Una is a German Shepherd (line 43).",
+          "value": "has a female German Shepherd named Una, age 13",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my mom has a he manages a like a cat rescue shelter' (line 204) – the garbled phrase means his mother manages a cat rescue shelter.",
+          "value": "mother manages a cat rescue shelter",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He indicates he is originally from Vermont (line 86).",
+          "value": "from Vermont",
+          "lines": [
+            86
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works in manufacturing (line 250).",
+          "value": "employed in manufacturing",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I've had my truck since 2010' (line 160).",
+          "value": "has owned a truck since 2010",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I finally got it this year after nine years' referring to a remote starter for his truck (line 160).",
+          "value": "installed a remote starter in his truck",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He asks 'have you done a lot of the studies on the site?' (line 28) and the conversation makes clear both are being paid for this study (line 31).",
+          "value": "participates in paid research studies",
+          "lines": [
+            28,
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says he has a brother (line 228), age 33 (line 228: 'He's young girls 33 now' – garbled but age clear), and that his brother stays with him (line 74).",
+          "value": "has a younger brother, age 33, who lives with him",
+          "lines": [
+            74,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mother manages a cat rescue shelter (line 204).",
+          "value": "has a mother who runs a cat rescue shelter",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'my friend in Tennessee … she's a pharmacy attack' (line 286), meaning pharmacy technician.",
+          "value": "has a friend in Tennessee who is a pharmacy technician",
+          "lines": [
+            286
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He owns a dog named Una (lines 44, 46).",
+          "value": "has a dog named Una",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have a lot of little cousins' and they call him 'like uncle' (line 344).",
+          "value": "has many young cousins who call him uncle",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He worked through the COVID‑19 pandemic in manufacturing (line 250).",
+          "value": "worked through COVID‑19 pandemic in manufacturing",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He drives a truck (line 160).",
+          "value": "drives a truck",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He had a remote starter installed for winter (line 160).",
+          "value": "uses a remote starter for vehicle in winter",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives in Connecticut and discusses winter snow (lines 76, 88, 96).",
+          "value": "experiences winter snow in Connecticut",
+          "lines": [
+            76,
+            88,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has no children (line 340).",
+          "value": "does not have children",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his dog 'lights cats … Cats don't like her' (line 68).",
+          "value": "dog does not get along with cats",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they wear masks at work (line 250).",
+          "value": "wears a mask at work",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He visits his mother and sees the cats she fosters (line 204).",
+          "value": "visits mother's cat shelter",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b asks 'So you're on the East Coast' and speaker_a confirms 'Well yeah, I'm at east Coast, I'm in Philly right now.'",
+          "value": "Philadelphia, PA",
+          "lines": [
+            90,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm from Houston' when discussing humidity differences.",
+          "value": "Houston, TX",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b notes the other participants were freshmen and sophomores; speaker_a replies 'I'm also software in college.' The ASR 'software' is a misrecognition of 'sophomore,' reinforced by speaker_b's response 'Oh so you're just proving the point?'",
+          "value": "sophomore in college",
+          "lines": [
+            16,
+            17,
+            19
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a tells speaker_b 'I'm studying design.'",
+          "value": "design major",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she originally intended to do pre-med, took STEM in high school, took calculus her first semester and hated it, and observed that half her class was pre-med, indicating she was on the pre-med track.",
+          "value": "originally pre-med",
+          "lines": [
+            49,
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she called her parents to discuss politics and describes them as 'chinese conservative Texans,' which strongly implies her own ethnicity is Chinese or Chinese-American.",
+          "value": "Chinese ethnicity",
+          "lines": [
+            119
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions calling her parents to talk about politics.",
+          "value": "has parents, communicates with them",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I wake up at like 11 30 I just like recently just woke up,' indicating a late waking habit.",
+          "value": "wakes up around 11:30 AM",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I actually had a dream where I was like maybe 30 years older.'",
+          "value": "had a dream about being 30 years older",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states he is on the West Coast, specifically 'in southern California,' and describes his area as suburban and close to rural.",
+          "value": "Southern California, suburban area near rural areas",
+          "lines": [
+            4,
+            94,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used, I lived in the bay Area until really recently.'",
+          "value": "formerly Bay Area, CA",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm probably older than most of the demographic doing this' and 'not anywhere near being in college anymore.'",
+          "value": "older adult, not a college student",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went more of the business kind of route and ended up in an office.'",
+          "value": "works in business/office",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b's statement about ending up in an office indicates steady employment.",
+          "value": "employed in an office job",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b explains that in his current area people are very red and he tries 'really hard not to get into any kind of political conversations at all here.'",
+          "value": "avoids political discussions in local area",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'maybe I've read too much science fiction' and discusses multiple sci-fi themes.",
+          "value": "enjoys science fiction",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b remarks 'psychology was always kind of interesting' in reference to the research project.",
+          "value": "interested in psychology",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

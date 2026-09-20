@@ -1,0 +1,356 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I'm in Washington state' when contrasting locations with speaker_b.",
+          "value": "Washington state",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When speaker_b asks if she is college age, she responds 'I'm 27'.",
+          "value": "27 years old",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been 'taking a break from school', indicating she is a student or recently enrolled.",
+          "value": "Student on a break from school",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes doing multiple online gig platforms instead of a traditional job, noting she is looking for remote work and has been out of the workforce helping with her sister's baby.",
+          "value": "Currently not employed full-time; earns money through online gig platforms",
+          "lines": [
+            33,
+            57,
+            71,
+            105,
+            121,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'the number one moneymaker for me is user testing'.",
+          "value": "Uses UserTesting platform for paid studies",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She recommends Amazon Mechanical Turk and says 'I'm about a month in'.",
+          "value": "Uses Amazon Mechanical Turk, about one month of experience",
+          "lines": [
+            57,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I also use... respondent and... user interviews' and discusses not linking LinkedIn.",
+          "value": "Uses Respondent and User Interviews platforms",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I think it's called Q. Me surveys' and describes low pay; the ASR likely captured 'Qmee'.",
+          "value": "Uses Qmee surveys platform",
+          "lines": [
+            105
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She describes a completed job for 'line for line bridge' involving recording navigation phrases in Japanese for 2.5 hours, earning $75. The intended name is Lionbridge.",
+          "value": "Completed a 2.5-hour audio recording job for Lionbridge (navigation phrases in Japanese), earning $75",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I've been kind of like Looking at my account and I'm like 20% of this, I'm not going to touch', indicating she sets aside 20% for tax obligations.",
+          "value": "Sets aside 20% of gig income for taxes",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my sister also had a baby' and that she spent the first few months helping to care for the baby.",
+          "value": "Has a sister who recently had a baby",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my parents' in the context of owning a budgie before she was born.",
+          "value": "Has parents",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I had three different judges over the years' and describes their behaviours; 'judges' is an ASR error for 'budgies'.",
+          "value": "Owned three budgies as pets over the years",
+          "lines": [
+            139,
+            143,
+            145,
+            147,
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She expresses enjoyment of the 'stay at home aspect' of gig work and is seeking remote options, indicating a preference for working from home.",
+          "value": "Prefers and does remote work from home",
+          "lines": [
+            77,
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He states 'I'm in boston massachusetts' explicitly at the start of the conversation.",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is in his apartment (which he hates), has been living at his girlfriend's house for a month, and is trying to move there permanently.",
+          "value": "Resides in an apartment in Boston; temporarily also living at girlfriend's house for a month; planning to move there permanently",
+          "lines": [
+            8,
+            16,
+            18,
+            24
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I do work full time too' while explaining why he is tired from side gigs.",
+          "value": "Full-time employee",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He discusses earning money on many platforms alongside his full-time job.",
+          "value": "Works full-time and earns additional income through online gig platforms",
+          "lines": [
+            32,
+            34,
+            58,
+            92,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says prolific 'is not a big moneymaker' and he earns 'maybe $15 a week' from it.",
+          "value": "Uses Prolific platform, earns about $15 per week",
+          "lines": [
+            32,
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he used UserTesting a lot the past month and completed 'like 10 website reviews this week'.",
+          "value": "Uses UserTesting platform; completed 10 website reviews in one recent week",
+          "lines": [
+            34,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is 'big on mturk', uses scripts, and makes at least $100 a week, sometimes $200. He started in 2012 and has been back on it since May.",
+          "value": "Uses Amazon Mechanical Turk; has been on the platform since 2012; makes $100-200 per week recently",
+          "lines": [
+            58,
+            66,
+            68,
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions 'Focus forward is like a panel group' and that he keeps getting $100 panel studies. He also says 'Focus forward 2020 research'.",
+          "value": "Uses Focus Forward (2020 Research) and receives paid panel studies, e.g., $100 each",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says clear voice surveys has product tests and focus groups; he did a live food test and 'still got 100 bucks for it'.",
+          "value": "Uses Clear Voice Surveys; earned $100 for a food study",
+          "lines": [
+            96,
+            98,
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He signed up for User Interviews and Respondent but has not completed studies because he refuses to link LinkedIn or use his work email.",
+          "value": "Signed up for Respondent and User Interviews but has not completed studies",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'In September I almost a 100,000 blocks I think, which is like my record' on MTurk. 'blocks' is likely an ASR error for 'bucks' (dollars) or 'HITs'.",
+          "value": "Set a personal record of nearly 100,000 (HITs or dollars) on MTurk in September",
+          "lines": [
+            58
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "He mentions 'take two trips to the car' while moving items out of his apartment, indicating he has access to a vehicle.",
+          "value": "Has access to a car",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says he is trying to move to his girlfriend's house, they've been dating a long time, and he has been living there for a month.",
+          "value": "Has a girlfriend; they have been dating for a long time and have been cohabiting for the past month",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions dog-sitting at his parents' house this weekend and 'I have to take care of my parents dog'.",
+          "value": "Has parents; he dog-sits for them",
+          "lines": [
+            16,
+            168,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his girlfriend has a budgie that is sick with egg-laying issues and he is taking it to the animal hospital.",
+          "value": "Girlfriend owns a female budgie that has a recurring egg-laying health issue; he helps care for it",
+          "lines": [
+            134,
+            148,
+            152,
+            160,
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he has 'a million action figures', with a core collection of X-Men that branched to Marvel, Dragonball Z, and others, and he was searching for an expensive one in his closet.",
+          "value": "Collects action figures (X-Men, Marvel, Dragonball Z, etc.)",
+          "lines": [
+            8,
+            10,
+            12,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He repeatedly says he hates his apartment and wants to move, stating he lived there six years and it now 'completely sucks'.",
+          "value": "Dislikes his current apartment and is actively trying to move out",
+          "lines": [
+            16,
+            22,
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is dog sitting at his parents' house that weekend.",
+          "value": "Dog sits for his parents",
+          "lines": [
+            16,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes using 'head forker' (Hit Forker) and scripts that 'auto accept good hits', and says he's been doing it for about a month and a half.",
+          "value": "Uses automated scripts (Hit Forker, auto-accept) for Amazon Mechanical Turk",
+          "lines": [
+            58,
+            78,
+            82,
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I signed up for 11 a.m.' and later says 'have a good saturday', placing the study on a Saturday at 11 a.m.",
+          "value": "Participated in this study on a Saturday at 11 AM",
+          "lines": [
+            4,
+            216
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

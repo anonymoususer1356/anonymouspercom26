@@ -1,0 +1,299 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Cameron.",
+          "value": "Cameron",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is from 'trump monks corner, south Carolina' (ASR error, intended Moncks Corner, SC), and confirms he was born and raised in the same state, currently lives there.",
+          "value": "Moncks Corner, South Carolina",
+          "lines": [
+            15,
+            35,
+            37,
+            45,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states his age.",
+          "value": "21",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to as 'man' by speaker_b, has girlfriend, name typically male.",
+          "value": "Male",
+          "lines": [
+            14,
+            29,
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he is from the United States.",
+          "value": "American",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works full-time for Verizon, handling wireless and cell phones.",
+          "value": "Works at Verizon (wireless/cell phones)",
+          "lines": [
+            63,
+            65,
+            75,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He does side gigs online for extra money, like Prolific.",
+          "value": "Side hustles (e.g., Prolific)",
+          "lines": [
+            205,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He has been dating his girlfriend for five years, and picks her up from work.",
+          "value": "In a 5-year relationship with girlfriend",
+          "lines": [
+            137,
+            169,
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He plays video games on his gaming laptop and phone, used to have an Xbox.",
+          "value": "Plays video games (PC gamer, former console)",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explicitly says he does not use TikTok.",
+          "value": "Does not use TikTok",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He uses Facebook primarily to keep up with family.",
+          "value": "Uses Facebook for family",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He dislikes heat and stays indoors because of hot weather in South Carolina.",
+          "value": "Avoids outdoor activities due to heat",
+          "lines": [
+            39,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He expresses an intention to move to a cooler state in the near future.",
+          "value": "Plans to move to a cooler state",
+          "lines": [
+            37,
+            39
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He gives his name as 'kang', spells it 'I H I N', and says it's a Chinese Vietnamese name. ASR may mishear; actual name could be 'Khang'.",
+          "value": "kang (spelled I H I N)",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He mentions being in the Bay Area (Silicon Valley) and has lived there for 16 years.",
+          "value": "Bay Area, California (Silicon Valley)",
+          "lines": [
+            16,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he came from Vietnam about 16 years ago.",
+          "value": "Originally from Vietnam",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He has a wife and son, so male.",
+          "value": "Male",
+          "lines": [
+            138,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his name is a Chinese Vietnamese name, implying his ethnicity.",
+          "value": "Chinese Vietnamese",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works in printing and mailing advertising, handling databases and running machines.",
+          "value": "Printing and mailing advertising (full process)",
+          "lines": [
+            86,
+            88,
+            90,
+            92,
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Due to COVID-19, his company closed and he has been home for 4-5 months.",
+          "value": "Primary job paused due to COVID-19 (home for 4-5 months)",
+          "lines": [
+            100,
+            102,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He has done Uber for 1.5 years and recently started DoorDash for extra income.",
+          "value": "Gig work: Uber and DoorDash",
+          "lines": [
+            196,
+            216,
+            220,
+            222,
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "On his first day of DoorDash, he made approximately $22 in 5 hours.",
+          "value": "Earned ~$22 in 5 hours on DoorDash",
+          "lines": [
+            226
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions his wife multiple times.",
+          "value": "Married (has wife)",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a little boy whose birthday is July 25.",
+          "value": "Has a son, birthday July 25",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He gave his son an iPad for his birthday.",
+          "value": "Son received iPad for birthday",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He states he does not have Facebook.",
+          "value": "Does not use Facebook",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he used to play soccer video games on PlayStation, spending long hours on a CRT monitor.",
+          "value": "Used to play soccer video games on PlayStation",
+          "lines": [
+            50,
+            52,
+            56,
+            58,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He went shopping at Target today.",
+          "value": "Shops at Target",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

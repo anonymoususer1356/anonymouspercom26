@@ -1,0 +1,403 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 7 speaker_a says 'Come on. Okay. Catherine. Where are you from?' immediately after speaker_b introduces themselves. This is likely speaker_a giving their own name, though it could be a mishearing or exclamation.",
+          "value": "Catherine",
+          "lines": [
+            7
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 65: 'I'm a freshman in college right now ... I would be at smith like in massachusetts' indicates she is a freshman at Smith College. Lines 175 and 313 confirm she is an economics major ('I was majoring in economics', 'started in Nikon [econ] which is my major').",
+          "value": "Freshman at Smith College, economics major",
+          "lines": [
+            65,
+            175,
+            313
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 9-11 confirm she is in New Jersey. Line 27: 'I'm from like Central'. Lines 34-37 describe living near the beach with two areas, one with nice beach houses and tourists, but she lives in the other area without many tourists, not directly on the big Jersey Shore beaches.",
+          "value": "Central New Jersey, near the shore but not in the main tourist beach area",
+          "lines": [
+            9,
+            10,
+            11,
+            27,
+            34,
+            35,
+            36,
+            37
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Smith College is a women's college (line 65). Combined with her concern about homophobic reactions (line 31) and overall conversational tone, speaker_a is likely female.",
+          "value": "Female",
+          "lines": [
+            65,
+            31
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 183: 'I went to a school that was like a magnet school forgetting that we took kids from like all over the county and you have to test it' indicates she attended a magnet high school.",
+          "value": "Attended a magnet high school",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 31: 'We looked at by people who I don't know or homophobic or not' suggests she may identify as LGBTQ+ or be concerned about homophobia, but it is not explicit.",
+          "value": "Possibly LGBTQ+",
+          "lines": [
+            31
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 141-143: she says her aid was cut when campus closed and she didn't get a work-study job, indicating she receives financial aid and was eligible for work study.",
+          "value": "Receives financial aid and work study eligibility",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 67, 83-84: she tutors five days a week, privately, going to people's houses, and is self-employed.",
+          "value": "Self-employed private tutor",
+          "lines": [
+            67,
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 139: 'I'm not paying for room and board, which is good' shows she saves money by not being on campus due to remote learning.",
+          "value": "Saves money by not paying room and board during pandemic",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 101: she says two of her current clients came from tutoring 'either a relative or a friend' who referred them.",
+          "value": "Has local relatives/friends who refer tutoring clients",
+          "lines": [
+            101
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 149: she describes losing prom and graduation due to the pandemic.",
+          "value": "Missed high school prom and graduation due to COVID-19",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 65 states she should be at Smith but is not; line 139 says she isn't paying room and board, implying she lives at home during remote learning.",
+          "value": "Lives at home instead of on campus",
+          "lines": [
+            65,
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 29: she can either go to the same fast food restaurant or go to the beach, indicating those are common activities.",
+          "value": "Visits the beach and fast food places",
+          "lines": [
+            29
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 67, 69, 81: she mentions 'multi platform stuff' for this task, this is her second conversation, and she did her first on Monday, showing she participates in recorded conversation gigs.",
+          "value": "Participates in recorded conversation tasks",
+          "lines": [
+            67,
+            69,
+            81
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 6: 'I'm Alex latrine.' The ASR 'latrine' is phonetically ambiguous; the intended last name is unclear. The first name Alex is clear.",
+          "value": "Alex (full name uncertain)",
+          "lines": [
+            6
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 52: 'I'm actually a graduate student at U. N. Scene.' ASR 'U. N. Scene' intended as UNC (University of North Carolina). Given she lives in Durham, this fits UNC Chapel Hill.",
+          "value": "Graduate student at UNC",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 162 says she studies history; line 171: 'I'm getting a PhD now'. So she is a PhD student in history.",
+          "value": "PhD student in history",
+          "lines": [
+            162,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 90: 'I went to like a liberal arts school'. Line 159-160 she ambiguously responds to 'University of Iowa' with 'Mhm. That's a good now.' Line 164 mentions 'Green' (likely Grinnell) that didn't have an education major; line 230 mentions teaching in rural Iowa. Together they indicate she attended a small liberal arts college in Iowa for undergrad, majoring in history.",
+          "value": "Undergrad at a small liberal arts college in Iowa (likely Grinnell), history major",
+          "lines": [
+            90,
+            159,
+            160,
+            164,
+            230
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 8: 'I live in Durham.' Context suggests Durham, North Carolina.",
+          "value": "Durham, NC",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 8: 'I'm from Baltimore'",
+          "value": "Baltimore",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 20: 'I moved here from London'",
+          "value": "London (previously)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 159, 230 show she spent time in Iowa for college and teaching.",
+          "value": "Lived in Iowa for college",
+          "lines": [
+            159,
+            230
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 24: 'I'm 25'",
+          "value": "25 years old",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 24: 'a single 25 year old'",
+          "value": "Single",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 230: 'I was always the only black person in the room'; line 232 reinforces this.",
+          "value": "Black / African American",
+          "lines": [
+            230,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Alex, discussion of wanting to be a housewife (line 244), and overall context suggest she is female, though not explicitly stated.",
+          "value": "Female",
+          "lines": [
+            6,
+            244
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 288: 'I'm an Aquarius' (stated jokingly but self-disclosed).",
+          "value": "Aquarius",
+          "lines": [
+            288
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 154: 'my psychologist dr I was like' indicates she has or had a psychologist.",
+          "value": "Has a psychologist",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 52-62 detail her many roles: graduate student (52), three other campus jobs (54), tutoring D1 athletes (56), pharmacy tech (56), teaching assistant and grading (62).",
+          "value": "Multiple jobs: grad student, tutor for D1 athletes, pharmacy tech, TA, grader",
+          "lines": [
+            52,
+            54,
+            56,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 154-156: when asked about parents paying for college, she says 'literally nothing'. Line 186: 'I can't afford to pay $50,000 a year baby.' Indicates low-income background and reliance on financial aid.",
+          "value": "Low-income background; relies on financial aid",
+          "lines": [
+            154,
+            155,
+            156,
+            186
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 250: 'I went to walmart' shows she shops there, implying budget-consciousness.",
+          "value": "Shops at Walmart",
+          "lines": [
+            250
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 244: 'I have no husband' and mentions wanting to be a housewife without a man, confirming she is single/not married.",
+          "value": "Single, not married",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 278-281: she describes her parents as not career-obsessed, home by 3:14 PM, focused on family, indicating a close, present family.",
+          "value": "Has parents who prioritized family over careers",
+          "lines": [
+            278,
+            279,
+            280,
+            281
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 56: 'one of my friends is a pharmacist'",
+          "value": "Has a friend who is a pharmacist",
+          "lines": [
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 14, 20-22: she calls Durham a township, says London was the best city, and describes Durham as slow and like living next to a strip mall.",
+          "value": "Dislikes Durham; prefers London",
+          "lines": [
+            14,
+            20,
+            21,
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 44: she is eating dinner and lists salmon, crab cakes, mashed potatoes; she jokes about not eating vegetables.",
+          "value": "Ate salmon, crab cakes, mashed potatoes for dinner; no vegetables",
+          "lines": [
+            44,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 46: 'I like don't go grocery shopping at all. Ever stop by the store to get like literally just a fish' indicates infrequent and minimal grocery shopping.",
+          "value": "Rarely grocery shops; buys minimal items",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 248, 250: she wanted to tie-dye a sweatsuit, bought supplies at Walmart for a tie-dye project.",
+          "value": "Enjoys tie-dye crafting",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 102-108: she describes a past dogsitting job with a Pomeranian and a babysitting job with nightmare children.",
+          "value": "Past dogsitting and babysitting gigs",
+          "lines": [
+            102,
+            104,
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 78-82: she did her first recorded conversation yesterday at 6 a.m., and this is her second; indicates she participates in this gig.",
+          "value": "Participates in recorded conversation tasks; once at 6 a.m.",
+          "lines": [
+            78,
+            80,
+            82
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

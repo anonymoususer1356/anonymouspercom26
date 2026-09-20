@@ -1,0 +1,304 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses speaker_a as 'Eggar' at line 356, which appears to be a name (possibly intended as 'Edgar'). Speaker_a responds without correcting, implying it may be his name. Certainty is moderate because the name is given by the other speaker and could be a mishearing.",
+          "value": "Eggar (possibly Edgar)",
+          "lines": [
+            356
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is in southern California (line 11). When asked 'whereabouts', he responds with 'I look at 11 riverside' (line 15), which in context is 'I live in Riverside' (ASR error). He also mentions being about an hour from the ocean (line 63) and having lived in his current house for about 20 years (line 37).",
+          "value": "Riverside, Southern California",
+          "lines": [
+            11,
+            15,
+            37,
+            63
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a describes his job as working at a youth counseling center (line 155 'I work at a uh use counsel counseling'). He explains it serves youth ages 16-26 with mental health issues, offering groups, therapy, and case management (lines 157-185). He confirms the center is a nonprofit (line 279).",
+          "value": "Youth mental health counselor at a nonprofit center",
+          "lines": [
+            155,
+            157,
+            161,
+            163,
+            165,
+            167,
+            183,
+            185,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to speaker_a using male-coded terms like 'man' (lines 350, 356) and speaker_a does not correct; the conversation context suggests both are male.",
+          "value": "Male",
+          "lines": [
+            350,
+            356
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions that he previously thought he couldn't afford AC but got it this year (line 43). He bought an iPad Pro last year (lines 109-113). The conversation is part of a paid research study; speaker_b says 'All I know is I'm getting paid' (line 86) and speaker_a concurs with the context, having done multiple sessions (lines 61, 63). He also used to do other online surveys but stopped (line 125).",
+          "value": "Modest income (nonprofit); supplements via paid online studies/surveys",
+          "lines": [
+            43,
+            61,
+            86,
+            109,
+            110,
+            113,
+            125,
+            279
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a uses plural 'we' when discussing household decisions like getting AC (line 37 'we barely got an air conditioning system', line 51 'we did the math'), indicating he lives with at least one other person (partner/family).",
+          "value": "Cohabitates with someone (uses 'we' for household decisions)",
+          "lines": [
+            37,
+            51
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a has participated in this same research study multiple times ('this is the third time I've done this', line 63). He previously did other survey tasks ('I stopped doing fragments', line 125) and mentions earlier calls with people from Arizona, New York, Minnesota (line 75).",
+          "value": "Participates in paid online research studies and surveys",
+          "lines": [
+            61,
+            63,
+            75,
+            76,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He has lived in his current house for 20 years without AC; just installed a whole-house AC system this year (lines 37, 43, 51).",
+          "value": "Lives in a house with recently installed whole-house air conditioning",
+          "lines": [
+            37,
+            43,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions buying an iPad Pro last year with the intention of learning to draw, but only used it for a week (lines 109-115). He later uses it for other things (line 117).",
+          "value": "Owns an iPad Pro, originally bought for learning to draw",
+          "lines": [
+            109,
+            113,
+            115,
+            117
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself explicitly: 'I'm josh Hager' (line 350).",
+          "value": "josh Hager",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he is currently in Seattle (line 14). He moved there around 2000 for art school (line 16) and has stayed (line 18 'Yeah pretty much'). He refers to 'our house' in Seattle (lines 38, 40).",
+          "value": "Seattle, Washington",
+          "lines": [
+            14,
+            16,
+            18,
+            38,
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b works as an art handler at a museum: 'I work at the museum here still, but I'm an art handler' (line 236). He previously worked in the gift shop (line 224). He mentions the museum is a nonprofit (line 278).",
+          "value": "Art handler at a nonprofit museum",
+          "lines": [
+            224,
+            236,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b attended art school in Seattle, specifically for animation (line 222 'I came up here to go to art school basically' and 'I went to art school so I came to Seattle to go to the animation school').",
+          "value": "Attended art school (animation)",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My son jumping in here a little bit' (line 10), establishing he is a father.",
+          "value": "Father (has a son)",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a and speaker_b use male pronouns/terms; speaker_b is likely male based on self-reference and context.",
+          "value": "Male",
+          "lines": [
+            350,
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I grew up in sacramento' (line 16).",
+          "value": "Grew up in Sacramento, California",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states he works at a nonprofit and doesn't make a ton of money (line 278). He supplements income with Swagbucks, surveys, and Prolific (lines 86, 90, 100, 124). He has done paid product tests for cheese and razors (lines 130-141). He gets paid for this conversation (line 86). He saves up this extra money for tech purchases like a TV and speakers (line 100).",
+          "value": "Modest income from nonprofit museum job; supplements with paid surveys, product tests, and online studies; saves for tech purchases",
+          "lines": [
+            86,
+            90,
+            100,
+            124,
+            130,
+            136,
+            141,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'My son' (line 10).",
+          "value": "Has a son",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'all my relatives in sacramento right now' (line 28).",
+          "value": "Relatives in Sacramento",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He uses 'we' and 'our house' (lines 38, 40) when discussing household AC, indicating he cohabitates with a partner (likely spouse/partner).",
+          "value": "Cohabitates with a partner",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He regularly participates in online surveys and paid studies, including product tests; mentions using Swagbucks and Prolific (lines 90, 100, 124, 130, 136). He also plays mobile games for money (line 122).",
+          "value": "Participates in online surveys, product tests, and plays mobile games for money",
+          "lines": [
+            86,
+            90,
+            100,
+            122,
+            124,
+            130,
+            136,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions shopping at Costco, specifically admiring the TVs there (line 120).",
+          "value": "Shops at Costco",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He bought a high-end TV on Black Friday after saving up from side gigs, and plans to buy matching speakers (line 100).",
+          "value": "Saved up and bought a high-end TV on Black Friday; plans to buy matching speakers",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives in a house where they installed whole-house air conditioning last year; previously used portable units (lines 38, 40, 42, 48).",
+          "value": "Lives in a house with recently installed whole-house AC",
+          "lines": [
+            38,
+            40,
+            42,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He went to art school and still enjoys painting and drawing as a hobby (lines 222, 228).",
+          "value": "Enjoys painting and drawing as a hobby",
+          "lines": [
+            222,
+            228
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He mentions having an 'epic beard' at the time he did a razor study; he shaved it off for the $50 payment (line 144).",
+          "value": "Had a large beard ('epic beard'); shaved it for a paid study",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

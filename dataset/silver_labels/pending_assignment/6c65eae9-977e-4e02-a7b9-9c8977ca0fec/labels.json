@@ -1,0 +1,308 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses her as 'jenny' (ASR 'jenny nestor') and she acknowledges not getting his name (lines 366-367). The ASR mishearing suggests her name is Jenny.",
+          "value": "Jenny",
+          "lines": [
+            366,
+            367
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in northern California, on the coast, in Humboldt County, and names the town as 'Arcade' (ASR for Arcata) and mentions Eureka nearby (lines 7, 13, 49).",
+          "value": "Arcata, Humboldt County, California",
+          "lines": [
+            7,
+            13,
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm from the east coast' (line 251).",
+          "value": "from the East Coast, USA",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She explicitly states 'I'm 44 now' (line 277).",
+          "value": "44 years old",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to herself as a woman ('travel by yourself as a woman' line 287) and 'old lady' (line 299).",
+          "value": "female",
+          "lines": [
+            287,
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes experiencing physical decline with age, such as not being able to stand up well after bending down, implying it happens to her (lines 327-333).",
+          "value": "age-related physical decline (e.g., difficulty standing up after bending)",
+          "lines": [
+            327,
+            329,
+            331,
+            333
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I work in the cannabis industry' (line 57) and 'I do production, which means you put jar stickers on jars' (line 59).",
+          "value": "works in cannabis production (applying stickers to jars)",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses using Prolific surveys, finding it on Reddit, and making money (lines 163, 167, 169, 187).",
+          "value": "participates in Prolific surveys for supplementary income",
+          "lines": [
+            163,
+            165,
+            167,
+            169,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'I do writing and stuff too' while discussing online income (line 187).",
+          "value": "does writing work",
+          "lines": [
+            187
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she worked retail/fast food 'for many, many, many years' and refuses to do it again (lines 141, 153).",
+          "value": "previously worked in retail/fast food for many years",
+          "lines": [
+            141,
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my aunt lives in torrents' (ASR for Torrance) and confirms with 'Torrance' (lines 35, 42).",
+          "value": "aunt in Torrance, California",
+          "lines": [
+            35,
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions her dad multiple times (lines 289, 295, 297).",
+          "value": "father",
+          "lines": [
+            289,
+            295,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes herself as a 'nomad', 'digital nomad', living in an RV with no permanent residence, traveling (lines 249, 251, 300).",
+          "value": "digital nomad living in an RV, no permanent residence",
+          "lines": [
+            249,
+            251,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have my Verizon and I'm using a hot spot right now' (line 251).",
+          "value": "uses Verizon mobile hotspot for internet",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains she chose her current small company (15 people) to avoid the general public after negative retail experience (lines 153, 155, 157).",
+          "value": "prefers working in a small company, avoiding general public",
+          "lines": [
+            153,
+            155,
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm a total foodie too' and expresses excitement about mochi doughnuts (lines 45, 43).",
+          "value": "foodie, enjoys mochi doughnuts",
+          "lines": [
+            45,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When speaker_a says she didn't get his name, he replies 'Yeah. Ben.' (line 368).",
+          "value": "Ben",
+          "lines": [
+            368
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is in southern California (line 6) and 'we're like near L. A.' (line 20).",
+          "value": "southern California, near Los Angeles",
+          "lines": [
+            6,
+            20
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states he is a college student, third year, 'kim major' (ASR for chem) and 'mina ring in math' (minoring in math), and attends Cal State Fullerton (lines 68, 72, 74). 'Kem club' (line 112) confirms chemistry.",
+          "value": "third-year chemistry major, math minor at Cal State Fullerton",
+          "lines": [
+            68,
+            72,
+            74,
+            112
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm not even old enough to drink' (line 258), combined with third year college, indicates under 21.",
+          "value": "under 21 years old",
+          "lines": [
+            258
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "His name is Ben and there are no contrary indicators; typically male name.",
+          "value": "male",
+          "lines": [
+            368
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says 'I do work in the lab' (line 78) and 'I work in my own majors field work' (line 138), indicating lab work, likely at university.",
+          "value": "lab work (likely university lab, possibly paid)",
+          "lines": [
+            78,
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions using Prolific for about a month and making more money than Swagbucks; previously used Swagbucks (lines 172, 174, 176, 178).",
+          "value": "participates in Prolific surveys for income; previously used Swagbucks",
+          "lines": [
+            172,
+            174,
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He refers to 'my friends' and their jobs at Staples and McDonald's (line 142).",
+          "value": "has friends",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I just want to stay at home and play video games' (line 264).",
+          "value": "enjoys playing video games",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he doesn't care about partying or drinking (line 102).",
+          "value": "does not party or drink alcohol",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He explains classes are online via Zoom, no in-person classes, and they'll be online for the academic year (lines 78, 84, 86, 98, 100).",
+          "value": "takes online college classes via Zoom due to COVID-19",
+          "lines": [
+            78,
+            84,
+            86,
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I like to be a part of kem club' (chemistry club) (line 112).",
+          "value": "member of chemistry club (kem club)",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He says 'I wear a T shirt and sweats' and describes his clothes as 'a T shirt at the pocket' (lines 230, 236).",
+          "value": "typically wears t-shirt and sweatpants",
+          "lines": [
+            230,
+            236
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b asks 'So what was your name? Sarah. Okay.' and speaker_a does not correct her, confirming her name is Sarah.",
+          "value": "Sarah",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When speaker_b says she is from Northern Wisconsin, speaker_a says 'Oh, me too' and later specifies 'I'm in Athens'. This places her in Athens, Wisconsin.",
+          "value": "Athens, Wisconsin",
+          "lines": [
+            13,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Sarah is female, and she refers to her significant other as 'he', indicating she is female.",
+          "value": "female",
+          "lines": [
+            32,
+            289
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she was working at the hospital part-time cleaning but they haven't called her back and she is not sure if they will, so she is currently not working there.",
+          "value": "Previously employed part-time at a hospital in Marshfield, currently not working there",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she helps her significant other with his essential business and has always done so.",
+          "value": "Assists significant other's essential business",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states they do not have house payment or car payments, and the house is 100 years old, indicating they are debt-free and own their home.",
+          "value": "Debt-free: no mortgage or car loans",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my significant other' and uses 'he', indicating a male partner.",
+          "value": "Has a significant other (male)",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My sister works in the medical industry'.",
+          "value": "Has a sister",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my one brother, he's running a lumberyard'.",
+          "value": "Has a brother who runs a lumberyard",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my one brother has been laid off at the cheese factory over in Spencer'.",
+          "value": "Has another brother who was laid off from a cheese factory",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my parents who are in their seventies' and describes her mother's health and father's political views.",
+          "value": "Parents are alive and in their 70s",
+          "lines": [
+            117,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'We got an old doberman' and later confirms she is 13, indicating a pet dog.",
+          "value": "Owns a 13-year-old Doberman dog",
+          "lines": [
+            29,
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I was a daycare teacher for five years' indicating past occupation.",
+          "value": "Former daycare teacher for 5 years",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions covering up plants because of a freeze, indicating she gardens.",
+          "value": "Gardens and covers plants",
+          "lines": [
+            187,
+            391
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'we do maple syrup and other things', 'we have wood burning', indicating self-sustaining rural activities.",
+          "value": "Self-sustaining lifestyle: makes maple syrup, wood burning",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she watches a lot of 80s and 90s movies and specifically loves The Princess Bride.",
+          "value": "Enjoys watching 80s and 90s movies, especially The Princess Bride",
+          "lines": [
+            393,
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she drives to a parking lot to sit in the car and listen to music when she needs a break from being home.",
+          "value": "Sits in car in parking lot to listen to music for alone time",
+          "lines": [
+            297
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says it's been really kind of lonely, only talking to her significant other, indicating feelings of isolation.",
+          "value": "Feels lonely due to limited social interaction",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't feel safe going places where people are not wearing masks, indicating avoidance.",
+          "value": "Avoids places where people don't wear masks",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself: 'Oh my name is Wendy, yep just give me one second.'",
+          "value": "Wendy",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Northern Wisconsin; when asked whereabouts, she indicates Phillips (confirmed by speaker_a). She also says she moved 10 miles out of town, so she lives in a rural area near Phillips.",
+          "value": "Near Phillips, Wisconsin (rural area, 10 miles out of town)",
+          "lines": [
+            12,
+            16,
+            17,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She has a female name Wendy and mentions a boyfriend, confirming she is female.",
+          "value": "female",
+          "lines": [
+            6,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her three children: youngest in college, middle in Madison, son ex-Air Force, establishing she is a mother of three.",
+          "value": "Mother of three children",
+          "lines": [
+            54,
+            56,
+            78,
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states 'I'm working every day for the electric co op here ... I do hr', so she is employed at an electric co-op in HR.",
+          "value": "Employed at an electric co-op in HR",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she bought the property she is on and an adjacent property with a cabin, indicating she owns two properties. She also notes it's 5 acres altogether.",
+          "value": "Owns two properties: her house and an adjacent cabin on 5 acres",
+          "lines": [
+            150,
+            374
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions moving from a 4-bedroom house to a 2-bedroom house a year and a half ago, so she currently lives in a 2-bedroom house.",
+          "value": "Lives in a 2-bedroom house",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my boyfriend lives in college girl' (ASR error for Cottage Grove), a suburb of Madison.",
+          "value": "Has a boyfriend who lives in Cottage Grove, WI",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her youngest daughter who is taking online classes through Southern New Hampshire University, previously worked at Kohl's, and is currently living at home.",
+          "value": "Has a youngest daughter in college (online at Southern New Hampshire University)",
+          "lines": [
+            54,
+            66,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her middle child is in Madison and works for UW Health.",
+          "value": "Has a middle daughter living in Madison, working at UW Health",
+          "lines": [
+            78,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her son who was in the Air Force for six years in security forces, now moving back home at the end of the month.",
+          "value": "Has a son who served in the Air Force, now moving back home",
+          "lines": [
+            56,
+            60,
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my dad is 80' and 'my mom died a few years ago'.",
+          "value": "Father is 80, mother deceased",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she had two dogs that both died last year; one was a German Shepherd with knee issues.",
+          "value": "Previous owner of two dogs (both died last year)",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions she likes fishing, kayaking, biking, and running.",
+          "value": "Enjoys outdoor activities: fishing, kayaking, biking, running",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has been cleaning and renovating a rundown cabin on her property, including plans to paint and tear out carpet.",
+          "value": "Renovating a cabin on her property",
+          "lines": [
+            152,
+            376,
+            384
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does online ordering for groceries at the only grocery store in town and loves it.",
+          "value": "Uses online grocery ordering",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions using 'Pop Card' which tells you when things are available online, to track product availability.",
+          "value": "Uses 'Pop Card' to track product availability",
+          "lines": [
+            260
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I do an email to all our employees every morning' to keep them in the loop.",
+          "value": "Sends daily update emails to employees",
+          "lines": [
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is totally fine being by herself for extended periods of time and has no issue with it.",
+          "value": "Enjoys solitude and being alone",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to be a couch potato after work, eating cereal for dinner and crashing, but now she works on the cabin.",
+          "value": "Previously sedentary after work, now more active with cabin project",
+          "lines": [
+            376,
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she plays cribbage with her boyfriend.",
+          "value": "Plays cribbage with boyfriend",
+          "lines": [
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses fondness for John Hughes movies, The Princess Bride, and Monty Python and the Holy Grail.",
+          "value": "Enjoys John Hughes movies, The Princess Bride, and Monty Python",
+          "lines": [
+            402,
+            426,
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the last time she saw her son was September 2018 when he helped her move.",
+          "value": "Has not seen her son since September 2018",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hasn't seen her boyfriend or middle daughter since the whole pandemic thing started.",
+          "value": "Has not seen boyfriend or middle daughter since pandemic began",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She agrees with wearing a mask, saying 'it's not that hard' and is reluctant to hug coworkers, indicating support for social distancing and mask-wearing.",
+          "value": "Supports social distancing and mask-wearing",
+          "lines": [
+            142,
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

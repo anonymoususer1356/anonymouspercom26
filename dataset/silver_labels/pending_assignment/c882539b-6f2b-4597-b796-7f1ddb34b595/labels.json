@@ -1,0 +1,410 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states her name directly.",
+          "value": "Karissa",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Tennessee and speaker_b asks about East Tennessee, which she implicitly confirms. She also says she has been there for over four years.",
+          "value": "East Tennessee",
+          "lines": [
+            9,
+            58,
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she was born in Virginia.",
+          "value": "born in Virginia",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she spent 10 years in Minnesota after her parents divorced.",
+          "value": "lived in Minnesota for 10 years",
+          "lines": [
+            209,
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Her name is typically female and she is married to a husband; the context suggests she is a woman.",
+          "value": "female",
+          "lines": [
+            19,
+            77,
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she works in purchasing for the city and is working from home.",
+          "value": "works in purchasing for the city (government)",
+          "lines": [
+            59,
+            60,
+            61,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her husband multiple times, including that he is in college.",
+          "value": "husband",
+          "lines": [
+            77,
+            163,
+            245,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her parents and spending holidays with them; her dad texted her.",
+          "value": "parents",
+          "lines": [
+            163,
+            165,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her husband's parents.",
+          "value": "parents-in-law",
+          "lines": [
+            163,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she has a niece in school.",
+          "value": "niece",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her best friend texting her.",
+          "value": "best friend",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses multiple friends and plans a Friendsgiving gathering.",
+          "value": "friends",
+          "lines": [
+            169,
+            171,
+            173
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She talks with co-workers about the pandemic.",
+          "value": "co-workers",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she has three cats and describes their personalities.",
+          "value": "owns three cats",
+          "lines": [
+            33,
+            35,
+            49,
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she is working from home and expects to continue through the end of the year.",
+          "value": "works from home",
+          "lines": [
+            60,
+            61,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is cold when the temperature is below 70 degrees, indicating a dislike of cold weather.",
+          "value": "dislikes cold weather",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions buying a Nintendo Switch to play a game with her best friend, implying she plays it.",
+          "value": "plays Nintendo Switch",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes driving to Colorado for a vacation with her husband.",
+          "value": "took vacation to Colorado",
+          "lines": [
+            241,
+            245,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says she has no kids.",
+          "value": "no children",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She plans to host a Friendsgiving gathering the Saturday after Thanksgiving.",
+          "value": "hosts Friendsgiving",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they split Thanksgiving and Christmas between her parents and his parents.",
+          "value": "splits holidays between families",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains they keep blinds raised a foot to prevent the cats from banging them.",
+          "value": "keeps blinds raised for cats",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself by name.",
+          "value": "Tia",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in South Florida and describes it as the coastal side.",
+          "value": "South Florida (coastal)",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is originally from Pennsylvania.",
+          "value": "originally from Pennsylvania",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Her name is typically female and she refers to her husband; context suggests she is a woman.",
+          "value": "female",
+          "lines": [
+            18,
+            38,
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'black people are already a little suspicious. We've had our issues...' including herself in the group.",
+          "value": "Black / African American",
+          "lines": [
+            118
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions her daughter and says there are three people at home, so she is a mother.",
+          "value": "mother",
+          "lines": [
+            84,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'it's only three of us now at home', indicating a household of her, husband, and daughter.",
+          "value": "household of three (with husband and daughter)",
+          "lines": [
+            198
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She talks about getting days off for Thanksgiving, a vote at work, and a spring break schedule, suggesting she is employed, likely in a school setting.",
+          "value": "employed (likely school staff)",
+          "lines": [
+            74,
+            196
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her husband multiple times and notes he is from New Jersey.",
+          "value": "husband (from New Jersey)",
+          "lines": [
+            38,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about crafting with her daughter.",
+          "value": "daughter",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her mom has 22 cats.",
+          "value": "mother",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states that her family all lives away.",
+          "value": "extended family lives away",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she loves the sun.",
+          "value": "enjoys sunny weather",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She frequently travels, mentioning trips to Orlando, a cruise, and a flight in June.",
+          "value": "frequently travels",
+          "lines": [
+            146,
+            156,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she doesn't normally cook anymore.",
+          "value": "does not cook often",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing crafts and baking with her daughter.",
+          "value": "does crafts and baking",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tells a story about a stray cat that hangs around their house waiting for food.",
+          "value": "has a stray cat visitor",
+          "lines": [
+            38,
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she now gets the whole week off for Thanksgiving due to a vote.",
+          "value": "gets Thanksgiving week off",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions flying on an airplane in June.",
+          "value": "flies on airplanes",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she opened the bedroom curtains but it was ugly and rainy.",
+          "value": "opens bedroom curtains for light",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

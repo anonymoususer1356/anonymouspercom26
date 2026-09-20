@@ -1,0 +1,343 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a directly states their name.",
+          "value": "Ezra",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says they live in Atlanta.",
+          "value": "Atlanta",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says they had a back injury at 19, 5 years ago, making them approximately 24 now.",
+          "value": "24 years old",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm fluent in spanish'.",
+          "value": "fluent in Spanish",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I voted for him in the first election' referring to Donald Trump.",
+          "value": "voted for Donald Trump in 2016",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes falling down a flight of metal stairs and landing on the bottom stair, causing a back injury.",
+          "value": "back injury from falling down metal stairs",
+          "lines": [
+            43,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'my legs go out and I can't do anything' due to the back injury.",
+          "value": "legs give out",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they did eight rounds of physical therapy with no improvement.",
+          "value": "underwent 8 rounds of physical therapy without improvement",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are waiting to be old enough for back surgery.",
+          "value": "waiting to be old enough for back surgery",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_b asks if speaker_a collects disability, and speaker_a confirms they get disability payments.",
+          "value": "receives disability benefits",
+          "lines": [
+            52,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a states 'I get 800 a month' in disability.",
+          "value": "disability income of $800 per month",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says $700 is taken out immediately for rent.",
+          "value": "rent is $700 per month",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they do translating for construction companies because they are fluent in Spanish.",
+          "value": "does Spanish translating for construction companies",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my best friend attends college in Jersey'.",
+          "value": "has a best friend who attends college in New Jersey",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my dad used to tell me'.",
+          "value": "has a father",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they have both a cat and a dog. The dog is a female chihuahua about 1 year old, found in a parking lot.",
+          "value": "owns a cat and a female chihuahua dog (found in parking lot, ~1 year old)",
+          "lines": [
+            259,
+            287,
+            311,
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they take the Amtrak through Philadelphia to visit their friend in New Jersey.",
+          "value": "travels by Amtrak through Philadelphia",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a responds to a question about how long they have been doing something on the site with 'About 2, 2.5 years.'",
+          "value": "has been using this site for 2–2.5 years",
+          "lines": [
+            40,
+            41
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I'm eric', very likely introducing their name as Eric.",
+          "value": "Eric",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says their address is listed as Highway 33, though it is not a real highway and the house is on a side street not on maps.",
+          "value": "mailing address Highway 33",
+          "lines": [
+            110,
+            112,
+            118
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I just moved to Tennessee' and later 'I just got down here like two weeks ago'.",
+          "value": "recently moved to Tennessee (two weeks ago)",
+          "lines": [
+            18,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm from Philly' and refers to Pennsylvania.",
+          "value": "originally from Philadelphia, Pennsylvania",
+          "lines": [
+            22,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a 'freaking incline' and earlier says 'I kind of lived on the street' (likely a mis-transcription for 'live on a hill').",
+          "value": "lives on an incline/hill",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I never liked him' in reference to Donald Trump.",
+          "value": "dislikes Donald Trump",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was self employed so I can't get anything.'",
+          "value": "formerly self-employed",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says they fell off a ladder and a roof while working, which caused back and neck problems.",
+          "value": "back and neck problems from work-related falls",
+          "lines": [
+            44,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly refuses back surgery.",
+          "value": "refuses back surgery",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_b says they have been receiving unemployment since the beginning of the year, and it ends in two months.",
+          "value": "receiving unemployment benefits",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b states the unemployment benefits end in two months.",
+          "value": "unemployment benefits ending in two months",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions falling off a roof while working for DirecTV, and earlier mentions Verizon, Comcast, and DirecTV. They also fell off a ladder working for 'pound gas' (likely a gas company). The work was as a contractor.",
+          "value": "contractor for DirecTV and other cable/gas companies",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they need to figure out a way to make money and that they cannot just sit at home.",
+          "value": "currently unemployed and seeking work",
+          "lines": [
+            76,
+            92,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "A heavily garbled line contains 'Section My parents are trying to Yeah', suggesting speaker_b has parents.",
+          "value": "has parents",
+          "lines": [
+            252
+          ],
+          "certainty": 2
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they have an older cat and a little kitten, and the kitten is about 3–4 months old.",
+          "value": "owns two cats: older cat and a kitten (~4 months old)",
+          "lines": [
+            258,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they took the kitten with them when they moved.",
+          "value": "brought kitten when moving to Tennessee",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they like dogs but dislike the fact that dogs need to be walked.",
+          "value": "prefers cats over dogs due to walking requirements",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

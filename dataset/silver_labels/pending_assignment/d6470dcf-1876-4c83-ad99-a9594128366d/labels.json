@@ -1,0 +1,326 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states her name as Caitlin, also previously introduced as Kaitlyn (ASR error) and corrects speaker_b when he calls her Jacqueline.",
+          "value": "Caitlin",
+          "lines": [
+            15,
+            17,
+            331
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is on the west coast (line 5), in Oregon (lines 11, 13), and lives near Eugene (line 27).",
+          "value": "near Eugene, Oregon, USA",
+          "lines": [
+            5,
+            11,
+            13,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she is very liberal (line 231) and appreciates the lack of conservatives in Oregon (line 217).",
+          "value": "liberal",
+          "lines": [
+            217,
+            231
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She graduated from college a couple of years ago (line 27) and a few years ago (line 155), typical graduation age early 20s, so she is likely in her mid-20s.",
+          "value": "mid-20s",
+          "lines": [
+            27,
+            155
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Her name is Caitlin, a typically female name, and no contradiction; inferred female.",
+          "value": "female",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she graduated from University of Oregon with a degree in Music Education and a teaching license for K-12 (lines 27, 29, 159).",
+          "value": "Bachelor's in Music Education, teaching license K-12, University of Oregon",
+          "lines": [
+            27,
+            29,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she teaches elementary music (line 31).",
+          "value": "elementary music teacher",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works as an elementary music teacher (line 31) and is in her second year at the school (line 151), indicating employment and modest income; school serves low-income families (line 131).",
+          "value": "employed as an elementary music teacher",
+          "lines": [
+            31,
+            131,
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions having a sibling who lives in Portland and is involved in protests, supporting communism (lines 229, 231).",
+          "value": "has a sibling in Portland, OR, active in protests and communist-leaning",
+          "lines": [
+            229,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to mediating between her sibling and her family (line 231), implying she has other family members (parents/relatives).",
+          "value": "has family (parents/other relatives)",
+          "lines": [
+            231
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states she plays alto saxophone (lines 47, 49) and specializes in classical music, not jazz (line 55).",
+          "value": "plays alto saxophone, classical music",
+          "lines": [
+            47,
+            49,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She teaches elementary music, currently online due to COVID, using asynchronous activities rather than live Zoom (lines 127-143).",
+          "value": "teaches elementary music online via asynchronous assignments due to COVID",
+          "lines": [
+            127,
+            131,
+            133,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says she does not play jazz (line 55).",
+          "value": "does not play jazz",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses a preference for living outside big cities (line 213).",
+          "value": "prefers living outside big cities",
+          "lines": [
+            213
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b remarks that she looks like a high school student and could pass for one (lines 172-180), and she agrees (line 173).",
+          "value": "looks young, could pass for a high school student",
+          "lines": [
+            172,
+            173,
+            174,
+            176,
+            178,
+            180
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He gives his name as Frederick multiple times (line 16).",
+          "value": "Frederick",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is in California (line 10), originally from Los Angeles but recently moved to a city right outside of LA (line 20). He describes the city as having over 50,000 people (line 196) and expresses a desire to move back to LA (line 206). The place name 'ethel belly' is garbled but context indicates a suburb of LA.",
+          "value": "lives in a city outside Los Angeles, California",
+          "lines": [
+            10,
+            20,
+            196,
+            206
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states his age as 43 when comparing to his cousin (line 38).",
+          "value": "43",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His name is Frederick, typically male, and no contradiction; inferred male.",
+          "value": "male",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He explicitly says he is a real estate investor (line 110).",
+          "value": "real estate investor",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions moving his money into the stock market because of the current seller's market in real estate (line 116).",
+          "value": "also invests in stocks",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He describes a cousin who is 42, grew up playing keyboard in church, and now plays keyboard for Ariana Grande (lines 38-44, 52, 86-98).",
+          "value": "cousin (age 42) who is a professional keyboard player for Ariana Grande",
+          "lines": [
+            38,
+            40,
+            42,
+            44,
+            86,
+            94,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions going to a mall with his youngest sister (line 316).",
+          "value": "youngest sister",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He tutored one of his little cousins in reading not too long ago (line 130).",
+          "value": "has a little cousin whom he tutored",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to his oldest uncle who was a pastor and father of the cousin (line 40).",
+          "value": "oldest uncle (pastor)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has other relatives in the music industry (lines 46, 102, 104).",
+          "value": "other relatives in the music industry",
+          "lines": [
+            46,
+            102,
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions a friend's nephew who was killed by police about a month and a half ago (line 236).",
+          "value": "friend whose nephew was killed by police",
+          "lines": [
+            236
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he used to play alto saxophone in grade school (lines 50, 52).",
+          "value": "used to play alto saxophone",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He expresses that he likes going to the beach (line 214).",
+          "value": "enjoys going to the beach",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states he is ready to move back to LA and finds his current city boring (lines 206, 210).",
+          "value": "prefers living in Los Angeles over current suburb",
+          "lines": [
+            206,
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He recounts visiting Victoria Gardens mall in Rancho Cucamonga with his sister (lines 314-318).",
+          "value": "visits Victoria Gardens mall in Rancho Cucamonga",
+          "lines": [
+            316,
+            318
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

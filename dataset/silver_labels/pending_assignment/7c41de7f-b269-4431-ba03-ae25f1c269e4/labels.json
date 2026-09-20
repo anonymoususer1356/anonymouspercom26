@@ -1,0 +1,248 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I'm in Portland Oregon.' (line 15) and later notes they are safely at home away from downtown (line 249), confirming residence.",
+          "value": "Portland, Oregon",
+          "lines": [
+            15,
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_a mentions they have a dental cleaning appointment coming up.",
+          "value": "Has a dental cleaning appointment coming up",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a directly says 'I work for a medical consultant company' and 'I'm a writer for them'.",
+          "value": "Employed as a writer for a medical consultant company",
+          "lines": [
+            225,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my company got that PPC money', where PPC is an ASR error for PPP, referring to the Paycheck Protection Program loan.",
+          "value": "Company received PPP loan",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'we furloughed for two weeks in there'.",
+          "value": "Furloughed from job for two weeks",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'we got with that $600 it was pretty fine', likely the federal $600 weekly unemployment supplement.",
+          "value": "Received $600 federal unemployment supplement during furlough",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'And then I got a week off'.",
+          "value": "Had a week off from work",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'my jobs, we went home in March' (line 35) and 'we're now working mostly remote um since March' (line 233).",
+          "value": "Works from home since March due to COVID-19",
+          "lines": [
+            35,
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I had a friend who had some starter dough ... the sourdough starter'.",
+          "value": "Has a friend who provided sourdough starter",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes baking bread, trying sourdough, finding it not hard to start, but ultimately not being very good at it and deciding to buy from professionals. They also mention the appeal of control in baking.",
+          "value": "Enjoys baking bread as a hobby; attempted sourdough but prefers buying from professionals",
+          "lines": [
+            39,
+            41,
+            43,
+            45,
+            69,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are fortunately not near the downtown courthouse area and that they hear police sirens a lot during the day.",
+          "value": "Lives in a Portland neighborhood away from downtown, hears police sirens regularly",
+          "lines": [
+            249,
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm from California in the san Francisco bay area' and confirms they are currently there.",
+          "value": "San Francisco Bay Area, California",
+          "lines": [
+            12,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I work in healthcare' and works in a dental office, placing them in the healthcare worker demographic.",
+          "value": "Healthcare worker (dental office)",
+          "lines": [
+            38,
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I work in a dental office' and clarifies it's a part-time job.",
+          "value": "Employed part-time in a dental office",
+          "lines": [
+            128,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I work in two separate offices'.",
+          "value": "Works in two separate dental offices",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains that one office could not come back financially and lacked required safety equipment, and patients are not scheduling.",
+          "value": "One of the dental offices has not reopened due to financial difficulties and failure to meet COVID-19 safety requirements",
+          "lines": [
+            140,
+            142,
+            146,
+            148,
+            150,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions the shutdown started 'March 17' for them and their job did not allow them back until 'June 1st'.",
+          "value": "Workplace was shut down from March 17 to June 1 due to COVID-19",
+          "lines": [
+            34,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b details buying a 5-pound flour bag at Walmart for about $4, yeast packets for 90 cents, and that a batch lasts over a week and a half for pennies on the dollar, indicating a cost-saving approach.",
+          "value": "Practices cost-saving by baking own bread using inexpensive ingredients from Walmart",
+          "lines": [
+            116,
+            118,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says they got yeast from their parents, who had bought it about 10 years ago at Costco and kept it in the fridge; also mentions talking to them about it.",
+          "value": "Has parents who provided old yeast; parents purchased it at Costco about 10 years ago",
+          "lines": [
+            50,
+            52,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b extensively describes baking various breads (irish soda bread, artisan white bread, jalapeno bread), following YouTube videos, taking pictures of the process, and feeling a sense of accomplishment. They also state they are not a fan of sourdough.",
+          "value": "Enjoys baking bread as a serious hobby; has experimented with multiple recipes; uses YouTube tutorials; finds it rewarding",
+          "lines": [
+            48,
+            56,
+            60,
+            64,
+            66,
+            86,
+            88,
+            94,
+            96,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes their daily work environment with enhanced COVID-19 safety measures, including face shields, multiple masks, and air purifiers, and says they feel safe because they went above and beyond the minimum.",
+          "value": "Works as a dental professional with extensive COVID-19 safety measures (face shield, multiple masks, air purifier) and feels safe due to above-and-beyond precautions",
+          "lines": [
+            178,
+            188,
+            190,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not a huge bread either, I just eat it for like breakfast, that's about it'.",
+          "value": "Usually eats bread only for breakfast",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

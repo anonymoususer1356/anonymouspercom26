@@ -1,0 +1,304 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'You're going Jeff?' in line 5, which may be addressing speaker_a as 'Jeff'. However, the name is never confirmed by speaker_a, and it's possible the ASR misheard a different phrase.",
+          "value": "Jeff",
+          "lines": [
+            5
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he moved to New York two years ago, and repeatedly refers to New York as 'here' (lines 83, 91, 97, 107). speaker_b also wishes him luck in New York (line 320).",
+          "value": "New York",
+          "lines": [
+            13,
+            83,
+            91,
+            97,
+            107,
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is from Belgium (line 13), was born in Belgium (line 19), and refers to Belgium as 'my country' (lines 197, 277, 295).",
+          "value": "Belgium",
+          "lines": [
+            13,
+            19,
+            197,
+            277,
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a identifies as being from Belgium and calls it 'my country'.",
+          "value": "Belgian",
+          "lines": [
+            13,
+            19,
+            197,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly states 'I'm 49'.",
+          "value": "49 years old",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I did a master like, like 25 years ago'.",
+          "value": "holds a master's degree (obtained ~25 years ago)",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I just graduated in machine learning and artificial intelligence' (line 51, ASR 'As I saw' likely 'I also').",
+          "value": "recent graduate in machine learning and artificial intelligence",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I'm a diabetic' and mentions monthly pharmacy visits for medication.",
+          "value": "diabetic",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says he cannot vote in the US because he is not a US citizen (line 193: 'I can't vote I mean another usa citizen' garbled but context implies 'I'm not a US citizen'). He also notes voting is mandatory in his home country.",
+          "value": "not a US citizen",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a states that university in Belgium cost him between 800 and 900 USD per year, 25 years ago.",
+          "value": "paid 800-900 USD per year for university in Belgium",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a received a $20 bill from his general practitioner and is refusing to pay until the doctor explains the charge.",
+          "value": "refusing to pay a $20 medical bill",
+          "lines": [
+            157,
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he goes to the pharmacy every month for his diabetes medication.",
+          "value": "monthly pharmacy visits for diabetes",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions doing a morning walk, observing mask usage.",
+          "value": "morning walks",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'right now I live in California' (line 18), refers to California as 'here' (lines 98, 40), and lives in a valley area (line 40).",
+          "value": "California",
+          "lines": [
+            18,
+            40,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I live in the North Park' (line 26). This could be a neighborhood name; ASR may be imperfect.",
+          "value": "North Park",
+          "lines": [
+            26
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I moved here three years ago from Ohio'.",
+          "value": "Ohio",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in Maryland'.",
+          "value": "Maryland",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I'm 22 years old'.",
+          "value": "22 years old",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in the United States'.",
+          "value": "born in the United States",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b identifies as a student multiple times (lines 44, 62, 176) and discusses courses, finals, and semesters.",
+          "value": "student",
+          "lines": [
+            44,
+            46,
+            62,
+            70,
+            76,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I work in a pharmacy' (line 100) and mentions working part-time at a pharmacy (line 176).",
+          "value": "pharmacy worker",
+          "lines": [
+            100,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his field of study is 'a mixture of computer science and biology, called bioinformatics'.",
+          "value": "bioinformatics student",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b says 'I voted' (line 196), indicating he is a registered voter.",
+          "value": "voter",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I work minimum wage part time because I'm a student'.",
+          "value": "minimum wage part-time job",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'because I don't have dental insurance' (line 174).",
+          "value": "no dental insurance",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says a dental visit resulted in a bill of over $2000 because he has no insurance.",
+          "value": "dental bill over $2000",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has been paying for education out of pocket but expects to need a loan next year (lines 288-289).",
+          "value": "pays for education out of pocket; will need a loan next year",
+          "lines": [
+            288,
+            289
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm wearing a mask and stuff all the time because I work in a pharmacy'.",
+          "value": "wears a mask at work",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states that his summer courses are online and his fall semester is remote; he will take a physics lab online.",
+          "value": "takes online courses",
+          "lines": [
+            76,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he needs a mental break after a tough summer class and will do nothing for a few weeks before work.",
+          "value": "plans a mental break after summer courses",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

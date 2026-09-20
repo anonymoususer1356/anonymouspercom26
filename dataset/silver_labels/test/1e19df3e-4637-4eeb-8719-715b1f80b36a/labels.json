@@ -1,0 +1,418 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 11: speaker_a introduces herself as 'Hi, I'm Amanda.'",
+          "value": "Amanda",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 303: 'I live in a college town', 363: 'I live in Georgia', 432-433 confirm Eastern Time Zone.",
+          "value": "Georgia, college town, Eastern Time Zone",
+          "lines": [
+            303,
+            363,
+            433
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 113: speaker_a says 'I am 31.'",
+          "value": "31",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Amanda and reference to 'boyfriend' (line 67) imply female gender.",
+          "value": "Female",
+          "lines": [
+            11,
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 49: 'I am a therapist', 88: 'since I'm a therapist and I'm seeing clients', 393: 'I'm actually a sex therapist.'",
+          "value": "Sex therapist",
+          "lines": [
+            49,
+            88,
+            393
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 191: 'my bachelor's degrees in social work', 193: 'went back for my masters in social work'.",
+          "value": "Bachelor's and Master's in Social Work",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 191: 'I actually worked at a software company for seven years not doing social work.'",
+          "value": "Former software company employee (7 years)",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 201: 'I became an atheist instead' after considering seminary.",
+          "value": "Atheist",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 141: 'I'm a fucking millennial'.",
+          "value": "Millennial",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions $15 for the study (line 22), speaker_a agrees (line 23), and in line 91 she says 'I'm making less money doing this'.",
+          "value": "Participates in paid study ($15 per session)",
+          "lines": [
+            22,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 361: 'it's so expensive' referring to beach house rentals.",
+          "value": "Finds beach house rentals expensive",
+          "lines": [
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 191: worked at a software company for seven years, indicating prior career income.",
+          "value": "Formerly employed at software company for seven years",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 67: 'I told my boyfriend about it'; also line 69 describes him as introverted.",
+          "value": "Has a boyfriend",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 373-387: speaker_a states 'I got divorced during Covid', moved, new job, divorce final in September.",
+          "value": "Divorced",
+          "lines": [
+            373,
+            385
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 143: 'that's how I keep up with my brother'.",
+          "value": "Has a brother",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 220-221: one cat named Lindy; line 239: a gray 'lighter' cat; also line 205 mentions cats.",
+          "value": "Owns two cats (one named Lindy, one gray)",
+          "lines": [
+            205,
+            220,
+            221,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 339: 'if I'm like doing dishes or doing laundry or whatever, I can like put on audiobook, like a podcast'.",
+          "value": "Listens to audiobooks/podcasts while doing chores",
+          "lines": [
+            339
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 125-167: mentions getting on TikTok, using Instagram, Facebook, Reddit occasionally, Twitter rarely.",
+          "value": "Uses TikTok, Instagram, Facebook, Reddit occasionally; rarely uses Twitter",
+          "lines": [
+            125,
+            141,
+            142,
+            143,
+            145,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 271: 'I don't watch a ton of it either' (TV).",
+          "value": "Does not watch much TV",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 337: 'I can't sit still long enough to read a book'.",
+          "value": "Cannot sit still to read physical books",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 351: 'I did get to travel for work when I did that'.",
+          "value": "Used to travel for work",
+          "lines": [
+            351
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 89: 'I'm a therapist and I'm seeing clients like on long line now' (online).",
+          "value": "Sees therapy clients online",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Line 122: speaker_b says 'I thought you were in college', speaker_a agrees she looks young and is happy with that (line 123).",
+          "value": "Looks younger than her age",
+          "lines": [
+            122,
+            123
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 12: speaker_b introduces himself as 'Hi I'm Jack.'",
+          "value": "Jack",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 178: 'I am at UC Irvine.' Line 294: 'now I'm going to school in southern California'.",
+          "value": "Southern California (UC Irvine)",
+          "lines": [
+            178,
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 294: 'I moved over to uh North cow and now I'm going to school in southern California, but then I have to move back to north carol'; 'North cow'/'north carol' interpreted as North Carolina.",
+          "value": "Home base in North Carolina",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 116: 'Holy crap I'm only 19. Oh god I just turned 19.'",
+          "value": "19",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Jack implies male gender.",
+          "value": "Male",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 178: 'Yes. 2nd year I am at UC Irvine', 182: 'I study english because step too hard' (step = STEM). Also line 192 'everything is like super like math oriented all the time, which I suck it', and 186 'I dropped out of sight' (sight = science).",
+          "value": "Second-year university student, English major (formerly science/STEM)",
+          "lines": [
+            178,
+            182,
+            186,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 294: 'I came from china right'.",
+          "value": "Chinese origin",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 108: 'my vision take a bed so I have to use a bigger monitor'; ASR 'take a bed' likely 'is bad' or 'takes a hit', indicating vision impairment.",
+          "value": "Vision impairment (requires larger monitor)",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 22: 'For $15.', 74: 'Yeah you got you got to do it.', 76: 'money is a factor'.",
+          "value": "Participates in paid study ($15 per session)",
+          "lines": [
+            22,
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 362: 'I wish I had money to go' in response to beach house expense.",
+          "value": "Student with limited finances",
+          "lines": [
+            362
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 210: 'But mine is dead.', 216: 'it was like a tabby.'",
+          "value": "Had a tabby cat (deceased)",
+          "lines": [
+            210,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 298: 'my parents are jobs are like not stable right now, so they're like moving around'.",
+          "value": "Parents with unstable jobs",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 300-302: 'I don't have any real long lasting friends' due to moving.",
+          "value": "No long-lasting close friends",
+          "lines": [
+            300,
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 134: 'freaking read it, probably the most honest thing.', 147: 'Reddit I find interesting', 162: 'I like writing. So it's great talking to people like I want to show my face'.",
+          "value": "Frequent Reddit user (browsing and writing)",
+          "lines": [
+            134,
+            147,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 326-328: 'books I read kid books, I don't like the adult books... kids teenager books... like some freaking fantasy world'.",
+          "value": "Reads young adult fantasy books",
+          "lines": [
+            326,
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 268: 'I haven't watched tv much.', 270: 'No, not the person really interest.'",
+          "value": "Does not watch TV",
+          "lines": [
+            268,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 70: 'I am too. I am to speak to.', 162: 'it's a great place to write... I want to show my face' (prefers text), and 287: 'Oh, you told me you're an introvert' confirmed.",
+          "value": "Introverted, prefers text-based communication over video",
+          "lines": [
+            70,
+            162,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 142: 'I just use it to browse other people but I don't really like put my own pictures on there.'",
+          "value": "Does not post personal pictures on social media",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 166: 'Oh, I use emojis. Emojis are pretty cool on here.'",
+          "value": "Uses emojis online",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 79-80: 'So you're using it as kind of like an exposure therapy?' 'Kind of I like it yeah.'",
+          "value": "Uses the study as exposure therapy to practice talking",
+          "lines": [
+            79,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

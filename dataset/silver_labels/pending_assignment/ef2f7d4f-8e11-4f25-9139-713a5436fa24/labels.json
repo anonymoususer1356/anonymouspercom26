@@ -1,0 +1,415 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself with her name, stating 'I'm Kelsey also with a K.'",
+          "value": "Kelsey",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Pennsylvania, specifically the southeast region, lives about 20 minutes from the Limerick nuclear facility, and is near the Philadelphia area (refers to 'Philly area' as a hotspot, and attends Temple Law in Philadelphia).",
+          "value": "Southeast Pennsylvania, near Limerick and Philadelphia",
+          "lines": [
+            9,
+            33,
+            73,
+            75,
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she is a law student in Pennsylvania and later specifies she goes to Temple Law.",
+          "value": "law student at Temple University Beasley School of Law (Temple Law)",
+          "lines": [
+            9,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She mentions having a small running injury.",
+          "value": "minor running injury",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "When speaker_b urges her to vote, she responds 'I'm doing my best,' implying she is eligible to vote in U.S. elections.",
+          "value": "eligible to vote in U.S. elections",
+          "lines": [
+            222,
+            223
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She states her summer job was delayed by a month, she found out she is still employed, and she has little to do until June 29, implying that is when the job now starts.",
+          "value": "summer job (delayed, but still employed) starting approximately June 29",
+          "lines": [
+            13,
+            15,
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly mentions her boyfriend, describing him going to work, coming home for lunch, and being an accountant.",
+          "value": "has a boyfriend (accountant at a bank)",
+          "lines": [
+            81,
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'our neighbors,' indicating she shares a residence with her boyfriend.",
+          "value": "lives with boyfriend",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states her parents are in their fifties.",
+          "value": "parents in their 50s",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her cousin who is involved in cosmetology and gave people haircuts during the pandemic.",
+          "value": "cousin in cosmetology",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she has a lot of friends who like berry beers.",
+          "value": "friends who enjoy berry beers",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she doesn't drink alcohol anymore, finding the taste not enjoyable, and now drinks club soda.",
+          "value": "does not drink alcohol, prefers club soda",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes opening a favorite limited-run beer from a microbrewery during the 2016 election and later recommends Ballast Point's 'Calm Before the Storm' stout, indicating past enjoyment of craft beer.",
+          "value": "previously enjoyed craft beer, favorite was Ballast Point 'Calm Before the Storm' stout",
+          "lines": [
+            229,
+            259,
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing bicep curls with 5 lb weights, having had abs again before a running injury and studying interrupted her routine, and now trying to get back into it.",
+          "value": "exercises with 5 lb weights, rebuilding fitness after injury",
+          "lines": [
+            51,
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She got her violin repaired, used to play as a child (found third grade assignment sheets), but stopped practicing to avoid annoying neighbors.",
+          "value": "plays violin, took lessons as a child",
+          "lines": [
+            125,
+            127,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she found a very simple biscotti recipe.",
+          "value": "bakes biscotti",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She sent her boyfriend a snap showing her big mug of coffee.",
+          "value": "drinks coffee",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Regarding neighbors smoking weed, she says 'it's just not for me.'",
+          "value": "does not use marijuana",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes being 'pulled up in my apartment' and discusses the stay-at-home order in Pennsylvania, indicating she is sheltering at home.",
+          "value": "sheltering at home during COVID-19 lockdown",
+          "lines": [
+            9,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions sending her boyfriend a snap (Snapchat).",
+          "value": "uses Snapchat",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Carlos.",
+          "value": "Carlos",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he lives in Michigan, specifically Lansing near Michigan State University (ASR 'Lansing Harrington' likely 'Lansing, home of the Michigan State University'), and is under lockdown there.",
+          "value": "Lansing, Michigan, near Michigan State University",
+          "lines": [
+            6,
+            84,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he is a chemical engineer.",
+          "value": "chemical engineer",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he works for the government at a nuclear facility that is in the commissioning phase.",
+          "value": "government employee at a nuclear facility",
+          "lines": [
+            18,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he completed a master's degree at the University of Florida.",
+          "value": "master's degree from University of Florida",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives near MSU, receives university president emails that include him among 'staff members' as distinct from students.",
+          "value": "staff member at Michigan State University",
+          "lines": [
+            172,
+            180,
+            182
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "He explicitly states 'I cannot vote,' indicating ineligibility to vote in U.S. elections.",
+          "value": "cannot vote in U.S. elections (non-citizen or otherwise ineligible)",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He is employed by the government and has been working from home; he says he is not at risk of being laid off.",
+          "value": "employed, works from home",
+          "lines": [
+            10,
+            18,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions his girlfriend multiple times, including her apartment, her moving in two months, and going to a park with her.",
+          "value": "has a girlfriend",
+          "lines": [
+            130,
+            142,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to his roommate (ASR 'rumor') who is doing a master's degree.",
+          "value": "has a roommate (master's student)",
+          "lines": [
+            152,
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says his friend was at the Michigan Capitol protest as an essential health worker and studies at MSU.",
+          "value": "friend who is an essential health worker at MSU",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about his personal trainer, who asks about his eating and makes him do extra exercises.",
+          "value": "has a personal trainer (female)",
+          "lines": [
+            44,
+            46,
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes using gallon jugs of water and a backpack as weights for home exercises.",
+          "value": "home exercises with gallon jugs and backpack as weights",
+          "lines": [
+            56,
+            58,
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He has been learning guitar and places himself at the middle intermediate level.",
+          "value": "practices guitar, intermediate level",
+          "lines": [
+            118,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He enjoys lobster sandwiches, Philly cheesesteak, nitro beer (raspberry-flavored), and garlic bread; when faced with many beer options, he asks for recommendations.",
+          "value": "enjoys diverse foods and beers (lobster, cheesesteak, nitro beer, garlic bread); overwhelmed by beer menus",
+          "lines": [
+            40,
+            42,
+            254,
+            258,
+            264,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he went on vacation to Boston two or three months ago.",
+          "value": "vacationed in Boston recently",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions really liking his naps and sleep and says he will miss them after lockdown ends.",
+          "value": "enjoys napping and sleeping",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he only goes out to use the microwave, because his roommate's friends do not distance, and he keeps food and water in his room.",
+          "value": "stays home, only ventures out to use microwave",
+          "lines": [
+            160,
+            162,
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to his 'dynamic bucket list.'",
+          "value": "maintains a bucket list",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His personal trainer makes him do extra exercises when he eats certain foods.",
+          "value": "does extra exercises assigned by trainer",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions going to a park with his girlfriend while maintaining social distance.",
+          "value": "goes to parks for recreation",
+          "lines": [
+            170
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

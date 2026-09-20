@@ -1,0 +1,361 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'Oh, Michigan just grand rapids missing' (ASR error for 'Grand Rapids, Michigan') in line 7. He later refers to 'in michigan' (line 53) and the Michigan governor (line 55), and says he grew up in Michigan (line 109).",
+          "value": "Grand Rapids, Michigan",
+          "lines": [
+            7,
+            53,
+            55,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm actually an engineer' in line 29.",
+          "value": "engineer",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I've got two kids' (line 79), 'my kids' (line 137), and 'one of my daughters' (line 209), establishing he is a parent.",
+          "value": "parent",
+          "lines": [
+            79,
+            137,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 29, speaker_a says 'I'm not a college student'.",
+          "value": "not a college student",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a reports exposure to a COVID-positive colleague but states 'I haven't had any symptoms yet' (line 47).",
+          "value": "asymptomatic for COVID-19 after exposure",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'It's mentally draining um for all of us' (line 43), indicating he feels mental strain.",
+          "value": "experiencing mental fatigue",
+          "lines": [
+            43
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states 'I actually work in office furniture. So we've worked for a company that makes office chairs...' (line 29), combined with 'I'm actually an engineer'.",
+          "value": "employed as an engineer at an office furniture company",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We just had a ton of layoffs at work' (line 37).",
+          "value": "company recently had layoffs",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've got two young engineers that just started for me and they're both 21, years old' (line 37), indicating a supervisory role.",
+          "value": "supervises two 21-year-old engineers",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'my kids ride horses. And we we leased a horse from a woman' (line 137).",
+          "value": "leases a horse for his children",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I've got two kids' (line 79) and mentions daughter (line 209).",
+          "value": "has two children",
+          "lines": [
+            79,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a specifies 'one of my daughters as a junior in high school' (line 209).",
+          "value": "daughter is a high school junior",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was talking to my dad yesterday' and 'go see my parents' (line 193).",
+          "value": "has living parents, including a father",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I've been back at work every day' (line 45), indicating on-site work.",
+          "value": "works in person at the office",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I've been to Singapore and Malaysia' (line 125).",
+          "value": "has traveled to Singapore and Malaysia",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he avoids visiting his parents due to COVID risk 'I just can't do it right now' (line 193).",
+          "value": "avoids visiting parents due to COVID-19",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my kids ride horses' (line 137), indicating a family activity.",
+          "value": "children participate in horseback riding",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm from boston' (line 6), 'I moved to Boston when I was six' (line 108), and references Boston's shift to remote learning (line 200).",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            6,
+            108,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in Vietnam' (line 104, 108).",
+          "value": "Vietnam (birthplace)",
+          "lines": [
+            104,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I moved to Boston when I was six' (line 108).",
+          "value": "moved to Boston at age six",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a infers speaker_b is a college student, speaker_b confirms with 'Mhm' (lines 17-18).",
+          "value": "college student",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm a political science major' (line 20).",
+          "value": "political science major",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm glad I'm not a senior' (line 36).",
+          "value": "undergraduate, not a senior",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b was born in Vietnam (line 104) and her parents moved from Vietnam (line 293-294).",
+          "value": "Vietnamese ethnicity",
+          "lines": [
+            104,
+            293,
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have scholarships that saved me' (line 262).",
+          "value": "scholarship recipient",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I want to go into the foreign service' (line 24) and 'like a diplomat' (line 26).",
+          "value": "aspires to be a diplomat",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I didn't get into any of the schools I wanted to' (line 278), indicating she attends a less preferred college.",
+          "value": "attends a college that was not a top choice",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes being 'more and more tired of online classes and staring at like the screen for like 20 hours a day' (line 170).",
+          "value": "experiences screen fatigue/eye strain",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm lucky I don't have to pay for college actually' (line 258) and 'I have scholarships that saved me' (line 262).",
+          "value": "college tuition fully covered by scholarships",
+          "lines": [
+            258,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'I just got an interview for an internship' (line 16) and later says it is a 'summer internship... next year in D.C. if possible' (line 224).",
+          "value": "interviewing for a summer internship in Washington, D.C.",
+          "lines": [
+            16,
+            224
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I hope I never take out a loan' (line 272) regarding college.",
+          "value": "prefers to avoid student loans",
+          "lines": [
+            272
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a asks 'What did your parents moved here from Vietnam then?' and speaker_b confirms 'Yeah' (lines 293-294).",
+          "value": "parents are Vietnamese immigrants",
+          "lines": [
+            293,
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states 'Oh no I'm doing remote work, we're not allowed on campus' (line 34).",
+          "value": "remote student, not on campus",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'when I travel it's more outside the country than inside the country' (line 120).",
+          "value": "prefers international travel over domestic",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've never been to michigan' (line 120).",
+          "value": "has never been to Michigan",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her favorite place is 'home or the place where I was born in Vietnam' (line 122).",
+          "value": "favorite destination is Vietnam",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm like a typical, typical new Englander though' (line 116).",
+          "value": "identifies as a typical New Englander",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b comments on her own voice: 'my voice sounds so high pitched' (line 168).",
+          "value": "has a high-pitched voice",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

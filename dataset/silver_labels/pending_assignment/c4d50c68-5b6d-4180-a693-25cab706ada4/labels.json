@@ -1,0 +1,435 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Directly states her name.",
+          "value": "Ashley",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says she lives in Louisiana, United States.",
+          "value": "Louisiana, United States",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States her occupation as a home health nurse for first-time pregnant moms.",
+          "value": "home health nurse for first-time pregnant moms",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she has three kids and is a mother.",
+          "value": "mother of three",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says she is divorced.",
+          "value": "divorced",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to ex-husband and being a mom; speaker_b calls her a single mom and she is the mother of children, consistent with female gender.",
+          "value": "female",
+          "lines": [
+            11,
+            13,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States she has not had COVID-19.",
+          "value": "has not had COVID-19",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Got tested for COVID-19 after being around her infected best friend; test was negative.",
+          "value": "tested negative for COVID-19 after exposure",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions experiencing facial breakouts.",
+          "value": "has facial breakouts",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "States she shares custody of her children with her ex-husband.",
+          "value": "shares custody of three children with ex-husband",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Indicates she is working from home due to the pandemic.",
+          "value": "working from home",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States she is divorced from her ex-husband.",
+          "value": "divorced from ex-husband",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her ex-husband as abusive.",
+          "value": "ex-husband was abusive",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States the ages of her three children: 8, 5 and 2.",
+          "value": "mother of three children aged 8, 5 and 2",
+          "lines": [
+            13,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her best friend contracted COVID-19.",
+          "value": "has a best friend who contracted COVID-19",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her dad is a good guy, implying a good relationship.",
+          "value": "has a good relationship with her father",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she hasn't dated in two years.",
+          "value": "has not dated in two years",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is not interested in making new friends.",
+          "value": "not interested in making new friends",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that her ex-husband's betrayal has made it hard to trust people.",
+          "value": "has difficulty trusting people after her divorce",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she would not date someone who supports President Trump.",
+          "value": "refuses to date anyone who supports President Trump",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says she paints.",
+          "value": "enjoys painting",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she watches Netflix series.",
+          "value": "watches Netflix series",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Prefers walking and swimming over competitive sports.",
+          "value": "enjoys walking and swimming",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she does not like competitive sports.",
+          "value": "does not like competitive sports",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has a golden retriever named Buddy.",
+          "value": "owns a golden retriever named Buddy",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has a cat named Ginger.",
+          "value": "owns a cat named Ginger",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she works from home and does video chats with clients.",
+          "value": "works from home and holds video chats with clients",
+          "lines": [
+            83,
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Mentions she has facial breakouts.",
+          "value": "has facial breakouts",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Confirms he lives in New York when asked, and speaker_a also says he is in New York.",
+          "value": "New York",
+          "lines": [
+            18,
+            19,
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States multiple times that he is a doctor; mentions being a resident doctor.",
+          "value": "doctor, resident",
+          "lines": [
+            54,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he is divorced ('divers' in ASR).",
+          "value": "divorced",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions having one kid and later refers to 'my son'.",
+          "value": "father of one son",
+          "lines": [
+            16,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls himself a single dad and refers to his ex-wife as 'she', indicating male gender.",
+          "value": "male",
+          "lines": [
+            140,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says he gets tested for COVID-19 twice a week.",
+          "value": "gets tested for COVID-19 twice a week",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses that he has been very worried about catching COVID-19.",
+          "value": "worried about catching COVID-19",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "States he is divorced.",
+          "value": "divorced",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Says he is a doctor, indicating employment.",
+          "value": "works as a doctor",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explains that his ex-wife cheated on him.",
+          "value": "ex-wife cheated on him",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms he has one son; speaker_a asks if he is 10 and he appears to agree, so age is approximately 10.",
+          "value": "has a son, approximately 10 years old",
+          "lines": [
+            16,
+            138,
+            212
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says he is searching for the right one and hopes to find Mrs. Right.",
+          "value": "is looking for a romantic partner",
+          "lines": [
+            142,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has a dog named Jackie.",
+          "value": "owns a dog named Jackie",
+          "lines": [
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions having sexual relationships with others but not really dating since divorce.",
+          "value": "has had casual sexual relationships since divorce",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Confirms he goes running.",
+          "value": "enjoys running",
+          "lines": [
+            258,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he plays football and basketball.",
+          "value": "plays football and basketball",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he loves sports.",
+          "value": "loves sports",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions watching movies and reading books.",
+          "value": "watches movies and reads books",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he commutes to work almost every day.",
+          "value": "commutes to work daily",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

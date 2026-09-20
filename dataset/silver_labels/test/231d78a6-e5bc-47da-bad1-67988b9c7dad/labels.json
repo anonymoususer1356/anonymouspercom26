@@ -1,0 +1,522 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Texas and was born and raised there.",
+          "value": "Texas",
+          "lines": [
+            13,
+            15,
+            27,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we're central' referring to time zone, confirming Central Time.",
+          "value": "Central time zone",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Implied by references to 'mama's boy' for cat, mention of sisters, mother, nieces. Not explicitly stated but strongly indicated.",
+          "value": "female",
+          "lines": [
+            63,
+            129,
+            135,
+            317
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'I went to college on the East Coast'.",
+          "value": "college-educated",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she works at a university and specifically in a research office.",
+          "value": "university employee in a research office",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was born and raised in Texas, identifying as a Texan.",
+          "value": "Texan (born and raised)",
+          "lines": [
+            27,
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says her allergies are acting up, mentions seasonal allergies in her family, and describes them lasting about a week.",
+          "value": "seasonal allergies (lasts about a week)",
+          "lines": [
+            149,
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She wears glasses that fog with a mask; she switches to contacts. She has two different prescriptions, one for distance and one for reading.",
+          "value": "wears corrective lenses (glasses and contacts) with different prescriptions for distance and reading",
+          "lines": [
+            93,
+            97,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works at a university research office and has been working from home since mid-March 2020 after an email told her not to come in.",
+          "value": "employed at a university research office, working remotely since March 2020",
+          "lines": [
+            39,
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to travel internationally a lot for work a couple of years ago.",
+          "value": "traveled internationally for work in the past",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her mother lives with her and is 82 years old.",
+          "value": "mother (82, lives with her)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her father died about 10 years ago from lung cancer.",
+          "value": "father deceased (~10 years ago from lung cancer)",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my sister's love country music' and 'my sisters and my mom' indicating at least one sister.",
+          "value": "has at least one sister",
+          "lines": [
+            129,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my brother in law' having allergies at different times.",
+          "value": "has a brother-in-law",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says both of her nephews moved away; one is in South Carolina after Navy boot camp, the other is in Lancaster, California.",
+          "value": "two nephews (one in South Carolina after Navy boot camp, one in Lancaster, California)",
+          "lines": [
+            175,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister's daughter (niece) would get along with speaker_b's daughter, implying nieces exist.",
+          "value": "has nieces",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes her cat as black and white, 12 years old, named Maximilian (Max), snoring, and follows her everywhere.",
+          "value": "cat Maximilian (12, black and white)",
+          "lines": [
+            315,
+            317,
+            323
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she doesn't like country music and never has.",
+          "value": "dislikes country music",
+          "lines": [
+            127,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says no to riding horses, her dad had a ranch but she is not a country girl.",
+          "value": "does not ride horses",
+          "lines": [
+            125,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I lived in the city my whole life'.",
+          "value": "lives in a city (urban)",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She and coworkers watch the ID true crime channel; she also mentions Unsolved Mysteries, body cam, and liking real crime stories.",
+          "value": "enjoys true crime shows and documentaries",
+          "lines": [
+            245,
+            249,
+            251,
+            279,
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She read the book 'Little Fires Everywhere'.",
+          "value": "reads books",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to college on the East Coast.",
+          "value": "attended college on the East Coast",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She works from home since March, has a home office, and plans to go back part-time in fall.",
+          "value": "works remotely from home",
+          "lines": [
+            39,
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Because her 82-year-old mother lives with her, they limit visitors and get takeout about twice a week.",
+          "value": "limits social outings, orders takeout twice a week",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she wears a mask; it's required, and she has her mask when at CVS.",
+          "value": "wears a mask in public",
+          "lines": [
+            69,
+            71,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "To avoid glasses fogging with a mask, she puts in contacts when going out.",
+          "value": "uses contacts instead of glasses when going out to avoid fog",
+          "lines": [
+            97,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She went on vacation the week of March 9th.",
+          "value": "vacationed in early March 2020",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Both speakers confirm she does not have a southern accent; people were disappointed she didn't sound Texan.",
+          "value": "lacks a southern accent",
+          "lines": [
+            104,
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she talked fast and people thought she was from New York, and speaker_b says she would say Northeast.",
+          "value": "speaks fast",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to wear black a lot and wore black cowboy boots in college.",
+          "value": "used to wear black clothing and black cowboy boots",
+          "lines": [
+            113,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't own a hat, and none of her family really wears one besides her grandfather.",
+          "value": "does not wear a cowboy hat",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says people used to think she was from New York and still do; speaker_b confirms Northeast impression.",
+          "value": "perceived as from New York/Northeast based on speech",
+          "lines": [
+            113,
+            115,
+            116
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in New Jersey' directly.",
+          "value": "New Jersey",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During time zone discussion, speaker_a says 'you're eastern' and speaker_b confirms.",
+          "value": "Eastern time zone",
+          "lines": [
+            167,
+            168,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she is a mom, mentions a daughter, and is referred to as female contextually.",
+          "value": "female",
+          "lines": [
+            30,
+            48,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I have three teenagers' explicitly.",
+          "value": "mother of three teenagers",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm from new york' and visits relatives there often.",
+          "value": "originally from New York",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asked if working from home, she says 'Oh no, I'm not. I'm actually a mom', implying she does not work outside the home.",
+          "value": "stay-at-home mom (not employed outside home)",
+          "lines": [
+            29,
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she has a terrible allergy to ragweed.",
+          "value": "allergy to ragweed",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She uses Benadryl at night and Flonase during the day (ASR 'flown 8s').",
+          "value": "uses Benadryl nightly and Flonase daily for allergies",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she wears 'cheater reader glasses' when looking at things in the store.",
+          "value": "wears reading glasses",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She indicates she is not working, saying she is a mom instead when asked about working from home.",
+          "value": "unemployed (homemaker)",
+          "lines": [
+            29,
+            30
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She has three teenagers: one daughter (loves country music) and one son about to go to college, plus another child.",
+          "value": "three teenage children (daughter, college-bound son, and another)",
+          "lines": [
+            30,
+            32,
+            34,
+            48,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my mom' and her cat, implying her mother is alive or recently alive.",
+          "value": "has a mother",
+          "lines": [
+            332
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She goes to New York a lot to see relatives.",
+          "value": "has relatives in New York",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her current cat as a little Persian, 16 years old, 5 lbs, named Angel (garbled 'Texas cerebral minds angel' interpreted).",
+          "value": "Persian cat named Angel (16 years old)",
+          "lines": [
+            314,
+            324,
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she had another cat that passed away a couple of years ago, weighing 15 lbs.",
+          "value": "had another cat that passed away (~15 lbs)",
+          "lines": [
+            314,
+            342,
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions watching Schitt's Creek, Big Little Lies, Little Fires Everywhere, Catch a Smuggler, Live PD, Dateline, 48 Hours; enjoys crime/drama/reality.",
+          "value": "enjoys watching TV series (true crime, drama, reality)",
+          "lines": [
+            224,
+            228,
+            230,
+            256,
+            276,
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we go to new york a lot to see my relatives'.",
+          "value": "frequently visits relatives in New York",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She declares 'I do love animals' and stresses her love for them.",
+          "value": "loves animals",
+          "lines": [
+            312,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Masks are required there; she says 'we're even supposed to wear it when walking or jogging' and people are taking it seriously.",
+          "value": "follows mask mandate",
+          "lines": [
+            70,
+            72,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She puts on 'cheater reader glasses' implying she wears reading glasses in daily life.",
+          "value": "wears reading glasses",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

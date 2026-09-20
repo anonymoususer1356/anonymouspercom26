@@ -1,0 +1,328 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states 'my name's Melissa' at line 11.",
+          "value": "Melissa",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in the suburbs of Chicago (11), then clarifies she is closer to Aurora, about 45 minutes west, right before the cornfields (13). Complaints about Illinois taxes confirm she lives in the state (153).",
+          "value": "Near Aurora, Illinois (west of Chicago suburbs)",
+          "lines": [
+            11,
+            13,
+            153
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly refers to 'my husband' (19) and has a female name (Melissa), supporting that she is female.",
+          "value": "Female",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Complains about 'outrageous property taxes' in Illinois, suggesting she pays them and likely owns a home (153).",
+          "value": "Homeowner (pays property taxes) in Illinois",
+          "lines": [
+            153
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says her husband got a job over in Joliet (19); household has employment income.",
+          "value": "Husband is employed (job in Joliet)",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Frequent mentions of 'my husband' (19, 153, 177) establish she is married.",
+          "value": "Married",
+          "lines": [
+            19,
+            153,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References 'my parents are downstate' (25) and mentions they lived in Alabama when she was young (41), indicating living parents.",
+          "value": "Has living parents in downstate Illinois",
+          "lines": [
+            25,
+            41,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my in-laws' (161) and 'my father in law' (177).",
+          "value": "Has in-laws (father-in-law alive)",
+          "lines": [
+            161,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Explicitly says she listens to a lot of podcasts, many related to economics (101).",
+          "value": "Listens to economics podcasts",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has always thought it would be nice to tour the country in an RV (49).",
+          "value": "Interested in touring the U.S. by RV",
+          "lines": [
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she would move to the Wyoming plains to have a lot of space and be very rural (37).",
+          "value": "Prefers rural living (would move to Wyoming plains)",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Explicitly introduces himself: 'My name is Jeremy' (26).",
+          "value": "Jeremy",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says he lives in Stone Mountain, Georgia, 15 minutes from Atlanta (26); earlier states he is in Atlanta now (14); mentions being in Georgia for about 10 years (126, 128).",
+          "value": "Stone Mountain, Georgia (near Atlanta)",
+          "lines": [
+            14,
+            26,
+            30,
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is from New Lenox/Joliet, Illinois (south suburbs of Chicago) and also lived in Schaumburg (16).",
+          "value": "Originally from New Lenox/Joliet, Illinois; also lived in Schaumburg, IL",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Jeremy, mentions being never married (56), and context (42-year-old male) supports male gender.",
+          "value": "Male",
+          "lines": [
+            26,
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm 42' (54).",
+          "value": "42 years old",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states 'I'm not religious' (120).",
+          "value": "Not religious",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has a masters in public administration (148).",
+          "value": "Has a master's in public administration",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'my background is in political science' (148).",
+          "value": "Background in political science",
+          "lines": [
+            148
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'no Children' (54) and that he prefers to be childless (56).",
+          "value": "Childless by choice",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Describes flipping over his handlebars in May 2009 (106, 110), sustaining a concussion, and being on a four-month medical protocol (116).",
+          "value": "Sustained a concussion in a bike accident (May 2009)",
+          "lines": [
+            106,
+            110,
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions living in an apartment complex when describing neighbors' car purchases (198).",
+          "value": "Lives in an apartment complex",
+          "lines": [
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Bought a Surly Disc Trucker touring bike for $1,700 (114; ASR 'surly dis trucker, seven').",
+          "value": "Owns a $1,700 Surly Disc Trucker touring bike",
+          "lines": [
+            114
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States outright 'never been married' (56).",
+          "value": "Never married",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions his sister attended Northern (16) and currently works at the University of Chicago (184).",
+          "value": "Has a sister who works at University of Chicago",
+          "lines": [
+            16,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his sister's husband works at a seminary in Chicago (184).",
+          "value": "Has a brother-in-law who works at a seminary",
+          "lines": [
+            184
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "References parents living in New Lenox after his father, an OBGYN, graduated medical school and set up practice (24, 98).",
+          "value": "Has parents (father is an OBGYN) living in New Lenox, IL",
+          "lines": [
+            24,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my grandmother' in the context of family caregiving (192).",
+          "value": "Has a living grandmother",
+          "lines": [
+            192
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes daily bike riding (222), using a bike to get everywhere (182), buying a touring bike, and planning a long cross-country bike tour (48, 114).",
+          "value": "Avid cyclist (daily riding, owns touring bike, plans cross-country tour)",
+          "lines": [
+            48,
+            114,
+            182,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has been to about 12 countries and taught English in China and Taiwan (52, 76).",
+          "value": "Traveled to ~12 countries, taught English in China and Taiwan",
+          "lines": [
+            52,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attended an Atlanta Hawks NBA game in early March (86).",
+          "value": "Attends NBA games (Atlanta Hawks)",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions the hospitality network for cyclists, Warm Showers (50, 52).",
+          "value": "Uses Warm Showers (hospitality network for cyclists)",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he flies back on Spirit Airlines for about $30 to visit family and eat in Illinois (218).",
+          "value": "Flies Spirit Airlines to visit family in Illinois",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

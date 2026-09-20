@@ -1,0 +1,594 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself with 'my name's Amy' at line 11. The name is clearly stated but she immediately gives another name, so it may be a first attempt or an alternative.",
+          "value": "Amy",
+          "lines": [
+            11
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a also says 'my name's Angle' at line 11. The ASR output 'Angle' is phonetically close to 'Angie' and is likely the intended name she wants to be called. Recorded as 'Angie' following the instruction to record the intended term for a phonetic ASR error.",
+          "value": "Angie",
+          "lines": [
+            11
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in Georgia' (line 15) and later refers to 'the city where we live' and a restaurant 'in Covington Georgia' (line 161). She also states she moved from Alabama to Georgia (line 71). Covington is the most specific location supported.",
+          "value": "Covington, Georgia",
+          "lines": [
+            15,
+            71,
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I lived in Alabama and then I moved to Georgia' (line 71).",
+          "value": "originally from Alabama",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to herself as a woman (line 33 'it's hard with women'), mentions a husband, and speaks about makeup and other female‑coded interests.",
+          "value": "female",
+          "lines": [
+            33,
+            95,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'right now I'm still 30' (line 37).",
+          "value": "30 years old",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'mines in december minds closer to christmas' (line 363).",
+          "value": "birthday in December",
+          "lines": [
+            363
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'because I'm married' (line 95) and gives details of her marriage (lines 117‑121).",
+          "value": "married",
+          "lines": [
+            95,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a reveals she has three children: two girls and a boy, son is oldest, youngest is five (lines 101, 104, 107, 115).",
+          "value": "three children: one son (oldest) and two daughters (youngest is 5)",
+          "lines": [
+            101,
+            104,
+            107,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have two sisters' (line 195) and 'I'm in the middle' (line 207).",
+          "value": "two sisters, middle child",
+          "lines": [
+            195,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'now I just stay home with the kids' (line 45).",
+          "value": "stay‑at‑home mother",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a details her previous job: 'I worked at the grocery store for almost five years' in the deli department (lines 45, 47).",
+          "value": "former deli worker at a grocery store (~5 years)",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'just a little bit' of sign language and that she took it in high school (lines 208‑210).",
+          "value": "knows basic sign language",
+          "lines": [
+            208,
+            209,
+            210
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a jokes 'take my glasses' while pretending to show wrinkles (line 35), indicating she wears glasses.",
+          "value": "wears glasses",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she now stays home with the kids (line 45); no current outside employment is mentioned.",
+          "value": "homemaker, not currently employed outside the home",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she worked at the grocery store deli for almost five years (lines 45, 47).",
+          "value": "previously earned income as a deli worker",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a describes her husband: met online when she was 16, married at 22, together 14 years; he is from Georgia and plays computer games (lines 95, 117‑121, 131).",
+          "value": "married to a man she met online at 16; he is from Georgia and plays computer games",
+          "lines": [
+            95,
+            117,
+            121,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have three kids' and details their genders and ages (lines 101, 104, 107, 115).",
+          "value": "mother of a son (oldest) and two daughters (youngest is 5)",
+          "lines": [
+            101,
+            104,
+            107,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I call my mom every day' (line 99) and talks about her mother's prayers (line 203).",
+          "value": "close relationship with her mother; mother is alive",
+          "lines": [
+            99,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have two sisters' (line 195) and 'I'm in the middle' (line 207).",
+          "value": "two sisters (one older, one younger)",
+          "lines": [
+            195,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a friend who's from Albania' (line 77).",
+          "value": "friend from Albania",
+          "lines": [
+            77
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I have a friend who's from Haiti' (lines 77, 79).",
+          "value": "friend from Haiti",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a describes a friend in Texas she met on Reddit (line 303).",
+          "value": "online friend in Texas (met on Reddit)",
+          "lines": [
+            303
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'my in LAMAs' (line 383), which in context of going to a barbecue and swimming likely means 'my in‑laws'.",
+          "value": "has in‑laws",
+          "lines": [
+            383
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I play piano' (line 135) and mentions having a piano at home (line 137).",
+          "value": "plays piano",
+          "lines": [
+            135,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I like to crochet with the yarn' (line 317).",
+          "value": "crochets",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions looking at makeup subreddits and appreciating 'pretty looks' (line 317).",
+          "value": "interested in makeup/beauty",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a names several shows and movies she watches (lines 151, 155, 163, 169, 179).",
+          "value": "watches TV shows (HIMYM, Shameless, Stranger Things) and movies (Interview with the Vampire, Back to the Future)",
+          "lines": [
+            151,
+            155,
+            163,
+            169,
+            179
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I read a lot of books' (line 151).",
+          "value": "reads books frequently",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes using Reddit and lists subreddits she likes (lines 303‑317).",
+          "value": "active Reddit user (unsolved mysteries, unresolved mysteries, girls gone wild, crochet, makeup)",
+          "lines": [
+            303,
+            313,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is always looking for the best cheeseburger and names Mystic Grill in Covington as the current best (line 161).",
+          "value": "enthusiastic about cheeseburgers; favourite from Mystic Grill, Covington",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she misses going to the movie theatre (line 185).",
+          "value": "misses movie theatres (due to pandemic)",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about wearing a mask to be safe (line 189).",
+          "value": "wears a mask for COVID safety",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she has two cats and describes one with a short tail (lines 267, 273).",
+          "value": "owns two cats (one with a naturally short tail)",
+          "lines": [
+            267,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she thought about getting a dog and wanted a pug (line 283).",
+          "value": "considers getting a pug",
+          "lines": [
+            283
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions going to a barbecue and swimming later that day (line 381).",
+          "value": "enjoys barbecues and swimming",
+          "lines": [
+            381
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I call my mom every day' (line 99).",
+          "value": "calls her mother daily",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes herself as 'a chatty person' (line 189) and says she talks a lot and talks with her hands (lines 211‑215).",
+          "value": "very talkative, talks with hands",
+          "lines": [
+            189,
+            211,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a references her glasses (line 35).",
+          "value": "wears glasses",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she talks so much with her hands that she might smack someone (line 213).",
+          "value": "uses expressive hand gestures",
+          "lines": [
+            213
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'My name is Laurie' (line 6) and repeats 'Lovey' (line 8). The intended name is 'Laurie' (or 'Larry' as speaker_a interpreted). The verbatim ASR 'Laurie' is recorded.",
+          "value": "Laurie",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b's response to 'where are you from?' includes 'take since Georgia' (line 14), and speaker_a immediately follows with 'I've never been to texas' (line 17), implying speaker_b mentioned Texas. The ASR is garbled, but the context makes Texas the most likely current location.",
+          "value": "Texas (current residence)",
+          "lines": [
+            14,
+            17
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I'm from Africa originally' (line 82).",
+          "value": "originally from Africa",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how long lived in the US, speaker_b says 'a couple of years, let me say 2, 3 years ago' (line 84). The later utterance '13' is likely an ASR error.",
+          "value": "lived in the US about 2-3 years",
+          "lines": [
+            84
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says '27 mine' (line 30) in answer to age.",
+          "value": "27 years old",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My birthday is um September two 26' (line 344).",
+          "value": "birthday September 26",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b indicates 'I'm still searching' for a partner (line 234) and confirms no significant other (lines 230‑233).",
+          "value": "single",
+          "lines": [
+            230,
+            234
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'No, no evidence' when asked about kids (line 100).",
+          "value": "no children",
+          "lines": [
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states 'I have um two brothers and a sister' (line 194).",
+          "value": "two brothers and one sister",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's work is discussed: he/she works at a grocery store as a cashier (lines 44, 49, 50).",
+          "value": "cashier at a grocery store",
+          "lines": [
+            44,
+            49,
+            50
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b confirms working at a grocery store as a cashier (lines 44‑50).",
+          "value": "employed as a cashier",
+          "lines": [
+            44,
+            49,
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm off today' (line 376).",
+          "value": "had a day off at the time of the conversation",
+          "lines": [
+            376
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I miss my relatives, my close family' in Africa (line 88).",
+          "value": "has close family/relatives in Africa",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states having two brothers and a sister (line 194).",
+          "value": "siblings: two brothers and a sister",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have some awesome friends' in the US, though not childhood friends (line 94).",
+          "value": "has friends in the US (not from growing up)",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm still searching' when asked about a significant other (line 234) and answers 'Mhm' (no) to having one (lines 230‑233).",
+          "value": "currently no romantic partner",
+          "lines": [
+            230,
+            231,
+            232,
+            234
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I play a game on my on my ps' (line 128), referring to a PlayStation console.",
+          "value": "plays PS4 games",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I guess I'll just stay on the internet' (line 378) and mentions YouTube (line 380).",
+          "value": "spends free time on the internet/YouTube",
+          "lines": [
+            378,
+            380
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've seen this season one and 2' of Stranger Things (line 170) and mentions Netflix (line 169 context).",
+          "value": "watches Stranger Things (seasons 1-2) on Netflix",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes visiting a subreddit about stories of people making mistakes, spelling it as 'C. I. F. You' and later 'T T' / 'T I' (lines 322‑331). This is likely r/TIFU (Today I F***ed Up).",
+          "value": "Reddit user, visits subreddit likely r/TIFU",
+          "lines": [
+            322,
+            326,
+            328,
+            330
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I love dogs' and would like a golden retriever (lines 262, 266).",
+          "value": "dog lover, wants a golden retriever",
+          "lines": [
+            262,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like it on a slow day' at work (line 54).",
+          "value": "prefers slow days at work",
+          "lines": [
+            54
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm nothing to um does that make me a liberal?' and 'I'm not into all those' regarding astrology (lines 350, 352).",
+          "value": "not interested in astrology",
+          "lines": [
+            350,
+            352
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

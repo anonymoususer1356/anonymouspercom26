@@ -1,0 +1,366 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'what's your name?', speaker_a replies 'some cats short for Katherine', which ASR renders as 'some cats short for Katherine', meaning 'Cat, short for Katherine'.",
+          "value": "Cat (short for Katherine)",
+          "lines": [
+            10,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in Utah' (line 19), later specifies 'in the Salt Lake area' and 'different part of the valley' (line 117), and later explicitly 'Salt Lake County where I live' (line 319). Combined, the location is Salt Lake County, Utah.",
+          "value": "Salt Lake County, Utah",
+          "lines": [
+            19,
+            117,
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker explicitly says 'I am 29' when asked about kids.",
+          "value": "29 years old",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says 'I'm not married or anything right now'.",
+          "value": "not married",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm a caregiver, so I work supporting like adults with disabilities' and 'I've worked in the same field for about 10 years', and later confirms she is paid through the state.",
+          "value": "caregiver for adults with disabilities, paid by state",
+          "lines": [
+            35,
+            37,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_b says adoption is hard unless you're independently wealthy, speaker_a responds 'no, I'm not, no, it's true', confirming she is not independently wealthy.",
+          "value": "not independently wealthy",
+          "lines": [
+            106,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she moved in with a best friend and is renting a room from her.",
+          "value": "rents a room from best friend",
+          "lines": [
+            117,
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says she lived with her grandmother for five years to help take care of her, and still visits.",
+          "value": "grandmother (lived with and cared for)",
+          "lines": [
+            111,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she moved in with a best friend.",
+          "value": "best friend (roommate)",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her client, a nonverbal woman named Tenley, whom she cares for as a caregiver.",
+          "value": "client Tenley (nonverbal woman with disabilities)",
+          "lines": [
+            219,
+            257,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't have any kids' and 'I'm not married or anything right now'.",
+          "value": "no children, unmarried",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she usually works four days a week as a caregiver.",
+          "value": "works four days a week as caregiver",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She previously lived with her grandmother for five years to take care of her.",
+          "value": "lived with grandmother for 5 years as caregiver",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She used to babysit for families with children aged 3-5 before coronavirus.",
+          "value": "used to babysit children ages 3-5",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she might want to foster or adopt children eventually.",
+          "value": "interested in fostering or adopting children",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "When speaker_b mentions glasses fogging up, speaker_a responds 'that happens to me too', indicating she wears glasses.",
+          "value": "wears glasses",
+          "lines": [
+            269,
+            270
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'I'm Jody' or 'Jody' at line 14, and speaker_a addresses her as 'Jody' at line 15.",
+          "value": "Jody",
+          "lines": [
+            14,
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked by speaker_a 'Where are you michigan?', speaker_b replies 'I'm in michigan yeah'.",
+          "value": "Michigan",
+          "lines": [
+            23,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "While discussing manufactured homes, speaker_b says 'here in Leicester all the country' (line 166), suggesting she lives in or near Leicester, MI. ASR gives 'Leicester', which may be a phonetic match for a place like Lester, but exact match uncertain.",
+          "value": "Leicester (likely a town in Michigan)",
+          "lines": [
+            166
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When discussing career uncertainty, speaker_b says 'I'm retirement age almost not quite'.",
+          "value": "near retirement age (not quite)",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I have a stigmatism' (astigmatism) when discussing contacts and glasses.",
+          "value": "astigmatism",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I looked disability so that doesn't leave much money' (line 184), indicating she receives disability benefits.",
+          "value": "receives disability benefits",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 184: 'we paid 1000 a month and I looked disability so that doesn't leave much money', explicitly stating disability income.",
+          "value": "on disability income",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 278: 'The job I work at part time is made sandwiches restaurant', meaning she works part-time at a sandwich restaurant.",
+          "value": "works part-time at a sandwich restaurant",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she drove for a living and is retired from that (line 34), and later mentions driving city bus (line 240). So she previously drove a city bus.",
+          "value": "former city bus driver",
+          "lines": [
+            34,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she sold her condo to help her son with a mortgage (line 132), and previously owned a condo in Grand Haven (line 144). Now she rents an upstairs apartment for $1000/month (line 184).",
+          "value": "sold condo to help son, now rents apartment",
+          "lines": [
+            132,
+            144,
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my daughter doesn't have any Children and you can't have any and um she's not married or anything you can get that's what she wants to do but she lives with me' (line 78). So she has a daughter who lives with her.",
+          "value": "daughter (lives with her, wants to adopt)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a son multiple times: the one she helped with housing (lines 126-128, 132), and later 'my son' line 338 discussing surgery and COVID at work. That son has three kids (line 128).",
+          "value": "son (has three children, she helped him financially)",
+          "lines": [
+            126,
+            128,
+            132,
+            338
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I got grandkids' and mentions a '16 year old grandson and Turkey boy' (likely ASR for 'teenage boy') (line 66). Her son has three kids, so she has at least one grandson age 16 and other grandchildren.",
+          "value": "grandchildren (including 16-year-old grandson)",
+          "lines": [
+            66,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had a cousin that did that that for I don't know how come she got into it but she didn't have kids of her own either and she ended up doing foster care and she adopted three of them' (line 82). So she has a cousin who adopted three children.",
+          "value": "cousin (adopted three children)",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 18: 'I like light bright', indicating she enjoys bright lights.",
+          "value": "enjoys bright lights",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 240: 'when I used to drive bust city bus and we picked up a special needs', confirming past city bus driving.",
+          "value": "used to drive city bus",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains she ran a daycare for 20 years, both regular and group daycare, while her own children were growing up (lines 48-58).",
+          "value": "ran a daycare for 20 years while raising children",
+          "lines": [
+            48,
+            52,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 278: part-time at sandwich restaurant; line 184: rents upstairs apartment, has a garage (line 186).",
+          "value": "rents upstairs apartment with garage, works part-time at sandwich shop",
+          "lines": [
+            184,
+            186,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 368: 'I carry masks in a plastic day just in case', meaning she keeps spare masks in the car.",
+          "value": "carries spare masks in car",
+          "lines": [
+            368
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 194: 'if I completed 300 hours plus a storage unit that I could get rid of it would so be worth it' and earlier lines indicate she is looking to move to a cheaper place.",
+          "value": "looking to downsize/move to cheaper housing",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She discusses glasses fogging up (line 269), needing contacts due to astigmatism (line 272), having bought new glasses last year (line 284).",
+          "value": "wears glasses",
+          "lines": [
+            269,
+            272,
+            284
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Abraham in line 7.",
+          "value": "Abraham",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'since we live in the US' (line 196) and speaker_a does not disagree, and speaker_a discusses exchanging pounds to dollars (line 199), implying US residence.",
+          "value": "United States",
+          "lines": [
+            196,
+            199
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Abraham is typically male.",
+          "value": "Male",
+          "lines": [
+            7
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a owns a PS4 and a Nintendo Switch and plays video games.",
+          "value": "Gamer",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I was just looking to flip it' about the PS5, indicating reselling for profit.",
+          "value": "Attempts to resell PS5 for profit",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a does surveys on Prolific and Amazon Mechanical Turk for extra money, stating 'I just try to ... make something extra' and that Prolific is 'good money'.",
+          "value": "Participates in paid online surveys",
+          "lines": [
+            151,
+            163,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I just got off work' (line 7) and 'I'm working ... I clocked in at eight' (line 99), indicating employment.",
+          "value": "Employed with a job that starts at 8 AM",
+          "lines": [
+            7,
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a plays video games on PS4 and Switch.",
+          "value": "Plays video games",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I clocked in at eight but I don't start I'm still in bed to like 8.30' (line 99), strongly implying working from home.",
+          "value": "Works from home",
+          "lines": [
+            99
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Michelle in line 6.",
+          "value": "Michelle",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'where I live in the eastern time zone' (line 24) and 'since we live in the US' (line 196).",
+          "value": "US Eastern time zone",
+          "lines": [
+            24,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Michelle is typically female.",
+          "value": "Female",
+          "lines": [
+            6
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions moving out from 'freshman door' (dorm) and into 'sophomore Don' (dorm), indicating she is a sophomore in college.",
+          "value": "College sophomore",
+          "lines": [
+            306,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm gonna be a stand major' (line 312), which is phonetically 'STEM major'.",
+          "value": "STEM major",
+          "lines": [
+            312
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I am not a people's person' (line 154), 'I don't like talking to people' (line 156), and 'I'm like sweating my guts out because of like the anxiety of talking to people' (line 370).",
+          "value": "Social anxiety",
+          "lines": [
+            154,
+            156,
+            370
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a short attention span' (line 230).",
+          "value": "Short attention span",
+          "lines": [
+            230
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'when you're broke' (line 66) and 'I'm too poor for that shit' (line 82), indicating financial constraint.",
+          "value": "Financially constrained",
+          "lines": [
+            66,
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she started Prolific in February and made over £500 (line 164), and describes other paid surveys.",
+          "value": "Earns money from paid surveys (over £500 on Prolific)",
+          "lines": [
+            164,
+            174,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my brother gave it to me' when he got a new Oculus (line 250) and describes watching him play games (line 282).",
+          "value": "Has a brother",
+          "lines": [
+            250,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my friend, she got addicted to it' about Animal Crossing (line 92).",
+          "value": "Has a female friend",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dad called me' (line 144).",
+          "value": "Has a father",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b tries to buy a PS5 (line 12), owns a VR headset (line 250), watches her brother play games, and discusses gaming often.",
+          "value": "Gamer",
+          "lines": [
+            12,
+            250,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes taking 7 classes (14 credit hours) with labs, and states school is 'kicking my ass' (lines 320, 322, 308).",
+          "value": "Heavy course load as a college student",
+          "lines": [
+            320,
+            322,
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

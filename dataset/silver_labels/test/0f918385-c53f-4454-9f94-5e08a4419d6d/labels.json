@@ -1,0 +1,243 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'abby' in line 3.",
+          "value": "Abby",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'just like meeting people and getting paid 15 bucks' in line 15, implying she is receiving payment for this conversation.",
+          "value": "Receives $15 for this conversation",
+          "lines": [
+            15
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 31 refers to 'my partner, she was a researcher'; line 141 mentions 'my fiance and I'. Both refer to the same female partner.",
+          "value": "Engaged to a female partner who was a researcher",
+          "lines": [
+            31,
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 11: 'My mom was born there'; line 13: 'She grew up in um the tanning, it's really small'.",
+          "value": "Mother (born in Pennsylvania, grew up in 'the tanning')",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 265: 'me and my little brother drove through pennsylvania'.",
+          "value": "Little brother",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 265: 'I have friends, family in pennsylvania in Pittsburgh'.",
+          "value": "Friends or family in Pittsburgh, PA",
+          "lines": [
+            265
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 123: 'I have a dog in the house'.",
+          "value": "Owns a dog",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 83: 'I have a Nintendo switch'.",
+          "value": "Owns a Nintendo Switch",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 243: 'I've been playing a lot of mortal kombat and animal crossing'.",
+          "value": "Plays Mortal Kombat and Animal Crossing",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'melissa melissa' in line 4.",
+          "value": "Melissa",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 12: 'I'm in state college now, so I'm like dead center of the state'; also confirmed in lines 257-262.",
+          "value": "State College, Pennsylvania",
+          "lines": [
+            12,
+            257,
+            258,
+            260,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 12: 'I grew up in philadelphia area'.",
+          "value": "Philadelphia area",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Lines 20-22: 'I was like sick two weeks ago and it wasn't Covid I got tested but I got quarantined from my work'.",
+          "value": "Had a non-Covid illness two weeks ago, quarantined from work",
+          "lines": [
+            20,
+            21,
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 24: 'I'm just a researcher'.",
+          "value": "Researcher",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 42 mentions 'my husband'; line 140 says married for four years.",
+          "value": "Married to husband for four years",
+          "lines": [
+            42,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 142: 'my mom was like my parents paid for our wedding'.",
+          "value": "Mother",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 164: 'my uncle was like, oh well I recorded your dad's speech' indicates a father.",
+          "value": "Father",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 148: 'I got a really good idea from my aunt'.",
+          "value": "Aunt",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 6: 'downsizing apartments because the roommate moved out'.",
+          "value": "Former roommate",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 94: 'So bingo, there's another one named lucy'.",
+          "value": "Two cats named Bingo and Lucy",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 54: 'my board game geek is like ... 250 or so games'.",
+          "value": "~250 board games",
+          "lines": [
+            54
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 80-82 list multiple consoles explicitly.",
+          "value": "Owns PS2, Wii, Wii U, Switch, PS3, PS4, DS lite, new 3DS",
+          "lines": [
+            80,
+            81,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 40: 'I go in at like six a.m. Now every day'.",
+          "value": "Goes to work at 6 AM",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 208-210: go back to cupcake shop for anniversary every year and get cupcakes 4 times a year.",
+          "value": "Celebrates anniversaries, birthdays, Valentine's Day with cupcakes from a specific shop",
+          "lines": [
+            208,
+            209,
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

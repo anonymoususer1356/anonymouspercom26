@@ -1,0 +1,250 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses him as 'matt' in line 4, asking 'Where you at matt?', which is phonetically likely 'Matt'.",
+          "value": "Matt",
+          "lines": [
+            4
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'out in cold michigan, okay out west a little' (line 3), 'here in michigan' (line 29), and 'we're michigan' (line 71).",
+          "value": "Michigan (western part, 'out west a little')",
+          "lines": [
+            3,
+            29,
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 25: 'I am a workaholic and going to school', so attending school.",
+          "value": "student",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 25: 'I am a workaholic', implying full-time employment.",
+          "value": "workaholic (employed full-time)",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 49: 'got two' referring to children.",
+          "value": "parent",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 81: speaker_a says about a potential $400 stimulus 'that's groceries for my dogs, that's not even going to feed me and the family', implying household food costs exceed $400.",
+          "value": "Implies household grocery costs exceed $400 (based on stimulus comment)",
+          "lines": [
+            81
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 49: 'got two' indicating two children.",
+          "value": "has two children",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 49, 51: uses 'we' ('we had one dog and we got a puppy') and has children, implying a co-parent partner.",
+          "value": "has a spouse/partner",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 27: 'one of my buddies lives out there' in response to speaker_b being in Oregon.",
+          "value": "has a buddy in Oregon",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 159, 161: 'One of my body[buddy] was like...' and 'a couple of other buddies who grew through college', indicating multiple friends who grew marijuana.",
+          "value": "has multiple friends who grew marijuana",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 49-55 describe having dogs: 'the dogs ... we had one dog and we got a puppy ... he was a puppy a couple months ago now he's almost one'. Two dogs, one with separation anxiety.",
+          "value": "Has two dogs (one adult, one puppy), one with separation anxiety",
+          "lines": [
+            49,
+            51,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 25: 'vacation is not in my vocabulary'.",
+          "value": "does not take vacations due to work and school",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 49, 51: 'since being grounded and stuck at home' and 'when you're bored at home' during pandemic.",
+          "value": "homebound during COVID-19 pandemic",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 91: 'I look around my house' indicates living in a house.",
+          "value": "lives in a house",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: 'My name is chuck man.' Speaker_a also calls him 'chuck' in line 3.",
+          "value": "Chuck",
+          "lines": [
+            3,
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 4: 'I'm over in Oregon'; 6: 'I'm running the California border'; 26: 'my vacations are about going to the Coast 50 miles away'; 108: 'We only have four million people in this state.'; 118: 'our whole east side here...' indicating western Oregon near California and coast.",
+          "value": "Oregon, near California border, within 50 miles of the coast",
+          "lines": [
+            4,
+            6,
+            26,
+            108,
+            118
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 36: 'I'm kind of libertarian art as far as, you know, screw taxes and uh make everything legal.'",
+          "value": "libertarian (political ideology)",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Lines 168-170: 'I was actually in on a big medical grow back in 2008 that got raided by the D. ... it was 99 plants so they came and got my buddy who I was working with and he did five years for it'. He participated in the grow, though not convicted himself.",
+          "value": "Participated in a medical marijuana grow operation that was raided by federal authorities in 2008; colleague served 5 years",
+          "lines": [
+            168,
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Lines 156: '$600 a pound... make it legal the whole country wide and I might get into it' (not currently growing); 172: 'Everybody is poor here'; 180: 'everybody's growing weed and so we'd like $500 a pound here. It's not even worth growing.'",
+          "value": "Resides in economically depressed area (cannabis industry, low prices, poverty); not a cannabis grower currently but would consider if national legalization",
+          "lines": [
+            156,
+            172,
+            180
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 40: 'I got a buddy in Kalamazoo'.",
+          "value": "has a buddy in Kalamazoo, Michigan",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 170: 'they came and got my buddy who I was working with and he did five years'.",
+          "value": "former colleague/buddy from 2008 grow raid who served 5 years in prison",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 44-46: 'that's a friend' and 'I told him I needed ... to quiet, so of course they want to knock on the damn door'.",
+          "value": "has a friend who interrupted by knocking",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 26: 'My vacations are about going to the Coast 50 miles away.'",
+          "value": "Takes vacations to the Oregon coast, 50 miles away",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 14: 'I think I've signed up for eight of these so far or no, nine of them so far I've done for and five of more no shows'; 20: 'I came up with a list of 250 questions'.",
+          "value": "Participates in online video chat social experiments (signed up for 9, completed 4, prepared 250 questions)",
+          "lines": [
+            14,
+            20
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

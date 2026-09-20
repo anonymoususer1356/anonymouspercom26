@@ -1,0 +1,548 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is jenny'.",
+          "value": "Jenny",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Lexington Kentucky right now'.",
+          "value": "Lexington, Kentucky",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I was actually born and raised in New Orleans'.",
+          "value": "New Orleans, Louisiana",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a has a feminine name Jenny and refers to her husband.",
+          "value": "Female",
+          "lines": [
+            15,
+            113
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I recently got married'.",
+          "value": "Married",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'stereotypical very strict asian parents' (line 185), family in Taiwan (line 155), and parents owning a Chinese restaurant (line 175), indicating Asian ethnicity.",
+          "value": "Asian (Chinese/Taiwanese)",
+          "lines": [
+            155,
+            175,
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually went back to school to get my PhD and accounting' (line 17) and mentions being in dissertation phase (line 45).",
+          "value": "PhD student in accounting",
+          "lines": [
+            17,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'after I like graduated got my masters in accounting'.",
+          "value": "Master's in accounting",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I sat for my C. P. A. Exam'.",
+          "value": "Took CPA exam",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I've been working from home'.",
+          "value": "Works from home",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not teaching this semester'.",
+          "value": "Not teaching this semester",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we both worked in the accounting and audit world', referring to herself and her office mate.",
+          "value": "Previously worked in accounting and audit",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'there are some conferences abroad that like universities will pay for' in context of her conference travel.",
+          "value": "Receives university funding for conference travel",
+          "lines": [
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother, sister and I used to work there' referring to her parents' restaurant, indicating she worked there.",
+          "value": "Worked in family restaurant",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my husband' repeatedly, e.g., 'I recently got married, so my husband and I'.",
+          "value": "Husband (unnamed)",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my husband who is a hand therapist, like an occupational therapist'.",
+          "value": "Husband is an occupational therapist",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my husband is from nova Scotia Canada'.",
+          "value": "Husband from Nova Scotia, Canada",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'his dad is Norwegian'.",
+          "value": "Husband's father is Norwegian",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my brother and sister' and says they are both medical doctors.",
+          "value": "Has a brother and a sister",
+          "lines": [
+            123,
+            125,
+            191
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother who lives in D. C.'.",
+          "value": "Brother lives in Washington D.C.",
+          "lines": [
+            123,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my parents are there, my sisters there' with context of New Orleans, indicating sister lives in New Orleans.",
+          "value": "Sister lives in New Orleans",
+          "lines": [
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my parents used to own a restaurant in memory which is a suburb of New Orleans... chinese restaurant' (ASR 'memory' likely Metairie).",
+          "value": "Parents owned Chinese restaurant in Metairie, Louisiana",
+          "lines": [
+            175
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'we always went to Taiwan like every couple of years or so because that's where all of our family is'.",
+          "value": "Extended family in Taiwan",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother and sister are both like medical doctors'.",
+          "value": "Brother and sister are medical doctors",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I love traveling as well'.",
+          "value": "Loves traveling",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm presenting my research and a lot of conferences'.",
+          "value": "Presents research at academic conferences",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a planned 2.5 month trip to Europe with husband, route: Spain, Germany, Amsterdam, Sweden, Norway.",
+          "value": "Planned 2.5 month Europe trip",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I usually like working at the office or at a coffee shop'.",
+          "value": "Prefers working at office or coffee shop",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I graduate in May 2021'.",
+          "value": "Graduation in May 2021",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we would always work there friday and saturday nights' about parents' restaurant.",
+          "value": "Worked Friday and Saturday nights at family restaurant",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I usually can't concentrate that well at home'.",
+          "value": "Difficulty concentrating at home",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'my name is Danielle'.",
+          "value": "Danielle",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I live in a very small town in pennsylvania close to the border of new york New Jersey'.",
+          "value": "Small town in Pennsylvania near NY/NJ border",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been here my whole life, I did move away for a year to Amsterdam for my masters'.",
+          "value": "Lifelong Pennsylvania resident except one year in Amsterdam",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I did move away for a year to Amsterdam for my masters'.",
+          "value": "Lived in Amsterdam for one year",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b has feminine name Danielle and context confirms.",
+          "value": "Female",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I have dual citizenship with Germany' (line 24) and explains her mother is from Germany (line 108).",
+          "value": "Dual US and German citizenship",
+          "lines": [
+            24,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom's from Germany' and 'my dad's from Poland'.",
+          "value": "German and Polish descent",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when I was at Penn State' indicating she attended.",
+          "value": "Bachelor's degree from Penn State",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'work and organizational psychology career' and 'for my masters' in Amsterdam.",
+          "value": "Master's in Work and Organizational Psychology",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes doing Semester at Sea, with courses through Colorado State University (line 158).",
+          "value": "Semester at Sea program participant",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I was applying like crazy for jobs' and details job search.",
+          "value": "Unemployed, job searching",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm trying to go more into, you know corporate jobs like from marketing to organizational development of human resources'.",
+          "value": "Job search focus on HR/marketing/organizational development",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she almost had a job but they said 'sorry, because schools are shut down, we can't really hire anyone for this role'.",
+          "value": "Job offer rescinded due to school closures",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'they have a restaurant, so I've been helping with that'.",
+          "value": "Helps at parents' restaurant",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually got a lot of financial aid and scholarships' for Semester at Sea.",
+          "value": "Received financial aid for Semester at Sea",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'they have a restaurant' referring to her parents, and describes their roles.",
+          "value": "Parents own a restaurant",
+          "lines": [
+            112,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom is a chef, she knows all this german food... she cooks mainly german food'.",
+          "value": "Mother is chef of German food",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad does some barbecue as well'.",
+          "value": "Father does barbecue in family restaurant",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the restaurant name is 'dairy. Yeager, The Hunter' (ASR verbatim).",
+          "value": "dairy. Yeager, The Hunter",
+          "lines": [
+            174
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents immigrated to the US in their twenties'.",
+          "value": "Parents immigrated to US in their 20s",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have his sister, yeah, she's older than me' (ASR 'his' likely 'a').",
+          "value": "Older sister",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'she moved to michigan for law school'.",
+          "value": "Sister studied law in Michigan",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'she just came back not that long ago. So now we're all living together again'.",
+          "value": "Sister lives in Pennsylvania with family",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions family from her mother in Germany and father in Poland, and 'all their families are there'.",
+          "value": "Extended family in Germany and Poland",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I love traveling'.",
+          "value": "Loves traveling",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm practicing more my german language skills'.",
+          "value": "Practicing German",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says Semester at Sea 'was 2016'.",
+          "value": "Semester at Sea in 2016",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes backpacking through Europe and South America during Semester at Sea.",
+          "value": "Backpacked in Europe and South America",
+          "lines": [
+            160,
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just miss living on the ship, it was great'.",
+          "value": "Lived on a ship during Semester at Sea",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've just always been around water, I feel like it's it's nice'.",
+          "value": "Enjoys being near water",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes using budget airlines in Europe to visit family for about €80 round trip.",
+          "value": "Used budget airlines in Europe for cheap travel",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

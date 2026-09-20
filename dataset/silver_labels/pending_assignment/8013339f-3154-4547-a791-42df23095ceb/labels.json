@@ -1,0 +1,494 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name when asked.",
+          "value": "Brad",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in Ohio' directly.",
+          "value": "Ohio",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we live in a little tiny small town'.",
+          "value": "lives in a small town",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'we live like four hours from Lake Erie'.",
+          "value": "lives about four hours from Lake Erie",
+          "lines": [
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'the town I work in has a city mask mandate' and contrasts it with where he lives, indicating a separate work location.",
+          "value": "works in a different town that has a city mask mandate",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm in my mid thirties'.",
+          "value": "mid-30s",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a calls himself a 'guy', uses the name Brad, and mentions a wife; consistent with male.",
+          "value": "male",
+          "lines": [
+            41,
+            49,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my wife'.",
+          "value": "married",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have three kids'.",
+          "value": "father of three",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I teach at the high school' and refers to going back to teaching and a Zoom class.",
+          "value": "high school teacher",
+          "lines": [
+            49,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'on the weekends I'm a musician'.",
+          "value": "musician",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to drive a box truck'.",
+          "value": "former box truck driver",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes receiving a dollar for a session with technical issues and scheduling sessions during his lunch break, indicating he participates for compensation.",
+          "value": "receives payment for online research tasks",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a is a high school teacher, implying a salary.",
+          "value": "earns salary as a teacher",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says playing music is 'the best way to make money on the side'.",
+          "value": "earns side income as a musician",
+          "lines": [
+            79,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says the construction crew pays him 'a little bit' for work on weekends.",
+          "value": "earns side income from construction work",
+          "lines": [
+            167,
+            169
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my wife'.",
+          "value": "has a wife",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he has three children and specifies his middle son is 8 and refuses cheese; implies two other children.",
+          "value": "has a son, age 8",
+          "lines": [
+            81,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Given three children total and a middle son, the other two are implied.",
+          "value": "has two other children",
+          "lines": [
+            49,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my parents live like three houses down from us'.",
+          "value": "parents live nearby (three houses down)",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm related to those guys' about the construction crew.",
+          "value": "related to construction crew members",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a plays music in bars on weekends.",
+          "value": "plays music in bars on weekends",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I helped coach baseball'.",
+          "value": "coaches children's baseball",
+          "lines": [
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes working on a historical house rehab on weekends.",
+          "value": "works on historical house renovation on weekends",
+          "lines": [
+            167,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes spending a whole weekend cooking with a big smoker and grills; enjoys barbecuing.",
+          "value": "enjoys barbecuing and smoking meats",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about fishing in Lake Erie and formerly in Canada, indicating it is a hobby.",
+          "value": "enjoys fishing",
+          "lines": [
+            137,
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I eat olives all the time' and goes through 2-3 jars a week.",
+          "value": "eats olives frequently",
+          "lines": [
+            219,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has been to Disney World multiple times as a child and has taken his own kids.",
+          "value": "has visited Disney World multiple times",
+          "lines": [
+            241,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions running to the dollar store regularly.",
+          "value": "shops at dollar store regularly",
+          "lines": [
+            105
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says he stops and buys gas at the same store every day on his way to work.",
+          "value": "buys gas daily at a specific store",
+          "lines": [
+            99
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says 'I'm not a tall guy' and compares himself to a shorter policeman.",
+          "value": "not tall (short or average height)",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a guesses the name 'Kim' and speaker_b confirms 'Yeah, kim.' The following word 'magnus' may be a surname or misrecognition, but the given name is clearly established.",
+          "value": "Kim",
+          "lines": [
+            41,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in the US though'.",
+          "value": "United States",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work at the NIH' (National Institutes of Health), which is located in Bethesda, Maryland. This establishes her workplace location.",
+          "value": "works at NIH (Bethesda, Maryland)",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm 22'.",
+          "value": "22 years old",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Kim and context suggest female gender.",
+          "value": "female",
+          "lines": [
+            41,
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm not married'.",
+          "value": "not married",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't have kids'.",
+          "value": "no children",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work at the NIH is some ground researcher'. The phrase 'ground researcher' is likely a misrecognition; she is a researcher at NIH.",
+          "value": "researcher at NIH",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions participating in the first round (line 6) and asks about getting paid (line 34), implying she also receives compensation for these sessions.",
+          "value": "receives payment for online research tasks",
+          "lines": [
+            6,
+            34
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b works as a researcher at NIH, which implies a salary.",
+          "value": "earns salary as a researcher at NIH",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I don't know if I'm in a relationship though. Very complicated.'",
+          "value": "in a complicated relationship",
+          "lines": [
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my parents' and 'my mom'.",
+          "value": "has parents",
+          "lines": [
+            190,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm going to spend thanksgiving along' and earlier references people who live alone.",
+          "value": "lives alone",
+          "lines": [
+            132
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my colleagues' at work.",
+          "value": "has colleagues at NIH",
+          "lines": [
+            210
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I walk about 50 hours plus weekly'. Given context of discussing work, this is almost certainly 'work', meaning she works very long hours.",
+          "value": "works about 50 hours per week",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'if I say cookie and doesn't count' (cooking) as her only hobby and later mentions grilling plantains. She enjoys cooking.",
+          "value": "enjoys cooking",
+          "lines": [
+            170,
+            228
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she 'basically shuffle usa and africa' for work and has been to many African countries.",
+          "value": "travels frequently to Africa for work",
+          "lines": [
+            52,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I really don't go out anyway'.",
+          "value": "rarely goes out socially",
+          "lines": [
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm going to spend thanksgiving along'.",
+          "value": "spends Thanksgiving alone",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly states she does not eat cheese.",
+          "value": "does not eat cheese",
+          "lines": [
+            190,
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says it's been a struggle to adjust her taste buds 'over here', finding American food different.",
+          "value": "struggles with American food",
+          "lines": [
+            188
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says she has a flight scheduled for the end of the month and will be traveling soon.",
+          "value": "has a flight scheduled for end of the month",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I definitely wear a mask all the time' due to work.",
+          "value": "wears a mask consistently at work",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

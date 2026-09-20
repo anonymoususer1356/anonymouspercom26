@@ -1,0 +1,185 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly states being in Dallas, Texas, and refers to Texas and the Dallas metroplex several times.",
+          "value": "Dallas, Texas",
+          "lines": [
+            7,
+            27,
+            49,
+            51,
+            89,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker explicitly states they do not have children.",
+          "value": "no children",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states they work remotely from home.",
+          "value": "works remotely from home",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker frequently mentions his girlfriend: she is from Baltimore, Maryland; moved to Texas about 8 or 9 years ago (ASR error: '89 years ago'); works at an orthopedic center; tested negative for COVID. He also mentions her sister works at a dentist office and was tested.",
+          "value": "has a girlfriend (from Baltimore, moved to Texas ~8–9 years ago, works at an orthopedic center, tested negative for COVID)",
+          "lines": [
+            49,
+            51,
+            77,
+            79,
+            125,
+            199,
+            203,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has friends who own small businesses and friends who ran bars.",
+          "value": "has friends who are small business owners / bar owners",
+          "lines": [
+            117,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions his cousin who drove for Uber Eats.",
+          "value": "has a cousin who drove for Uber Eats",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'my family' when discussing staying informed during the pandemic.",
+          "value": "has a family",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker expresses a preference for eating at smaller, unique restaurants rather than chains, and says he and his girlfriend do this.",
+          "value": "prefers dining at smaller, unique restaurants over chain restaurants",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes keeping masks in the car and washing them regularly; his girlfriend obtains masks from her medical workplace.",
+          "value": "keeps masks in the car, washes them regularly",
+          "lines": [
+            199,
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly states they are in New Jersey and live near the beach in Jersey Shore (transcript says 'Jersey Short').",
+          "value": "New Jersey, near the beach (Jersey Shore)",
+          "lines": [
+            8,
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states they have three children, one of whom is in college and lives in a dorm.",
+          "value": "parent of three children, one in college",
+          "lines": [
+            66,
+            82,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker explicitly says they have three children and gives details about one being in college, learning remotely while living in a dorm.",
+          "value": "has three children, one in college",
+          "lines": [
+            66,
+            82,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'if you hear my cats', indicating pet ownership.",
+          "value": "owns cats",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my family and I' when talking about ordering from Amazon.",
+          "value": "has a family",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker notes living near the beach.",
+          "value": "lives near the beach",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they go out with at least two masks to avoid having to use a dropped one.",
+          "value": "carries extra masks when going out",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,406 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces themselves as 'jesse' when the call connects.",
+          "value": "jesse",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'we're here on Long Island' and later refers to 'Long Island and Saints got like over 100 school districts', confirming residence in Long Island, New York.",
+          "value": "Long Island, New York",
+          "lines": [
+            71,
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to 'my husband', indicating married status.",
+          "value": "married",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'our little one, she was completely fine', indicating they have a young daughter.",
+          "value": "has a daughter",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I have my stupid bachelor's in business', indicating a bachelor's degree in business.",
+          "value": "bachelor's degree in business",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I actually worked for an apartment chain uh doing like the me and stuff', likely meaning maintenance, indicating prior employment in apartment maintenance.",
+          "value": "worked for an apartment chain doing maintenance",
+          "lines": [
+            105
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'me and my family had it already' referring to COVID-19, describes symptoms: body aches, sweating, sniffles, and loss of taste/smell; says after about the 3rd day they got taste/smell back.",
+          "value": "had COVID-19 with mild symptoms (body aches, sweating, runny nose, loss of taste and smell for ~3 days); recovered",
+          "lines": [
+            149,
+            151,
+            153,
+            157
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'two days ago was our first year anniversary of being in our house', indicating they bought a house approximately one year before the conversation.",
+          "value": "homeowner for 1 year (anniversary two days prior)",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'we refinanced at 2.75' and 'we're still at like 2500 a month', indicating mortgage rate and monthly payment.",
+          "value": "refinanced mortgage at 2.75% interest; monthly payment approximately $2500",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my husband', indicating a spouse.",
+          "value": "has a husband",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'our little one, she was completely fine', referring to a daughter.",
+          "value": "has a daughter",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a discusses shopping at Aldi and a newly opened Lidl, compares layouts, and mentions a specific brand (Martin's potato bread).",
+          "value": "shops at Aldi and Lidl; prefers Aldi; likes Martin's potato bread",
+          "lines": [
+            23,
+            29,
+            33,
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a provides detailed instructions on preparing a turkey, indicating cooking knowledge.",
+          "value": "knowledgeable about cooking turkey",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a confirms finding Prolific through Reddit Beer Money by saying 'That's where I got it, too' when speaker_b mentions it.",
+          "value": "uses Prolific; discovered via Reddit Beer Money subreddit",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as Jason at the start of the conversation.",
+          "value": "Jason",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says they live in a small village called Greendale, which is near Milwaukee, Wisconsin.",
+          "value": "Greendale, Wisconsin (Milwaukee area)",
+          "lines": [
+            52,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's wife says 'you're not moving to West Allis where you grew up', and speaker_b confirms he grew up in West Allis, a less affluent suburb.",
+          "value": "grew up in West Allis, Wisconsin",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I'm 38' directly.",
+          "value": "38 years old",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I teach middle school now, I caught high school before' and earlier mentions lesson planning, indicating occupation as a middle school teacher.",
+          "value": "middle school teacher (previously taught high school)",
+          "lines": [
+            18,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b grew up in West Allis and says 'I work in the school district that I went to', implying West Allis school district.",
+          "value": "works in West Allis school district",
+          "lines": [
+            92,
+            168
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states he attended UW Whitewater, a state school, and went into teaching.",
+          "value": "education: University of Wisconsin-Whitewater (teaching degree)",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'working class families like myself', self-identifying as working class.",
+          "value": "identifies as working class",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my wife' multiple times, indicating he is married.",
+          "value": "married",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my daughter who's the sophomore' and mentions she is going to college in two years, indicating he has a high-school-age daughter.",
+          "value": "has a daughter (high school sophomore)",
+          "lines": [
+            12,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'she's a 4th grade teacher' about his wife.",
+          "value": "wife is a 4th grade teacher",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I'm kind of on the port leader side I like to eat', where 'port leader' is likely a mis-transcription of 'portly', indicating he may be overweight.",
+          "value": "self-described as 'portly' (overweight)",
+          "lines": [
+            194
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b recounts his sister saying 'Jason you made 60 last year', and he does not dispute his teaching salary, so about $60,000 per year.",
+          "value": "earns approximately $60,000 per year as a teacher",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'the house was 245' (thousand) and mortgage rate '3 3.1', and monthly payment including escrow 'like 1300'.",
+          "value": "purchased house for $245,000 at 3.1% interest; monthly payment $1,300",
+          "lines": [
+            48,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we had like 20 grand in the bank' saved over 15 years before buying the house.",
+          "value": "saved $20,000 prior to home purchase",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he previously rented a three-bedroom apartment for '$800 bucks'.",
+          "value": "previously rented a 3-bedroom apartment for $800/month",
+          "lines": [
+            56,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains he does Prolific conversations for money, mentioning '$14 bucks' for 25 minutes, to supplement income.",
+          "value": "earns extra money through Prolific tasks",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b states 'my daughter who's the sophomore' and she'll go to college in two years.",
+          "value": "daughter is high school sophomore",
+          "lines": [
+            12,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his wife is a 4th grade teacher and works in 'women all school district' (likely Whitnall), which covers Hales Corners, Greenfield, and Franklin.",
+          "value": "wife is 4th grade teacher in Whitnall School District",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'my mom's 1/4 grade teacher', indicating his mother was a 4th grade teacher.",
+          "value": "mother was a 4th grade teacher",
+          "lines": [
+            182
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions his sister 'went for business and she makes like 250,000 a year'.",
+          "value": "sister earns $250,000 annually in business",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b shares that his grandmother is in a nursing home and tested positive for COVID-19.",
+          "value": "grandmother is in nursing home and has COVID-19",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his uncle contracted COVID-19 about two weeks prior and recovered.",
+          "value": "uncle had COVID-19 and recovered",
+          "lines": [
+            144,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have family that live in like California and texas' and later mentions family in Italy.",
+          "value": "has extended family in California, Texas, and Italy",
+          "lines": [
+            96,
+            174
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I like to cook' and does grocery shopping at Aldi ('all days'), and enjoys trying new foods.",
+          "value": "enjoys cooking; shops at Aldi",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes himself as 'a relatively shy person outside of school'.",
+          "value": "shy outside of professional life",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions finding Prolific through Reddit Beer Money and doing conversations for extra cash.",
+          "value": "uses Prolific via Reddit Beer Money for extra income",
+          "lines": [
+            200,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he had to get lesson plans done, indicating teaching preparation.",
+          "value": "does lesson planning as a teacher",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b's 'port leader side' likely means 'portly side', suggesting he is heavyset or overweight.",
+          "value": "likely overweight (self-described 'portly')",
+          "lines": [
+            194
+          ],
+          "certainty": 2
+        }
+      ]
+    }
+  ]
+}

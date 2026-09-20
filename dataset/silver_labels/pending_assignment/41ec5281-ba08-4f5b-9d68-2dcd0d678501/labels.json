@@ -1,0 +1,345 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in California' (line 7) and confirms Bay Area when asked (line 29). Later mentions living in the Bay Area (line 151) and refers to San Francisco as the closest metropolis (line 159).",
+          "value": "Bay Area, California",
+          "lines": [
+            7,
+            28,
+            29,
+            151,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm actually attending the university in Canada' (line 25) and explains they were in Toronto during the pandemic (line 55). The university is in Toronto, inferred from 'you're sick Toronto' (ASR likely for University of Toronto) (line 143). They also mention moving to Canada and seeing snow (line 47).",
+          "value": "Toronto, Canada (university location)",
+          "lines": [
+            25,
+            47,
+            55,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm also a student myself' (line 13) and the ASR 'you can give science' is interpreted as 'computer science'. Later they mention 'second year halfway through' (line 21) and 'master PhD in computer science' (line 173), confirming their major.",
+          "value": "undergraduate student majoring in computer science (second year)",
+          "lines": [
+            13,
+            21,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about growing up in the Bay Area, speaker_a says 'I did uh all 18 I guess 19 years' (line 27), which implies their age is approximately 18-19, consistent with being a second-year student.",
+          "value": "approximately 18-19 years old",
+          "lines": [
+            27
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I actually used to work as a swim teacher for like little kids' (line 117) and describes it as part-time with flexible hours (line 119).",
+          "value": "former part-time swim teacher",
+          "lines": [
+            117,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I do surveys and stuff for a little bit of spending money' (line 13) and 'I got the survey through prolific' (line 177).",
+          "value": "participates in online surveys (e.g., Prolific) for spending money",
+          "lines": [
+            13,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a lives with parents (lines 61, 63) and states their father 'does really well which is how I can live here in the Bay area' (line 151). As a student doing small-money surveys, they are clearly supported by family.",
+          "value": "financially supported by parents",
+          "lines": [
+            61,
+            63,
+            151
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a describes their father: first-generation immigrant from China, rejected from UC Irvine, went elsewhere for a master's, became successful, and now hates UC Irvine (lines 149-153). Also confirms 'my dad is yeah' (line 31).",
+          "value": "father: first-generation immigrant from China, successful professional, holds a grudge against UC Irvine",
+          "lines": [
+            31,
+            149,
+            150,
+            151,
+            152,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my mom it's more like uh finance stuff' (line 31).",
+          "value": "mother: works in finance",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live with other relatives who was about like 55' (line 63).",
+          "value": "lives with a relative approximately 55 years old",
+          "lines": [
+            63
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In the context of Denver, speaker_a says 'I actually have a relative or cousin who just moved there like really recently' (line 33).",
+          "value": "has a cousin who recently moved to Denver",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having friends interested in Japanese culture: 'I have a lot of friends who are into it' (line 83).",
+          "value": "has friends interested in Japanese culture",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I played piano' (line 71).",
+          "value": "plays piano",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I've also been taking the time to learn japanese as well, just for fun' (line 73).",
+          "value": "learning Japanese as a hobby",
+          "lines": [
+            73,
+            75,
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses watching Breaking Bad, Better Call Saul, and John Wick movies (lines 219-231).",
+          "value": "enjoys watching TV shows and movies (e.g., Breaking Bad, John Wick)",
+          "lines": [
+            219,
+            220,
+            221,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes their daily routine: 'I'm in the same place every day. I do the same things every day I wake up, I eat, I work … I watch videos before I go to bed' (line 199).",
+          "value": "follows a monotonous daily routine of eating, working, and watching videos",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains they chose Prolific over higher-paying platforms to contribute to academic research (lines 175-177).",
+          "value": "prefers academic research contribution over higher-paying survey platforms",
+          "lines": [
+            175,
+            176,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Denver colorado' (line 6) and later 'I've lived here like eight years now' (line 36).",
+          "value": "Denver, Colorado",
+          "lines": [
+            6,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I grew up in texas' (line 44).",
+          "value": "grew up in Texas",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to school in Chicago' (line 44).",
+          "value": "school in Chicago, Illinois",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I had a baby in January' (line 88, ASR 'wish' corrected by context) and specifies 'Girl' (line 104). Throughout describes parenting duties.",
+          "value": "mother of a baby girl (born around January)",
+          "lines": [
+            88,
+            104,
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I just mostly take care of my baby all the time, reading lots of like parenting books' (line 90) and never mentions employment.",
+          "value": "stay-at-home parent",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "'I went to school in Chicago' (line 44) in context refers to college, indicating higher education.",
+          "value": "college-educated (attended school in Chicago)",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'it's a completely different level of exhaustion that I don't think you can prepare for' (line 100) and details sleep disruption from the baby (lines 96, 106).",
+          "value": "experiencing sleep deprivation and exhaustion due to baby care",
+          "lines": [
+            100,
+            96,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b comments 'housing prices are insane, I mean not very insane but just insane for us' (lines 38-39).",
+          "value": "perceives housing prices in Denver as very expensive for their household",
+          "lines": [
+            38,
+            39
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my husband grew up in Seattle, he didn't go to your job though. He went to the one in Bellingham' (lines 156, 158).",
+          "value": "husband: grew up in Seattle, attended college in Bellingham, Washington",
+          "lines": [
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to the baby as 'she', mentions teething, poor sleep, and that she was born in January (lines 88, 94, 96, 104, 106).",
+          "value": "baby daughter: teething, not a good sleeper, born around January",
+          "lines": [
+            88,
+            94,
+            96,
+            104,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'we go hiking and stuff a lot um camping and that kind of stuff' (line 40).",
+          "value": "enjoys outdoor activities such as hiking and camping",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'we used to travel a lot which we obviously can't do now' (line 90).",
+          "value": "used to travel frequently",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they watch Bob's Burgers, The Office, and Parks and Rec repeatedly to fall asleep (lines 214, 216).",
+          "value": "watches familiar TV shows (Bob's Burgers, The Office, Parks and Rec) to help sleep",
+          "lines": [
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We took her just like to the community pools this summer and she just loves being in the water' (line 122).",
+          "value": "takes baby to community pool",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts meeting Aaron Paul in Telluride (lines 238-242) and David Spade in Vegas (line 248).",
+          "value": "has had random celebrity encounters (Aaron Paul, David Spade)",
+          "lines": [
+            238,
+            242,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like drinking about a lot' (ASR interpreted as 'Breaking Bad a lot') and mentions the pizza scene (line 234), and confirms watching the movie (line 220).",
+          "value": "fan of Breaking Bad series",
+          "lines": [
+            220,
+            234
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

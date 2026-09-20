@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm from Houston texas' (line 7). She later refers to 'here in Houston' (line 57) and gives the distance from Houston to Waco as 'approximately 2.5 hours maybe from here' (line 61), confirming she lives in Houston. She also says 'here in texas' (line 95).",
+          "value": "Houston, Texas",
+          "lines": [
+            7,
+            57,
+            61,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She mentions 'my granddaughter' (line 19) and that the granddaughter is seven (line 21: 'you're just seven').",
+          "value": "Grandmother of a seven-year-old girl",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my older daughter' (line 197) and 'my younger daughter' (line 239). She also says her older child was about nine in 1993 while her younger child was not yet born (line 81).",
+          "value": "Mother of two daughters",
+          "lines": [
+            81,
+            197,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my students' (line 233) and describes a workplace incident involving a nurse taking temperatures (lines 147–163), consistent with a school setting. She also says 'I went to work last week' (line 147) and 'when I go to work' (line 213).",
+          "value": "Teacher",
+          "lines": [
+            147,
+            213,
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Her older child was about nine at the time of the Waco siege (1993). Assuming she was at least in her 20s then, she would now be in her 50s or 60s.",
+          "value": "Likely in her 50s or 60s",
+          "lines": [
+            81
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes going to work (line 147) and mentions 'my students' (line 233), indicating she is employed as a teacher.",
+          "value": "Employed as a teacher",
+          "lines": [
+            147,
+            233
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my granddaughter' (line 19) and states the child is seven (line 21).",
+          "value": "Has a seven-year-old granddaughter",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my daughter got to take him down' (line 25) referring to taking the granddaughter to New York, establishing a daughter who is the mother of the granddaughter.",
+          "value": "Has a daughter who is the mother of her granddaughter",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my older daughter' (line 197) and 'my younger daughter' (line 239), and contrasts their ages relative to the Waco siege (line 81).",
+          "value": "Has an older daughter and a younger daughter",
+          "lines": [
+            81,
+            197,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'something my entire family has done since I was a little girl and now many members of my family are still into the music industry' (line 55).",
+          "value": "Family members are involved in the music industry",
+          "lines": [
+            55
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I've been there twice' (line 13) referring to New York.",
+          "value": "Has visited New York City twice",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'was supposed to be coming back this coming um fall but obviously that's canceled now' (line 15) about a New York trip.",
+          "value": "Planned a trip to New York in the fall that was cancelled",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes turning off notifications on her phone, tablet, and computers because they were too frequent (lines 213, 215, 217, 219).",
+          "value": "Disables phone and device notifications to avoid distractions",
+          "lines": [
+            213,
+            215,
+            217,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains that each daughter had a distinct ringtone on her phone, which her students learned to recognize (line 239).",
+          "value": "Assigns different ringtones to each daughter's calls",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she gave her older daughter a mobile phone when she was in middle school (line 255).",
+          "value": "Gave her older daughter a phone when she was in middle school",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'when I first moved to Houston' (line 253), indicating relocation to Houston at some point.",
+          "value": "Moved to Houston, Texas at some point in the past",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'Yeah Brooklyn, new york' (line 8) in response to a question about where he is from (the ASR may have garbled the exact phrasing). He later mentions 'my part of new york city' (line 24) and asks speaker_a 'Have you been here?' (line 14) meaning New York.",
+          "value": "Brooklyn, New York",
+          "lines": [
+            8,
+            14,
+            24
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I'm still enrolled in college. Yes, but I'm not in classes' (line 46).",
+          "value": "Enrolled in college but not currently taking classes",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'have an associates degree' (line 46).",
+          "value": "Holds an associate's degree",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he wants to 'get a bachelor's, maybe even the masters' and 'get one in business' (lines 46, 48).",
+          "value": "Aims to earn a bachelor's degree in business",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He notes the Waco siege (which ended in April 1993) was 'about actually a year before I was born' (line 78).",
+          "value": "Born approximately in 1994",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says 'work it's split between freelancing, just doing whatever I can to make whatever extra money on the side' (line 50).",
+          "value": "Freelances for extra income",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes running a record label business with about eight others and a joint venture with another studio (lines 50-52).",
+          "value": "Co-owner of a record label, joint venture with another studio",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my parents' and how they raised him (line 90).",
+          "value": "Has parents",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my friends' told him about the Texas convention (line 32).",
+          "value": "Has friends",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he runs the record label with 'about, I'd say maybe eight other guys' (line 50).",
+          "value": "Part of a music collective of about eight people",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions a 'joint venture with another studio that also has their own label' (line 50).",
+          "value": "Has a business partnership with another studio",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I usually go to these things called conventions' and has been attending them for years (lines 31-32).",
+          "value": "Regularly attends conventions",
+          "lines": [
+            31,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was supposed to go to Texas for a convention last month but cancelled due to COVID-19 (lines 30, 32, 34).",
+          "value": "Planned to attend a convention in Texas, cancelled due to COVID-19",
+          "lines": [
+            30,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'making music, pushing music out ... throwing events and things like that' (line 52).",
+          "value": "Creates music and organizes events",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains he keeps most notifications off to avoid distractions and maintain personal peace (lines 226, 228, 230).",
+          "value": "Turns off most phone notifications",
+          "lines": [
+            226,
+            228,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I used to be very big into conspiracy theories myself' and 'even to this day I'm still a little bit into it' (lines 174, 176).",
+          "value": "Formerly heavily into conspiracy theories, still somewhat interested",
+          "lines": [
+            174,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He emphasizes the importance of thinking critically, not blindly following information, and doing his own research (lines 90-92, 172, 186-187).",
+          "value": "Values critical thinking and personal research over blind acceptance",
+          "lines": [
+            90,
+            92,
+            172,
+            186,
+            187
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

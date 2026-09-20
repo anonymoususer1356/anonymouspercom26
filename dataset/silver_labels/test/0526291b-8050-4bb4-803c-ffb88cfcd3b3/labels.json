@@ -1,0 +1,574 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I am in Connecticut' in line 7, corroborated by 'I'm in New England' in line 153. Connecticut is the most specific location.",
+          "value": "Connecticut",
+          "lines": [
+            7,
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Directly says 'I am an operations manager for a small construction company locally'.",
+          "value": "operations manager for a small construction company",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my 41K' (ASR phonetic for 401k) in the context of the stock market being good for it.",
+          "value": "has a 401k retirement account",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In a hypothetical about staying single he says 'I have no mortgage,' implying he currently has one. Line 159 confirms 'our house'.",
+          "value": "has a mortgage",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 111 implies a mortgage and line 159 says 'putting our house on the market,' indicating home ownership.",
+          "value": "owns a house",
+          "lines": [
+            111,
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States kids go to Catholic school and line 115 confirms 'we pay for catholic school on top of it'.",
+          "value": "pays for Catholic school tuition",
+          "lines": [
+            7,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I can't put any money away this month because they want food and they want electricity'.",
+          "value": "sometimes unable to save money due to family expenses",
+          "lines": [
+            69
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Uses survey sites; mentions 'this one' (the platform they're on), taking gift cards, saving for Christmas, and using Amazon Turk.",
+          "value": "participates in online surveys for gift cards/gas money",
+          "lines": [
+            87,
+            89,
+            99,
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I would be totally unproductive if I had to work from home,' implying he currently does not work from home.",
+          "value": "works on-site, not remotely",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'I am in Connecticut married'.",
+          "value": "married",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I got two kids seven and nine'.",
+          "value": "has two children, ages 7 and 9",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'that's my wife, she's a night out' (night owl) and she stays up late.",
+          "value": "wife is a night owl",
+          "lines": [
+            227,
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'my father in law' who retired.",
+          "value": "has a father-in-law",
+          "lines": [
+            213
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says daughter gets up first thing in the morning and son wants to stay up all night.",
+          "value": "daughter is a morning person, son is a night owl",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States kids 'both going to school full time catholic schools'.",
+          "value": "children attend Catholic school full time",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls himself a 'political junkie,' watched election coverage until Saturday, 'I love the whole theatrics'.",
+          "value": "intensely follows politics (political junkie)",
+          "lines": [
+            273,
+            275,
+            277,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm up most days as soon as the sun starts coming up. That's it. I gotta get up.'",
+          "value": "morning person, wakes up early",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't need the brand new $1200 phone' and 'what's cheap works'.",
+          "value": "frugal regarding phone purchases, prefers inexpensive items",
+          "lines": [
+            123,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we're kind of cramped where we are' and wants more space.",
+          "value": "lives in a house that feels cramped",
+          "lines": [
+            161
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'Good morning Harry' in line 3, addressing speaker_b by name. No correction follows.",
+          "value": "Harry",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In response to 'Where do you live?' she says 'Washington' (28). Later adds 'I live like north toward the Canadian border' (162).",
+          "value": "Washington state, north toward the Canadian border",
+          "lines": [
+            28,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I plan to move there this winter or spring' (Georgia) and 'when I moved to Georgia I'll be living in subsidized housing for seniors' (146).",
+          "value": "plans to move to Georgia",
+          "lines": [
+            74,
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions buying three mobile homes, working on the third, and says 'it's just basically something I guess, like I get to live here' (132,134), implying she lives in a mobile home.",
+          "value": "currently lives in a mobile home",
+          "lines": [
+            132,
+            134
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm retired' (12), qualifies for subsidized senior housing (146), and says 'I'm old now' (232).",
+          "value": "retired senior/older adult",
+          "lines": [
+            12,
+            146,
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'my great grandfather was jewish'.",
+          "value": "great-grandfather was Jewish",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I got a like a pell grant, like a college grant' and attended school.",
+          "value": "college educated (received Pell Grant)",
+          "lines": [
+            246
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I was a Navy wife for a long time'.",
+          "value": "former Navy wife (military spouse)",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I'm burned out. I pretty much burned. I love what I did, but I burned out.'",
+          "value": "burned out from previous work",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I have blood sugar problems' when discussing driving.",
+          "value": "blood sugar problems",
+          "lines": [
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I walk around with my cane' and implies disability.",
+          "value": "uses a cane (mobility aid)",
+          "lines": [
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'it was too much stress, I had to leave' and earlier describes quitting job, downsizing.",
+          "value": "extreme job stress caused resignation",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "States 'I'm divorced'.",
+          "value": "divorced",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my lawyer told me' during discussion of abusive husband, implying legal representation.",
+          "value": "used a lawyer during divorce from abusive husband",
+          "lines": [
+            252
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States 'I'm retired'.",
+          "value": "retired (no employment income)",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'now I make like $20-$50 a week if I'm lucky' from surveys.",
+          "value": "earns $20-50 per week from online surveys",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions using 'amazon turk and then a lifepoint surveys'.",
+          "value": "uses MTurk and Lifepoints survey platforms",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I bought three mobile homes so far and I'm working on my third one right now'.",
+          "value": "owns three mobile homes (investment/rehab properties)",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "For the current mobile home: 'I paid 13,000 for it and ... I can sell it for like 40-45000'.",
+          "value": "paid $13,000 for current mobile home, hopes to sell for $40,000-45,000",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't really make any money' and 'I think I do lose money actually' on the rehab.",
+          "value": "home rehab is not profitable, likely loses money",
+          "lines": [
+            132,
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I used to live in a great big house on seven acres ... I sold everything, I quit my job, I downsized'.",
+          "value": "previously owned a large house on 7 acres, sold it and downsized",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I worked for the state for like 15 years'.",
+          "value": "worked for the state of Washington for 15 years",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I worked for the school district and for the department of Social and Health Services'.",
+          "value": "previously worked for school district and DSHS",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lawyer advised 'get on financial aid, get on food stamps' and she followed that.",
+          "value": "used food stamps and financial aid in the past",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Received Pell Grant for college.",
+          "value": "received a Pell Grant for college",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my car is kind of old' and discusses shipping it for $1000-1500.",
+          "value": "owns an old car, plans to ship it to Georgia for ~$1000-$1500",
+          "lines": [
+            336,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she will live in subsidized senior housing, qualifying by age/income.",
+          "value": "qualifies for subsidized senior housing",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I bought this $25 Samsung refurbished phone' and advocates frugality.",
+          "value": "uses a $25 refurbished phone (frugal)",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'I'm divorced' and 'I was a Navy wife', implying ex-husband in Navy.",
+          "value": "divorced; ex-husband was in the Navy",
+          "lines": [
+            12,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have two kids who are growing up'.",
+          "value": "has two grown children",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions granddaughter multiple times, including buying her barbies and her location.",
+          "value": "has a granddaughter",
+          "lines": [
+            12,
+            74,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes daughter as veterinarian assistant, son-in-law former Navy now real estate agent.",
+          "value": "daughter is a veterinarian assistant, son-in-law former Navy now real estate agent",
+          "lines": [
+            108,
+            206,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Son went to Iraq three times, had drug/alcohol problems, now studying to be a counselor.",
+          "value": "son is a Marine veteran with substance abuse history, now studying to be a drug and alcohol counselor",
+          "lines": [
+            178,
+            184,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says son 'lives north of san Francisco'.",
+          "value": "son lives north of San Francisco",
+          "lines": [
+            178
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States granddaughter 'lives in Georgia'.",
+          "value": "granddaughter lives in Georgia",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'Plus have a cat'.",
+          "value": "owns a cat",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Answers 'about three or 4 years' when asked how long she's been doing 'this prolific thing' (online surveys).",
+          "value": "has been participating in online surveys for 3-4 years",
+          "lines": [
+            82,
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I watch a lot of Youtube videos because I can't deal with the mainstream news'.",
+          "value": "gets news from YouTube, avoids mainstream news",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm not wearing a mask' and walks into stores without one, citing prison work history.",
+          "value": "refuses to wear a mask in public",
+          "lines": [
+            364,
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes buying and rehabbing mobile homes as an activity despite losing money.",
+          "value": "rehabbing mobile homes as a hobby",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I pray for him like all the time' referring to her son.",
+          "value": "prays for her son (religious/spiritual practice)",
+          "lines": [
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I wake up early a lot and then I take a nap because I'm old now'.",
+          "value": "wakes early but takes naps due to age",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she's keeping track of elections and later 'now I'm really into it'.",
+          "value": "politically interested, follows elections",
+          "lines": [
+            272,
+            300,
+            304
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I haven't had a week aged it in like 20 years' (vacation).",
+          "value": "has not taken a vacation in 20 years",
+          "lines": [
+            336
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,327 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are in Texas (line 9) and later specifies Houston (line 59). Multiple lines confirm Houston as current location.",
+          "value": "Houston, Texas",
+          "lines": [
+            9,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they grew up in Miami (lines 11, 67), and refers to Miami as where they grew up.",
+          "value": "Miami, Florida",
+          "lines": [
+            11,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they are Colombian and came from Colombia at age 3 (lines 35, 85, 227).",
+          "value": "Colombia",
+          "lines": [
+            35,
+            85,
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a identifies as Colombian multiple times (lines 35, 85, 227) and notes Hispanic neighborhood (line 67).",
+          "value": "Colombian",
+          "lines": [
+            35,
+            85,
+            227,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they came to the US at age 3 (line 35) and mentions parents immigrated (lines 153, 227), establishing immigrant background.",
+          "value": "immigrant to US at age 3",
+          "lines": [
+            35,
+            153,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says they are not in school (line 35).",
+          "value": "non-student",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says most family are business owners and they took the 'informal do it yourself route' rather than college, implying involvement in family business (line 37). Also mentions father owns a business with multiple locations (line 197), supporting that speaker_a works/learns in a family business.",
+          "value": "works in or is involved with family business",
+          "lines": [
+            37,
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions doing online talk study (Prolific) a handful of times (line 105), notes pay isn't bad (line 107), and discusses favorable euro conversion (lines 119, 121).",
+          "value": "earns side income from online surveys (Prolific)",
+          "lines": [
+            105,
+            107,
+            119,
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says father remarried five years ago and now has a little stepbrother or half brother (lines 209, 211).",
+          "value": "has a half or stepbrother (younger)",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my stepsister' in the context of a trip to Canada (line 265).",
+          "value": "has a stepsister",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states parents immigrated from Colombia (line 153) and came from Colombia (line 227).",
+          "value": "parents immigrated from Colombia",
+          "lines": [
+            153,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they had two ex-girlfriends (line 231).",
+          "value": "had two ex-girlfriends",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a emphasizes being super close to their family (line 227).",
+          "value": "close to family",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes trips: went to Israel in March (line 127), had a planned Europe trip on the 22nd (line 127), and drove from Manhattan to Canada (line 265). Shows regular international travel.",
+          "value": "frequent international traveler",
+          "lines": [
+            127,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a participates in online talk studies (lines 105, 107, 119).",
+          "value": "participates in online surveys/studies",
+          "lines": [
+            105,
+            107,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says not in school (line 35) and took informal business route via family (line 37).",
+          "value": "informally learning business through family instead of college",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm from New Hampshire' (line 4) and 'I just moved to New Hampshire recently' (line 16), and also says family moved up here and they are here when not in school (line 24). Currently residing in New Hampshire.",
+          "value": "New Hampshire (current residence)",
+          "lines": [
+            4,
+            16,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up in New Mexico' (line 14).",
+          "value": "New Mexico (grew up)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I go to school in new york' (line 24).",
+          "value": "New York (school location)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm like moving to new york at the end of the month' (line 224).",
+          "value": "moving to New York at end of month",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is a student (lines 24, 30, 34).",
+          "value": "student",
+          "lines": [
+            24,
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says studying health science with a concentration in nutrition (line 30).",
+          "value": "health science major, nutrition concentration",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it's going to be harder ... if you're a U.S. Citizen' (line 140) implying they are a U.S. citizen.",
+          "value": "U.S. citizen",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'It's more than I get job' (line 110), likely 'more than I get from my job', indicating they have a job. The ASR error 'get job' for 'get from my job' is phonetically plausible.",
+          "value": "has a job (likely low-paying compared to survey earnings)",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b does online studies (Prolific) for extra money (lines 106, 108, 110, 112).",
+          "value": "earns side income from online surveys (Prolific)",
+          "lines": [
+            106,
+            108,
+            110,
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I have a sister ... a year and a half younger ... super close ... everyone thinks we're twins' (lines 218, 220).",
+          "value": "has a younger sister (1.5 years younger), very close",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes family as small: mom, dad, sister, one grandma, others dead (line 228).",
+          "value": "small family: parents, sister, one grandmother",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b visited a friend studying abroad in London (line 174).",
+          "value": "has a friend who studied abroad in London",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b is a student, goes to school in New York during school year, and is in New Hampshire with family outside school (lines 24, 224).",
+          "value": "student lifestyle: in New York for school, New Hampshire with family otherwise",
+          "lines": [
+            24,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b likes to travel every year (line 126), was in Europe right before pandemic (line 128), detailed trip to London/Scotland (lines 174-186).",
+          "value": "frequent traveler, enjoys international trips",
+          "lines": [
+            126,
+            128,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in Prolific online studies (lines 106, 112).",
+          "value": "participates in online surveys/studies",
+          "lines": [
+            106,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions buying cheap tickets, couchsurfing, and taking a night bus to save money while traveling (lines 180, 182, 186).",
+          "value": "budget travel style",
+          "lines": [
+            180,
+            182,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

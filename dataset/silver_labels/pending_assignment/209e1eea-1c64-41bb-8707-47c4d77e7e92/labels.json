@@ -1,0 +1,385 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as 'don' in line 5, and speaker_b addresses him as 'don' repeatedly.",
+          "value": "Don",
+          "lines": [
+            5,
+            28,
+            54,
+            98,
+            142,
+            164,
+            248,
+            300,
+            552
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Boise Idaho' when asked his location.",
+          "value": "Boise, Idaho",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states his age as 53.",
+          "value": "53 years old",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm disabled', indicating he belongs to the disabled population.",
+          "value": "Disabled",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I'm disabled so I stay home' and later 'I have physical limitations as well'.",
+          "value": "Disabled with physical limitations",
+          "lines": [
+            21,
+            537
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his medications were running $15,000 a month, covered by insurance.",
+          "value": "Takes medications costing $15,000/month (covered by insurance)",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a mentions receiving social security, indicating he is a beneficiary of the program.",
+          "value": "Receives Social Security benefits",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a states the amount of his social security payment is $760 a month.",
+          "value": "$760/month income from Social Security",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does surveys 'to pass the time and get a little spending money', naming Branded Surveys, Prolific, Swagbucks.",
+          "value": "Earns spending money through online surveys (Branded Surveys, Prolific, Swagbucks, etc.)",
+          "lines": [
+            21,
+            23,
+            125,
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having a mobile home, paying rent for the lot, house insurance, and life insurance.",
+          "value": "Owns a mobile home; pays lot rent, house insurance, and life insurance",
+          "lines": [
+            327,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has a roommate who helps split the rent.",
+          "value": "Has a roommate who shares rent",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have two nephews and one niece as well, but there are unfortunately way down in Dallas'.",
+          "value": "Has two nephews and one niece living in Dallas",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'other family up here that's kind of distant that like 3rd and 4th cousins'.",
+          "value": "Has distant cousins (3rd and 4th) living nearby in Idaho",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he has a roommate helping split rent.",
+          "value": "Has a roommate",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm disabled so I stay home'.",
+          "value": "Stays home most of the time due to disability",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I do branded surveys probably 5-6 hours a day'.",
+          "value": "Spends 5-6 hours per day on online surveys",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using a Chromebook with extensions.",
+          "value": "Uses a Chromebook",
+          "lines": [
+            371
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as 'My name is Jeremy Wonderful'.",
+          "value": "Jeremy Wonderful",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states he is in Atlanta, Georgia, mentions Stone Mountain, and refers to local companies and the Atlanta area multiple times.",
+          "value": "Atlanta, Georgia area (Stone Mountain)",
+          "lines": [
+            6,
+            8,
+            44,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states he is 42 years old.",
+          "value": "42 years old",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b identifies as 'a black american male'.",
+          "value": "Black American male",
+          "lines": [
+            476
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'with me being a single male'.",
+          "value": "Single male",
+          "lines": [
+            454
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains he decided to be child free due to the heritability of bipolar disorder.",
+          "value": "Child free by choice",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I have bipolar' and later refers to being bipolar in the context of a study.",
+          "value": "Bipolar disorder",
+          "lines": [
+            164,
+            460
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I work for V.I.P. Kids teaching english online'.",
+          "value": "Works for VIP Kids teaching English online",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes using Amazon Mechanical Turk (mturk), UserTesting, Prolific, and other online platforms to earn money.",
+          "value": "Earns money through online microtasks and surveys (mturk, UserTesting, Prolific, etc.)",
+          "lines": [
+            26,
+            104,
+            110,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about being paid to eat food and participate in focus groups for companies like PVR Research and Compass CMR in Atlanta.",
+          "value": "Participates in paid in-person market research (food tasting, focus groups) in Atlanta",
+          "lines": [
+            40,
+            42,
+            44,
+            46,
+            438
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions using the Proxy Pics app to take photos for pay.",
+          "value": "Uses Proxy Pics app for paid photo assignments",
+          "lines": [
+            292,
+            298,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I filled up about $30,000 in credit cards. Not in debt', indicating he has significant available credit.",
+          "value": "Has access to approximately $30,000 in credit lines, not in debt",
+          "lines": [
+            286
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b recounts earning $2,000-$4,000 per month teaching English in China and Taiwan, plus bonuses.",
+          "value": "Previously earned $2,000-$4,000/month teaching English overseas in China and Taiwan",
+          "lines": [
+            186,
+            234,
+            240,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes engaging in dumpster diving to find items to resell for profit.",
+          "value": "Engages in dumpster diving and reselling of found items for additional income",
+          "lines": [
+            494,
+            514,
+            528
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my baby sister Giovanni just had a baby boy ... and then um I already have two nephews and a niece with my other sister'.",
+          "value": "Has two sisters (one named Giovanni with a baby boy, another with two nephews and a niece)",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his friend Sam who was a nurse and is now a nursing home director, who introduced him to market research.",
+          "value": "Has a friend named Sam, a nursing home director",
+          "lines": [
+            52,
+            484
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes being part of a Facebook group called 'Mturk members' and the Reddit community 'beer money'.",
+          "value": "Member of online communities: Facebook group 'Mturk members', Reddit 'beer money'",
+          "lines": [
+            32,
+            142,
+            358
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I gotta go for my bike ride before it gets dark ... It begs me every day'.",
+          "value": "Rides a bike daily for exercise",
+          "lines": [
+            548
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I have to be up very early in the morning to match chinese time'.",
+          "value": "Wakes up very early to teach English online to Chinese students",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions belonging to dumpster diving groups and engaging in the activity to find and resell items.",
+          "value": "Engages in dumpster diving to find items to resell",
+          "lines": [
+            494,
+            514,
+            528
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a comments 'You look young for your age?' and speaker_b agrees 'I constantly hear that'.",
+          "value": "Looks younger than his age (42)",
+          "lines": [
+            13,
+            14
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

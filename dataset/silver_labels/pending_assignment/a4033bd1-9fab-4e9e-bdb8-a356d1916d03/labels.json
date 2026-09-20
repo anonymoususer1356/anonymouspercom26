@@ -1,0 +1,310 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself: 'Well I'm carrie.' This is almost certainly her first name, though the ASR capitalisation and exact spelling (Carrie/Kerry) cannot be verified.",
+          "value": "Carrie",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b asks 'how's Maryland going?' and speaker_a describes the situation in her area 'between D.C. and Virginia', confirming she lives in the Maryland/DC region. She also mentions attending Towson University (in Maryland).",
+          "value": "Maryland, near Washington D.C. and Virginia",
+          "lines": [
+            24,
+            25,
+            27,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I do acting professionally', mentions headshots, TV commercial work, and a recent tour with a children's theatre.",
+          "value": "Professional actress",
+          "lines": [
+            35,
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to Towson University, started in pre-law but ended up majoring in what the ASR renders as 'improve patients' (likely improvisation) and minored in theatre. She also says she graduated.",
+          "value": "Towson University graduate; major in improvisation, minor in theatre",
+          "lines": [
+            67,
+            73,
+            75
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She explicitly says 'I'm right hand dominant.'",
+          "value": "Right-handed",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She declares 'I am a harry potter fam' and talks about owning all the games and items.",
+          "value": "Harry Potter fan",
+          "lines": [
+            83,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she has not yet taken a COVID test ('oh no, I haven't done this'), though she plans to.",
+          "value": "Has not taken a COVID-19 test",
+          "lines": [
+            37,
+            49
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Regarding an upcoming photo shoot she says 'I saved up a lot for it,' indicating she has set aside money for this purpose.",
+          "value": "Has savings for a professional photo shoot",
+          "lines": [
+            35
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to her dad, mom, and parents multiple times.",
+          "value": "Has parents (mother and father)",
+          "lines": [
+            37,
+            39,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have family in new york there in Long Island.'",
+          "value": "Has extended family in Long Island, New York",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Throughout the conversation she mentions various friends.",
+          "value": "Has friends",
+          "lines": [
+            31,
+            65,
+            89,
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she played tennis in high school, hasn't played in a long time, and sold her rackets.",
+          "value": "Played tennis in the past, currently inactive",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about getting back into video games during the pandemic, naming RPGs, Mario series, and owning many Nintendo consoles.",
+          "value": "Video gamer, enjoys RPG and Mario games",
+          "lines": [
+            79,
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching Netflix shows (Schitt's Creek, Glee) and having an account.",
+          "value": "Watches Netflix series",
+          "lines": [
+            87,
+            89,
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She takes voice lessons and is working on ballet with a colleague.",
+          "value": "Takes voice lessons and ballet classes",
+          "lines": [
+            87,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she works with a personal trainer and started just last week.",
+          "value": "Works with a personal trainer",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She plans to cook Thanksgiving dinner with her mother, handling the side dishes.",
+          "value": "Cooks Thanksgiving meal with mother",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has become a homebody during COVID and only sees friends virtually.",
+          "value": "Stays home during pandemic; socialises virtually",
+          "lines": [
+            181,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm not really a morning person.'",
+          "value": "Not a morning person",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When asked where he is calling from, he answers 'From Rochester new york.'",
+          "value": "Rochester, New York",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he is in college (needed a COVID test for it), is undecided but leaning toward business, and names his school as 'University of Manchester' – the ASR may have misheard the actual name.",
+          "value": "Student at University of Manchester; undecided major, considering business",
+          "lines": [
+            56,
+            62,
+            74
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "He says he was a big Percy Jackson fan and read all the books ('All the two series').",
+          "value": "Percy Jackson fan",
+          "lines": [
+            124,
+            126,
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says he had to get a COVID test for college and describes the experience.",
+          "value": "Has taken a COVID-19 test",
+          "lines": [
+            48,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He remarks that his voice is groggy and extra hoarse on the day of the call.",
+          "value": "Hoarse voice on day of conversation",
+          "lines": [
+            16,
+            236
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "In discussing Thanksgiving, he mentions 'my family', indicating he has family.",
+          "value": "Has family",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his English teacher was behind a local musical production.",
+          "value": "Had an English teacher who produced a local musical",
+          "lines": [
+            142
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says if he has the motivation he goes to play tennis to keep in shape.",
+          "value": "Plays tennis occasionally",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he plays games but more PS4 and stuff.",
+          "value": "Plays video games on PS4",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'besides that it's just like watching random stuff on Youtube or netflix.'",
+          "value": "Watches YouTube and Netflix",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes going to a modernised Romeo and Juliet musical, was surprised he enjoyed it, and also seems aware of other musicals.",
+          "value": "Has attended live musical theatre",
+          "lines": [
+            145,
+            146,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

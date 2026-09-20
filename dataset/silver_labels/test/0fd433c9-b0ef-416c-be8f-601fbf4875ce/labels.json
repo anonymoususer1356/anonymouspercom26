@@ -1,0 +1,330 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She says 'I'm studying in Philly', mentions living off campus this year, and refers to Center City and Pennsylvania's election excitement.",
+          "value": "Philadelphia, PA",
+          "lines": [
+            59,
+            79,
+            87,
+            147,
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She mentions 'my first class at 12pm', 'studying design', 'this semester', and 'we all freshmen had to live on campus last year', indicating she is now a sophomore or higher.",
+          "value": "college student (design major, likely sophomore)",
+          "lines": [
+            29,
+            37,
+            45,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My family is from Houston' and 'even come from texas'.",
+          "value": "originally from Houston, TX",
+          "lines": [
+            79,
+            217
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She asks speaker_b 'You've been getting the monies?' and mentions she is on her 4th conversation on this platform, implying both receive payment for the recorded conversations.",
+          "value": "participant in paid conversation study",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She uses a 'dinky computer' for Maya, lives off campus as a student, indicating typical student budget.",
+          "value": "student (limited income)",
+          "lines": [
+            49,
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'me and my roommate sweet like watch' (mishearing of 'my roommate and I') and later 'two of my roommates are like more mild', indicating two roommates.",
+          "value": "lives with two roommates",
+          "lines": [
+            117,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a friend trying to get her to play 'Haiti's' (ASR error for 'Hades').",
+          "value": "has a friend interested in gaming",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Her family is in Houston.",
+          "value": "family in Houston, TX",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She stays up late and her first class is at 12 PM, taking courses remotely.",
+          "value": "late-night remote student with noon start",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives off campus this year, having been in dorms as a freshman.",
+          "value": "lives off campus",
+          "lines": [
+            59,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She goes out to Center City on weekends.",
+          "value": "goes to Center City Philadelphia on weekends",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She recently got into skateboarding and can do an Ollie.",
+          "value": "beginner skateboarder",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She loves hot pot, prefers spice, and has made it at home with roommates using induction cooker.",
+          "value": "spicy hot pot enthusiast, home cook with roommates",
+          "lines": [
+            193,
+            199,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She binge-watched Queen's Gambit with roommate, likes HBO shows, thrillers (Gone Girl, Shutter Island, Silence of the Lambs), dislikes jump scares. Also watched Game of Thrones.",
+          "value": "streams Netflix/HBO, enjoys thrillers, avoids jump scares",
+          "lines": [
+            117,
+            131,
+            135,
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is studying design, uses Adobe Creative Suite and Maya for computer animation.",
+          "value": "design student using Adobe and Maya",
+          "lines": [
+            37,
+            41,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She runs Maya on a 'dinky computer' that struggles.",
+          "value": "uses underpowered computer",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lists Lana Del Rey, 'Class animals' (Glass Animals), 'two ft' (likely 2Pac), Tame Impala, loves sad songs, and hates country music (even though from Texas).",
+          "value": "music taste: Lana Del Rey, Glass Animals, 2Pac, Tame Impala; dislikes country",
+          "lines": [
+            231,
+            233,
+            235,
+            217,
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'my diet has been so bad'.",
+          "value": "poor diet recently",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He says he is 'in new york city originally from', and describes subways, mask compliance, and alternating weather typical of NYC. Confirms with 'Yeah' when asked.",
+          "value": "New York City, NY",
+          "lines": [
+            78,
+            84,
+            156,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'Just freelance programmer.'",
+          "value": "freelance programmer",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about school scheduling early classes, implying he attended college.",
+          "value": "college educated",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says freelance work is 'a bit slow' right now.",
+          "value": "freelance programming work currently slow",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says this is his 7th conversation and responds to 'monies' question with 'Their goal All right', implying it is a paid study.",
+          "value": "participant in paid conversation study",
+          "lines": [
+            8,
+            13,
+            14
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When discussing skateboarding he says 'just ask my friends', indicating he has friends who know he skateboards.",
+          "value": "has friends",
+          "lines": [
+            104
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He states 'work out at home.'",
+          "value": "works out at home",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He makes a lot of curry, shops at an Indian supermarket using Google to translate ingredients, plans to try Southeast Asian recipes, and gets Japanese bento boxes.",
+          "value": "enthusiastic home cook of Indian and Asian cuisines",
+          "lines": [
+            176,
+            178,
+            180,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He used to go out more, now watches Netflix/Amazon Prime, liked The Witcher, 'Trained of the Sun' (Train to Busan), and dislikes jump scares. He drops shows he doesn't like.",
+          "value": "homebody, streams movies/series, avoids jump scares",
+          "lines": [
+            94,
+            96,
+            106,
+            122,
+            130,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays mobile games lately, hasn't used console in a while, but discusses Joy Cons, implying he owns a Nintendo Switch.",
+          "value": "gamer, mobile and Nintendo Switch",
+          "lines": [
+            168,
+            170,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He grew up with radio, uses Spotify, not picky, finds old country boring.",
+          "value": "eclectic music listener on Spotify; dislikes old country",
+          "lines": [
+            214,
+            220,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses her skateboarding and he responds with skateboard-related remarks; line 104 is garbled ('I can do I can't skate boards') but context and 'just ask my friends' suggest he skateboards.",
+          "value": "skateboards or used to skateboard",
+          "lines": [
+            104,
+            105
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He discusses going out for hot pot, spicy/non-spicy preferences, and splitting broths.",
+          "value": "enjoys hot pot, comfortable with spicy food",
+          "lines": [
+            204,
+            208
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

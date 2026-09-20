@@ -1,0 +1,339 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When speaker_b gives his name (line 310), speaker_a responds with 'Milk', which is phonetically close to 'Mike'; intended term likely 'Mike' per ASR error.",
+          "value": "Mike",
+          "lines": [
+            311
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'Pennsylvania' when asked where he is from (line 11).",
+          "value": "Pennsylvania",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is a water polo player 'at Penn State' (line 73), placing him at Penn State University, State College, PA.",
+          "value": "Penn State University, State College, PA",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'On my own junior', meaning 'I'm a junior' (line 19).",
+          "value": "college junior",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I am from a criminology' and later clarifies (lines 19, 27).",
+          "value": "criminology major",
+          "lines": [
+            19,
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I'm on the ROTC' and discusses Army ROTC specifics (lines 33, 39, 95).",
+          "value": "Army ROTC cadet",
+          "lines": [
+            33,
+            39,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to 'my wife' and 'my dad', and context strongly suggests male gender; also varsity water polo is typically a male team (lines 73, 115, 187).",
+          "value": "male",
+          "lines": [
+            73,
+            115,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'my wife' directly (line 187).",
+          "value": "married",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my two Children' (line 187).",
+          "value": "father of two",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm the Far City water polo player at Penn State' – 'Far City' is an ASR error for 'varsity' (line 73).",
+          "value": "varsity water polo athlete",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I've got a 65 uh Oldsmobile cutlets' (Cutlass) and later confirms it is his car (lines 119, 125).",
+          "value": "owns 1965 Oldsmobile Cutlass",
+          "lines": [
+            119,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my name cars in 98 Ford explorer', meaning 'my other car is a 98 Ford Explorer' (line 131).",
+          "value": "owns 1998 Ford Explorer",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I worked as a assistant coroner' (line 175).",
+          "value": "worked as assistant coroner",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my dad was there force are, he was he was enlisted maintenance', meaning Air Force enlisted maintenance (line 115).",
+          "value": "father served in US Air Force as enlisted maintenance",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my wife' (line 187).",
+          "value": "has a wife",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my two Children' (line 187).",
+          "value": "has two children",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm into caving' and mentions his 'case suit' (cave suit) (lines 197, 201).",
+          "value": "enjoys caving",
+          "lines": [
+            197,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes historical European martial arts with armour and blunted weapons, mentions a HEMA academy he visited for German longsword, and says he is into that (lines 273, 275, 279, 281).",
+          "value": "enjoys HEMA (historical European martial arts)",
+          "lines": [
+            273,
+            275,
+            279,
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists multiple video games (Among Us, Destiny, Dying Light, Kingdom Come Deliverance, Men of War, Mount & Blade, The Witcher 3) and later says he lacks motivation but has played (lines 213, 215, 217, 223, 225).",
+          "value": "plays video games",
+          "lines": [
+            213,
+            215,
+            217,
+            223,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I tried wiggling' (whittling) and describes cutting corners off a piece of wood (lines 191, 193, 195, 197).",
+          "value": "enjoys whittling",
+          "lines": [
+            191,
+            193,
+            195,
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I think we'll draw a little bit, but I'm not very good at it' (line 205).",
+          "value": "draws occasionally",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions watching 'Van Helsing nightfall', discusses a show about Templars set in 1139, and recommends it (lines 239, 241, 243, 245, 251).",
+          "value": "watches historical fantasy TV shows like Van Helsing and Knightfall",
+          "lines": [
+            239,
+            241,
+            243,
+            245,
+            251
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I am not technologically savvy' (line 113).",
+          "value": "not technologically savvy",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'Oh, my name is Craig' (line 310).",
+          "value": "Craig",
+          "lines": [
+            310
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm at bir me right now two' – 'bir me' is phonetically 'Birmingham'. He also references a big medical school, consistent with UAB in Birmingham, AL (lines 58, 60).",
+          "value": "Birmingham, AL",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'freshman just started' (line 18).",
+          "value": "college freshman",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my cool computer science' (line 18).",
+          "value": "computer science major",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b has a girlfriend (line 232) and name Craig is typically male.",
+          "value": "male",
+          "lines": [
+            232,
+            310
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he is at 'bir me' (Birmingham) and describes it as a big medical school, indicating UAB (lines 58, 60).",
+          "value": "student at UAB",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my girlfriend' (line 232).",
+          "value": "has a girlfriend",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions playing games and talking with friends (lines 210, 212).",
+          "value": "has a circle of friends he games with",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he plays video games, grew up on first-person shooters, and now plays party games with friends online (lines 209, 210, 212).",
+          "value": "plays video games",
+          "lines": [
+            209,
+            210,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I will always show community' (watches Community), and that he and his girlfriend are watching Avatar: The Last Airbender, then plan to watch Legend of Korra (lines 230, 232).",
+          "value": "watches Community and Avatar: The Last Airbender",
+          "lines": [
+            230,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I wish I was a bit more like mechanically inclined' (line 128).",
+          "value": "not mechanically inclined",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in Georgia.'",
+          "value": "Georgia",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm like 15 minutes from Atlanta.'",
+          "value": "15 minutes from Atlanta",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I grew up mainly in like I grew up in Maryland for the 1st 14 years of my life.'",
+          "value": "Lived in Maryland for first 14 years of life",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'then we moved to England.'",
+          "value": "Lived in England",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I lived in colorado.' (sequence slightly ambiguous but stated).",
+          "value": "Lived in Colorado",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm a military brat.' indicating they grew up in a military family.",
+          "value": "military brat",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my dad retired here in Georgia.'",
+          "value": "father retired in Georgia",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I've stayed in the house since March' and 'I order my groceries and everything, I don't even go outside.'",
+          "value": "Staying home since March, ordering groceries, not going outside",
+          "lines": [
+            203,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was in Australia one year for christmas' and 'I was there from like I think it is december until March.'",
+          "value": "Visited Australia from December to March (summer)",
+          "lines": [
+            65,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'This is my first time doing this now.' referring to the chat platform.",
+          "value": "First time participating in this chat/survey",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions visiting Niagara Falls area, passing through New York but ending on Canadian side.",
+          "value": "Visited Niagara Falls area (New York/Canadian side)",
+          "lines": [
+            95,
+            96,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'My name is side here you are.' Speaker_a interprets as 'Shiloh'. ASR 'side' likely a mishearing of 'Shiloh'. Speaker_b's subsequent 'Asylum' is likely the same name garbled. Recorded as best guess.",
+          "value": "Shiloh",
+          "lines": [
+            274,
+            275,
+            276
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in new york' and later 'I'm in Brooklyn' which is a borough of New York City.",
+          "value": "Brooklyn, New York City",
+          "lines": [
+            6,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I come from Hong kong.' indicating original home.",
+          "value": "Originally from Hong Kong",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I come from Hong kong' which defines a geographic/cultural origin group.",
+          "value": "Hong Kong origin",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I do construction' and 'I'm in the business' referencing construction work.",
+          "value": "Construction worker",
+          "lines": [
+            100,
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker references 'my wife' multiple times.",
+          "value": "Has a wife",
+          "lines": [
+            68,
+            152,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my wife was literally tell me because uh, you know, this comes from having experienced with stars right back in 2000 and three.' 'stars' is phonetically close to 'SARS' and the context (respiratory disease, 2003) supports that.",
+          "value": "Wife experienced SARS in 2003",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I've had a number of these chats before.' implying familiarity with the platform.",
+          "value": "Has participated in multiple chats/surveys before",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I was on a cruise about I'm gonna say around six years ago, 67 years ago and one of the stops was cape Canaveral in florida.'",
+          "value": "Went on a cruise to Cape Canaveral, Florida about 6-7 years ago",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I went to Indonesia for for for like two months.'",
+          "value": "Spent about two months in Indonesia",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I've never been to Australia.'",
+          "value": "Never been to Australia",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

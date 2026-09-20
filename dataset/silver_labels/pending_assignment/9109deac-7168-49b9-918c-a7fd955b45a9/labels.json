@@ -1,0 +1,351 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 9: speaker_a says 'My name is Jeff.' Line 280: speaker_b says 'Good to meet you, Jeff.'",
+          "value": "Jeff",
+          "lines": [
+            9,
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 13: speaker_a says 'I'm over in Oregon. Uh Well, I'm at Valley, so kind of by Asylum, like the state capital.' The state capital of Oregon is Salem; 'Asylum' is an ASR error for 'Salem'. 'Valley' likely refers to the Willamette Valley region where Salem is located. Line 280 confirms he is in Oregon.",
+          "value": "Oregon, near Salem (Willamette Valley)",
+          "lines": [
+            13,
+            280
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a has a male name 'Jeff', refers to having a wife, and is addressed with male terms.",
+          "value": "Male",
+          "lines": [
+            9,
+            185
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 47: speaker_a says 'I. T. For our school district.' Lines 210-211 confirm it is a public school district. Line 59 mentions distance learning and Chromebook tracking.",
+          "value": "IT for a public school district",
+          "lines": [
+            47,
+            59,
+            210,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 113: speaker_a says 'they both hired me based off of my associates degree, which is computer network.'",
+          "value": "Associate's degree in computer networking",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 65: speaker_a says 'I was working for a company called Mitchell one they do automotive repair manuals.'",
+          "value": "Worked for Mitchell One (automotive repair manuals)",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 113: speaker_a says 'I've had to I. T. Jobs one was working for the newspaper'",
+          "value": "Worked in IT for a newspaper",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 63: speaker_a says 'as far back as like one of my earliest jobs just working at a grocery store'",
+          "value": "Worked at a grocery store",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 185-193: speaker_a describes being furloughed for several days (4-5 days) and receiving the $600 federal unemployment boost, resulting in 125% pay.",
+          "value": "Furloughed for a few days and received enhanced unemployment benefits",
+          "lines": [
+            185,
+            186,
+            187,
+            191,
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 185-186: 'my wife who works for the SD she got six days.' SD means School District.",
+          "value": "Wife works for the school district",
+          "lines": [
+            185,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 231: 'I have two of my own, they're going into 3rd and 4th grade'",
+          "value": "Two children, in 3rd and 4th grade",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 235: 'My kids are in christian school'",
+          "value": "Children attend Christian school",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 155-157: 'My sister actually, she uh she just turned 50. ... she's down in Tennessee right now... she's trying to learn python herself'",
+          "value": "Sister, age 50, in Tennessee, learning Python",
+          "lines": [
+            155,
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 63, 69, 75: speaker_a describes learning coding on his own, starting with simple scripts, and says line 63 'I was self taught.'",
+          "value": "Self-taught programmer",
+          "lines": [
+            63,
+            69,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 95: 'I use notepad plus plus.'",
+          "value": "Uses Notepad++ for coding",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 271: 'I love flying. I wish I could do that more often.'",
+          "value": "Enjoys flying",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 15-19: speaker_a says 'That's the third time for me to.' referring to some recurring task/study.",
+          "value": "Participated in a task/study three times",
+          "lines": [
+            15,
+            16,
+            19
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 10: 'I'm in Newport News Virginia, come on, I'm in a hotel' and line 34: 'I'm on a trip. ... in Newport news for most of the day'",
+          "value": "Currently in Newport News, Virginia (hotel, work trip)",
+          "lines": [
+            10,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 160: 'I'm from Cincinnati'",
+          "value": "From Cincinnati, Ohio",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is referred to as 'man' (line 7) and uses male terms; also has a college roommate and is a pilot, typically male.",
+          "value": "Male",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 34: 'I'm a pilot for like a regional airline pilot for american.'",
+          "value": "Regional airline pilot for American Airlines",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 176: 'I'm pretty senior ... there's captains and first officers and I was like the very top spectrum of first officers.'",
+          "value": "First officer (high seniority)",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 62: 'I might get furloughed in october' and lines 176-180 detail the furlough risk.",
+          "value": "At risk of furlough in October 2020",
+          "lines": [
+            62,
+            176,
+            177,
+            178,
+            179,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 28-30: 'he gave me twice by accident ... enjoy your $30'",
+          "value": "Received an accidental extra $30 payment from a study/task",
+          "lines": [
+            28,
+            29,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 168, 172, 174: 'I took a class on couponing' and got an A+ and a certificate.",
+          "value": "Took an online couponing class, earned an A+",
+          "lines": [
+            168,
+            172,
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 212: 'My mom's a catholic school teacher.' Line 246: 'that's what my mom's experience in Louisville was'",
+          "value": "Mother is a Catholic school teacher in Louisville",
+          "lines": [
+            212,
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 138: 'My brother recommended that one.'",
+          "value": "Has a brother",
+          "lines": [
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 196: 'I went to my college roommate's house and Cincinnati'",
+          "value": "Has a college roommate",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 42: 'we go in and out of charlotte a lot ... mostly east coast ... the only international flights we do is Toronto and Montreal'",
+          "value": "Flies domestic East Coast routes, international flights only to Toronto and Montreal",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: 'I don't go out and like bar hopping stuff usually.'",
+          "value": "Avoids bar hopping on trips",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: 'this Hilton right here' indicates he is staying at a Hilton.",
+          "value": "Staying at a Hilton hotel in Newport News",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 62, 130, 147-149, 180: he asks about learning to code, mentions Python, C++, and considers it as a backup career.",
+          "value": "Interested in learning coding (Python, etc.)",
+          "lines": [
+            62,
+            130,
+            147,
+            148,
+            149,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 168: 'I was just sitting on call and they never called me in the whole month'",
+          "value": "Has significant downtime at work (on call)",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 180: 'I was looking into coding or carpentry.'",
+          "value": "Considering carpentry as a career alternative",
+          "lines": [
+            180
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 16: 'Yeah this is my third time. What about you?' referring to the same task/study as speaker_a.",
+          "value": "Participated in a task/study three times",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

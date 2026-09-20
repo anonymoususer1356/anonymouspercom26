@@ -1,0 +1,219 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as Charles, says everyone calls him 'Check Bill' (ASR for 'Chuck Bill' or simply 'Chuck'). Speaker_b later addresses him as Chuck. So name is Charles, goes by Chuck.",
+          "value": "Charles (goes by Chuck)",
+          "lines": [
+            13,
+            14,
+            302
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says he is technically originally from Montana (ASR 'money' for 'originally').",
+          "value": "originally from Montana",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he grew up in Oregon and currently is right on the California-Oregon border, about three miles from the border, in what ASR renders as 'northern water cow' (likely northern Oregon/California border area). Therefore he lives near the border in Oregon.",
+          "value": "lives near California-Oregon border, ~3 miles from border, likely in Oregon",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm 44' directly.",
+          "value": "44 years old",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'Normally I do a construction like carpentry and that kind of thing.'",
+          "value": "construction/carpentry",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions canceling cable because it got up to $180, switched to streaming and now pays about $60 a month for everything.",
+          "value": "pays ~$60/month for streaming services, canceled cable",
+          "lines": [
+            51,
+            53,
+            55
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When speaker_b asks if he is talking to 'best blood thomas', he clarifies it is his roommate.",
+          "value": "has a roommate",
+          "lines": [
+            74,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about his father being forced into early retirement, losing pension, and now working part-time at age 65.",
+          "value": "father is 65, retired early, works part-time",
+          "lines": [
+            101,
+            103,
+            105,
+            107,
+            109,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Says 'my name is thomas' clearly.",
+          "value": "Thomas",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm in California right now' and specifies 'Southern California. Yeah. Near L.A.'",
+          "value": "Southern California, near Los Angeles",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm 27 days on Earth' where 'days' is likely an ASR error for 'years'.",
+          "value": "27 years old",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I'm a student. I go to school at U.C.L.A.'",
+          "value": "student at UCLA",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am going to be a senior, so this is the last year.'",
+          "value": "senior at UCLA",
+          "lines": [
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says his longest job has been tutoring science classes, describes tutoring one-on-one via Zoom.",
+          "value": "tutors science classes",
+          "lines": [
+            118,
+            130,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his career focus is mainly on renewable energy.",
+          "value": "career focus on renewable energy",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I didn't grow up rich, I didn't grow up with money.'",
+          "value": "did not grow up wealthy",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his dad is 65 (ASR '16, Five or four' for '65 or 64'), worked on automotive cars, and retired because of pandemic issues.",
+          "value": "father is about 65, auto mechanic, retired due to pandemic",
+          "lines": [
+            24,
+            86,
+            90,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I usually watch NBA with my family.'",
+          "value": "watches NBA with family",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I occasionally watch sports' and mentions watching NBA with family and football.",
+          "value": "occasionally watches sports (NBA with family)",
+          "lines": [
+            42,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he doesn't have cable because he is away and questions why he would pay for it; implied reliance on streaming.",
+          "value": "does not have cable TV, uses streaming",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

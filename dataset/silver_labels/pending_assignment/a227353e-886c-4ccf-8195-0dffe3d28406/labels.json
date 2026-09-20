@@ -1,0 +1,399 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'My name is uh Andrew' in line 7.",
+          "value": "Andrew",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I go by a j' in line 7.",
+          "value": "AJ",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm from Illinois' in line 9 and describes current Illinois weather in lines 46-47, confirming current residence.",
+          "value": "Illinois",
+          "lines": [
+            9,
+            46,
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'my whole family are bears fans' (line 9), indicating he is a Chicago Bears fan.",
+          "value": "Chicago Bears fan",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my family's white sox' (line 27) and 'I'm kind of a white Sox fan a little bit' (line 29).",
+          "value": "Chicago White Sox fan (partial)",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'my mental health has been pretty bad lately' (line 135) and earlier 'I've had better days' (line 3).",
+          "value": "Reports poor mental health lately",
+          "lines": [
+            3,
+            135
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker states 'I voted already' and 'I filled out a mail in ballot and dropped it in a drop box near my house' (lines 71-77).",
+          "value": "Voted early via mail-in ballot dropped at drop box",
+          "lines": [
+            71,
+            73,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was out doing some volunteering for... my local political organization today' and describes leaving pamphlets door-to-door (lines 79-83).",
+          "value": "Volunteers for a local political organization distributing pamphlets",
+          "lines": [
+            79,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker describes working for 'Lion Bridge', a search engine evaluation company, pay '$11 15 hour' ($11.15/hr), hours limited to ~10 per week (lines 91-97).",
+          "value": "Works from home for Lion Bridge as a search engine evaluator, ~$11.15/hour, ~10 hours/week",
+          "lines": [
+            91,
+            93,
+            95,
+            97
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions using Prolific for income (less than a month) and notes a survey paying $17 for 45 minutes (lines 15-17, 43).",
+          "value": "Does Prolific surveys for supplemental income (e.g., $17 for 45 minutes)",
+          "lines": [
+            15,
+            17,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'me and my brother still live in our parents, so I don't have to pay for rent' (line 111).",
+          "value": "Lives with parents, does not pay rent",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I do one brother, he's older than me by a couple years' (line 41).",
+          "value": "Has one older brother (by a couple years)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions living with parents (line 111) and refers to father and mother (lines 125, 57).",
+          "value": "Lives with mother and father",
+          "lines": [
+            111,
+            125,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says father 'is a teacher mostly mostly like substitute stuff' and prefers elementary/middle school (lines 125-127).",
+          "value": "Father is a substitute teacher (mostly elementary/middle school)",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'he's my mom's dog ... he's attached to her at the hip' (line 57).",
+          "value": "Mother owns a dog that is attached to her",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says family are White Sox fans, noting dad is a fan (lines 27-29).",
+          "value": "Family are White Sox fans, especially father",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I like geo casting a lot' (line 31) and 'I enjoyed a lot' (line 33).",
+          "value": "Enjoys geocaching",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has taken up running around his neighborhood (line 55) and wants to get exercise (line 61).",
+          "value": "Runs/walks in neighborhood for exercise",
+          "lines": [
+            55,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I used to really be a gym rat' (line 55).",
+          "value": "Used to go to the gym regularly",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker discusses watching NFL and MLB games in lines 9, 13, 25, 27.",
+          "value": "Watches NFL and MLB games",
+          "lines": [
+            9,
+            13,
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions trying Microsoft Flight Simulator around 2007 (line 37).",
+          "value": "Played Microsoft Flight Simulator in the past",
+          "lines": [
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker volunteers for a political org (line 79), Habitat for Humanity (line 85), and conservation district (line 89).",
+          "value": "Volunteers for multiple organizations (political, Habitat for Humanity, conservation)",
+          "lines": [
+            79,
+            85,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'My name is Evan' in line 4.",
+          "value": "Evan",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I go by E' (line 4). The following 'J.' in line 6 is ambiguous and not included.",
+          "value": "E",
+          "lines": [
+            4
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I live in Idaho and I live close to Boise' (line 48).",
+          "value": "Near Boise, Idaho",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I lived in Phoenix for like four years' (line 22).",
+          "value": "Lived in Phoenix, AZ for ~4 years",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I'm an Arizona cardinals fan' (line 20).",
+          "value": "Arizona Cardinals fan (NFL)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my Cardinals were beaten by the Padres' (line 28), referring to MLB's St. Louis Cardinals.",
+          "value": "St. Louis Cardinals fan (MLB)",
+          "lines": [
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I have a disability I have variable palsy', likely a mis-transcription of 'cerebral palsy'; context (wheelchair, caregivers) supports a physical disability.",
+          "value": "Has a disability (likely cerebral palsy, transcribed as 'variable palsy')",
+          "lines": [
+            44
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker mentions 'being in a wheelchair' (line 62).",
+          "value": "Wheelchair user",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Self-reports 'variable palsy' (cerebral palsy) in line 44.",
+          "value": "Cerebral palsy (transcribed as 'variable palsy')",
+          "lines": [
+            44
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'I have caregivers that come in and take care of me' (line 122).",
+          "value": "Requires caregivers for daily assistance",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker mentions using Prolific and making 'some good money at it', being brand new (lines 14-16).",
+          "value": "Does Prolific surveys for income",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says a friend got him into the NFL (line 22).",
+          "value": "Has a friend who introduced him to NFL",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions going geocaching on a blind date once in college (line 34).",
+          "value": "Went on a blind date once in college",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'take my dog on a walk' (line 62).",
+          "value": "Owns a dog",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states he likes to watch sports (NFL, MLB) in lines 20-28.",
+          "value": "Enjoys watching sports (NFL, MLB)",
+          "lines": [
+            20,
+            22,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he flies the new Microsoft Flight Simulator 2020 (line 38).",
+          "value": "Flies Microsoft Flight Simulator 2020",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've been geo cashing once' (line 32) and recounts the blind date in line 34.",
+          "value": "Went geocaching once",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions taking dog for a walk but it's getting colder (line 62).",
+          "value": "Takes dog for walks",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker states being in a wheelchair (line 62).",
+          "value": "Wheelchair user",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

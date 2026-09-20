@@ -1,0 +1,343 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'richard' (phonetic for Richard).",
+          "value": "Richard",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he is in Orlando, Florida, outside Disney World.",
+          "value": "lives in Orlando, Florida, near Disney World",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he lives in an area called Four Corners where four counties meet (ASR 'I'm like on the an area called four corners').",
+          "value": "lives in Four Corners area",
+          "lines": [
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions a major college campus, University of Central Florida, is nearby.",
+          "value": "lives near University of Central Florida",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Richard is culturally male; no other gender cues appear.",
+          "value": "male",
+          "lines": [
+            5
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he is a schoolteacher and now teaches a social skills class after previously teaching social studies/history.",
+          "value": "schoolteacher (teaches social skills, formerly social studies/history)",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He describes a friend who is extremely COVID‑cautious and says he lives vicariously through speaker_a.",
+          "value": "has a friend who is very COVID-cautious",
+          "lines": [
+            181,
+            183,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my colleagues', implying he works with other teachers.",
+          "value": "has teacher colleagues",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is invited to a 4th of July party.",
+          "value": "invited to a 4th of July party",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he goes to movie theaters and restaurants.",
+          "value": "goes to movie theaters and restaurants",
+          "lines": [
+            13,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he actively goes to places that do not require masks and is against mask enforcement.",
+          "value": "goes to areas without mask mandates, opposes mask enforcement",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes waiting for store aisles to clear before entering them.",
+          "value": "avoids crowded store aisles",
+          "lines": [
+            225,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions watching a school board meeting via Zoom.",
+          "value": "watches school board meetings via Zoom",
+          "lines": [
+            247,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He notes that his area is a tourist area.",
+          "value": "lives in a tourist area",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He states he is in northern Virginia, outside D.C.",
+          "value": "lives in northern Virginia, outside Washington D.C.",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he can walk to many restaurants and shops from where he lives.",
+          "value": "lives in a walkable area with many restaurants and shops",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he only interacts with people under 30 and separates himself from older adults, strongly implying he is part of the under‑30 group.",
+          "value": "likely under 30 years old",
+          "lines": [
+            160
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says he got tested for COVID‑19 and afterward considered himself 'good to go', implying a negative result.",
+          "value": "tested for COVID-19 (presumed negative)",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he is not a teacher (ASR 'T shirt' for teacher) but does a lot of online tutoring.",
+          "value": "online tutor (not a schoolteacher)",
+          "lines": [
+            32
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He states his mother is a math teacher.",
+          "value": "mother is a math teacher",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he had his mother as his geometry teacher in seventh grade.",
+          "value": "mother was his geometry teacher in 7th grade",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mother switched to teach at his high school during his senior year.",
+          "value": "mother taught at his high school during his senior year",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions he has two friends, one of whom is in medical school.",
+          "value": "has two friends, one in medical school",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes driving to a lake house his parents own in rural Kentucky (ASR 'losing' for 'going to' or 'visiting').",
+          "value": "parents own a lake house in rural Kentucky",
+          "lines": [
+            234
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says he visited his parents a couple of weeks ago.",
+          "value": "visited parents a couple of weeks ago",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his friends urged him to come to a protest.",
+          "value": "friends invited him to a protest",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He states he attended a protest for the first time.",
+          "value": "attended a protest",
+          "lines": [
+            142,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he wore a mask, sunglasses, and a hat to the protest to avoid being identified (ASR 'sacrifices' for 'sunglasses').",
+          "value": "wore a disguise (mask, sunglasses, hat) at a protest",
+          "lines": [
+            284
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he limits in-person interactions to people under 30 to keep older people safe.",
+          "value": "limits in-person socializing to people under 30",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He decided to get a COVID‑19 test before seeing his parents to be sure he was not infectious.",
+          "value": "gets tested for COVID-19 before seeing vulnerable relatives",
+          "lines": [
+            166,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he went out every day during the week before lockdown started.",
+          "value": "went out daily the week before COVID-19 lockdown",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes a road trip through Tennessee and Kentucky to reach his parents' lake house.",
+          "value": "drove to Kentucky to visit parents' lake house",
+          "lines": [
+            234
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he initially used cut‑up t‑shirts as face masks.",
+          "value": "uses cut-up t-shirts as face masks",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions he owns an N95 mask but finds it uncomfortable (ASR 'won' for 'one').",
+          "value": "owns an N95 mask, finds it uncomfortable",
+          "lines": [
+            258,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he wears a mask in indoor public places, like grocery stores.",
+          "value": "wears a mask in indoor public spaces",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He responds to a question about a 4th of July party by saying 'I think we're having one', indicating planning.",
+          "value": "planning a 4th of July gathering",
+          "lines": [
+            158
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

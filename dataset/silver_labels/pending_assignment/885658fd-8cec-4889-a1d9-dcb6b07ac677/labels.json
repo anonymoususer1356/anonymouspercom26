@@ -1,0 +1,400 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a explicitly states his name when asked, and speaker_b addresses him as Adam.",
+          "value": "Adam Roger",
+          "lines": [
+            528,
+            529
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is in Northern Wisconsin, then specifies Superior, and mentions it is across the water from Duluth.",
+          "value": "Superior, Wisconsin",
+          "lines": [
+            165,
+            181,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was born and raised in upper Michigan, the upper peninsula.",
+          "value": "Upper Peninsula, Michigan (formerly)",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm not hitting 35 soon', indicating he is under 35.",
+          "value": "under 35",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to speaker_a as 'this man', and speaker_a has a typically male name, Adam.",
+          "value": "male",
+          "lines": [
+            168,
+            529
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I consider myself more agnostic'.",
+          "value": "agnostic",
+          "lines": [
+            475
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his daughter multiple times, indicating he is a parent.",
+          "value": "parent",
+          "lines": [
+            67,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states he has health issues that prevent him from working, and he is seeking disability but not yet approved.",
+          "value": "Has health issues preventing work, pending disability determination",
+          "lines": [
+            279,
+            281,
+            283,
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a says he is technically a dependent for tax purposes, which affected his stimulus eligibility.",
+          "value": "Tax dependent",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he has been unemployed for a while.",
+          "value": "Unemployed",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says when with his ex, their household income was about $33,000 per year.",
+          "value": "Previous household income ~$33,000/year",
+          "lines": [
+            37,
+            38,
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they had no retirement fund, no savings, living paycheck to paycheck.",
+          "value": "No savings or retirement fund, lived paycheck to paycheck",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he did not qualify for the first stimulus check because he is a dependent.",
+          "value": "Did not qualify for first stimulus due to dependent status",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly refers to his ex-partner, with whom he had cats and a daughter.",
+          "value": "Ex-partner (mother of his child)",
+          "lines": [
+            45,
+            51,
+            67,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his daughter.",
+          "value": "Has a daughter",
+          "lines": [
+            67,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes himself as an introverted person and a loner.",
+          "value": "Introvert and loner",
+          "lines": [
+            21,
+            463
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a strong desire to travel the world.",
+          "value": "Aspires to travel extensively",
+          "lines": [
+            419,
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being an active geocacher (ASR 'geo crashers') with his ex.",
+          "value": "Geocaching hobby",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a had six cats with his ex-partner, as described in detail.",
+          "value": "Formerly had six cats",
+          "lines": [
+            45,
+            51,
+            77,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a uses Firefox browser, as indicated by his response to the rejection issue.",
+          "value": "Uses Firefox",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a expresses strong interest in history, cultures, philosophy, and psychology.",
+          "value": "Interested in history, cultures, philosophy, psychology",
+          "lines": [
+            467,
+            473,
+            515
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as Roger.",
+          "value": "Roger",
+          "lines": [
+            530
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he is in Arizona, specifically Phoenix.",
+          "value": "Phoenix, Arizona",
+          "lines": [
+            166,
+            278,
+            498
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he was born in Michigan and spent most of his life in Minnesota.",
+          "value": "Formerly Minnesota (born in Michigan)",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm 56'.",
+          "value": "56 years old",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has a typically male name, Roger.",
+          "value": "male",
+          "lines": [
+            530
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b is a member of a humanist society and participates regularly, indicating humanist beliefs.",
+          "value": "Humanist",
+          "lines": [
+            498
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states he is on disability Social Security, indicating disabled status.",
+          "value": "Disabled",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says he is on disability and has a chronic condition that does not improve.",
+          "value": "Has a disability (chronic, on SSDI)",
+          "lines": [
+            276,
+            278,
+            286
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b receives Social Security Disability Insurance, as he states.",
+          "value": "Receives Social Security Disability Insurance (SSDI)",
+          "lines": [
+            276,
+            286
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says his income is about $25,000 a year.",
+          "value": "Income ~$25,000/year",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b's primary income is his disability check.",
+          "value": "Primary income from disability benefits",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions his car, indicating car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says his mom lived in Detroit.",
+          "value": "Mother in Detroit",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having friends in the trades.",
+          "value": "Has friends in construction/trades",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes his cats and their behavior, indicating he has cats.",
+          "value": "Has cats",
+          "lines": [
+            44,
+            142,
+            430,
+            435
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b participates in a humanist society with philosophy discussions, book clubs, etc. on Zoom.",
+          "value": "Active member of humanist society (Zoom meetups)",
+          "lines": [
+            498,
+            500,
+            502,
+            508
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b did a solo road trip.",
+          "value": "Enjoys solo road trips",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b uses grocery pickup services (Kroger).",
+          "value": "Uses grocery pickup",
+          "lines": [
+            150,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he doesn't play the lottery much.",
+          "value": "Rarely plays lottery",
+          "lines": [
+            416
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,310 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In response to speaker_b saying 'I'm Lindsay', speaker_a says 'Hi. I'm rude.' The word 'rude' is likely an ASR error for a name (e.g., Ruth or a similar sounding name) or a username. It is recorded verbatim.",
+          "value": "rude",
+          "lines": [
+            21
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I actually live in the Greater Los Angeles area'.",
+          "value": "Greater Los Angeles area",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to UC Riverside as 'my school', mentions its bell tower, and states they recently graduated college, indicating they attended and graduated from UC Riverside.",
+          "value": "UC Riverside",
+          "lines": [
+            179,
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm not Egyptian but I am arab'.",
+          "value": "Arab",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I recently graduated college'.",
+          "value": "recent college graduate",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a attended UC Riverside and recently graduated college, so they are a graduate of UC Riverside.",
+          "value": "graduate of UC Riverside",
+          "lines": [
+            83,
+            179
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'got kind of tired' and 'also don't sleep', indicating tiredness and possible sleep issues.",
+          "value": "has difficulty sleeping",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions applying to jobs, including Prolific, and expressing frustration with entry-level job requirements, indicating they are actively job hunting.",
+          "value": "currently job hunting",
+          "lines": [
+            65,
+            71,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'luckily able to get an unpaid internship like last month'.",
+          "value": "has an unpaid internship",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recently joined the beermoney subreddit and has been using Prolific (ASR 'realistic'), a survey site, implying they use such sites for extra income.",
+          "value": "uses beermoney websites like Prolific for income",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses the possibility of becoming a notary public as a side job, prompted by recommendations on the beermoney subreddit.",
+          "value": "considering becoming a notary public for income",
+          "lines": [
+            41,
+            59
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'at least 60% for maybe even 90% are comedy clips on YouTube' describing their viewing habits.",
+          "value": "watches YouTube comedy clips frequently",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a watched 'Paranormal', an Egyptian Arabic show, and discussed its plot; they also mentioned it is on Netflix.",
+          "value": "watched Paranormal on Netflix",
+          "lines": [
+            139,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses the cartoon 'Disenchantment', mentioning the princess Bean and the little devil guy, indicating they have watched it.",
+          "value": "watched Disenchantment on Netflix",
+          "lines": [
+            165,
+            167,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching Elvira's Movie Macabre on Amazon, a collection of bad movies presented by Elvira.",
+          "value": "watched Elvira's Movie Macabre on Amazon",
+          "lines": [
+            173
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they heard about the beermoney subreddit on TikTok, implying they use the platform.",
+          "value": "uses TikTok",
+          "lines": [
+            31
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I was actually just reading an article on my film' (phone) while waiting for speaker_b.",
+          "value": "reads articles on their phone",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually starting to consider like graduate school'.",
+          "value": "considering graduate school",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'I'm Lindsay nice to meet you'.",
+          "value": "Lindsay",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I moved out there in March' in response to speaker_a's mention of UC Riverside, indicating a move to a new area (possibly Riverside), but the exact location is not confirmed.",
+          "value": "moved to a new area in March",
+          "lines": [
+            180
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says they 'used to stay with this um lady where I like rented the top floor of her house' and describes the house as an old Victorian house.",
+          "value": "previously rented top floor of a Victorian house",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I got a degree in psychology'.",
+          "value": "has a degree in psychology",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I feel so burnt out. Like all the time.' and describes having low mental energy and a short attention span, preventing them from watching movies.",
+          "value": "experiences burnout and low mental energy",
+          "lines": [
+            134,
+            132
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm actually working for Apple right now doing ... $9 an hour' on a project researching social media disinformation.",
+          "value": "works for Apple at $9/hr",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they've been doing the Apple job for about a month and 'I'm already looking for another job'.",
+          "value": "currently looking for another job",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks speaker_a 'are you on the beer money subreddit to?', implying they are also a member of that subreddit.",
+          "value": "uses beermoney subreddit",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my ex fiance' when telling a story about the Ellen show.",
+          "value": "has an ex-fiance",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a friend who's doing her masters right now' and describes her arrangements.",
+          "value": "has a female friend doing a master's degree",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I watch like comedy clips on Youtube that is about all that my attention span will like let me do' and 'I don't watch movies or tv anymore'.",
+          "value": "watches comedy clips on YouTube instead of movies/TV",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually used to watch all the time like those old ... horror movies from like the 50s and 60s'.",
+          "value": "used to watch old horror movies from the 50s and 60s",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms that the last show they watched was 'Disenchantment', a Netflix cartoon, after speaker_a describes it.",
+          "value": "watched Disenchantment on Netflix",
+          "lines": [
+            162,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually watched the clip of that one' referring to a video of a fan meeting Ellen at a hospital.",
+          "value": "watched a clip of a fan meeting Ellen at a hospital",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

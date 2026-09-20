@@ -1,0 +1,399 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in texas right now. Austin.'",
+          "value": "Austin, Texas",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm a college student.'",
+          "value": "college student",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My majors medical, laboratory science.'",
+          "value": "medical laboratory science major",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm in my third year, so almost done fully online.'",
+          "value": "third year college student",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was born in michigan.'",
+          "value": "born in Michigan",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'Right, I'm dizzy.'",
+          "value": "dizzy",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says 'nope only like emergency then you could do like absolutely.' and later 'No' when asked whether he can vote by mail this year, indicating he cannot vote by mail in Texas outside an emergency.",
+          "value": "cannot vote by mail in Texas (only emergency absentee)",
+          "lines": [
+            71,
+            75
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a lives in Austin, is a college student, and says he passed on applying to UNC Charlotte because out‑of‑state tuition was high, implying he attends a Texas school as an in‑state student.",
+          "value": "in-state college student in Texas",
+          "lines": [
+            9,
+            27,
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I bought a monitor when we started like at home classes and all of that'.",
+          "value": "purchased a monitor for online classes",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I'm in an apartment with classmates, sort of friend college friend.'",
+          "value": "roommate is a college classmate/friend",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my parents … job outlook for engineers is better in texas than michigan' and later 'they also get to work from home, which I think both of them prefer actually'",
+          "value": "parents are engineers living in Texas who work from home",
+          "lines": [
+            93,
+            215
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I prefer in class, like in person classes, it's nice actually seeing the students and you're all suffering together.'",
+          "value": "prefers in-person classes over online",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm more of a baker than a cooker.'",
+          "value": "enjoys baking more than cooking",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I cannot stand fishing the smell but like having to gut fish.'",
+          "value": "dislikes fishing",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I started watching The Witcher Yeah which is on netflix'.",
+          "value": "watches The Witcher on Netflix",
+          "lines": [
+            180,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we just end up traveling around texas a lot more since anything farther than texas, it's like a flying distance sort of thing.'",
+          "value": "travels around Texas for leisure",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'Uh Sarah, mm Nice to meet you.' and later quotes her director saying 'Sarah that's your job.'",
+          "value": "Sarah",
+          "lines": [
+            8,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in north Carolina.'",
+          "value": "North Carolina",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we live at the lake.'",
+          "value": "lives at a lake",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'university of north Carolina charlotte' and describes working there.",
+          "value": "works at University of North Carolina Charlotte",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm two hours from the mountains and three hours from the beach.'",
+          "value": "~2 hours from mountains, ~3 hours from beach",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I work as an office manager in a graduate in advising office.' and later 'I'm the office manager'.",
+          "value": "office manager",
+          "lines": [
+            36,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I work at a state university' and names UNC Charlotte.",
+          "value": "employee at University of North Carolina Charlotte",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not a teacher I guess' when discussing elementary teaching.",
+          "value": "not a teacher",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b says 'I've voted by mail before.'",
+          "value": "has voted by mail",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is an office manager, manages the office, staff, and budgets.",
+          "value": "office manager with budgeting responsibilities",
+          "lines": [
+            36,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I live with my boyfriend … just an apartment, the condo'.",
+          "value": "lives in a condo/apartment",
+          "lines": [
+            106,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I paid for Sirius XM'.",
+          "value": "subscribes to SiriusXM",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the director decided to buy monitors for everybody; she previously used an old monitor and then mentions getting a monitor from the university desk. She is included in 'everybody'.",
+          "value": "received a new monitor from employer for working from home",
+          "lines": [
+            194,
+            196
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I live with my boyfriend' and 'he works in retail. He works at a pool supplies support.'",
+          "value": "lives with boyfriend who works at a pool supply store",
+          "lines": [
+            106,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my sister has a nine year old'.",
+          "value": "has a sister with a 9-year-old child",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've got student workers that work for me'.",
+          "value": "supervises student workers",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my director is very much an academic'.",
+          "value": "has a work director",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've got a co worker whose son … they're not allowed to speak'.",
+          "value": "has a coworker",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I do an instagram page with food'.",
+          "value": "runs a food Instagram page",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm creating recipes that are salt free for the National kidney Foundation'.",
+          "value": "develops salt-free recipes for the National Kidney Foundation",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't know how people work from home. I swear to God I don't um I want to go nuts. I like the interaction with people'.",
+          "value": "prefers working in office, dislikes working from home",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I gotta attached to listening to audiobooks' and explains she listens during her commute.",
+          "value": "listens to audiobooks while commuting",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't like the heat that much on.'",
+          "value": "dislikes heat",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we went to Ireland and Scotland last year.'",
+          "value": "traveled to Ireland and Scotland",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the mountains we do day trips all the time … we drive up there the other day actually just to have lunch at our favorite brewery.'",
+          "value": "frequent day trips to mountains and brewery",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes creating recipes, throwing spices in a pot, and using everything bagel seasoning on fish, saying she's developing her palette.",
+          "value": "enjoys cooking and experimenting with spices/seasonings",
+          "lines": [
+            276,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not very outdoorsy'.",
+          "value": "not outdoorsy",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

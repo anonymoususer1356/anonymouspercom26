@@ -1,0 +1,348 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'I'm kelly' directly.",
+          "value": "kelly",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm actually in Los Angeles right now' and later 'we're in L.A. too'.",
+          "value": "Los Angeles",
+          "lines": [
+            31,
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm 23' when asked her age.",
+          "value": "23",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks if she is a '97 baby' and she does not correct him; she is 23 with a March birthday in a year that is likely 2020, making her birth year 1997.",
+          "value": "1997",
+          "lines": [
+            83,
+            84
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "When asked when her birthday is, she answers 'Oh it's in March'.",
+          "value": "March",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name 'kelly' is typically female; refers to partner as 'he', indicating heterosexual relationship and female gender.",
+          "value": "female",
+          "lines": [
+            31,
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I'm like breaking out right now' and blames her diet for acne.",
+          "value": "experiencing acne/skin breakouts",
+          "lines": [
+            365,
+            369
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she 'worked from 9-4', 'just got off an hour ago', has a boss, an office, and mentions documents on Box. This shows she is employed in an office job.",
+          "value": "employed in an office job",
+          "lines": [
+            43,
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly states 'worked from 9-4'.",
+          "value": "works 9 am – 4 pm",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she works from home, can walk around her room, and does not want to go back to the office.",
+          "value": "currently working remotely",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Refers to 'my partner' with 'he' multiple times.",
+          "value": "has a male partner",
+          "lines": [
+            205,
+            227,
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I also live with my partner too'.",
+          "value": "lives with partner",
+          "lines": [
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my younger sister' on two occasions and describes a sister whose birthday is five days after hers.",
+          "value": "has a younger sister",
+          "lines": [
+            87,
+            103,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'all my sisters' implying more than one.",
+          "value": "has multiple sisters",
+          "lines": [
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions her parents' cooking habits: 'my parents had cooked that way'.",
+          "value": "has parents",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She expresses that she enjoys working from home and does not want to go back to the office.",
+          "value": "prefers working from home",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her partner does not like her cooking and 'now he just cooks all the time and I just need it'.",
+          "value": "partner does the cooking",
+          "lines": [
+            205,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have to go run to the grocery store right right after this' and earlier mentions starting grocery shopping.",
+          "value": "grocery shops",
+          "lines": [
+            245,
+            423
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we're going to eat hot pot with my younger sister'.",
+          "value": "eats hot pot with younger sister",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes snacking on chips, having a Halloween‑size bag of candy, and eating it all.",
+          "value": "snacks heavily on chips and candy",
+          "lines": [
+            355,
+            359,
+            361,
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she feels 'a sense of guilt because it's like I know I could be doing something productive' during quarantine.",
+          "value": "feels guilty about unproductive free time during quarantine",
+          "lines": [
+            375
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'Names cory'.",
+          "value": "cory",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states 'I am in Maryland right now'.",
+          "value": "Maryland",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked his age he says 'I'm 24'.",
+          "value": "24",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a wishes him a happy late birthday and he accepts; he also says 'I just try and 24' (likely 'I just turned 24').",
+          "value": "recently turned 24",
+          "lines": [
+            68,
+            71,
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Name 'Cory' is typically male; his partner is referred to as 'she' and 'Chinese American', so he is male.",
+          "value": "male",
+          "lines": [
+            28,
+            158,
+            248
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "He says 'My partner is chinese american' and uses 'she'.",
+          "value": "has a Chinese American girlfriend",
+          "lines": [
+            248,
+            158,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my partner is a student so we stay at home' and 'we already did dinner', indicating cohabitation.",
+          "value": "lives with partner",
+          "lines": [
+            100,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'She can't tell Hopkins gentle' (ASR for 'She goes to Johns Hopkins') and confirms 'Nurse' when asked if she is studying to be a doctor.",
+          "value": "partner studies nursing at Johns Hopkins",
+          "lines": [
+            158,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I feel like my friends are even busier'.",
+          "value": "has friends",
+          "lines": [
+            394
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'We actually uh we try to eat dinner early so we already did dinner'.",
+          "value": "eats dinner early",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He gives a detailed recipe for curry and confirms making it himself.",
+          "value": "cooks at home",
+          "lines": [
+            188,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'No, I shop with my partner'.",
+          "value": "shops with partner",
+          "lines": [
+            352
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions staying at home for his birthday and 'we stay at home' due to partner being a student.",
+          "value": "stays at home",
+          "lines": [
+            74,
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm not as busy as usual'.",
+          "value": "less busy than usual",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

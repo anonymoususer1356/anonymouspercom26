@@ -1,0 +1,272 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'it's november, it's the middle of november in texas' and later describes wearing a tank top with air conditioning on, confirming current presence in Texas.",
+          "value": "Texas",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'when I lived in spain' while discussing older workers staying in jobs.",
+          "value": "Spain",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I lived in europe for a long for eight years' when comparing education systems.",
+          "value": "Europe (lived there for 8 years)",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a repeatedly refers to 'my two year old', 'mom', and being a mother; child says 'what happened mom'? This strongly indicates female gender.",
+          "value": "female",
+          "lines": [
+            29,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes her children: 'my oldest who is currently watching her sister' (oldest daughter), 'my middle child is 18 gonna be 19', and 'my two year old'. She later says 'I have a quite a spread of Children'.",
+          "value": "mother of three children: oldest daughter, middle child age 18-19, youngest age 2",
+          "lines": [
+            29,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was born in 18 on the cusp of that' referring to the shift in expectations about college. Given she has an 18-year-old and graduated in the late 90s, the ASR '18' is almost certainly a mishearing of \"'81\". This places her birth around 1981.",
+          "value": "1981",
+          "lines": [
+            155
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I've got something for harsh hashimoto's disease' and 'less people doesn't work quite right', indicating Hashimoto's disease (autoimmune thyroid condition). The ASR 'hashimoto's' is phonetically close to 'Hashimoto's'.",
+          "value": "Hashimoto's disease",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly states 'I get sick very, very easily'.",
+          "value": "gets sick very easily",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'it was moreover a month and a half ago, I ended up with bronchitis for the first time and I had to go in'.",
+          "value": "had bronchitis about a month and a half ago",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a states she has three children (see demographic). This item captures the relational tie to those children.",
+          "value": "has three children (oldest daughter, middle child 18-19, youngest 2)",
+          "lines": [
+            29,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dad was military' and 'he got by after school with military'.",
+          "value": "father served in the military",
+          "lines": [
+            155,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'I told my mom' while discussing retirement age.",
+          "value": "mother",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was saying this the other day to a friend of mine'.",
+          "value": "has a friend (unspecified)",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'This is my 4th' when asked how many of these sessions she has done, indicating regular participation in such conversation studies.",
+          "value": "participates in conversation sessions (4th session)",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains she has a two-year-old and arranges for someone to watch the child while she does these sessions: 'I think they watch the two year old um running in here to do my thing, I'll be out in like 45 minutes'.",
+          "value": "arranges childcare for her two-year-old to attend conversation sessions",
+          "lines": [
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b, while discussing his theater job and the hierarchy, mentions that general manager positions 'like that in north Carolina' are limited, implying his own workplace and location are in North Carolina. No state is explicitly stated as his residence, but the context strongly suggests it.",
+          "value": "North Carolina",
+          "lines": [
+            174
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm 20 so I'm just I'm in college'.",
+          "value": "age 20",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is 'in college and um out of this right is going to community college'.",
+          "value": "community college student",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my parents had to homeschool me' because he was not good with school.",
+          "value": "homeschooled",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I'm diabetic type one' directly.",
+          "value": "type 1 diabetes",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I work for regal' and earlier 'my personal job I worked as a theater manager'. Lines 172-174 detail his progression from starting at 17 to floor manager and deputy general manager at Regal.",
+          "value": "employed at Regal Cinemas as a manager (started as floor manager, later deputy general manager)",
+          "lines": [
+            62,
+            70,
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions reaching a point as floor manager where he was 'thinking like $12 an hour instead of eight', indicating his wage as a floor manager.",
+          "value": "wage as floor manager: $12 per hour",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'the only sibling I have is an older brother' and contrasts his school performance with his brother's.",
+          "value": "has an older brother",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dad, his job, he's in I. T.'",
+          "value": "father works in IT",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my parents had to homeschool me' and 'my parents definitely...', indicating a mother as part of his parents.",
+          "value": "mother",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states he is attending community college.",
+          "value": "attends community college",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this is my 5th successful one' referring to conversation sessions where the other person showed up.",
+          "value": "participates in conversation sessions (5th successful session)",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm trying to go into toy design small'.",
+          "value": "aspires to go into toy design",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

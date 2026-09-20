@@ -1,0 +1,368 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'nice to meet you boston actually', later says 'just moved here', 'I moved from ST louis', 'moving from ST louis to boston', and 'I haven't even been here a week', establishing current residence in Boston.",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            3,
+            5,
+            15,
+            129,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved from ST louis' and 'moving from ST louis to boston', establishing previous residence in St. Louis.",
+          "value": "St. Louis, Missouri",
+          "lines": [
+            15,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually used to live in like the South Bay area and I miss it so much', in context of discussing Southern California warmth, indicating previous residence in South Bay, California.",
+          "value": "South Bay area, California",
+          "lines": [
+            13
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I work for a startup and they build custom machine learning models to read customer service data' and later confirms fully remote.",
+          "value": "works at a startup building custom machine learning models",
+          "lines": [
+            43,
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my degrees are in political science'.",
+          "value": "political science degrees",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work for a startup... fully remote jobs', 'I've been at this company for three years but fully remote like since the beginning of this year', indicating stable remote employment.",
+          "value": "employed full-time remote at a startup (3 years tenure)",
+          "lines": [
+            43,
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains partner's work travel is paid for but 'I've got to still pay for all my stuff', highlighting personal financial responsibility for travel.",
+          "value": "must pay for own travel when accompanying partner on work trips",
+          "lines": [
+            285
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a clarifies they moved into 'just an apartment' and remarks it's 'just as expensive as like California', indicating they rent an apartment in Boston.",
+          "value": "rents an apartment in Boston",
+          "lines": [
+            171,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my partner has a job here', 'he works in like university admissions', 'he travels a lot' internationally, and speaks multiple languages.",
+          "value": "partner, works in university admissions, travels internationally",
+          "lines": [
+            15,
+            19,
+            21,
+            219,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just have an £80 for a child' then describes her dog: 'half shepherd, half rottweiler', 'her name's Izmir' (ASR transcription).",
+          "value": "dog named Izmir, female, half German shepherd, half rottweiler, 80 lbs",
+          "lines": [
+            93,
+            95,
+            99,
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my Mom has a farm and she was like happier than you know she was with us' when discussing dog care during travel.",
+          "value": "mother has a farm",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'it's like fully remote jobs' and mentions lots of computer time, indicating remote work lifestyle.",
+          "value": "remote worker",
+          "lines": [
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her dog and says she walks her near 'Charles river has a bunch of trails', indicating dog ownership and outdoor activity.",
+          "value": "dog owner, walks dog along Charles River trails",
+          "lines": [
+            95,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts travel to Uzbekistan, Korea, Morocco, South Africa, Botswana, Mozambique, showing frequent international travel.",
+          "value": "frequent international traveler (visited Uzbekistan, South Korea, Morocco, South Africa, Botswana, Mozambique)",
+          "lines": [
+            229,
+            231,
+            263,
+            299,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a responds to whether she wants kids with 'I'm not sure' and 'not really ready for that yet', indicating ambivalence about parenthood.",
+          "value": "undecided about having children, not ready yet",
+          "lines": [
+            215,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'we just moved in so there's like all the junk from unpacking' and having been in Boston less than a week, indicating recent relocation.",
+          "value": "recently moved to Boston, still settling in",
+          "lines": [
+            123,
+            129,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says political science and history are favorite subjects and she has degrees in political science.",
+          "value": "interested in political science and history",
+          "lines": [
+            71,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they moved into 'just an apartment'.",
+          "value": "apartment dweller",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'Uh huh uh Southern California', describes climate '65-75° where I live', and mentions Ventura an hour north of LA, and living in a beach community.",
+          "value": "Southern California beach community",
+          "lines": [
+            8,
+            12,
+            190,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I've lived in California all my life'.",
+          "value": "lifelong California resident",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm a teacher', 'Middle School', 'I teach language arts and social studies'.",
+          "value": "middle school teacher (language arts and social studies)",
+          "lines": [
+            24,
+            28,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have one kid' and 'I'm home schooling him too', with child age 5, indicating she is a parent.",
+          "value": "parent of a young child",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b directly states 'So tired.' after mentioning work.",
+          "value": "feeling tired",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states 'I'm a teacher', indicating employment.",
+          "value": "employed as a teacher",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work a lot I work a lot'.",
+          "value": "works long hours",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I love to travel when I have the money', indicating financial limitation.",
+          "value": "limited funds for travel",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I have to clean my house' and 'we have a backyard', indicating living in a house.",
+          "value": "resides in a house with backyard",
+          "lines": [
+            120,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I have one kid' and 'Oh five yeah I'm home schooling him too', establishing a 5-year-old son.",
+          "value": "5-year-old son",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have my dogs like a 30 only 30 £35' and 'She's a mix to black lab and pharaoh hound', describing her female dog.",
+          "value": "dog, female, black lab and pharaoh hound mix, 30-35 lbs",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my sister moved to texas and like a rural area because her husband got a job there'.",
+          "value": "sister moved to rural Texas with husband",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'they're not letting anyone back in the classroom yet here', indicating remote teaching.",
+          "value": "remote teacher during pandemic",
+          "lines": [
+            55,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm home schooling him too' about her 5-year-old son.",
+          "value": "homeschooling parent",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes walking her dog in the neighborhood, having a backyard, and avoiding dog parks.",
+          "value": "dog owner, walks dog in neighborhood, has backyard",
+          "lines": [
+            106,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having travelled to Italy and England, and wanting to go to China and Japan.",
+          "value": "traveler, visited Italy and England, wants to visit China and Japan",
+          "lines": [
+            254,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b emphasizes 'I work a lot'.",
+          "value": "works a lot",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have to clean my house', indicating household chores.",
+          "value": "house dweller, does house cleaning",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

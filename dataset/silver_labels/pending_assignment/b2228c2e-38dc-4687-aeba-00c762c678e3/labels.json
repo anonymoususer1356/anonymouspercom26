@@ -1,0 +1,583 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name at the end of the call (283).",
+          "value": "Nathan",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a describes living in a lake cabin in the mountains of north central Arkansas, about halfway between Little Rock and the Missouri border, with Conway being the nearest town of any size. He says they've been there about seven years (31-35, 45, 53, 61, 89).",
+          "value": "Lake cabin in the mountains in north central Arkansas, near Conway, about halfway between Little Rock and the Missouri state line",
+          "lines": [
+            31,
+            33,
+            35,
+            45,
+            53,
+            61,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a calculates his age by saying he spent first 21 years in Houston, next 22 in Dallas, and 7 in Arkansas (51-53).",
+          "value": "Approximately 50 years old",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions his wife multiple times (51).",
+          "value": "Married",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has a son turning 29 in November and a daughter who is 27 (161).",
+          "value": "Father of two adult children",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is from Texas and grew up in the Houston area (49, 51).",
+          "value": "Originally from Texas (Houston area)",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his father passed away two years ago (117).",
+          "value": "Father deceased (two years ago)",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses his mother's recent back surgery and staying with her (101-103).",
+          "value": "Mother alive",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having an older brother (169) and a sister in New Jersey (201).",
+          "value": "Has an older brother and a sister",
+          "lines": [
+            169,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he 'got out of college' (69), implying he attended college.",
+          "value": "College graduate",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states he and his wife have both been working from home for about seven years (141).",
+          "value": "Works from home",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a works remotely (industry not specified) and his wife is a marketing writer for a resort (207). They take international trips and own a lake cabin, indicating financial comfort.",
+          "value": "Remote worker (unspecified industry); dual-income household, financially comfortable",
+          "lines": [
+            69,
+            141,
+            207,
+            243
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says his wife does press releases, marketing material, and social media for a resort and hotel (207-209).",
+          "value": "Wife employed as a marketing writer for a resort",
+          "lines": [
+            207,
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to his wife (51).",
+          "value": "Married to a wife (marketing writer)",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a gives son's age and birthday: turns 29 in November, on the 23rd (161). Daughter is 27, born in May (161).",
+          "value": "Son (29 on Nov 23) and daughter (27, born in May)",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states his children both live in Dallas (145).",
+          "value": "Children live in Dallas, Texas",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his mother lives in a separate town and he recently stayed with her for a month after her back surgery (101-103).",
+          "value": "Mother lives in her own home, not with him",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his father passed away two years ago (117).",
+          "value": "Father deceased",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions an older brother who lives in the same town as their mother (169).",
+          "value": "Older brother",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has a sister living in New Jersey with her husband (201).",
+          "value": "Sister in New Jersey",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his wife grew up in Houston area as well (51).",
+          "value": "Wife also from Houston area",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes his living room with a fireplace, built-in desk, screened-in porch, and sliding glass doors overlooking a lake (21, 29, 33).",
+          "value": "Lives in a lake cabin with fireplace, built-in desk, screened-in porch, lake view",
+          "lines": [
+            21,
+            29,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he and his wife work from home and have been homebodies for seven years (141, 145).",
+          "value": "Works from home with wife; homebody lifestyle",
+          "lines": [
+            141,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions they enjoy international travel, had a 45-day Europe trip planned (243), and like the Caribbean, Europe, and Asia (245).",
+          "value": "Enjoys international travel (Europe, Caribbean, Asia)",
+          "lines": [
+            243,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they haven't eaten in a restaurant since March 2020 and are very careful about COVID-19 (163).",
+          "value": "Cautious about COVID-19; avoids restaurants since March 2020",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions they drive to Houston regularly, about a 10-hour drive (71).",
+          "value": "Takes 10-hour drives to Houston regularly",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b gives her name at the end of the call (282).",
+          "value": "Shelby",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in Illinois, sort of south and over to the side (42), near the state line with Missouri (56). She has been in Illinois for over 20 years (54) and her mother lives a mile away (130).",
+          "value": "Southern Illinois, near the Missouri state line",
+          "lines": [
+            42,
+            54,
+            56,
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is a female, evidenced by name and references to husband.",
+          "value": "Female",
+          "lines": [
+            12,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her husband multiple times (12, 28).",
+          "value": "Married",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has a son in third grade and he is an only child (138, 146).",
+          "value": "Mother of one son (third grade, only child)",
+          "lines": [
+            138,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she homeschools her son (138).",
+          "value": "Homeschooling parent",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes herself as a strong introvert (146).",
+          "value": "Introvert",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was a military brat and both parents were in the military (54, 126).",
+          "value": "Raised in a military family (both parents served)",
+          "lines": [
+            54,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has been working from home for about 15 years (136).",
+          "value": "Works from home (15 years)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states her occupation as marketing writer (204).",
+          "value": "Occupation: Marketing writer",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her father passed away about nine years ago (128).",
+          "value": "Father deceased (9 years ago)",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mother lives a mile away (130).",
+          "value": "Mother lives nearby (one mile)",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her grandmother is almost 87 (128).",
+          "value": "Grandmother is 87 years old",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having several siblings and a brother (196).",
+          "value": "Has several siblings, including a brother",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works as a marketing writer from home (204, 136). Her husband also works (12). They take vacations and have passports (246).",
+          "value": "Dual-income household; financially comfortable",
+          "lines": [
+            12,
+            136,
+            246
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says she was working at Walgreens when they took their first anniversary trip (212).",
+          "value": "Previously employed at Walgreens",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to her husband multiple times (12, 28).",
+          "value": "Married to a husband (unnamed)",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her son is in third grade and an only child (138, 146).",
+          "value": "Son (third grade, only child)",
+          "lines": [
+            138,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mother lives a mile away (130) and her father is deceased (128).",
+          "value": "Mother lives nearby; father deceased",
+          "lines": [
+            130,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her 87-year-old grandmother (128).",
+          "value": "Grandmother (87) alive",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has several siblings, including a brother who might fly in for Thanksgiving (196).",
+          "value": "Siblings: several, including a brother",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a brother-in-law and sister-in-law (174).",
+          "value": "In-laws: brother-in-law, sister-in-law",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her main family branches are in Texas and Virginia (54).",
+          "value": "Extended family in Texas and Virginia",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mom is currently in Austin, Texas (72).",
+          "value": "Mother currently in Austin, TX",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having family (aunts, cousins) in Conway, Arkansas (88).",
+          "value": "Has extended family in Conway, AR",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says they used to stay with friends in Shreveport, Louisiana (88).",
+          "value": "Has friends in Shreveport, LA",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are part of a homeschooling bubble with a couple of good friends (148).",
+          "value": "Part of a homeschooling bubble with friends",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her husband picked out a painting when he was 16 and they still have it (28).",
+          "value": "Husband owns a painting he selected at age 16",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b homeschools her son and works from home full-time (138, 136).",
+          "value": "Homeschools son and works from home",
+          "lines": [
+            138,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her son participates in play groups, archery, and gymnastics (156).",
+          "value": "Son participates in play groups, archery, gymnastics",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions they visit the Smoky Mountains almost every year, and went for their first anniversary (40, 212, 216).",
+          "value": "Annual vacations to the Smoky Mountains",
+          "lines": [
+            40,
+            212,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they went to an all-inclusive resort in Cancun (246).",
+          "value": "Has vacationed in Cancun, Mexico",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have passports (246).",
+          "value": "Possesses a passport",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having a fire pit for outdoor visits (180).",
+          "value": "Has a fire pit for outdoor gatherings",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she used a random YouTube video to fix her computer sound (10).",
+          "value": "Uses YouTube for tech fixes",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes herself as an introvert who gets tired of looking at humans (146).",
+          "value": "Introvert; values alone time",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they moved at the very beginning of the pandemic but not far (180).",
+          "value": "Recently moved locally",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she gets texts from Kohl's and her mother would not stop anywhere without a Kohl's (100).",
+          "value": "Regular Kohl's shopper",
+          "lines": [
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

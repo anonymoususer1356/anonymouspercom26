@@ -1,0 +1,332 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself in line 15, and speaker_b confirms the name in line 16.",
+          "value": "Anna",
+          "lines": [
+            15,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states Wisconsin is becoming the epicenter of COVID-19 (line 17), uses 'here' to refer to her location when discussing mask compliance (line 27), and mentions seeing cases go up in Wisconsin as part of her organization's response (line 71).",
+          "value": "Wisconsin",
+          "lines": [
+            17,
+            27,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states her age directly in line 239.",
+          "value": "24 years old",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her current job as working in a clinic (line 71), details it as reproductive health care (line 79), and clarifies her title as reproductive health care assistant, though she calls herself a medical assistant (lines 203, 223).",
+          "value": "reproductive health care assistant (medical assistant) at a clinic",
+          "lines": [
+            71,
+            79,
+            203,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains she earned her bachelor's degree in biochemistry (lines 193, 195, 197).",
+          "value": "bachelor's degree in biochemistry",
+          "lines": [
+            193,
+            195,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a recounts working for Allstate in insurance for about a year and a half (line 201).",
+          "value": "former insurance worker at Allstate",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a plans to quit her job in a year to focus on school and will get by on student loans (line 229).",
+          "value": "plans to rely on student loans for future education",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she has done 'this' (the online conversation study) twice (line 5), and discusses the website and checking it out (line 11). She agrees that the money is worth it (line 13, 143). The study involves video calls (line 140).",
+          "value": "participates in paid online video conversation studies",
+          "lines": [
+            5,
+            11,
+            13,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she has bread in the oven and needs to take it out (line 129).",
+          "value": "bakes bread",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she watched a lot of YouTube workout videos at the beginning but didn't like it (line 77).",
+          "value": "watches YouTube workout videos",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says most of her contact with the outside world is grocery shopping or going on a walk to get some exercise (line 75).",
+          "value": "goes on walks for exercise",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself in line 16; the ASR output 'jennifer' is phonetically close to 'Jennifer' and is taken as the intended name.",
+          "value": "Jennifer",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she has seen a lot of people in California with lace or mesh masks (line 26), implying she is currently there. She also mentions shopping at Walmart locally (line 28) and moved back to the US from Sweden in mid-March (line 104), but California is the most specific current location.",
+          "value": "California",
+          "lines": [
+            26,
+            28,
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states she went back to get her master's degree at age 30 (line 240), indicating she is now over 30.",
+          "value": "over 30 (started master's degree at 30)",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she got her bachelor's degree in Biology (line 154) after starting as a math major (line 150-152).",
+          "value": "bachelor's degree in Biology",
+          "lines": [
+            150,
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts doing her master's degree in Sweden (line 166, 168) after her bachelor's. The field is implied to be biology-related given her fish welfare research.",
+          "value": "master's degree in biology-related field",
+          "lines": [
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has been unemployed for quite a while (line 56) and is looking for a job in biology; she lost her job in June 2019 (line 96) and moved back to the US in mid-March (line 104).",
+          "value": "currently unemployed",
+          "lines": [
+            56,
+            96,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes working as a research assistant for a professor on fish welfare, writing technical reports (line 88), and being a month-to-month contractor (line 92).",
+          "value": "former research assistant on fish welfare",
+          "lines": [
+            88,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions working for the U.S. Geological Survey as a web developer for a couple of years (line 156) before seeking a biology job.",
+          "value": "former web developer at U.S. Geological Survey",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she is unemployed and her partner found a job, so they no longer live off savings (line 108). This confirms reliance on partner's income.",
+          "value": "relies on partner's income",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she makes about $50 a month on Prolific easily and that covers groceries (line 146).",
+          "value": "earns approximately $50/month from Prolific for groceries",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she previously lived off savings with her partner (line 108).",
+          "value": "previously lived off savings",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions the study payment as $17 earlier (line 12) but then states 'I will wait for $20' (line 142) and that $20 is a lot especially when unemployed (line 144). speaker_a agrees money is money (line 143). The intended payment is taken as $20.",
+          "value": "receives $20 for this online study session",
+          "lines": [
+            142,
+            143,
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my partner was able to find a job' in line 108.",
+          "value": "has a partner",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b goes to her grandparents' house to help with groceries and housework (lines 66, 68).",
+          "value": "has grandparents; assists them with groceries and housework",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her dad as super right-wing conservative and anti-mask in line 128.",
+          "value": "has a father who is right-wing conservative",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says this is her 5th time doing this study (line 4) and that she keeps Prolific on in the background while studying (line 146). She also mentions being stood up on the platform before (line 138, 140).",
+          "value": "regularly participates in paid online studies (this platform and Prolific)",
+          "lines": [
+            4,
+            138,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she recently enrolled in a 6-month online specialization course for a mapping program (line 58) and says 'Our genius' which is almost certainly ASR for 'ArcGIS' (a well-known mapping program) (line 60).",
+          "value": "enrolled in a 6-month online ArcGIS specialization course",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she plays a lot of video games a couple days out of the week (line 64).",
+          "value": "plays video games regularly",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions studying during the day (line 146) in relation to Prolific.",
+          "value": "studies during the day (online course)",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b and her partner moved back from Sweden to the US in mid-March on the last flight (line 104).",
+          "value": "moved from Sweden to US in mid-March with partner",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b drives to her grandparents' house to help with groceries and housework (lines 66, 68).",
+          "value": "assists grandparents with shopping and housework",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her dream job as working in an aquarium with squid, octopus, and cuttlefish (lines 170, 172) and mentions teaching as a backup plan (line 174, 180).",
+          "value": "aspires to work in an aquarium with cephalopods; teaching as backup",
+          "lines": [
+            170,
+            172,
+            174,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

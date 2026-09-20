@@ -1,0 +1,249 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in New York City' when asked where they are.",
+          "value": "New York City",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states they work at a school in East Harlem, which is a neighbourhood in New York City.",
+          "value": "East Harlem, New York City",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker explicitly says 'I'm a teacher'.",
+          "value": "teacher",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'my husband', indicating they are married.",
+          "value": "married",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I majored in english and became an english teacher'.",
+          "value": "majored in English",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my husband and I', directly stating they have a husband.",
+          "value": "has a husband",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker teaches high school, English, 11th and 12th grade, and mentions teaching AP Literature.",
+          "value": "teaches high school English (11th and 12th grade, including AP Literature)",
+          "lines": [
+            27,
+            29,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I work at a title one, like low income school in East Harlem'.",
+          "value": "teaches at a Title I low-income school in East Harlem",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a hybrid model where students choose remote or in-person, currently 85% virtual.",
+          "value": "currently teaching in a hybrid model (both remote and in-person students)",
+          "lines": [
+            109,
+            110,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they are 'only teaching in person two days a week' and available remotely for office hours the other three days.",
+          "value": "teaches in person only 2 days a week; remote office hours on other days",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm currently sharing the room with another teacher'.",
+          "value": "shares a classroom with another teacher",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'normally my husband and I was like traveled' – ASR garbled but clearly indicates they normally travel in summer (pre-pandemic).",
+          "value": "normally travels in summer",
+          "lines": [
+            177
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker says 'I actually wore long sleeves today'.",
+          "value": "wore long sleeves on the day of the conversation",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm in California L. A.' – 'L. A.' strongly suggests Los Angeles; later confirms California again. Recording California as certain; the LA reference is noted but not 100% unambiguous.",
+          "value": "California (likely Los Angeles area)",
+          "lines": [
+            8,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I lived in Ohio and then we moved out here to California'.",
+          "value": "Ohio (previously lived there)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I was a teacher for many years' and describes teaching elementary/Kindergarten for about 11 years (line 76, ASR 'nine background ... For 11 years' → 'my background ... for 11 years').",
+          "value": "former elementary/Kindergarten teacher (approximately 11 years)",
+          "lines": [
+            24,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker repeatedly refers to 'my son', indicating they are a parent.",
+          "value": "parent of a son",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my son' multiple times.",
+          "value": "has a son",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'a friend of mine, she she's in Westchester'.",
+          "value": "has a friend in Westchester",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'a friend of mine, she was the head of a, it was another charter school'.",
+          "value": "has a friend who was head of a charter school",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker consistently uses 'we' for major family decisions (moving, son's schooling), strongly implying a spouse or partner.",
+          "value": "likely has a spouse/partner",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker explains they quit teaching because of the direction towards formal testing, specifically citing No Child Left Behind (line 202 'my last year was 2000 when no child left behind').",
+          "value": "quit teaching around the time of No Child Left Behind due to emphasis on standardized testing",
+          "lines": [
+            184,
+            202
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I'm on the P. T. A.' at son's high school.",
+          "value": "serves on the PTA at son's high school",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes starting with Connections Academy, a virtual school, then using a charter school program for 7th and 8th grade to homeschool their son.",
+          "value": "previously homeschooled son using virtual school (Connections Academy) and a charter homeschool program",
+          "lines": [
+            80,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says son is now at a 'real high school' (line 90), a very small charter school that is project-based (lines 156, 158).",
+          "value": "son currently attends a small project-based charter high school",
+          "lines": [
+            90,
+            156,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

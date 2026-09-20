@@ -1,0 +1,401 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states they are in Pennsylvania, specifies York County, and says they moved back home to the same house. Line 19: 'I'm in pennsylvania.' Line 33: 'I'm in york county so I'm at the bottom of the state'. Line 245 'I came back home new york' is an ASR error for 'home to York'.",
+          "value": "York County, Pennsylvania",
+          "lines": [
+            19,
+            33,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker reveals they were adopted and that their parents are white, which made them realise they were adopted. Line 111: 'I was never even told I was adopted but my parents are white so I guess I just put it together at some point.' Also line 121.",
+          "value": "Adopted",
+          "lines": [
+            111,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly states they are an only child. Line 121: 'I am an only child'.",
+          "value": "Only child",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Since both parents are white and the speaker realized they were adopted by noticing a racial difference, the speaker is implied to be non-white.",
+          "value": "Non-white (implied)",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says they graduated from college in 2019 with a marketing degree, and attended school just outside Philadelphia in 'Westchester' (ASR for West Chester). Lines 239, 167.",
+          "value": "Marketing degree from West Chester University, graduated 2019",
+          "lines": [
+            239,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes themself as a liberal while talking about the 2016 election. Line 189: 'like a liberal, the suburban Philly area'.",
+          "value": "Liberal",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "First presidential vote was in 2016 (line 187) and graduated college in 2019 at a typical age of 22‑23, so birth year is approximately 1996‑1998.",
+          "value": "Born mid-to-late 1990s (approx. 1996-1998)",
+          "lines": [
+            187,
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker states they never had a serious injury. Line 323: 'I never had like a really bad injury'.",
+          "value": "No major injuries reported",
+          "lines": [
+            323
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker initially says 'I worked for Bankia' (ASR error for IKEA) in marketing. Later it becomes clear they work for IKEA as an online content specialist. Lines 15, 267, 271, and context from line 240.",
+          "value": "Online content specialist at IKEA (marketing department)",
+          "lines": [
+            15,
+            267,
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states they work from home. Line 13: 'I work from home'. Line 257: 'I work remotely'.",
+          "value": "Works remotely from home",
+          "lines": [
+            13,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a previous job at a marketing agency in Center City Philadelphia. Line 241: 'I was there in center city Philly for a year'.",
+          "value": "Previously worked at a marketing agency in Center City Philadelphia",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker confirms they were adopted by white parents. Line 111: 'my parents are white'.",
+          "value": "Adopted by white parents",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they are an only child, implying no siblings. Line 121: 'I am an only child'.",
+          "value": "No siblings (only child)",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker expresses long‑time enthusiasm for IKEA. Line 247: 'I always loved a key [IKEA]... I thought was like the coolest place ever'.",
+          "value": "IKEA enthusiast",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker self-identifies as a politics enthusiast. Line 195: 'I always been a politics junkie'.",
+          "value": "Politics enthusiast",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker demonstrates familiarity with Saturday Night Live and its political satire, implying they watch it. Line 205.",
+          "value": "Watches Saturday Night Live",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker recounts carving their name into the kitchen cabinet as a child to prevent the house being sold. Line 95.",
+          "value": "Carved name in childhood kitchen cabinet",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker lives in Vancouver, Washington, as stated directly. Also references the West Coast (line 20), Washington state (line 55), and being inland about 1.5 hours from the ocean (line 68). Line 222: 'were in Vancouver Washington'.",
+          "value": "Vancouver, Washington",
+          "lines": [
+            20,
+            55,
+            68,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to 'my husband', indicating female gender. Line 104.",
+          "value": "Female",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has two children in college (now on a gap year) and moved to Washington as an adult in 2007, placing her likely in her 40s or 50s. Lines 106, 160.",
+          "value": "Middle-aged (likely 40s-50s)",
+          "lines": [
+            106,
+            160
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker states she majored in English in college. Line 290: 'I majored in english'.",
+          "value": "English major (Bachelor's degree)",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they voted for Biden and describes the area as liberal. Lines 222-228, especially 226: 'we did vote for biden'.",
+          "value": "Liberal / Democrat",
+          "lines": [
+            226,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her father was in the military. Line 84: 'my dad was military'.",
+          "value": "Military family background (father served)",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Due to father's military career, speaker moved frequently as a child, living in Connecticut, Maine, New Hampshire, Hawaii, Michigan, South Carolina, Oregon, Washington, and Idaho. Lines 86-94.",
+          "value": "Moved frequently as a child (military family)",
+          "lines": [
+            86,
+            88,
+            92,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says she has an autoimmune disease. Line 292: 'I found out I had autoimmune it shoes' (ASR for 'autoimmune issues').",
+          "value": "Autoimmune disease",
+          "lines": [
+            292
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Sustained a severe knee injury during a martial arts class in February 2020, tearing ACL and MCL and damaging a tendon. Had surgery in June, was on crutches and unable to walk. Lines 304, 306, 308, 314.",
+          "value": "Knee injury: torn ACL, MCL, and tendon damage (February 2020)",
+          "lines": [
+            304,
+            306,
+            308,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Pre‑existing arthritis in the knee made the injury worse. Line 324: 'I have arthritis damage and there already that compounded it'.",
+          "value": "Arthritis (pre-existing in knee)",
+          "lines": [
+            324
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works as an on‑call substitute paraeducator for the school system. Line 28: 'I am actually on call for a substitute for the school system'. Line 38: 'I'm a pair of educator' (paraeducator). Line 40 describes helping kids with math.",
+          "value": "Substitute paraeducator for school system",
+          "lines": [
+            28,
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her husband works in IT management. Line 106: 'he's in the tech industry'. Line 254: 'My husband's management in the I.T. Field'.",
+          "value": "Husband works in IT management",
+          "lines": [
+            106,
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Married to a husband who was adopted at age six and works in tech. Lines 104, 106.",
+          "value": "Married to husband (adopted, in tech)",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has two children, both taking a year off college due to COVID-19. Line 160: 'Both of them are the ones taking a year off of college'.",
+          "value": "Two children (college-age, taking gap year)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "One child was majoring in psychology before the break. Line 280: 'Psychology'.",
+          "value": "One child majored in psychology",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The other child is undecided on a major. Line 276: 'that's a possibility for my other child because they still don't figure it out'.",
+          "value": "Other child undecided on major",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she has a brother. Line 126: 'Oh, I have a brother.'",
+          "value": "Has one brother",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker confirms her father was in the military. Line 84.",
+          "value": "Father is military veteran",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her paternal grandfather is still alive and lives in California. Line 74: 'My uh dad's father still is still alive down there.'",
+          "value": "Paternal grandfather alive in California",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Both parents are from Long Beach, California. Line 76: 'both of my parents were up in uh long poke California' (ASR for 'Long Beach').",
+          "value": "Parents from Long Beach, California",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker enjoys buying items at yard sales. Line 10: 'I've got weird things that I found at yard sales'.",
+          "value": "Enjoys yard sales",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker gets pedicures even in cold months. Line 28: 'I went and got a pedicure ... even during the cold months'.",
+          "value": "Gets pedicures regularly",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Took a free martial arts class in the park. Line 304: 'I was taking a martial arts class in the park'.",
+          "value": "Participated in martial arts class",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Adopted a dog from the Humane Society. Speaker_b says a name that sounds like 'ruins', speaker_a interprets as 'Rohan'. Lines 340, 342, 346.",
+          "value": "Owns a dog (adopted, named Rohan)",
+          "lines": [
+            340,
+            342,
+            346
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker references Stephen Colbert's commentary, implying she watches his show. Line 214: 'I think Colbert said it'.",
+          "value": "Watches Stephen Colbert",
+          "lines": [
+            214
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

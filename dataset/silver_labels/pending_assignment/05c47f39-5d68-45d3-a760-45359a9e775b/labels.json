@@ -1,0 +1,230 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Ryan; ASR output 'Ryan Mhm Jennifer' likely garbled from 'Ryan, nice to meet you'.",
+          "value": "Ryan",
+          "lines": [
+            5
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he lives in an apartment on the lakeshore in Chicago, overlooking Lake Michigan and a highway (likely Lake Shore Drive), and confirms he is in Chicago, Illinois.",
+          "value": "Lives in Chicago, Illinois, on the lakeshore near Lake Michigan and a highway.",
+          "lines": [
+            55,
+            59,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he grew up in Arizona and specifically Tempe, not Phoenix.",
+          "value": "Originally from Tempe, Arizona.",
+          "lines": [
+            11,
+            225,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions his niece multiple times, stating she lives in Colorado and grew up in Arizona.",
+          "value": "Has a niece.",
+          "lines": [
+            13,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he had a grandmother who was from Mississippi and lived in Colorado Springs for a while.",
+          "value": "Had a grandmother from Mississippi.",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states he has many friends in Colorado Springs and Boulder.",
+          "value": "Has many friends in Colorado Springs and Boulder, Colorado.",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a recounts his best friend from Arizona who moved to Florida, got married, and whose bachelor party he attended.",
+          "value": "Has a best friend from Arizona who moved to Florida.",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he has done a couple of these conversations before, indicating repeated participation in such interviews.",
+          "value": "Has participated in multiple similar research conversations.",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions he has to be somewhere else at 3:30, indicating a scheduled appointment.",
+          "value": "Has a scheduled appointment at 3:30.",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a repeatedly expresses strong dislike for hot and humid weather, swearing never to return to such climates.",
+          "value": "Strongly dislikes hot and humid climates.",
+          "lines": [
+            17,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself by saying 'Uh, my name is Jennifer.'",
+          "value": "Jennifer",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she is in Colorado Springs, Colorado, and lives on the southeast part of the city.",
+          "value": "Lives in Colorado Springs, Colorado (southeast part of city).",
+          "lines": [
+            8,
+            12,
+            102,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was born in New Orleans, Louisiana.",
+          "value": "Born in New Orleans, Louisiana.",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts that at age 16, after Hurricane Katrina, she moved with her mother and brother to live in Miami, Florida.",
+          "value": "Formerly lived in Miami, Florida.",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_b describes a childhood trip to Pikes Peak where she experienced altitude sickness, had to be rushed down, and felt extremely ill.",
+          "value": "Suffered altitude sickness on Pikes Peak as a child.",
+          "lines": [
+            186,
+            188,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions the air conditioner running in her camper, indicating ownership of a camper (recreational vehicle).",
+          "value": "Owns a camper (RV).",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b talks about her dad who did roofing work in Pueblo, Colorado.",
+          "value": "Has a father (roofer in Pueblo).",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her mother being pregnant with her when the family decided to move, and later moving to Miami with her mother.",
+          "value": "Has a mother.",
+          "lines": [
+            32,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'one of my brothers' and later 'my parents and brothers', indicating she has at least one brother, likely more.",
+          "value": "Has at least one brother (likely multiple).",
+          "lines": [
+            44,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recalls meeting her aunt Sheila on a trip to Louisiana.",
+          "value": "Has an aunt named Sheila.",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she has come to like using two-way radios to hang out with friends while keeping distance, indicating a social hobby.",
+          "value": "Uses two-way radios to communicate with friends socially.",
+          "lines": [
+            136,
+            138,
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm everywhere I go, I'm all over the place', suggesting a mobile, on-the-go lifestyle within the area.",
+          "value": "Leads a mobile lifestyle, frequently moving around the city/area.",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states her name explicitly.",
+          "value": "Jill",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she lives in Georgia, right outside Athens, and specifies the town Hull about five miles away.",
+          "value": "Hull, Georgia (near Athens)",
+          "lines": [
+            45,
+            47,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having lived in Fort Walton for a while as a child.",
+          "value": "Fort Walton, Florida (childhood)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was born in Washington D.C.",
+          "value": "Washington D.C. (birthplace)",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states her age and that she will turn 50 in October.",
+          "value": "50 years old (turning 50 in October)",
+          "lines": [
+            211,
+            212,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Jill is typically female and no contradictory cues appear.",
+          "value": "female",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b remarks she sounds Southern and she confirms, stating she lives in Georgia.",
+          "value": "from the South",
+          "lines": [
+            44,
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she was sick weeks ago, thinks her mother had COVID, and later states she thinks they both already had it.",
+          "value": "believes she had COVID-19 (self-diagnosed, no test)",
+          "lines": [
+            107,
+            108,
+            109,
+            293
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she loves doing 'prolific stuff' and it's fun, implying she participates in paid surveys.",
+          "value": "earns money via Prolific surveys",
+          "lines": [
+            128,
+            129
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Multiple turns show she lives with her mother, who is visually impaired, and she is with her all the time.",
+          "value": "lives with and cares for visually impaired mother",
+          "lines": [
+            33,
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her aunt who had a Pomeranian named Pandey.",
+          "value": "has an aunt",
+          "lines": [
+            253,
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She talks about having a bunch of cats and dogs, feeding strays, and taking care of dogs on a former property daily.",
+          "value": "owns multiple cats and dogs, feeds stray cats",
+          "lines": [
+            25,
+            27,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she loves doing Prolific studies and finds them fun.",
+          "value": "enjoys doing Prolific surveys",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She recalls being ready to support Occupy Wall Street and that there was a big Occupy event in Athens.",
+          "value": "supported Occupy Wall Street in Athens",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "ASR gives 'Might as MEREDITH' and 'Merida', both phonetically close to 'Meredith'; speaker a then calls her Meredith.",
+          "value": "Meredith",
+          "lines": [
+            126,
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she lives in really northern New York, in Jefferson County, a town of about 1700 people on a river, about six hours from NYC.",
+          "value": "northern New York, Jefferson County, small river town (~1700 people)",
+          "lines": [
+            30,
+            78,
+            80,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are originally from Providence, Rhode Island.",
+          "value": "Providence, Rhode Island (originally)",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her family moved to Florida for her father's job, went to school in Kissimmee, and lived there from about 12 to 20.",
+          "value": "Kissimmee, Florida (age 12-20)",
+          "lines": [
+            58,
+            60,
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm about 60 lb, 63 and a couple couple days', likely meaning she is about 63 years old.",
+          "value": "about 63 years old",
+          "lines": [
+            198
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Name Meredith and references to daughters/sisters indicate female.",
+          "value": "female",
+          "lines": [
+            126,
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she is a teacher, teaches middle school, and is the seventh-grade English teacher.",
+          "value": "7th grade English teacher",
+          "lines": [
+            70,
+            72,
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes starting to get panicky while wearing a mask, feeling like she's not breathing, and mentions having a panic attack.",
+          "value": "experiences panic attacks when breathing feels restricted (e.g., wearing a mask)",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes tracking Prolific deposits separately in her checkbook, treating it as extra income.",
+          "value": "supplements income with Prolific surveys",
+          "lines": [
+            140,
+            141,
+            142,
+            144
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She lists sons in Texas (Brian in Houston), Knoxville, and one with her (Joshua); daughters in Syracuse and youngest Ruth with her; mentions a middle son allergic to cats.",
+          "value": "mother of three sons (Brian in Houston, one in Knoxville, Joshua with her) and two daughters (one in Syracuse, Ruth with her)",
+          "lines": [
+            40,
+            94,
+            96,
+            117,
+            218,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions grandkids in Knoxville and grandson William.",
+          "value": "grandmother of multiple grandchildren",
+          "lines": [
+            186,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References to a sister who still lives in Kissimmee, a sister who does Prolific, and an older sister with cats.",
+          "value": "has sisters (at least one in Kissimmee)",
+          "lines": [
+            36,
+            60,
+            136
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says they have a cousin in Georgia.",
+          "value": "has a cousin in Georgia",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her father worked on the construction of Disney.",
+          "value": "father worked on Disney construction",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes having two Pomeranian littermates, one with seizures requiring phenobarbital.",
+          "value": "owns two Pomeranians, medicates one for seizures",
+          "lines": [
+            12,
+            14,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she uses a dog whistle app to stop excessive barking.",
+          "value": "uses a dog whistle app to train dogs",
+          "lines": [
+            278,
+            280,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing Prolific surveys and failing an attention test once.",
+          "value": "does Prolific surveys",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was outside to do a bit of yard work and came in sweating.",
+          "value": "does yard work",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She mentions her glasses fogging up while wearing a mask.",
+          "value": "wears glasses",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

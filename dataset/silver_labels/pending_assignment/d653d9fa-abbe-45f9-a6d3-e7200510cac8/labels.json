@@ -1,0 +1,273 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself: 'I'm Ben nice to meet you' (line 17). speaker_b later says 'You see Ben?' (line 268).",
+          "value": "Ben",
+          "lines": [
+            17,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "At line 21 speaker_a says 'I'm in California'; he also says 'I grew up in California' (line 35) and discusses California's covid response (line 39), showing current residence.",
+          "value": "California",
+          "lines": [
+            21,
+            35,
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 61: 'I live in like a a more mountainous area'; line 71: 'I just recently moved to this area', together with wildfire evacuation (lines 61‑71) indicating a mountainous part of California.",
+          "value": "mountainous area of California",
+          "lines": [
+            61,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 35: 'I grew up in California'.",
+          "value": "California",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 35: 'went to school in Chicago'.",
+          "value": "Chicago",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 197: 'I went to college', confirming college attendance.",
+          "value": "college educated",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Line 47 mentions 'a friend who works at a restaurant'; line 123 refers to 'a group of friends and I were talking'.",
+          "value": "has friends",
+          "lines": [
+            47,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 113: 'I have an iphone'.",
+          "value": "iPhone user",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 111: 'I started um trying to learn french on do a window' (ASR for Duolingo); line 119: 'I have the dual lingo app' (Duolingo). So he is learning French on Duolingo.",
+          "value": "learning French on Duolingo",
+          "lines": [
+            111,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 133, 187, 219, 225 show speaker_a watches or has watched Community, Designated Survivor, NCIS, and Hawaii 50.",
+          "value": "watches television shows including Community, Designated Survivor, NCIS, and Hawaii 50",
+          "lines": [
+            133,
+            187,
+            219,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 133: 'I have a community sweatshirt … a hoodie that's navy blue with white block lettering on it and then the, I am a human being logo'. He owns a Community hoodie.",
+          "value": "owns a Community hoodie",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 61‑71 describe evacuating due to a wildfire: 'a few weeks ago we evacuated because of a fire' (61), 'it was burning maybe like a few miles away from us' (65), 'they had our community evacuate' (69), 'we were only gone for a week' (71).",
+          "value": "evacuated due to wildfire in California",
+          "lines": [
+            61,
+            65,
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 251: 'in the past I had like very awkward awkward partners' and line 253: 'this was actually really cool' imply prior similar webcam sessions, likely on Prolific.",
+          "value": "participates in webcam studies",
+          "lines": [
+            251,
+            253
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I'm Michael by the way' (line 16). speaker_a calls him Michael (lines 19, 267).",
+          "value": "Michael",
+          "lines": [
+            16,
+            19,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 18: 'I am in Tennessee'; line 32: 'in 2012 I moved back to Chattanooga'. Current residence is Chattanooga, Tennessee.",
+          "value": "Chattanooga, Tennessee",
+          "lines": [
+            18,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 24: 'I lived in a long beach California for a while'; line 28 clarifies this was when he was a kid.",
+          "value": "Long Beach, California",
+          "lines": [
+            24,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'in 2005 Chicago'; line 102: 'went to Chicago for was to do some place and stuff'.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            32,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 102: 'I went to college for writing and directing'.",
+          "value": "college educated in writing and directing",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 130: 'I play fantasy, a fantasy football'.",
+          "value": "plays fantasy football",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 14: 'I just don't know like prolific will have a problem with that'; line 256: 'I only recently signed up for like webcam type stuff'. He is a participant on Prolific for video studies.",
+          "value": "Prolific participant",
+          "lines": [
+            14,
+            256
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 106: 'My mom got it a little while ago, so I've been taking care of her'. He is a caregiver for his mother.",
+          "value": "caregiver for mother",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 144: 'a girl I went to college with um has a cameo in an episode Community'; she acted in one of his plays (line 146).",
+          "value": "has a college friend who is an actress",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 160: 'I've annoyed so many of my friends' about Community, indicating he has a circle of friends.",
+          "value": "has friends",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 130, 138, 140, 142 show he watches Community, Jeopardy, and football on live TV.",
+          "value": "watches Community, Jeopardy, and football on television",
+          "lines": [
+            130,
+            138,
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 102: studied writing; line 106: 'I've kind of gotten back into that' (writing) during the pandemic.",
+          "value": "writing",
+          "lines": [
+            102,
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 84‑88: 'we actually got hit by a tornado Maybe three months ago' with detailed description of the event.",
+          "value": "experienced a tornado in Tennessee",
+          "lines": [
+            84,
+            86,
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

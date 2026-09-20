@@ -1,0 +1,416 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly introduces herself as Rebecca.",
+          "value": "Rebecca",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she lives in California, specifies Southern California, and mentions her city is the number one in L.A. County for COVID cases. Speaker_b confirms she is in southern California and refers to 'your state'. Proximity to Big Bear is mentioned.",
+          "value": "Southern California, specifically a city in Los Angeles County",
+          "lines": [
+            27,
+            31,
+            44,
+            62,
+            81,
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she is in college now and is a sophomore credit-wise.",
+          "value": "College student (sophomore credit-wise)",
+          "lines": [
+            143,
+            212,
+            213,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked what she studies, she confirms history and elaborates on her U.S. history specification.",
+          "value": "History major",
+          "lines": [
+            144,
+            145,
+            228,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she wants to become a middle school teacher.",
+          "value": "Aspires to be a middle school teacher",
+          "lines": [
+            145,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to herself as 'that weird girl' when quoting herself, implying female gender.",
+          "value": "Female",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she currently does not have a job.",
+          "value": "Unemployed",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She volunteers as a poll worker and explains she did it to earn extra money.",
+          "value": "Temporary poll worker for extra income",
+          "lines": [
+            37,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She participates in Prolific studies and calls the earnings her 'fun money'.",
+          "value": "Earns extra money through Prolific studies",
+          "lines": [
+            392,
+            397,
+            401
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she just got a car, specifying it is a 2005 Toyota Corolla with about 180,000 miles.",
+          "value": "Owns a 2005 Toyota Corolla with approximately 180,000 miles",
+          "lines": [
+            87,
+            405,
+            411,
+            415,
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives in a two-bedroom apartment and the rent is $1,850 a month.",
+          "value": "Pays $1,850 monthly rent for a two-bedroom apartment",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her little sister is in fifth grade and later gives her age as 10.",
+          "value": "Has a 10-year-old sister",
+          "lines": [
+            225,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my parents' when describing how strict they were, confirming she has parents.",
+          "value": "Has parents",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states her college classes are online and she loves it.",
+          "value": "Attends college online",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She claims she likes to cook and is very clean.",
+          "value": "Enjoys cooking and is clean",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a discussion about air conditioning she remarks she doesn't have one. The ASR 'an easy' is interpreted as 'an AC'.",
+          "value": "Does not have air conditioning",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says Twitter is usually where she gets her news.",
+          "value": "Gets news from Twitter",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is not really one to vote, implying she usually does not vote.",
+          "value": "Does not typically vote",
+          "lines": [
+            263
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions she is currently in a two-bedroom apartment.",
+          "value": "Lives in a two-bedroom apartment",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Eric after speaker_a mishears it as 'derek'.",
+          "value": "Eric",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he moved to Bonanza, Oregon, and currently lives there. Speaker_a also confirms he is in Oregon.",
+          "value": "Bonanza, Oregon",
+          "lines": [
+            18,
+            19,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is originally from Chicago and lived there for about 40 years before moving.",
+          "value": "Originally from Chicago, Illinois",
+          "lines": [
+            18,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He refers to himself as a 'guy' and is married to a wife, indicating male gender.",
+          "value": "Male",
+          "lines": [
+            12,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He outright states he works at the hospital as a medical biller.",
+          "value": "Medical biller",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes himself as a 'more moderate kind of guy' when discussing politics.",
+          "value": "Moderate political orientation",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He references his glasses being skewed, which indicates he wears corrective lenses.",
+          "value": "Wears glasses (vision correction)",
+          "lines": [
+            372
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he works at the hospital as a medical biller.",
+          "value": "Employed as a medical biller",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes having a three-bedroom house on nine acres and paying $550 a month.",
+          "value": "Pays $550 monthly for a 3-bedroom house on 9 acres",
+          "lines": [
+            160,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a truck with a 450-gallon water tank used for hauling water.",
+          "value": "Owns a truck equipped with a 450-gallon water tank",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions doing Prolific studies and getting extra dollars in his PayPal account.",
+          "value": "Earns extra income through Prolific studies",
+          "lines": [
+            392,
+            402
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He repeatedly mentions his wife, confirming he is married.",
+          "value": "Married",
+          "lines": [
+            12,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The garbled utterance 'my wife seems Rebecca to' is best interpreted as his wife also being named Rebecca.",
+          "value": "Wife named Rebecca",
+          "lines": [
+            12
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says he has a son who is eight years old.",
+          "value": "Has an 8-year-old son",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes living off the grid with solar power, hauling water, and using a cistern, plus having a greenhouse.",
+          "value": "Lives off-grid with solar power and water hauling",
+          "lines": [
+            20,
+            50,
+            52,
+            174,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He notes Bonanza has 300 days of sunshine and no rain in 150 days, indicating a dry climate.",
+          "value": "Lives in a sunny desert climate (300+ days sunshine)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions growing food in a greenhouse until chipmunks ate it.",
+          "value": "Grows food in a greenhouse",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about feeding deer and having dogs.",
+          "value": "Feeds wildlife and keeps dogs",
+          "lines": [
+            56,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains that they home school their son three days a week in a hybrid program.",
+          "value": "Home schools son (hybrid program)",
+          "lines": [
+            242,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they have no coffee maker and drink instant coffee.",
+          "value": "Drinks instant coffee",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he signed up for Twitter.",
+          "value": "Uses Twitter",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions watching TV and eating popcorn while showing off the beautiful view from his property.",
+          "value": "Enjoys watching TV with a great view from property",
+          "lines": [
+            258,
+            182,
+            183,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He references his glasses during the conversation.",
+          "value": "Wears glasses",
+          "lines": [
+            372
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

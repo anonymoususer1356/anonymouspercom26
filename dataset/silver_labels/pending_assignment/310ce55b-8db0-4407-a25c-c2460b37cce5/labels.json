@@ -1,0 +1,373 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Evan.",
+          "value": "Evan",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he is in Atlanta, Georgia, and specifies he is in the north Atlanta suburbs.",
+          "value": "north Atlanta suburbs, Georgia",
+          "lines": [
+            13,
+            15,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions he was previously in downtown Atlanta.",
+          "value": "previously lived in downtown Atlanta",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states he lived in New York for a little while.",
+          "value": "lived in New York for a short period",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been to Chicago.",
+          "value": "has visited Chicago",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he is a stand-up comedian.",
+          "value": "stand-up comedian",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "By grouping himself with 'white dudes' and using 'we', he implies he is white.",
+          "value": "white",
+          "lines": [
+            151,
+            153,
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He has a male name (Evan), is referred to as 'man', and groups himself with 'dudes'.",
+          "value": "male",
+          "lines": [
+            5,
+            153,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says he smokes inside and discusses his smoking habit extensively.",
+          "value": "smoker",
+          "lines": [
+            163,
+            165,
+            167,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having a doctor's appointment that he paid for out of pocket.",
+          "value": "had a doctor's appointment paid out of pocket",
+          "lines": [
+            117
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works as a stand-up comedian, though currently not performing due to the pandemic.",
+          "value": "stand-up comedian (currently not performing)",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He does online gig work on platforms like Prolific, user testing, Qmee, Crowdtap, and Survey Junkie.",
+          "value": "online gig worker (surveys, user testing)",
+          "lines": [
+            85,
+            87,
+            89,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he does not have a car; his previous car's transmission died.",
+          "value": "no car",
+          "lines": [
+            159,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions previously working in an office a couple of years ago.",
+          "value": "previously worked in an office",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was charged $7,000 in damages by an apartment complex due to smoking.",
+          "value": "incurred $7,000 in apartment damages",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Based on his experience, he estimates one could make $1200-$1500 per month from surveys.",
+          "value": "estimates earning $1200-$1500/month from surveys",
+          "lines": [
+            145
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He needed $200 and did intensive gig work 9 hours a day for four days straight.",
+          "value": "needed $200 and did gig work 9 hours/day for 4 days",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He has friends who are comedians in various cities, including New York.",
+          "value": "has comedian friends in multiple cities",
+          "lines": [
+            25,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He knows several people who moved back to Atlanta to stay with their parents.",
+          "value": "knows people who moved back to Atlanta with parents",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he plays video games in his free time.",
+          "value": "plays video games",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is working on writing scripts.",
+          "value": "works on scripts",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He smokes indoors, which has caused issues with landlords.",
+          "value": "smokes indoors",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He does not own a car and relies on Uber or public transit to get around.",
+          "value": "relies on Uber/public transit",
+          "lines": [
+            159,
+            173,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He spends significant time doing online surveys and gig work.",
+          "value": "frequent online gig worker",
+          "lines": [
+            85,
+            87,
+            119,
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_a addresses him as 'Nate' after introductions, indicating his name is Nate.",
+          "value": "Nate",
+          "lines": [
+            5
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he does software sales, reselling Google products.",
+          "value": "software sales (Google products reseller)",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he actually lives in Chicago.",
+          "value": "lives in Chicago, Illinois",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is currently visiting northern Michigan.",
+          "value": "currently visiting northern Michigan",
+          "lines": [
+            10,
+            12,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He works in software sales.",
+          "value": "software salesman",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is addressed as 'man' and has a male name (Nate), indicating he is male.",
+          "value": "male",
+          "lines": [
+            5,
+            199
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He is employed in software sales and is working from home through the end of the year.",
+          "value": "employed full-time, working from home",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He takes higher-paying online surveys/studies for extra money and skips low-paying ones.",
+          "value": "does online surveys for extra income",
+          "lines": [
+            104,
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions one of his buddies is a comic.",
+          "value": "has a buddy who is a comedian",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has buddies who looked into Uber car deals (ASR 'bodies' for 'buddies').",
+          "value": "has friends who considered Uber car deals",
+          "lines": [
+            190
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He works from home for his software sales job.",
+          "value": "works from home",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He watches TV and mentions seeing SNL episodes without a laugh track.",
+          "value": "watches TV (SNL)",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is currently visiting northern Michigan, indicating travel or leisure.",
+          "value": "visits northern Michigan",
+          "lines": [
+            10,
+            12,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He takes online surveys/studies for extra cash.",
+          "value": "does online surveys",
+          "lines": [
+            104,
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When speaker_a asks for speaker_b's name, speaker_b says 'Dylan'. Speaker_a replies 'Dylan Amat' which likely is 'Dylan, I'm Matt'. Speaker_b responds 'Oh nice to meet you not' where 'not' is probably ASR for 'Matt'. This suggests speaker_a's name is Matt, though the transcription is garbled.",
+          "value": "Matt",
+          "lines": [
+            609,
+            610,
+            611,
+            612
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Iowa' and throughout the conversation refers to living there, describing corn fields, local politics, and the cost of living.",
+          "value": "Iowa",
+          "lines": [
+            11,
+            55,
+            60,
+            143,
+            147,
+            179,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was born in San Diego on the naval base.",
+          "value": "San Diego, California",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he moved to Boston, Massachusetts after his parents split up.",
+          "value": "Boston, Massachusetts",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he moved to Florida after high school.",
+          "value": "Florida",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he moved to Texas after Florida.",
+          "value": "Texas",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has been to Seattle and the Pacific Northwest, implying he lived there.",
+          "value": "Seattle, Washington",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to speaker_b as the first male he has spoken to, and speaker_b confirms both are male; later both use 'man'.",
+          "value": "male",
+          "lines": [
+            5,
+            6,
+            613
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I was born in 81', placing his birth year as 1981.",
+          "value": "born 1981",
+          "lines": [
+            427
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'us as you know dumb white made fun of them', identifying as white.",
+          "value": "white",
+          "lines": [
+            519
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a repeatedly mentions 'my wife'.",
+          "value": "married",
+          "lines": [
+            143,
+            145,
+            149,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm fairly liberal'.",
+          "value": "liberal",
+          "lines": [
+            575
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes his work in plastics manufacturing: 'I do plastic we make plastic like flexible plastics and we make the packaging for the macadamia nut packages', and mentions 'I'm in the lab'.",
+          "value": "works in plastics manufacturing, in a lab",
+          "lines": [
+            135,
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he pays for Walmart grocery delivery ($100/year) and a DoorDash subscription ($10/month) to waive service charges.",
+          "value": "subscribes to Walmart grocery delivery and DoorDash",
+          "lines": [
+            179,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a comments that 'everything is pretty cheap' in reference to Iowa.",
+          "value": "finds cost of living in Iowa cheap",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly mentions his wife throughout the conversation.",
+          "value": "wife",
+          "lines": [
+            143,
+            145,
+            149,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his father multiple times, noting he is retired and provides news.",
+          "value": "father",
+          "lines": [
+            151,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions talking with his aunt.",
+          "value": "aunt",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm not close to any of my family'.",
+          "value": "estranged from family",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having friends who lived in Grand Cayman and visiting them.",
+          "value": "friends in Grand Cayman",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'we are homebodies' and 'this is actually perfect for me because I don't like people anyway'.",
+          "value": "homebody, introvert",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he enjoys gallows humour, saying 'gallows humor like I'm all about that' and 'everything can be laughed at'.",
+          "value": "enjoys dark/gallows humour",
+          "lines": [
+            469,
+            471,
+            497
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using TikTok after his neighbor recommended it.",
+          "value": "uses TikTok",
+          "lines": [
+            455,
+            457
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses ordering food via DoorDash and subscribing to the service.",
+          "value": "uses food delivery apps",
+          "lines": [
+            167,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't watch the news' and 'I don't read articles'.",
+          "value": "does not follow news",
+          "lines": [
+            253,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm in the lab, so I'm kind of an enclosed environment'.",
+          "value": "works in a lab",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he is not the tanning type and responds 'I'm not' when speaker_b suggests Hawaii is for outdoors people.",
+          "value": "not outdoorsy",
+          "lines": [
+            231,
+            341
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says 'if I was the tanning type, which obviously I'm not', implying pale or light skin.",
+          "value": "likely pale/light-skinned",
+          "lines": [
+            231
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b provides his name as Dylan when asked.",
+          "value": "Dylan",
+          "lines": [
+            610
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm currently located in Honolulu hawaii'.",
+          "value": "Honolulu, Hawaii",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was born and raised in a way' (Hawaii).",
+          "value": "born and raised in Hawaii",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b confirms he is male through the exchange about being the first male spoken to, and is called 'man'.",
+          "value": "male",
+          "lines": [
+            5,
+            6,
+            613
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says '21 actually' when asked if he is in his twenties.",
+          "value": "21 years old",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm like center progressive'.",
+          "value": "center progressive",
+          "lines": [
+            516
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'No, I'm not' when asked if he is a Trump supporter.",
+          "value": "not a Trump supporter",
+          "lines": [
+            532
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a coffee burst at Starbucks' (barista).",
+          "value": "barista",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states his job at Starbucks.",
+          "value": "works at Starbucks",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses high prices in Hawaii and mentions minimum wage is around $12.",
+          "value": "aware of high cost of living, minimum wage $12 in Hawaii",
+          "lines": [
+            28,
+            36,
+            38
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he has never used Uber Eats, DoorDash, Grubhub and prefers drive-through or takeout.",
+          "value": "does not use food delivery apps",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions going out if friends are going, indicating he has friends.",
+          "value": "has friends",
+          "lines": [
+            348
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says this is his third time doing the study, and mentions previous partners from Florida and California.",
+          "value": "participated in study multiple times",
+          "lines": [
+            8,
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says the most outdoorsy thing he does is jogging or walking every couple of days.",
+          "value": "exercises occasionally (jogging/walking)",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he occasionally goes hiking and to the beach.",
+          "value": "occasionally hikes and goes to the beach",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "On his 21st birthday, speaker_b had a few drinks but did not get overly drunk.",
+          "value": "not a heavy drinker",
+          "lines": [
+            358
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he limits the amount of news he consumes because it is irritating.",
+          "value": "limits news consumption",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he gave up on Instagram.",
+          "value": "gave up on Instagram",
+          "lines": [
+            452
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b references watching Seinfeld episodes.",
+          "value": "enjoys Seinfeld",
+          "lines": [
+            502
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes himself as old-fashioned and prefers drive-through or takeout over delivery apps.",
+          "value": "prefers drive-through/takeout over delivery",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

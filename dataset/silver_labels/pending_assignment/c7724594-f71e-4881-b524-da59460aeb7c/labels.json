@@ -1,0 +1,578 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She states her name is Joni (ASR: 'I just set my name is Joni').",
+          "value": "Joni",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she lives in Georgia.",
+          "value": "Georgia",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Joni is typically female, and she references her husband.",
+          "value": "Female",
+          "lines": [
+            13,
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She refers to 'a math professor from my college', implying she attended college.",
+          "value": "Attended college",
+          "lines": [
+            125
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She states she is disabled, placing her in the disabled population.",
+          "value": "Disabled",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I have dry eye and they just start watering sometimes'.",
+          "value": "Dry eye",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm disabled'.",
+          "value": "Disabled",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions depression and anxiety and that her medication works great now.",
+          "value": "Depression and anxiety",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In context of blood pressure discussion, she says 'I know my blood pressure going up. Good thing I'm on medication already', implying she has high blood pressure.",
+          "value": "High blood pressure",
+          "lines": [
+            257
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She qualifies for Medicare due to disability, as stated.",
+          "value": "Disabled (qualifies for Medicare)",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has Humana through Medicare.",
+          "value": "Medicare recipient",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says 'we can spend $75 a month free money so we get prescriptions and over the counter' from Humana.",
+          "value": "$75 monthly Humana allowance for health items",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has done 7 studies this year (the current call is one) and mentions an annual limit, indicating she earns money from these studies.",
+          "value": "Participates in paid research studies",
+          "lines": [
+            19,
+            21,
+            29
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She mentions a car given by her brother-in-law that they drive, and it has cost them money.",
+          "value": "Owns a car (gifted by brother-in-law)",
+          "lines": [
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we won't have any money to start with' and describes the car as costly, suggesting limited financial means.",
+          "value": "Limited financial means",
+          "lines": [
+            315
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She frequently refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            33,
+            253,
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her husband's brother gave them a car, indicating her husband has at least one brother.",
+          "value": "Husband has brothers",
+          "lines": [
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her husband had his prostate removed, and his brother also had his removed.",
+          "value": "Husband had prostate surgery",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'if I had kids or grandkids', implying she does not have children.",
+          "value": "No children",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she went to school with Kassie Wesley, who was in her class.",
+          "value": "Schoolmate of actress Kassie Wesley",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her husband had 10 uncles on his father's side, all of whom died of heart issues, indicating a family history.",
+          "value": "Husband has extensive family history of heart disease",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I used to collect vintage clothing'.",
+          "value": "Used to collect vintage clothing",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I used to collect albums'.",
+          "value": "Used to collect albums",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we move a lot'.",
+          "value": "Moves frequently",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as 'more of a homebody anyway, kind of an indoor cat'.",
+          "value": "Homebody",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she misses going to the library.",
+          "value": "Enjoys going to the library",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She bought tickets to an active shooter seminar.",
+          "value": "Interested in active shooter seminars",
+          "lines": [
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she won't go anywhere without a mask and uses hand sanitizer.",
+          "value": "Wears mask and uses hand sanitizer during pandemic",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions looking at Facebook for news.",
+          "value": "Uses Facebook",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She read a Daily Mail article and criticizes its writing, showing she reads news online.",
+          "value": "Reads news online (e.g., Daily Mail)",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She warns that her eyes water due to dry eye, making it look like she's crying.",
+          "value": "Eyes water due to dry eye",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He states his name is Jeff.",
+          "value": "Jeff",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in Oregon right now'.",
+          "value": "Oregon",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Jeff is male, and he uses male-coded terms.",
+          "value": "Male",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I graduated in 97'.",
+          "value": "Graduated high school in 1997",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his school's rival as a public school, implying he attended a private high school.",
+          "value": "Attended private high school",
+          "lines": [
+            168,
+            169,
+            170
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He has two children in 3rd and 4th grade.",
+          "value": "Parent of two children",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I work for our school district, do technology for them'.",
+          "value": "Technology worker for school district",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm a drummer' and has a drum kit.",
+          "value": "Drummer",
+          "lines": [
+            50,
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He was diagnosed in February with an irregular heart rhythm; he describes it as an electrical issue where only one of four triggers works.",
+          "value": "Irregular heart rhythm (electrical issue)",
+          "lines": [
+            250,
+            264,
+            265,
+            266,
+            267,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I went in for knee surgery' where the heart issue was discovered.",
+          "value": "Knee surgery",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'll have to get a pacemaker because it's more electrical'.",
+          "value": "May need pacemaker in future",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He describes getting unusually tired during gardening and other exertion, and finding his pulse doesn't rise appropriately.",
+          "value": "Fatigue on exertion due to heart condition",
+          "lines": [
+            284,
+            286,
+            287,
+            288
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he works for the school district in technology.",
+          "value": "Employed by school district in technology",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'all the prolific money that I get' and uses it for Funko Pops.",
+          "value": "Receives payment from Prolific surveys",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says most of his Prolific money goes to Funko Pops and estimates his collection worth maybe $1,000.",
+          "value": "Spends survey income on Funko Pop collection worth ~$1,000",
+          "lines": [
+            80,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having a work computer at home ('you're on my work computer right now').",
+          "value": "Has employer-provided work computer at home",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my wife' multiple times and wears a wedding ring.",
+          "value": "Married",
+          "lines": [
+            78,
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'our kids' and they are in 3rd and 4th grade.",
+          "value": "Father of two children (grades 3 and 4)",
+          "lines": [
+            132,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have a sister in Oregon ... another sister in Tennessee'.",
+          "value": "Has sisters (one in Oregon, one in Tennessee)",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'a good friend in savannah'.",
+          "value": "Has a good friend in Savannah",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'the six of us' and 'brothers and sisters', indicating he is one of six siblings.",
+          "value": "One of six siblings",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says four out of six siblings (including himself) have heart conditions.",
+          "value": "Four out of six siblings have heart conditions",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his father died of cancer and his mother died of cancer.",
+          "value": "Both parents deceased from cancer",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I'm a drummer' and has a drum kit in his room.",
+          "value": "Plays drums",
+          "lines": [
+            50,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his Funko Pop collection, how he started during quarantine, and his buying habits.",
+          "value": "Collects Funko Pops (started during quarantine)",
+          "lines": [
+            36,
+            38,
+            60,
+            68,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having 'a couple of light sabers' in his corner.",
+          "value": "Owns lightsabers (Star Wars fan)",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes being out in garden beds shoveling dirt to dig up potatoes.",
+          "value": "Engages in gardening (grew potatoes)",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they switched to a home school system based out of Florida.",
+          "value": "Homeschools children via Florida-based program",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says after his heart diagnosis and COVID, they hunkered down and it was a good time to lay low.",
+          "value": "Cautious about COVID-19 due to heart condition",
+          "lines": [
+            250,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He participates in Prolific surveys, as he receives prolific money.",
+          "value": "Participates in Prolific surveys",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He has a dedicated corner at home with his computer, Funko Pops, and drum kit.",
+          "value": "Has a personal hobby corner at home",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a observes 'I see you have a ring', indicating he wears a wedding ring.",
+          "value": "Wears a wedding ring",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

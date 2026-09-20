@@ -1,0 +1,235 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a initially says she is in Kentucky, then clarifies she is in northern Kentucky on the river, right across the bridge from Cincinnati. She also indicates she moved there recently.",
+          "value": "northern Kentucky, near Cincinnati (across the Ohio River)",
+          "lines": [
+            9,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm older' and gets tasks related to Medicare, the U.S. senior health insurance program. This strongly implies she is 65 or older.",
+          "value": "Senior citizen (likely 65+)",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a agrees she is not a Trump fan, voted for Democrat Amy McGrath, voted a straight Democratic ticket for governor, and consistently expresses Democratic/anti-Trump views.",
+          "value": "Democrat / anti-Trump",
+          "lines": [
+            200,
+            201,
+            223,
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states plainly that she has COPD and would not survive COVID-19 because of it.",
+          "value": "Has COPD (chronic obstructive pulmonary disease)",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she uses Prolific, user testing, and other platforms to earn extra money; she tried to join Amazon Turk but was rejected; she aims to make $100 a week. She also mentions 'that's not even my real job', indicating a primary job elsewhere.",
+          "value": "Part-time online gig worker (Prolific, user testing); has a primary job",
+          "lines": [
+            41,
+            65,
+            67,
+            73,
+            85,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she is on Medicare, a government health insurance program often tied to age or disability.",
+          "value": "Enrolled in Medicare",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a describes a friend who is quadriplegic and his wife, and discusses precautions when visiting.",
+          "value": "Has a quadriplegic friend",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a cousin whom she encourages to run for office.",
+          "value": "Has a cousin",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she has stayed home since March and only goes out for grocery pickup due to COVID-19.",
+          "value": "Staying at home since March 2020, uses grocery pickup",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she marched in Washington D.C. at Trump's inauguration protest, and it was covered in the news.",
+          "value": "Attended anti-Trump inauguration protest in Washington, D.C.",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she has about 30,000 followers on Twitter where she talks about Kentucky politics.",
+          "value": "Twitter account with ~30k followers focused on Kentucky politics",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says Coca-Cola is 'my drink'.",
+          "value": "Drinks Coca-Cola",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b mentions '76° here in Boston', refers to Massachusetts COVID numbers, and discusses distance from Boston to New York, all indicating he lives in the Boston area.",
+          "value": "Boston, Massachusetts area",
+          "lines": [
+            8,
+            172,
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says he graduated college in '07 (2007), making his likely age around 34-35 in 2020. He also mentions facing the 2008 crisis after graduation.",
+          "value": "College graduate, approximately 34-35 years old",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b expresses strong anti-Trump sentiment, criticizes McConnell and Republicans, and sympathizes with Democratic perspectives.",
+          "value": "Democrat / anti-Trump",
+          "lines": [
+            200,
+            242,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes his online gig work as 'hobby money' or 'guilt free side money', implying a primary income source. He specifics earnings: ~$10/week on Prolific, up to $100/week on Turk. He has been on user testing for about a month.",
+          "value": "Part-time online gig worker (Prolific, Amazon Turk, user testing); has primary income",
+          "lines": [
+            74,
+            76,
+            98,
+            394
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he graduated in 2007 and the unemployment deal was bad after the 2008 crisis, leading him to do these tasks to feel better about long-term prospects.",
+          "value": "Faced underemployment after the 2008 financial crisis",
+          "lines": [
+            76,
+            78,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions having a friend in New York, saying it looks close on a map but he doesn't visit often.",
+          "value": "Has a friend in New York",
+          "lines": [
+            174
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b admits to checking these platforms frequently and calls it an addiction.",
+          "value": "Frequently checks online gig platforms (admits addictive behavior)",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has a Coke next to him during the conversation, following discussion about a Coke survey.",
+          "value": "Drinks Coca-Cola",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he has only been on the user testing platform for about a month.",
+          "value": "New to user testing platform (about one month)",
+          "lines": [
+            394
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits he hasn't always told the truth on Amazon Turk or some surveys.",
+          "value": "Has lied on online surveys/Amazon Turk",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

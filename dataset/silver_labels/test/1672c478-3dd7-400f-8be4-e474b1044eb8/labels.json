@@ -1,0 +1,463 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a explicitly states their name in line 3.",
+          "value": "Megan",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is in Texas (line 9), and after speaker_b asks where, she replies with 'You're a big Houston' (ASR error, interpreted as 'I'm in Houston'). speaker_b later says 'Back to you in texas', confirming Texas.",
+          "value": "Houston, Texas",
+          "lines": [
+            9,
+            27,
+            318
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In response to 'where did you move from?', speaker_a includes Atlanta as one of the places.",
+          "value": "formerly lived in Atlanta, Georgia",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In the same line, she also says Washington D.C., and later mentions working there (line 187).",
+          "value": "formerly lived in Washington, D.C.",
+          "lines": [
+            39,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she went and taught in U.A.E. (line 177).",
+          "value": "lived and worked in the United Arab Emirates",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she taught in Kazakhstan.",
+          "value": "lived and worked in Kazakhstan",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she taught in Azerbaijan.",
+          "value": "lived and worked in Azerbaijan",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "While discussing Kazakhstan, speaker_a describes the capital Astana in detail, suggesting she lived there, though not explicitly stated.",
+          "value": "likely lived in Astana, Kazakhstan",
+          "lines": [
+            183,
+            184,
+            185
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Megan and the later reference to 'my husband' (line 89) strongly indicate the speaker is female.",
+          "value": "female",
+          "lines": [
+            3,
+            89
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a directly mentions 'my husband' in line 89.",
+          "value": "married",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm actually an english teacher' in line 97.",
+          "value": "English teacher",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she obtained a master's degree in international relations (line 187).",
+          "value": "Master's degree in International Relations",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions teaching right out of her bachelor's degree (line 177).",
+          "value": "has a bachelor's degree",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she currently teaches English online to young children (line 97).",
+          "value": "currently employed as an online English teacher",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she taught abroad in UAE, Kazakhstan, and Azerbaijan, and notes 'they paid pretty good too' (lines 177, 179).",
+          "value": "previously taught English abroad with good pay",
+          "lines": [
+            177,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she tried working in politics in Washington D.C. and hated it, indicating a prior job there (line 187).",
+          "value": "previously employed in politics in Washington, D.C.",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my husband' in line 89.",
+          "value": "has a husband",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about 'my brother in law' (line 163), which implies she has at least one sibling.",
+          "value": "has a brother-in-law (implies at least one sibling)",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states she teaches 'online' (line 97).",
+          "value": "teaches online",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she used to travel outside the US (line 41), and her teaching abroad also involved travel.",
+          "value": "has traveled outside the United States",
+          "lines": [
+            41,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I just moved here so I'm not used to so much space' (line 37), with 'here' referring to her current location in Texas, so she recently relocated.",
+          "value": "recently moved to Houston, Texas",
+          "lines": [
+            37,
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b explicitly states name in line 4, and speaker_a uses it again in line 315.",
+          "value": "Debbie",
+          "lines": [
+            4,
+            315
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she currently lives in 'pennsylvania Allentown' (line 6).",
+          "value": "Allentown, Pennsylvania",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is from Wyoming originally (line 6).",
+          "value": "originally from Wyoming",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she used to live in Texas, specifically Dallas for five years, about 15 years ago (lines 10, 12, 14).",
+          "value": "formerly lived in Dallas, Texas",
+          "lines": [
+            10,
+            12,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Debbie and references to husband and daughter strongly suggest the speaker is female.",
+          "value": "female",
+          "lines": [
+            4,
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions 'me and my husband' (line 62).",
+          "value": "married",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a daughter who is 11, almost 12 (lines 62, 64, 66).",
+          "value": "parent of a daughter (approx. 11 years old)",
+          "lines": [
+            62,
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm a professor' and specifies 'I'm a psychology professor' (lines 94, 100).",
+          "value": "professor of psychology",
+          "lines": [
+            94,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her research program, including studying racial attitudes in children (lines 104, 108, 128).",
+          "value": "academic researcher in developmental psychology",
+          "lines": [
+            104,
+            108,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my family's british' (line 48) and 'my mom's british' (line 222).",
+          "value": "of British descent (mother is British)",
+          "lines": [
+            48,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As a professor with an active research lab, it is highly probable she holds a PhD. She also mentions going to graduate school (line 142).",
+          "value": "holds a PhD in psychology",
+          "lines": [
+            94,
+            100,
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she started college majoring in psychology (line 142).",
+          "value": "has a bachelor's degree in psychology",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I used to get migraines' and adds 'I don't have problems so much anymore' (lines 86, 88).",
+          "value": "used to suffer from migraines",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'we're both fairly low risk' regarding COVID-19, referring to herself and her husband (line 76).",
+          "value": "considers herself low risk for COVID-19",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is a psychology professor, indicating current employment (lines 94, 100).",
+          "value": "employed as a psychology professor",
+          "lines": [
+            94,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her daughter attends a small private school (line 70), which implies the financial ability to pay tuition.",
+          "value": "sends daughter to a private school",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her parents as both working, middle class, and not having a ton of money (line 266), indicating her childhood economic background.",
+          "value": "grew up in a middle-class family",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'me and my husband' (line 62).",
+          "value": "has a husband",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b repeatedly talks about her daughter (lines 62, 64, 66).",
+          "value": "has an 11-year-old daughter",
+          "lines": [
+            62,
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses her British mother, her accent, and her citizenship (lines 222, 258).",
+          "value": "has a British mother",
+          "lines": [
+            222,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'both my parents' (line 266), indicating she has a father.",
+          "value": "has a father",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mother's whole side of the family is in England, including cousins, aunts, and uncles (line 224).",
+          "value": "has extended family in England",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions plans to visit family in Colorado (line 206).",
+          "value": "has family in Colorado",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her daughter's grandparents are 'out west' (line 78), meaning her own parents or in-laws live in the western US.",
+          "value": "daughter's grandparents (speaker's parents or in-laws) live in the western US",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I love to travel' and lists places she has visited (lines 42, 44).",
+          "value": "enjoys traveling and has traveled internationally",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her research lab and ongoing projects (lines 104, 108, 128).",
+          "value": "conducts psychology research (lab-based)",
+          "lines": [
+            104,
+            108,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm not a big city person' and dislikes feeling 'packed together' (lines 16, 32).",
+          "value": "prefers less crowded, smaller towns over big cities",
+          "lines": [
+            16,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's daughter attends a private school, reflecting a specific family lifestyle choice (line 70).",
+          "value": "enrolls daughter in private school",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

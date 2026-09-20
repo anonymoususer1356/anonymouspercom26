@@ -1,0 +1,456 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in like an apartment building'.",
+          "value": "Lives in an apartment building",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I know I got like three but like one is dominos' when discussing local pizzerias.",
+          "value": "Has three pizzerias in the area, including a Domino's",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a asks 'how's it over there?' when speaker_b describes countryside life, implying his own area is different.",
+          "value": "Does not live in the countryside",
+          "lines": [
+            85,
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'Never actually experienced tornado'.",
+          "value": "Never experienced a tornado",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes grocery lines and six-foot spacing during the COVID-19 pandemic.",
+          "value": "Lives in an area with COVID-19 social distancing measures",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References to US brands (Domino's, Home Depot, Harbor Freight, DiGiorno) and use of miles/state terminology strongly imply a US location.",
+          "value": "Likely lives in the United States",
+          "lines": [
+            69,
+            113,
+            115,
+            51,
+            136
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a recalls playing with Transformers 'as a little boy'.",
+          "value": "Male",
+          "lines": [
+            283
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'My kids are so spoiled now'.",
+          "value": "Has children",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a got his first smartphone in 2013 after using Nokia phones, suggesting he is an adult born before the 1990s.",
+          "value": "Adult, likely in 30s-40s",
+          "lines": [
+            347,
+            349
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'Hell I pay for sure on my phone now'.",
+          "value": "Uses smartphone for payments",
+          "lines": [
+            353
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions getting tools from 'harbor starts' (Harbor Freight) and Home Depot.",
+          "value": "Owns tools from Harbor Freight and Home Depot",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My kids are so spoiled now'.",
+          "value": "Has children",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his apartment building is not suitable for pets and he would feel bad keeping a dog in an apartment.",
+          "value": "Does not have pets",
+          "lines": [
+            176,
+            177,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "In a pizza-topping discussion, speaker_a says 'I never understood people put like tons of crap on their kids' (ASR error for 'pizza'), indicating a preference for plain pizza.",
+          "value": "Prefers plain pizza with few toppings",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I try to do some do it yourself home stuff like talking and stuff and fix the shell' (likely 'fix the shelf').",
+          "value": "Does DIY home projects",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I just used my pulling bar' (pull-up bar) for exercise.",
+          "value": "Exercises with a pull-up bar at home",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he enjoys nature for the first 30 to 45 minutes and then gets bored.",
+          "value": "Dislikes walks longer than 45 minutes",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'trying to learn how to use my phone camera, Like make videos and stuff'.",
+          "value": "Learning smartphone videography",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I went to spain once when I was like much younger and like always regretted not actually going anywhere but like the major cities'.",
+          "value": "Visited Spain when younger, only major cities",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I suppose I should say the leaning tower of Pisa before it falls' and 'I finally get like so called real pizza'.",
+          "value": "Wants to visit the Leaning Tower of Pisa and eat authentic Italian pizza",
+          "lines": [
+            241,
+            245
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up with those toys' and describes playing with Transformers as a little boy.",
+          "value": "Played with Transformers toys as a child",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he held out on getting a smartphone until 2013 and used old Nokia phones before.",
+          "value": "Resisted getting a smartphone until 2013, previously used Nokia",
+          "lines": [
+            347,
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he uses his phone for messaging and payments ('Hell I pay for sure on my phone now').",
+          "value": "Uses smartphone for messaging and payments",
+          "lines": [
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does not need the company that much and would feel bad having a pet in an apartment.",
+          "value": "Does not want pets currently",
+          "lines": [
+            176,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses the timer on the chat app, mentions learning his lesson and warns about the 25-minute mark, indicating repeat use.",
+          "value": "Uses a timed conversation app (likely dating/chat platform)",
+          "lines": [
+            357,
+            359,
+            361
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'nice to meet you Melissa' at the end.",
+          "value": "Melissa",
+          "lines": [
+            375
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'the thing is it's the countryside'.",
+          "value": "Lives in the countryside",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we only have one pizzeria and a five mile radius of me'.",
+          "value": "Only one pizzeria within a 5-mile radius",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the other day um not to offer from my house um a tornado hit'.",
+          "value": "A tornado hit near her house",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes driving through a state in 2020 during a tornado ('Going through, where was it And a state in 2020. It was it was not fun'). She clarifies she was not driving.",
+          "value": "Experienced a tornado while driving through a state in 2020 (as a passenger)",
+          "lines": [
+            136,
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the only thing we basically have to do is also distance which we probably already do and wear masks'.",
+          "value": "Lives in an area with COVID-19 distancing and mask measures",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References to miles, states, and tornado-prone regions strongly imply a US location.",
+          "value": "Likely lives in the United States",
+          "lines": [
+            66,
+            136
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm not too old myself' when comparing to younger generations.",
+          "value": "Does not consider herself old",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says she does yoga and it 'relaxes the body the mind and um it's basically for exercise'.",
+          "value": "Practices yoga for relaxation and exercise",
+          "lines": [
+            128,
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'a friend of mine dropped off, she had kittens'.",
+          "value": "Has a female friend who gave her kittens",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'another friend of mine showed up dropped off his cat'.",
+          "value": "Has a male friend who gave away his cat",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'No I got three but yeah' in response to a question about how many cats.",
+          "value": "Has three cats",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'cry baby is my favorite um youngest' and 'he's the only one that likes to cuddle'.",
+          "value": "Has a cat named Cry Baby (youngest, likes to cuddle)",
+          "lines": [
+            224,
+            228
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I used to have two dogs so'.",
+          "value": "Previously owned two dogs",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I really like being outdoors in nature like hiking, n camping and stuff like that'.",
+          "value": "Enjoys outdoor activities like hiking and camping",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she does yoga.",
+          "value": "Practices yoga",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'it was pretty lazy basically rained most of the day so stayed in the house watch tv'.",
+          "value": "Watches TV on rainy days",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I usually had chicken and bacon to it' when discussing homemade pizza.",
+          "value": "Likes homemade pizza with chicken and bacon",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about fry thickness preference, speaker_b replies 'Home stay' (home style), meaning thick wedges.",
+          "value": "Prefers homestyle (thick wedge) fries",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she would love to go back and watch the pyramids being built and to the dinosaur age.",
+          "value": "Interested in ancient Egypt and dinosaurs (as time travel destinations)",
+          "lines": [
+            250,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'transformers just popped in my head' and mentions a new movie in 2022.",
+          "value": "Likes Transformers movies",
+          "lines": [
+            276,
+            280
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b expresses concerns about government chips and says 'I honestly feel like it would be invasion of privacy'.",
+          "value": "Skeptical of implantable chips and privacy invasion",
+          "lines": [
+            316,
+            324,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'before the covert hit um road trip and stuff'.",
+          "value": "Took road trips before the COVID-19 pandemic",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b confirms she has done this type of chat before ('Yes' to 'Are you done this before?').",
+          "value": "Uses a timed conversation app (repeat user)",
+          "lines": [
+            358
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

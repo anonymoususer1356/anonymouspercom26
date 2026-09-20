@@ -1,0 +1,390 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'we had the shelter in place in California', indicating she lives in California.",
+          "value": "California, USA",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions taking distance learning classes in college, indicating some college education.",
+          "value": "Some college education",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she works at a school as an aide, placing her in the education sector.",
+          "value": "School employee (aide)",
+          "lines": [
+            59,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she is an aide, indicating employment.",
+          "value": "Employed as a school aide",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions binge-watching a show on CBS All Access.",
+          "value": "Has access to CBS All Access",
+          "lines": [
+            177
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions watching shows on Amazon Prime.",
+          "value": "Has access to Amazon Prime",
+          "lines": [
+            183,
+            197
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my sister' when discussing school reopening.",
+          "value": "Has a sister",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has three seniors in her house and later specifies 'my dad'.",
+          "value": "Lives with her father",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has three seniors in her house and later specifies 'my mom'.",
+          "value": "Lives with her mother",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has three seniors in her house and later specifies 'my grandmother' who is 86.",
+          "value": "Lives with her grandmother",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says her first shopping trip in 12 days and speaker_b confirms she goes every 12 days.",
+          "value": "Grocery shops approximately every 12 days",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her work teaching phonics/reading to small groups over Zoom.",
+          "value": "Teaches phonics to small groups via Zoom",
+          "lines": [
+            67,
+            75,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm totally into the comic book movies'.",
+          "value": "Enjoys comic book movies",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about binge-watching 'All Rise', 'The Marvelous Mrs. Maisel', and other series.",
+          "value": "Binge-watches TV series",
+          "lines": [
+            177,
+            197,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she wears a painters mask and has used the same one for a month and a half.",
+          "value": "Wears a painters mask for COVID-19",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I like shopping early in the morning'.",
+          "value": "Likes to shop early in the morning",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions shopping at Costco and observing crowds there.",
+          "value": "Shops at Costco",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states she has a four-year-old and a ten-month-old, and says 'I have two kids'.",
+          "value": "Mother of two young children (ages 4 and 10 months)",
+          "lines": [
+            22,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly mentions 'my husband', indicating she is married.",
+          "value": "Married",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I taught high school for a while. High school math', indicating former occupation.",
+          "value": "Former high school math teacher",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to herself as a wife and mother, strongly implying she is female.",
+          "value": "Female",
+          "lines": [
+            18,
+            40
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says her husband works from home.",
+          "value": "Husband works from home",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they don't have Netflix, only cable TV.",
+          "value": "Does not have Netflix; only has cable TV",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b responds 'I do have that' when Amazon Prime is mentioned.",
+          "value": "Has access to Amazon Prime",
+          "lines": [
+            184
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions she taught high school math, indicating past employment.",
+          "value": "Formerly employed as a high school math teacher",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she and her husband share one mask between them.",
+          "value": "Household shares a single mask between two adults",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' multiple times.",
+          "value": "Has a husband",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states the ages of her children.",
+          "value": "Has a four-year-old child",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states the ages of her children.",
+          "value": "Has a ten-month-old child",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my sister' and her sister's six-year-old.",
+          "value": "Has a sister",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about 'my sister in law' being a band teacher and single mom.",
+          "value": "Has a sister-in-law",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her mother-in-law's age and possibly asking her for help.",
+          "value": "Has a mother-in-law over 65",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she's been with her kids six weeks straight with no break.",
+          "value": "Has been caring for her children continuously for six weeks without a break",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her evening: kids bedtime at 8, then an hour of TV before she's tired by 9.",
+          "value": "Kids' bedtime is 8 PM; watches TV for about an hour before sleeping around 9 PM",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they watch American Idol on Sundays.",
+          "value": "Watches American Idol on Sundays",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes watching Marvel movies with her husband to catch up.",
+          "value": "Watches Marvel movies with husband in the evenings",
+          "lines": [
+            154,
+            156,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses dread of Costco due to heat and lines, and says she hasn't gone in two months.",
+          "value": "Avoids Costco due to heat and long lines; hasn't been in two months",
+          "lines": [
+            20,
+            26,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she makes her kids wash hands all day long.",
+          "value": "Makes her children wash hands frequently",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions she used to teach high school math.",
+          "value": "Previously taught high school math",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates her baby naps at 3 PM, which is why she was only available at that time.",
+          "value": "Baby's nap time is 3 PM",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she gets about an hour break while the baby sleeps and the four-year-old plays.",
+          "value": "Gets about an hour break during the day",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she usually has help with childcare and errands, but people are staying home now.",
+          "value": "Usually has help with childcare but not during the pandemic",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

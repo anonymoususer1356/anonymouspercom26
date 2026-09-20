@@ -1,0 +1,500 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Ohio' (line 69) and 'we are very much like in the city' (line 107), establishing she lives in an urban area of Ohio.",
+          "value": "lives in Ohio, in a city",
+          "lines": [
+            69,
+            70,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "References to 'my husband' (line 125), 'my daughter' (81), and 'stay home with my kids' (71) strongly imply female gender.",
+          "value": "female",
+          "lines": [
+            71,
+            81,
+            125,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly mentions 'my husband' (line 125).",
+          "value": "married",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my kids' (71), 'my daughter' (81), and having a baby and 'my other two Children' (187), indicating she is a mother of three.",
+          "value": "mother of three children",
+          "lines": [
+            71,
+            81,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'We're home schooling' (71) and that it was a pre-COVID decision (75).",
+          "value": "home-schooling parent",
+          "lines": [
+            71,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I actually had a baby in january' (line 187), indicating recent childbirth.",
+          "value": "gave birth in January (recent postpartum)",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I actually have a part time job I do just on the computer' (line 259).",
+          "value": "has a part-time computer job",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses using Prolific and says 'it's building our vacation fun' (line 259), indicating she earns money from the platform.",
+          "value": "earns extra money via Prolific platform for vacation fund",
+          "lines": [
+            255,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how long she's been on Prolific, she estimates 'maybe about a year... a year and a half' (line 253).",
+          "value": "has been using Prolific for approximately 1.5 years",
+          "lines": [
+            253,
+            254
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'my husband was going to Costco' (line 125), implying household membership/access.",
+          "value": "household has Costco membership (husband shops there)",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes doing a closet renovation in 'our house' and it being 'an older house' (lines 87, 91).",
+          "value": "lives in an older house and does DIY home renovations",
+          "lines": [
+            87,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'We didn't lose jobs or anything' (line 123) in reference to the COVID-19 pandemic.",
+          "value": "did not lose job during COVID-19 pandemic",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicit mention of 'my husband' (line 125).",
+          "value": "has a husband",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my daughter' and her reading progress (line 81).",
+          "value": "has a daughter (learning to read)",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I actually had a baby in january' (line 187).",
+          "value": "has a baby (born in January)",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 187, she mentions 'my other two Children', implying a third child besides the baby and the daughter.",
+          "value": "has another child (besides the daughter and the baby)",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'My parents live...' (line 101) and 'my dad talks about it' (line 105), indicating both parents are alive.",
+          "value": "has living parents",
+          "lines": [
+            101,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes 'A friend of mine used to live in Idaho... she has pretty severe asthma' (line 113).",
+          "value": "has a female friend with asthma who formerly lived in Idaho",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'We're home schooling' (line 71) and it was a pre-COVID decision (line 75).",
+          "value": "home-schools her children",
+          "lines": [
+            71,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives 'in the city' (line 107) but describes a pattern of power outages 12-24 hours after wind storms (lines 83-85).",
+          "value": "lives in a city neighborhood with occasional power outages after wind storms",
+          "lines": [
+            83,
+            84,
+            85,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Notes they got Disney Plus through her parents' Verizon plan and they use that login (lines 183, 185).",
+          "value": "watches Disney+ using parents' login credentials",
+          "lines": [
+            183,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we watched the launch last night' (line 203) referring to a SpaceX Crew Dragon mission.",
+          "value": "watched a SpaceX crew launch with her family",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions looking for 'christmas ornament like craft ideas' on Pinterest (line 125).",
+          "value": "enjoys crafting (Christmas ornaments via Pinterest)",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I stay home with my kids' (line 71), indicating she is a full-time caregiver.",
+          "value": "stay-at-home parent",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He describes his home: 'I'm in southern Oregon um middle of nowhere on top of the mountain' (46), '30 miles away from California' (58), 'five hours from every major city' including Reno, Portland, Boise (60-64), '45 minutes to get to work... work is town' (64), '45 minutes to the grocery store' (66), and 'I'm off grid' (96).",
+          "value": "lives in remote southern Oregon, off-grid on a mountain, about 30 miles from California, roughly 5 hours from major cities (Reno, Portland, Boise), 45 minutes to nearest town/grocery",
+          "lines": [
+            46,
+            48,
+            56,
+            58,
+            60,
+            62,
+            64,
+            66,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'from Chicago originally' and 'moved here seven years ago' (line 50).",
+          "value": "formerly lived in Chicago",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "References to 'my wife' (128), 'my son' (80), and having young kids (74) strongly imply male gender.",
+          "value": "male",
+          "lines": [
+            74,
+            80,
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly mentions 'my wife' (line 128).",
+          "value": "married",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'an eight year seven year old' (74) and 'a 25 year old son in Chicago' (80), indicating three children.",
+          "value": "father of three children (ages 25, 8, and 7)",
+          "lines": [
+            74,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'from Chicago originally' (line 50).",
+          "value": "originally from Chicago",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Explains that wearing a mask all day exposes him to a little virus every day and says 'I probably have antibiotics' (line 234), likely a misrecognition of 'antibodies'; he adds 'I'm not sure'.",
+          "value": "suspects he has COVID-19 antibodies from low-level hospital exposure",
+          "lines": [
+            232,
+            233,
+            234
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I just got off of work... work at the hospital' (16) and later 'I worked at a hospital bill or' (128, likely 'biller'/billing). Also describes the ransomware impact in detail.",
+          "value": "works at a hospital (possibly in billing/admissions)",
+          "lines": [
+            16,
+            18,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes ransomware attack: 'We had hit with uh the ransomware virus' (18) and 'You got hit on October 27' (22), causing full computer shutdown.",
+          "value": "hospital workplace was hit by a ransomware attack on October 27, forcing paper-based operations",
+          "lines": [
+            18,
+            20,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my wife works... for cade provider' (likely 'care provider') and describes her handling accounting for a state Medicaid contractor (lines 128-130).",
+          "value": "spouse works for a care provider handling Medicaid accounting",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I'm off grid' (96), describes a 'self built system that he cobbled together by continuing to add panels' (102), and 'when you're your own power company, you don't have to worry' (98).",
+          "value": "owns off-grid property with a self-built solar power system",
+          "lines": [
+            96,
+            98,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing Prolific conversations (254) and says 'It's extra money. It's currently building my christmas fund' (260).",
+          "value": "earns extra money via Prolific platform for Christmas fund",
+          "lines": [
+            254,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses Tesla Powerwall: 'I've looked into power wall... that's about $12,000... still a lot of money' (lines 100-102).",
+          "value": "interested in Tesla Powerwall but finds it expensive (~$12,000)",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicit mention of 'my wife' (line 128).",
+          "value": "has a wife",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've got a 25 year old son in Chicago that was homeschooled' (line 80).",
+          "value": "has a 25-year-old son (lives in Chicago, was homeschooled)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've got an eight year' (line 74).",
+          "value": "has an 8-year-old child",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've got a... seven year old' (line 74).",
+          "value": "has a 7-year-old child",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'some friends who, who worked with me who lost their taste and, and smile for a couple weeks' due to COVID (line 244).",
+          "value": "has co-workers who experienced loss of taste/smell from COVID-19",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In context of restaurant shutdowns, says 'I know a few business owners that they're not going to come back' (line 148).",
+          "value": "knows restaurant owners struggling due to COVID-19 shutdowns",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I'm off grid' (96) and has a self-built solar system (102).",
+          "value": "lives off-grid with self-sufficient solar power",
+          "lines": [
+            96,
+            98,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'It takes me 45 minutes to get to work And work is town' (line 64).",
+          "value": "commutes 45 minutes to work (hospital in town)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'It's like 45 minutes to the grocery store' (line 66).",
+          "value": "commutes 45 minutes to grocery store",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts cycling in Chicago: 'when I lived in Chicago, It was 45 minutes ago, nine miles... it was quicker to bike' (lines 66-68).",
+          "value": "used to bike commute in Chicago (45 min for 9 miles)",
+          "lines": [
+            66,
+            67,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses SpaceX Crew Dragon, baby Yoda, Starship test flights, and says 'I watch as many as I can' (lines 192-224).",
+          "value": "space exploration enthusiast; watches SpaceX launches",
+          "lines": [
+            192,
+            194,
+            198,
+            218,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asks 'Have you watched the mandible orient at all?' (ASR for The Mandalorian) and says he is 4 or 5 episodes into the first season (lines 188-190).",
+          "value": "watches The Mandalorian on Disney+",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I haven't gone to a movie and probably like eight or 9 years... It was before my son was born' (lines 172-174).",
+          "value": "has not attended a movie theater in 8-9 years",
+          "lines": [
+            172,
+            173,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having done a Prolific conversation before and that it builds his Christmas fund (lines 254, 260).",
+          "value": "participates in online research studies on Prolific",
+          "lines": [
+            254,
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

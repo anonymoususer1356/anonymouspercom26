@@ -1,0 +1,413 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When asked if she lives in north, south, or west coast, she replies 'No. Well then in texas.' speaker_b confirms and she agrees.",
+          "value": "Texas",
+          "lines": [
+            85,
+            86,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I was living in DFW before' when discussing lockdown severity, indicating her previous city.",
+          "value": "DFW (Dallas-Fort Worth), Texas",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b addresses her as 'girl' in line 36, a gendered term for females.",
+          "value": "Female",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_b asks 'Are you in the U.S.', she replies 'Yeah.'",
+          "value": "US resident",
+          "lines": [
+            44,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I dropped out of college... I don't have any kind of certification to do anything' indicating she attended but did not complete a degree.",
+          "value": "some college, no degree",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she's planning to get a CNA license, describes it as a certification course about a month long with labs.",
+          "value": "pursuing CNA (Certified Nursing Assistant) license",
+          "lines": [
+            23,
+            25,
+            27,
+            211,
+            213
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She explicitly says 'I lost my job back in april.'",
+          "value": "lost job in April",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she 'was able to make it for about two months just doing random stuff online. Like transcribing and captioning and stuff like that.'",
+          "value": "did online transcribing and captioning gigs for ~2 months",
+          "lines": [
+            377
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She comments on the increased compensation ('I actually went up on the compensation') and speaker_b states it's $20 now; she agrees.",
+          "value": "received ~$20 for this study",
+          "lines": [
+            19,
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I did now I'm back home' and later discusses her mom's health and occupation in a way that implies cohabitation.",
+          "value": "lives with mother",
+          "lines": [
+            38,
+            39,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I have two sisters.'",
+          "value": "has two sisters",
+          "lines": [
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my sister is also a nurse and she works over in DFW' and that sister is 'going for her doctorate in nursing.'",
+          "value": "one sister is a nurse in DFW pursuing nursing doctorate",
+          "lines": [
+            109,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the other sister is a hairdresser and now looking for other work due to COVID-19, applying to places like Starbucks.",
+          "value": "other sister was a hairdresser, now job hunting",
+          "lines": [
+            355,
+            357,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her mom is a nurse, a heavy smoker, in her sixties, and already had COVID-19 and recovered in about a week.",
+          "value": "mother: nurse, heavy smoker, 60s, recovered from COVID-19",
+          "lines": [
+            71,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes the CNA course as 'only like a month long', mostly online with 'a couple labs like drawing blood' and strict vaccination requirements.",
+          "value": "enrolled in ~1-month CNA course (online with in-person labs)",
+          "lines": [
+            211,
+            213,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the course start was pushed from August to September to October.",
+          "value": "CNA course start delayed to October",
+          "lines": [
+            223,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says it took her about a month to gather all required shot records for the course due to strict college requirements.",
+          "value": "spent ~1 month getting vaccination records for course",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if she lives alone, she replies 'I did now I'm back home,' indicating she previously lived alone.",
+          "value": "previously lived alone",
+          "lines": [
+            38,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She says 'I'm from Georgia' and 'I live pretty close to Atlanta... right outside of Atlanta.'",
+          "value": "near Atlanta, Georgia",
+          "lines": [
+            88,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She refers to having a boyfriend, which typically indicates a female speaker; also uses 'girl' to address speaker_a, but that's less direct. We infer female gender.",
+          "value": "Female",
+          "lines": [
+            150
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is from Georgia, US, and discusses US-specific topics; she asks speaker_a if they are in US, implying she herself is.",
+          "value": "US resident",
+          "lines": [
+            44,
+            46,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm 25 already'.",
+          "value": "25 years old",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I just got my bachelor's in Psychology'.",
+          "value": "B.A./B.S. in Psychology",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I graduated from school last year' and 'it took me like five years to get through'.",
+          "value": "graduated last year with bachelor's after 5 years",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm starting to go to grad school' and 'I'm only going for my masters... that's just like 2-3 years'.",
+          "value": "pursuing master's degree",
+          "lines": [
+            28,
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I was a waitress... it was just like the tiny chinese restaurant that I worked at'.",
+          "value": "former waitress at small Chinese restaurant",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She explains the restaurant was sold right before the pandemic, leaving her jobless.",
+          "value": "lost waitress job due to restaurant sale",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the study compensation used to be $15 and now is $20, indicating she receives this payment.",
+          "value": "receives ~$20 for this study",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I really actually get like a job... like a receptionist... in a therapist office' indicating her job search plan.",
+          "value": "seeking receptionist position in therapist office",
+          "lines": [
+            310
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I live with my parents' and 'my dad is considered like high risk'.",
+          "value": "lives with parents; father is high-risk for COVID-19",
+          "lines": [
+            40,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my boyfriend's brother' indicating she has a boyfriend.",
+          "value": "has a boyfriend",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses her boyfriend's brother wedding and New York state travel restrictions, implying the wedding is in NY.",
+          "value": "boyfriend's brother is getting married in New York state",
+          "lines": [
+            150,
+            162,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'his sister... wasn't gonna go anyway because like she's pregnant'.",
+          "value": "boyfriend's sister is pregnant",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My brother is a Narciso' (likely 'nurse') 'and he lives in Indiana.'",
+          "value": "brother is a nurse in Indiana",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'my sister was Hair stylist for 27 years, were half sisters... she just recently moved down to Georgia from Ohio.'",
+          "value": "half-sister, former hairstylist of 27 years, moved from Ohio to Georgia",
+          "lines": [
+            368,
+            370
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my brother in law was also looking for a job currently'.",
+          "value": "brother-in-law is unemployed and job searching",
+          "lines": [
+            374
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my brother actually is having a wedding... scheduled it on New Year's Eve And he's only had planning to have like 40 people.'",
+          "value": "brother is getting married on New Year's Eve with ~40 guests",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I really haven't been like going out or anything like that' due to her father's high-risk status.",
+          "value": "mostly stays home to protect high-risk father",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a Mac book' when discussing computer notifications.",
+          "value": "owns a MacBook laptop",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a test that keeps getting rescheduled, initially March, now October (in two weeks), and the context of grad school applications suggests it is the GRE.",
+          "value": "scheduled to take graduate entrance exam (likely GRE) in October",
+          "lines": [
+            28,
+            34,
+            234
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She expresses discomfort with online proctored exams, saying 'I'd much rather be like in the classroom' and that being watched via webcam stresses her out.",
+          "value": "prefers in-person exams over online proctoring",
+          "lines": [
+            234,
+            242,
+            244,
+            248,
+            252,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains grad school applications require letters of recommendation from professors, but she never built relationships with hers, so she is now scrambling to request them.",
+          "value": "needs recommendation letters for grad school; lacks faculty connections",
+          "lines": [
+            316,
+            318,
+            320,
+            322,
+            330,
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

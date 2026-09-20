@@ -1,0 +1,225 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'last last name is hung' (line 229), giving his surname.",
+          "value": "Hung",
+          "lines": [
+            227,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Graham, Washington temporarily, staying at a friend's ranch (lines 7, 11, 19), and notes it is near Tacoma (line 23).",
+          "value": "Graham, Washington (temporary)",
+          "lines": [
+            7,
+            11,
+            19,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he moved from the SF area and was living in 'standard cruise' (ASR error for Santa Cruz) before coming to Washington (line 163).",
+          "value": "Santa Cruz, California",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I put in a lot of energy for the Bernie Sanders campaign' (line 175), indicating political support.",
+          "value": "supported Bernie Sanders campaign",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions 'other projects that I'm working on' (line 143), implying he has ongoing work or projects, likely remote.",
+          "value": "works on projects (likely remote)",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says he is staying with 'my friend who lives on this ranch' and describes the friend's animal behavioral school (line 7).",
+          "value": "friend who runs an animal behavioral school on a ranch in Graham, WA",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a shows a typewriter and says 'this is a christmas gift' (line 61).",
+          "value": "owns a typewriter (Christmas gift)",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions staying temporarily on a friend's ranch (line 7) and describes the rural environment and neighbors' habits (lines 15, 19).",
+          "value": "living temporarily on a ranch",
+          "lines": [
+            7,
+            15,
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'my name is chris Randall' and spells it as 'R. A. N. D. L. D.' (line 222). speaker_a later spells it as 'R E N D L E' (line 225) and addresses him as 'chris' (line 239). The intended name is Chris Randall.",
+          "value": "Chris Randall",
+          "lines": [
+            222,
+            225,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I live in new york' (line 20) and specifies 'in Brooklyn' (line 28).",
+          "value": "Brooklyn, New York",
+          "lines": [
+            20,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I grew up in in Toronto' (line 20) and describes living five minutes from a subway station there (line 36).",
+          "value": "Toronto, Canada (grew up)",
+          "lines": [
+            20,
+            34,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I have a writing deadline' (line 142) and 'I'm a freelancer' who writes for magazines (line 214).",
+          "value": "writer",
+          "lines": [
+            142,
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm a freelancer, so I just like publishing a bunch of different places' (line 214) and has a writing deadline (line 142).",
+          "value": "freelance writer",
+          "lines": [
+            142,
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my parents were like kind of freaking out' (line 38).",
+          "value": "has parents",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually know somebody who toured with her or and has collaborated with her like a musician' (line 46) referring to Bjork.",
+          "value": "knows a musician who collaborated with Bjork",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a friend ... one of her party tricks ... it was doing the Canadian national anthem. Either in Bjork's voice or Leonard Cohen's voice' (line 56).",
+          "value": "friend who does impressions of Bjork and Leonard Cohen",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he writes for Hazlitt magazine 'since like the beginning because I know their sounding editor' which is ASR for 'founding editor' (line 218).",
+          "value": "knows the founding editor of Hazlitt magazine",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I don't know how to drive even' (line 32) and 'I just never bothered to learn how to drive' (line 36).",
+          "value": "cannot drive",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I really love living like a giant city' (line 28) and that small towns make him feel like he is 'losing my mind' (line 32).",
+          "value": "prefers living in large cities",
+          "lines": [
+            28,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a book on Celtic paganism bought from Monkey's Paw in Toronto (lines 66, 76) and discusses obscure authors, indicating an avid reading habit.",
+          "value": "book collector/avid reader",
+          "lines": [
+            66,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "as a freelancer, speaker_b works on writing deadlines and transcribes interviews from home (lines 142, 218).",
+          "value": "works from home",
+          "lines": [
+            142,
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

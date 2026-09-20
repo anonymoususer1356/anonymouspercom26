@@ -1,0 +1,206 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states he lives in Florida (line 17). When asked where, ASR renders 'Kissimmee' as 'can see me' but adds '10 minutes from Disney' (line 31). He then clarifies he tells people Orlando because they don't know 'kissing me' (Kissimmee) (line 35).",
+          "value": "Kissimmee, Florida (Orlando area)",
+          "lines": [
+            17,
+            31,
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 53 he says he goes to school in Jacksonville, which is two hours north of his home. He is currently online but the school itself is in Jacksonville.",
+          "value": "Attends school in Jacksonville, Florida (currently online)",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b remarks 'you look pretty young' (line 120); both parties use 'man' (e.g., line 8); speaker_a is a college student studying jazz piano (lines 53, 121-123).",
+          "value": "Young adult male college student",
+          "lines": [
+            120,
+            53,
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he needs a job but can't fit it with school, so he looked for online stuff (line 169) and found Prolific works (line 171). He also considers a seasonal Walmart night stocking job (line 217).",
+          "value": "Student with limited income, using Prolific for money and considering retail work",
+          "lines": [
+            169,
+            171,
+            217
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "In line 81 he mentions family members in New York and the Dominican Republic. 'A couple of you have been' likely means a couple of them have died, but the key fact is the family ties.",
+          "value": "Family members in New York and Dominican Republic",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "After Oberlin is mentioned, speaker_a says 'I have a couple of friends would go to like school over there' (line 47).",
+          "value": "Friends who attended Oberlin College",
+          "lines": [
+            47
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 121-123: 'I'm doing jazz studies, so I was like piano … playing just piano.'",
+          "value": "Studies jazz piano",
+          "lines": [
+            121,
+            122,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 153: 'I've been watching some movies just at night … if I have some time I just like go out for a run or something like that.'",
+          "value": "Watches movies at night and goes for runs",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'So you look pretty young' (line 120).",
+          "value": "Young-looking",
+          "lines": [
+            120
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 16 says Ohio. In lines 38-40 he brings up the Pro Football Hall of Fame in Canton, and says 'That's where I'm …' (cut off, likely 'from' or 'at'). He then rejects Columbus and Cleveland, saying Oberlin is closest (lines 44-46). This places him in a small town near Canton, Ohio.",
+          "value": "Ohio, near Canton (small town)",
+          "lines": [
+            16,
+            38,
+            40,
+            44,
+            46
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 138 'graduated way back in from college'; worked 16 years at a shop (line 146); mentions 'the family' (line 10), 'in-laws' (line 14) and 'kids' (line 216). So middle-aged married male with children, college graduate.",
+          "value": "Middle-aged married male with children, college graduate",
+          "lines": [
+            138,
+            146,
+            10,
+            14,
+            216
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 146: works at a shop, 16 years; line 182: watches machines; line 178: made a couple thousand on Swagbucks; line 58: does Prolific. His main job is machine operation and he supplements income with online gigs.",
+          "value": "Machine operator (16 years) earning extra through Swagbucks and Prolific",
+          "lines": [
+            146,
+            182,
+            178,
+            58
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 10 ('bring the family'), 14 ('in-laws'), 216 ('saving up for christmas money for the kids') show he is married with children.",
+          "value": "Married with children",
+          "lines": [
+            10,
+            14,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 284: 'My mom calls me'; line 288: 'my mom's high risk'.",
+          "value": "Mother alive and high-risk for COVID",
+          "lines": [
+            284,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 82: 'My 92 year old Grandpa got it. He he beat it crazy.'",
+          "value": "92-year-old grandfather survived COVID",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 96: 'I have friends … from playing online games … over in India and like over in the Middle East'.",
+          "value": "Online friends in India and Middle East",
+          "lines": [
+            96
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 28: 'We go down to florida every year over christmas and new years down to Sarasota.'",
+          "value": "Annual Christmas/New Year vacation to Sarasota, Florida",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References online gaming in line 96, and playing 'dumb dumb games' for Swagbucks in line 182.",
+          "value": "Plays online games",
+          "lines": [
+            96,
+            182
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,339 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is Mark.'",
+          "value": "Mark",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I am in Ohio uh near Toledo' and 'I live in a pretty rural area'. Also mentions having only satellite internet due to rural location.",
+          "value": "Ohio, near Toledo, in a rural area",
+          "lines": [
+            9,
+            23,
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a's name is Mark, he refers to himself as the father of two boys, and his voice is male. Gender is not explicitly stated but strongly implied.",
+          "value": "Male",
+          "lines": [
+            7,
+            41,
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes working for a metropolitan planning organization doing transportation planning, data collection, and mapping, and says 'I just started my 17th year there'.",
+          "value": "Employed at a metropolitan planning organization as a data collector/mapper for 17 years",
+          "lines": [
+            141,
+            143,
+            147,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions doing microtasks on MTurk for 3-4 years and on Prolific recently to earn extra money, making small amounts like 70 cents to $2 per task.",
+          "value": "Earns extra money through online microtask platforms like MTurk and Prolific",
+          "lines": [
+            103,
+            105,
+            106,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I have a 10 year old and a seven year old' and confirms they are both boys.",
+          "value": "Father of two boys, aged 10 and 7",
+          "lines": [
+            41,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I work in an office... but we're only allowed to have a couple of people in the office at a time, so I go in one day a week.'",
+          "value": "Works from home most days, goes into the office one day per week",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates his commute is about an hour: 'I do live about an hour from home' (likely slip for work being an hour from home).",
+          "value": "Has a commute of about one hour when going to the office",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says '[My kids] go to a small parochial school, so the biggest class... is 30 people'. The ASR likely mangled the start of the sentence.",
+          "value": "Children attend a small parochial school with a maximum class size of 30",
+          "lines": [
+            89,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'the only internet option we have is satellite internet' because they live in a rural area.",
+          "value": "Has satellite internet at home due to rural location",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'My name is Trudy.'",
+          "value": "Trudy",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Houston texas' and 'we've been in Houston... 18 years'.",
+          "value": "Lives in Houston, Texas (for 18 years)",
+          "lines": [
+            10,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to I grew up in Louisiana'.",
+          "value": "Grew up in Louisiana",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions living in Kansas when she and her husband were in the military.",
+          "value": "Lived in Kansas at some point",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b's name, references to being a wife, mother, grandmother, and use of the phrase 'queen of side gigs' strongly imply she is female.",
+          "value": "Female",
+          "lines": [
+            6,
+            44,
+            118,
+            190
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'my husband and I were both in the military'.",
+          "value": "Military veteran",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a six year old grandson and a granddaughter that's about a year and a half'.",
+          "value": "Grandmother",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she teaches English to Chinese and Russian kids, works for VIPKid, and has been doing it about 3 years.",
+          "value": "Teaches English online to Chinese and Russian children for VIPKid (about 3 years)",
+          "lines": [
+            114,
+            268,
+            270,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions doing Prolific, 'play cloud testing' where you test software and games, and has done these for at least a year.",
+          "value": "Does microtask and game testing work on platforms like Prolific and Play Cloud Testing",
+          "lines": [
+            108,
+            110,
+            112,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I do a lot of I. T. stuff I do web stuff and I do event planning... I'm a photographer'.",
+          "value": "Freelance I.T. work, web development, event planning, and photography",
+          "lines": [
+            278,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I worked for Exxon mobil for 13 years as a project manager'.",
+          "value": "Previously employed as a project manager at ExxonMobil for 13 years",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm on the board of the nonprofit'.",
+          "value": "Board member of a nonprofit",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her husband multiple times: he has a PhD in math, works in oil and gas for a small family-owned company.",
+          "value": "Married to a man with a PhD in math who works in the oil and gas industry",
+          "lines": [
+            32,
+            220,
+            236,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my oldest is a boy and then I and two girls' and that her kids are grown.",
+          "value": "Mother of three adult children: one son and two daughters",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a six year old grandson and a granddaughter that's about a year and a half'.",
+          "value": "Grandmother of a 6-year-old grandson and a 1.5-year-old granddaughter",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my daughter... works um at an orthodontist office, she's an assistant'.",
+          "value": "Has a daughter who works as an orthodontist assistant",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I work from home, I've been working from home for about I guess five years now'.",
+          "value": "Works from home for about 5 years",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she gets up at 5:30 AM to teach English to kids in China.",
+          "value": "Teaches English online early in the morning starting around 5:30 AM",
+          "lines": [
+            250,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still go to bed at like 12, 1 o'clock at night'.",
+          "value": "Typically goes to bed late, around midnight to 1 AM",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes wearing a pajama shirt that a student commented on, indicating she wears comfortable clothes while teaching.",
+          "value": "Wears pajama tops while working from home",
+          "lines": [
+            240,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes Houston weather as 95°F with 70% humidity and says the traffic is horrible.",
+          "value": "Lives in a hot, humid climate with heavy traffic (Houston)",
+          "lines": [
+            14,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions doing multiple side gigs and hobbies: I.T., web stuff, event planning, photography, online surveys, game testing, and nonprofit board.",
+          "value": "Engages in numerous side gigs and hobbies, including I.T., web development, event planning, photography, and online testing",
+          "lines": [
+            278,
+            280,
+            108,
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b mentions wearing a pajama shirt while teaching, which a student identified as such.",
+          "value": "Wears pajama tops while working from home",
+          "lines": [
+            240,
+            248
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

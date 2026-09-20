@@ -1,0 +1,595 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "He says 'my name is steven'.",
+          "value": "Steven",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He agrees he is from Florida when speaker_b says she is from Florida (line 3 'same'), and states 'I'm not by Fort Lauderdale' (line 7).",
+          "value": "Florida, not near Fort Lauderdale",
+          "lines": [
+            3,
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I was living in Miami at the time' (line 223).",
+          "value": "previously lived in Miami",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I moved from one town to the other recently' when discussing voter registration (line 275).",
+          "value": "recently moved to a different town",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states 'I'm 19' (line 91) and mentions his 19th birthday (line 95).",
+          "value": "19 years old",
+          "lines": [
+            91,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm going into sophomore' (line 15).",
+          "value": "college sophomore",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'currently at University of Miami' (line 15).",
+          "value": "University of Miami student",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his 19th birthday was 'on the 25th' (line 97).",
+          "value": "birthday on the 25th (month unspecified)",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm kind of like living with my parents still' (line 101).",
+          "value": "lives with parents",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says he goes to bed at 3-4 am (line 81), considers waking up at 9 am early (line 75), and says 'I have a sleep schedule. Not a good one' (line 83).",
+          "value": "irregular sleep schedule, typically stays up very late and wakes up late",
+          "lines": [
+            75,
+            81,
+            83
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He says 'I got my learner's permit but I've been on it for two years' (line 207).",
+          "value": "holds a learner's driving permit",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I took the knowledge test a couple of years back' (line 211).",
+          "value": "passed the driving knowledge test",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he tried to change his voter registration after moving (line 275).",
+          "value": "registered to vote",
+          "lines": [
+            275
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He says 'I applied to work for them [census] in like february or March' (line 235) and describes the role (line 239).",
+          "value": "applied for census enumerator job",
+          "lines": [
+            235,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'best $40 I ever spent' on a drawing tablet (line 185).",
+          "value": "purchased a drawing tablet for $40",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I don't own a Nintendo switch' (line 157).",
+          "value": "does not own a Nintendo Switch",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he posted online seeking paid drawing work (line 163).",
+          "value": "seeking art commissions",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives with his parents (line 101), suggesting financial dependence.",
+          "value": "likely financially dependent on parents",
+          "lines": [
+            101
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'I'm kind of like living with my parents still' (line 101).",
+          "value": "lives with parents",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he has a pet, shows it, and says its name is Bonkers (lines 47, 49, 51).",
+          "value": "has a pet named Bonkers",
+          "lines": [
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'they all live in pennsylvania' referring to family (line 31).",
+          "value": "has extended family in Pennsylvania",
+          "lines": [
+            31
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions missing friends (line 45) and that they aren't awake when he wakes up early (line 75).",
+          "value": "has friends",
+          "lines": [
+            45,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'doing everything online still' (line 21) and discusses virtual learning (line 36).",
+          "value": "attends college classes online",
+          "lines": [
+            21,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I would just wake up minutes before class and stay in bed the whole time' (line 39).",
+          "value": "stays in bed during online classes",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I would just show up in pajamas' (line 41).",
+          "value": "wears pajamas during online classes",
+          "lines": [
+            41
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I've been occupying myself with video games' (line 156) and mentions wishing for Animal Crossing (line 157).",
+          "value": "plays video games",
+          "lines": [
+            156,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I draw a lot' (line 159) and discusses his drawing tablet (line 185).",
+          "value": "draws as a hobby",
+          "lines": [
+            159,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I really enjoy [swimming]' (line 113) and mentions pools and ocean (line 115).",
+          "value": "enjoys swimming",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I still don't know how to drive' (line 205) and only has a learner's permit (line 207).",
+          "value": "does not know how to drive",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I don't listen to jazz so much, kind of into it' (line 193).",
+          "value": "listens to jazz music occasionally",
+          "lines": [
+            193
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He describes his 19th birthday party with troll decorations from Party City, organized by his mom (line 101).",
+          "value": "had a troll-themed 19th birthday party",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he goes to bed at 3-4 am (line 81) and that waking up at 9 is early for him (line 75).",
+          "value": "habitually stays up very late and wakes up late",
+          "lines": [
+            75,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I don't like pop that much, it's very hit or missed for me' (line 199).",
+          "value": "dislikes most pop music",
+          "lines": [
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I was in like theater club' (line 45).",
+          "value": "participated in theater club",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he took 'several train and bus rides' to the DMV when living in Miami (line 223).",
+          "value": "uses public transit when in Miami",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions his French teacher complaining about his pyjamas (line 43), implying he takes a French class.",
+          "value": "takes French class",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She says 'I'm Ashley' (line 2).",
+          "value": "Ashley",
+          "lines": [
+            2
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm all the way over in the panhandle basically Alabama over here' (line 10).",
+          "value": "currently in Florida panhandle",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives in 'the D.C. area' (lines 24, 26) and her car is registered in Virginia (line 246).",
+          "value": "normally lives in D.C. area / Virginia",
+          "lines": [
+            24,
+            26,
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been down here for like five months now' (line 247).",
+          "value": "has been in Florida for about 5 months",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her coworker in D.C. is an hour ahead of her (lines 70-72), implying she is in Central Time Zone while D.C. is Eastern.",
+          "value": "likely in Central Time Zone",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm only 28' (line 92).",
+          "value": "28 years old",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm currently working from home' (line 22).",
+          "value": "employed, works from home",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we have a little bit of a section of the beach area that's for military only' (line 128), suggesting she or her partner has military access.",
+          "value": "likely has military affiliation (or partner is military)",
+          "lines": [
+            128
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She mentions 'the pool in our apartment community' (line 122).",
+          "value": "lives in an apartment community",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I'm passed out by about 11:30' (line 88), likely PM, indicating her bedtime.",
+          "value": "typically goes to bed by 11:30 PM",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She says 'I paid off my car... finally owned my own freaking car' (line 248) and discusses the title (line 250).",
+          "value": "owns a car outright",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions renewing registration in Virginia and her address being there (lines 246, 258).",
+          "value": "car is registered in Virginia",
+          "lines": [
+            246,
+            258
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I don't drive anymore' (line 202).",
+          "value": "does not currently drive",
+          "lines": [
+            202
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says she is 'working from home' (line 22) and has a coworker (line 70).",
+          "value": "employed with remote job",
+          "lines": [
+            22,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she paid off her car (line 248).",
+          "value": "owns car without loan",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she recently got a drawing tablet, partly for work (line 176).",
+          "value": "purchased a drawing tablet",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'our apartment community' (line 122) and her partner living with her (line 118), indicating shared housing.",
+          "value": "shares apartment with partner",
+          "lines": [
+            118,
+            122
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my partner lives and works down here' (line 118).",
+          "value": "has a partner",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her partner is in Florida (line 118).",
+          "value": "partner lives in Florida",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have family down here' (line 28).",
+          "value": "has family in Florida",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a cat somewhere around here' (line 56).",
+          "value": "has a pet cat",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my coworker' (line 70) and having a daily call with them.",
+          "value": "has a coworker",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'our apartment community' (line 122) and indicates partner is with her in Florida.",
+          "value": "lives with partner",
+          "lines": [
+            118,
+            122
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She works from home (line 22) and takes calls in the morning (line 70).",
+          "value": "works from home",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been crushing lego harry potter on Xbox' (line 174).",
+          "value": "plays Lego Harry Potter on Xbox",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I kind of do cartoons and stuff on paper' (line 178).",
+          "value": "draws cartoons",
+          "lines": [
+            178
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says they go to a military-only section of the beach (line 128).",
+          "value": "visits a military beach section",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I will listen to anything but country and hard rap just can't get into either' (line 198).",
+          "value": "dislikes country and hard rap music",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes having a call every morning at 8:30 AM her time (line 70-72).",
+          "value": "has daily morning work call at 8:30 AM",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she goes to bed by 11:30 PM (line 88).",
+          "value": "goes to bed early (by 11:30 PM)",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

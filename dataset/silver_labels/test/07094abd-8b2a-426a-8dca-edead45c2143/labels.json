@@ -1,0 +1,318 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She explicitly introduces herself: 'I'm daisy. Yeah daisy.'",
+          "value": "Daisy",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When speaker_b mentions South Carolina and Texas, she replies 'I'm in texas.'",
+          "value": "Texas",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm asian chinese.'",
+          "value": "Asian Chinese",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_b's political labels, she says 'I'm both liberal, I'm both literal meaning' and later agrees she respects other opinions; establishes her liberal stance.",
+          "value": "Politically liberal",
+          "lines": [
+            165,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Asked her age, she says 'I'm in my 20s.'",
+          "value": "In her 20s",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she's done several of these studies, uses Prolific, and started since quarantine for 'side money'.",
+          "value": "Earns side income through Prolific surveys",
+          "lines": [
+            61,
+            63,
+            65,
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my parents' when discussing deep conversation.",
+          "value": "Has parents",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I used to play piano and flute but I could never pick up guitar.'",
+          "value": "Used to play piano and flute",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I try to avoid facebook just out of principle.'",
+          "value": "Avoids Facebook",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm not a baby person' and 'I'm okay living for myself' in response to having children.",
+          "value": "Chooses not to have children",
+          "lines": [
+            217,
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself: 'My name is frank, yeah, date, I like that name.' 'date' is likely an ASR error.",
+          "value": "Frank",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in the United States. Um south Carolina' and speaker_a confirms Texas, leaving South Carolina for him. Later he says 'Been here for 31 years in South Carolina' and 'here in south Carolina'.",
+          "value": "South Carolina (residence)",
+          "lines": [
+            78,
+            112,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has land in a small town in Dallas called Dell City, Texas.",
+          "value": "Owns land in Dell City, Texas",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'my mom's side of the family is from the Philippines' indicating part-Filipino ethnicity.",
+          "value": "Part Filipino (maternal)",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He explicitly states 'I'm a Republican … socially conservative. Financial liberal.'",
+          "value": "Republican, socially conservative, financially liberal",
+          "lines": [
+            162,
+            163,
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says 'I'm a smoker so it's very not good.'",
+          "value": "Smoker",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I think I actually had Covid this year' and describes severe, debilitating illness that he believes was Covid-19.",
+          "value": "Self-reported possible Covid-19 infection",
+          "lines": [
+            232,
+            240,
+            241,
+            242,
+            243,
+            244,
+            246
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He mentions using Mechanical Turk and Prolific, doing studies, and having a payment standard.",
+          "value": "Earns side income from online studies (Mechanical Turk and Prolific)",
+          "lines": [
+            66,
+            67,
+            68,
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he has land in Dell City, Texas.",
+          "value": "Landowner (Dell City, Texas)",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He owns about 300 Avengers comics from the first series, with early issues costing thousands of dollars and later ones at least $100 each, estimating around $10,000 total.",
+          "value": "Avengers comic book collection worth approximately $10,000",
+          "lines": [
+            259,
+            260,
+            261,
+            262
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'I'm at my brother's apartment' and mentions his brother's wife and niece.",
+          "value": "Brother",
+          "lines": [
+            200,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Implied through mention of brother's wife.",
+          "value": "Sister-in-law",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'this is my nieces' and 'she's um about to turn two and three days actually.'",
+          "value": "Niece (nearly 2 years old)",
+          "lines": [
+            200,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He references 'my mom's side' of the family.",
+          "value": "Mother",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I have a couple of close friends and just one of them plays guitar and base' and earlier mentions all friends are adverse to starting a band.",
+          "value": "Close friends (one plays guitar/bass)",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I play guitar' and clarifies 'Just for pleasure.'",
+          "value": "Plays guitar",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I want to start my own band'.",
+          "value": "Wants to start a band",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I'm a smoker'.",
+          "value": "Smokes",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'I get on in the big debates on facebook' and discusses a racial debate and hydroxychloroquine debate.",
+          "value": "Engages in political debates on Facebook",
+          "lines": [
+            98,
+            100,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions watching the Marvel omnibus, crying in Endgame, playing Marvel phone game, and owning comics.",
+          "value": "Avid Marvel fan (movies, games, comics)",
+          "lines": [
+            250,
+            256,
+            262,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has done research on designing an Iron Man suit.",
+          "value": "Attempted to design an Iron Man suit",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

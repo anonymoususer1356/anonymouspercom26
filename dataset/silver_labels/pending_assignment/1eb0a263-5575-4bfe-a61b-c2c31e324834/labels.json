@@ -1,0 +1,239 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'bob' (ASR transcription). Intended name is 'Bob'.",
+          "value": "Bob",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States his current location.",
+          "value": "Jacksonville, Florida",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions he is a transplant from California.",
+          "value": "Originally from California",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he majored in accounting and minored in computer science, indicating he is a college graduate.",
+          "value": "College graduate (major in accounting, minor in computer science)",
+          "lines": [
+            69,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having a daughter in school and other kids, so he is a parent.",
+          "value": "Parent with children",
+          "lines": [
+            117,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He does a lot of railroad business and visited Amtrak for work.",
+          "value": "Works in the railroad industry",
+          "lines": [
+            199,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He does surveys on Prolific (this is his 7th study) and uses Amazon Mechanical Turk for extra money.",
+          "value": "Earns extra income from Prolific and Amazon Mechanical Turk surveys",
+          "lines": [
+            243,
+            259,
+            291,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He states he has a daughter in school and mentions having kids, showing he is a father.",
+          "value": "Father of multiple children",
+          "lines": [
+            117,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He confirms he works from home.",
+          "value": "Works from home",
+          "lines": [
+            257,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions going on a nature walk today.",
+          "value": "Enjoys nature walks",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He states his name is Christian (ASR 'christian'; speaker_a also addresses him as Christian).",
+          "value": "Christian",
+          "lines": [
+            3,
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is in Chicago, about half an hour north of downtown, attends Loyola University Chicago in Rogers Park neighborhood.",
+          "value": "Chicago, Illinois (Rogers Park, near Loyola University Chicago)",
+          "lines": [
+            4,
+            6,
+            208,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his hometown is a smaller suburban town around Chicago.",
+          "value": "Originally from a Chicago suburb",
+          "lines": [
+            96,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he is in his senior year of college studying computer science.",
+          "value": "College senior, computer science major",
+          "lines": [
+            10,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He has a job offer after graduation from a company he previously interned at; the role is based in Richmond, Virginia, with a possibility to transfer to Chicago. He accepted the offer.",
+          "value": "Accepted post-graduation job in Richmond, VA (option to move to Chicago)",
+          "lines": [
+            90,
+            94,
+            96,
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He takes part in Prolific studies for extra income and has done so at least five times.",
+          "value": "Earns extra money via Prolific surveys",
+          "lines": [
+            239,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions working at a grocery store during high school.",
+          "value": "Worked at a grocery store in high school",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He refers to 'one of my brothers' and 'my brother', indicating he has at least one, likely multiple brothers.",
+          "value": "Has brothers",
+          "lines": [
+            152,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states his dad and his dad's dad (paternal grandfather) are Cubs fans.",
+          "value": "Has a father and a paternal grandfather",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "All his college classes are currently online via Zoom due to the pandemic.",
+          "value": "Attends college classes remotely via Zoom",
+          "lines": [
+            106,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is a Chicago Bears fan and a Cubs fan.",
+          "value": "Fan of Chicago Bears and Chicago Cubs",
+          "lines": [
+            30,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions taking advantage of cheap White Sox tickets and dollar hot dog nights.",
+          "value": "Attends White Sox games for inexpensive entertainment",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

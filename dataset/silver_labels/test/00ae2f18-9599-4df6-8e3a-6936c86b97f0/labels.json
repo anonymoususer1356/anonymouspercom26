@@ -1,0 +1,448 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in Florida' and 'I live in Tallahassee', and confirms living in Florida her whole life.",
+          "value": "Tallahassee, Florida",
+          "lines": [
+            65,
+            67,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a is referred to as 'girl' and uses 'girl' in response; voice consistent with female.",
+          "value": "female",
+          "lines": [
+            341
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm from south florida', indicating her origin.",
+          "value": "originally from South Florida",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she works in a clinic providing behavior therapy to children and has been there two years.",
+          "value": "behavior therapist at a clinic",
+          "lines": [
+            27,
+            29,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes completing coursework and supervision hours (1500 total, 200 left) to sit for the BCBA exam around September/October.",
+          "value": "pursuing BCBA certification",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I'm like helping my roommate move'.",
+          "value": "roommate",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my sister lived in Seattle', her husband in the military, and calls her a 'florida girl'.",
+          "value": "sister (married to military member)",
+          "lines": [
+            85,
+            87,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'it was actually a coworker of mine who lives in chattahoochee'.",
+          "value": "coworker in Chattahoochee",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'all my friends smoke weed'.",
+          "value": "friends, many smoke cannabis",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a explicitly says 'I even stopped eating meat'.",
+          "value": "vegetarian",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a has a rescue pit-mix dog named November, turning 2 in October, adopted as a baby.",
+          "value": "dog owner (rescue pit mix, November, ~2 years)",
+          "lines": [
+            75,
+            77,
+            179,
+            181,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says smoking THC burns her throat, so she consumes edibles instead; she mentions a THC lollipop her dog ate.",
+          "value": "cannabis edibles user (non-smoker)",
+          "lines": [
+            223,
+            249,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a helping her roommate move implies a shared living arrangement.",
+          "value": "lives with roommate",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a calls herself 'a tree hugger turning green person'.",
+          "value": "environmentally conscious",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I just like fell in love with like animals' and 'I love animals'.",
+          "value": "animal lover",
+          "lines": [
+            191,
+            215
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'Lear' (ASR); speaker_a repeats it as 'Lira Amethi ana'. The intended name is likely 'Leah'.",
+          "value": "Leah",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I am in Seattle' and discusses local weather and Microsoft's presence.",
+          "value": "Seattle, Washington",
+          "lines": [
+            64,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b discusses being a woman in tech returning after having a baby, and voice suggests female.",
+          "value": "female",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her 13-year-old autistic son.",
+          "value": "parent (mother)",
+          "lines": [
+            32,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her current job as a 'midlife career change'.",
+          "value": "middle-aged",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she went back to school and earned a bachelor's degree in fine art.",
+          "value": "college graduate (bachelor's in fine art)",
+          "lines": [
+            138,
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says cannabis edibles have 'not really great interactions with some of my medication,' indicating she takes prescribed medication.",
+          "value": "takes medication (unspecified condition)",
+          "lines": [
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b interjects 'sorry allergies' while talking, likely referring to her own sneeze or allergy symptoms.",
+          "value": "allergies",
+          "lines": [
+            32
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she works in market research and consulting, running surveys and writing reports for Microsoft.",
+          "value": "market research and consulting",
+          "lines": [
+            124,
+            126,
+            128,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a cabin on Lopez Island that she and her husband received when his father died.",
+          "value": "cabin on Lopez Island, San Juan Islands",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b refers to 'my husband' and mentions 'Shawn's father', indicating her husband's name is Shawn.",
+          "value": "husband Shawn",
+          "lines": [
+            12,
+            108,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about her son, age 13, who has an autism diagnosis, anxiety, and ADD.",
+          "value": "son, age 13, autistic",
+          "lines": [
+            32,
+            38,
+            42,
+            46,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her son's best friend is her best friend's son, and they were pregnant at the same time.",
+          "value": "best friend (mother of son's best friend)",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my sister teaches in celebration'.",
+          "value": "sister (teacher in Celebration, FL)",
+          "lines": [
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my mom and dad' and says mom lives in Harmony, FL and is retired.",
+          "value": "mother (retired, in Harmony, FL)",
+          "lines": [
+            308,
+            312,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her dad lives in Kissimmee, FL and is retired.",
+          "value": "father (retired, in Kissimmee, FL)",
+          "lines": [
+            308,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my step mom is retired'.",
+          "value": "stepmother (retired)",
+          "lines": [
+            308,
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her nephew who just graduated and is entering the Air Force in a couple weeks.",
+          "value": "nephew (entering Air Force)",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains 'Shawn's father has died we got little place', referring to her father-in-law.",
+          "value": "father-in-law (Shawn's father, deceased)",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her two cats, Charlotte and Wilbur, adopted together. Charlotte is a 3-year-old female; Wilbur is male.",
+          "value": "cats: Charlotte (female, 3) and Wilbur (male)",
+          "lines": [
+            182,
+            184,
+            186,
+            188,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b confirms she has been working from home since early March.",
+          "value": "works from home (remote)",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she doesn't have a dog but has two cats.",
+          "value": "cat owner",
+          "lines": [
+            182,
+            184,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions going into the mountains to hike and riding bikes.",
+          "value": "outdoor activities: hiking, biking",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes going to their cabin on Lopez Island to disconnect, where cell service requires walking up a hill.",
+          "value": "cabin getaway (off-grid)",
+          "lines": [
+            106,
+            108,
+            114,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b consumes edibles occasionally but avoids smoking to preserve her voice; her friends prefer edibles as well.",
+          "value": "cannabis edibles user (non-smoker)",
+          "lines": [
+            240,
+            242,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she signed up to potentially be part of a COVID-19 vaccine trial.",
+          "value": "signed up for COVID-19 vaccine trial",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses the state mask mandate and says she wears a mask and ensures her parents do too.",
+          "value": "mask wearer",
+          "lines": [
+            300,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b reminisces about Friday office socials with drinks and snacks, saying she misses her coworkers.",
+          "value": "misses office social events",
+          "lines": [
+            166,
+            168,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she hates that her husband also started working from home shortly after she did.",
+          "value": "dislikes working alongside husband at home",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we don't fly anywhere right now'.",
+          "value": "avoids air travel",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

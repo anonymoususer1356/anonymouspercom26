@@ -1,0 +1,167 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a first says 'I'm out here in California', then specifies 'Northern California' and 'near san Francisco'.",
+          "value": "Northern California, near San Francisco",
+          "lines": [
+            9,
+            19,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When describing their background, speaker_a mentions political science, and speaker_b asks about their degree, confirming it is in political science.",
+          "value": "degree in political science",
+          "lines": [
+            41,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states they work in product design, creating digital products like websites and apps, and that they have been doing it for 2-3 years.",
+          "value": "product designer (2-3 years)",
+          "lines": [
+            39,
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says they are still living with their parents, and that they lived on their own before Covid, indicating their current living situation.",
+          "value": "lives with parents",
+          "lines": [
+            273,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a expresses that they enjoy going to the gym and miss it since they cannot go now.",
+          "value": "enjoys going to the gym",
+          "lines": [
+            269,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b confirms Alabama and then specifies Huntsville, describing it as the engineering hub where the Saturn V was built. Later, 'here' in the context of living places refers to Huntsville.",
+          "value": "Huntsville, Alabama",
+          "lines": [
+            10,
+            12,
+            14,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b explicitly says he got his degree in civil engineering.",
+          "value": "degree in civil engineering",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he works for NASA as a flight controller for the International Space Station, and that he started in July or August 2016, making it about four years.",
+          "value": "flight controller at NASA (since July/August 2016)",
+          "lines": [
+            36,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' multiple times, clearly indicating marriage.",
+          "value": "married",
+          "lines": [
+            116,
+            222,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'our second kid' and confirms when speaker_a asks that he already has a child.",
+          "value": "has one child",
+          "lines": [
+            225,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they found out his wife was pregnant and that the baby is arriving in three weeks.",
+          "value": "expecting second child in three weeks",
+          "lines": [
+            222,
+            225,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states directly that his wife is a teacher.",
+          "value": "wife is a teacher",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b tells an anecdote involving his brother and later mentions bringing up his NASA job to his brother.",
+          "value": "has a brother",
+          "lines": [
+            66,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he was browsing Reddit and saw a life pro tip, indicating a regular online activity.",
+          "value": "browses Reddit",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

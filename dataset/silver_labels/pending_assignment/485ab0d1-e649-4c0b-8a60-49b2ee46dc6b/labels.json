@@ -1,0 +1,447 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'I'm Audrey' when exchanging names.",
+          "value": "Audrey",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I am currently in north Carolina outside of Boone' and adds it is 'two hours north of Asheville'.",
+          "value": "near Boone, North Carolina",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We were in florida. We just moved up here', indicating a move from Florida to North Carolina.",
+          "value": "previously lived in Florida",
+          "lines": [
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we lived in Atlanta before, that's where we met. We lived there for 10 years.'",
+          "value": "previously lived in Atlanta, Georgia",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'we're actually staying in an RV right now' and 'we bought like raw land' (ASR 'rah lamb' for raw land).",
+          "value": "currently staying in an RV on purchased raw land in North Carolina",
+          "lines": [
+            235,
+            217
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Audrey, referred to with female terms (husband, mother), implies female gender.",
+          "value": "female",
+          "lines": [
+            49,
+            83,
+            209
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Repeated mentions of 'my husband' (e.g., lines 83, 145).",
+          "value": "married",
+          "lines": [
+            83,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References to 'my son' (line 139) and 'a little two year old' (line 50).",
+          "value": "mother of a toddler son",
+          "lines": [
+            50,
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "When speaker_b describes tinnitus, speaker_a responds 'Yes, I have that too.'",
+          "value": "tinnitus (self-reported)",
+          "lines": [
+            253
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I haven't slept in like two years' because of toddler, indicating chronic sleep deprivation.",
+          "value": "sleep deprivation",
+          "lines": [
+            233
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I do independent consulting'.",
+          "value": "independent consultant",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am used to travel a lot for work'.",
+          "value": "previously travelled frequently for work",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she switched work arrangements 'so that I could be not traveling' after having a two‑year‑old.",
+          "value": "stopped travelling for work to care for child",
+          "lines": [
+            49,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Husband did Prolific surveys; she says 'let me do that too' and confirms they both started doing it.",
+          "value": "does Prolific surveys for extra money",
+          "lines": [
+            83,
+            85,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'starting like a mini farm', 'getting chickens, we're gonna have goats', and planting vegetables.",
+          "value": "starting a mini-farm (chickens, goats, vegetables)",
+          "lines": [
+            97,
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes buying raw land and having driveway, water, power installed (ASR 'drug wing' for driveway, 'rah lamb' for raw land).",
+          "value": "purchased raw land, currently installing utilities",
+          "lines": [
+            217,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My husband is a tennis coach'.",
+          "value": "household income includes husband's tennis coaching",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'my husband is from Bulgaria' (line 145) and 'He moved to when he was 25' (line 151, ASR garbled but meaning clear).",
+          "value": "husband is Bulgarian, moved to the US at age 25",
+          "lines": [
+            145,
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'my mother in law is a pediatric pulmonologist in Bulgaria'.",
+          "value": "mother-in-law is a paediatric pulmonologist in Bulgaria",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my son' (line 139) and 'a little two year old' (line 50).",
+          "value": "son, approximately 2 years old",
+          "lines": [
+            50,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My husband is a tennis coach'.",
+          "value": "husband is a tennis coach",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes using a Keurig machine (ASR 'cure egg') with reusable pods, preparing coffee the night before.",
+          "value": "regular coffee drinker, uses a Keurig",
+          "lines": [
+            243,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions ordering a tea substitute from Amazon 'called jesse' that was supposed to have caffeine but didn't work.",
+          "value": "tried 'Jesse' tea from Amazon",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we don't have cable but we like we watched Youtube'.",
+          "value": "watches YouTube, no cable TV",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes travelling to Bulgaria and connecting through Istanbul, returning to the US on February 29.",
+          "value": "travelled to Bulgaria and Turkey (Istanbul) in February",
+          "lines": [
+            261,
+            263,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I did this um ironically um like probably like a month or two a barrel' (ASR for 'a month or two ago') and was paired with someone from Detroit.",
+          "value": "has done this video-chat experiment at least once before, with a person from Detroit",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "After speaker_a says 'I'm Audrey', speaker_b's name is confirmed when speaker_a says 'T is pretty too' (line 211). The ASR 'to you' is 'T too'.",
+          "value": "T",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'New york city yeah' (line 10) and later specifies 'I'm in Staten Island right next to the bridge' (line 280).",
+          "value": "Staten Island, New York City",
+          "lines": [
+            10,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'No, no, I've been here uh 13 years now' (line 114) referring to New York City.",
+          "value": "has lived in New York City for 13 years",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked 'Are you from new york originally?' speaker_b responds 'Mhm. Oh yeah.' (line 116).",
+          "value": "originally from New York (state or city)",
+          "lines": [
+            115,
+            116
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name T, speaker_a references 'a girl named T', implying female; context supports this.",
+          "value": "female",
+          "lines": [
+            211
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'I managed a psychiatric unit' (line 34); context shows present tense.",
+          "value": "manager of a psychiatric unit",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'I was born with chronic asthma' (line 142).",
+          "value": "chronic asthma",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Adds 'I have like dozens of severe allergies as well' (line 142).",
+          "value": "severe allergies",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that due to a pre‑existing condition, 'if I got it, I could wind up on a ventilator' (line 134).",
+          "value": "high risk of severe COVID-19 complications",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I got my antibody test and I was hoping it was positive … but it was negative' (line 144).",
+          "value": "COVID-19 antibody test negative",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I think I have some of that tinnitus' (line 252).",
+          "value": "tinnitus (self-reported)",
+          "lines": [
+            252
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Discusses doing surveys on Prolific for a couple of years, notes 'they pay in euros' and had 'hundreds of dollars' saved (lines 70-78).",
+          "value": "does Prolific surveys, earning euros",
+          "lines": [
+            70,
+            72,
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Works as a psychiatric unit manager (line 34); also mentions being an essential worker (line 20, ASR 'sent to workers' for 'essential workers').",
+          "value": "employed in healthcare (psychiatric unit manager)",
+          "lines": [
+            20,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'I work with people who are severely mentally ill' (line 42).",
+          "value": "works with severely mentally ill patients",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I got two cockatiels and I just inherited a parakeet as a rescue' (line 62).",
+          "value": "owns two cockatiels and a rescue parakeet",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'we have the citizen app … it says all the crime in real time, all over new york city' (lines 106-108).",
+          "value": "uses the Citizen app to monitor NYC crime/911 calls",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm still waking up with my coffee' (line 138).",
+          "value": "drinks coffee",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'Oh I don't have a T.V.' (line 118).",
+          "value": "does not own a television",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'We've never been to Turkey' (line 272).",
+          "value": "has never visited Turkey",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains this is her second time doing this video chat; the first was with a kid from L.A. and they had audio issues, resorting to lip reading and pen/paper (lines 198-204).",
+          "value": "second time participating in this video-chat experiment; previously used pen and paper due to audio problems",
+          "lines": [
+            198,
+            200,
+            202,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes wearing 'extra PPE … the masks and the goggles and then I have this hat with like a visor that comes down' (line 132, ASR 'advisor' for 'a visor').",
+          "value": "wears enhanced PPE (mask, goggles, face shield) at work",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

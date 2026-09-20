@@ -1,0 +1,572 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 5, speaker_a introduces herself as 'I'm marina'. Speaker_b addresses her as Marina in line 6 and 14 (ASR 'mary mack', intended Marina).",
+          "value": "Marina",
+          "lines": [
+            5,
+            6,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in North Carolina (line 15), then specifies Raleigh Durham area (line 19).",
+          "value": "Raleigh-Durham area, North Carolina",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 53: 'I actually grew up in this area um I was born and raised here.' The 'area' refers to the previously mentioned Raleigh-Durham area.",
+          "value": "Raised in Raleigh-Durham area, North Carolina",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'I went away to college um in west Virginia.'",
+          "value": "Attended college in West Virginia",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'and then I was in Ohio'.",
+          "value": "Lived in Ohio",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'and we were in Las Vegas for the last year', and line 261 confirms living in Las Vegas when they got the dog.",
+          "value": "Lived in Las Vegas, Nevada",
+          "lines": [
+            55,
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 55, 59, 128, 131: she says she is finishing a long process including undergrad, master's, and PhD in clinical psychology, to be completed in May.",
+          "value": "PhD candidate in clinical psychology",
+          "lines": [
+            55,
+            59,
+            128,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 75, 77, 123: she sees patients as a therapist, specializes in eating disorders, and will start a psychologist job.",
+          "value": "Psychologist / therapist",
+          "lines": [
+            75,
+            77,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 349: 'I did gymnastics'.",
+          "value": "Former gymnast",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 175: 'the good thing about doing a PhD as you get like a stipend and so you can actually have to pay for school'.",
+          "value": "Receives a stipend for PhD",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about student debt (line 180), she replies 'So no.' (line 181) and explains she worked and saved (line 185).",
+          "value": "No student debt",
+          "lines": [
+            180,
+            181,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 185: 'I worked through college um and ... was able to save enough money to cover my school expenses'.",
+          "value": "Worked through college and saved money",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 265: 'my husband, he works for like an educational technology company'.",
+          "value": "Husband works in educational technology",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 123: 'So I start my job in August yeah, mm just a psychologist.'",
+          "value": "Starting a psychologist job in August",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 367, 369: she does Prolific for extra money, made about $100 last month.",
+          "value": "Earns extra money via Prolific (~$100/month)",
+          "lines": [
+            367,
+            369
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 303: 'I work at a hospital.' Line 315: 'I work at Duke' (ASR 'Duke Jake Duke', intended Duke).",
+          "value": "Employed at Duke Hospital",
+          "lines": [
+            303,
+            315
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b observes 'it sounds like you're married' (line 262); speaker_a confirms 'We've been married for a year and a half' (line 263).",
+          "value": "Married for 1.5 years",
+          "lines": [
+            262,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her dog Oliver: small, 15 lbs, poodle/golden retriever mix (lines 217, 219, 237). She is not totally sure of the breed (line 227).",
+          "value": "Dog named Oliver, poodle/golden retriever mix",
+          "lines": [
+            217,
+            219,
+            237,
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 27: 'I have a lot of friends though who like went to some of the school's out that way for college'.",
+          "value": "Has friends",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 367: 'I found out about it from a friend who was doing it'.",
+          "value": "Friend introduced her to Prolific",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 297, 305-306: she confirms all therapy is now via video, and discusses the experience.",
+          "value": "Provides therapy via video sessions",
+          "lines": [
+            297,
+            305,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 309, 312-313: they use a video software embedded in the electronic medical record, not Zoom, because of privacy concerns.",
+          "value": "Uses a non-Zoom video tool integrated in EMR",
+          "lines": [
+            309,
+            312,
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 75: 'my specialty areas actually eating disorders.'",
+          "value": "Specializes in eating disorders",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 77: 'this last year I've seen lots of people with chronic suicidal ideation and behaviours.'",
+          "value": "Treats patients with chronic suicidal ideation",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'the ticket therapies that I do primarily are like cognitive behavioral therapy.'",
+          "value": "Uses Cognitive Behavioral Therapy (CBT)",
+          "lines": [
+            81,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 83, 85-107: she describes Dialectical Behavior Therapy (DBT) in detail, including its structure.",
+          "value": "Uses Dialectical Behavior Therapy (DBT)",
+          "lines": [
+            83,
+            85,
+            87,
+            91,
+            93,
+            95,
+            97,
+            101,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 355, 357: she mentions humanistic principles like nonjudgmental stance, genuine relationship as a foundation.",
+          "value": "Incorporates humanistic psychology principles",
+          "lines": [
+            355,
+            357
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 343-349: she wants a private practice for adolescent athletes, especially gymnasts, and is preparing documents and website (line 351).",
+          "value": "Plans private practice for adolescent athletes",
+          "lines": [
+            343,
+            345,
+            347,
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 385, 387, 389: she likes alternative/classic rock and lists Blink 182, Sum 41, A Day to Remember, Van Halen, Led Zeppelin, Aerosmith.",
+          "value": "Enjoys alternative/classic rock (Blink 182, Sum 41, A Day to Remember, Van Halen, Zeppelin, Aerosmith)",
+          "lines": [
+            385,
+            387,
+            389
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 291: 'we just do our social distancing like we just haven't left the house to except for to go to grocery stores'.",
+          "value": "Practices strict social distancing; rarely leaves house",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 275: 'my husband is working from home and I'm working from home'.",
+          "value": "Works from home due to pandemic",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 351: 'I'm trying to actually work on some things right now to help me get like documents ready and like start my website'.",
+          "value": "Preparing documents and website for future practice",
+          "lines": [
+            351
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: speaker_b introduces himself as 'My name is Michael.'",
+          "value": "Michael",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 16: 'I'm in Asheville.' Line 40 confirms they arrived about six years ago.",
+          "value": "Asheville, North Carolina",
+          "lines": [
+            16,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 30: 'was born in new york city'.",
+          "value": "Born in New York City",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 30: 'finished high school in London in England.'",
+          "value": "Finished high school in London, England",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 30: 'Uh spent 17 years in Vermont' (he says 'I spent 17 winters in Vermont').",
+          "value": "Lived in Vermont for 17 years",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'We spent a year in texas.'",
+          "value": "Lived in Texas for a year",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'we spent four years in the pacific northwest.'",
+          "value": "Lived in the Pacific Northwest for four years",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'we spent a year in new Orleans'.",
+          "value": "Lived in New Orleans for a year",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 36: 'I was a professional musician for 20 years'.",
+          "value": "Professional musician for 20 years",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 375-376: 'I was a copywriter ... I designed ad campaigns for people.'",
+          "value": "Copywriter and ad campaign designer",
+          "lines": [
+            375,
+            376
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 280: 'I worked as a therapist for seven years.'",
+          "value": "Worked as a therapist for 7 years",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 46: 'I had a book published last year'.",
+          "value": "Published author",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 44: 'I'm kind of semi retired.'",
+          "value": "Semi-retired",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 6: 'I have a sinus thing going on so I have something blocking my right sinus'.",
+          "value": "Blocked right sinus",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 44: 'my wife is now working for Mission Mission Hospital group ... she's a medical coder'.",
+          "value": "Wife Anna works as a medical coder at Mission Hospital",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 48, 366-374: he does market research and Prolific surveys, saying it helps make his monthly nut.",
+          "value": "Participates in Prolific and market research for extra income",
+          "lines": [
+            48,
+            366,
+            372,
+            374
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'love new Orleans, which just really couldn't afford it'; line 326: 'we just decided we couldn't afford the real estate'.",
+          "value": "Could not afford real estate in New Orleans",
+          "lines": [
+            32,
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 32 mentions 'My wife, Anna and I'; lines 44 and 204 further refer to Anna.",
+          "value": "Wife named Anna",
+          "lines": [
+            32,
+            44,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 140: 'my daughter, Gemma'; line 62 says she got her PhD last year (ASR 'watched her PhD'), line 134 describes her education path.",
+          "value": "Daughter Gemma, PhD in astrophysics",
+          "lines": [
+            62,
+            134,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 30: 'my brother has been living in Nashville for a long time, you know, 18 years'; line 40: camped with brother when moving to Asheville.",
+          "value": "Brother living in Nashville",
+          "lines": [
+            30,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 188, 190, 196: introduces his cat Kevin, who demands petting.",
+          "value": "Cat named Kevin",
+          "lines": [
+            188,
+            190,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 198-210 describe a second cat, female, timid, adopted from a shelter. The name is unclear (ASR 'minnows me').",
+          "value": "Second cat, female and shy",
+          "lines": [
+            198,
+            200,
+            202,
+            204,
+            206,
+            208
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 194-196: describes his chair as from the 50s, like something from Graceland, calling it his 'Elvis chair' where he lives his life.",
+          "value": "Sits in a vintage 'Elvis chair' from the 1950s",
+          "lines": [
+            194,
+            195,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 48: 'we watch movies and spend time with our cats and in the backyard.'",
+          "value": "Watches movies, spends time with cats",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 50: 'making music for fun.'",
+          "value": "Makes music for fun",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 38: 'I play guitar, piano saying right' (ASR, intended 'sings, right'), you know, you're quintessential front man.'",
+          "value": "Plays guitar, piano, and sings",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 394-398, 400: recommends Traffic and Steve Winwood, describes Traffic as an early jam band, enjoys classic rock.",
+          "value": "Enjoys classic rock, jam bands (e.g., Traffic, Steve Winwood)",
+          "lines": [
+            394,
+            396,
+            398,
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

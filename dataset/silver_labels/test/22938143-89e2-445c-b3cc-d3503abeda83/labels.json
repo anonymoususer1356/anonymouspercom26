@@ -1,0 +1,138 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'I'm don yeah', which is likely 'I'm Donna' (phonetic match with ASR capture 'don') providing a name.",
+          "value": "Donna",
+          "lines": [
+            17
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Houston taxes', interpreted as Houston, Texas. They also refer to 'here is county' and speaker_b later mentions Houston alongside Dallas and El Paso, confirming the location.",
+          "value": "Houston, Texas",
+          "lines": [
+            13,
+            23,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm indian', directly stating Indian ethnicity.",
+          "value": "Indian",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_a states 'I did vote for biden in the um like um like last week', indicating they voted in the 2020 US presidential election.",
+          "value": "voted in 2020 US presidential election",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'we didn't get a stimulus check' in a context of personal frustration, likely referring to themselves not receiving one.",
+          "value": "did not receive stimulus check",
+          "lines": [
+            267
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I guess I don't wear like um leave the house' likely meaning 'I don't really leave the house', indicating a homebound lifestyle.",
+          "value": "rarely leaves home",
+          "lines": [
+            23
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces themselves as Zane.",
+          "value": "Zane",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in Austin, we're pretty close by' and later mentions 'I know texas or austin has some protocols in place', confirming Austin, Texas.",
+          "value": "Austin, Texas",
+          "lines": [
+            14,
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm south asian', directly stating South Asian ethnicity.",
+          "value": "South Asian",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually work in a hospital', indicating occupation in the healthcare sector.",
+          "value": "works in a hospital",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states that they work in a hospital, which implies employment and income.",
+          "value": "employed at a hospital",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm planning on staying inside and doing absolutely nothing', indicating a lifestyle of staying at home during the pandemic.",
+          "value": "staying inside during pandemic",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

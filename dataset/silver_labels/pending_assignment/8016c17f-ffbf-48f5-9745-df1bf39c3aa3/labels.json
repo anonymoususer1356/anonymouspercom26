@@ -1,0 +1,304 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b calls him 'Alan' in line 6, and speaker_a says 'I'm alan' in line 7 (ASR 'alan' taken as Alan).",
+          "value": "Alan",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I am from Chicago or I'm living in Chicago' (line 7) and later mentions water spouts 'in Chicago' (line 85), indicating current residence.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            7,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I grew up on the East Coast' (line 89).",
+          "value": "East Coast",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'then I lived mostly on the west Coast' (line 89).",
+          "value": "West Coast",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my brother' when discussing Star Wars (line 219).",
+          "value": "brother",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his grandmother was '54 for 10' (line 235), very likely a mis‑recognition of 'four ten' (4 ft 10 in).",
+          "value": "grandmother (approximately 4'10\")",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'when I lived with my parents' (line 201).",
+          "value": "parents",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I have a dog' (line 199).",
+          "value": "dog owner",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I moved a lot' (line 189) and refers to a milk crate surviving '35 years worth of moving' (line 201).",
+          "value": "frequent mover",
+          "lines": [
+            189,
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'I'm Kenny by the way' (line 4).",
+          "value": "Kenny",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm living in Dallas' (line 10), discusses Dallas weather (line 12), mentions being there since leaving (line 38), and confirms eight years (line 126).",
+          "value": "Dallas, Texas",
+          "lines": [
+            10,
+            12,
+            38,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is from Oklahoma (line 18; 'a coal' is a mis‑hearing of 'Oklahoma'), lived in Tulsa and suburbs (line 20), and 'grew up in tornado alley Tulsa' (line 90).",
+          "value": "Tulsa, Oklahoma",
+          "lines": [
+            18,
+            20,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he 'belled out and went to Northwest Arkansas' (line 20) and later remarks it was cool (line 44).",
+          "value": "Northwest Arkansas",
+          "lines": [
+            20,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was living out in Cleveland Oklahoma' (line 106) while telling a tornado story.",
+          "value": "Cleveland, Oklahoma",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b confirms he has one child (line 127‑128), specifies 'one okay boy. Second grader' (line 130), and mentions remote learning for him (line 131).",
+          "value": "father of a second-grade boy",
+          "lines": [
+            127,
+            128,
+            130,
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Reacting to speaker_a's comment about dentist closures (line 143), speaker_b says 'That happened here and it kind of messed me up a little while, but it ended up getting sorted out' (line 144), implying a dental problem caused by the closure.",
+          "value": "dental issue during pandemic",
+          "lines": [
+            143,
+            144
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b describes his living room and says 'my apartment, 880 square feet' (line 184).",
+          "value": "apartment: 880 sq ft",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I lost pretty much all my stuff when that happened' (line 36), referring to leaving his wife.",
+          "value": "lost most possessions during separation",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to the home he shared with his ex‑wife as a 'rent to own trailer' (line 42).",
+          "value": "previous rent-to-own trailer",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b confirms having one child, a boy in second grade (lines 127, 128, 130, 131).",
+          "value": "son (second-grade boy)",
+          "lines": [
+            127,
+            128,
+            130,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses his marriage and leaving his wife, calling her 'my wife' (lines 20, 24, 30, 40, 42).",
+          "value": "ex-wife",
+          "lines": [
+            20,
+            24,
+            30,
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b tells of meeting a girl online, going to a festival with her, moving in, her pregnancy (lines 26, 28, 34, 36). He now lives with her and their son, using 'we' about schooling (line 131).",
+          "value": "partner (mother of his child)",
+          "lines": [
+            26,
+            28,
+            34,
+            36,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his mother moving into his trailer (line 40), being kicked out (line 42), and being with him during a tornado (line 106).",
+          "value": "mother",
+          "lines": [
+            40,
+            42,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions 'The Gathering of the juggalos' (line 54), says 'I've been to three of them' (line 56), and describes attending multiple gatherings (lines 60, 62).",
+          "value": "attends Gathering of the Juggalos music festival",
+          "lines": [
+            54,
+            56,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b points out 'those are video games' (line 180), has read 90 % of his books (line 186), and has a shelf of Stephen King books (line 190).",
+          "value": "owns collection of video games and books",
+          "lines": [
+            180,
+            186,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'played a little Pokemon go' on walks (line 202).",
+          "value": "plays Pokémon Go",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'we have a couple of cats and a ferret' (line 198).",
+          "value": "owns cats and a ferret",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'that whole shelf right here, Stephen King' (line 190), indicating a dedicated collection.",
+          "value": "collects Stephen King books",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b refers to his beard when talking about a mask: 'on my beard' (line 146) and 'it was on my beard, not my face' (line 148).",
+          "value": "has a beard",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

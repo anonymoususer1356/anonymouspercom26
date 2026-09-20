@@ -1,0 +1,417 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'my name is gave' (ASR for 'Gabe').",
+          "value": "Gabe",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Stated outright: 'I live in Silver Spring Maryland'.",
+          "value": "Silver Spring, Maryland",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I live near Sligo Creek Parkway'.",
+          "value": "near Sligo Creek Parkway, Silver Spring",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'the rest of my family is in florida. That's where I'm from' and mentions high school in Hollywood, Florida.",
+          "value": "originally from Hollywood, Florida",
+          "lines": [
+            173,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Refers to 'my wife', indicating male gender.",
+          "value": "male",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm actually Cuban'.",
+          "value": "Cuban",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Applied for Spanish immersion, says 'my family speaks spanish', and is Cuban, implying Spanish proficiency.",
+          "value": "Spanish speaker",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm married'.",
+          "value": "married",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'have three kids' and later describes each child.",
+          "value": "father of three children",
+          "lines": [
+            9,
+            19,
+            21,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I have not been laid off or anything, so I'm still getting paid and still working'.",
+          "value": "employed, not laid off, receiving income",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' when discussing Disney World.",
+          "value": "wife",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes son (graduated high school, starts St John's College), daughter (junior at NYU), youngest daughter (Richard Montgomery HS).",
+          "value": "three children: son (St John's College freshman), daughter (NYU junior), youngest daughter (Richard Montgomery HS student)",
+          "lines": [
+            19,
+            21,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my sister in law lives down the street from us'.",
+          "value": "sister-in-law living nearby",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions in-laws being '81 and 76'.",
+          "value": "in-laws (ages 81 and 76)",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says parents live in Miami, Florida.",
+          "value": "parents in Miami, Florida",
+          "lines": [
+            173,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my brothers and their kids' live in Florida.",
+          "value": "brothers in Florida",
+          "lines": [
+            173
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I do a lot of crosswords' and 'we've been into cooking'.",
+          "value": "enjoys cooking and crossword puzzles",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists several TV shows: Jane the Virgin, Parks and Rec, The Office, The Good Place, Orphan Black, cooking competition shows.",
+          "value": "watches TV shows (Jane the Virgin, Parks and Recreation, The Office, The Good Place, Orphan Black, Great British Bake Off, Top Chef, Taste the Nation)",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes strict quarantine, not entering grocery stores, using delivery from Costco, Safeway, Whole Foods.",
+          "value": "avoids grocery stores in person, uses grocery delivery",
+          "lines": [
+            117,
+            119,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I write down the numbers every day, how many new cases we have... for our zip code'.",
+          "value": "tracks daily COVID-19 case counts",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions visiting a peach farm ('La Roland' in Howard County) and strawberry picking.",
+          "value": "visits fruit farms (peach and strawberry picking)",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Discusses trips to Disney World and Universal Studios with family.",
+          "value": "has visited Disney World and Universal Studios (Florida)",
+          "lines": [
+            195,
+            197,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Praises Trader Joe's ice cream, comparing it favorably to Häagen-Dazs.",
+          "value": "enjoys Trader Joe's ice cream",
+          "lines": [
+            151,
+            153,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'I'm mila' (ASR likely 'Mila').",
+          "value": "Mila",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Responds 'Oh, I live near there too' when speaker_a mentions Sligo Creek Parkway; also confirms high school in Montgomery County.",
+          "value": "lives near Silver Spring, Maryland (Montgomery County)",
+          "lines": [
+            10,
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I used to live close to Miami before I moved to Maryland' and 'I lived in boca Raton'.",
+          "value": "previously lived in Boca Raton, Florida",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Pharmacy school is 'unfair facts' (ASR for 'in Fairfax, Virginia').",
+          "value": "attends school in Fairfax, Virginia",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I went to Albert Einstein High School'.",
+          "value": "attended Albert Einstein High School, Montgomery County",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name 'Mila' is typically female; no contradictory evidence.",
+          "value": "female",
+          "lines": [
+            26
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'I'm in pharmacy school' and 'completed the first year' of a four‑year program.",
+          "value": "pharmacy student (completed first year)",
+          "lines": [
+            16,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions grandfather lives in India, indicating South Asian/Indian family background.",
+          "value": "of Indian descent (family from India)",
+          "lines": [
+            160
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I'm living with them' (parents) and 'my parents didn't even let me leave my house'.",
+          "value": "lives with parents",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'my work kept calling me to come in' but she did not go; unclear if still employed.",
+          "value": "had a job during pandemic, not actively working due to parents' restrictions",
+          "lines": [
+            62
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says she is trying to find work opportunities through school for a pharmacy intern position.",
+          "value": "seeking pharmacy intern position",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'I have a younger brother, he's like a year younger than me'.",
+          "value": "younger brother",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions parents multiple times; lives with them.",
+          "value": "parents (lives with them)",
+          "lines": [
+            62,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I only have like one grandfather who's still living, he lives right now in India'.",
+          "value": "grandfather in India",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I just started watching … second season of Umbrella Academy got released on netflix today'.",
+          "value": "watches Umbrella Academy on Netflix",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Replies 'I go like every week' to Trader Joe's, and 'I always go for the ice cream'.",
+          "value": "shops at Trader Joe's weekly, likes their ice cream",
+          "lines": [
+            134,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she passes time 'just going on walks inside a creek park' (likely Sligo Creek Park).",
+          "value": "takes walks in Sligo Creek Park",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about recently going to a peach farm in Poolesville, Maryland.",
+          "value": "visits peach farm in Poolesville, Maryland",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she went to Disney World with friends in March 2020, right before lockdown intensified.",
+          "value": "visited Disney World in March 2020",
+          "lines": [
+            192,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes being kept home for two months, now allowed to go out a little with family.",
+          "value": "experienced strict lockdown, later somewhat relaxed",
+          "lines": [
+            62,
+            130,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a mentions cooking, she says 'I recently become more involved in that'.",
+          "value": "enjoys cooking",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

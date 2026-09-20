@@ -1,0 +1,392 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself with 'I'm jesse'.",
+          "value": "Jesse",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm out here in Arizona' when asked where he is from.",
+          "value": "Arizona",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm definitely like I'm 32'.",
+          "value": "32 years old",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to having a girlfriend (line 69), and uses a male-associated name; no contradictory signals.",
+          "value": "male",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I graduated college and then just kind of went straight to work'.",
+          "value": "college graduate",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a works at Arizona State University (ASU) in the technology office (UTO) as a tier 1 call center / IT support agent. He has been in that role about six years, telecommutes full-time, and declined supervisor offers.",
+          "value": "Tier 1 call center / IT support at Arizona State University Technology Office (UTO)",
+          "lines": [
+            31,
+            39,
+            41,
+            85,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He previously worked at AT&T via a contractor, training new agents for U-verse cable/internet/phone support.",
+          "value": "Trainer for new agents at AT&T contractor company",
+          "lines": [
+            55,
+            57,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes working at an Amazon warehouse during the holiday peak, with mandatory overtime, and walking out mid-shift.",
+          "value": "Warehouse worker at Amazon (quit abruptly)",
+          "lines": [
+            87,
+            89,
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he worked at a bagel sandwich shop and was fired for eating a sandwich.",
+          "value": "Worked at a bagel sandwich shop (fired for eating on the job)",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions having a small business selling board games for a period.",
+          "value": "Ran a small board game selling business",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He did freelance writing and reporting for the video game and board game industries.",
+          "value": "Freelance writer/reporter for video game & board game industry",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He has been with his girlfriend for nine years and considers her a life partner.",
+          "value": "Has a girlfriend of 9 years (committed long-term relationship)",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His girlfriend worked at QT (QuikTrip) and was miserable; he supported her leaving.",
+          "value": "Girlfriend previously employed at QT (QuikTrip)",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He visited Japan because a friend in the Navy was stationed there and provided lodging.",
+          "value": "Has a friend in the Navy who lived in Japan",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays in a long-running Dungeons & Dragons campaign with friends and a dedicated DM.",
+          "value": "Member of a Dungeons & Dragons group with friends",
+          "lines": [
+            171,
+            173,
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He enjoys video games, board games, D&D, and anime. He plays on PlayStation and Xbox.",
+          "value": "Enjoys video games, board games, D&D, and anime",
+          "lines": [
+            119,
+            121,
+            159,
+            161,
+            175,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was already telecommuting 100% before quarantine.",
+          "value": "Telecommutes (works from home) full-time",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He took a trip to Maui, Hawaii as a plus-one through his girlfriend's QT raffle, and later travelled to Japan to see cherry blossoms.",
+          "value": "Has travelled to Maui (Hawaii) and Japan",
+          "lines": [
+            75,
+            77,
+            81,
+            85,
+            127,
+            129,
+            131,
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He has a full sleeve tattoo on his arm with a Hunter's Mark symbol from Bloodborne, a sushi sleeve, and a swirl pattern. He plans to add his D&D character. The tattoo also commemorates his trips to Hawaii and Japan.",
+          "value": "Full sleeve tattoo with Hunter's Mark (Bloodborne), sushi sleeve, swirl pattern; plans more tattoos",
+          "lines": [
+            119,
+            121,
+            123,
+            125,
+            127,
+            129,
+            135,
+            137,
+            175
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself with 'I'm Brandon by the way'.",
+          "value": "Brandon",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states 'I live in Denver right now'.",
+          "value": "Denver, Colorado",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he and his wife moved from Chandler, Arizona to Denver in November.",
+          "value": "Chandler, Arizona (previous residence)",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lived in Goodyear, Arizona during high school after moving from the east coast.",
+          "value": "Goodyear, Arizona (high school years)",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'we're both from the east coast' (he and his wife) after moving to Arizona at age 12.",
+          "value": "Originally from the east coast of the United States",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He refers to his wife multiple times and has a masculine name; no indication otherwise.",
+          "value": "male",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He now works as a product owner, consulting for Salesforce, hired by a company in Denver but working for another company through consulting.",
+          "value": "Product Owner, Salesforce consulting (current job)",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He previously worked for a Salesforce consultant company in a project manager role, which he hated due to 60-hour weeks, weekend work, and disorganization.",
+          "value": "Worked at Salesforce consultant company (project manager role)",
+          "lines": [
+            38,
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions going from 'really really small like start up companies' in Arizona to a larger enterprise.",
+          "value": "Previously worked at small startup companies in Arizona",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He received a job offer from Arizona State University as a project manager in the tech side but chose the Denver job instead.",
+          "value": "Received job offer at ASU for project manager role",
+          "lines": [
+            28,
+            32,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my wife' when discussing the move; later confirms they are married.",
+          "value": "Married to wife",
+          "lines": [
+            10,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his wife lived in Mesa, Arizona before they met.",
+          "value": "Wife originally from Mesa, Arizona",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He and his wife met about eight years ago through mutual friends while working the same job.",
+          "value": "Met wife 8 years ago through mutual friends at same workplace",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions a best friend who lives in Arizona.",
+          "value": "Has a best friend in Arizona",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays Modern Warfare with buddies and runs a D&D game with a friend he met in Denver.",
+          "value": "Plays Modern Warfare and Dungeons & Dragons with friends",
+          "lines": [
+            154,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes himself as a 'big outdoors guy' who loves hiking, shooting, camping, fishing, and is going hunting this weekend.",
+          "value": "Enjoys hiking, shooting, camping, fishing, and hunting",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays Modern Warfare as his main game, cross-platform, and also plays tabletop RPGs.",
+          "value": "Plays video games (Modern Warfare) and D&D",
+          "lines": [
+            154,
+            156,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is not a huge fan of travelling, but Japan is on his list of places to visit.",
+          "value": "Not a big traveler, but interested in visiting Japan",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He has a half sleeve tattoo that he got at 18 from a cheap scratch artist and is now having it redone by the original artist.",
+          "value": "Has a half sleeve tattoo (currently being redone)",
+          "lines": [
+            112,
+            114,
+            116
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

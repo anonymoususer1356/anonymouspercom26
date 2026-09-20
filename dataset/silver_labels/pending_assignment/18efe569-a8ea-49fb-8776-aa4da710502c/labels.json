@@ -1,0 +1,386 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When asked her name, she replies 'Bess'. The earlier 'Lauren' in line 4 is ASR error or mishearing.",
+          "value": "Bess",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is from Georgia, references her home county in Georgia, and mentions being in the same house since 2016, consistent with residing in Georgia.",
+          "value": "lives in Georgia",
+          "lines": [
+            15,
+            187,
+            427
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she is on vacation in Florida and names Port St. Joe.",
+          "value": "Port St. Joe, Florida",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She directly states her age.",
+          "value": "32 years old",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to herself as a mother of daughters and uses a typically female name.",
+          "value": "female",
+          "lines": [
+            33,
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she has three daughters and gives their ages.",
+          "value": "mother of three daughters",
+          "lines": [
+            33,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she studied sociology and women's studies (ASR 'honored' for minor) at the University of Georgia.",
+          "value": "degree in sociology and women's studies from University of Georgia",
+          "lines": [
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she works in child welfare as director of her county office.",
+          "value": "director of county child welfare office",
+          "lines": [
+            133,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she is the director of her county office in child welfare.",
+          "value": "employed as director of county child welfare office",
+          "lines": [
+            133,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her house was built in 1959 and that they have lived there since 2016.",
+          "value": "homeowner (house built 1959, since 2016)",
+          "lines": [
+            281,
+            427
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her husband multiple times and notes their recent 10th anniversary.",
+          "value": "married, 10th anniversary",
+          "lines": [
+            103,
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has three daughters ages 7, 5, and 1.",
+          "value": "three daughters (ages 7, 5, 1)",
+          "lines": [
+            33,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her mom is a retired teacher.",
+          "value": "mother is a retired teacher",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having a sister who is 18.",
+          "value": "sister age 18",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they are on vacation with her parents.",
+          "value": "vacationing with parents",
+          "lines": [
+            337
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her husband recently started teaching technology and engineering at a middle school.",
+          "value": "husband is a middle school technology teacher",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she started using Prolific about a month ago.",
+          "value": "uses Prolific survey platform",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her interest in mid-century vintage, kitschy items, estate sales, and pinup art.",
+          "value": "enjoys mid-century vintage, kitschy items, and pinup art",
+          "lines": [
+            281,
+            283,
+            285,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hosted a learning pod at her house for 14 kids from her children's school.",
+          "value": "hosted a learning pod at home",
+          "lines": [
+            179,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they go to the beach fairly often.",
+          "value": "visits the beach often",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses her as 'Lauren' at the end of the conversation; she does not correct it. The earlier line 4 'Lauren' may be a mis-self-introduction or ASR error.",
+          "value": "Lauren",
+          "lines": [
+            439
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She explicitly says she lives in Lexington, Kentucky, and earlier says she is in Kentucky.",
+          "value": "Lexington, Kentucky",
+          "lines": [
+            14,
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states her age directly.",
+          "value": "33 years old",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to herself as a mother and uses a typically female name.",
+          "value": "female",
+          "lines": [
+            152,
+            412
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she has two kids and gives their ages.",
+          "value": "mother of two children (son ~4, daughter ~1)",
+          "lines": [
+            152,
+            412
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her occupation and employer directly.",
+          "value": "accountant at University of Kentucky",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she is an accountant at the University of Kentucky.",
+          "value": "employed as accountant",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes going under contract for a house and moving in at the end of June.",
+          "value": "homeowner (moved into new house recently)",
+          "lines": [
+            226,
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her husband multiple times.",
+          "value": "married",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has a son and a daughter.",
+          "value": "two children (son and daughter)",
+          "lines": [
+            152,
+            412
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes signing up for the HANDS program and having a family mentor.",
+          "value": "enrolled in HANDS parenting program with a family mentor",
+          "lines": [
+            144,
+            152,
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her husband works in government IT management and always worked remotely.",
+          "value": "husband is a remote government IT manager",
+          "lines": [
+            216,
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She confirms she also uses Prolific.",
+          "value": "uses Prolific survey platform",
+          "lines": [
+            80,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes being super into art, specifically Andrew Wyeth and mid-century American realism; visited the Farnsworth Museum.",
+          "value": "art enthusiast (Andrew Wyeth, mid-century realism)",
+          "lines": [
+            258,
+            260,
+            264,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about collecting Danish teak mid-century furniture and hunting for pieces on Instagram.",
+          "value": "collects mid-century furniture",
+          "lines": [
+            290,
+            292,
+            294,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The ASR output 'I begged a lot' is phonetically close to 'I bake a lot', which fits the context of a hobby.",
+          "value": "enjoys baking",
+          "lines": [
+            252
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she went on vacation to Maine two years ago and mentions visiting a museum there.",
+          "value": "vacationed in Maine",
+          "lines": [
+            40,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to Costco for snacks.",
+          "value": "shops at Costco",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She jokes about a gray hair sprouting when she turned 33, implying she has some gray hair.",
+          "value": "has some gray hair",
+          "lines": [
+            88
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

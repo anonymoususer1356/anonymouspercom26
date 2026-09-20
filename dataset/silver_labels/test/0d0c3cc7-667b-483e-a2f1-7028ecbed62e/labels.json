@@ -1,0 +1,282 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly states 'my name is Grace.'",
+          "value": "Grace",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm going to Illinois State University' and earlier mentions living on campus, confirming enrollment.",
+          "value": "student at Illinois State University",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I'm from Chicago suburbs' and earlier described moving back home after a month on campus, indicating current residence there.",
+          "value": "Chicago suburbs",
+          "lines": [
+            23,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm 19.' explicitly.",
+          "value": "age 19",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm an education major.' directly.",
+          "value": "education major",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a college student' at the start of the conversation.",
+          "value": "college student",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains 'I don't consider myself a democrat honestly... I'm definitely a lot more progressive than the party.'",
+          "value": "progressive, does not identify as Democrat",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I'm happy I never like got onto any like the E cigarettes or anything like that.'",
+          "value": "never used e-cigarettes",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Details tuition costs: 'I picked this school because I got a significant scholarships... paying about half what normal tuition is... still paying like 10,000 of semester and I'm paying pretty much out of pocket.'",
+          "value": "pays approximately $10,000 per semester out-of-pocket, half of tuition covered by scholarship",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'my parents actually got covid... second week of March... they got tested... It was Covid... They're completely fine.'",
+          "value": "parents contracted COVID-19 in March 2020, both recovered",
+          "lines": [
+            27,
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have cousins who go to school in Chicago.'",
+          "value": "has cousins who attend school in Chicago",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes 'I'm part of a program called college mentors for kids. So I have like a an elementary school buddy that I meet up with over zoom every week.'",
+          "value": "mentor to an elementary school student",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Mentions being part of College Mentors for Kids and meeting an elementary school buddy weekly via Zoom.",
+          "value": "participant in College Mentors for Kids program, weekly Zoom meetings",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I voted for him in the primaries,' referring to Bernie Sanders.",
+          "value": "voted for Bernie Sanders in the 2020 Democratic primary",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I voted for biden so I'm ready for him to be out of office.'",
+          "value": "voted for Joe Biden in the 2020 presidential election",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself with 'so I'm Rachel, Nice to meet you too.'",
+          "value": "Rachel",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm from the south, I'm from Alabama.' directly.",
+          "value": "from Alabama",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'but I'm moving in D.C. right now.' Likely meaning moving to Washington, D.C.",
+          "value": "moving to Washington, D.C.",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly says 'I am 34.'",
+          "value": "age 34",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'the college that I went to' when discussing rising costs, implying she attended college.",
+          "value": "attended college",
+          "lines": [
+            106
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "First mentions 'I smoked?' then clarifies 'I recently quit smoking.'",
+          "value": "quit smoking recently (former smoker)",
+          "lines": [
+            56,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I quit drinking during the pandemic too.' directly.",
+          "value": "quit drinking during the pandemic",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I'm working from home.' without qualification.",
+          "value": "employed, working from home",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'my partner is out of the country and he is stuck in India. So I haven't been able to see him since March.'",
+          "value": "partner is in India, separated since March 2020",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'we lived together for 10 years' in reference to the same partner.",
+          "value": "lived with partner for 10 years",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Mentions 'hanging out with my cats' and later confirms 'I have two cats.'",
+          "value": "owns two cats",
+          "lines": [
+            8,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm studying computer science but kind of on my own.'",
+          "value": "self-studying computer science",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I just voted because he was not trump' and later 'I would have voted for... anything but donald trump,' indicating participation in the presidential election, likely for Biden.",
+          "value": "voted in 2020 presidential election, motivated by opposition to Trump, presumably for Biden",
+          "lines": [
+            134,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I've been trying to look into maybe joining like the Democratic Socialist or some other third party.'",
+          "value": "exploring joining Democratic Socialists or another third party",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

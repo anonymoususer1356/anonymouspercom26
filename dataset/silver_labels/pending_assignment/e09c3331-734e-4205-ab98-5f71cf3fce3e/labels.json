@@ -1,0 +1,307 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He says he lives in Western New York and is about an hour and a half from Buffalo.",
+          "value": "Western New York, ~1.5 hours from Buffalo",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He refers to himself as 'an android guy' (line 131) and is addressed as 'man' (line 257), indicating male gender.",
+          "value": "male",
+          "lines": [
+            131,
+            257
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He agrees with speaker_b that Obama was one of the better presidents.",
+          "value": "pro-Obama political opinion",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He acknowledges that as a new parent, sleep is in low quantity.",
+          "value": "sleep-deprived due to new parenting",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states his job title and industry, and describes working from home or on the road covering an extended region.",
+          "value": "project manager in construction wholesale supply, works remotely and travels regionally",
+          "lines": [
+            23,
+            25,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he bought two Schwinn exercise machines: an elliptical and a recumbent bike.",
+          "value": "owns a Schwinn elliptical and a Schwinn recumbent bike",
+          "lines": [
+            95,
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions having a kid and a toddler; the other speaker wishes him luck with the toddler and he confirms he is a new parent.",
+          "value": "has a toddler (new parent)",
+          "lines": [
+            107,
+            258,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He explicitly says he does not like Apple and is an Android guy.",
+          "value": "prefers Android over Apple",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he upgraded his Kindle to a Fire 8 and uses it because it is inexpensive.",
+          "value": "uses Amazon Kindle Fire tablet",
+          "lines": [
+            127,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he rooted his tablet, he says he hasn't rooted the current one but has thought about it.",
+          "value": "considers rooting his Android tablet",
+          "lines": [
+            139,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he owned an Xbox 360 and then a PS4.",
+          "value": "used to play video games (Xbox 360, PS4)",
+          "lines": [
+            191,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes working from home after COVID, moving from kitchen table to couch to bed, and says virtual meetings suit his role.",
+          "value": "works from home",
+          "lines": [
+            25,
+            29,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he moved into his current house a year ago.",
+          "value": "moved into current house about a year ago",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He admits his workout routine has fallen by the wayside partly because of having a toddler.",
+          "value": "workout routine has lapsed",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself with 'My name is boss.' (ASR output; possibly a misrecognition of a name like Ross, but recorded verbatim as instructed).",
+          "value": "boss",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I live in michigan, east Lansing michigan' and later confirms being under Michigan lockdown.",
+          "value": "East Lansing, Michigan",
+          "lines": [
+            16,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He expresses hope that Trump does not attend a work event, and describes Obama as a very cool guy.",
+          "value": "anti-Trump, pro-Obama political leaning",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He states that exercising was 'the one thing which was keeping me sane' during the pandemic.",
+          "value": "relies on exercise for mental well-being",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he works as a chemical engineer in a nuclear facility, later specifying he is the designer who tells construction workers what to build.",
+          "value": "chemical engineer and designer at a nuclear scientific facility",
+          "lines": [
+            16,
+            240,
+            241,
+            242,
+            243,
+            244,
+            245,
+            246
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions his girlfriend when discussing her preference for Apple products.",
+          "value": "has a girlfriend",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he works out practically every day, used to go to a gym across the street, and improvised home workouts with a bag and household items during lockdown.",
+          "value": "regularly exercises, using gym and home workouts",
+          "lines": [
+            84,
+            88,
+            89,
+            90,
+            92,
+            93,
+            94,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He agrees with the Android philosophy (line 132: 'Yes, I'm gonna do it together guys'), criticises Apple's lack of SD card slot and headphone jack, and states he likes customization.",
+          "value": "prefers Android over Apple",
+          "lines": [
+            132,
+            148,
+            149,
+            150,
+            151,
+            152,
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I do have an or tablet' (ASR error for 'Android tablet') and has considered rooting it many times.",
+          "value": "owns an Android tablet and considered rooting it",
+          "lines": [
+            142,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he loves learning about the latest phone and laptop models, even though he doesn't buy many gadgets.",
+          "value": "enjoys learning about new technology",
+          "lines": [
+            180,
+            181,
+            182,
+            183,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he used to love playing games a very long time ago.",
+          "value": "used to play video games",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explicitly says 'I don't have any pets'.",
+          "value": "does not have pets",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he got comfortable wearing shorts daily during the pandemic and the habit lasted six months before returning to the office.",
+          "value": "wore shorts daily while working from home during pandemic",
+          "lines": [
+            58,
+            59,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been back to on-site work for the last two months after a work-from-home order.",
+          "value": "returned to on-site work two months ago",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'my name is cha' in a heavily garbled line; the intended name may be 'Cha' or something similar, but no other identifier appears.",
+          "value": "Cha",
+          "lines": [
+            3
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In response to a question about where in Florida he lives, speaker_a says 'South florid Orlando' and clarifies 'I'm close just uh one hour drought to Orlando,' meaning he lives about an hour's drive from Orlando, Florida.",
+          "value": "Florida, about one hour drive from Orlando",
+          "lines": [
+            26,
+            27,
+            29
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states he earned a PhD and, when asked, confirms it was in chemistry.",
+          "value": "PhD in chemistry",
+          "lines": [
+            37,
+            41,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he does research in chemistry, works in a lab, and is involved in organic chemistry and drug discovery at an institute.",
+          "value": "Researcher in a chemistry lab/institute (drug discovery)",
+          "lines": [
+            59,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my wife and my daughter,' establishing he is married.",
+          "value": "Married (has a wife)",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My daughter is middle school, seventh grade.'",
+          "value": "Has a daughter in 7th grade",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a notes his daughter 'liked drawing' and 'can spend the whole day drawing a picture.'",
+          "value": "Daughter enjoys drawing",
+          "lines": [
+            219,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he likes driving a lot, mentions '87 highway' (likely I-87), and recalls driving to New York City and New Jersey.",
+          "value": "Enjoys driving, often drove on highway 87 (I-87)",
+          "lines": [
+            103,
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a details that his family takes many COVID-19 precautions: social distance, hand washing, washing clothes immediately after coming home, and wearing masks.",
+          "value": "Takes extensive COVID-19 precautions (washing clothes, wearing masks, social distancing)",
+          "lines": [
+            143,
+            144,
+            145,
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself with 'my name is Sophia' (ASR: 'Sophia, Don't').",
+          "value": "Sophia",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is 'in new york' for school, on campus, and notes she is too far north to go to NYC every weekend; context places her in upstate New York, likely near Albany.",
+          "value": "New York (upstate, for college)",
+          "lines": [
+            26,
+            96,
+            112,
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm originally from New Jersey.'",
+          "value": "Originally from New Jersey",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b identifies as a college student, a junior, and a cognitive science major.",
+          "value": "College junior, cognitive science major",
+          "lines": [
+            22,
+            44,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she 'had my normal part time job over the summer,' indicating regular summer employment.",
+          "value": "Had a part-time job over the summer",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says two of her closest friends are her roommates and she lives with them.",
+          "value": "Has two roommates (close friends)",
+          "lines": [
+            90,
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my sister works from home so she just doesn't ever leave.'",
+          "value": "Has a sister who works from home",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes working with her mother on college applications and refers to 'either of my parents,' confirming she has a mother and father.",
+          "value": "Has mother and father",
+          "lines": [
+            188,
+            200,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has 'some family who live in more um western florida near like the Naples area.'",
+          "value": "Has extended family in western Florida near Naples",
+          "lines": [
+            30
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b notes 'one of my good friends is a like a graphic artist.'",
+          "value": "Has a friend who is a graphic artist",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b lives in a school-owned apartment off campus with a full kitchen, and she and her roommates cook nearly all their meals.",
+          "value": "Lives in school-owned apartment, cooks own meals with roommates",
+          "lines": [
+            134,
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she immediately showers and washes all clothes after returning home.",
+          "value": "Takes COVID-19 precautions: showers and washes clothes after leaving house",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

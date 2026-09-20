@@ -1,0 +1,319 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I live in warren michigan'.",
+          "value": "Warren, Michigan",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I've been married for 25 years to a wonderful lady'.",
+          "value": "married for 25 years",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a daughter, like an adopted daughter, she's going to med school'.",
+          "value": "has an adopted daughter",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I have asthma too'.",
+          "value": "has asthma",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he thinks he got COVID-19 in November before it was widely recognized, indicating a belief he had it.",
+          "value": "believes he had COVID-19 in November 2019",
+          "lines": [
+            51
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I work from home, uh I work for a sales company'.",
+          "value": "works from home for a sales company",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've kind of been self employed most of my life.'",
+          "value": "self-employed for most of his career",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does 'this kind of stuff quite a bit' and works 'on this side' indicating additional side work on a computer, likely surveys or user testing.",
+          "value": "does side work on a computer (likely user testing or surveys)",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says he has been married for 25 years and later adds that his wife is almost 20 years older than him.",
+          "value": "married to a woman about 20 years older",
+          "lines": [
+            35,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has an adopted daughter who plans to attend medical school.",
+          "value": "adopted daughter planning to attend medical school",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he and his wife watch movies every day.",
+          "value": "watches movies daily with wife",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes himself as a 'serious movie fanatic'.",
+          "value": "movie fanatic",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he prefers movies with 'a lot of killing and violence'.",
+          "value": "prefers violent movies",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions playing guitar and being into 80s music.",
+          "value": "plays guitar",
+          "lines": [
+            279
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he lives a social distancing lifestyle because he works from home on a computer.",
+          "value": "practices social distancing lifestyle",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms he subscribes to Netflix, Amazon Prime, Disney+, and Showtime.",
+          "value": "subscribes to Netflix, Amazon Prime, Disney+, Showtime",
+          "lines": [
+            183,
+            207,
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states she lives in Georgia and graduated from Kennesaw State University, which is about 30 minutes from Atlanta.",
+          "value": "Georgia, near Atlanta",
+          "lines": [
+            28,
+            56,
+            58,
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked if she is 22, speaker_b corrects speaker_a and confirms she is 23.",
+          "value": "23 years old",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she graduated in May with a Master's in accounting from Kennesaw State University.",
+          "value": "holds a Master's in accounting from Kennesaw State University",
+          "lines": [
+            32,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her employment as an accounting assistant at a technology company, initially part-time then full-time.",
+          "value": "accounting assistant at a technology company",
+          "lines": [
+            40,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lives with her parents and 80-year-old grandmother, all in one house.",
+          "value": "lives with parents and grandmother",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she works full-time as an accounting assistant at a technology company, having transitioned from part-time.",
+          "value": "full-time accounting assistant at a technology company",
+          "lines": [
+            40,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she received a raise at her company.",
+          "value": "received a raise at her company",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she lives with her parents and her grandmother, all in the same house.",
+          "value": "lives with parents and grandmother",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says she is not dating anybody.",
+          "value": "single, not dating",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she makes family movie night mandatory every night, watching movies with her parents on Netflix or HBO.",
+          "value": "has family movie night every night",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves action comedy movies.",
+          "value": "enjoys action comedy movies",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions listening to 80s music, naming artists like Cyndi Lauper and Bon Jovi, and having an 80s CD in her car.",
+          "value": "listens to 80s music",
+          "lines": [
+            276,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she shops at Publix and went to Michael's for crafting.",
+          "value": "shops at Publix and Michael's",
+          "lines": [
+            132,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she went to Michael's for crafting (ASR 'almost crafting' interpreted as intent to craft).",
+          "value": "enjoys crafting",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes working from home part of the time and going into the office occasionally.",
+          "value": "works partly from home and partly in office",
+          "lines": [
+            42,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions watching movies on Netflix and recommends a movie available on Amazon Prime, implying she uses both services, though only Netflix is explicitly stated.",
+          "value": "subscribes to Netflix and Amazon Prime",
+          "lines": [
+            178,
+            206
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she has a Jonas Brothers CD in her car.",
+          "value": "listens to Jonas Brothers",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

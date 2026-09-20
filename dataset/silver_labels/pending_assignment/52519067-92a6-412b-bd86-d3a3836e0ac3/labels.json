@@ -1,0 +1,213 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I live in massachusetts' indicating their state of residence.",
+          "value": "Massachusetts",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to 'my daughter' who is in high school (line 45) and 'my son' (line 121), indicating they are a parent of at least two school-age children.",
+          "value": "parent of a daughter in high school and a son",
+          "lines": [
+            45,
+            53,
+            55,
+            107,
+            121,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a states 'My sister is actually a teacher in Georgia' and describes her work, establishing they have a sister.",
+          "value": "has a sister",
+          "lines": [
+            79,
+            81,
+            83,
+            85,
+            89,
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my daughter' multiple times, e.g., 'my daughters in high school' and 'my daughter right now is supposed to be in her chemistry class', indicating they have a daughter.",
+          "value": "has a daughter",
+          "lines": [
+            45,
+            53,
+            55,
+            107,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my son just told me the other day' indicating they have a son.",
+          "value": "has a son",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about 'my dog' repeatedly, gives her name as Penny, and describes her breed and backstory, showing they own a dog.",
+          "value": "owns a dog named Penny",
+          "lines": [
+            37,
+            179,
+            181,
+            183,
+            185,
+            187,
+            189,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I started watching this new show called Tehran' and discusses the plot, indicating they watch television series.",
+          "value": "watches the TV show 'Tehran'",
+          "lines": [
+            169,
+            171,
+            173,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm still trying to be pretty careful' in context of pandemic and earlier mentions being 'paranoid' about COVID, indicating they take precautions.",
+          "value": "takes COVID-19 precautions",
+          "lines": [
+            41,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a notes being outside on a call, looking at their dog, and watching to ensure the dog doesn't eat rocks, showing they spend time outdoors with their pet.",
+          "value": "spends time outdoors with dog",
+          "lines": [
+            25,
+            37,
+            179
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b confirms they are in Georgia when speaker_a guesses, and later refers to 'out here' regarding where The Walking Dead is filmed, establishing current residence in Georgia.",
+          "value": "Georgia",
+          "lines": [
+            78,
+            168,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm originally from California' while describing their move, establishing prior state of residence.",
+          "value": "originally from California",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'right now I only have a cat', describes the cat's background and shows a picture, indicating pet ownership.",
+          "value": "owns a cat",
+          "lines": [
+            258,
+            260,
+            262,
+            264,
+            266,
+            270,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b uses 'we' when discussing moving ('we drove the u haul'), rescuing a dog ('we took him all the way to Georgia'), and getting the cat ('once we got her'), suggesting they live with a partner or family.",
+          "value": "cohabits with a partner or family",
+          "lines": [
+            200,
+            202,
+            206,
+            262
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I read and watch movies and stuff' when asked about fun, indicating reading is a hobby.",
+          "value": "reads books",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'lately I've been watching a lot of Law and Order' and 'I've been watching that family feud and the Walking Dead', naming three specific shows.",
+          "value": "watches Law and Order, Family Feud, and The Walking Dead",
+          "lines": [
+            154,
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b includes 'watch movies' as part of their fun activities, indicating they watch films.",
+          "value": "watches movies",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm still taking it seriously' regarding COVID-19 and 'I'd rather wait it out', indicating they are cautious.",
+          "value": "takes COVID-19 precautions",
+          "lines": [
+            60,
+            62
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

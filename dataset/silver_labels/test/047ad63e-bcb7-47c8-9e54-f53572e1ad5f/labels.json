@@ -1,0 +1,475 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b asks whether she is in the States; speaker_a responds affirmatively ('I am good' likely misheard for 'I am'). She later mentions American Airlines and works in an office with a cubicle, all consistent with being in the US.",
+          "value": "United States",
+          "lines": [
+            8,
+            9,
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm an attorney who I do contracts for an oil and gas company' directly.",
+          "value": "attorney",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my son', indicating she is a parent.",
+          "value": "parent",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she is only on day two, got sick from friends, and had to take off work, and mentions having a blanket for chills; the context and speaker_b's flu make clear she has the flu.",
+          "value": "has the flu (day 2)",
+          "lines": [
+            3,
+            7,
+            19,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'Sinus infections from october to april' and that she has lived with these sinuses all her life.",
+          "value": "chronic sinus infections (October to April)",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She directly declares 'I am a severe insomniac' and acknowledges terrible sleep hygiene.",
+          "value": "severe insomnia",
+          "lines": [
+            231,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had the shot' (flu shot) and that this is the first year in years she got it.",
+          "value": "received flu shot this year",
+          "lines": [
+            169,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_b shares his history of concussions, speaker_a responds 'I got that by myself', strongly implying she also has a history of concussions; speaker_b's 'Yeah. Yeah.' confirms it.",
+          "value": "history of concussions",
+          "lines": [
+            90,
+            91,
+            92
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she is an attorney doing contracts for an oil and gas company, indicating employment and professional role.",
+          "value": "employed as attorney (contracts for oil and gas company)",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions driving 'the truck' in town, indicating she owns or has consistent access to a truck.",
+          "value": "owns a truck",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was looking at her bank account to decide whether to stay home, demonstrating she has a bank account.",
+          "value": "has a bank account",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my son' while talking about her little brother.",
+          "value": "has a son",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've got a little brother' directly.",
+          "value": "has a younger brother",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister has an accounting degree and now works in software development.",
+          "value": "has a sister (accounting degree, software development)",
+          "lines": [
+            127,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'mom, you're 65 years old', which establishes her mother's existence and age.",
+          "value": "has a mother (age 65)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She contrasts her sleep habits with her father's, who goes to bed at 9–10 and wakes at 5 a.m.",
+          "value": "has a father (early sleep schedule)",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her best friend as a nurse, in the navy, stationed in Japan, and having recently had a baby.",
+          "value": "has a best friend (nurse, navy, stationed in Japan, new baby)",
+          "lines": [
+            75,
+            199,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her boss dropped off a care package and doesn't want her coming in sick.",
+          "value": "has a boss (gave care package, allows sick leave)",
+          "lines": [
+            51,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was staying with friends who got sick and she thought she had escaped it but did not.",
+          "value": "has friends who got sick (source of flu)",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states she does not have a television because she doesn't watch TV.",
+          "value": "does not own a television",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she put YouTube on and basically zoned out all day, using it as background noise.",
+          "value": "watches YouTube videos (often as background noise)",
+          "lines": [
+            145,
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says melatonin is wonderful and that she only takes it when bone-deep exhausted.",
+          "value": "uses melatonin",
+          "lines": [
+            225,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a vacation to Japan to visit friends, staying almost two weeks and spending Christmas there.",
+          "value": "traveled to Japan for vacation",
+          "lines": [
+            15,
+            197,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says normally she can read stuff for fun when staying home sick.",
+          "value": "reads for pleasure",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a cubicle and her boss wanting her in the office before 9 a.m., indicating she works in an office environment.",
+          "value": "works in an office setting",
+          "lines": [
+            119,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a recliner and has been in it constantly for three days, not making it to bed.",
+          "value": "sleeps in a recliner",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "When speaker_b complains about his hair, speaker_a sympathizes and says her hair will be a rat's nest in an hour or two, indicating she has hair that can become tangled.",
+          "value": "has hair that can become messy/tangled",
+          "lines": [
+            207,
+            211
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "He states he lives in a pretty populated city, and he is the only person at his company not on the West Coast, placing him in the US but not on the West Coast. His question to speaker_a about being in the States, plus references to CVS, Fahrenheit temperatures, and snow, confirm the US location.",
+          "value": "lives in a populated city in the United States (not West Coast)",
+          "lines": [
+            64,
+            234,
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says it is his last semester of college, he is taking a night class to graduate, and his major is computer science and accounting.",
+          "value": "college student (senior, major in computer science and accounting)",
+          "lines": [
+            14,
+            126,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He repeats his doctor's statement that he is 'young, healthy', indicating an age group.",
+          "value": "young adult",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He explicitly says he got the flu, has been home for three days, bedridden with chills and fever.",
+          "value": "has the flu (day 3)",
+          "lines": [
+            4,
+            44,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says when he was younger he was accident-prone and got a bunch of concussions from running into things.",
+          "value": "history of multiple concussions",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explicitly agrees 'Same' when speaker_a says she is a severe insomniac, and describes sleeping badly, constant waking, and chills at night.",
+          "value": "insomnia or poor sleep",
+          "lines": [
+            232,
+            224,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he's not 100% sure but thinks this is the first year he didn't get a flu shot.",
+          "value": "possibly did not receive flu shot this year",
+          "lines": [
+            170
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he works remote, is part of a company, and is the only one not on the West Coast; he calls into meetings from home.",
+          "value": "employed remote worker at a company",
+          "lines": [
+            54,
+            142,
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions biking to class and worrying about his bike being stolen, indicating bicycle ownership.",
+          "value": "owns a bicycle",
+          "lines": [
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my roommates' who tell him not to leave his room, indicating shared housing.",
+          "value": "lives with roommates",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says his dad is a doctor, and shares that his dad took 46 flu patients; also notes his father is on call and influenced his sleep schedule.",
+          "value": "father is a practicing doctor",
+          "lines": [
+            78,
+            178,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mom was a nurse.",
+          "value": "mother was a nurse",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his roommates explicitly.",
+          "value": "has roommates",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about friends who came back after break, including one who also went to urgent care with violent illness.",
+          "value": "has friends (one friend also sick with flu)",
+          "lines": [
+            116,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he doesn't have the energy to play computer games while sick, implying he normally plays them.",
+          "value": "plays computer games",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes biking to class and riding home in the cold with horrible gloves.",
+          "value": "rides a bicycle for commuting",
+          "lines": [
+            64,
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions he was in Hong Kong last year.",
+          "value": "traveled to Hong Kong",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he watches YouTube videos, Netflix (Scooby Doo), and Facebook videos, and finds it weird he'll watch short videos but not a one-hour TV show.",
+          "value": "watches online videos (YouTube, Netflix, Facebook)",
+          "lines": [
+            150,
+            152,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has been having conversations with his Alexa on the table.",
+          "value": "uses Amazon Alexa",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions trying to get some reading done while sick.",
+          "value": "reads",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he typically feels more productive at night and that most of the planet isn't equipped for him to work at 10 p.m.",
+          "value": "night owl (feels more productive at night)",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He complains about his hair, says he tried to comb it, and describes an aggressive case of bedhead, indicating he has hair that can be combed and gets messy.",
+          "value": "has hair that gets bedhead/combed",
+          "lines": [
+            206,
+            208,
+            212
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

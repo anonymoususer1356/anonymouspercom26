@@ -1,0 +1,401 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in uh western north Carolina near Asheville' (line 15), notes Charlotte is about 100 miles away (19), says 'I live about four or five miles from the Blue Ridge Parkway' (29), refers to 'this area here in western north Carolina' (121), and confirms 'the house we own here' (131).",
+          "value": "Western North Carolina near Asheville, about 4-5 miles from the Blue Ridge Parkway",
+          "lines": [
+            15,
+            19,
+            29,
+            121,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually grew up in a very rural area in Louisiana' (47).",
+          "value": "a very rural area in Louisiana",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I've lived up near Seattle' (49) and 'I lived in Seattle for about five years' (61).",
+          "value": "Seattle, Washington (lived for about 5 years)",
+          "lines": [
+            49,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists Kansas among states he has lived in: 'I've lived in Kansas Louisiana Mississippi Arkansas...' (51).",
+          "value": "Kansas",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a includes Louisiana in the list of states he lived in as an adult (51) and mentions living in Louisiana before moving to Washington (81).",
+          "value": "Louisiana",
+          "lines": [
+            51,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists Mississippi among states he has lived in (51).",
+          "value": "Mississippi",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists Arkansas among states he has lived in (51).",
+          "value": "Arkansas",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he 'climb down in the Tampa bay area of florida' (corrected to 'down in the Tampa Bay area of Florida') (51) and later recalls 'before I moved here uh four years ago I had lived in the Tampa bear in 4 to 15 years' (corrected to 'Tampa Bay area for about 4 to 5 years') (117). The location is clearly Tampa Bay area, Florida.",
+          "value": "Tampa Bay area, Florida",
+          "lines": [
+            51,
+            53,
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'My my son is in uh math grade' (probably 'eighth grade', i.e., middle school) (279), discusses signing him up for a program (283), and refers to 'elementary or middle school students' (285). This establishes he is a parent of a school-age child.",
+          "value": "parent of a middle-school-aged son",
+          "lines": [
+            279,
+            283,
+            285
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses high school, saying he could have graduated at 16 but his dad made him stay (301-309), implying he completed high school.",
+          "value": "high school graduate",
+          "lines": [
+            301,
+            303,
+            304,
+            305,
+            307,
+            309
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'The house we own here has a fireplace' (131), indicating homeownership.",
+          "value": "owns a house in western North Carolina",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my son' (279).",
+          "value": "son",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a uses plural possessives: 'house we own' (131) and 'our particular area' (153), implying a cohabiting partner or spouse.",
+          "value": "lives with a partner or spouse",
+          "lines": [
+            131,
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'one of my cousins that I was really close with, she was married to a guy was from some little town outside of Buffalo' (111).",
+          "value": "cousin (female, married to someone from Buffalo area)",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I had a good friend that was from the Modesto area' (59, 61).",
+          "value": "friend from Modesto, California",
+          "lines": [
+            59,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'if my dad would have let me' (303) and 'I'm glad dad made me stay in school' (307).",
+          "value": "father",
+          "lines": [
+            303,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes living near the Blue Ridge Parkway, enjoying waterfalls, lakes, and hikes (22-29), says he has 'always loved outdoors' (45, 49), and recalls camping trips (255-259).",
+          "value": "enjoys outdoor activities such as hiking, camping, and nature",
+          "lines": [
+            22,
+            23,
+            24,
+            25,
+            27,
+            29,
+            45,
+            49,
+            255,
+            257,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm not a big fan of flying... most of my travels across the country have literally been driving' (63-65).",
+          "value": "prefers driving to flying for long-distance travel",
+          "lines": [
+            63,
+            64,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'every time I've driven from the south east of the west, I've always tried to pick a different route' (67) and describes driving across Texas and other states (73-85, 81).",
+          "value": "has driven across the United States multiple times, taking different routes",
+          "lines": [
+            65,
+            67,
+            73,
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a appreciates having seasons: 'you actually get seasons' (119) and contrasts it with Florida's constant heat (131-133).",
+          "value": "appreciates experiencing four seasons and nature's changes",
+          "lines": [
+            119,
+            121,
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a fireplace and using it during Christmas (131).",
+          "value": "has a fireplace and enjoys using it during Christmas",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'No, I'm in New york city' (14) and later discusses living there (96, 104, 274).",
+          "value": "New York City, New York",
+          "lines": [
+            14,
+            96,
+            104,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I was born and grew up in the Bay Area' (158).",
+          "value": "Bay Area, California",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to U.C.L.A. for undergrad' (159-160), which is located in Los Angeles.",
+          "value": "Los Angeles, California (for college)",
+          "lines": [
+            159,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'and then you see santa Barbara for grad school' (corrected to 'UC Santa Barbara for grad school') (160).",
+          "value": "Santa Barbara, California (for graduate school)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' (96) and 'my brother' (216), indicating male gender.",
+          "value": "male",
+          "lines": [
+            96,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'after grad school' (96) and attending UCLA and UC Santa Barbara (159-160), so he holds a graduate degree.",
+          "value": "has a graduate degree",
+          "lines": [
+            96,
+            159,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'now we're married' (96).",
+          "value": "married",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b explains he moved to New York 'after grad school... to get a job' and it became permanent (96).",
+          "value": "employed in New York City (moved for a job)",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes 'new york city is just so expensive too, so you know we're kind of limited on space' (104).",
+          "value": "lives in an expensive city with limited space",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'we don't have a car right now' (274).",
+          "value": "does not have a car",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my wife' (96).",
+          "value": "wife",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'both of our parents are living' in California (98).",
+          "value": "parents (live in California)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my brother actually lives in Seattle right now' (216).",
+          "value": "brother (lives in Seattle)",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we also have some friends that live in new Hampshire' (192).",
+          "value": "friends in New Hampshire",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes trips to the Catskill Mountains (188), Maine (190), New Hampshire (192), Boston, Washington D.C. (194), Montreal, Quebec City (196), and the Olympic Mountains (220).",
+          "value": "enjoys traveling to natural areas and cities in the Northeast and beyond",
+          "lines": [
+            188,
+            190,
+            192,
+            194,
+            196,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'that's one of the things I like a lot about the Northeast is just the seasons' (116) and 'I appreciate the change' (140).",
+          "value": "appreciates experiencing four seasons",
+          "lines": [
+            116,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains 'we usually take trains or rent a car, you know, to go hiking' and 'we don't have a car right now' (274, 276).",
+          "value": "uses public transit and rental cars for travel",
+          "lines": [
+            274,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're kind of thinking about in the next couple of years to think about where we really want to settle down and start a family, but so it might it might be back in California' (98).",
+          "value": "considering moving back to California to raise a family",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

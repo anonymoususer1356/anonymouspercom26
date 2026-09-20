@@ -1,0 +1,356 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When speaker_b mentions L.A., speaker_a says 'Near L.A.' and later clarifies she does not live in the L.A. area but just near it. Also uses 'out here' referring to California, indicating she resides in California near Los Angeles.",
+          "value": "near Los Angeles, California",
+          "lines": [
+            125,
+            135,
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm like 23 I'm trying' when age is discussed; confirms after speaker_b says almost 40.",
+          "value": "23 years old",
+          "lines": [
+            93,
+            94,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions school online and being in third year; also has to log on to class.",
+          "value": "college student (third year)",
+          "lines": [
+            13,
+            99,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked what she is studying, answers 'criminal justice'.",
+          "value": "major in criminal justice",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses hope to attend law school and become a lawyer, specifically interested in prosecuting cases like murderers.",
+          "value": "aspiring lawyer (prosecutor)",
+          "lines": [
+            19,
+            23,
+            25
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions 'work' alongside school, indicating she holds some job, but provides no details.",
+          "value": "employed (unspecified job)",
+          "lines": [
+            13
+          ],
+          "certainty": 2
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "States that everything is online now, including school, and later says she has to log on to class, indicating she attends classes remotely.",
+          "value": "attends college classes remotely",
+          "lines": [
+            13,
+            15,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recommends and expresses liking for several music artists; asks speaker_b if they listen to them. 'Bay Miller' may be an ASR error for another artist.",
+          "value": "enjoys music by Travis Scott, Kodak Black, Kanye West, and Bay Miller",
+          "lines": [
+            47,
+            53,
+            55,
+            63
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly says 'I live in the woods' and 'I'm now in pennsylvania and not even near a big city or anything'. Also mentions Pennsylvania as a swing state where he lives.",
+          "value": "rural Pennsylvania",
+          "lines": [
+            112,
+            116,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I grew up in the city'. Earlier work history in Manhattan, Hoboken NJ, and Long Island strongly implies New York City area.",
+          "value": "grew up in New York City area",
+          "lines": [
+            118,
+            88,
+            90,
+            92
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'Now at my age I'm almost 40' and repeats later.",
+          "value": "almost 40 years old",
+          "lines": [
+            76,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my wife', indicating male gender in a heterosexual marriage.",
+          "value": "male",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions cooking for 'my wife'.",
+          "value": "married",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I went to culinary school mm um 18 months.'",
+          "value": "attended culinary school for 18 months",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I worked as a chef for 10 years afterwards'.",
+          "value": "former chef (10 years)",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes making and selling vape juice.",
+          "value": "makes and sells vape juice",
+          "lines": [
+            12,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I voted for trump in 2016 and I'm gonna vote for him again on november 3rd.'",
+          "value": "Trump supporter (voted 2016, plans to vote 2020)",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I tried to do college before I went to culinary school but I never ended up graduating from anything.'",
+          "value": "attempted college but did not graduate",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Describes getting 'burned out' from chef job due to long 12-hour shifts, and couldn't do it anymore.",
+          "value": "burnout from previous chef job",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I've always worked from home'.",
+          "value": "works from home",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I make the juice for this Vape, the Vape things and I sell it'.",
+          "value": "income from selling vape juice",
+          "lines": [
+            12,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When discussing chef job, notes 'the pay was good'.",
+          "value": "previously had good pay as a chef",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' and cooking for her.",
+          "value": "has a wife",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My brother lives in the bay area by san Francisco.'",
+          "value": "has a brother living in Bay Area, California",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when my dad left I was three years old my mom got me a dog to replace him'.",
+          "value": "parents separated; father left when speaker was 3; mother raised him",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says the only difference during quarantine is 'I wear a mask now'.",
+          "value": "wears a mask due to COVID-19",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I don't go out much anyway'.",
+          "value": "homebody, rarely goes out",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes cooking daily for himself and wife, sometimes making elaborate meals, and baking a cake once a week.",
+          "value": "cooks daily, including elaborate meals and weekly cakes for wife",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses love for making chicken soup and loaded baked potato soup.",
+          "value": "enjoys making soups (chicken soup, loaded baked potato soup)",
+          "lines": [
+            81,
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I pirate everything' and uses free streaming sites like Stream Lord and watch series; does not use Netflix.",
+          "value": "pirate streams TV shows and movies via websites (Stream Lord, watch series)",
+          "lines": [
+            36,
+            38,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists favorite music: Childish Gambino, Chance the Rapper, Kim Petras, Taylor Swift, Demi Lovato; also listens to electronic, alternative, rock, country, classical.",
+          "value": "music taste includes Childish Gambino, Chance the Rapper, Kim Petras, Taylor Swift, Demi Lovato, and various genres",
+          "lines": [
+            46,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has five cats; gives names: 'john ralphie' and 'Sapperstein' (intended Jean-Ralphio Saperstein, called Ralph), mom Pickle, and sister April Ludgate Karate Dwyer (Parks and Rec character; ASR rendered 'karate' for Dwyer).",
+          "value": "owns 5 cats (Jean-Ralphio Saperstein 'Ralph', Pickle, April Ludgate Karate Dwyer)",
+          "lines": [
+            262,
+            264,
+            274,
+            276,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes having two pet rabbits; the female broke her back during a 'binky' and died in surgery.",
+          "value": "previously owned rabbits that died",
+          "lines": [
+            296,
+            298,
+            300,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he grew up with an Australian cattle hound named Chiba; currently wants a dog but needs to put up a fence first.",
+          "value": "grew up with a dog (Australian cattle hound named Chiba); wants a dog now",
+          "lines": [
+            284,
+            286,
+            288,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Details his chef jobs: Tavern on the Green in Manhattan (internship), an American place in Hoboken NJ, and an upscale Italian place on Long Island called 'village on' around the year 2000.",
+          "value": "worked as a chef at Tavern on the Green (Manhattan), an American diner in Hoboken NJ, and an Italian restaurant on Long Island",
+          "lines": [
+            88,
+            90,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

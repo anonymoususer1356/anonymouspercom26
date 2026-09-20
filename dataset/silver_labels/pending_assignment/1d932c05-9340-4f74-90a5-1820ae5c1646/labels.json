@@ -1,0 +1,366 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as 'Bill' in line 7.",
+          "value": "Bill",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Illinois (line 15) and in Springfield (line 17).",
+          "value": "Springfield, Illinois",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name 'Bill' and self-reference as 'dog dad' (line 65) imply male gender.",
+          "value": "Male",
+          "lines": [
+            7,
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states he has 'pretty debilitating social anxiety' (line 189).",
+          "value": "Social anxiety disorder",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes being unable to burp for the first 23 years of his life, until age 24, and now burps normally (lines 143-149, 173-175).",
+          "value": "Inability to burp until age 24, resolved",
+          "lines": [
+            143,
+            145,
+            147,
+            149,
+            173,
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says his position was terminated because of COVID and the department was killed (lines 33, 47). He was in in-house marketing for an apparel company (line 47).",
+          "value": "Terminated from marketing job at apparel company due to COVID",
+          "lines": [
+            33,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he applied for a temporary job with the census (line 63).",
+          "value": "Applied for census job",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions participating in paid chat platform, noting '$15 for like shooting the breeze for 20 minutes' and that he has done it before (lines 7, 9, 11).",
+          "value": "Earns money from paid conversation platform",
+          "lines": [
+            7,
+            9,
+            11
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I moved back in with my mom' (line 35).",
+          "value": "Lives with his mother",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his last roommate was a heroin addict (line 39).",
+          "value": "Previous roommate was a heroin addict",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions his best friend lives in California (line 199).",
+          "value": "Best friend in California",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says a good friend and former neighbor worked for Mastercard (lines 53, 55).",
+          "value": "Friend who worked at Mastercard",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a introduces his dog Carl (line 99) and describes his breed (line 107).",
+          "value": "Has a dog named Carl",
+          "lines": [
+            99,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a indicates he plays guitar when describing a previous chat (line 199).",
+          "value": "Plays guitar",
+          "lines": [
+            199
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a expresses strong fondness for Zingerman's deli and imported Spanish tuna (lines 261, 263, 265).",
+          "value": "Enjoys gourmet foods such as Zingerman's and Spanish tuna",
+          "lines": [
+            261,
+            263,
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says every time he has sparkling water he burps (line 139).",
+          "value": "Drinks sparkling water",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a quotes Arrested Development and asks if speaker_b has seen it (lines 157, 159).",
+          "value": "Watches Arrested Development",
+          "lines": [
+            157,
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions the Nobert subreddit and says 'I found my people' (line 153).",
+          "value": "Uses Reddit",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he considers his full-time job to be 'dog dad' (line 65).",
+          "value": "Dog owner ('dog dad')",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'abby' (line 6) and later spells her full name 'Abigail Sager' when giving her email (line 278).",
+          "value": "Abby / Abigail Sager",
+          "lines": [
+            6,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her email is 'abigail.sager@gmail.com' (line 278).",
+          "value": "abigail.sager@gmail.com",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Chicago' (line 16) and 'I live in Chicago' (line 280).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            16,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm from ann arbor michigan' (line 260).",
+          "value": "Ann Arbor, Michigan (hometown)",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name 'Abigail' (line 278) and references to 'my girlfriend' (line 258) imply speaker_b is female.",
+          "value": "Female",
+          "lines": [
+            6,
+            258,
+            278
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions her partner is female ('my partner, she' line 218) and calls her 'my girlfriend' (line 258), indicating a same-sex relationship.",
+          "value": "Lesbian or bisexual (in a same-sex relationship)",
+          "lines": [
+            218,
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I also have social anxiety' (line 210).",
+          "value": "Social anxiety",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I work at a startup called for kites, which is a like a software platform for supply chain logistics' (line 74) and she started two weeks before COVID quarantine (line 76).",
+          "value": "Works at startup 'for kites' (likely Four Kites)",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I used to be in the nonprofit world' (line 82).",
+          "value": "Previously worked in nonprofit",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she works full time remote, using phone and Zoom (lines 77, 78, 80).",
+          "value": "Works remotely full time",
+          "lines": [
+            77,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b corrects the pay rate to $17 (line 10) and mentions having $45 from these conversations (line 14), indicating she earns money from the platform.",
+          "value": "Earns money from paid conversation platform",
+          "lines": [
+            8,
+            10,
+            14
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my girlfriend, my partner, arial' (line 258) and 'my partner, she did it once' (line 218).",
+          "value": "Has a girlfriend/partner named Ariel",
+          "lines": [
+            218,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces her dog Lola (line 116) and describes her breed (line 118).",
+          "value": "Has a dog named Lola",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My friend actually... ruined with a heroin addict' (line 40), likely meaning her friend lived with a heroin addict.",
+          "value": "Friend who lived with a heroin addict",
+          "lines": [
+            40
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm also dog parents' (line 96) and shows her dog (line 116).",
+          "value": "Dog owner",
+          "lines": [
+            96,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'let me just connect to my airpods' (line 2).",
+          "value": "Uses Apple AirPods",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'with my airpods and staring ice cream' (line 82), implying she eats or likes ice cream.",
+          "value": "Enjoys ice cream",
+          "lines": [
+            82
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b confirms she has watched Arrested Development (line 158) when asked.",
+          "value": "Watches Arrested Development",
+          "lines": [
+            158
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,496 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When asked 'whereabouts are you?', speaker_a answers 'Pennsylvania.'",
+          "value": "Pennsylvania",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says there is a drive-in theater 'actually close to home.'",
+          "value": "near a drive-in theater",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she could work at a Burger King or McDonald's 'down the road' from her home.",
+          "value": "near a Burger King and McDonald's",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to herself as a wife, mother, and mentions her biological clock; all context indicates she is female.",
+          "value": "female",
+          "lines": [
+            137,
+            241
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she has children.",
+          "value": "mother",
+          "lines": [
+            51,
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says she has a 'bum arm' and limited use of her right arm after a dog attack took nerves out, preventing her from crawling, kneeling, or lifting heavy boxes, causing her to fail job physicals.",
+          "value": "right arm disability due to dog attack; cannot crawl, kneel, or lift heavy boxes",
+          "lines": [
+            71,
+            73,
+            141,
+            143,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she has been off work since last September when the group home closed, and is letting her husband work while she takes a break.",
+          "value": "unemployed since last September",
+          "lines": [
+            69,
+            71,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her husband works and makes enough to survive, providing her the ability to stay home.",
+          "value": "husband provides primary income",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she worked at a group home for children until it closed last September.",
+          "value": "previously employed at a group home for children",
+          "lines": [
+            69,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she worked at Guilford Mills sewing factory before the group home.",
+          "value": "previously employed at Guilford Mills sewing factory",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists places she has applied for jobs, including Hershey factory and Thermo Fisher, but failed physicals.",
+          "value": "applied for jobs at Hershey factory and Thermo Fisher but failed physicals",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses interest in selling cars or opening her own group home as future work.",
+          "value": "aspires to sell cars or open a group home",
+          "lines": [
+            275,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a brought the foster girl home, indicating she has a residence.",
+          "value": "lives in a house (or owns/rents a home)",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my husband' and gives his age as 43.",
+          "value": "married, husband age 43",
+          "lines": [
+            137,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a 12-year-old and a 10-year-old, and says the oldest is starting high school.",
+          "value": "has at least three children: a high schooler, a 12-year-old, and a 10-year-old",
+          "lines": [
+            79,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has three dogs.",
+          "value": "owns three dogs",
+          "lines": [
+            51,
+            145,
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her brother on Facebook.",
+          "value": "has a brother",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to logging into her best friend's Disney+.",
+          "value": "has a best friend",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she fostered a 16-year-old girl from the group home, who lived with her from September to January 16.",
+          "value": "fostered a 16-year-old girl for several months",
+          "lines": [
+            77,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states she has worked third shift (night shift) her entire life since high school.",
+          "value": "worked night shift for most of her career",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says since being off work, she sleeps at night and sometimes goes to bed by 8:30pm.",
+          "value": "currently on a day schedule, goes to bed early (as early as 8:30pm)",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions seeing memes on Facebook, her brother posting, and she stalks people's pages.",
+          "value": "uses Facebook",
+          "lines": [
+            25,
+            59,
+            303,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she doesn't watch Netflix a lot but watched Tiger King and used to binge-watch at work.",
+          "value": "occasionally watches Netflix",
+          "lines": [
+            25,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she logged onto her best friend's Disney+ to watch Frozen 2.",
+          "value": "uses a friend's Disney+ account",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes being into horror movies and getting creeped out by one on Netflix.",
+          "value": "enjoys horror movies",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says there is a drive-in close to home, they go, and she sneaks in snacks.",
+          "value": "goes to the drive-in theater and sneaks in outside food",
+          "lines": [
+            199,
+            219,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her phone gives her updates about being online 20% over the week.",
+          "value": "has a phone that tracks screen time",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she looks up crazy things on the internet late at night, including organ donation.",
+          "value": "does late-night internet research on random topics",
+          "lines": [
+            295,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says this is her second time doing the video chat.",
+          "value": "has done this video chat once before",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "When asked location, speaker_b says 'D.C. here.' She also references D.C. mayor Bowser and fireworks in her neighborhood.",
+          "value": "Washington, D.C. area",
+          "lines": [
+            12,
+            56,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'out by like the Manassas' for concerts, showing knowledge of Northern Virginia.",
+          "value": "familiar with Manassas, VA area",
+          "lines": [
+            192
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she used to have a little over an hour commute each way to work.",
+          "value": "commuted over an hour each way to work (likely to Alexandria, VA)",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'when I graduated college'.",
+          "value": "college graduate",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes waking up with a pinch in her right rib that spread into back spasms, making it painful to move or laugh, after working 18-19 hour days.",
+          "value": "experienced back spasms and rib pain due to overwork",
+          "lines": [
+            114,
+            128,
+            246
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she works for the National Science Foundation in the astronomy sciences.",
+          "value": "employed at National Science Foundation, astronomy sciences division",
+          "lines": [
+            92,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she works 100% from home and everyone is remote.",
+          "value": "works remotely from home",
+          "lines": [
+            90,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she worked at airport security with TSA for three years.",
+          "value": "previously employed at TSA for three years",
+          "lines": [
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she purchased a Disney+ subscription to watch Hamilton.",
+          "value": "has a Disney+ subscription",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she does not have any pets because she works too much, though she loves animals.",
+          "value": "no pets due to work commitments",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says her sister is two years younger and tells a story from when they were 17 and 15.",
+          "value": "has a sister two years younger",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b purchased Disney+ to watch Hamilton, discusses Frozen and musicals positively.",
+          "value": "enjoys musicals (e.g., Hamilton, Frozen)",
+          "lines": [
+            28,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she watched Hamilton on 4th of July.",
+          "value": "watched Hamilton on July 4th",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'for someone like me that I don't really watch a whole lot of stuff'.",
+          "value": "does not watch a lot of TV/movies",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says before working from home, she got up at 6am and had over an hour commute.",
+          "value": "used to wake up at 6am and commute over an hour",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says now she gets up at 8 or 8:30am working from home.",
+          "value": "now wakes up later (8-8:30am) due to remote work",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says 'I'm not a morning person'.",
+          "value": "not a morning person",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says after college she took a five-month break where she did nothing but read and walk around the block.",
+          "value": "took a 5-month break after college to read and walk",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've always wanted to go to drive in theaters'.",
+          "value": "wants to experience a drive-in theater",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes starting online research on one topic and getting sidetracked into random details.",
+          "value": "easily sidetracked when researching online",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms this is her first time doing the video chat.",
+          "value": "first time on this video chat platform",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says during her break she read and walked, indicating enjoyment of these activities.",
+          "value": "reads and walks for leisure",
+          "lines": [
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've missed talking to people' near the end of the conversation.",
+          "value": "misses social interaction",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I don't have bags under my eyes' since working from home and sleeping later.",
+          "value": "no longer has under-eye bags since working remotely",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

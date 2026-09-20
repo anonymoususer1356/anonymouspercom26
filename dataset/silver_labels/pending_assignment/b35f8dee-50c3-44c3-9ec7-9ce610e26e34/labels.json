@@ -1,0 +1,234 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says speaker_a is in North Carolina, and speaker_a confirms they share the same time (6:10), indicating the same Eastern time zone.",
+          "value": "North Carolina",
+          "lines": [
+            74,
+            80,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In a rambling opening monologue, speaker_a states 'I'm a man in my mid forties'. The fragment is heavily garbled, but it is a direct self-description.",
+          "value": "Male, mid 40s",
+          "lines": [
+            1
+          ],
+          "certainty": 2
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in juvenile services. So I look at a group home, juveniles', and gives extensive details about monitoring, live-in shifts, training, first aid, and carrying keys.",
+          "value": "Employed in juvenile services at a group home for juveniles",
+          "lines": [
+            15,
+            27,
+            29,
+            31,
+            37,
+            43,
+            45,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states this is their third time doing this paid study, learned about it from the beer money subreddit, and explicitly agrees they receive money for participating.",
+          "value": "Earns money from online conversation studies",
+          "lines": [
+            85,
+            93,
+            94,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a mentions watching and enjoying multiple TV series: references to Dunder Mifflin (The Office), Parks and Rec, Brooklyn 99, Superstore, The Handmaid's Tale, The Queen's Gambit, 90 Day Fiancé, and Married at First Sight. Also received an Office-themed Secret Santa shirt.",
+          "value": "Enjoys TV shows such as The Office, Parks and Recreation, Brooklyn 99, Superstore, The Handmaid's Tale, The Queen's Gambit, 90 Day Fiancé, Married at First Sight",
+          "lines": [
+            123,
+            145,
+            183,
+            207,
+            209,
+            213,
+            245,
+            251
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a names several subreddits they follow: AskReddit, Dunder Mifflin, Random Acts of Amazon, beer money; and says they participated in Reddit Secret Santa.",
+          "value": "Active on Reddit, participates in Reddit Secret Santa and Random Acts of Amazon",
+          "lines": [
+            93,
+            123,
+            125,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes their social orientation as in between introvert and extrovert, depending on the people and setting.",
+          "value": "Ambivert",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b calls themselves a 'southern belle', confirms they are from Florida, and notes they are in the same time zone as speaker_a (Eastern), consistent with Florida.",
+          "value": "Florida",
+          "lines": [
+            70,
+            72,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b uses the term 'southern belle', a strongly feminine-coded identifier, to describe themselves.",
+          "value": "Female",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b explicitly says they are 'tired' when asked how they are doing.",
+          "value": "Currently tired",
+          "lines": [
+            10
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b states the date is October 26, 2020, asks if speaker_a voted, and says 'I voted in the mail yep recently'.",
+          "value": "Voted by mail in 2020 US presidential election",
+          "lines": [
+            284,
+            286,
+            288
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I am a programmer at a small company' and describes it as office work.",
+          "value": "Programmer at a small company",
+          "lines": [
+            12,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they learned about this study through Reddit beer money and that 'we get money for this'.",
+          "value": "Earns money from online conversation studies",
+          "lines": [
+            90,
+            92,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions following a financial independence subreddit and the FIRE movement.",
+          "value": "Interested in financial independence / FIRE movement",
+          "lines": [
+            122
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I do have family from California' when discussing accents and locations.",
+          "value": "Has family in California",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b repeatedly asserts being introverted: 'I'm pretty introverted, like I keep to myself' and earlier confirms an introvert guess.",
+          "value": "Introverted",
+          "lines": [
+            100,
+            110,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses love for Parks and Rec, and mentions watching or knowing Bojack Horseman, Rick and Morty, Nathan for You, Jane the Virgin, Misfits, Freaks and Geeks, and Keeping Up with the Kardashians.",
+          "value": "Enjoys TV shows such as Parks and Recreation, Bojack Horseman, Rick and Morty, Nathan for You, and others",
+          "lines": [
+            184,
+            228,
+            232,
+            234,
+            236,
+            238,
+            244
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b lists many subreddits they browse: beer money, veganism/vegetarianism, animal memes, jokes, AskReddit, lawyers, politics, financial independence.",
+          "value": "Active Reddit user with varied interests",
+          "lines": [
+            90,
+            92,
+            118,
+            119,
+            120,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I do know how to play chess but I haven't played in a long, long time' and recounts a quick loss.",
+          "value": "Knows how to play chess but out of practice",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I school charleston like three hours away from Chicago.' ('charleston' is phonetically close to Charleston)",
+          "value": "Attends school in Charleston, ~3 hours from Chicago",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'my family lives in Chicago' and repeatedly mentions going back home to Chicago for Thanksgiving.",
+          "value": "Family home in Chicago",
+          "lines": [
+            23,
+            379,
+            381
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up in Nigeria West africa side.'",
+          "value": "Originally from Nigeria, West Africa",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how long he has lived in the US, speaker_a says 'for six years' and '5, 6 years'.",
+          "value": "Lived in the US for 5-6 years",
+          "lines": [
+            317
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes his first day in New York, and later says 'I came from new york to Jakarta' where 'Jakarta' is a transcription error for Chicago; context shows he now lives in Chicago.",
+          "value": "First arrived in New York, then moved to Chicago",
+          "lines": [
+            321,
+            341
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I live off campus. I live on my own'.",
+          "value": "Lives off campus independently",
+          "lines": [
+            397
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b asks '3rd year?' and speaker_a confirms 'Yeah'; later speaker_a says he has about two more years to go and states 'I'm in college'.",
+          "value": "3rd year college student",
+          "lines": [
+            79,
+            82,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm doing mathematics and my own in physics' which means major in mathematics and minor in physics.",
+          "value": "Major in Mathematics, minor in Physics",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states he grew up in Nigeria.",
+          "value": "Nigerian",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'English not my pair' (forte) and his grammar indicates English is not his first language.",
+          "value": "Non-native English speaker",
+          "lines": [
+            231
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to himself as 'stubborn dude' and uses 'bro' to address speaker_b, strongly suggesting male gender.",
+          "value": "Male",
+          "lines": [
+            311,
+            169
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Both speakers talk about 'milk as much cash as we can' and mention this is their 5th time, indicating they are participating in a paid study.",
+          "value": "Participates in a paid study",
+          "lines": [
+            5,
+            6,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'Even if I subscribe from netflix, I barely watch other things. So it's like a waste of money.'",
+          "value": "Has Netflix subscription",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he plays on his 'piers' when he goes home; 'piers' is phonetically close to PS4, and he explains he leaves it at home to avoid distraction.",
+          "value": "Owns a PS4 game console",
+          "lines": [
+            69,
+            73
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a explicitly states 'I don't have tv'.",
+          "value": "Does not own a TV",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he chose a cheaper school because the one he wanted was 'really really expensive and I didn't want like butter my dad to get alone' (take a loan).",
+          "value": "Chose cheaper school to avoid father taking loan",
+          "lines": [
+            131
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions his dad ('my dad like complains') and his mom ('my mom was with me') multiple times.",
+          "value": "Has father and mother",
+          "lines": [
+            75,
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My sister was like come back home.'",
+          "value": "Has a sister",
+          "lines": [
+            407
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions playing games on his phone, on his PS4 at home, and watching people play games; he also used to install PC games.",
+          "value": "Plays video games on multiple platforms",
+          "lines": [
+            57,
+            59,
+            67,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he doesn't have a TV, barely watches Netflix, and finds TV shows frustrating/boring.",
+          "value": "Does not watch TV/movies often",
+          "lines": [
+            61,
+            63,
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I prefer like painting or drawing before. Like painting, drawing.'",
+          "value": "Enjoys painting and drawing",
+          "lines": [
+            427
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explains he has Facebook for parents, Snapchat for friends, Instagram for sports, Twitter for news, but implies he doesn't use them heavily.",
+          "value": "Uses social media selectively",
+          "lines": [
+            439,
+            441,
+            443
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he is not the type to read every day, doesn't like the library, and only reads for exams.",
+          "value": "Not an avid reader",
+          "lines": [
+            361,
+            363
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I live in in florida Orlando florida' and confirms he lives near Disney World and Universal.",
+          "value": "Lives in Orlando, Florida",
+          "lines": [
+            14,
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says Orlando is big but he doesn't live downtown, he lives in a neighborhood, and the theme parks are 'Like 45 minute drive'.",
+          "value": "Lives in suburban area, ~45 min from Disney/Universal",
+          "lines": [
+            20,
+            344
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'my parents asked me because they live like two hours away.'",
+          "value": "Parents live 2 hours away from Orlando",
+          "lines": [
+            352
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've been gone for like two years' in context of not living with his parents.",
+          "value": "Has not lived with parents for 2 years",
+          "lines": [
+            404
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I went to a U. C. F.' which stands for University of Central Florida.",
+          "value": "Attended UCF",
+          "lines": [
+            102,
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states he was doing computer engineering/computer science and was a second year before the pandemic stopped his studies.",
+          "value": "Former college student (Computer Engineering/CS), paused studies at second year due to pandemic",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a calls speaker_b 'bro', suggesting speaker_b is male.",
+          "value": "Male",
+          "lines": [
+            169
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions 'milk as much cash as we can' and says it's his 5th time, indicating a paid study.",
+          "value": "Participates in a paid study",
+          "lines": [
+            6,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I just sit on the computer all day' and 'this is the head set I use', so he owns a computer and headset.",
+          "value": "Owns a computer and headset",
+          "lines": [
+            32,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's studies are paused and he reports sitting on the computer all day with no mention of a job; likely unemployed.",
+          "value": "Unemployed or not working",
+          "lines": [
+            38,
+            100
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his parents asking about his well-being and his mom missing him.",
+          "value": "Has mother and father",
+          "lines": [
+            352,
+            402
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'That'll save my sister' (interpreted as 'That's like my sister') in response to speaker_a's comment about his own sister, implying speaker_b also has a sister.",
+          "value": "Has a sister",
+          "lines": [
+            406
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I just sit on the computer all day, I just sit around watch, watch Youtube or whatever.'",
+          "value": "Spends large amount of time on computer for leisure",
+          "lines": [
+            38,
+            356
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'recently I've been playing animal crossing because I got that and uh Tetris.'",
+          "value": "Plays Animal Crossing and Tetris",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually don't watch a lot of T.V. or movies.'",
+          "value": "Rarely watches TV/movies",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't have a facebook or Snapchat or whatever' and that he doesn't use social media, take pictures, or update on his life.",
+          "value": "Inactive on social media",
+          "lines": [
+            438,
+            448,
+            450
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I also hate writing. That's like my worst subject.'",
+          "value": "Dislikes writing",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Photography is not really my thing.'",
+          "value": "Not interested in photography",
+          "lines": [
+            426
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm from America' (line 13) and 'I'm in California' (15). Later clarifies 'I live more in a small city in California' (19), 'I lived more in central California' (325), and 'I live more in the coast' (339).",
+          "value": "Lives in a small city in central California near the coast",
+          "lines": [
+            13,
+            15,
+            19,
+            325,
+            339
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I actually recently graduated from college' (33) and 'I just graduated' (235).",
+          "value": "Recent college graduate",
+          "lines": [
+            33,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As a recent college graduate, speaker_a is likely in their early to mid 20s, though age is not explicitly stated.",
+          "value": "Young adult (likely early 20s)",
+          "lines": [
+            33,
+            235
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a had a job offer that was rescinded: 'originally I actually had a job offer, but it was like rescinded because of the pandemic' (243). They also state 'I can't afford a house or rent' (71), indicating current unemployment and financial constraint.",
+          "value": "Unemployed; job offer rescinded due to pandemic",
+          "lines": [
+            71,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'We got hit by the layoffs from the pandemic' (67) and later implies parents lost jobs, as they are not working and speaker_a moved back (71).",
+          "value": "Parents lost jobs due to pandemic layoffs",
+          "lines": [
+            67,
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I moved back with my parents right now after I graduated' (71) and 'I actually had to move back home' (249).",
+          "value": "Lives with parents",
+          "lines": [
+            71,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I have two dogs' (189).",
+          "value": "Has two dogs",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about a boyfriend, speaker_a says 'No, I've been so focused on school... I don't know how do you find people' (489), indicating single status.",
+          "value": "Single, no boyfriend",
+          "lines": [
+            489
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'mostly watching netflix' (45), 'Right now I'm watching the avatar the last Airbender' (459), and 'mainly watching like cooking tips and those cooking competition shows' (461).",
+          "value": "Watches Netflix, including Avatar: The Last Airbender and cooking competition shows",
+          "lines": [
+            45,
+            459,
+            461
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'started reading Game of Thrones' (263).",
+          "value": "Reads books, specifically Game of Thrones",
+          "lines": [
+            263,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes wanting to build an aquarium with a waterfall and grass carpet, and researching how to build one (85,87,91). Also mentions terrariums (89).",
+          "value": "Interested in building and maintaining aquariums/terrariums with ecosystems",
+          "lines": [
+            85,
+            87,
+            89,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been self quarantine' (31) but also 'I go in person grocery shopping... for human contact' (57).",
+          "value": "Self-quarantining but occasionally goes out for groceries and human contact",
+          "lines": [
+            31,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I started living alone when I was up in... different cities' (465) and 'I have to learn to cook now' (465), indicating learning to cook and previously living independently during college.",
+          "value": "Learning to cook by watching shows; previously lived alone in different cities during college",
+          "lines": [
+            465,
+            467
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I go there (L.A.) every once in a while just to kind of like Disneyland and stuff' (327).",
+          "value": "Has visited Los Angeles and Disneyland occasionally",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I actually kind of do wish I can see snow sometimes, like I never seen snow before' (339).",
+          "value": "Has never seen snow in person",
+          "lines": [
+            339
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in texas' (14), 'I also live in a small town in texas' (28), 'I live in like the piney woods part of texas' (112), 'our properties on like an acre' (50), 'I grew up in a suburban area and I moved here only about eight years ago' (114).",
+          "value": "Lives in a small town in the piney woods region of Texas, on an acre property, having moved there about eight years ago from a suburban area",
+          "lines": [
+            14,
+            28,
+            50,
+            112,
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I did a couple years of college, but I never graduated' (254).",
+          "value": "Some college education but no degree",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions being 25 reading dystopian novels and continued until about age 30 (290,294), implying current age is 30s or older.",
+          "value": "Age likely 30s or older",
+          "lines": [
+            290,
+            294
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I have an abscessed tooth today... I got on antibiotics' (60).",
+          "value": "Had an abscessed tooth, currently on antibiotics",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm kind of a shy person, so I get nervous to talk to people' (400).",
+          "value": "Self-described as shy and nervous in social situations",
+          "lines": [
+            400
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'my immediate family, my husband and I are okay' (72), indicating financial stability.",
+          "value": "Financially stable with husband during pandemic",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'My dad also lost his job... after 45 47 years. They laid him off about a month ago' (72-74).",
+          "value": "Father lost his job of 45-47 years, laid off about a month ago",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says about her father: 'he was almost a retirement' (74).",
+          "value": "Father was close to retirement age before layoff",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I actually once worked as a cook for a family' (462).",
+          "value": "Previously employed as a cook for a family",
+          "lines": [
+            462
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her husband multiple times (lines 72, 142, 462).",
+          "value": "Married to husband",
+          "lines": [
+            72,
+            142,
+            462
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a four dogs' (42) and describes them: one is a Carolina wild dog (130,148), others are pit bull mixes rescues (164).",
+          "value": "Has four dogs: one Carolina wild dog (American Dingo) and pit bull mix rescues",
+          "lines": [
+            42,
+            130,
+            148,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my parents' (30) and father (72), indicating living parents.",
+          "value": "Has living parents",
+          "lines": [
+            30,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My sister actually works in healthcare' (30).",
+          "value": "Has a sister who works in healthcare",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I've been writing... philosophical writing for a T. V. Show... called the O A' (38, 422). She writes blogs and theories online about 'The OA'.",
+          "value": "Writes philosophical blogs/theories about the Netflix show 'The OA'",
+          "lines": [
+            38,
+            40,
+            422,
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes raising a wild dog, having four dogs, feeding deer, and maintaining a natural property (112, 124, 130, etc.).",
+          "value": "Enjoys wildlife and nature; cares for dogs, feeds deer, maintains natural ecosystem on property",
+          "lines": [
+            112,
+            124,
+            126,
+            130,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I read a lot of dystopian... I'm reading a lot of like history but I used to read a lot of via dystopian fiction' (286-288).",
+          "value": "Reads dystopian novels and history books",
+          "lines": [
+            286,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been self quarantining' (30) and when asked about shopping, says 'We do too' (58) referring to in-person grocery shopping.",
+          "value": "Self-quarantining but occasionally shops in person for groceries",
+          "lines": [
+            30,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was like, a partier to be honest' (492) when young.",
+          "value": "Used to party when younger",
+          "lines": [
+            492
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I hate cooking... my husband does it all' (462, 480, 486) and 'I'm not actually terrible cook... but I wasn't that great' (462).",
+          "value": "Dislikes cooking; husband does most of the cooking",
+          "lines": [
+            462,
+            480,
+            486
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to san Francisco wants in Oakland' (332) and 'I went to colorado' (342).",
+          "value": "Has traveled to San Francisco, Oakland, and Colorado",
+          "lines": [
+            332,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this is my first time doing the online, doing an actual video one for the site at all' (550).",
+          "value": "First time participating in this type of online video conversation",
+          "lines": [
+            550
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

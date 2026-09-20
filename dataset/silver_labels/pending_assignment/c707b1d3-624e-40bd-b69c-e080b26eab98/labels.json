@@ -1,0 +1,319 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks for a name; speaker_a spells 'L E' and speaker_b spells out 'L U C E'. speaker_a confirms 'Luce is my given name' (ASR: 'the solution is my given name').",
+          "value": "Luce",
+          "lines": [
+            346,
+            347,
+            348,
+            349,
+            350,
+            351,
+            352,
+            353
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Washington' and later confirms she is settled there.",
+          "value": "Washington state",
+          "lines": [
+            25,
+            281,
+            324,
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was born in pennsylvania' and 'Union Town is where I'm from'. ASR 'Union Town' = Uniontown, Pennsylvania.",
+          "value": "Uniontown, Pennsylvania",
+          "lines": [
+            253,
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I moved up here from florida from uh yeah from Ponta Gorda area'. ASR 'Ponta Gorda' = Punta Gorda, Florida.",
+          "value": "Punta Gorda, Florida",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm on pacific', meaning Pacific time zone.",
+          "value": "Pacific Time zone",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm 27 right now'.",
+          "value": "age 27",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'This is my freshman year of university.'",
+          "value": "university freshman",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my goal is to come out of a psychology major', implying current major is psychology.",
+          "value": "psychology major",
+          "lines": [
+            221
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'after everybody was laid off', implying she was among those laid off from a job.",
+          "value": "laid off from job",
+          "lines": [
+            97
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I just live in like a video apartment' (ASR likely misheard 'studio apartment'). Intended meaning is a small apartment.",
+          "value": "studio apartment",
+          "lines": [
+            275
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my partner' and refers to them as 'he', indicating a male romantic partner.",
+          "value": "has a male partner",
+          "lines": [
+            261,
+            277,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I came out with my mom', indicating she moved with her mother.",
+          "value": "moved with mother",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I went to culinary school out here. I dropped out before I finished.'",
+          "value": "attended culinary school and dropped out",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to 'Do you at least like to cook?' speaker_a says 'Yeah' and mentions cooking on partner's gas range.",
+          "value": "likes to cook",
+          "lines": [
+            274,
+            275,
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a psychedelics activists around here.'",
+          "value": "psychedelics activist",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'there's so much hiking and stuff like that out here', implying she enjoys hiking.",
+          "value": "enjoys hiking",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I do the doom scroll, unfortunately'.",
+          "value": "does doom scrolling",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to 'the last time I did one of these'; the conversation context and speaker_b's mention of Prolific indicate both are participating in a Prolific online study.",
+          "value": "participates in online studies (Prolific)",
+          "lines": [
+            17,
+            38
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'on my schooling online now too'.",
+          "value": "attends university online",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I ask Siri', indicating use of an Apple device.",
+          "value": "uses Apple device (Siri)",
+          "lines": [
+            309
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in florida' and 'South florida. not not far from Miami.'",
+          "value": "South Florida, near Miami",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'from Pittsburgh originally'.",
+          "value": "Pittsburgh, Pennsylvania",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states it is 6:00 while speaker_a is 3:00; later says 'I have 6:26', consistent with Eastern time zone.",
+          "value": "Eastern Time zone",
+          "lines": [
+            42,
+            340
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b mentions 'my daughter is in 5th grade' and 'I have a son in college', showing she is a mother of at least two children.",
+          "value": "mother of two children",
+          "lines": [
+            110,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my husband works', indicating she is married.",
+          "value": "married woman",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my husband' and notes he works at the school.",
+          "value": "has a husband (school employee)",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my daughter is in 5th grade'.",
+          "value": "has a daughter in 5th grade",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a son in college', later noting he is in his second year, majoring in criminal justice, and was in the military.",
+          "value": "has a son (college student, criminal justice major, military veteran)",
+          "lines": [
+            136,
+            178,
+            190,
+            224,
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b's garbled line mentions 'prolific' and the conversation is a Prolific study, implying she participates in online studies.",
+          "value": "participates in online studies (Prolific)",
+          "lines": [
+            4,
+            38
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'we tried to do a lot was go to the parks' and 'we were going to the beach fairly regularly'.",
+          "value": "enjoys going to parks and beach",
+          "lines": [
+            68,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I always hear that on the weather channel'.",
+          "value": "watches the Weather Channel",
+          "lines": [
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'd rather be shot than cold' (likely 'hot than cold'), expressing a preference for warm weather.",
+          "value": "prefers warm weather",
+          "lines": [
+            318
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

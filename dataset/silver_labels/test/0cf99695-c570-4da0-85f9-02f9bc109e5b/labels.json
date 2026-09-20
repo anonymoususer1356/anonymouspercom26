@@ -1,0 +1,254 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I do a lot of volunteer work with them um you know environmental non profits' and names Sierra Club as an example, showing membership in that group.",
+          "value": "Volunteer for environmental nonprofits",
+          "lines": [
+            125,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did go back to school for policy, hoping I could do something in that' indicating a return to education in policy studies.",
+          "value": "Went back to school for policy studies",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a confirms they were furloughed from a nonprofit job when speaker_b asks; lines 225-227 make this explicit.",
+          "value": "Furloughed from a nonprofit job",
+          "lines": [
+            225,
+            226,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having done a prior study on Prolific (lines 235,237) and doing transcription work (line 245), indicating participation in online crowdwork for income.",
+          "value": "Participates in crowdwork on Prolific and transcription platforms",
+          "lines": [
+            235,
+            237,
+            245
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'sometimes I talked to friends more recently because of the pandemic', establishing social ties.",
+          "value": "Has friends with whom they video chat",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Explicit statement 'I do a lot of volunteer work with them... environmental non profits'.",
+          "value": "Volunteers for environmental nonprofits",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do some work with animal rescues too'.",
+          "value": "Volunteers for animal rescues",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes attending instructional video presentations for volunteering, e.g., 'just for my volunteering' and 'seminar type thing or lecture'.",
+          "value": "Attends instructional video seminars for volunteering",
+          "lines": [
+            121,
+            122,
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a notes 'this is just like curtains behind me' when discussing video backgrounds.",
+          "value": "Uses curtains as background for video calls",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions participating in Prolific studies and transcription tasks, showing how they spend time online.",
+          "value": "Spends time on crowdwork platforms (Prolific, transcription)",
+          "lines": [
+            235,
+            237,
+            245
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b explicitly says 'I live in like a college community' (line 128), 'I live right in back of the dumpster' (line 136), and 'the building that are living got sold' (line 40). All statements combine to describe their residence.",
+          "value": "Lives in a college community, behind a dumpster, in a building that was sold",
+          "lines": [
+            40,
+            128,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I took like two years in college for computer security', indicating educational background.",
+          "value": "Has taken two years of college in computer security",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they pay '$99 for $95' (ASR) for Xfinity, later clarifies that includes taxes/fees, and complains about speeds of 300-400 Mbps on a 1 Gbps plan.",
+          "value": "Pays $95/month for Xfinity internet (1 Gbps plan, actual speeds ~300-400 Mbps)",
+          "lines": [
+            40,
+            42,
+            32,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions previously paying 'about 3 $33' by the year and getting up to 100 megabits, implying ~$33/month for slower speed.",
+          "value": "Previously paid ~$33/month for 100 Mbps internet with a small company",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I work from... home' (line 72), is on Mechanical Turk for years (line 78-80), gets paid pennies (line 90), and is new to Prolific (line 238). This shows work-from-home crowdwork as income source.",
+          "value": "Works from home as a crowdworker on Mechanical Turk and Prolific, earning low pay",
+          "lines": [
+            72,
+            78,
+            80,
+            90,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b describes a 'geriatric dog' that is 13 years old, a mix, and a rescue (lines 172,176,178).",
+          "value": "Owns a 13-year-old mixed-breed rescue dog",
+          "lines": [
+            172,
+            176,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a previous rescue dog that was a husky and lived 8 years (lines 178,180).",
+          "value": "Previously owned a husky rescue dog that lived 8 years",
+          "lines": [
+            178,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they were watching 'kit baga' (ASR for Kitboga) on Twitch, a scam baiter, and 'I like twitch a lot'.",
+          "value": "Watches Twitch streamer Kitboga (scam baiter)",
+          "lines": [
+            8,
+            10,
+            16,
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states they are 'always checking the internet speed' and use fast.com, refreshing constantly.",
+          "value": "Constantly monitors internet speed using fast.com",
+          "lines": [
+            30,
+            32,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using multiple platforms: Mechanical Turk, Prolific, UserCrowd, YouGov, PaidViewpoint (lines 78-80,238,248,250,256,258).",
+          "value": "Uses multiple crowdwork and survey platforms including Mechanical Turk, Prolific, UserCrowd, YouGov, PaidViewpoint",
+          "lines": [
+            78,
+            80,
+            238,
+            248,
+            250,
+            256,
+            258
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I am um subscribe to security', indicating they follow computer security news or updates.",
+          "value": "Subscribes to computer security news/updates",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions having a screen for background but says 'it's all the way in the bar' and 'I guess I took out the screen the next time but oh, it's too late now', implying they own a screen but haven't set it up.",
+          "value": "Has a screen for video background but hasn't set it up",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes clearing cache, history, and cookies when internet pages don't load (line 92).",
+          "value": "Clears browser cache, history, and cookies when experiencing internet problems",
+          "lines": [
+            92
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

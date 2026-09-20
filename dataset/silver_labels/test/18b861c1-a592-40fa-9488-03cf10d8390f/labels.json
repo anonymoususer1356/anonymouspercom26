@@ -1,0 +1,255 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b reports that speaker_a said her name is tammy, and speaker_a does not correct it.",
+          "value": "tammy",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Des Moines, Iowa.",
+          "value": "Des Moines, Iowa",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name tammy, mention of 'my adult son', and discussing complaints about women and her own dress style strongly suggest female gender.",
+          "value": "female",
+          "lines": [
+            6,
+            27,
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about chemistry, lab work, connecting with science people, and when asked confirms she used to be a scientist but took a different path.",
+          "value": "former scientist",
+          "lines": [
+            67,
+            71,
+            79,
+            80,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes herself as weird and says she frequents nerdy geek forums.",
+          "value": "nerd/geek",
+          "lines": [
+            55,
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says her anxieties have tripled recently due to working with catty women.",
+          "value": "anxiety",
+          "lines": [
+            237
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explicitly states she is not very tolerant of the heat.",
+          "value": "heat intolerance",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a confirms she has done these survey calls before, mentions the survey and Prolific, indicating she participates in paid online studies.",
+          "value": "participates in online surveys/studies (e.g., Prolific)",
+          "lines": [
+            8,
+            13,
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my adult son' and 'my sons' (plural), indicating she has adult children, at least two sons.",
+          "value": "adult sons (at least two)",
+          "lines": [
+            27,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a close friend she met on IRC in 1998, describing him as a super nerd, Israeli jew, barely verbal code writer, former Amazon employee.",
+          "value": "close friend from IRC (Israeli, super nerd, former Amazon employee)",
+          "lines": [
+            135,
+            143,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she has been online since around 1993, using IRC, and currently frequents nerdy/geek forums.",
+          "value": "long-time heavy internet user with nerdy/geek interests",
+          "lines": [
+            47,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she is on her enclosed porch and enjoys spending time there, especially on nice days.",
+          "value": "enjoys spending time on her enclosed porch",
+          "lines": [
+            185,
+            253,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes recent experience working with super catty women and office politics, indicating her current work environment.",
+          "value": "currently works with catty women/office politics",
+          "lines": [
+            225,
+            237
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b directly introduces himself as Ted, and later recounts his parents saying 'Ted, no, I didn't.'",
+          "value": "Ted",
+          "lines": [
+            4,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states that currently he is in Maryland.",
+          "value": "Maryland",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b directly states his age as 34.",
+          "value": "34",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Ted, references to being a male child gamer and interacting with older male gamers, and overall context indicate male gender.",
+          "value": "male",
+          "lines": [
+            4,
+            82,
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes being on IRC for gaming at age 10-11, into Half-Life and Counter-Strike.",
+          "value": "gamer (especially in childhood)",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b asks if speaker_a has done one of these before, admits he missed his scheduled session, and agrees to the mention of Prolific, showing he also participates in these paid study calls.",
+          "value": "participates in online surveys/studies (e.g., Prolific)",
+          "lines": [
+            8,
+            16,
+            21
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his father lived in Minnesota and he visited him.",
+          "value": "father",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my mom' not knowing about the internet.",
+          "value": "mother",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my step mom' regarding Minnesota accent.",
+          "value": "step-mother",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about his grandfather being a janitor and an artist.",
+          "value": "grandfather",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he would drive from Minneapolis to Denver through Iowa to visit his father, indicating travel to see family.",
+          "value": "travels to visit family (drove through Iowa)",
+          "lines": [
+            202
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

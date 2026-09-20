@@ -1,0 +1,360 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Cincinnati run' (ASR error for 'I'm in Cincinnati right now') in line 9, and later refers to Cincinnati and Ohio. Confirmed by context.",
+          "value": "Cincinnati, Ohio",
+          "lines": [
+            9,
+            13,
+            91,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I live near like the fraternity houses' (line 91) and 'here there was like no yard because I'm like pretty close I guess to the center of the city' (line 147).",
+          "value": "close to center of Cincinnati, near fraternity houses, without a yard",
+          "lines": [
+            91,
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm from New Jersey originally' in line 13.",
+          "value": "originally from New Jersey",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm doing a grad um program here' (line 13); speaker_b asks 'So you're in school?' and speaker_a confirms 'Mm hmm. Yeah.' (lines 20-21); later discusses remote classes (line 85).",
+          "value": "graduate student",
+          "lines": [
+            13,
+            20,
+            21,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do like computational biology staff' (ASR error for 'stuff') in line 47.",
+          "value": "computational biology major",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I actually signed up to be in one of the vaccine trials' (line 229), 'I need to go to like the screening still to make sure I'm like eligible' (line 233), and mentions it's phase three (line 235).",
+          "value": "signed up for a COVID-19 vaccine trial (phase 3), screening pending",
+          "lines": [
+            229,
+            233,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I don't get paid like much money to be a grad student' (line 233; ASR 'abroad student' interpreted as 'a grad student').",
+          "value": "low income as a graduate student",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a acknowledges the trial pays: 'I guess they pay you to do that' (line 232) and 'the money helps' (line 233).",
+          "value": "expects payment for participating in vaccine trial",
+          "lines": [
+            232,
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'air conditioning doesn't work very well in this house' (line 149).",
+          "value": "resides in a house with poor air conditioning",
+          "lines": [
+            149
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 11: 'My sister used to live there' (Brooklyn/NY); line 213: 'My sister lives in California and she works in a nursing home'. Thus sister previously lived in Brooklyn, now in California, works in a nursing home.",
+          "value": "sister who lives in California and works in a nursing home",
+          "lines": [
+            11,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 17: 'I am like family that's in Ohio' (ASR likely 'I have family that's in Ohio').",
+          "value": "family in Ohio",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'they live like 45 minutes outside of the city' (line 27, referring to family near NYC), 'my dad's a teacher' (line 75), 'he teaches special ed students' (line 79), and 'I stayed with my family in New Jersey' (line 141).",
+          "value": "family in New Jersey; father is a special education teacher",
+          "lines": [
+            27,
+            75,
+            79,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 39: 'maybe like five miles from the beach' referring to family's home during Sandy, which is in New Jersey.",
+          "value": "family lives about 5 miles from the beach",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 115: 'I have friends who are teachers'.",
+          "value": "has friends who are teachers",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 85: 'my classes are gonna be remote'.",
+          "value": "taking remote graduate classes",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 125: 'I am trying to like it quarantine I guess and probably just go get groceries and really I'll go up park or something' (ASR garbled but meaning clear).",
+          "value": "goes to park and grocery store while trying to quarantine",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 177: 'I went to the Cincinnati is there a couple weeks ago' (ASR for 'I went to the Cincinnati Zoo a couple weeks ago').",
+          "value": "visited the Cincinnati Zoo recently",
+          "lines": [
+            177
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 189: 'I don't, I mean I don't watch it, but I've heard that it's back' in response to baseball.",
+          "value": "does not follow baseball",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 91 and 99: lives near fraternity houses and sees partying.",
+          "value": "lives near fraternity houses and observes partying",
+          "lines": [
+            91,
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in new york new york Brooklyn Brooklyn' (line 10), and later 'we're in Brooklyn' (line 140).",
+          "value": "Brooklyn, New York",
+          "lines": [
+            10,
+            68,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'we have a house that has land so we have a backyard with a pool' (line 140), earlier references 'the house' (line 42) and driveway with hoop (line 130).",
+          "value": "lives in a house with backyard and land",
+          "lines": [
+            140,
+            42,
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to herself as 'stay at home mom' (line 64).",
+          "value": "female",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have an eight year old daughter' (line 62) and 'she's in second grade' (line 112).",
+          "value": "parent of an 8-year-old daughter",
+          "lines": [
+            62,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'Right now I'm just to stay at home parent' (line 60) and 'stay at home mom' (line 64).",
+          "value": "stay-at-home parent",
+          "lines": [
+            60,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I worked in banking. I used to work for a Bank of America' (line 62).",
+          "value": "former Bank of America employee in banking",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when I became pregnant I quit my job' (line 62).",
+          "value": "quit job to become stay-at-home parent",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we have a house that has land... backyard with a pool' (line 140) and 'we put up an above ground swimming pool' (line 126).",
+          "value": "owns a house in Brooklyn with backyard and above-ground pool",
+          "lines": [
+            126,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We lost the car during Sandy our car flooded' (line 40) and 'it's stuck to lose a car' (line 44, ASR for 'it sucks to lose a car').",
+          "value": "lost a car due to Hurricane Sandy flooding",
+          "lines": [
+            40,
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b states 'I have an eight year old daughter' (line 62).",
+          "value": "8-year-old daughter",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b consistently uses 'we' in contexts of shared home, decisions, car loss, pool, and baseball fandom, implying a co-parent spouse/partner.",
+          "value": "spouse/partner (implied by consistent use of 'we')",
+          "lines": [
+            40,
+            42,
+            72,
+            126,
+            140,
+            190
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'you know someone that died from it' (line 226), referring to COVID-19.",
+          "value": "knows someone who died from COVID-19",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've had a couple of friends that have had it' (line 218) concerning COVID-19.",
+          "value": "friends who contracted COVID-19",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'the mets we pour met fans' (ASR for 'we're Mets fans') in line 190.",
+          "value": "New York Mets fan",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We've been watching baseball. We're glad baseball is back' (line 186).",
+          "value": "watches baseball on TV",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes having a pool, bike riding with daughter, and basketball hoop (lines 126, 130, 138).",
+          "value": "enjoys backyard pool and outdoor activities with daughter (biking, basketball)",
+          "lines": [
+            126,
+            130,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says daughter loved ninja warrior, went to a facility every Saturday, climbs walls, and now plays basketball (lines 132, 134, 136, 138).",
+          "value": "daughter participates in ninja warrior, basketball, biking",
+          "lines": [
+            132,
+            134,
+            136,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

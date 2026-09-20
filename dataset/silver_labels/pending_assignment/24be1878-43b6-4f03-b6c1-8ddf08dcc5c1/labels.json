@@ -1,0 +1,440 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is 10 Atlanta' in line 7, likely an ASR error for a name or username.",
+          "value": "10 Atlanta",
+          "lines": [
+            7
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I am in Tampa florida' (line 9), 'still in the bubble of florida' (line 39), and 'I don't know anything else other than florida' (line 59).",
+          "value": "Tampa, Florida",
+          "lines": [
+            9,
+            39,
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'what I currently do, which is software development' (line 71).",
+          "value": "software developer",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes their commute (line 43) and states they are 'required to work from home' (line 45); line 71 confirms software development is their current occupation.",
+          "value": "employed as a software developer, working from home",
+          "lines": [
+            43,
+            45,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they found Prolific via Reddit (line 169) and 'it's the only one I use so far' (line 171).",
+          "value": "uses Prolific to earn extra money online",
+          "lines": [
+            169,
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'being searches' (Bing searches) as an easy way to earn about $5 a month (line 173).",
+          "value": "uses Bing searches to earn small amounts",
+          "lines": [
+            173
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I have two wild dogs and there on the couch' (line 35).",
+          "value": "has two dogs",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I try not to keep up with all of it' (line 13) and 'I lived in a safe bubble where I don't really pay attention to like all of the pandemic news' (line 15).",
+          "value": "avoids pandemic news",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm also looking forward to traveling' (line 41) and 'I was thinking like kind of a nomad backpacking life' (line 75).",
+          "value": "aspires to travel and live a nomadic lifestyle",
+          "lines": [
+            41,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they would teach English abroad if their software development career fails (line 71).",
+          "value": "considers teaching English abroad as a backup plan",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a aligns with speaker_b's goal of growing a beard, mentioning 'minoxidil' (line 259).",
+          "value": "attempting to grow a beard using minoxidil",
+          "lines": [
+            259
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'now I'm like required to work from home' (line 45).",
+          "value": "works from home",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'it's been a lazy weekend' and 'I've just been a potato kind of lazy' (line 13).",
+          "value": "enjoys lazy weekends",
+          "lines": [
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I've never actually left florida for vacation other than like work interviews' (line 39).",
+          "value": "has never left Florida for a vacation",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b compliments speaker_a's shirt (line 246); speaker_a replies 'It's a, you see it, that's me' (line 247), indicating the shirt bears a personal image or design.",
+          "value": "wearing a shirt with a personal image/design",
+          "lines": [
+            246,
+            247
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a acknowledges using minoxidil for beard growth (line 259), implying current facial hair is not fully developed.",
+          "value": "attempting to grow a beard",
+          "lines": [
+            259
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses speaker_b as Kevin (line 5), and speaker_b confirms 'My name is Kevin' (line 6).",
+          "value": "Kevin",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the name is available for us two' (line 204) and 'the number two that's my my reddit handle' (line 206), giving the Reddit handle 'availableforus2'.",
+          "value": "availableforus2",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Atlanta' (line 8) and 'I ended up just coming back home to Atlanta' (line 24).",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            8,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'now I'm currently 26' (line 106).",
+          "value": "26 years old",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b's name is Kevin, he refers to growing a beard (line 256) and is a powerlifter (line 230); male gender is strongly implied.",
+          "value": "male",
+          "lines": [
+            6,
+            256,
+            230
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b grew up in Atlanta, mentions traveling 'within the U.S.' (line 94‑95) and identifies with American speech patterns (line 304).",
+          "value": "American",
+          "lines": [
+            94,
+            95,
+            304
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'immediately after I graduated from university' (line 48).",
+          "value": "university graduate",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like speak some chinese' (line 50).",
+          "value": "speaks some Chinese",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I grew up like a overweight, like borderline obese kid' (line 280).",
+          "value": "was overweight/obese as a child",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b lost job opportunities due to the pandemic (line 22), his last job ended August 2019 (line 136), and he applies for at least five jobs a day (line 262).",
+          "value": "unemployed and actively job searching",
+          "lines": [
+            22,
+            136,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using Prolific (line 143), StreetBees (line 154), The Scout (line 160), and a paid voice gig (line 166).",
+          "value": "uses online gig platforms (Prolific, StreetBees, etc.) for income",
+          "lines": [
+            143,
+            154,
+            160,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I created like a job search support group in october 2019' (line 140).",
+          "value": "runs a job search support group",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about getting brand deals as a powerlifter to earn money (line 266).",
+          "value": "seeks brand deals as a powerlifter for income",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my brother got sick' (line 24).",
+          "value": "has a brother",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I hang out with my dog' (line 262).",
+          "value": "has a dog",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my whole family' (line 24) and traveling with family (line 94).",
+          "value": "has family (parents, etc.)",
+          "lines": [
+            24,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to friends multiple times (e.g., 'my friends' line 66, 'old gym friends' line 290).",
+          "value": "has friends",
+          "lines": [
+            66,
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes traveling to China, Taiwan, Japan, Korea, Hong Kong, Germany, Netherlands, France (lines 50, 54, 70, 82).",
+          "value": "frequent international traveler",
+          "lines": [
+            50,
+            54,
+            70,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm like a power lifter' (line 230) and discusses competition plans.",
+          "value": "powerlifter",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b exercises regularly, owns home gym equipment (lines 230, 262, 280).",
+          "value": "exercises regularly",
+          "lines": [
+            230,
+            262,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm hoping I can grow a beard' (line 256) and that it's 'not really there yet' (line 258).",
+          "value": "attempting to grow a beard",
+          "lines": [
+            256,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I apply for at least five a day' (line 262).",
+          "value": "applies for at least five jobs per day",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having a personal YouTube channel with two videos from when he was in Taiwan (line 360).",
+          "value": "has a personal YouTube channel with travel videos",
+          "lines": [
+            360
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he 'took a job teaching english there' (line 66) and worked in Taiwan for a year (line 68).",
+          "value": "taught English in Taiwan",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was in New York City when the pandemic started, staying in an Airbnb (line 18, 22).",
+          "value": "lived in New York City",
+          "lines": [
+            18,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b studied abroad in Shanghai during university (line 50).",
+          "value": "studied abroad in Shanghai",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is currently applying to teach abroad again, this time with the U.S. government (lines 120‑124).",
+          "value": "applying to teach English abroad through U.S. government programs",
+          "lines": [
+            120,
+            121,
+            122,
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b writes a daily to‑do list of money‑making and other tasks (lines 174, 176, 178).",
+          "value": "writes a daily task list",
+          "lines": [
+            174,
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says his beard is 'not really there yet' (line 258) and he is using minoxidil to help (line 260).",
+          "value": "sparse facial hair / beard not fully grown",
+          "lines": [
+            256,
+            258,
+            260
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

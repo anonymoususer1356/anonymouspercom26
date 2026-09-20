@@ -1,0 +1,343 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 7 'I'm from texas'; lines 14-15 speaker_b asks 'Houston?' and speaker_a's garbled reply 'They're history.' is interpreted as confirmation; lines 20-21 speaker_b mentions Houston and speaker_a says 'Yeah.' to enjoying living there.",
+          "value": "Houston, Texas",
+          "lines": [
+            7,
+            14,
+            15,
+            20,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 31 'I lived in Ohio, so several years ago.'; line 35 'I first came to Ohio. So it's called at Dayton'. ASR 'at Dayton' means Dayton, Ohio.",
+          "value": "Dayton, Ohio",
+          "lines": [
+            31,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 42-43 speaker_b asks 'What part of India where you from?' speaker_a replies 'hydra belt' which is phonetically Hyderabad. Line 233 reaffirms 'I'm from south India'.",
+          "value": "Hyderabad, India",
+          "lines": [
+            42,
+            43,
+            233
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 23 'Actually, I'm originally from India.' and line 43 city name.",
+          "value": "Indian origin",
+          "lines": [
+            23,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 33 'I've been living in this country about 10 years approximately.'",
+          "value": "lived in the US for about 10 years",
+          "lines": [
+            33
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 55 'I'm engineered to some a computer programmer.' ASR for 'I'm an engineer, I'm a computer programmer.'",
+          "value": "computer programmer (engineer)",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55 'I'm working from home right now.' and line 57 'I have a high speed internet.'",
+          "value": "works from home with high-speed internet",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 65 'I used to go to the gym but you know, have a membership but right now I'm not able to go to gyms.'",
+          "value": "has a gym membership (currently unused)",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 100-101 speaker_b asks 'do you have a family or no' speaker_a answers 'Yeah my wife and kids so they just went out for a walk'.",
+          "value": "married with wife and kids",
+          "lines": [
+            100,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 138-139 speaker_b asks about family back in India, speaker_a says 'Yeah. How my parents, they usually call them every other day just to see how they're doing.'",
+          "value": "parents live in India, calls them every other day",
+          "lines": [
+            138,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 225 'I actually uh I also have a couple of Mexican friends read.'",
+          "value": "has Mexican friends",
+          "lines": [
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 185 'my friend being there and he said the first super clean' referring to Singapore.",
+          "value": "has a friend who has been to Singapore",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 89 'I learned how to cook though', 91 'I really don't know how to cook', 95 'I used to eat outside like fast food ... I started making it more homemade meals'.",
+          "value": "learned to cook during pandemic, now makes homemade meals",
+          "lines": [
+            89,
+            91,
+            95
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 101 'I never really cooked their help much ... now I'm taking care of ... a cleaning and ... much part'",
+          "value": "now helps more with housework, cleaning",
+          "lines": [
+            101
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 157 'easily go to walk like once a week and I once or twice a week'",
+          "value": "goes for walks once or twice a week",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 165 'I've been to Hawaii last year November, so 10 days with my wife and kids.'",
+          "value": "traveled to Hawaii in November last year for 10 days with wife and kids",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 165 'I've been to Hawaii and florida' mentions Florida.",
+          "value": "traveled to Florida",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 207 'I've been to Mexico a couple of years ago, like for three days went to Mexico city and Guadalajara there', 213 'I also went to a place called uh san Miguel de Allende'.",
+          "value": "traveled to Mexico City, Guadalajara, and San Miguel de Allende",
+          "lines": [
+            207,
+            213,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 175 'I've been to Malaysia' and later clarifies he has not been to Singapore.",
+          "value": "traveled to Malaysia",
+          "lines": [
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Lines 9-10 speaker_b confirms 'Michigan? Yeah.'; line 30 'I'm born and raised in michigan. So I've I've lived here my whole life.'; line 244 'I grew up here, I've always lived here'.",
+          "value": "Michigan",
+          "lines": [
+            9,
+            10,
+            30,
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 114 'I work, I work in office furniture', line 118 'I work so office for, so I sell to businesses.'",
+          "value": "works in office furniture sales",
+          "lines": [
+            114,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 124 'We've already had some layoffs.'",
+          "value": "company has experienced layoffs",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 62 'I was working from home for, you know, since March and this this last week they made me go back in the office'; line 66 'I worked from home since March until until last weekend'.",
+          "value": "worked from home from March until recently, now back in office",
+          "lines": [
+            62,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 68 'we've been using Microsoft teams'",
+          "value": "uses Microsoft Teams for work",
+          "lines": [
+            68
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 102 'I got I got two kids and my wife as well'; lines 258/262 'My kids are, I had one that's in sixth grade and one that was in high school'.",
+          "value": "married, two kids (one in sixth grade, one in high school)",
+          "lines": [
+            102,
+            258,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 38 'A good friend of mine was from Bangalore. He came over ... as an engineer for about five or six years when he moved to pennsylvania, but I still still talk to him pretty regularly.'",
+          "value": "has a good friend from Bangalore (engineer, moved to Pennsylvania)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 158 'I was taking my kids, they ride horses'.",
+          "value": "children ride horses",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 102 'trying to get out get out and do walks you know with everybody'.",
+          "value": "goes for walks with family",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 104 'I got to where I was cooking myself pretty good lunches every day', 108 'I'm start hauling a cold lunch with me to torture.'",
+          "value": "used to cook lunches at home, now brings cold lunch to work",
+          "lines": [
+            104,
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 166 'made it to Malaysia and Singapore', 172 'I went to Singapore', 182 'I was there on business'.",
+          "value": "traveled to Singapore on business",
+          "lines": [
+            166,
+            172,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 166 'made it to Malaysia'.",
+          "value": "traveled to Malaysia",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 166 'I have been to florida'.",
+          "value": "traveled to Florida",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 218 'I went down for work to Guadalajara two or three times', 220 'flew into Mexico city and had to take a bus through Mexico city'.",
+          "value": "traveled to Guadalajara, Mexico for work (multiple times)",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 224 'I went to another place called Connect zero, correct? It was about an hour and a half north of Mexico city'. 'Connect zero' phonetically resembles Querétaro.",
+          "value": "traveled to Querétaro, Mexico",
+          "lines": [
+            224
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 30 'I went to san Antonio and Dallas once'.",
+          "value": "traveled to San Antonio and Dallas, Texas",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

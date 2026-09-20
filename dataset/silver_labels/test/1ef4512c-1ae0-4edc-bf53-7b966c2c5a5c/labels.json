@@ -1,0 +1,521 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a gives his name directly at line 7.",
+          "value": "Grayson",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "At lines 97 and 99 he refers to himself as an American when explaining why he was denied entry to Poland ('they weren't allowing americans').",
+          "value": "American citizen",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I also have a Philippine passport' at line 113 and discusses the Philippine consulate in lines 115 and 119.",
+          "value": "Philippine passport holder",
+          "lines": [
+            113,
+            115,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is from California (line 9), and in line 13 he clarifies 'I've been fontana too far' (Fontana). Line 47 confirms 'most of my life in fontana'.",
+          "value": "Fontana, California",
+          "lines": [
+            9,
+            13,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he is currently 'here at home' (line 113) while discussing his California driver's licence and DMV (lines 139, 161), implying he is in California now.",
+          "value": "Currently in California, USA",
+          "lines": [
+            113,
+            139,
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states 'I spend half the year in europe now' (line 45) and 'I spent most of my time bouncing between Serbia and Poland' (line 47); later he mentions coaching and playing there (line 49, 161).",
+          "value": "Spends half the year in Europe (Serbia and Poland)",
+          "lines": [
+            45,
+            47,
+            49,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "At line 145 he says 'now I'm 30' and mentions his driver's licence photo is from age 15.",
+          "value": "Age 30",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He identifies himself as an American at lines 97 and 99.",
+          "value": "American nationality",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He holds a Philippine passport (line 113), indicating Filipino ethnicity.",
+          "value": "Filipino ethnicity",
+          "lines": [
+            113
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'After I finished university' (line 49) and 'I majored in math' (line 225).",
+          "value": "College graduate, major in mathematics",
+          "lines": [
+            49,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he played American football in Serbia and Poland and has been coaching in Poland (line 49), confirmed by 'I'm a coach now' context (line 253).",
+          "value": "American football coach and former player",
+          "lines": [
+            49,
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says 'I always lose £10 every time I go back' (line 77), referring to returning to Europe.",
+          "value": "Loses 10 pounds when in Europe",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He describes being denied re‑entry to Poland because of his US passport during Covid‑19 restrictions (lines 93–103).",
+          "value": "Denied re‑entry to Poland by Polish/EU authorities due to US passport",
+          "lines": [
+            93,
+            95,
+            97,
+            99,
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states his Philippine passport expired and he cannot renew because the consulate has no appointments until February (lines 113, 115).",
+          "value": "Philippine passport expired; unable to renew due to consulate backlog",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his California driver's licence expired but he was allowed to renew online due to the pandemic (lines 139, 141).",
+          "value": "California driver's licence renewed online during pandemic",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He recounts a police checkpoint in Serbia where he showed his California licence and was eventually let go (line 161).",
+          "value": "Encountered police checkpoint in Serbia; allowed to proceed with US licence",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He says 'in Poland, I lost my job because they closed the country' (line 211), and he previously stated he was coaching there (line 49).",
+          "value": "Lost coaching job in Poland due to pandemic shutdown",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he received a Pell grant of $5,500 and had money left after two semesters (lines 285–287).",
+          "value": "Received Pell grant; had money left after books and tuition",
+          "lines": [
+            285,
+            286,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he played American football in Serbia and Poland before coaching (line 49).",
+          "value": "Former professional/semi‑pro American football player in Serbia and Poland",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my roommate who also played for the team' in Serbia (line 169).",
+          "value": "Had a roommate/teammate in Serbia",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes the owner of the team he played for in Serbia, who lent them a Jaguar (lines 165, 169).",
+          "value": "Had a team owner/boss in Serbia who lent him a Jaguar",
+          "lines": [
+            165,
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he coaches football in Poland (line 49, 95, 211).",
+          "value": "Coaches American football in Poland",
+          "lines": [
+            49,
+            95,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he spends half the year in Europe (lines 45, 47).",
+          "value": "Transatlantic lifestyle (half year in Europe, half in California)",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they lived in the basement of the team owner's office building in Serbia (line 167).",
+          "value": "Lived in the basement of an office building in Serbia",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He recounts driving the team owner's Jaguar in Serbia (line 169).",
+          "value": "Drove team owner's Jaguar in Serbia",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he gets carded every time he buys alcohol, even at 30 (line 149).",
+          "value": "Gets carded for alcohol purchases",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He notes walking and biking are much more common in Europe, and he loses weight when there (lines 75, 77).",
+          "value": "Walks and bikes extensively while in Europe",
+          "lines": [
+            75,
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He is carded every time he buys alcohol despite being 30 (line 149), implying a youthful appearance.",
+          "value": "Looks young for his age",
+          "lines": [
+            149
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She gives her name as 'Isha' at line 6; speaker_a repeats it at line 7. The initial 'Alicia' at line 2 is an ASR error.",
+          "value": "Isha",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'with Canada um you can't even if you're a citizen which I am' at line 112.",
+          "value": "Canadian citizen",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I had to go to the indian consulate' because her U.S. ID is tied to her passport (line 84), implying Indian nationality or an Indian passport.",
+          "value": "Indian nationality/passport holder",
+          "lines": [
+            84
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I'm still in a visa unfortunately' at line 86.",
+          "value": "U.S. visa holder",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked 'What part' she answers 'Irvine' (line 12), and says 'I'm actually from here' (line 24) where 'here' is California.",
+          "value": "Irvine, California",
+          "lines": [
+            12,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm only in California because of corona' (line 22) and is 'done being home with family' (line 214), indicating she is currently in California.",
+          "value": "Currently in California (due to pandemic)",
+          "lines": [
+            22,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I go to college in Canada' (line 24) and specifies 'I'm in Vancouver' (line 42).",
+          "value": "Attends college in Vancouver, Canada",
+          "lines": [
+            24,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm 20' at line 154.",
+          "value": "Age 20",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she goes to college in Canada (line 24), her program is described as a combination with a business minor (line 220), she mentions 'econ' (line 278), and 'Nikon' is a likely ASR error for economics (line 250).",
+          "value": "College student, economics/business major",
+          "lines": [
+            24,
+            26,
+            219,
+            220,
+            278,
+            250
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Her visit to the Indian consulate (line 84) implies Indian ethnicity.",
+          "value": "Indian ethnicity",
+          "lines": [
+            84
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She says 'I'm still in a visa unfortunately' (line 86).",
+          "value": "U.S. visa holder",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'the I.R.S. had my passport because they needed to renew something and then when it came back it was expired' (line 84).",
+          "value": "Passport held by IRS and returned expired",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her U.S. ID is tied to her passport, so she had to visit the Indian consulate (line 84).",
+          "value": "Visited Indian consulate for ID tied to passport",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions getting her licence at 17 (line 154) and later trying to renew her passport; she currently holds a California driver's licence.",
+          "value": "California driver's licence holder",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explicitly says she is a Canadian citizen (line 112).",
+          "value": "Canadian citizen",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She states 'so my parents are paying for my degree' (line 234).",
+          "value": "Parents pay for college education",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she worked part‑time for one year in Canada but did not save enough to cover a degree (line 234).",
+          "value": "Worked part‑time in Canada for one year",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'unfortunately someone a visa, I can't work in the States' (line 234).",
+          "value": "Cannot work in the U.S. due to visa restrictions",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is 'trying to find an internship for … next term so I can go back to Canada' (line 214).",
+          "value": "Seeking internship in Canada",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains she chose college in Canada because it was cheaper than California (line 26).",
+          "value": "Chose college in Canada for cheaper tuition",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'a lot of my friends in school or from europe' (line 80).",
+          "value": "Has friends from Europe at college",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a tradition with friends: ice skating then going to a pub for beers every Tuesday (line 310).",
+          "value": "Has a friend group with a Tuesday ice‑skating and pub tradition",
+          "lines": [
+            310
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm so done being home with family' (line 214), indicating she lives with her family in California.",
+          "value": "Lives with family in California",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says her school is online and she is currently at home with family (line 214).",
+          "value": "Online college student living at home",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes going to pubs for beers with friends every Tuesday (line 310).",
+          "value": "Enjoys social drinking with friends",
+          "lines": [
+            310
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says in Vancouver she did not drive because public transit is excellent and cheap for students (line 158).",
+          "value": "Uses public transport, not driving, in Vancouver",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is 'sick of California' (line 280) and 'so done being home with family' (line 214), indicating boredom and eagerness to leave.",
+          "value": "Bored with California, eager to return to Canada",
+          "lines": [
+            214,
+            280
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

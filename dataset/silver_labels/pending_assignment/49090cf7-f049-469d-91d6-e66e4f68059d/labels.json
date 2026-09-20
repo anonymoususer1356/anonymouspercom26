@@ -1,0 +1,421 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Utah.' directly.",
+          "value": "Utah",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'We lived in Oregon for about 11 years. Um Just a suburb of Portland' and describes the distance to the beach and Portland.",
+          "value": "Portland, Oregon area (suburb, lived 11 years)",
+          "lines": [
+            179,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I lived in England for a little bit.'",
+          "value": "England (lived)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did a study in London.'",
+          "value": "London, England (studied)",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I have three kids' and gives their ages: '16 year old, a 14 year old and an 11 year old'.",
+          "value": "parent of three children (ages 16, 14, 11)",
+          "lines": [
+            73,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my husband' in line 197.",
+          "value": "married",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I am a tutor for kids with dyslexia.'",
+          "value": "tutor for kids with dyslexia",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my husband'.",
+          "value": "husband",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states having three children and gives their ages.",
+          "value": "three children (16, 14, 11)",
+          "lines": [
+            73,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a dog that is a pug/Boston terrier mix, 7 months old. Line 229 ASR output 'Ben' is corrected to 'Finn' based on subsequent turns where speaker_b asks 'Finn?' and speaker_a confirms.",
+          "value": "dog Finn (pug/Boston terrier mix, 7 months old)",
+          "lines": [
+            23,
+            27,
+            229,
+            232,
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'we like to travel, we've been trying to go good for different states.'",
+          "value": "enjoys traveling to different US states",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I like photography' and clarifies 'portraits mostly' and uses it with her kids.",
+          "value": "photography (portraits)",
+          "lines": [
+            67,
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did a study in London.'",
+          "value": "studied in London",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did travel to Scotland for a little bit too reserved for about a week.'",
+          "value": "visited Scotland for about a week",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says the dog is hyperactive and 'I'm trying lots of training lots of toys.'",
+          "value": "dog training",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b tells speaker_a 'You definitely do not look old enough to have teenagers.'",
+          "value": "perceived as looking younger than expected for having teenage children",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Arizona.' and confirms it with air conditioning mention.",
+          "value": "Arizona",
+          "lines": [
+            16,
+            18,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to live in ogden' and mentions driving from Ogden to Arizona.",
+          "value": "Ogden, Utah (formerly lived)",
+          "lines": [
+            12,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Japan for eight years' when asked where she lived abroad.",
+          "value": "Japan (lived 8 years)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'europe for three years because we were stationed in Germany.'",
+          "value": "Germany (stationed 3 years)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I did live with his parents in England for some of that time' and names 'Bury St Edmunds' as coastal.",
+          "value": "Bury St Edmunds, England",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is from the Southeast (accent) and lists childhood states: Alabama, Tennessee, Mississippi, Florida.",
+          "value": "Southeast USA (Alabama, Tennessee, Mississippi, Florida) - childhood",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm actually irish' in a discussion about ancestry.",
+          "value": "Irish descent",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm an onerous gemini' (ASR likely 'notorious Gemini').",
+          "value": "Gemini (astrological sign)",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b repeatedly states she has no children and is pleased about it; also recounts deciding at age 8.",
+          "value": "no children (childfree by choice)",
+          "lines": [
+            76,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like being an american' directly.",
+          "value": "American",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I've been working customer service since I came back to America basically.'",
+          "value": "customer service worker",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'both of my ex husbands were military.'",
+          "value": "two ex-husbands (both military)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my second ex husband was a british national.'",
+          "value": "second ex-husband is British",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my dad' several times, e.g., 'I actually laughed with my dad a lot.'",
+          "value": "father (alive)",
+          "lines": [
+            84,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my late sister a couple of years back' and notes the sister had three children.",
+          "value": "sister (deceased)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "From the sister having three kids, and speaker_b being the aunt, we infer three nieces/nephews.",
+          "value": "three nieces/nephews (via sister)",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to a roommate multiple times: 'my roommate brought home Emmy', parents live in Vinita, etc.",
+          "value": "roommate",
+          "lines": [
+            180,
+            248,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the dogs are Emmy and Oscar' and describes one as a year and a half old and rambunctious, the other as a senior.",
+          "value": "two dogs: Emmy and Oscar (one young ~1.5 years, one senior)",
+          "lines": [
+            26,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks extensively about adopting a kitten from a feral colony, naming her Cooper, describing her coloring and age, and that she was adopted Dec 1.",
+          "value": "cat named Cooper (female, pastel tortie kitten, ~14 weeks, adopted Dec 1)",
+          "lines": [
+            20,
+            28,
+            50,
+            58,
+            116,
+            118,
+            254,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b feeds a feral cat colony and specifically names one male cat Baby who is at least 8 years old and acts as the colony 'Don'.",
+          "value": "feral cat Baby (male, ~8+ years, fed regularly)",
+          "lines": [
+            116,
+            258,
+            260,
+            264,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still have a lot of friends that are scattered throughout the UK, most of them in Scotland' and mentions Sheffield and Glasgow.",
+          "value": "friends in UK (Glasgow, Sheffield, Scotland)",
+          "lines": [
+            44,
+            46,
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I am very musically oriented as you can tell from the things you see on the wall' and describes playing Queen for the cat.",
+          "value": "music enthusiast (Queen fan, music-themed decor)",
+          "lines": [
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes feeding a feral cat colony behind her house.",
+          "value": "feeds feral cat colony",
+          "lines": [
+            116,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using tablet games and videos for her cat, e.g., 'cat TV'.",
+          "value": "uses tablet apps for cat entertainment",
+          "lines": [
+            110,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am a huge fan of Los Angeles' and treats it as an escape destination.",
+          "value": "enjoys visiting Los Angeles as a getaway",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b compares herself to a helicopter parent with the cat, overthinking its enrichment and safety.",
+          "value": "meticulous pet care (self-described helicopter parent)",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she avoids going out in cold weather and uses Door Dash and Amazon instead.",
+          "value": "prefers warm climate; uses delivery services to avoid cold",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

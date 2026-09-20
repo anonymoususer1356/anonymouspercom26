@@ -1,0 +1,347 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a gives his name as Roger, and speaker_b addresses him as Roger.",
+          "value": "Roger",
+          "lines": [
+            19,
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says he moved from Minnesota 10 years ago, describes hot desert climate, and explicitly mentions living in Arizona.",
+          "value": "Arizona",
+          "lines": [
+            37,
+            41,
+            59,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he came from Minnesota.",
+          "value": "Minnesota (originally)",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly states his age as 56.",
+          "value": "56 years old",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was in the army at age 19 and joined at 18.",
+          "value": "Army veteran",
+          "lines": [
+            119,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he transferred to the University of Minnesota and earned a bachelor's, and that he studied biochemistry.",
+          "value": "Bachelor's in biochemistry from University of Minnesota",
+          "lines": [
+            153,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he attended Minneapolis Community College for almost two years.",
+          "value": "Attended Minneapolis Community College",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses hope that Kamala Harris beats Trump and was shocked when Trump won, indicating anti-Trump stance.",
+          "value": "Opposes Trump, supports Biden/Harris",
+          "lines": [
+            233,
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states he is partially disabled.",
+          "value": "Partially disabled",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says he runs a small business.",
+          "value": "Runs a small business",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he works out of his home office.",
+          "value": "Works from home office",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a past job as a processing tech in a laboratory making $12/hr.",
+          "value": "Previously worked as lab processing tech ($12/hr)",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes assembling pacemakers and defibrillators in a clean room with microscopes and soldering irons.",
+          "value": "Previously assembled implantable pacemakers/defibrillators in clean room",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a speaks of his mother who lived in downtown Detroit's Cass Corridor, in a senior high rise, and who passed away; he used to visit her.",
+          "value": "Mother deceased, lived in Detroit Cass Corridor",
+          "lines": [
+            67,
+            69,
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions many of his friends are older or have diabetes, making them at risk.",
+          "value": "Friends are older or have diabetes",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he volunteers, goes to cafes, and his coffee group uses Zoom.",
+          "value": "Volunteers, goes to cafes, coffee group on Zoom",
+          "lines": [
+            95,
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he got rid of his parka, jackets, slacks and kept only shorts and jeans when moving to Arizona.",
+          "value": "Discarded heavy winter clothing after moving to Arizona",
+          "lines": [
+            59,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says his name is Kay (ASR transcribed as 'ken') and spells it K.A.Y.",
+          "value": "Kay",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states he lives in New Jersey.",
+          "value": "New Jersey",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is from Pennsylvania.",
+          "value": "Pennsylvania (originally)",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he used to live in Philadelphia.",
+          "value": "Philadelphia (formerly)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states his age explicitly.",
+          "value": "19 years old",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is in college.",
+          "value": "College student",
+          "lines": [
+            76,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he attends community college.",
+          "value": "Community college student",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he sucks at social media and does not use many apps.",
+          "value": "Not tech-savvy, rarely uses social media",
+          "lines": [
+            240,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he wrote a final research paper on automation and universal basic income.",
+          "value": "Wrote research paper on automation and UBI",
+          "lines": [
+            182,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he is currently paying for his college classes.",
+          "value": "Pays for own college classes",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b confirms he lives with his parents, indicating financial dependence.",
+          "value": "Lives with parents (financial dependence)",
+          "lines": [
+            137,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b confirms he lives with his parents.",
+          "value": "Lives with parents",
+          "lines": [
+            137,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his step dad.",
+          "value": "Has a stepfather",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he hasn't seen his high school friends since Christmas due to college and the virus.",
+          "value": "Has high school friends, hasn't seen them since Christmas",
+          "lines": [
+            112,
+            114,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he does not use many apps and sucks at social media.",
+          "value": "Rarely uses social media, has unused apps",
+          "lines": [
+            240,
+            244,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions taking a road trip to the Grand Canyon and seeing Arizona.",
+          "value": "Took road trip to Grand Canyon/Arizona",
+          "lines": [
+            34,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his family visits New York City every summer and Christmas to see the tree.",
+          "value": "Family visits NYC annually for summer and Christmas tree",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains his family moved from Philadelphia to the suburbs for safety, better schools, and more space.",
+          "value": "Family moved from Philadelphia to suburbs for safety/schools",
+          "lines": [
+            64,
+            65,
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

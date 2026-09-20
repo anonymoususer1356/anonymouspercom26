@@ -1,0 +1,198 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a gives their Twitch username as 'Star G store', spelling it with 'Star' and 'G as in golf'. The transcription likely corrupts the exact string, but the stated value is recorded verbatim.",
+          "value": "Star G store",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm disabled' and that this restricts what they can do.",
+          "value": "disabled",
+          "lines": [
+            91,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states they became a Twitch affiliate, enabling them to earn from streaming.",
+          "value": "Twitch affiliate",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have 800+ games on their Steam account.",
+          "value": "owns over 800 games on Steam",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions the Shadow cloud service costs about $11.99 per month (also approximates $15).",
+          "value": "pays ~$12/month for Shadow cloud gaming service",
+          "lines": [
+            107,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says their computer is from 2013.",
+          "value": "owns a computer from 2013",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes using an old cell phone as a camera, another cell phone to control the stream, and an iPad 4 from 2010 as a monitor.",
+          "value": "uses old cell phones and an iPad 4 for streaming setup",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a calls themselves a streamer multiple times.",
+          "value": "streamer",
+          "lines": [
+            11,
+            91,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms they stream on the Twitch platform.",
+          "value": "streams on Twitch",
+          "lines": [
+            93,
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they do hot sauce shots and eat nasty/spicy jelly beans on stream.",
+          "value": "does hot sauce shots and eats nasty jelly beans on stream",
+          "lines": [
+            279,
+            281,
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains they remotely connect to a computer in another state to stream and play games.",
+          "value": "uses a remote cloud computer for streaming and gaming",
+          "lines": [
+            99,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they began streaming roughly six months ago.",
+          "value": "has been streaming for about six months",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm using it on five in bed connection', likely meaning a 5 Megabit internet connection. The ASR is garbled, so the inference is uncertain.",
+          "value": "uses a 5 Mbps internet connection",
+          "lines": [
+            157
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I live in new york I just moved here like a little apartment', indicating they reside in a small apartment in New York.",
+          "value": "lives in a small apartment in New York",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to speaker_b as 'man' during the closing pleasantries, suggesting male gender. Not explicitly confirmed by speaker_b.",
+          "value": "male",
+          "lines": [
+            294
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b, when asked about laptop capability, says 'it should be fast enough about it just last year', meaning they purchased a laptop just last year.",
+          "value": "owns a laptop purchased last year",
+          "lines": [
+            174
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they played Dota (Defense of the Ancient) 1 and then Dota 2.",
+          "value": "played Dota 1 and Dota 2",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states their first console game was Assassin's Creed Odyssey, and later says they 'loved it'.",
+          "value": "first console game was Assassin's Creed Odyssey",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b announces 'I just moved here' in reference to their current New York residence.",
+          "value": "recently moved to New York",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

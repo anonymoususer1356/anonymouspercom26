@@ -1,0 +1,334 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces themselves as 'chris' in line 185. The ASR writes 'chris' lowercase, intended as the name Chris.",
+          "value": "Chris",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I am currently in New york city' (line 13), later says 'I'm from new york' (line 33), and refers to living in NYC (line 15).",
+          "value": "New York City, New York",
+          "lines": [
+            13,
+            15,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I work in a health care organization' (line 19) and 'I'm a project manager' (line 21).",
+          "value": "Project manager at a health care organization",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states they have been working remotely and full-time, mentioning 'I haven't been going to work to the office and [I've been] working remote for the last 3.5 months' (line 17) and working long hours (line 23).",
+          "value": "Employed full-time, working remotely",
+          "lines": [
+            17,
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have a lot of friends who are physicians' (line 101).",
+          "value": "Has multiple friends who are physicians",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes working long hours: 'I've been working maybe about like seven days a week from seven a.m. To like midnight um for the last month' (line 23).",
+          "value": "Works long hours, often 7 days a week from 7am to midnight",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I haven't been using transportation' (line 17), indicating they have stopped using public transit.",
+          "value": "Has stopped using public transportation",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'I was actually in a new Orleans New Orleans not too long ago' (line 101), indicating recent travel.",
+          "value": "Recently visited New Orleans, Louisiana",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'I'm Julia' (line 2). The name Julia is used throughout by speaker_a (lines 185, 211, 215).",
+          "value": "Julia",
+          "lines": [
+            2,
+            185,
+            211,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in texas' (line 10) and 'I'm just on the outskirts of Houston' (line 38). She also mentions being in Harris County (line 64), which contains Houston.",
+          "value": "Outskirts of Houston, Texas",
+          "lines": [
+            10,
+            38,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b uses female-gendered terms (e.g., 'I'm a mom', 'my husband') and has a typically female name (Julia), so inferred female.",
+          "value": "Female",
+          "lines": [
+            2,
+            50,
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I stay home with our four kids' (line 50) and later provides ages: 16, 14, 9 (line 152) and a 4-year-old (line 124). She also refers to 'our daughters' (line 62), indicating all are girls.",
+          "value": "Mother of four daughters, ages 16, 14, 9, and 4",
+          "lines": [
+            50,
+            62,
+            86,
+            124,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I stay home with our four kids' (line 50), indicating she is a stay-at-home parent.",
+          "value": "Stay-at-home parent",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my birthday was back in april' (line 130).",
+          "value": "Birthday in April",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I've never had the flu' (line 146).",
+          "value": "Never had the flu",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts having chicken pox: 'I remember when I had chicken pox, I was in second grade' (line 114).",
+          "value": "Had chicken pox in second grade",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During discussion of a family gathering, speaker_b says 'we're healthy, we're healthy, we're good' (line 42), including herself in the healthy group.",
+          "value": "Considers herself healthy",
+          "lines": [
+            42
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'we typically don't do like, we don't get the flu vaccine ever' (line 142).",
+          "value": "Does not receive the annual flu vaccine",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she does 'online surveys stuff' (line 50) and earlier calls it 'easy way to make money' (line 10).",
+          "value": "Earns income through online surveys",
+          "lines": [
+            10,
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we live in an apartment complex' (line 190).",
+          "value": "Resides in an apartment complex",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my husband's actually a private investigator' (line 48), indicating a household income source.",
+          "value": "Husband is a private investigator (household income)",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my old boss when I worked at a gelato store' (line 162), indicating past employment.",
+          "value": "Previously employed at a gelato store",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b refers to 'my husband' multiple times and gives his occupation (line 48).",
+          "value": "Married to a private investigator",
+          "lines": [
+            48,
+            62,
+            66,
+            96,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her four children: daughters ages 16, 14, 9 (line 152) and a 4-year-old (line 124). She says 'our daughters' (line 62).",
+          "value": "Has four daughters, ages 16, 14, 9, and 4",
+          "lines": [
+            50,
+            62,
+            124,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In response to older patients uncomfortable with technology, speaker_b says 'But that's my mom all the way' (line 32), implying her mother is older and tech-averse.",
+          "value": "Has a mother who is older and uncomfortable with technology",
+          "lines": [
+            32
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'my dad's type two he sees her and he had a heart attack last year' (line 208), indicating her father's health conditions.",
+          "value": "Father has type 2 diabetes and had a heart attack last year",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions multiple friends: 'my one friend, she works in the oil field' (line 84), 'my friend Melissa' (line 194), and 'my best friends in Ohio' (line 202).",
+          "value": "Has friends: Melissa, a best friend in Ohio, and a friend in the oil field",
+          "lines": [
+            84,
+            194,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my husband's cousin actually came down with it' (line 40), referring to COVID-19.",
+          "value": "Husband's cousin contracted COVID-19",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes herself and her husband as 'homebodies for the most part' (line 194) and says she and girlfriends usually get together once a month (line 130).",
+          "value": "Homebody; goes out socially about once a month",
+          "lines": [
+            130,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we'll go in the evenings to make sure my kids so good exercise. I'll take them out... sometimes we all go and we'll just walk' (line 190).",
+          "value": "Takes evening walks for exercise",
+          "lines": [
+            190
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we saw her for a family reunion from my husband's grandmother's birthday... we were at the beach house' (line 42).",
+          "value": "Attends family reunions at beach houses",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I love volunteering and chaperoning on field trips' (line 196).",
+          "value": "Enjoys volunteering and chaperoning school field trips",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions dining out: 'other than grocery stores, I did go to... free birds of burrito place, but we eat outside on the patio' (line 184), dining in at Red Robin on May 31 (line 186), and picking up food from Five Guys (line 190). This shows she occasionally dines out, often using outdoor seating or takeout.",
+          "value": "Occasionally dines out at restaurants, often using outdoor seating or takeout",
+          "lines": [
+            184,
+            186,
+            188,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

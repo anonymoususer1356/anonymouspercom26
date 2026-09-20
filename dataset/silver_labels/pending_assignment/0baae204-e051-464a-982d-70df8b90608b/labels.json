@@ -1,0 +1,352 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Jersey' (7) and later specifies 'I'm like in Central by the beach' (11) and 'in the NyC area of Jersey' (131), indicating central New Jersey near the beach and close to New York City. Also mentions living in the suburbs (189).",
+          "value": "Central New Jersey, near the beach, in the NYC area",
+          "lines": [
+            7,
+            11,
+            131,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says they are a first-year student at Smith College (255, 257).",
+          "value": "First-year college student at Smith College",
+          "lines": [
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm studying on government and Economics' (65), indicating their major fields. The ASR 'on' is likely 'in'.",
+          "value": "Studies government and economics",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a works as a private tutor about 5 days a week, 14-15 hours per week (188, 205-208). They also tutored privately before COVID (211).",
+          "value": "Employed part-time as a private tutor (14-15 hours per week)",
+          "lines": [
+            188,
+            205,
+            207,
+            208,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are on financial aid at Smith College and receive work-study payments even while remote (289-293).",
+          "value": "Receives financial aid and work-study funds from Smith College",
+          "lines": [
+            289,
+            291,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if they are saving money by being home, speaker_a confirms 'Yeah, a little bit' (289).",
+          "value": "Saves some money by living at home while studying remotely",
+          "lines": [
+            288,
+            289
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions texting their boyfriend (188).",
+          "value": "Has a boyfriend",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they are 'really into like watching films' (67) and uses the Letterboxd app to log and rate movies (71-73). They list favorites: Parasite, Sunset Boulevard, All About Eve, and My Neighbor Totoro (75).",
+          "value": "Avid film watcher, uses Letterboxd app; favorites include Parasite, Sunset Boulevard, All About Eve, My Neighbor Totoro",
+          "lines": [
+            67,
+            71,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are 'really into listening to music' (67) and 'I'm into a lot of stuff, basically listen to anything' (101).",
+          "value": "Enjoys listening to a wide variety of music",
+          "lines": [
+            67,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions seeing Aladdin on Broadway (131), Dear Evan Hansen (133, 153), Wicked, Mary Poppins, local productions of 12th Night (134), and a cinema broadcast of Hamlet with Benedict Cumberbatch (135).",
+          "value": "Attends Broadway shows and local theater; has seen Aladdin, Dear Evan Hansen, Wicked, Mary Poppins, 12th Night, and a cinematic Hamlet",
+          "lines": [
+            131,
+            133,
+            134,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they liked La La Land (125) and the French musical film 'the young girls of Roger fought for it' (125-126), likely The Young Girls of Rochefort, indicating enjoyment of musical films.",
+          "value": "Enjoys musical films such as La La Land and The Young Girls of Rochefort",
+          "lines": [
+            125,
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says they work with kids with '80 H. G. and stuff' (205), which phonetically suggests ADHD, describing challenges with virtual learning.",
+          "value": "Tutors children with ADHD",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Taryn in line 2.",
+          "value": "Taryn",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in alexandria Virginia right near D. C.' (6).",
+          "value": "Alexandria, Virginia, near Washington D.C.",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up in Colts Neck, Monmouth County, New Jersey (12) and attended high school in Freehold (14). She also says 'I'm from New Jersey' (8).",
+          "value": "Originally from Colts Neck, Monmouth County, New Jersey; attended high school in Freehold",
+          "lines": [
+            8,
+            12,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says she works for National Geographic as a fact-checker (36, 42) and has been there for 15 years (62).",
+          "value": "Fact-checker at National Geographic magazine (15 years)",
+          "lines": [
+            36,
+            42,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she holds a master's degree (230), attended Georgetown for grad school (242), and earned her bachelor's from American University (240).",
+          "value": "Holds a master's degree from Georgetown University; bachelor's from American University",
+          "lines": [
+            230,
+            240,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she studied political science as part of her program (246).",
+          "value": "Studied political science",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her daughter Danny (36), a son (37), and later indicates her children are a junior and a freshman in high school (172).",
+          "value": "Mother of a high school junior and freshman",
+          "lines": [
+            36,
+            37,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says her job 'doesn't pay a lot' (63).",
+          "value": "Fact-checking job at National Geographic does not pay a high salary",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she and her high school boyfriend eventually married (16-18).",
+          "value": "Married to her high school boyfriend",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces her daughter Danny (36) and mentions her son (37).",
+          "value": "Has a daughter named Danny and a son",
+          "lines": [
+            36,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the dog and the cat are elsewhere (36-37), indicating she has these pets.",
+          "value": "Has a dog and a cat",
+          "lines": [
+            36,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her brother lives in Brooklyn (194).",
+          "value": "Has a brother who lives in Brooklyn, NY",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her parents moved to Georgia (16).",
+          "value": "Parents moved to Georgia",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her parents met at Rutgers (244).",
+          "value": "Parents met at Rutgers University",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband works in the food industry (172).",
+          "value": "Husband works in the food industry",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she likes to read (62) and uses Goodreads for books (96).",
+          "value": "Avid reader, uses Goodreads app",
+          "lines": [
+            62,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she likes musicals (108), describes her family as 'drama geek family' (110), and lists multiple shows she has seen: 42nd Street, Phantom, A Chorus Line, Miss Saigon, Mean Girls, Hamilton (139-158).",
+          "value": "Enjoys musicals and live theater; has seen 42nd Street, Phantom, A Chorus Line, Miss Saigon, Mean Girls, Hamilton, among others",
+          "lines": [
+            108,
+            110,
+            139,
+            140,
+            144,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she likes disco and funk and loves to dance to that music (106).",
+          "value": "Likes to dance to disco and funk music",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she likes science fiction and Korean movies, and has seen zombie movies (82-84).",
+          "value": "Enjoys Korean cinema, science fiction, and zombie movies",
+          "lines": [
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she takes her kids to protests, makes signs, and mentions attending the 'get your knee off our next march' in August (172-176).",
+          "value": "Attends social justice protests with her children, making signs",
+          "lines": [
+            172,
+            173,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is 'really good at jeopardy' (63) and speaks Spanish, helping her kids with it (64).",
+          "value": "Skilled at Jeopardy trivia; speaks Spanish and knowledgeable in Latin American studies",
+          "lines": [
+            63,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses the film Bohemian Rhapsody and Queen's music, finding it 'terrific' (116-120).",
+          "value": "Fan of the band Queen and the film Bohemian Rhapsody",
+          "lines": [
+            116,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

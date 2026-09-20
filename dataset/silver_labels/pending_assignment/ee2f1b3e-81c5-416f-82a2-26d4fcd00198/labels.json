@@ -1,0 +1,457 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states they live near Chicago in northwestern Indiana.",
+          "value": "Northwest Indiana, near Chicago",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker is referred to as 'young man' and 'handsome', indicating male gender.",
+          "value": "Male",
+          "lines": [
+            260,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks if speaker_a is 42, then comments that he doesn't look 42, and speaker_a agrees. This implies his age is 42.",
+          "value": "42 years old",
+          "lines": [
+            269,
+            270,
+            271
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says they work in the IT department of a manufacturing company.",
+          "value": "Employed in IT at a manufacturing company",
+          "lines": [
+            227,
+            229,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about digging out their car and saving a parking spot, indicating car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            153,
+            155,
+            159,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker states they live by themselves.",
+          "value": "Lives alone",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions their brother-in-law is a school principal.",
+          "value": "Has a brother-in-law",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_b talking about her cat, speaker_a says 'my plants at home I don't know what she was doing', with 'she' likely referring to a cat.",
+          "value": "Has a cat",
+          "lines": [
+            224,
+            225,
+            226
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions visiting their parents when working from home.",
+          "value": "Has parents",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker used to visit their uncle's house for holidays.",
+          "value": "Has an uncle",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker mentions doing multiple Prolific sessions and using other survey sites like mturk.",
+          "value": "Participates in paid online surveys",
+          "lines": [
+            33,
+            35,
+            47,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they sometimes work from home.",
+          "value": "Works from home sometimes",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions taking a cruise to Boston, Portland, and Canada during the fall.",
+          "value": "Has taken a cruise to New England and Canada",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having an iPad.",
+          "value": "Owns an iPad",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains they only have street parking and must dig out their car and save the spot in winter.",
+          "value": "Has street parking and digs out car in snow",
+          "lines": [
+            151,
+            155,
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I don't like it' in reference to snow.",
+          "value": "Dislikes snow",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they use Zoom for family gatherings instead of visiting in person this year.",
+          "value": "Uses video chat for family holidays",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says speaker_a looks younger than his age (42) and speaker_a agrees.",
+          "value": "Looks younger than his age",
+          "lines": [
+            270,
+            271
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b calls speaker_a 'very handsome'.",
+          "value": "Considered handsome",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says she is from Florida but now lives in upstate New York, right by a lake with lake effect snow.",
+          "value": "Upstate New York, near a Great Lake",
+          "lines": [
+            92,
+            94,
+            96,
+            100,
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she used to live in the panhandle of Florida.",
+          "value": "Formerly lived in Florida panhandle",
+          "lines": [
+            96,
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker mentions her daughter and granddaughter, and she is referred to with feminine terms; implied female.",
+          "value": "Female",
+          "lines": [
+            20,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her granddaughter, so she is a grandmother.",
+          "value": "Grandmother",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is on social security, has a 94-year-old grandma, and has adult daughters with children, indicating she is an older adult.",
+          "value": "Older adult (likely 60+)",
+          "lines": [
+            28,
+            36,
+            30,
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she is disabled and does not work.",
+          "value": "Disabled",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says she is disabled and receives social security.",
+          "value": "Disability (unspecified)",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has 'snow anxiety' and is almost paralyzed when having to drive in snow.",
+          "value": "Snow anxiety / driving phobia",
+          "lines": [
+            108,
+            109,
+            110,
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker receives social security disability and says it isn't very much.",
+          "value": "Receives social security disability, limited income",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker actively does online surveys on Prolific, mturk, Yougov to earn extra money.",
+          "value": "Earns supplemental income from online surveys",
+          "lines": [
+            32,
+            36,
+            38,
+            52,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having a house with a horseshoe driveway and a makeshift garage, and a tree falling on 'our house'.",
+          "value": "Homeowner/property resident",
+          "lines": [
+            162,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about cleaning snow off the car and having a garage, implying car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says her granddaughter was at her house.",
+          "value": "Has a granddaughter",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'one of my daughters is a teacher', implying she has at least two daughters.",
+          "value": "Has multiple daughters",
+          "lines": [
+            30,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has a 94-year-old grandmother.",
+          "value": "Has a 94-year-old grandmother",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her brother had kidney disease.",
+          "value": "Has a brother",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her cat eating flowers.",
+          "value": "Has a cat",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'our next door neighbor'.",
+          "value": "Has a next-door neighbor",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker frequently uses 'we' when referring to her household (e.g., 'we live', 'our house', 'we have a grandma'), suggesting she lives with a partner/spouse.",
+          "value": "Likely lives with a partner/spouse",
+          "lines": [
+            28,
+            96,
+            218
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says her daughters went with the neighbor to a different city where they stay, implying they live elsewhere.",
+          "value": "Daughters live in a different city",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes making silk flower arrangements for nursing homes and raising donations for breast cancer and kidney disease charities.",
+          "value": "Flower gardening and charity fundraising",
+          "lines": [
+            122,
+            126,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker does online surveys regularly, mentioning Prolific, mturk, Yougov, and this being her fourth video conference.",
+          "value": "Participates in paid online surveys",
+          "lines": [
+            32,
+            36,
+            38,
+            52,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she stays inside all winter because she can't drive in the snow.",
+          "value": "Stays indoors during winter due to snow anxiety",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is originally from Florida and moved to New York when she was older.",
+          "value": "Moved from Florida to New York later in life",
+          "lines": [
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her computer touchscreen problems and general lack of tech savvy.",
+          "value": "Has computer issues and limited tech skills",
+          "lines": [
+            236,
+            238,
+            240,
+            242,
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she sets an alarm every 10 minutes when doing surveys to avoid running out of time.",
+          "value": "Sets timer for surveys",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they will have a small get-together and use Facetime for Thanksgiving.",
+          "value": "Celebrates holidays with small gatherings and video calls",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

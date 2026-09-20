@@ -1,0 +1,361 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 9 ASR 'I'm well, yeah' is phonetically close to 'I'm Will, yeah'. Later in line 348 speaker_b says 'It's good talking to you will', which is likely addressing speaker_a by name. Combined they indicate speaker_a's name is Will.",
+          "value": "Will",
+          "lines": [
+            9,
+            348
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states outright 'currently living in charleston, south Carolina'.",
+          "value": "Charleston, South Carolina",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in college for Electrical engineering and political science' and when speaker_b says they were a freshman going into second year, speaker_a says 'Oh yeah, me too'.",
+          "value": "college student, dual major Electrical Engineering and Political Science, just finished freshman year",
+          "lines": [
+            45,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says a sponsored camping/canoeing trip was 'Boy Scouts'.",
+          "value": "Boy Scout (past member)",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I'm really allergic to cats' and describes face swelling up and needing to go outside.",
+          "value": "severely allergic to cats",
+          "lines": [
+            297,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've lost like 10 lbs, I think' after going vegetarian.",
+          "value": "lost about 10 lbs during quarantine",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my mental state ... just kind of like diminished' describing a decline in feeling interesting.",
+          "value": "self-reported diminished mental state, feeling less interesting",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a admits to sitting at home and smoking. When speaker_b asks 'Is it legal in itself?' speaker_a replies 'No', indicating illegal substance use.",
+          "value": "uses illegal substance (presumably marijuana) in South Carolina",
+          "lines": [
+            77,
+            78,
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states having a scholarship requiring 30 credit hours per year and needing to take a class to keep it.",
+          "value": "recipient of academic scholarship requiring 30 credit hours/year",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I play two NBA 2K. With my brother sometimes'.",
+          "value": "has a brother",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My parents like to take a bunch of cruises'.",
+          "value": "has parents who frequently take cruises",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts a story about an ex-girlfriend who knew all the words to a Carrie Underwood song and later threatened to tase him.",
+          "value": "had an ex-girlfriend who threatened to tase him",
+          "lines": [
+            211,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'you can work a vegetarian at the start up, pretty much the start of quarantine' which ASR garbles as 'I went vegetarian at the start of quarantine'. Later lines confirm vegetarian diet.",
+          "value": "went vegetarian at the start of quarantine",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a lists video games: 'I play two NBA 2K ... mainly I like I play like smash and like animal crossing'.",
+          "value": "plays video games (NBA 2K, Super Smash Bros., Animal Crossing)",
+          "lines": [
+            89,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Currently right now I just kind of sit at home and smoke'.",
+          "value": "sits at home and smokes marijuana",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm rocking my clumps in debate' (ASR for 'I'm on my college's debate team') and describes attending tournaments.",
+          "value": "member of college debate team",
+          "lines": [
+            303,
+            306,
+            307,
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm on a wiffle ball team too' and describes it as a fun league.",
+          "value": "plays wiffle ball in a league",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'definitely 100% a night person'.",
+          "value": "night person",
+          "lines": [
+            331
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've gotten really, really into Ariana grande the last couple of days' and earlier mentions listening to hip-hop.",
+          "value": "listens to Ariana Grande and hip-hop music",
+          "lines": [
+            185,
+            187,
+            188
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'the old tv I watch is like impractical jokers for like I watched Bojack Horse, I watched Bojack Horseman on netflix'.",
+          "value": "watches Impractical Jokers and Bojack Horseman",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a specific custom Taco Bell order with black bean substitutions and says 'the only fast food I really eat'.",
+          "value": "frequently orders vegetarian crunchwrap supreme at Taco Bell",
+          "lines": [
+            267,
+            271
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I drink coffee only when I need a boost. I don't I'm actually just drink water'.",
+          "value": "drinks mostly water, coffee only for a boost",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says 'as you can tell my hair is a lot longer than that now ... I do keep it really long' and confirms it is longer than usual due to quarantine.",
+          "value": "has long hair, usually kept long",
+          "lines": [
+            159,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to get buzz cuts but also walked in my catholic school education'.",
+          "value": "used to have buzz cut in Catholic school days",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my freshman through sophomore year of high school, I wore pretty much exclusively Hollister clothes ... big logo ones and like the sweat shorts'.",
+          "value": "wore Hollister clothes with big logos in early high school",
+          "lines": [
+            161,
+            162,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'for tennis shoes, I had really big feet as a kid'.",
+          "value": "had very large feet as a child",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'My name is Kevin, Nice to meet you'.",
+          "value": "Kevin",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'from California' and later specifies living 'In the central valley which is a pretty conservative pretty red part'.",
+          "value": "California, Central Valley",
+          "lines": [
+            28,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I took a cruise from china to Korea' and later 'because I'm, you still live in china then' which likely means 'I used to live in China then'.",
+          "value": "previously lived in China",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also in college for psychology' and 'I was a freshman in college and so next year will be my second year.'",
+          "value": "college student, psychology major, just finished freshman year",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my family and I took a cruise' from China to Korea.",
+          "value": "has family (took cruise from China to Korea with family)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'Uh Play league?' confirming the game League of Legends.",
+          "value": "plays League of Legends",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a runner' and 'I like to run'.",
+          "value": "runner / likes to run",
+          "lines": [
+            300,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My hair was purple ... It was also blue ... I had to just go bald to regrow'.",
+          "value": "previously dyed hair bright colors (purple, blue) and shaved head to regrow",
+          "lines": [
+            166,
+            168,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am a pop topped and occasionally if I'm feeling spicy hip hop' (ASR 'pop topped' likely 'pop head').",
+          "value": "listens to pop music and occasionally hip-hop",
+          "lines": [
+            182
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'My like the office. I'm basic.' and 'I like what I watched rick and morty'.",
+          "value": "watches The Office and Rick and Morty",
+          "lines": [
+            258,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b responds to speaker_a's debate mention with 'Oh, I was in to play in high school' which likely means 'I was in it (debate) in high school'.",
+          "value": "participated in debate in high school",
+          "lines": [
+            304
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

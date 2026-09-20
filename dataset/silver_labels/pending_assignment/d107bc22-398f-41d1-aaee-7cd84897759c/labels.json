@@ -1,0 +1,281 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'my name is Michael as well' and speaker_b confirms they share the name.",
+          "value": "Michael",
+          "lines": [
+            13,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in California' and 'I'm in the bay Area'.",
+          "value": "Bay Area, California",
+          "lines": [
+            245,
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I have a graduate degree as well'.",
+          "value": "has a graduate degree",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I do accounting' and later confirms they are not a salesperson.",
+          "value": "accountant",
+          "lines": [
+            23,
+            123,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes working for a SaaS (software as a service) company.",
+          "value": "works in the SaaS/tech industry",
+          "lines": [
+            23,
+            63,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says they do accounting at a larger corporation that sells software (B2B SaaS).",
+          "value": "employed at a B2B SaaS company",
+          "lines": [
+            23,
+            63,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am doing this prolific too' and 'I like to do market research on the side... the money's good'.",
+          "value": "does Prolific and market research for extra income",
+          "lines": [
+            37,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'everyone's still working from home because we are sas... most tech companies these days our work from home', implying they also work from home.",
+          "value": "likely works from home",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a describes enjoying driving on Highway 1 along the coast, saying it's 'so nice' and 'I love driving'.",
+          "value": "enjoys scenic drives on Highway 1",
+          "lines": [
+            289,
+            291,
+            293,
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b states 'my name is Michael'.",
+          "value": "Michael",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions being called Mike by family and Mick in Britain, indicating common nicknames.",
+          "value": "goes by Mike and Mick",
+          "lines": [
+            16,
+            18,
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Asheville north Carolina'.",
+          "value": "Asheville, North Carolina",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we moved here from New Orleans'.",
+          "value": "previously lived in New Orleans",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm semi retired kind of thing'.",
+          "value": "semi-retired",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I had a background in uh psychology'.",
+          "value": "background in psychology",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'when I was working full time, I was Director cells in radio' and describes extensive sales experience.",
+          "value": "former Director of Sales in radio",
+          "lines": [
+            110,
+            167,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'even though my wife also makes a good living', indicating he is married.",
+          "value": "married",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a daughter and a child in Austin, so he is a parent of at least two children.",
+          "value": "parent of adult children",
+          "lines": [
+            248,
+            280
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b describes doing Prolific surveys and other gig economy work to make a living.",
+          "value": "earns income from Prolific and gig economy",
+          "lines": [
+            42,
+            44,
+            48,
+            50,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'a book came out last year and I'll make a little money money from that'.",
+          "value": "receives income from a book published last year",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the days when I made bank and didn't have to think about money gone', indicating previous higher income.",
+          "value": "previously had significantly higher income",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his wife making a good living.",
+          "value": "wife (unnamed)",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My daughter actually lives in santa Barbara'.",
+          "value": "daughter lives in Santa Barbara",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My reception is in Austin' likely meaning 'my son is in Austin', indicating a child living there.",
+          "value": "child in Austin (likely son)",
+          "lines": [
+            280
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions 'she and her fiance' referring to his daughter.",
+          "value": "daughter has fiance (future son-in-law)",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I always preferred managing with a carrot' as opposed to a stick.",
+          "value": "prefers managing with positive reinforcement (carrot) over punishment (stick)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to love that to drive down the coast road... I had some great adventures on how I want two', about Highway 1.",
+          "value": "enjoys scenic drives on Highway 1",
+          "lines": [
+            298,
+            300,
+            304,
+            306,
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

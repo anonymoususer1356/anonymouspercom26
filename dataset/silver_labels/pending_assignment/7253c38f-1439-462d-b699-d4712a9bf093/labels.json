@@ -1,0 +1,457 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'My name is David' and speaker_b later addresses him as David.",
+          "value": "David",
+          "lines": [
+            9,
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Atlanta Georgia' and mentions his condo overlooking bars, and speaker_b wishes him 'all the best for Atlanta'.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            11,
+            18,
+            21,
+            304
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm gay' and refers to himself as a gay man multiple times.",
+          "value": "gay",
+          "lines": [
+            109,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was born in America'.",
+          "value": "American",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a male name (David) and identifies as a gay man, implying male gender.",
+          "value": "male",
+          "lines": [
+            9,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not very religious but I believe there's something more'.",
+          "value": "spiritual but not religious",
+          "lines": [
+            117,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says he was sending himself into panic attacks, experiencing existential crisis, and subsequently saw a doctor and therapist.",
+          "value": "experiences panic attacks and existential crisis",
+          "lines": [
+            117,
+            119,
+            120,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I smoked large, large amounts of pot'.",
+          "value": "smokes marijuana regularly",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'talking to my therapist'.",
+          "value": "has a therapist",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes owning two companies: a nonprofit-specific payroll organisation and a consultancy helping nonprofits with revenue and retention; he has started 6 or 7 companies.",
+          "value": "entrepreneur; runs a nonprofit payroll company and a consulting business for nonprofits",
+          "lines": [
+            65,
+            103,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he was 'working at a training organization that was specific for nonprofits for 10 years' before quitting to sail.",
+          "value": "previously employed 10 years at a training organisation for nonprofits",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has worked from home for several years and worked long hours when he transitioned.",
+          "value": "works from home",
+          "lines": [
+            59,
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a refers to his dog as his 'little $10,000 Puppy', indicating that amount spent on veterinary care.",
+          "value": "spent approximately $10,000 on dog's medical expenses",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my boyfriend' and describes them quitting jobs together to go sailing.",
+          "value": "has a boyfriend",
+          "lines": [
+            109,
+            111,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has a dog, a pit bull mix, found almost nine years ago.",
+          "value": "has a pit bull mix dog",
+          "lines": [
+            111,
+            282,
+            283,
+            289,
+            291,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'our dog and our cat' when describing the sailing trip.",
+          "value": "has a cat",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my ex accidentally let her run off' referring to his dog, implying a former partner.",
+          "value": "has an ex-partner",
+          "lines": [
+            290
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes his condo looking down at a bar and being surrounded by gay bars.",
+          "value": "lives in a condo in Atlanta overlooking a bar and gay bars",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts quitting his job, selling belongings, buying a sailboat, and sailing around the Bahamas with his boyfriend, dog, and cat.",
+          "value": "went on a sailing adventure in the Bahamas",
+          "lines": [
+            109,
+            111,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I like to stay at home' and describes himself as a homebody.",
+          "value": "prefers staying at home",
+          "lines": [
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses his wide-ranging music tastes, mentioning artists from many countries and genres.",
+          "value": "eclectic music taste; enjoys Nina Simone, Edith Piaf, South African rap rave",
+          "lines": [
+            263,
+            265,
+            267,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a admits 'sorry I swear like a sailor'.",
+          "value": "uses profanity frequently",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My name is Alyssa'.",
+          "value": "Alyssa",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm up in new york city' and confirms she is living in NYC.",
+          "value": "New York City",
+          "lines": [
+            12,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she grew up upstate and is a lifelong resident of New York state.",
+          "value": "originally from upstate New York",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b's name is Alyssa and the conversation implies she is female (speaker_a calls her 'gorgeous', discusses catcalling directed at her).",
+          "value": "female",
+          "lines": [
+            6,
+            185,
+            191
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I was not born in the U.S. I was born in South Korea and adopted at three months old'.",
+          "value": "Korean-born American, adopted",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is of Korean descent.",
+          "value": "Asian American",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates she was adopted into a white family and her parents maintained Korean cultural elements.",
+          "value": "raised by white adoptive parents in upstate New York",
+          "lines": [
+            142,
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explicitly states she is a union member when discussing health insurance and unemployment.",
+          "value": "union member",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says 'my unemployment claim actually went through', indicating she is receiving unemployment benefits.",
+          "value": "receiving unemployment benefits",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she works in theatre (opera, off-Broadway etc.).",
+          "value": "works in theatre",
+          "lines": [
+            40,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about theatres being closed and wanting to go back to work, and is currently receiving unemployment.",
+          "value": "currently unemployed due to COVID-19 pandemic",
+          "lines": [
+            40,
+            42,
+            44,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is a member of a theatre union.",
+          "value": "theatre union member",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains that health insurance is through the union and that she still has coverage.",
+          "value": "has health insurance via union",
+          "lines": [
+            312,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes travelling to Tokyo for an opera co-production and later to South Korea.",
+          "value": "occasional international theatre work",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my mom' and 'my parents' telling stories, indicating she has adoptive parents.",
+          "value": "has adoptive parents",
+          "lines": [
+            136,
+            142,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b tells a story about a childhood friend Becky from Korean culture camp.",
+          "value": "has a childhood friend named Becky",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions various friends: one who posted on Facebook about Broadway, one with health insurance troubles, and a friend in Osaka.",
+          "value": "has multiple friends",
+          "lines": [
+            50,
+            74,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b lives in NYC, complains about unreliable Spectrum internet, and uses her phone hotspot for a better connection.",
+          "value": "lives in an NYC apartment with unreliable internet",
+          "lines": [
+            12,
+            128,
+            176,
+            180
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes herself as 'an outgoing introvert'.",
+          "value": "outgoing introvert",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b has been trying to learn K-pop dances for a couple of years.",
+          "value": "learns K-pop dances as a hobby",
+          "lines": [
+            257,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b travelled solo to South Korea and Japan for work and personal reasons.",
+          "value": "travels internationally for work and personal",
+          "lines": [
+            132,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b attended summer Korean culture camp throughout her childhood.",
+          "value": "attended Korean culture camp in childhood",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a tells speaker_b 'you are unbelievably gorgeous' during their video chat.",
+          "value": "described as gorgeous by speaker_a",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she has 'a pretty unapproachable aura'.",
+          "value": "self-described unapproachable aura",
+          "lines": [
+            188
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

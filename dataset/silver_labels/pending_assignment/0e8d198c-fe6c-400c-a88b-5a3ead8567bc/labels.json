@@ -1,0 +1,589 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 9: speaker_a states 'Hi, my name is brian.' Line 8 speaker_b also says 'brian'. Note: later line 47 mentions 'brian's birthday' turning 29, which contradicts speaker_a's age of 59; inferred to be a son also named Brian. The self-introduction is taken as his own name.",
+          "value": "Brian",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 15: speaker_a says 'I live in Melbourne dale michigan, which is metropolitan Detroit area.' ASR 'Melbourne dale' likely 'Melvindale'. Also line 67: 'that's where I live now' referring to metropolitan Detroit; line 253: 'I live in a major metropolitan area'.",
+          "value": "Melvindale, Michigan (metropolitan Detroit area)",
+          "lines": [
+            15,
+            67,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 219: speaker_a says 'I grew up in Dearborn and with the Henry Ford museum.' Dearborn is a suburb of Detroit. Also line 67: grew up in metropolitan Detroit.",
+          "value": "Dearborn, Michigan",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 13: speaker_a states 'I'm 59.' Line 137: 'I was a kid done 1974, I was 13, I turned 14' consistent with birth year around 1960-61.",
+          "value": "59 years old",
+          "lines": [
+            13,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 167: speaker_a says 'I graduated high school in 79.'",
+          "value": "graduated high school in 1979",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 207: speaker_a says a program (ASR 'Jack or', likely Job Corps) 'sent me to college'. Line 233: mentions knowing a guy in college, implying attendance.",
+          "value": "attended college (some college)",
+          "lines": [
+            207,
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 15: speaker_a states 'I'm uh disabled'.",
+          "value": "disabled",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 15: speaker_a states 'I'm uh disabled'.",
+          "value": "disabled",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Line 162: speaker_b asks 'were you in the service or?'. Line 163: speaker_a replies 'No, I never did go.'",
+          "value": "never served in the military",
+          "lines": [
+            162,
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 15: speaker_a says 'was working part time earlier this year.'",
+          "value": "worked part-time earlier this year",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 15: speaker_a says 'I haven't worked full time since 2003.'",
+          "value": "has not worked full-time since 2003",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 19: speaker_a says 'since april I think I've earned as much as I earned in two years previously.' referring to Prolific studies.",
+          "value": "earns money on Prolific; since April earned as much as previous two years combined",
+          "lines": [
+            16,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 263: 'My very first job as a mechanic.' Line 265: 'a place called heralds frame shop' (ASR, likely Herald's Frame Shop). Lines 267-269: describes union as aerospace and machinists union.",
+          "value": "auto mechanic at Herald's Frame Shop, member of aerospace and machinists union",
+          "lines": [
+            263,
+            265,
+            267,
+            269
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 207: speaker_a says 'I did uh something called Jack or um' (ASR likely Job Corps) which sent him to college and paid for travel back to Michigan.",
+          "value": "participated in Job Corps program, which paid for college and travel home",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 223: speaker_a says 'he lives across the hall from me in this apartment.'",
+          "value": "lives in an apartment",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 15: speaker_a says 'I have three adult Children.'",
+          "value": "has three adult children",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 47-49: speaker_a says 'yesterday was brian's birthday... makes them 29.' Speaker_a is 59, so this likely refers to a child. Line 299 confirms he has a son.",
+          "value": "child named Brian turned 29",
+          "lines": [
+            47,
+            49,
+            299
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 51: speaker_a says 'pet is going to be 29 next month', likely another child. ASR 'pet' could be Pat or Pete.",
+          "value": "child named Pet turning 29 next month",
+          "lines": [
+            51
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 39: speaker_a says 'my oldest son's girl growing up his best friend has cerebral policy' (ASR for cerebral palsy).",
+          "value": "oldest son's best friend has cerebral palsy",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 191: speaker_a says 'So my oldest sister lives in florida.'",
+          "value": "oldest sister lives in Florida",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 193-195: speaker_a says 'Next oldest lives in uh Washington in Portland. Well no she was in Oregon Portland um Vancouver Electric the name she loves him but it's suburban Portland.' Indicates sister in Vancouver/Portland area.",
+          "value": "sister lives in Vancouver, Washington / Portland, Oregon area",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 197: speaker_a says 'Next oldest is in Alabama.'",
+          "value": "sister lives in Alabama",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 197: speaker_a says 'You see Gina's in colorado', indicating a sister named Gina in Colorado.",
+          "value": "sister Gina lives in Colorado",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 197: garbled phrase 'my next my brother, my next younger sister, I'll live in metropolitan Detroit' evokes a brother living in metro Detroit.",
+          "value": "brother lives in metropolitan Detroit",
+          "lines": [
+            197
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 197: same garbled phrase evokes a younger sister living in metro Detroit.",
+          "value": "younger sister lives in metropolitan Detroit",
+          "lines": [
+            197
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 197: speaker_a says 'and the baby lives in Oklahoma' referring to the youngest sibling.",
+          "value": "youngest sibling lives in Oklahoma",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 165: speaker_a says 'My brother Died in 1975 and he was in the Navy'. Line 177: 'I was 14 when my brother died.'",
+          "value": "brother died in 1975 while serving in the Navy",
+          "lines": [
+            165,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 189: speaker_a says 'My parents grew up in Kansas and they came here, they get a job for the auto industry.'",
+          "value": "parents grew up in Kansas, moved to Detroit for auto industry jobs",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 255: speaker_a says 'I married someone who grew up like about 30 miles north of Hannibal Missouri.'",
+          "value": "married to a woman from near Hannibal, Missouri",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 261-273: speaker_a describes his father-in-law working at Gardner Denver plant and being in the same union (aerospace and machinists).",
+          "value": "father-in-law worked at Gardner Denver plant, member of aerospace and machinists union",
+          "lines": [
+            261,
+            263,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 107: speaker_a says 'I had a boss who came from Utah, once you're mormon', indicating a former Mormon boss from Utah.",
+          "value": "former boss from Utah, Mormon",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 223-225: speaker_a says 'he lives across the hall from me in this apartment' and 'He works there' in context of Henry Ford Museum.",
+          "value": "neighbor across the hall works at Henry Ford Museum",
+          "lines": [
+            223,
+            225
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 97-103: speaker_a says he reads a lot, has read almost everything by Orson Scott Card, is reading a prequel, and has a collection of his books behind the computer.",
+          "value": "avid reader, especially Orson Scott Card; owns many of his books",
+          "lines": [
+            97,
+            99,
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 137: speaker_a says 'I was delivering newspapers' as a kid in 1974.",
+          "value": "delivered newspapers as a child",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 67-71: speaker_a describes seeing Gordie Howe play for the Detroit Red Wings in about 1972 when he was 11.",
+          "value": "saw Gordie Howe play with the Detroit Red Wings circa 1972",
+          "lines": [
+            67,
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 245: speaker_a says he listens to Google Play and Spotify, uses an ad blocker to avoid ads, and listens in the car.",
+          "value": "uses Google Play and Spotify with ad blocker; listens to music in car",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 179-185, 199: speaker_a describes his family starting online meetings on WebEx then switching to Zoom, meeting on Sundays.",
+          "value": "family holds weekly Zoom meetings on Sundays",
+          "lines": [
+            179,
+            185,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 299: speaker_a says 'I was taking my son to watch basketball games at university Detroit because it was inexpensive.'",
+          "value": "attended college basketball games at University of Detroit with son",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 16, 295-297: speaker_a uses Prolific; says this is his 5th study of this type.",
+          "value": "participates in Prolific studies; completed 5 studies",
+          "lines": [
+            16,
+            295,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 12: speaker_b says 'My name's Evan.' Line 11 speaker_a greets 'Hi Evan'.",
+          "value": "Evan",
+          "lines": [
+            12,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 26: speaker_b says 'I live in Idaho.'",
+          "value": "Idaho",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 210: speaker_b says 'I live half hour from Boise'.",
+          "value": "within half hour of Boise, Idaho",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 26: speaker_b says 'I am 30 for uh'. ASR '30 for' likely '34'.",
+          "value": "34 years old",
+          "lines": [
+            26
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 228: speaker_b says 'I have a degree in mass communications'.",
+          "value": "degree in mass communications",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'I also am disabled.' Line 34: 'I have cerebral palsy.' Line 56: born three months premature.",
+          "value": "disabled (cerebral palsy)",
+          "lines": [
+            32,
+            34,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 34: speaker_b says 'I have cerebral palsy.'",
+          "value": "cerebral palsy",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 56: speaker_b says 'we were booked born three months early' (ASR for 'both born').",
+          "value": "born three months premature",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: speaker_b says 'when I talked, my hands like to go up in the air' due to cerebral palsy.",
+          "value": "hands involuntarily go up when talking",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 298: speaker_b says 'This is my 4th' in response to speaker_a's study count.",
+          "value": "participates in Prolific studies; completed 4 studies",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 52: speaker_b says 'I have seven siblings there between.' Lines 202, 210 enumerate them.",
+          "value": "has seven siblings",
+          "lines": [
+            52,
+            202,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 54: speaker_b says 'my twin is a girl.'",
+          "value": "twin sister",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 56: speaker_b says 'she is not disabled whatsoever'.",
+          "value": "twin sister has no disability",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 202: speaker_b says 'I have a brother in also uh Washington state, he's in Battleground which is close to Vancouver.'",
+          "value": "brother lives in Battleground, Washington (near Vancouver)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 202: speaker_b says 'I have a brother in Hawaii'.",
+          "value": "brother lives in Hawaii",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 202: speaker_b says 'one sister all the way over and Jordan close to Saudi Arabia... her husband worked for the US State department as a diplomat.'",
+          "value": "sister lives in Jordan; her husband is a US diplomat",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 210: speaker_b says 'I have a sister in texas'.",
+          "value": "sister lives in Texas",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 210: speaker_b says 'I have a sister in Washington'.",
+          "value": "sister lives in Washington",
+          "lines": [
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 210: speaker_b says 'two siblings in Idaho' (in addition to himself, who also lives in Idaho).",
+          "value": "two siblings live in Idaho",
+          "lines": [
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 200: speaker_b says 'we have a weak reason chad actually' (ASR for weekly Zoom chat) 'every sunday'.",
+          "value": "family holds weekly Zoom chats on Sundays",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 58: speaker_b says 'I'm a big sports enthusiast I and into football, baseball and hockey'.",
+          "value": "sports enthusiast (football, baseball, hockey)",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 228-230: speaker_b describes creating a fictitious radio station, being the DJ, recording music, adding ads. Line 240: says it's like a podcast.",
+          "value": "creating a fictitious radio station as a hobby (like a podcast)",
+          "lines": [
+            228,
+            230,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 298: speaker_b says this is his 4th study on Prolific.",
+          "value": "participates in Prolific studies; completed 4 studies",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 218: speaker_b says 'I've been to Detroit... seen the Henry ford museum'. Line 258: 'I've been to Quincy and Hannibal actually'.",
+          "value": "has visited Detroit (Henry Ford Museum), Quincy, and Hannibal",
+          "lines": [
+            218,
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Line 36: speaker_b describes his hands going up when talking due to cerebral palsy. This is an observable physical characteristic.",
+          "value": "hands go up involuntarily when talking",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

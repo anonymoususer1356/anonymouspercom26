@@ -1,0 +1,285 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself with 'My name is paul.'",
+          "value": "Paul",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in California' and later adds 'we live kind of the central part of California.'",
+          "value": "central California",
+          "lines": [
+            23,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Paul is typically male; speaker refers to 'dudes' and 'man' and describes being married with children in a way that implies husband/father.",
+          "value": "male",
+          "lines": [
+            5,
+            23,
+            175
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'when I was in college'.",
+          "value": "attended college",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a regularly uses Prolific, UserZoom, Amazon Mechanical Turk, and UserTesting to earn money; he mentions payments, hourly rates, and total earnings (e.g., 'I've made hundreds of dollars').",
+          "value": "earns money from Prolific, UserZoom, Amazon Mechanical Turk, and UserTesting",
+          "lines": [
+            7,
+            9,
+            59,
+            65,
+            81,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I've also married'.",
+          "value": "married",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'got two kids'.",
+          "value": "has two children",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my parents house'.",
+          "value": "has parents",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about 'dudes from philadelphia' who became friends with him in college.",
+          "value": "has friends from Philadelphia",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a agrees with speaker_b that they do online tasks while 'watching tv or whatever' and adopts the same approach.",
+          "value": "does online survey tasks while watching TV",
+          "lines": [
+            97,
+            103
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes dealing with wildfires, smoke blown from 150 miles away, and multiple fires making the end of summer and fall difficult.",
+          "value": "lives in an area affected by wildfires and smoke",
+          "lines": [
+            177,
+            179,
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself: 'I'm nick.'",
+          "value": "Nick",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in florida' and 'live in florida'.",
+          "value": "Florida",
+          "lines": [
+            18,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I lived in New Jersey for a while and for most of my life' and mentions moving from Jersey in 2007, having been in Florida 13 years.",
+          "value": "originally from New Jersey, moved to Florida in 2007",
+          "lines": [
+            26,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to 'my wife' and has the male name Nick.",
+          "value": "male",
+          "lines": [
+            6,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm a supervisor and a culinary' at SeaWorld and has been there 14 years.",
+          "value": "supervisor in culinary at SeaWorld",
+          "lines": [
+            36,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b worked as a Burger King manager before moving to Florida.",
+          "value": "former Burger King manager",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b was furloughed for four months and then called back to SeaWorld.",
+          "value": "was furloughed from SeaWorld for 4 months during COVID-19, then called back",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b has been on MTurk for two years, made $3800 in the first nine months and $3000 in the current year, and also uses Prolific.",
+          "value": "earns extra income from Amazon Mechanical Turk and Prolific",
+          "lines": [
+            56,
+            68,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the extra money 'pays the water bill or it pays gas for the car'.",
+          "value": "uses side income for utility and gas bills",
+          "lines": [
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my wife' and says 'married'.",
+          "value": "married",
+          "lines": [
+            34,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my wife works at walmart all this time'.",
+          "value": "wife works at Walmart",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Two kids married'.",
+          "value": "has two children",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my wife said we're gonna go visit her mom'.",
+          "value": "has mother-in-law",
+          "lines": [
+            122
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we have a lot of family here' in Florida.",
+          "value": "has extended family in Florida",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b works at SeaWorld and mentions 'driving home from work'.",
+          "value": "commutes by car to job at theme park",
+          "lines": [
+            14,
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b does MTurk on his days off and notes that he can 'watch Tv with it'.",
+          "value": "does online microtasks on days off, often while watching TV",
+          "lines": [
+            74,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I stopped at wa wa got a pretzel' – 'wa wa' is Wawa, a convenience store.",
+          "value": "frequents Wawa convenience stores",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

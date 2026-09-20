@@ -1,0 +1,327 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as 'Miller' when speaking to speaker_b.",
+          "value": "Miller",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she has been in North Carolina for the past year or so (line 65) and confirms Raleigh when asked (line 67).",
+          "value": "Raleigh, North Carolina",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm from Lancaster originally' (line 139), establishing her hometown.",
+          "value": "Lancaster, Pennsylvania",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a directly states 'I'm a school counselor' (line 73).",
+          "value": "school counselor",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I got my masters at U.N.C.' (line 69).",
+          "value": "Master's degree from UNC",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how she voted, speaker_a replies 'Not for the crazy current president' (line 123), indicating she voted against Donald Trump.",
+          "value": "voted against Donald Trump in 2020 presidential election",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she grew up a Steelers fan and is a fan (line 155).",
+          "value": "Steelers fan",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes having previously taken a self-administered COVID-19 test at a CVS drive-through (lines 231, 239).",
+          "value": "had a COVID-19 test via CVS drive-through",
+          "lines": [
+            231,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she is a school counselor (line 73), which implies she has a job and income.",
+          "value": "employed as a school counselor",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions her brother multiple times, noting he is a Steelers fan (line 155) and that he sent her tickets (line 177).",
+          "value": "has a brother",
+          "lines": [
+            155,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her mother in the context of holiday plans (line 177).",
+          "value": "has a mother",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says her dog turns four in a week and is a golden doodle (line 53).",
+          "value": "owns a golden doodle dog, almost 4 years old",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions Sundays are for the Steelers to help her 'bounce back', indicating she watches their games (line 157).",
+          "value": "watches Steelers football games",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions driving to the gym (line 127).",
+          "value": "goes to the gym",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes wearing a mask at a wedding (line 199) and using a glove at the gas pump (line 253).",
+          "value": "takes COVID-19 precautions (masks, gloves)",
+          "lines": [
+            199,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she attended a wedding last weekend (line 193).",
+          "value": "attended a wedding recently",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is flying for Thanksgiving and driving for Christmas (lines 89, 93).",
+          "value": "traveling for holidays: flying for Thanksgiving, driving for Christmas",
+          "lines": [
+            89,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her school is not open and everything is virtual (lines 73, 75), implying she works remotely.",
+          "value": "works remotely as a school counselor during pandemic",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as 'Ron' (lines 4, 6).",
+          "value": "Ron",
+          "lines": [
+            4,
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b indicates being in New Jersey through context, mentioning 'Jersey' (line 64) and describing NJ quarantine rules (line 98).",
+          "value": "New Jersey",
+          "lines": [
+            64,
+            98
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I'm also a Steelers' fan (line 154).",
+          "value": "Steelers fan",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states he had a COVID-19 test and antibody test, both negative (lines 226, 228).",
+          "value": "tested negative for COVID-19 and antibodies",
+          "lines": [
+            226,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes getting sick with flu-like symptoms just before the pandemic was declared (lines 224, 225).",
+          "value": "had flu-like symptoms before COVID-19 pandemic",
+          "lines": [
+            224,
+            225
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his sister lived outside Philly (line 148).",
+          "value": "has a sister",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his niece adopting a cat (line 54) and earlier refers to 'my nieces' (line 12).",
+          "value": "has a niece",
+          "lines": [
+            12,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom' in the context of school decisions (line 104).",
+          "value": "has a mother",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b discusses school decisions for children, giving grades (freshman and middle school) (lines 102, 110, 111, 112), and speaker_a later refers to 'your kids' without correction (line 321).",
+          "value": "has children, one in high school (freshman) and one in middle school",
+          "lines": [
+            102,
+            110,
+            111,
+            112,
+            321
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions a friend who went to Duke Law School (line 68).",
+          "value": "has a friend who attended Duke Law School",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes his cat as 20 years old, female, adopted at age 6, and has had her for 14 years (lines 36, 38, 40).",
+          "value": "owns a 20-year-old female cat, adopted at age 6, owned for 14 years",
+          "lines": [
+            36,
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a previous cat that lived to 15 years old (lines 46, 48, 50).",
+          "value": "previously owned a cat that lived to 15 years",
+          "lines": [
+            46,
+            48,
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes cleaning credit cards with rubbing alcohol and taking other precautions (lines 244, 246, 248).",
+          "value": "takes COVID-19 precautions (cleans credit cards, wears mask)",
+          "lines": [
+            244,
+            246,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he orders most items online and occasionally visits the pet store and liquor store (line 246).",
+          "value": "orders most items online, occasionally shops at pet store and liquor store",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes recurring dreams about being in public without a mask and feeling anxious (lines 184, 186).",
+          "value": "has dreams about not wearing a mask in public",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

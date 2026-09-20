@@ -1,0 +1,343 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself by name: 'I'm christian'. The ASR output is clear.",
+          "value": "Christian",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is 'from Illinois, like around Chicago' (line 51), lives about an hour from downtown in the suburbs (line 73), describes the area as 'border of civilization' with farmland and corn fields (lines 79, 81).",
+          "value": "Lives in Illinois, near Chicago, about an hour from downtown in the suburbs bordered by farmland",
+          "lines": [
+            51,
+            73,
+            75,
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was supposed to be in Virginia for an internship and spent a day or two in Richmond (lines 53, 57).",
+          "value": "Visited Richmond, Virginia for an internship interview",
+          "lines": [
+            53,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions his school has 'Chicago' in the name and is about 45 minutes north of downtown Chicago (line 87). The ASR is garbled but the intended meaning is clear.",
+          "value": "Attends a school with 'Chicago' in its name, located about 45 minutes north of downtown Chicago",
+          "lines": [
+            87
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a directly states 'I'm a computer science student' (line 59).",
+          "value": "Computer science student",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'this is actually my senior year' (line 146).",
+          "value": "Senior year in college",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he has taken many statistics classes and is interested in the intersection of computer science and stats, specifically data science and machine learning (line 221).",
+          "value": "Takes statistics classes, interested in data science / machine learning",
+          "lines": [
+            221,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states he was 'going to be working with Capital One' (line 59), the internship moved remote (line 69), lasted 10 weeks, and wrapped up recently (line 71).",
+          "value": "Completed a 10-week remote internship at Capital One",
+          "lines": [
+            59,
+            69,
+            71,
+            215,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has been doing Prolific surveys regularly for about five years to make money online (lines 263, 265, 267).",
+          "value": "Earns money through Prolific surveys, active for about 5 years",
+          "lines": [
+            263,
+            265,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my brother was uh 2020 grad', in a context suggesting college graduation (line 146).",
+          "value": "Has a brother who graduated in 2020 (likely college)",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'my little brother is in high school right now' (line 179).",
+          "value": "Has a younger brother currently in high school",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes his routine of keeping a Prolific tab open with the Prolific Assistant Chrome extension to notify him of new surveys (lines 281, 283).",
+          "value": "Regularly does Prolific surveys, uses Prolific Assistant Chrome extension",
+          "lines": [
+            263,
+            265,
+            281,
+            283,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains his Capital One internship was conducted remotely (line 69).",
+          "value": "Remote internship experience",
+          "lines": [
+            69,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b gives his name as 'john' (line 300). ASR transcribed 'john raise your question' for what was likely 'John, nice to meet you'. speaker_a then calls him 'john' (line 301).",
+          "value": "John",
+          "lines": [
+            300,
+            301
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm from Virginia' (line 52), lives 'a couple hours from Richmond' (line 58), '15 minutes to get into the next big town' (line 82), works a couple of towns over (line 82, 'pounds' likely mishearing for 'towns'), lives in an area with poultry plants and nursing homes (line 150), and describes it as 'pretty sheltered' (line 84).",
+          "value": "Lives in Virginia, a couple hours from Richmond, about 15 minutes from the next big town, works a couple of towns over, area with poultry plants and nursing homes",
+          "lines": [
+            52,
+            58,
+            82,
+            84,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'growing up, I was an hour south of Pittsburgh, but I just told everybody I'm from Pittsburgh' (line 76).",
+          "value": "Grew up an hour south of Pittsburgh",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b directly says 'I'm a store manager of a pharmacy' (line 44).",
+          "value": "Store manager of a pharmacy",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I graduated high school in 2001' (line 96).",
+          "value": "Graduated high school in 2001",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he took 'computer thighs' (computer science) in college (line 96), 'did 3/4 of my education online because it's all computer courses' (line 100), and 'I do is in computer science and chose to do three points of my studies completely online' (line 106).",
+          "value": "Attended college for computer science, did approximately 3/4 of his studies online",
+          "lines": [
+            96,
+            100,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm you know, um younger than 40' (line 232).",
+          "value": "Younger than 40",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've had five jobs, like five career jobs already' (line 230).",
+          "value": "Has had five career jobs",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I'm diabetic' (line 44) and describes needing to run to Walmart for juice to avoid becoming incoherent.",
+          "value": "Diabetic",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm a store manager of a pharmacy' (line 44) and later mentions having a full-time job (line 276).",
+          "value": "Full-time store manager at a pharmacy",
+          "lines": [
+            44,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he makes about $40 a month on Prolific surveys and has completed about 500 surveys (lines 276, 278).",
+          "value": "Earns about $40 per month on Prolific, ~500 surveys completed",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm still paying off my college loan, But uh you know, uh 19 years later' (line 120).",
+          "value": "Still paying off college loan 19 years after leaving college",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'if I didn't go to college, I'm making half the amount of money' (line 120).",
+          "value": "Believes college doubled his income",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my wife' (line 188).",
+          "value": "Has a wife",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a couple of kids' (line 154) and distinguishes 'the older ones' and 'the little ones' (lines 186, 188).",
+          "value": "Has multiple children, both older and younger",
+          "lines": [
+            154,
+            186,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we just celebrated a birthday from my nephew' (line 206).",
+          "value": "Has a nephew whose birthday was recently celebrated",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My dad, he only had one job his whole life' (line 228).",
+          "value": "Father had only one job his whole life",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My mom had one job her whole life' (line 230).",
+          "value": "Mother had only one job her whole life",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b explains he does Prolific surveys on the side, describes avoiding very low-paying ones ('12 cents') (line 276).",
+          "value": "Does Prolific surveys on the side, avoids very low-paying surveys",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes backyard barbecues are happening again, celebrated a nephew's birthday outside with spaced seating, no hugging or handshakes (lines 206, 208).",
+          "value": "Celebrates family birthdays with backyard gatherings, practices social distancing (no hugging/handshakes)",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they had a peaceful protest with no problems and 'we're pretty sheltered out here in Virginia' (lines 82, 84).",
+          "value": "Lives in a sheltered area, experienced only a peaceful protest during civil unrest",
+          "lines": [
+            82,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

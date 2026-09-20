@@ -1,0 +1,363 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At the start of the conversation, speaker_a introduces herself with 'Hey, I'm jen'. This is a direct statement of her name.",
+          "value": "Jen",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in Michigan (line 13), lives about 30 minutes north of Detroit (line 31), in a town of around 50,000 people (line 33), and has lived there her whole life (line 31). These details together pinpoint her location.",
+          "value": "Michigan, approximately 30 minutes north of Detroit, in a suburban town of about 50,000 people; lifelong resident",
+          "lines": [
+            13,
+            31,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a has a typically female name 'Jen' and refers to 'my husband', indicating she is female.",
+          "value": "Female",
+          "lines": [
+            5,
+            191
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a lives in the United States (Michigan) and mentions 'our governor' (line 63) and US-specific contexts, implying she is a US resident.",
+          "value": "US resident",
+          "lines": [
+            13,
+            63
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says she used to smoke but quit (line 185). When asked how long ago, she indicates 'like three years' (line 189). She also describes quitting together with her husband (line 191).",
+          "value": "Former smoker, quit approximately 3 years ago",
+          "lines": [
+            185,
+            189,
+            191
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions she does surveys on Prolific and has been making money from them (lines 225-226). She also found out about it on a 'beer money' subreddit (line 261), indicating it's a side income source.",
+          "value": "Earns money through online surveys on Prolific",
+          "lines": [
+            225,
+            226,
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my husband' and describes quitting smoking together (line 191), clearly indicating she is married.",
+          "value": "Married, has a husband",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my in laws live in south Carolina' (line 133), indicating she has in-laws and their location.",
+          "value": "Has in-laws living in South Carolina",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my brother' in the context of doing surveys (line 247).",
+          "value": "Has a brother",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my cousin' who believes in skinwalkers (line 302).",
+          "value": "Has a cousin",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she does 'Ricky' (Reiki) and is interested in other energy modalities like 'bono bono' (likely ho'oponopono) (line 115).",
+          "value": "Practices Reiki and explores energy healing modalities",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a liking for rocks (line 157) and says she has 'a lot of crystals to meditate with' (line 169).",
+          "value": "Collects rocks and crystals, uses crystals for meditation",
+          "lines": [
+            157,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their 'big thing was cruises' and they do 'family cruises to the caribbean' (line 135); she mentions 'my favorite places, a robot' which contextually is Aruba, given she refers to 'southern caribbean kind of Barbados and ST Lucia' (lines 143).",
+          "value": "Enjoys family cruises to the Caribbean; favorite destination is Aruba",
+          "lines": [
+            135,
+            137,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions using Reddit (line 261) and being interested in 'glitch in the Matrix and like weird paranormal things' (line 281).",
+          "value": "Uses Reddit, interested in paranormal and glitch topics",
+          "lines": [
+            261,
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "After speaker_a gives her name, speaker_b responds with what seems to be a spelled-out name: 'K M A I L E' (line 6). The surrounding speech is garbled ('And combine um committing. It's hard.'), but the letters are clearly dictated. This is likely an introduction of their name.",
+          "value": "K M A I L E",
+          "lines": [
+            6
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I was born in Australia' (line 10). The ASR 'but I didn't hire you' likely garbles 'but I don't live there' or a similar phrase; the rest of the conversation establishes she now lives in Hawaii.",
+          "value": "Born in Australia",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she lives in Hawaii: speaker_a asks 'So how long have you lived there in Hawaii?' (line 29) and speaker_b responds 'I've been here since I was 10, so most of my life' (line 28). She also refers to the continental US as 'the mainland' (line 34) and discusses Hawaii-specific quarantine rules (line 54) and hospitals on 'the island' (line 78). She indicates her town is about the same size as speaker_a's ~50,000 (line 34).",
+          "value": "Lives in Hawaii, on an island, in a town of approximately 50,000 people",
+          "lines": [
+            28,
+            29,
+            34,
+            54,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As noted, speaker_b says 'I've been here since I was 10' (line 28) in response to a question about how long she has lived in Hawaii.",
+          "value": "Moved to Hawaii at age 10",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b mentions having a boyfriend (line 210) and uses female-coded speech patterns, but never explicitly states her gender. The inference is strong but not explicit.",
+          "value": "Female",
+          "lines": [
+            210
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b asks 'Do you mind if I smoke a city?' (line 178), where 'city' is ASR error for 'ciggy' or cigarette. This indicates she is a current smoker.",
+          "value": "Current smoker",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she has been on the survey site 'maybe like a month or so' (line 228) and her total earned is 'at night 50 something um good ish pounds' (line 230), meaning around £50.",
+          "value": "Earns money via Prolific surveys, total earned approximately £50",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b recounts needing money for laundry: 'we didn't have money for laundry... $2 for washing three for dry... So $5 for like a small load' (lines 270-272). She then asked on the 'assistance one' (Reddit r/assistance) and a user sent her $100 (line 274). This demonstrates financial difficulty.",
+          "value": "Experienced financial difficulty, lacked money for laundry and requested help on Reddit",
+          "lines": [
+            270,
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As part of the same story, speaker_b says a Reddit user 'sent me $100' (line 274).",
+          "value": "Received $100 from a Reddit user on r/assistance",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked if she is married or has a boyfriend, speaker_b replies 'I have a boyfriend' (line 210) and adds 'He's sleeping right now' (line 212). The question implied she is not married.",
+          "value": "Has a boyfriend, unmarried",
+          "lines": [
+            209,
+            210,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'he's african american' (line 238) in reference to her boyfriend.",
+          "value": "Boyfriend is African American",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents had like a collection' (line 166), indicating she has parents.",
+          "value": "Has parents",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'One of my neighbors in my apartment building had it [Covid]' (line 50).",
+          "value": "Has a neighbor in her apartment building who contracted Covid",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes going hiking 'with two friends' (line 306).",
+          "value": "Has friends (went hiking with two friends)",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a asks 'Do you have kids?', speaker_b replies 'No, I don't have kids' (line 112).",
+          "value": "Does not have children",
+          "lines": [
+            111,
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b recounts a detailed hiking experience in a valley (lines 306-336) and enjoys outdoor activities.",
+          "value": "Enjoys hiking",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I pick shows and then yeah. To the wires and all that. And then on days when there's not that many shows and like I'll find myself picking up like that rock has a nice pattern on it' (line 160). 'shows' is likely shells. She also mentions picking shells earlier.",
+          "value": "Collects shells and rocks",
+          "lines": [
+            154,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a trip to the mainland US: 'I went to the main, we call the mainland to continue to us... When I was in high school um to prison, uh my friend's mother didn't Maryland and we drove down to north Carolina and then yeah, and then back up, although it in new york' (line 126). She also mentions Asheville, NC (line 130). Despite ASR errors, the travel is clear.",
+          "value": "Has traveled to the mainland US, visiting Maryland, North Carolina, New York, and Asheville",
+          "lines": [
+            126,
+            128,
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she found out about Prolific 'on Reddit' (line 262), indicating she is a Reddit user.",
+          "value": "Uses Reddit",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my apartment building' (line 50) and describes laundry facilities in the building (line 270).",
+          "value": "Lives in an apartment building",
+          "lines": [
+            50,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b shares a story about a hike where she and friends encountered a mystical atmosphere, a distinctive plant smell associated with spirits, and ancient rock walls (lines 306-336). She suggests a supernatural element.",
+          "value": "Believes she had a spiritual/mystical experience while hiking involving Hawaiian spirits and ancient sites",
+          "lines": [
+            306,
+            308,
+            310,
+            312,
+            314,
+            316,
+            318,
+            320,
+            322,
+            324,
+            326,
+            328,
+            330,
+            332,
+            334,
+            336
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

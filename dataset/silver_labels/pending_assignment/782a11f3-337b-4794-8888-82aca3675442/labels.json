@@ -1,0 +1,312 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'Patrick' when asked for his name; speaker_b repeats it.",
+          "value": "Patrick",
+          "lines": [
+            71,
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he lives in the upper Midwest, near the Illinois-Wisconsin border, northwest of Chicago, and can walk to Wisconsin in 10 minutes.",
+          "value": "near Illinois-Wisconsin border, northwest of Chicago, Illinois",
+          "lines": [
+            17,
+            91,
+            93,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states his age directly as 38.",
+          "value": "38",
+          "lines": [
+            31,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After stating his age he says 'I'm blacker,' which is likely an ASR error for 'I'm black' indicating his race.",
+          "value": "Black",
+          "lines": [
+            31
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says he smokes cigarettes and has been telling himself every pack would be the last for 18 years.",
+          "value": "smokes cigarettes, 18-year habit",
+          "lines": [
+            103,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He explains he does not have a regular full-time job, instead getting by on surveys and plasma donation.",
+          "value": "no regular full-time job; relies on surveys and plasma donation for income",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions having an account on Amazon Mechanical Turk (mturk).",
+          "value": "has an mturk account",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes using Prolific for studies and having a Prolific account.",
+          "value": "has a Prolific account",
+          "lines": [
+            117,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has about 500 submissions and 3 rejections on Prolific.",
+          "value": "approximately 500 Prolific submissions with 3 rejections",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I do use kill me a lot'—likely an ASR error for the Qmee survey app.",
+          "value": "uses Qmee survey app",
+          "lines": [
+            129
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He says he uses Survey Junkie.",
+          "value": "uses Survey Junkie",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he has $20 pending to be claimed on Survey Junkie.",
+          "value": "has $20 pending on Survey Junkie",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'gain is game dot G,' likely meaning Gain.gg.",
+          "value": "uses Gain.gg survey site",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions using Swagbucks.",
+          "value": "uses Swagbucks",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about participating in paid focus groups that paid him in Amazon gift cards.",
+          "value": "participated in paid focus groups, received Amazon gift cards",
+          "lines": [
+            253,
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He narrates gambling on the Gain.gg roulette wheel, losing, then winning back and cashing out $120 in Amazon gift cards.",
+          "value": "gambled on Gain.gg roulette, cashed out $120 in Amazon gift cards",
+          "lines": [
+            229,
+            231,
+            233,
+            237,
+            239,
+            241,
+            243,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he donated two $5 Amazon gift cards on Reddit, giving one to the first person and one to the second.",
+          "value": "gave away two $5 Amazon gift cards on Reddit",
+          "lines": [
+            277,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he donates plasma, which is a source of income.",
+          "value": "donates plasma for money",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He offers to show his dog, later introduces 'my friend Milo'—the dog's name is Milo.",
+          "value": "has a dog named Milo",
+          "lines": [
+            49,
+            217
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He describes his daily activity as doing surveys, focus groups, and plasma donation rather than regular employment.",
+          "value": "spends his days completing online surveys, studies, and donating plasma",
+          "lines": [
+            35,
+            37,
+            113,
+            117,
+            129,
+            155,
+            171,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions using Reddit forums beermoney and prolificAC to discuss surveys.",
+          "value": "active on Reddit beermoney and prolificAC subreddits",
+          "lines": [
+            275,
+            277,
+            281,
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "When asked for his name, he replies 'Justin'.",
+          "value": "Justin",
+          "lines": [
+            222,
+            331
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says 'I'm in Los Angeles' and confirms it later when speaker_a says 'you said you're in L.A.'",
+          "value": "Los Angeles, California",
+          "lines": [
+            16,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked his age, he replies 'about uh 30'.",
+          "value": "30",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a degree in engineering.",
+          "value": "holds an engineering degree",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he is an engineer.",
+          "value": "employed as an engineer",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has completed about five BetterUp Labs chat sessions and is 'new here,' indicating he does surveys for extra money.",
+          "value": "completes online surveys for extra income",
+          "lines": [
+            42,
+            334
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He refers to 'the Amazon one' when discussing mturk, implying he is familiar with or has an mturk account.",
+          "value": "has experience with Amazon Mechanical Turk",
+          "lines": [
+            262
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He mentions 'I actually had a beard money'—ASR for 'beer money'—indicating he uses the Reddit beermoney community.",
+          "value": "uses Reddit beermoney",
+          "lines": [
+            276
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I'm just new here' regarding the survey platform, so he recently started doing surveys.",
+          "value": "new to online surveys",
+          "lines": [
+            334
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

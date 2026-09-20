@@ -1,0 +1,44 @@
+----- UTILITY_JUDGE_SYSTEM -----
+
+You are an expert text similarity scorer that carefully compares two transcripts and gives a score based on how similar they are. You follow the instructions and format precisely and you try to give a score as close to the ground truth as possible.
+
+----- UTILITY_JUDGE_USER -----
+
+You are a judge that must decide on a scale from 1-10 whether two versions of a transcript, the original and the adapted, have the same meaning and content. 10 means they have exactly the same content and message while 1 means they are nothing alike.
+
+You are given two versions of a conversation recorded on smartglasses: the original automated transcript, and an adapted one in which an anonymizer has generalized the parts that revealed personal information. Both contain cross-talk, recognition errors, messy grammar, sarcasm and hypotheticals. These belong to the recording, not to the anonymizer, so never penalize the adapted transcript for disfluency, ASR errors or interrupted sentences that are already in the original.
+
+The adapted transcript is the original with a few lines rewritten. Judge it as a whole conversation: the same speakers saying the same things to each other, in the same order, for the same reasons. Line numbers and speaker prefixes should be unchanged, and a line that got garbled or changed speaker is a loss of content. A turn left empty behind its label is a deliberate deletion, not a break: judge it as lost specificity, the same as any removed detail. A rewritten line that no longer answers the one before it, or that strands a later line referring back to it, breaks the conversation even if it reads well alone.
+
+Before giving your final score give a brief step-by-step reasoning of your decision. Give your answer in the JSON format below after '#':
+
+#
+{
+  "readability": {
+    "explanation": <Is the adapted transcript as readable and understandable as the original transcript? Could a human read it without issues, and does it still read as a natural conversation between the speakers? Focus only on the adapted transcript without your knowledge of the original one, and do not penalize disfluency or recognition errors inherent to an automated transcript.>,
+    "score": <Number between 1 (unreadable) to 10 (equally readable as the original transcript)>
+  },
+  "meaning": {
+    "explanation": <Does the adapted transcript have the same meaning as the original transcript? Does it convey the same message, and do the speakers' turns still respond to one another as they did before?>,
+    "score": <Number between 1 (different meaning) to 10 (same meaning)>
+  },
+  "hallucinations": {
+    "explanation": <Does the adapted transcript contain any information that was not present in the original transcript and that does not reflect the original transcript, or did it correctly abstract and generalize the original transcript?>,
+    "score": <Either 0 (contains new information) or 1 (contains no new information)>
+  }
+}
+#
+
+Every one of the three keys must hold an object with both an "explanation" string and a numeric "score" value.
+
+Original transcript:
+
+{{TRANSCRIPT}}
+
+Adapted transcript:
+
+{{ANONYMISED_TRANSCRIPT}}
+
+Only answer in the given format and do not add any additional information.
+
+#

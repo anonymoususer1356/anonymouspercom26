@@ -1,0 +1,314 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly states 'my name is Adrian'.",
+          "value": "Adrian",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm in Maryland', 'I'm outside of D.C.', and refers to PG County using 'we' (e.g., 'we were hit pretty hard', 'we're one of the richest black areas... the Washington suburbs').",
+          "value": "Prince George's County, Maryland (Washington, D.C. area)",
+          "lines": [
+            37,
+            39,
+            61,
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I went to Quaker meeting online'.",
+          "value": "Quaker (attends Quaker meetings)",
+          "lines": [
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes previous unsuccessful attempts and current connection in a study context.",
+          "value": "Study participant",
+          "lines": [
+            11,
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states he is working on a job application for an administrator position at the Religious Education Association (30 hrs/week remote).",
+          "value": "Job seeker (applying for administrator job at Religious Education Association)",
+          "lines": [
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I got Kindle unlimited... $10 a month'.",
+          "value": "Subscribes to Kindle Unlimited ($10/month)",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I bought it refurbished on boot for $100' referring to a Kindle device.",
+          "value": "Purchased refurbished Kindle for $100",
+          "lines": [
+            303
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I live with somebody with diabetes'.",
+          "value": "Lives with someone who has diabetes",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my brother in florida actually um near Orlando'.",
+          "value": "Has a brother who lives near Orlando, Florida",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My friend was like this is making you unhappy'.",
+          "value": "Has a friend",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm going to work on a project with the Minister'.",
+          "value": "Works with a minister on a project",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I went to Quaker meeting online'.",
+          "value": "Attends Quaker meetings online",
+          "lines": [
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes watching 'the untamed on netflix' and discusses the plot in detail.",
+          "value": "Watches The Untamed on Netflix",
+          "lines": [
+            199,
+            203,
+            205,
+            207,
+            209,
+            213,
+            215,
+            217,
+            219,
+            221,
+            225,
+            227,
+            229,
+            231,
+            233,
+            235,
+            237,
+            243,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions reading romance novels, science fiction, and religious philosophy, and using Kindle Unlimited.",
+          "value": "Reads ebooks (romance, sci-fi, religious philosophy)",
+          "lines": [
+            271,
+            273,
+            277,
+            279,
+            281,
+            283,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm a hockey man'.",
+          "value": "Hockey fan",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses caution about COVID-19 due to living with someone with diabetes and describes staying home.",
+          "value": "COVID-19 cautious, stays home",
+          "lines": [
+            33,
+            81,
+            101,
+            103
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker responds to name request with 'Oh I'm Shelley nicely too' (ASR error for 'Shelley, nice to meet you too').",
+          "value": "Shelley",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker indicates Florida ('Sflorida overhead?'), then clarifies 'I'm like an hour away from Orlando' and 'On the East Coast'.",
+          "value": "Lives about an hour from Orlando, Florida, on the East Coast",
+          "lines": [
+            40,
+            44,
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker discusses church members, attending church, and watching services on YouTube; speaker_a also says 'you said you go to church'.",
+          "value": "Christian church-goer",
+          "lines": [
+            94,
+            139,
+            148,
+            150,
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'this is my second time during this specific study' and describes compensation.",
+          "value": "Study participant",
+          "lines": [
+            12,
+            14,
+            18,
+            20,
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker describes receiving a bonus and compensation for study participation ('they give you like a bonus... some type of compensation').",
+          "value": "Receives compensation for study participation",
+          "lines": [
+            18,
+            20,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says a show is 'on prime' indicating an Amazon Prime subscription.",
+          "value": "Has Amazon Prime subscription",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'dropping my sister off to work'.",
+          "value": "Has a sister",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'church members' and describes church activities.",
+          "value": "Member of a church",
+          "lines": [
+            94,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I've been watching Cougar really?' and describes a sitcom 'based out of florida' on Prime.",
+          "value": "Watches a sitcom (likely Cougar Town) on Amazon Prime",
+          "lines": [
+            260,
+            262,
+            264,
+            266
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'I watch them on his own on Youtube, they have Youtube live service' referring to church.",
+          "value": "Watches church services on YouTube",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I ran some aliens' (ASR likely 'errands').",
+          "value": "Runs errands",
+          "lines": [
+            28
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'dropping my sister off to work'.",
+          "value": "Drops sister off at work",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

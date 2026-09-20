@@ -1,0 +1,420 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 9 speaker_a says 'Mark.' while greeting, and in line 119 explicitly states 'I'm mark.' The name is Mark.",
+          "value": "Mark",
+          "lines": [
+            9,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a confirms being in North Carolina in line 13, specifies Durham area in line 19, and mentions living there almost 9 years in line 45.",
+          "value": "Durham area, North Carolina",
+          "lines": [
+            13,
+            19,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'grew up in Cincinnati'.",
+          "value": "Cincinnati, Ohio",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'went to Ohio State in columbus'. ASR 'columbus' for Columbus.",
+          "value": "Columbus, Ohio",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'went to grad school and around Toledo Bowling green.'",
+          "value": "Toledo/Bowling Green area, Ohio",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Mark, references to wife, and being a father strongly imply male gender.",
+          "value": "male",
+          "lines": [
+            33,
+            119
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 33 and 49 refer to 'my wife'.",
+          "value": "married",
+          "lines": [
+            33,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 63 mentions a toddler, and line 278 confirms a son.",
+          "value": "has a son (toddler)",
+          "lines": [
+            63,
+            278,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 51: 'I've been doing the asian science at a community college' (ASR for teaching science). Line 123: 'I teach at a community college.' Line 125: 'Physics and chemistry.'",
+          "value": "teacher at community college (physics and chemistry)",
+          "lines": [
+            51,
+            123,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'went to Ohio State'.",
+          "value": "attended Ohio State University",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'went to grad school'.",
+          "value": "attended graduate school",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'it's an easy $20' (line 34), and speaker_a agrees with 'Mhm' (line 35), indicating he also receives $20 for this conversation.",
+          "value": "earns $20 for this conversation task",
+          "lines": [
+            34,
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 249: 'We have a plug in hybrid'.",
+          "value": "owns a plug-in hybrid car",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 51, 123 show speaker_a teaches at a community college, implying regular employment income.",
+          "value": "employed as a community college teacher",
+          "lines": [
+            51,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 33: 'my wife', line 49: 'My wife there... she's working a process engineer now'.",
+          "value": "married to a process engineer",
+          "lines": [
+            33,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 63, 278, 279 establish a son.",
+          "value": "has a son",
+          "lines": [
+            63,
+            278,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 65-69 describe a friend whose blog 'the frugal south' took off, and line 69 gives the blog name.",
+          "value": "friend runs blog 'the frugal south'",
+          "lines": [
+            65,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'sometimes we have people over and we have a campfire outside' indicates social gatherings with friends.",
+          "value": "has friends they host outdoors for campfires",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 63: 'You play guitar sometimes.' Likely ASR error for 'I play guitar sometimes' as speaker_a lists his own spare-time activities.",
+          "value": "plays guitar",
+          "lines": [
+            63
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 65: 'We have chickens.'",
+          "value": "keeps chickens",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 83-99 detail buying a 30-gallon cauldron, removing rust, and planning to heat hot tub water with a campfire.",
+          "value": "DIY cauldron restoration for primitive hot tub",
+          "lines": [
+            83,
+            85,
+            87,
+            95,
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 155: 'I thought like it would be ... great to stay home all the time and it turns out it's fantastic.'",
+          "value": "enjoys staying home",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 279: 'I do daddy day care a lot of time.'",
+          "value": "does regular childcare (daddy daycare)",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'sometimes we have people over and we have a campfire outside'.",
+          "value": "hosts outdoor campfires with friends",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 118: speaker_b introduces himself with 'I'm Todd'.",
+          "value": "Todd",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 16: 'I'm in phoenix'. Line 52: 'came back here to Phoenix'.",
+          "value": "Phoenix, Arizona",
+          "lines": [
+            16,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 52: 'I grew up here' (here being Phoenix).",
+          "value": "grew up in Phoenix",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 52: 'I went to school in California'.",
+          "value": "attended school in California",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 54: 'I was in san Francisco'.",
+          "value": "lived in San Francisco",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Todd and references to a girlfriend imply male gender.",
+          "value": "male",
+          "lines": [
+            118,
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 162: 'my girlfriend and I we live together'.",
+          "value": "unmarried, has girlfriend",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 162: 'I'm a writer'.",
+          "value": "writer (screenplays)",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 54 and 56: 'I got laid off' and 'now I'm kind of between jobs'.",
+          "value": "between jobs / unemployed",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 52: 'I went to school in California' implies some higher education.",
+          "value": "attended school in California",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 34: speaker_b says 'Yeah, it's an easy $20.' referring to the conversation task.",
+          "value": "earns $20 for this conversation task",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 56: 'now I'm kind of between jobs'.",
+          "value": "currently unemployed",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 54: 'I got laid off' from a job in San Francisco.",
+          "value": "previously laid off from job in San Francisco",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 102: 'We live in a kind of an old house'.",
+          "value": "resides in an old house",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 162: 'my girlfriend'.",
+          "value": "has a girlfriend",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 162: 'my girlfriend and I we live together'.",
+          "value": "lives with girlfriend",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 168, 170, 262 describe writing a UFO screenplay and a dark comedy screenplay.",
+          "value": "writes screenplays (UFO topic, dark comedy)",
+          "lines": [
+            168,
+            170,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 174-176, 180-182 and surrounding discussion show speaker_b heavily researches UFOs.",
+          "value": "researches UFOs and related topics",
+          "lines": [
+            174,
+            176,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 162: 'we usually spend all our time inside anyway'.",
+          "value": "enjoys spending time indoors with girlfriend",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 102 describes a brick depression in the yard of their old house, indicating a quirky home environment.",
+          "value": "lives in a house with an unexplained brick depression in yard",
+          "lines": [
+            102,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

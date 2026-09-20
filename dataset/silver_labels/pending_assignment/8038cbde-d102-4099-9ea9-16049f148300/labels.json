@@ -1,0 +1,274 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm from Georgia' and 'I'm living back home' after college, indicating she currently lives in Georgia. She also mentions UGA (University of Georgia).",
+          "value": "Georgia, USA",
+          "lines": [
+            65,
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I just literally moved back from college' and speaker_b later says 'you just finished college' (ASR: 'you just double college finished college'), which speaker_a does not dispute.",
+          "value": "recent college graduate",
+          "lines": [
+            65,
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm a suburbs kid like my whole life'.",
+          "value": "grew up in the suburbs",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'U. G. A. Of course I'm from Georgia', indicating she attended the University of Georgia.",
+          "value": "attended University of Georgia",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states 'I have a really bad memory'.",
+          "value": "bad memory",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I'm living back home' and later refers to seeing 'two people in that exact age grade' (people in their 40s) at home, implying she lives with her parents.",
+          "value": "lives with parents",
+          "lines": [
+            65,
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my dad' and 'my parents' in conversation.",
+          "value": "has parents",
+          "lines": [
+            57,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses people in their 40s struggling with social changes, and speaker_a responds that she gets to see 'two people in that exact age grade try to figure it out' at home, implying her parents are in their 40s.",
+          "value": "parents are in their 40s",
+          "lines": [
+            199
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'a lot of my friends who just graduated'.",
+          "value": "has friends who are recent graduates",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes herself as a 'chatterbox', talks to strangers in waiting rooms, and says she loves asking questions.",
+          "value": "very talkative and sociable",
+          "lines": [
+            101,
+            103,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm genuinely interested in data technology and all that stuff and computer science. I love asking questions'.",
+          "value": "interested in data technology and computer science",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'this is actually the second time that I've done this one', referring to the current research call format.",
+          "value": "participant in research conversation studies",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I did something actually very similar with matt lab' (MATLAB) and 'I worked in a lab and did some of that data analysis', indicating past lab work with that tool.",
+          "value": "has experience in data analysis from lab work",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in Seattle', describes moving there about seven years ago, and says 'we live in a quiet neighborhood' in the context of current quarantine.",
+          "value": "Seattle, Washington, USA",
+          "lines": [
+            10,
+            14,
+            72,
+            74,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from new york originally', responds to a question about growing up with 'My Brooklyn but' (Brooklyn), and describes childhood in Brooklyn.",
+          "value": "Brooklyn, New York, USA",
+          "lines": [
+            68,
+            90,
+            116,
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says his first computer exposure was in 1970 while he was in high school, and he tells the younger speaker_a 'I'm much older than you', suggesting an age in the 60s.",
+          "value": "in his 60s",
+          "lines": [
+            56,
+            58,
+            116
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b explicitly says 'I don't have a degree or anything' and mentions having no formal training.",
+          "value": "no college degree",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b explains he does metadata work on a freelance contract basis, has been working from home for 4-5 years, and uses tools like SQL and Access.",
+          "value": "freelance metadata/data analyst",
+          "lines": [
+            12,
+            18,
+            24,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm just kind of, you know, drifting towards full retirement'.",
+          "value": "nearing retirement",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b uses 'we' and 'the family' when discussing the decision to move to Seattle, and mentions 'my son' and 'two boys', implying a spouse/partner.",
+          "value": "has a spouse or partner",
+          "lines": [
+            14,
+            72,
+            170,
+            190
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I have two boys and their round about your age I think'.",
+          "value": "has two sons",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I've been working only working from home for about four or five years now'.",
+          "value": "works from home",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes learning on his own, using Access and SQL, and having no formal training.",
+          "value": "self-taught data analyst using tools like Access and SQL",
+          "lines": [
+            24,
+            30,
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just like hanging out, relaxing, reading and listening to music and doing my little stuff so I'm good'.",
+          "value": "enjoys reading, music, and relaxing at home",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits 'I am not good in uh in social situations where I meet somebody new' and says he runs out of things to say.",
+          "value": "introverted or socially awkward with new people",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b recounts moving from New York to Seattle about seven years ago for a work opportunity.",
+          "value": "moved from Brooklyn to Seattle about seven years ago",
+          "lines": [
+            72,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

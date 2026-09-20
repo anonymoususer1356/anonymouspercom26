@@ -1,0 +1,382 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When asked for her name, speaker_a says 'Oh it's kelly look.', which is likely an ASR error for 'Kelly'.",
+          "value": "Kelly",
+          "lines": [
+            368
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Los Angeles right now'.",
+          "value": "Los Angeles, CA",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm in 23', meaning she is 23 years old.",
+          "value": "23",
+          "lines": [
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she studied sociology and graduated in 2019 from UCLA.",
+          "value": "UCLA graduate, sociology major, 2019",
+          "lines": [
+            151,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she did an English program in Japan for one summer.",
+          "value": "participated in English teaching program in Japan",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she only has one room and it's too small for a dog.",
+          "value": "lives in a single room",
+          "lines": [
+            267,
+            273
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my two sisters' and refers to her younger sister.",
+          "value": "has two sisters (one younger)",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a implies her younger sister's graduation ceremony was cancelled due to COVID-19.",
+          "value": "younger sister's graduation cancelled",
+          "lines": [
+            163
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a expresses desire for a dog but says her room is too small.",
+          "value": "wants a dog but lacks space",
+          "lines": [
+            267,
+            269,
+            271,
+            273,
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions seeing people on Snapchat.",
+          "value": "uses Snapchat",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions wanting to teach English abroad and considering programs in Korea.",
+          "value": "interested in teaching English abroad",
+          "lines": [
+            139,
+            135,
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a had an in-person graduation in 2019, unlike her sister.",
+          "value": "had in-person graduation ceremony (2019)",
+          "lines": [
+            159,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a comments that weather in the 60s Fahrenheit was freezing for her.",
+          "value": "finds 60°F cold",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in Ohio visiting her parents for Thanksgiving.",
+          "value": "Ohio (current, visiting parents)",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is normally from Chicago.",
+          "value": "Chicago (normal residence)",
+          "lines": [
+            8,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was in Madrid for a year and a half before moving back to Chicago due to COVID-19.",
+          "value": "Madrid (previous residence)",
+          "lines": [
+            44,
+            48,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked about '31', speaker_b confirms she is 31 years old. The ASR initially transcribed 'I'm 31' as 'My name is 31'.",
+          "value": "31",
+          "lines": [
+            6,
+            9,
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she majored in Spanish and creative writing.",
+          "value": "Spanish and creative writing major",
+          "lines": [
+            56,
+            60
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states she was an English teaching assistant in Madrid.",
+          "value": "English teaching assistant in Madrid",
+          "lines": [
+            50,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states her teaching assistant salary was €1000 per month.",
+          "value": "€1000/month salary as teaching assistant in Spain",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her studio rent in Madrid was €425.",
+          "value": "€425/month studio rent in Madrid",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes taking on private tutoring to supplement her income.",
+          "value": "private English tutoring in Madrid",
+          "lines": [
+            96,
+            108,
+            110,
+            112,
+            114,
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b is visiting her parents in Ohio for Thanksgiving.",
+          "value": "parents live in Ohio",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my boyfriend'.",
+          "value": "has a boyfriend",
+          "lines": [
+            28,
+            29,
+            30,
+            34,
+            42,
+            44,
+            46,
+            48,
+            202,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they met five years ago in Chicago.",
+          "value": "met boyfriend 5 years ago in Chicago",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her parents have met her boyfriend and she has met his parents.",
+          "value": "parents and boyfriend's parents have met each other",
+          "lines": [
+            31,
+            32,
+            34,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says this is the first year they are sharing holidays together.",
+          "value": "first year sharing holidays with boyfriend",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions she and her boyfriend had a long-distance relationship while she was in Madrid.",
+          "value": "had long-distance relationship with boyfriend",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes adopting two dogs with her boyfriend from shelters.",
+          "value": "two adopted dogs (husky mixes)",
+          "lines": [
+            194,
+            196,
+            200,
+            242,
+            244,
+            316,
+            320,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions that her parents adopted a cat, although the ASR is somewhat garbled.",
+          "value": "parents adopted a cat",
+          "lines": [
+            260,
+            262
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes walking her dogs every few hours and adjusting to their schedule.",
+          "value": "walks dogs regularly",
+          "lines": [
+            284,
+            285,
+            286,
+            288,
+            292,
+            294,
+            296,
+            298,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she dislikes cold weather and calls herself the worst Chicagoan for not liking cold.",
+          "value": "dislikes cold weather",
+          "lines": [
+            190,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lived in Madrid for a year and a half, as discussed.",
+          "value": "lived in Madrid for 1.5 years",
+          "lines": [
+            44,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b taught English in Madrid.",
+          "value": "taught English in Spain",
+          "lines": [
+            50,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b spends Thanksgiving with her parents in Ohio.",
+          "value": "spends Thanksgiving with parents in Ohio",
+          "lines": [
+            4,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using Facebook to connect with people and find work in Spain.",
+          "value": "used Facebook for job networking in Spain",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

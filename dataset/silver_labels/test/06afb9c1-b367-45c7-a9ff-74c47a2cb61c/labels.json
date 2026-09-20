@@ -1,0 +1,405 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a gives her first name at line 229, and both first and last name with spelling at lines 260-261. The ASR writes 'Berniece' but the spelling 'B E R N I C E' confirms Bernice. Last name is Baker.",
+          "value": "Bernice Baker",
+          "lines": [
+            229,
+            260,
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "At line 7 speaker_a says 'I'm Delaware.' At line 277 she specifies 'put dover Delaware in there and it'll pop right up,' giving the city as Dover. So she lives in Dover, Delaware.",
+          "value": "Dover, Delaware",
+          "lines": [
+            7,
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as an 'old lady' (line 185) and is called 'that woman on prolific' by speaker_b (line 238). She also discusses dating men. Although not explicitly stating 'I am female,' it is clearly implied.",
+          "value": "female",
+          "lines": [
+            185,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'me and my daughter' (line 47), 'I have a 24 year old daughter' (line 63), and 'my daughter did online school' (line 67). She clearly has a child.",
+          "value": "mother",
+          "lines": [
+            47,
+            63,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "At line 77 speaker_a states 'I have a complex regional pain syndrome' directly.",
+          "value": "complex regional pain syndrome",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 77 contains 'and our a and a couple other things.' 'Our a' is phonetically close to 'RA', a common abbreviation for rheumatoid arthritis, fitting the context of chronic pain conditions.",
+          "value": "rheumatoid arthritis",
+          "lines": [
+            77
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'I chew my fingernails a lot. So if I chew it till it bleeds...' (lines 31-33). This describes a compulsive behaviour leading to bleeding.",
+          "value": "chews fingernails until they bleed",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a refers to 'my ex husband' (line 101), indicating a past marriage terminated by divorce. She does not explicitly say 'I am divorced,' but this is the clear implication.",
+          "value": "divorced",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'I have a 24 year old daughter' (line 63). At line 279 she says 'Hey mary Hammond my phone please,' where 'mary Hammond' is an ASR error for 'Mary, hand my phone,' revealing the daughter's name as Mary.",
+          "value": "daughter Mary (age 24)",
+          "lines": [
+            63,
+            279
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my ex husband as vanguard with his company' (line 101), confirming a former spouse.",
+          "value": "ex-husband",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom has had cancer before so she's one of those ones you have to wear a mask around her all the time' (line 55), establishing a living mother with a cancer history.",
+          "value": "mother with cancer history",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a asks 'Did you see the launch last night?' (line 81) and describes watching it in detail (lines 83-89). She clearly watches rocket launches.",
+          "value": "watches rocket launches",
+          "lines": [
+            81,
+            82,
+            83,
+            85,
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I love hippie shops' (line 111) and reminisces about patched jeans and platform shoes (lines 117-119).",
+          "value": "enjoys hippie fashion and shops",
+          "lines": [
+            111,
+            117,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_b describes dumpster diving, speaker_a says 'I'm gonna try that now' (line 209) and later mentions going with Mary (line 305), indicating a clear intention to start.",
+          "value": "intends to start dumpster diving",
+          "lines": [
+            209,
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do this kind of stuff' (line 77) in context of the Prolific conversation, and speaker_b later calls her 'that woman on prolific' (line 238). It is thus established that she participates in Prolific studies.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            77,
+            238
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself at line 228 as 'julie' and at line 268 as 'julie and my last name is Blotto and it's very weirdly spelled.' Speaker_a later spells the last name as B L O E D O W (line 291) and finds her Facebook. The intended surname is Bloedow; 'Blotto' is a phonetic ASR rendering.",
+          "value": "Julie Bloedow",
+          "lines": [
+            228,
+            268,
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm Wisconsin' (line 8) and later 'I'm here in Wisconsin' (line 140), establishing her home state.",
+          "value": "Wisconsin",
+          "lines": [
+            8,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm about two hours from lake michigan' (line 122), giving a relative location within the state.",
+          "value": "lives about two hours from Lake Michigan",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Called 'that woman on prolific' (line 238), mentions dating men and being married 25 years (line 150). The context strongly implies female gender.",
+          "value": "female",
+          "lines": [
+            150,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I told my daughter' (line 44) and 'I have a 15 year old daughter' (line 62).",
+          "value": "mother",
+          "lines": [
+            44,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Stated directly: 'I'm a single parent' (line 70).",
+          "value": "single parent",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'because I have diabetes so I'm you know higher risk' (line 72).",
+          "value": "diabetes",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm pretty fat' (line 306). This self-description indicates overweight/obesity.",
+          "value": "self-described as overweight/fat",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b states 'I got divorced three years ago' (line 70) and 'I was divorced for over three' (line 150).",
+          "value": "divorced",
+          "lines": [
+            70,
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says 'I quit so I quit my job' (lines 72, 300) and 'nowhere really hiring around me' (line 74), indicating current unemployment.",
+          "value": "unemployed",
+          "lines": [
+            72,
+            74,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 80: 'I do this kind of stuff to learn, a little bit of extra money' referring to the Prolific conversation. She also mentions doing multiple Prolific sessions (line 240) and payment (line 254).",
+          "value": "does Prolific studies for extra income",
+          "lines": [
+            80,
+            240,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 98: 'with Tesla I go through Vanguard.' She has an investment account with Vanguard.",
+          "value": "has Vanguard investment account",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been investing in Tesla' (line 80) and 'I got a bunch of them when they were $383' (line 90), confirming ownership of Tesla shares.",
+          "value": "owns Tesla stock",
+          "lines": [
+            80,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a sees on Facebook 'you used to work at the department of corrections' (line 299) and speaker_b confirms 'that's the job I just quit' (line 300).",
+          "value": "former employee at Department of Corrections",
+          "lines": [
+            299,
+            300
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b states 'I have a 15 year old daughter' (line 62) and discusses her schooling (line 64).",
+          "value": "15-year-old daughter",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Divorce established (lines 70, 150) implies an ex-husband from the 25-year marriage (line 150).",
+          "value": "ex-husband",
+          "lines": [
+            70,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 148-154: she met a man online, drove to Washington state, had a two-week date, and 'the ring is in the mail so this week I'm going to be getting engaged.'",
+          "value": "fiancé (met on Facebook group, lives in Washington state)",
+          "lines": [
+            148,
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 80: 'I had a friend of mine who started, he went on for two hours about all the things that Tesla is into.' This friend influenced her investment.",
+          "value": "friend who recommended Tesla stock",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes retail dumpster diving in detail (lines 196-202, 212) and says she stopped after divorce (line 306-308).",
+          "value": "formerly engaged in retail dumpster diving",
+          "lines": [
+            196,
+            200,
+            202,
+            212,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 80 and 98 show current engagement in stock market investing.",
+          "value": "invests in stock market",
+          "lines": [
+            80,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm going to embrace my inner hippie' (line 114) and agrees about liking hippie shops (line 112).",
+          "value": "identifies with hippie culture",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going into a Facebook group chat (line 146) and recommends dumpster diving Facebook groups (line 218).",
+          "value": "active in Facebook groups",
+          "lines": [
+            146,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Same activity as economic item, but also a regular day-to-day pursuit; she mentions 'I do this kind of stuff' for extra money and multiple sessions.",
+          "value": "participates in Prolific studies",
+          "lines": [
+            80,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 140-142: she promises to stay until daughter graduates, then plans to move to South Carolina or New Mexico.",
+          "value": "plans to move to South Carolina or New Mexico after daughter graduates",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b states 'I'm pretty fat' (line 306) as a physical self-description.",
+          "value": "self-described as fat",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

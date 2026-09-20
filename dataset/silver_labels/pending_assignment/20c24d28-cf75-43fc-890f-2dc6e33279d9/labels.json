@@ -1,0 +1,654 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Chicago' (line 27) and later says 'four going on five years' there (line 257).",
+          "value": "Chicago, IL",
+          "lines": [
+            27,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked where in Connecticut, speaker_a says 'the town right next to Brand East Haven' (line 37); speaker_b had offered Guilford/Branford (line 36), so East Haven is the town.",
+          "value": "East Haven, CT",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I went to school at Rensselaer Probably Technic institute' (line 9) and 'right around in Detroit Albany area' (line 11, likely 'Troy'). RPI is in Troy, NY near Albany.",
+          "value": "Troy/Albany, NY area (attended RPI)",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'I lived in Minneapolis for a couple of years' (line 259).",
+          "value": "Minneapolis, MN",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they lived in Savannah, Georgia for grad school at SCAD (lines 259, 287, 291).",
+          "value": "Savannah, GA",
+          "lines": [
+            259,
+            287,
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I went to school at Rensselaer Probably Technic institute' (line 9), referring to RPI.",
+          "value": "Attended Rensselaer Polytechnic Institute",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a confirms attending Savannah College of Art and Design (line 291) and mentions grad school (line 259).",
+          "value": "Graduate of Savannah College of Art and Design (SCAD)",
+          "lines": [
+            259,
+            291,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I am a product designer' (line 125).",
+          "value": "Product designer",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My partner and I' (line 84), indicating a committed relationship.",
+          "value": "In a relationship, has a partner",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 119, speaker_a says 'she has to chase them away' while speaking about partner's plants; the pronoun likely refers to the partner.",
+          "value": "Partner is female",
+          "lines": [
+            119
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In the context of Savannah's humidity, speaker_a says 'You don't do well in humidity' (line 299); likely self-referential but ambiguous.",
+          "value": "Does not do well in humidity",
+          "lines": [
+            299
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I am a product designer' (line 125).",
+          "value": "Product designer",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says the studio they worked for closed at the end of last year (line 125).",
+          "value": "Currently unemployed",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions getting 'my paperwork and unemployment stuff going' (line 125).",
+          "value": "Receiving unemployment benefits",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to work for the town of West Hartford' (line 135).",
+          "value": "Previously worked for Town of West Hartford, CT",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes working as a consultant for a large company doing creative facilitation in Chicago (lines 185, 191, 195).",
+          "value": "Former consultant for a large company (creative facilitation)",
+          "lines": [
+            185,
+            191,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they started using Prolific in January (line 161) and uses it to earn spare cash (line 165).",
+          "value": "Participates in Prolific surveys for extra income",
+          "lines": [
+            161,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'an apartment garden' (line 121), implying apartment living.",
+          "value": "Lives in an apartment",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my partner' (line 84) and uses 'she' (line 119).",
+          "value": "Has a partner (female)",
+          "lines": [
+            84,
+            119
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother went to school in Burlington' (line 13).",
+          "value": "Has a brother",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My my brother lives in boston' (line 239).",
+          "value": "Brother lives in Boston, MA",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says about brother: 'He went to champlain College' (line 15).",
+          "value": "Brother attended Champlain College",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Quincy is our indoor cats' (line 89) and earlier mentions a cat (line 84).",
+          "value": "Has a cat named Quincy",
+          "lines": [
+            84,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms the cat is indoor (line 87).",
+          "value": "Cat is indoor",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we've discovered that our cat must be what's called a ragamuffin cat' (line 99).",
+          "value": "Cat is a ragamuffin breed",
+          "lines": [
+            99
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes the cat: 'he is grey with like a white stomach and like white paws' (line 111).",
+          "value": "Cat is grey with white stomach and white paws",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I have a friend from the twin cities that will visit very often' (line 265).",
+          "value": "Has friend from Minneapolis/St. Paul area",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a owns a cat (line 84) and keeps it indoors (line 87).",
+          "value": "Owns an indoor cat",
+          "lines": [
+            84,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions an apartment garden (line 121).",
+          "value": "Lives in an apartment",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses using Prolific for spare cash in downtime (lines 165-166).",
+          "value": "Does Prolific surveys in spare time",
+          "lines": [
+            161,
+            165,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I still enjoy creative facilitation' (line 203).",
+          "value": "Enjoys creative facilitation",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they 'bounced around a whole bunch of different places' (line 31) and lists living in Georgia, Minneapolis, Chicago (line 259).",
+          "value": "Has lived in multiple U.S. states",
+          "lines": [
+            31,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is calling from 'way northern New York... 20 minutes south of the Canadian border... an hour west of the Vermont border' (line 8); later asks about Potsdam where Clarkson is (line 132) and describes the small college town (line 134).",
+          "value": "Potsdam, NY area",
+          "lines": [
+            8,
+            132,
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'we just moved up here... back in september so almost a year now' (line 26).",
+          "value": "Moved to current location in September (almost a year ago)",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from pennsylvania originally' (line 60) and 'I'm from philadelphia' (line 224).",
+          "value": "Philadelphia, PA (originally)",
+          "lines": [
+            60,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I lived in a Columbia Connecticut before year' (line 40).",
+          "value": "Lived in Columbia, CT",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I spent some time... living out in colorado actually... only like nine months total' (line 58).",
+          "value": "Lived in Colorado for nine months",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her husband was at UConn for seven years and describes the area near Mansfield (lines 42, 46).",
+          "value": "Lived at University of Connecticut (Storrs/Mansfield area)",
+          "lines": [
+            42,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says before UConn they were at University of Rhode Island (line 46).",
+          "value": "Lived at University of Rhode Island",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says before URI they were at University of Florida (line 46).",
+          "value": "Lived at University of Florida",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says before UF they were at University Wisconsin (line 46) and mentions Madison (line 70).",
+          "value": "Lived in Madison, WI (University of Wisconsin)",
+          "lines": [
+            46,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my husband's family's like summer place up in the 1000 Islands' (line 136).",
+          "value": "Husband's family summer place in the 1000 Islands, NY",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' (line 46).",
+          "value": "Married",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we have four kids' (line 74).",
+          "value": "Parent of four children",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives ages: 'an eight and 11 year old and then we've got a two and a four year old' (line 78).",
+          "value": "Children aged 11, 8, 4, and 2",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when I was an undergrad at Penn State' (line 60).",
+          "value": "Undergraduate education at Penn State",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to school for actually geographic information systems. So like computer mapping.' (line 136).",
+          "value": "Studied geographic information systems (GIS)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was playing soccer at Penn State' (line 62).",
+          "value": "Played soccer at Penn State",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from pennsylvania originally' (line 60) and 'I'm from philadelphia' (line 224).",
+          "value": "Originally from Pennsylvania",
+          "lines": [
+            60,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to have a like a really, really thick philadelphia accent' (line 224).",
+          "value": "Used to have a thick Philadelphia accent",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I work part time... for a company that contracts with Google... called Lion bridge Technologies' (lines 148, 154).",
+          "value": "Part-time employee at Lionbridge Technologies",
+          "lines": [
+            148,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her work: training Google algorithms, checking search results, YouTube content rating (lines 150-152).",
+          "value": "Search engine evaluator for Google (via Lionbridge)",
+          "lines": [
+            150,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says '10 to 20 hours a week' (line 154) and 'I work from home right now part time' (line 74).",
+          "value": "Works 10-20 hours per week from home",
+          "lines": [
+            74,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has '41 K. Benefits' (line 158) as a part-time employee.",
+          "value": "Receives 401k benefits",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I worked for an engineering company there um called New England Geosystems' in Guilford, CT (line 136).",
+          "value": "Previously worked at New England Geosystems (GIS mapping)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I ended up coaching college soccer for a couple of years' (line 146).",
+          "value": "Previously worked as a college soccer coach",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she started Prolific in April (line 362) and uses it for extra cash.",
+          "value": "Participates in Prolific surveys",
+          "lines": [
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recommends 'user testing dot com' (line 366) and says it's been the best one for her.",
+          "value": "Does user testing on usertesting.com",
+          "lines": [
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using other platforms: respondent, validate, uTest (lines 378-380).",
+          "value": "Participates in other online gig platforms (respondent, uTest, etc.)",
+          "lines": [
+            378,
+            380
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'he coaches up that Clark Clarkson University now' (line 50).",
+          "value": "Husband is a college coach at Clarkson University",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists past coaching jobs: UConn, University of Rhode Island, University of Florida, University of Wisconsin (line 46).",
+          "value": "Husband previously coached at UConn, URI, UF, and UW",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we have four kids' (line 74).",
+          "value": "Has four children",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b gives children's ages (line 78).",
+          "value": "Children ages 11, 8, 4, and 2",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom has such a thick accent' (line 224).",
+          "value": "Mother has a thick Philadelphia accent",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still go out to Fort Collins and visit my friends out there' (line 64).",
+          "value": "Has friends in Fort Collins, CO",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'one of my teammates was from Fort Collins colorado' (line 62).",
+          "value": "Had a soccer teammate from Fort Collins",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b discusses owning a canoe and kayaks and keeping them at the summer place (line 136).",
+          "value": "Enjoys canoeing and kayaking; owns canoe/kayaks",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just got back from the uh the playground' (line 132).",
+          "value": "Takes children to the playground",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes playing on a semi-pro soccer team in Fort Collins during summers (lines 62-64).",
+          "value": "Played semi-pro soccer in summers",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I go out to Colorado, Wyoming to run a soccer coaching clinic out there' (line 64).",
+          "value": "Runs a soccer coaching clinic in Wyoming",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work from home right now part time' (line 74).",
+          "value": "Works from home",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes living in a small college town of about 10,000 year-round residents (line 134).",
+          "value": "Resident of a small college town",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b does multiple online side gigs (Prolific, user testing, etc.) as she describes (lines 366-396).",
+          "value": "Has multiple online side gig platforms for extra income",
+          "lines": [
+            362,
+            366,
+            378,
+            380
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

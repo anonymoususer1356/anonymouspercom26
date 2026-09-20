@@ -1,0 +1,339 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself at the end: 'I'm angel.' ASR renders the name in lowercase and could be a phonetic match for 'Angie' or 'Angela', but 'Angel' is what the transcript shows.",
+          "value": "Angel",
+          "lines": [
+            237
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'here in florida where I am' when discussing hurricanes.",
+          "value": "Florida",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I have a 16 year old boy and I have a three year old boy'.",
+          "value": "Mother of two boys",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'My husband' in the context of his move from Colorado.",
+          "value": "Married",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I'm a bookkeeper' outright.",
+          "value": "Bookkeeper",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I work from home'.",
+          "value": "Works from home",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'work got kind of slower' during the pandemic and 'that hurt a little bit', indicating reduced income from fewer return clients.",
+          "value": "Reduced income during pandemic due to slower bookkeeping work",
+          "lines": [
+            201,
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do a lot of shopping on amazon and subscribe and save every month'.",
+          "value": "Uses Amazon Subscribe & Save",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about MTurk, speaker_a says 'I've only got about 150 studies in' — ASR likely mishears HITs as 'studies', meaning she has completed about 150 MTurk HITs.",
+          "value": "Approximately 150 MTurk HITs completed",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'My husband was thinking about that because he moved back in 2013. He moved here to be you know with me and from Colorado'.",
+          "value": "Husband moved from Colorado to Florida in 2013 to be with her",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I have a 16 year old boy'.",
+          "value": "Has a 16-year-old son",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I have a three year old boy'.",
+          "value": "Has a 3-year-old son",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I take care of my mom, she lives with us'.",
+          "value": "Mother lives with her",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'he's only 56' referring to her brother.",
+          "value": "Brother is 56 years old",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother just had hip surgery' and 'he's getting his other hip done December 10'.",
+          "value": "Brother had one hip replacement and second scheduled for December 10",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've been his go to person Taking him ever' regarding her brother's medical needs.",
+          "value": "Primary caregiver for brother after hip surgery",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a mentions participating in a Zoom study with a 'Chicago research group' and refers to other survey/research platforms.",
+          "value": "Participates in online research studies",
+          "lines": [
+            25,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms voting by mail; speaker_a responds 'same here'. ASR renders 'my dad it early enough' which is likely 'I did it early enough' or 'I mailed it early enough'.",
+          "value": "Voted by mail-in ballot in the 2020 election",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do a lot of shopping on amazon'.",
+          "value": "Regular Amazon shopper",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I take care of my mom, she lives with us'.",
+          "value": "Primary caregiver for mother who lives with her",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes going to the park with her 3-year-old 'very, very seldomly' during the pandemic.",
+          "value": "Occasionally takes 3-year-old son to the park",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm ready for trump to be out' and later 'I used to be a pretty strong republican and now I'm just kind of been middle of the road'.",
+          "value": "Politically middle-of-the-road, former Republican, anti-Trump",
+          "lines": [
+            129,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself at the end: 'I'm David'.",
+          "value": "David",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in colorado' when discussing regional weather patterns.",
+          "value": "Colorado",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Speaker_b says he had symptoms similar to COVID-19, got tested but 'it didn't prove anything', and is unsure if he had it.",
+          "value": "Experienced COVID-like symptoms, test results inconclusive",
+          "lines": [
+            226,
+            228
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions 'I've got a co worker who is a real busy body', implying he is employed.",
+          "value": "Employed with coworkers",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I get a credit card that's giving me cash back'.",
+          "value": "Has a cashback credit card",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Bring it about 1500 or so myself' — ASR likely mishears 'I'm at about 1500' when comparing MTurk HIT counts.",
+          "value": "Approximately 1500 MTurk HITs completed",
+          "lines": [
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I like prolific' referring to the Prolific survey platform.",
+          "value": "Uses Prolific survey platform",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'I've got a co worker'.",
+          "value": "Has a coworker",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b discusses his activity on MTurk, Prolific, and having signed up for the same research panel as speaker_a.",
+          "value": "Participates in online research studies (MTurk, Prolific, other panels)",
+          "lines": [
+            32,
+            62,
+            64,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I did a mail in ballot option'.",
+          "value": "Voted by mail-in ballot in the 2020 election",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I definitely vote against Trump' and describes his 2016 decision not to vote for Clinton but ultimately opposing Trump.",
+          "value": "Voted against Trump",
+          "lines": [
+            130,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he uses a cashback credit card 'because of cash back reason'.",
+          "value": "Uses credit card for cashback rewards",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just had no show my last time too' referring to a study participant not showing up.",
+          "value": "Experienced a no-show from another participant in a previous study",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'the rejection thing' and says 'I've only had one' on MTurk.",
+          "value": "Received one rejection on MTurk",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

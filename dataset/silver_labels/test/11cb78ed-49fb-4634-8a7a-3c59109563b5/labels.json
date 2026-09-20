@@ -1,0 +1,535 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b asks 'have you always lived in san Diego?' at line 24 and speaker_a replies he lived in San Jose first, implying current residence is San Diego. Later he says 'our san Diego County' (line 85) and 'I do like san Diego' (line 107), confirming he currently lives in San Diego, California.",
+          "value": "San Diego, California",
+          "lines": [
+            24,
+            25,
+            85,
+            102,
+            103,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I lived actually in san Jose for the first part of my life' at line 25.",
+          "value": "San Jose, California (first part of life)",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a repeatedly refers to 'my wife' (lines 91, 319), indicating he is male.",
+          "value": "male",
+          "lines": [
+            91,
+            319,
+            325
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I went to cal state san marcos' (line 47) and confirms 'Biology' major at line 409.",
+          "value": "Bachelor's degree in Biology from Cal State San Marcos",
+          "lines": [
+            47,
+            409
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I work at a pharmaceutical company' (line 47), 'we develop new drugs' (line 55), 'the part that I mostly do is the animal work' (line 169), and 'they hand me a bunch of different drugs and then we test them in... mice or rats' (line 437).",
+          "value": "Works at a pharmaceutical company; animal testing/technical role",
+          "lines": [
+            47,
+            55,
+            169,
+            437
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my wife's parents' (line 91), 'our second year anniversary in October' (line 283), and 'our anniversary' (line 327).",
+          "value": "Married for 2 years",
+          "lines": [
+            91,
+            283,
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says of his job 'It's not as like high paying I guess as a lot of other... science majors' (line 413), indicating a moderate salary.",
+          "value": "Moderate-paying science job at pharmaceutical company",
+          "lines": [
+            413
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'we're renting from my wife's parents in a separate house' (line 91).",
+          "value": "Renting house from wife's parents",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says doing Prolific surveys and 'I think I've made like... 150 lb or something' (line 399), with ASR 'lb' likely meaning dollars.",
+          "value": "Earned about $150 from Prolific surveys",
+          "lines": [
+            399
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my wife' multiple times (lines 91, 319) and says 'my wife loves cooking' (line 319).",
+          "value": "Wife",
+          "lines": [
+            91,
+            319,
+            321,
+            325,
+            509
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we're renting from my wife's parents' (line 91) and 'we still see them a lot' (line 91).",
+          "value": "Wife's parents",
+          "lines": [
+            91,
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've seen my parents... they live close by... maybe 20 minutes away' (lines 365–367).",
+          "value": "Parents (live about 20 minutes away)",
+          "lines": [
+            365,
+            366,
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a lot of family northern California' (line 123) and visits every six months (lines 123–125).",
+          "value": "Extended family in Northern California",
+          "lines": [
+            123,
+            124,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a few cousins and a few friends that are diehard cowboys fans' (line 467).",
+          "value": "Cousins and friends who are Dallas Cowboys fans",
+          "lines": [
+            467
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'We go snowboarding there sometimes' (line 129) and mentions hiking (line 115).",
+          "value": "Enjoys snowboarding and hiking",
+          "lines": [
+            115,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'if I could choose where I wanted to live, I think I would be more of like a colorado kind of person... Mountains or the forest or like Oregon' (lines 109–111).",
+          "value": "Prefers mountain/forest lifestyle (Colorado or Oregon)",
+          "lines": [
+            109,
+            110,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'we made some like raised garden beds and then started gardening... tomatoes and like herbs and stuff' (line 303).",
+          "value": "Gardens vegetables and herbs",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'to everything we buy from the store, we wipe them down' (line 99).",
+          "value": "Sanitizes groceries",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'It been out to eat I think three times since the coronavirus' (line 325).",
+          "value": "Eaten out only three times during pandemic",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have it like I have the extension saved... so every time there's a available test or available survey' and does Prolific surveys (lines 395–397).",
+          "value": "Takes Prolific surveys regularly",
+          "lines": [
+            395,
+            396,
+            397
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I really like the Warriors' (line 513) and basketball is his favorite sport (line 483).",
+          "value": "Golden State Warriors fan",
+          "lines": [
+            483,
+            513
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we've done that uh once or twice before coronavirus' when talking about going to Mexico (line 223).",
+          "value": "Has visited Mexico",
+          "lines": [
+            223
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he has family in Northern California and 'we're going there often like every six months or so' (lines 123–125).",
+          "value": "Visits Northern California family every six months",
+          "lines": [
+            123,
+            124,
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Dallas, the suburb of Plano' (line 18), later 'I'm in texas now' (line 224) and 'I live in plano' (line 348).",
+          "value": "Plano, Texas (suburb of Dallas)",
+          "lines": [
+            18,
+            224,
+            348
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I grew up in California in Tarzana... in the san Fernando valley' (lines 18, 22).",
+          "value": "Tarzana, California (San Fernando Valley)",
+          "lines": [
+            18,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I was actually born in Connecticut' (line 30).",
+          "value": "Connecticut (birthplace)",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'when I lived in san Diego' (line 210) and describes going to Hotel del Coronado there.",
+          "value": "San Diego, California (previously lived)",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to Austin because my brother was living in Austin... I went to work at a... resort Lake way' and later married there (lines 250–254).",
+          "value": "Austin, Texas (previously lived)",
+          "lines": [
+            250,
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to herself as 'a city girl' (line 258) and 'a young girl' (line 262), indicating female.",
+          "value": "Female",
+          "lines": [
+            258,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're older and my husband's older' (line 76) and 'before I retired' (line 126).",
+          "value": "Older adult, retired",
+          "lines": [
+            76,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says 'before I retired' (line 126) and 'I before I retired I worked for a hotel company' (line 224).",
+          "value": "Retired",
+          "lines": [
+            126,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to school at san Diego State' (line 14).",
+          "value": "Attended San Diego State University",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have italian parents in italian grandparents' (line 32).",
+          "value": "Italian ancestry",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we've been married 40 years' (line 254) and 'I married a Texan' (line 24).",
+          "value": "Married for 40 years to a Texan",
+          "lines": [
+            24,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have two kids who daughters' (line 358).",
+          "value": "Mother of two daughters",
+          "lines": [
+            358
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have five grandkids' (line 354).",
+          "value": "Grandmother of five",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I before I retired I worked for a hotel company and I um did regional sales' (line 224).",
+          "value": "Former hotel regional sales manager",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'we're older and my husband's older and there's some underlying this is we just try to be really careful' (line 76). 'This' likely phonetic for 'issues', meaning underlying health conditions. She includes herself ('we're older... we just try').",
+          "value": "Has unspecified underlying health conditions",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she retired (line 126) and describes former hotel work (line 224), implying current status is retired without earned income, but she does Prolific surveys (lines 394, 398).",
+          "value": "Retired; former hotel sales; participates in Prolific surveys for extra income",
+          "lines": [
+            126,
+            224,
+            394,
+            398
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my husband' repeatedly (lines 24, 32, 254, 300); says he is a Texan, married 40 years, and has 'hard issues' (line 300, ASR for 'heart issues').",
+          "value": "Husband (Texan, married 40 years, has heart issues)",
+          "lines": [
+            24,
+            32,
+            254,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have two kids who daughters' (line 358).",
+          "value": "Two daughters",
+          "lines": [
+            358
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have five grandkids' (line 354).",
+          "value": "Five grandchildren",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'There's there are in texas... they live in Fort Worth' (lines 360, 362).",
+          "value": "Daughters and grandchildren live in Texas (Fort Worth area)",
+          "lines": [
+            360,
+            362
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'my brother was living in Austin' (line 250).",
+          "value": "Brother (lived in Austin)",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have italian parents in italian grandparents' (line 32).",
+          "value": "Italian parents and grandparents",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my father in law still had a job' (line 262) and describes his farming on 100 acres (lines 256–276).",
+          "value": "Father-in-law (farmed 100 acres)",
+          "lines": [
+            256,
+            262,
+            272,
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'We've been quarantined since March' (line 64) and 'We started quarantining in March... we stay here except we go to the store' (lines 292–294).",
+          "value": "Quarantined at home since March 2020",
+          "lines": [
+            64,
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they use curbside pickup: 'We go to like the drive up the curb side... Whole Foods... put them in the back of the trunk... Walmart will do that' (lines 294–298).",
+          "value": "Uses curbside grocery pickup from Whole Foods and Walmart",
+          "lines": [
+            294,
+            296,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We're painting the house' (line 302).",
+          "value": "Painting the house during quarantine",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recalls Mexican breakfast in San Diego (line 212) and crossing the border for Mexican food in Mexico (line 226).",
+          "value": "Enjoys Mexican food; has eaten in Mexico",
+          "lines": [
+            212,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she went to hotels in Laredo and El Paso for work (line 226).",
+          "value": "Traveled to Laredo and El Paso for work",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't even really like football. My husband watches it' (lines 462–464) and is not a Cowboys fan (line 460).",
+          "value": "Not a football fan; husband watches football",
+          "lines": [
+            460,
+            462,
+            464
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'during the quarantine I've watched a lot more sports than I've ever watched it' (line 506).",
+          "value": "Watches a lot of sports during quarantine",
+          "lines": [
+            506
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I talked to them on Alexa' referring to grandchildren (line 354) and later 'We talked on the Alexa' (line 362).",
+          "value": "Talks to grandchildren on Alexa",
+          "lines": [
+            354,
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b reminisces about going to 'the hotel del Coronado' and an area with 'the best mexican food and mexican breakfast' when she lived in San Diego (lines 210–212).",
+          "value": "Visited Hotel del Coronado and Mexican breakfast spots in San Diego",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,484 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states her name. ASR output: 'maddie', likely 'Maddie'.",
+          "value": "Maddie",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says she is in Fort Collins, very close to Denver, Colorado.",
+          "value": "Fort Collins, Colorado",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker has a typically female name and refers to 'my girlfriend', indicating she is a woman.",
+          "value": "Female",
+          "lines": [
+            5,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker explicitly says she has a girlfriend, placing her in the LGBTQ community.",
+          "value": "LGBTQ (in a relationship with a woman)",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she and her girlfriend are in tech, and she is/was a computer science student.",
+          "value": "Tech / software development field",
+          "lines": [
+            47,
+            123,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker was going to school for computer science, though she had to pause due to health issues.",
+          "value": "University student in computer science (on hold)",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker states she has asthma.",
+          "value": "Asthma",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she has a peanut allergy.",
+          "value": "Peanut allergy",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a history of severe ankle pain requiring wheelchair use for a year, followed by wrist problems that prevented typing and forced her to use voice control. Mobility and dexterity are still limited but improving.",
+          "value": "Chronic pain / mobility impairment: ankle and wrist pain, wheelchair (past), difficulty typing, ongoing limitations",
+          "lines": [
+            123,
+            125,
+            131,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker inherited a house after her father passed away.",
+          "value": "Inherited a house",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has savings that exceed the Medicaid threshold but are not enough to live on long‑term; she is currently living off those savings.",
+          "value": "Has savings above Medicaid limit; living off savings",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions doing 'prolific' work, likely the online study platform Prolific, for income.",
+          "value": "Does Prolific studies for income",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker shares housing with roommates who have worked in restaurants and now deliver for DoorDash / Grubhub.",
+          "value": "Lives with roommates",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions her girlfriend when discussing potential moves.",
+          "value": "Has a girlfriend",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her father passed away a month after she began using a wheelchair.",
+          "value": "Father is deceased",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to her roommates and their occupations.",
+          "value": "Has roommates",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she likes the dry climate and feels she is the only person who does.",
+          "value": "Prefers dry weather; dislikes humidity",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says Colorado winters are hard for her.",
+          "value": "Dislikes Colorado winters",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has been looking into moving to Scandinavian countries, specifically Finland.",
+          "value": "Interested in moving to Scandinavia (Finland)",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker did set construction in middle school, indicating early interest in theater.",
+          "value": "Did set work in middle school",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says Austin is on her list of places to consider moving to.",
+          "value": "Considering moving to Austin, Texas",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker did one of these paid conversation studies last week; this is her second.",
+          "value": "Participates in paid conversation studies",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker used a wheelchair for a year due to ankle pain; her current mobility is limited but she no longer mentions using it.",
+          "value": "Previously used a wheelchair",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker states his name. ASR output: 'chris', likely 'Chris'.",
+          "value": "Chris",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says he is in the St. Louis area and later confirms Missouri.",
+          "value": "St. Louis, Missouri area",
+          "lines": [
+            22,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he grew up in San Antonio, originally from South Texas.",
+          "value": "San Antonio, Texas (hometown, South Texas origin)",
+          "lines": [
+            40,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker lived in Thornton, Colorado (Denver area) from about 2017 until about a year ago.",
+          "value": "Thornton, Colorado (previous residence, 2017–about 2019)",
+          "lines": [
+            28,
+            30,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker lived in Austin, Texas through the 2000s.",
+          "value": "Austin, Texas (previous residence)",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker attended graduate school in Lubbock, Texas.",
+          "value": "Lubbock, Texas (graduate school)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker references his wife, indicating male gender.",
+          "value": "Male",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'at 46', giving his age.",
+          "value": "46 years old",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he has an MFA in directing.",
+          "value": "MFA in Directing",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his background is in theater, has done theater his whole life, worked for the Shakespeare company, and builds sets.",
+          "value": "Theater professional (directing, set design)",
+          "lines": [
+            62,
+            90,
+            92,
+            118,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker worked at Apple in Austin on the assistive technology team.",
+          "value": "Former Apple employee (assistive technology)",
+          "lines": [
+            48,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes himself as a freelance, project‑based worker currently.",
+          "value": "Freelance worker",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker is currently freelance; his theater work stopped due to the pandemic.",
+          "value": "Freelance / project‑based income, no current theater work",
+          "lines": [
+            90,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker donates plasma regularly at CSL Plasma for money, earning about $70 initial donation dropping to ~$30, up to twice a week.",
+          "value": "Donates plasma for income",
+          "lines": [
+            136,
+            138,
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a says Medicaid in Colorado requires less than $2,000, speaker_b replies 'No problem there for me,' implying his assets are below $2,000.",
+          "value": "Assets likely under $2,000",
+          "lines": [
+            187,
+            188
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker's wife works as a county librarian; this is the reason they moved to St. Louis.",
+          "value": "Wife is a county librarian",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker and his wife were planning to open a coffee shop with books and a community area at the beginning of the year, but put it on hold due to Covid.",
+          "value": "Planned to open a coffee shop (on hold)",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker participates in paid conversation studies (this is about his third) and other research studies.",
+          "value": "Participates in paid research studies",
+          "lines": [
+            10,
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions his wife multiple times.",
+          "value": "Married",
+          "lines": [
+            22,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker has a stepdaughter who is 19 years old, studying nursing; she is visiting from Denver with a friend.",
+          "value": "Has a 19‑year‑old stepdaughter",
+          "lines": [
+            22,
+            24,
+            148,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his brother is a software developer in California, doing Python development.",
+          "value": "Brother is a software developer in California",
+          "lines": [
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says many of his long‑time friends are still in Austin.",
+          "value": "Has long‑time friends in Austin, Texas",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker is deeply involved in theater, having worked in directing, set design, and for the Shakespeare company.",
+          "value": "Active in theater (directing, set design)",
+          "lines": [
+            90,
+            118,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker enjoys the free public attractions in St. Louis, such as museums and the zoo.",
+          "value": "Enjoys free museums and zoo in St. Louis",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker regularly donates plasma as an activity and income source.",
+          "value": "Regular plasma donor",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker remarks that he can chat up anybody and likes talking to people.",
+          "value": "Enjoys talking to people",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker relocated from Colorado to St. Louis for his wife's librarian job.",
+          "value": "Relocated for spouse's job",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker contrasts the humidity in St. Louis with the dry Colorado climate and says he misses the lack of humidity.",
+          "value": "Dislikes humidity",
+          "lines": [
+            32,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

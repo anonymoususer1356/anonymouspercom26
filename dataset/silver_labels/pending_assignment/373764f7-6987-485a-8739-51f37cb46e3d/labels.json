@@ -1,0 +1,541 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states her name when asked.",
+          "value": "Elise",
+          "lines": [
+            431
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker mentions being on campus, having an in-person class, picking up meals to eat in her room or outside, and having meals cooked for her, indicating she lives on a college campus.",
+          "value": "Lives on a college campus",
+          "lines": [
+            123,
+            315,
+            383
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker explicitly states she is a sophomore.",
+          "value": "College sophomore",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states her major.",
+          "value": "Studying child development",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she is taking a special education class.",
+          "value": "Taking a special education class",
+          "lines": [
+            401
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she does not think she wants to be a teacher.",
+          "value": "Does not want to be a teacher",
+          "lines": [
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "The name Elise is typically female, and conversational context (e.g., discussion of boyfriend) suggests the speaker is female.",
+          "value": "Female",
+          "lines": [
+            431
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says she uses Prolific for surveys because it pays well, and that Survey Junkie pays very little.",
+          "value": "Earns money through online surveys on Prolific",
+          "lines": [
+            79,
+            81,
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker talks about having meals cooked for her and references picking up meals, implying she is on a campus meal plan.",
+          "value": "Has a campus meal plan",
+          "lines": [
+            315,
+            383
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked if she has a boyfriend, speaker responds that it is hard to meet anyone right now, indicating she likely does not have one.",
+          "value": "Likely single (no boyfriend)",
+          "lines": [
+            208,
+            209,
+            211
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes her in-person class being limited to 40 people with spaced seating.",
+          "value": "Attends in-person class with COVID precautions",
+          "lines": [
+            123,
+            395
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she can roll out of bed right before class and wear pajamas because classes are online or close by.",
+          "value": "Rolls out of bed just before class, wears pajamas",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains that she picks up meals and eats in her room or outside due to pandemic restrictions.",
+          "value": "Picks up meals and eats in room or outside due to COVID",
+          "lines": [
+            383
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions missing social interaction in the dining hall.",
+          "value": "Misses social interaction in dining hall",
+          "lines": [
+            387
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she has been pretty careful regarding COVID-19.",
+          "value": "Careful about COVID-19",
+          "lines": [
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she has a map of Spain hanging up.",
+          "value": "Has a map of Spain on her wall",
+          "lines": [
+            243
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as Jane and later quotes coworkers calling her Jane.",
+          "value": "Jane",
+          "lines": [
+            432,
+            358
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states she moved back to Kentucky and previously mentioned living there.",
+          "value": "Lives in Kentucky",
+          "lines": [
+            284,
+            338
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she moved to Los Angeles and lived downtown for over two years.",
+          "value": "Previously lived in downtown Los Angeles, CA",
+          "lines": [
+            286,
+            288,
+            294,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she works at a utility company and works in the office; given she lives in Kentucky, the job is likely there.",
+          "value": "Works at a utility company in Kentucky",
+          "lines": [
+            362
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states she is in graduate school and describes the program as Human Resources Leadership, similar to an MBA.",
+          "value": "Graduate student in Human Resources Leadership",
+          "lines": [
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says she works full time.",
+          "value": "Works full time",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Jane and references to 'my boyfriend' indicate the speaker is female.",
+          "value": "Female",
+          "lines": [
+            432,
+            188
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she is not good at math, which is why she chose a program without extensive math.",
+          "value": "Not good at math",
+          "lines": [
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she finished her undergrad in about 3.5 years because she took no summers off. The ASR '3.5 years' is slightly garbled but the meaning is clear.",
+          "value": "Completed undergrad in ~3.5 years",
+          "lines": [
+            418
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says she is hourly, not salaried.",
+          "value": "Hourly employee (not salaried)",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she is not in the union at her workplace.",
+          "value": "Not in a union",
+          "lines": [
+            348
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she does surveys on MTurk and Prolific, and that she started Prolific last month after using MTurk for four years.",
+          "value": "Does online surveys on MTurk and Prolific",
+          "lines": [
+            78,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she has been a Sprint customer for about 10 years.",
+          "value": "Sprint customer for ~10 years",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker explains that her graduate program uses APA citation format.",
+          "value": "Uses APA format for school",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker describes her job at a utility company where she transfers calls; it is not a sales role.",
+          "value": "Full-time job at utility company transferring calls",
+          "lines": [
+            352,
+            354,
+            362
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she uses company reimbursement to pay for graduate school.",
+          "value": "Receives company tuition reimbursement",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she is paid by the hour.",
+          "value": "Hourly wage",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says Sprint gave her a free line of service, which she used for her mom.",
+          "value": "Received a free Sprint line for her mom",
+          "lines": [
+            40,
+            42,
+            44,
+            50,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions doing surveys on MTurk and Prolific for extra income.",
+          "value": "Earns extra money through online surveys",
+          "lines": [
+            78,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she shares utility and internet costs with her mom.",
+          "value": "Shares utilities and internet with mom",
+          "lines": [
+            248
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes previously working as a consultant and manager for an Airbnb in LA, where she filed her own taxes as a small business.",
+          "value": "Previously self-employed as a consultant/Airbnb manager in LA",
+          "lines": [
+            306,
+            308
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says she has a boyfriend of almost four years, whom she met at work during training.",
+          "value": "Has a boyfriend of ~4 years, met at work",
+          "lines": [
+            198,
+            202,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly states she lives with her mom.",
+          "value": "Lives with her mom",
+          "lines": [
+            248,
+            252,
+            420
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her mom has a dog.",
+          "value": "Mom has a dog",
+          "lines": [
+            252
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says her aunt owns the house they live in; the aunt spends half the year in Florida and part of the year with them.",
+          "value": "Aunt owns their home, lives part-time in Florida and with them",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her aunt brings her grandpa when she visits.",
+          "value": "Grandpa visits with aunt",
+          "lines": [
+            256
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions she used to have a cat that passed away.",
+          "value": "Had a cat that died",
+          "lines": [
+            254
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says her dad lives in Los Angeles and she is not close with him.",
+          "value": "Dad lives in LA; not close with him",
+          "lines": [
+            298
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker recounts that her boyfriend was engaged to someone else when they first met at work, and they started talking after he broke up.",
+          "value": "Met boyfriend while he was engaged to someone else",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says her workplace has allowed her to work from home since April.",
+          "value": "Works from home since April",
+          "lines": [
+            68,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses that she really likes working from home.",
+          "value": "Likes working from home",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker estimates she spends 8-10 hours per week on graduate school, with the bulk on Sundays.",
+          "value": "Spends ~8-10 hours/week on school, mostly on Sundays",
+          "lines": [
+            164,
+            166,
+            168
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says her graduate program is designed as an online program because she works full time.",
+          "value": "Takes graduate classes online",
+          "lines": [
+            120,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she visits her boyfriend on weekends.",
+          "value": "Visits boyfriend on weekends",
+          "lines": [
+            188,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she likes sleeping until about five minutes before work. ASR 'five minutes grasp' interpreted as 'five minutes before'.",
+          "value": "Likes sleeping until shortly before work",
+          "lines": [
+            378
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker describes having moved to LA and managed an Airbnb where she also lived.",
+          "value": "Previously lived in LA and managed an Airbnb",
+          "lines": [
+            286,
+            306,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says she currently has no pets.",
+          "value": "No pets currently",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she prefers Prolific because it is more user-friendly and saves time compared to MTurk.",
+          "value": "Prefers Prolific survey site",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes creating a wish list on Amazon for the 'Random Acts of Amazon' group, though she does not use Amazon much.",
+          "value": "Has Amazon wish list for Random Acts of Amazon",
+          "lines": [
+            24,
+            26,
+            28,
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she does not use Amazon very much.",
+          "value": "Doesn't use Amazon much",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker expresses reluctance to go out because of COVID and worries about bringing illness home to her mom.",
+          "value": "Careful about COVID-19, avoids going out",
+          "lines": [
+            222,
+            344,
+            376
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,483 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly gives his name as Glenn.",
+          "value": "Glenn",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states he is in Ohio.",
+          "value": "Ohio",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says he will be 50 this year.",
+          "value": "50",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states his occupation as a pastor for 33 years.",
+          "value": "pastor",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has a master's degree in Theology.",
+          "value": "Master's degree in Theology",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Glenn and reference to a wife indicate male gender.",
+          "value": "male",
+          "lines": [
+            5,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker recounts that when they had kids young, it was a struggle and pretty tough, implying financial difficulty.",
+          "value": "experienced financial struggle raising children young",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states he has been a pastor for 33 years, indicating stable employment.",
+          "value": "employed as a pastor",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker refers to 'my wife'.",
+          "value": "married",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has three kids.",
+          "value": "three children",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his kids are all married, and later describes being an empty nester.",
+          "value": "children are married adults",
+          "lines": [
+            211,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my daughter' and her attending Mizzou.",
+          "value": "has a daughter",
+          "lines": [
+            9,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his daughter's husband graduated and they moved back from Japan.",
+          "value": "daughter's husband graduated and they moved back from Japan",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says two of his kids are in the ministry.",
+          "value": "two children are in ministry",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker reacts to Star Trek discussion by saying 'Me too' and 'I love it', indicating he is a fan.",
+          "value": "enjoys Star Trek",
+          "lines": [
+            265,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he prefers talking to people younger than him.",
+          "value": "prefers company of younger people",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions helping in children's and youth ministry.",
+          "value": "involved in youth and children's ministry",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes preaching to a camera and doing online services.",
+          "value": "preaches online",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says now that his kids have moved out, he and his wife are empty nesters.",
+          "value": "empty nester",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as Olivia.",
+          "value": "Olivia",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says she is in Missouri and later specifies she is super close to the Kansas City Metro.",
+          "value": "Missouri, near Kansas City",
+          "lines": [
+            8,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states her age is 24.",
+          "value": "24",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Olivia and context indicate female gender.",
+          "value": "female",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is a software engineer who codes for a living.",
+          "value": "software engineer",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she graduated with a degree in computer science from Mizzou.",
+          "value": "Bachelor's in computer science from University of Missouri (Mizzou)",
+          "lines": [
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she originally went to college as an opera singer.",
+          "value": "trained as opera singer",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker reveals she was adopted.",
+          "value": "adopted",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says as an engineer she makes a decent salary.",
+          "value": "earns decent salary as software engineer",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she and her husband bought a house in November.",
+          "value": "homeowner with spouse",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes using websites like Prolific and dScout to earn extra money.",
+          "value": "uses online platforms for side income",
+          "lines": [
+            138,
+            140,
+            142,
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she worked at Home Depot while in college.",
+          "value": "worked at Home Depot in college",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she works for one of the biggest corporations in Missouri.",
+          "value": "works for a large Missouri corporation",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker names the man she married as Dylan.",
+          "value": "married to Dylan",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her husband is also a software engineer.",
+          "value": "husband is software engineer",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she married a KU (University of Kansas) graduate.",
+          "value": "husband graduated from University of Kansas",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker specifies their wedding date as March 7.",
+          "value": "married March 7",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her father is 60 and will be 61 in October.",
+          "value": "father is 60, turning 61 in October",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to her mother multiple times.",
+          "value": "has mother",
+          "lines": [
+            244,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker indicates she grew up as an only child.",
+          "value": "only child",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her uncle and cousins live in Japan.",
+          "value": "uncle lives in Japan",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having friends who are in medical school.",
+          "value": "friends in medical school",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes being classically trained on piano for 14 years and originally an opera singer.",
+          "value": "classically trained pianist and singer",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she likes indie music from smaller bands.",
+          "value": "prefers indie music",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker shares that she grew up watching Star Trek, had a U.S.S. Enterprise decal on her car, and owns a Star Trek onesie.",
+          "value": "enthusiastic Star Trek fan",
+          "lines": [
+            264,
+            274,
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she and her husband like classic cars and racing.",
+          "value": "enjoys classic cars and racing",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes the extensive painting and remodeling work she is doing on her house.",
+          "value": "remodeling her house",
+          "lines": [
+            22,
+            164,
+            168,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about doing online tasks on Prolific and dScout for extra cash.",
+          "value": "does online microtasks for extra money",
+          "lines": [
+            138,
+            140,
+            142,
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her company has shifted to remote work for the rest of 2020 due to COVID-19.",
+          "value": "working from home during pandemic",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes buying Dungeons and Dragons dice and rolling for initiative with coworkers.",
+          "value": "plays or collects Dungeons and Dragons dice",
+          "lines": [
+            280,
+            284,
+            286,
+            288,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions growing up Catholic and later leaving the church.",
+          "value": "raised Catholic, left the church",
+          "lines": [
+            88,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she and her husband do a lot with youth and charities.",
+          "value": "volunteers with youth and charities",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her street as a cul-de-sac filled with kids.",
+          "value": "lives on a cul-de-sac with many kids",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

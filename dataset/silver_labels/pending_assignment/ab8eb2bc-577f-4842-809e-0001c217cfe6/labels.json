@@ -1,0 +1,505 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly states her name.",
+          "value": "Claire",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says she lives nearby Chicago.",
+          "value": "nearby Chicago",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states she just graduated in May.",
+          "value": "recent college graduate (graduated in May)",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states her major was global studies.",
+          "value": "global studies major",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is doing an AmeriCorps service term.",
+          "value": "AmeriCorps member",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she went to Purdue (ASR 'produce'); the other speaker confirms the university name.",
+          "value": "Purdue University alumna",
+          "lines": [
+            33,
+            34
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she knows sign language.",
+          "value": "knows sign language",
+          "lines": [
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes signing up for Prolific and doing many studies over about five years.",
+          "value": "frequent research study participant",
+          "lines": [
+            219,
+            229,
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker says she got her driver's license at 16, implying she currently holds one.",
+          "value": "holder of a driver's license",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker says she receives a living stipend through AmeriCorps.",
+          "value": "receives a living stipend from AmeriCorps",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she lives at home with parents.",
+          "value": "lives at home with parents",
+          "lines": [
+            19,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she does Prolific studies for extra cash.",
+          "value": "earns extra money from Prolific studies",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions an outstanding job offer from the Boys and Girls Club.",
+          "value": "has a job offer from Boys and Girls Club",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she worked for her school's IT department while a student.",
+          "value": "previously employed at school IT department",
+          "lines": [
+            59,
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions her brother is in town for the holiday.",
+          "value": "has a brother",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about moving back home and cooking with her mother; she says her mother is a really good cook.",
+          "value": "has a mother",
+          "lines": [
+            63,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has an aunt who lives in Ireland and whom she has visited.",
+          "value": "has an aunt in Ireland",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker repeatedly refers to her best friend who is an excellent cook.",
+          "value": "has a best friend (female) who is a very good cook",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a friend named Shelby.",
+          "value": "has a friend named Shelby",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says two friends pitched in to buy her a Nintendo Switch.",
+          "value": "has two friends who bought her a game console",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes her work: community outreach, writing for the blog, helping revamp the newsletter.",
+          "value": "works at a youth programming nonprofit doing community outreach, blogging, and newsletter revamp",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she will start leading youth mentoring programs on Zoom next month.",
+          "value": "will lead youth mentoring programs on Zoom next month",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she plays video games on a Nintendo Switch, specifically Animal Crossing and Breath of the Wild, and is learning to play as an adult.",
+          "value": "plays video games on Nintendo Switch (Animal Crossing, Breath of the Wild); novice gamer",
+          "lines": [
+            65,
+            67,
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is learning to cook with her mom since moving back home.",
+          "value": "learning to cook with her mom",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she has applied for a Fulbright English teaching assistantship in India.",
+          "value": "applied for Fulbright teaching assistantship in India",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she completed a Peace Corps certification while in college.",
+          "value": "completed Peace Corps certification during college",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she studied abroad in India for two months.",
+          "value": "studied abroad in India",
+          "lines": [
+            187,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she did a study abroad in France during high school.",
+          "value": "studied abroad in France in high school",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she took a short trip to Malawi in Africa.",
+          "value": "took a short trip to Malawi",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "When discussing a fake genetic test that reported a 'white' result, speaker remarks that such a result is the kind of thing you could guess by looking at her, implying she is visibly white.",
+          "value": "white / Caucasian",
+          "lines": [
+            261
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker explicitly states her name.",
+          "value": "Ellie",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker says she is in college, is a senior (she mentions 'senioritis'), and is a mechanical engineering major.",
+          "value": "college student, senior, mechanical engineering major",
+          "lines": [
+            10,
+            32,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has been studying Chinese for seven or eight years (ASR 'I am chinese for seven or 8 years') and used it to communicate in Madrid.",
+          "value": "speaks Chinese (studied for 7-8 years)",
+          "lines": [
+            158,
+            170,
+            172
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she learned a little Spanish while in Madrid.",
+          "value": "speaks some Spanish",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she knows sign language, learned while working at Gallaudet University.",
+          "value": "knows sign language",
+          "lines": [
+            312,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she does studies on Prolific as a main way to make money during college and has done many of them.",
+          "value": "frequent research study participant",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says she has a job lined up writing patent applications after college.",
+          "value": "has a job lined up writing patent applications after graduation",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes completing an internship as an 'engineer law intern' which led to the job offer.",
+          "value": "completed an engineering law internship",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she worked at Gallaudet University in a lab on telecommunications technology.",
+          "value": "worked at Gallaudet University in a telecommunications lab",
+          "lines": [
+            312,
+            314,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she does Prolific studies to make money during college.",
+          "value": "earns money from Prolific studies during college",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions receiving a job offer from an air conditioning company that she did not accept.",
+          "value": "received a job offer from an air conditioning company",
+          "lines": [
+            50,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker quotes advice from her mother.",
+          "value": "has a mother",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker quotes her father's remark about moving to Chicago.",
+          "value": "has a father",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes living in a flat with 11 other people in Madrid, naming a French girl, an Italian guy, and a person from South Africa who grew up in Jamaica.",
+          "value": "had a group of international flatmates in Madrid",
+          "lines": [
+            152,
+            153,
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says in Madrid she had a group of friends from different countries who cooked together.",
+          "value": "had an international friend group in Madrid that cooked together",
+          "lines": [
+            150
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes her semester workload as 'four days a week and get a one weekend' (likely a four-day school week with a long weekend).",
+          "value": "college schedule with long weekends",
+          "lines": [
+            58
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says she baked bread and moved on to making pizza.",
+          "value": "bakes bread and makes pizza",
+          "lines": [
+            84,
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her parents gave her 'Salt Fat Acid Heat', a book that teaches cooking without recipes, and it improved her skills.",
+          "value": "learned cooking from the book 'Salt Fat Acid Heat'",
+          "lines": [
+            110,
+            112,
+            114,
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she studied abroad in Madrid, Spain.",
+          "value": "studied abroad in Madrid",
+          "lines": [
+            148,
+            168,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains she planned to study abroad in Hong Kong but could not go because of violent protests (dorm set on fire).",
+          "value": "planned to study abroad in Hong Kong but cancelled due to protests",
+          "lines": [
+            158,
+            160,
+            164,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker discusses participating in a variety of research studies, including EEG, MRI, hearing tests, and a fake genetic test.",
+          "value": "participates in various research studies (EEG, MRI, hearing tests, genetic test)",
+          "lines": [
+            232,
+            238,
+            244,
+            246,
+            258,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes working at Gallaudet University in a lab on cell phone technology, with deaf coworkers, where she learned sign language.",
+          "value": "worked at Gallaudet University in a telecommunications lab with deaf coworkers",
+          "lines": [
+            312,
+            314,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions playing Mario Kart as a child but not being skilled at it.",
+          "value": "played Mario Kart as a child",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 11: 'my muse MEREDITH' is almost certainly 'I'm Meredith'. Speaker_b's line 12 also contains 'I'm MEREDITH' but then gives 'I'm Ray', pointing to an ASR duplication/misattribution. The simplest reading is that speaker_a is Meredith.",
+          "value": "Meredith",
+          "lines": [
+            11,
+            12
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Describes living in the far north of New York State on the St. Lawrence River (1000 Islands region), by a marina/public dock, with May snow and 40° water.",
+          "value": "Northern New York, 1000 Islands region, along the St. Lawrence River, near a marina",
+          "lines": [
+            45,
+            49,
+            51,
+            53,
+            59,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States outright: 'I teach middle school for a living and seventh grade english'.",
+          "value": "Middle school teacher (7th grade English)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says: 'I grew up in providence Rhode island and then moved to florida and then moved up here'.",
+          "value": "Originally from Providence, Rhode Island; also lived in Florida",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Grew up during the Apollo era (1960s‑70s), has adult children (son gave a gift 9 years ago, retirement planning) – points to late‑50s to 60s.",
+          "value": "Likely late 50s to 60s",
+          "lines": [
+            5,
+            73,
+            137
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Only does home repairs she can afford (line 39); calls privacy film 'not cheap' (line 259); notes the area lacks well‑paying jobs (line 111).",
+          "value": "Modest financial means, budget-conscious",
+          "lines": [
+            39,
+            111,
+            259
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions an eldest son, a middle son Joshua (Josh), and at least one daughter (referred to as 'my daughter' and 'my oldest daughter').",
+          "value": "Has at least three children: eldest son, middle son Joshua (Josh), and a daughter",
+          "lines": [
+            5,
+            7,
+            9,
+            149,
+            283,
+            305,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says: 'my granddaughter, Christina has three cats'.",
+          "value": "Granddaughter Christina",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to Josh's wife as Natalie: 'oh no, Natalie doesn't want Pomeranians'.",
+          "value": "Daughter-in-law Natalie (wife of Josh)",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Confirms the dogs are Pomeranians, received as a gift nine years ago.",
+          "value": "Owns two Pomeranian dogs",
+          "lines": [
+            4,
+            5,
+            7,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes varnishing the pantry floor, having a list of home repairs, and loving yard work.",
+          "value": "Enjoys home repairs and yard work",
+          "lines": [
+            39,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses watching Tiger King and the wrap‑up episode with her daughter.",
+          "value": "Watched the Tiger King documentary",
+          "lines": [
+            325,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses a bucket‑list wish to see giant sequoias, the Pacific Ocean, and other natural wonders after retirement.",
+          "value": "Wants to travel to see natural wonders (e.g., sequoias, Pacific Ocean)",
+          "lines": [
+            133,
+            137,
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Recalls people using newspaper on walls for insulation and says 'I grew up … you were that for they had newspaper on their walls', tying it to poverty.",
+          "value": "Grew up in poverty (newspaper used as wall insulation)",
+          "lines": [
+            263,
+            265,
+            267
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Says 'I'm MEREDITH. So I'm Ray nice to meet you.' Given speaker_a is almost certainly Meredith, the 'MEREDITH' here is very likely an ASR error, and the speaker's name is Ray.",
+          "value": "Ray (possibly Raymond)",
+          "lines": [
+            12
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I've lived in you know southern California' and later 'I might want to move out of California maybe move to… Ohio'. Reference to 'the local national forest' also places them in southern California.",
+          "value": "Southern California",
+          "lines": [
+            118,
+            128,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm working for the courthouse' and describes handling traffic cases (formerly civil family law and jury).",
+          "value": "Works at courthouse (traffic division)",
+          "lines": [
+            120,
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'after I graduated college … my major, I was communication studies major'.",
+          "value": "College graduate (communication studies major)",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Graduated at least 6 years ago (worked at grocery store 6 years ago), 5 years at courthouse → likely late‑20s to early‑30s.",
+          "value": "Likely late 20s to early 30s",
+          "lines": [
+            120,
+            214
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'my resting heart rate was 60 … now it's down 58' as tracked by Fitbit.",
+          "value": "Resting heart rate 58 bpm",
+          "lines": [
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I tried to get … about seven hours of sleep last night'.",
+          "value": "Sleeps about 7 hours per night",
+          "lines": [
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes a 6‑minute cold shower, 45 push‑ups, and a 7‑mile walk.",
+          "value": "Practices cold showers, push-ups, and long walks",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Mentions: 'I was talking to a friend of mine, he lives in … he's retired, he lives in Arkansas'.",
+          "value": "Has a retired friend in Arkansas",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Discusses following the Wim Hof method: cold showers, exercise routine.",
+          "value": "Fitness regimen inspired by Wim Hof (cold exposure, exercise)",
+          "lines": [
+            24,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my Fitbit, which is right here' when discussing heart rate.",
+          "value": "Uses a Fitbit",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've listened to the wondering podcast version' of the Tiger King story.",
+          "value": "Listens to Wondery podcast about Tiger King",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses details from the Tiger King documentary, indicating they have watched it.",
+          "value": "Watched Tiger King",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I might want to move out of California maybe move to … Ohio'.",
+          "value": "Considering relocating to Ohio",
+          "lines": [
+            128
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I've just lived in the city my entire life'.",
+          "value": "Has always lived in a city",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "References 'my Fitbit, which is right here', implying it is worn on the wrist.",
+          "value": "Wears a Fitbit",
+          "lines": [
+            68
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

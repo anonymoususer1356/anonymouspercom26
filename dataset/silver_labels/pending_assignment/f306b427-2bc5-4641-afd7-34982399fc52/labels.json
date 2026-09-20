@@ -1,0 +1,216 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a directly states his name.",
+          "value": "Mike",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says he is in Texas and specifies Dallas.",
+          "value": "Dallas, Texas",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm from Oklahoma', indicating origin.",
+          "value": "Oklahoma",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a describes himself as on the edge of millennials, with Gen X a few years before he was born, identifying as a millennial.",
+          "value": "millennial (older edge)",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions going to college and taking classes there.",
+          "value": "attended college",
+          "lines": [
+            145,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states he works as a business intelligence programmer and analyst at a healthcare company that makes medical products like knee braces and diabetic socks.",
+          "value": "business intelligence programmer and analyst at a healthcare company",
+          "lines": [
+            83,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his previous job at a hotel company handling compliance.",
+          "value": "compliance role at a hotel company",
+          "lines": [
+            105,
+            106,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a lists several Florida cities he has visited and expresses a desire to visit Key West.",
+          "value": "has visited Daytona, Orlando, Miami, Pensacola; wants to visit Key West",
+          "lines": [
+            37,
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he dislikes Texas beaches and finds the Dallas landscape flat and boring.",
+          "value": "dislikes Texas beaches; finds Dallas area boring",
+          "lines": [
+            65,
+            73,
+            74,
+            75,
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b directly states her name.",
+          "value": "Kate",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in Florida and specifies the west coast.",
+          "value": "west coast of Florida",
+          "lines": [
+            12,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up mostly in Florida.",
+          "value": "grew up in Florida",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states she was a math and physics major and did graduate work in physics.",
+          "value": "graduate work in physics; math and physics major",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b references 'people like in the millennial age range' in a way that suggests she is part of that group, though not explicitly stated.",
+          "value": "likely millennial",
+          "lines": [
+            136
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she does quality and compliance for an independent pharmacy chain.",
+          "value": "quality and compliance for an independent pharmacy chain",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she works from home currently.",
+          "value": "works from home",
+          "lines": [
+            102,
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her father wrote contracts for a living.",
+          "value": "father (deceased status not mentioned)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states most of her family is from upstate New York.",
+          "value": "family from upstate New York",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b expresses a love for mountains, snow, and hiking, and prefers east coast beaches over the Gulf.",
+          "value": "enjoys hiking, mountains, snow; prefers east coast beaches",
+          "lines": [
+            38,
+            54,
+            78,
+            79,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is not a big-city person and prefers suburbs.",
+          "value": "prefers suburbs over big cities",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

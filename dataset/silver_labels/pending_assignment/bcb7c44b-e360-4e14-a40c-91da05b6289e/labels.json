@@ -1,0 +1,399 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm living in Portland right now' (line 17) and 'I live in student apartments... right in downtown by the college' (lines 57-59). The college is Portland State University as per his degree (line 79). Also discusses Oregon lockdowns (line 23) and local places like Free Geek (line 131).",
+          "value": "Portland, Oregon (student apartments downtown near Portland State University)",
+          "lines": [
+            17,
+            23,
+            25,
+            27,
+            29,
+            31,
+            57,
+            59,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm from California' (line 17), mentions family is back in California (line 37), and has kept a California phone number (line 63).",
+          "value": "Originally from California",
+          "lines": [
+            17,
+            37,
+            39,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I have a degree from Portland State, but it's in uh criminology and criminal justice' and 'I finished the degree right at the end of 2016' (line 79).",
+          "value": "Holds a Bachelor's degree in Criminology and Criminal Justice from Portland State University, graduated end of 2016",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 73: 'when I learned to code a few years ago I went to a regular code school and I learned web design and stuff'.",
+          "value": "Attended a code school and learned web design",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'I'm a freelance coder.' Line 73: 'I say I'm a freelance coder, but really... I haven't actually taken all of any work in a while'.",
+          "value": "Freelance coder (not actively taking work)",
+          "lines": [
+            55,
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 59: 'I'm not a student anymore'.",
+          "value": "Not currently a student",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 79: 'I don't think I'm really cut out for Law enforcement... I'm glad I'm not a cop right now'.",
+          "value": "Not employed in law enforcement (not a police officer)",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 145: speaker_a receives focus group invitations for single moms, then says 'which I am not'.",
+          "value": "Not a single mother",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 69-71: 'my phone is an android, first of all... the only Apple device I own is an ipod classic'.",
+          "value": "Uses Android phone; owns an iPod classic but no other Apple devices",
+          "lines": [
+            69,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 55: 'most of the money I have right now I've actually been getting through like prolific'.",
+          "value": "Primary income source is Prolific online surveys",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 57: 'my folks actually helped me out with with rent'.",
+          "value": "Parents help with rent",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 57-59: 'I live in student apartments... there is nothing anywhere near this like this cheap'.",
+          "value": "Lives in low-cost student apartments",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 113: 'I have an inherited Roth ira from him and it's got like Around 60 grand in it and they're like fidelity fidelity investments is managing it'.",
+          "value": "Has an inherited Roth IRA worth approximately $60,000, managed by Fidelity",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 117, 119: 'There's a minimum amount of money around $800 that I had to take out every year... something in the cares act meant that I don't have to do that'.",
+          "value": "Required minimum distribution of ~$800/year from IRA (waived in 2020)",
+          "lines": [
+            117,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions using Prolific (55), focus groups (129), Swagbucks (157), and Rev (181) to earn money.",
+          "value": "Participates in multiple online gig platforms: Prolific, focus groups, Swagbucks, Rev transcription",
+          "lines": [
+            55,
+            129,
+            157,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 131-135: 'there's a place... free geek... if you do 24 volunteer hours, they actually give you a free computer... I ended up in there on what turned out to be the last day'.",
+          "value": "Volunteering at Free Geek to earn a free Linux computer (24 hours required)",
+          "lines": [
+            131,
+            133,
+            135,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 37, 39, 51: 'my family is back in California', 'My parents... I normally go and I see them for christmas', 'my mom had suggested'.",
+          "value": "Parents live in California",
+          "lines": [
+            37,
+            39,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 45: 'my brother lives in texas now'.",
+          "value": "Brother lives in Texas",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 113: 'when my grandpa died, he left me... an inherited Roth ira'.",
+          "value": "Grandfather is deceased; left inheritance",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 103: 'I have a friend who works in financial services... I think he lives in boston'.",
+          "value": "Has a friend who works in financial services in Boston",
+          "lines": [
+            103
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 49: 'I got a lot of friends who are like... struggling with... family members on various things but this that would be awful'.",
+          "value": "Has friends with family conflicts over COVID-19 precautions",
+          "lines": [
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 139-141: 'the guy who was across the sorting table from me... was like a manager for viewpoint, which is a focus group company'.",
+          "value": "Met a manager from Viewpoint focus group company while volunteering",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 39, 41: 'I've never visited for thanksgiving because I kinda hate airports... I'm fully prepared to not do shit for thanksgiving, that's every year for me', and 'I normally go and see them for christmas... this year I'm thinking maybe not'.",
+          "value": "Usually skips Thanksgiving travel; sometimes visits parents for Christmas (considering skipping due to COVID)",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 23, 25: 'The gym in my building... I like... after this call... going down there and that's the last time I get to do that for a month'.",
+          "value": "Regularly uses the gym in his apartment building",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 167: in a recount of a survey screening, 'what kind of car do you drive? I don't drive.'",
+          "value": "Does not drive a car",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 73: 'I've been trying to tinker with like game development stuff... I figure if I can make something fun, maybe charge people a couple of bucks'.",
+          "value": "Pursues game development as a hobby/potential side income",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 133: 'even if it does have Lennox on it, which I just had to figure out how to use' (Lennox = Linux).",
+          "value": "Intends to learn Linux (if receives computer from Free Geek)",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 18: 'I am uh living in new york city right now', also mentions scams in New York (line 68).",
+          "value": "New York City, New York",
+          "lines": [
+            18,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 94, 96, 100, 110, 112: 'I work at a bank', 'I work in a financial strategy', 'I work at a bank right now', 'I work more on the investment banking side... we deal more with like funds', 'it's mostly companies and.'",
+          "value": "Works at a bank in investment banking / financial strategy",
+          "lines": [
+            94,
+            96,
+            100,
+            110,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 126: 'when I was back in college, I used to do a lot of prolific'.",
+          "value": "Attended college (college-educated)",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Employed at a bank (lines 94, 96, 100, 110) with a steady job.",
+          "value": "Stably employed at a bank in financial strategy",
+          "lines": [
+            94,
+            96,
+            100,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 102, 126, 150: 'I kind of do like you, it's prolific on the side', 'I used to do a lot of prolific', 'I've done quite a few since the pandemic'.",
+          "value": "Earns extra money through online side gigs: Prolific, focus groups",
+          "lines": [
+            102,
+            126,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 150: 'my schedule quite flexible so sometimes I could squeeze like an hour here and there during the day'.",
+          "value": "Has a flexible work schedule that allows side gigs during the day",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 48: 'I flew not like a few months ago'.",
+          "value": "Took a flight a few months ago (pre- or mid-pandemic)",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 50: 'My parents... they've done some outdoor stuff now... it's getting cold so they're just staying inside... we're lucky we have parents that actually listen and very careful'.",
+          "value": "Parents are alive, take COVID precautions seriously, likely live where it gets cold",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 20: 'a lot of my colleagues are moving back home with their parents and others are just moving like in the outside the city'.",
+          "value": "Colleagues have been moving out of New York City due to remote work",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 100: 'I work from home'.",
+          "value": "Works from home",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 102, 126, 150 indicate he does online surveys and focus groups in his spare time for extra cash.",
+          "value": "Engages in online surveys and focus groups as a side activity",
+          "lines": [
+            102,
+            126,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 148, 154: 'there's there's a few groups on facebook', 'if you enter like focus groups into facebook's... you just request access'.",
+          "value": "Uses Facebook to find focus group opportunities",
+          "lines": [
+            148,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 160-162: 'I didn't do this white books I did instead of D... C... which is similar right? You have like offers where you buy stuff and then you get money back'.",
+          "value": "In college, used a cashback/rewards site for extra money (site name garbled, possibly 'D.C.')",
+          "lines": [
+            160,
+            162,
+            164
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

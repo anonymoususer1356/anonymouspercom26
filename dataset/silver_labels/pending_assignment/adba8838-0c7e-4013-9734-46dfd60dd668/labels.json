@@ -1,0 +1,295 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name directly.",
+          "value": "Jim",
+          "lines": [
+            15,
+            278,
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he is from North Carolina and later discussion confirms he is there during the COVID-19 lockdown.",
+          "value": "North Carolina",
+          "lines": [
+            15,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he is originally from there, speaker_a says 'actually from the city,' implying he moved from an unnamed city.",
+          "value": "originally from a city (unspecified)",
+          "lines": [
+            249
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states his age.",
+          "value": "24 years old",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is studying physical therapy.",
+          "value": "student of physical therapy",
+          "lines": [
+            27,
+            83,
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a explicitly says he does not have a job yet.",
+          "value": "unemployed",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'just me living here' when asked about family, indicating he lives alone.",
+          "value": "lives alone",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a friend from school who bought an RV with his wife for travel therapy.",
+          "value": "has a friend from school (who bought an RV)",
+          "lines": [
+            271
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes living in a third-floor apartment.",
+          "value": "lives in a third-floor apartment",
+          "lines": [
+            49,
+            53,
+            54,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he watches Netflix and names several series he has watched.",
+          "value": "watches Netflix (e.g., Dead to Me, Ozark)",
+          "lines": [
+            75,
+            147,
+            171,
+            173,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers reference timers, questions, and an interview setting, indicating they are in a research study.",
+          "value": "participated in a research interview/study",
+          "lines": [
+            10,
+            26,
+            285,
+            289,
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states his name directly.",
+          "value": "Kirk",
+          "lines": [
+            8,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from a small town near Houston, Texas.",
+          "value": "New Caney, Texas (near Houston)",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes living in a trailer in an RV park and mentions being in Montgomery County, which is adjacent to Harris County (Houston).",
+          "value": "RV park in Montgomery County, Texas",
+          "lines": [
+            36,
+            38,
+            106,
+            220,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he lived in Phoenix, Arizona for seven years.",
+          "value": "previously lived in Phoenix, Arizona for 7 years",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states he is disabled.",
+          "value": "disabled",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b states he is disabled.",
+          "value": "disabled",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists his medical history including a heart attack.",
+          "value": "had a heart attack",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a back injury, surgery, and collapsed vertebra.",
+          "value": "back injury with surgery and collapsed vertebrae",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he lost his house to Hurricane Harvey and now lives in a 16-foot trailer.",
+          "value": "lost house in Hurricane Harvey, now lives in a 16ft trailer",
+          "lines": [
+            30,
+            36,
+            38,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is disabled and mentions needing to find something to do; his last known job was around 2010.",
+          "value": "currently unemployed",
+          "lines": [
+            28,
+            62,
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes his previous occupations in the oil field and swimming pool business.",
+          "value": "formerly worked in oil field (until 1984) and swimming pool business (until ~2010)",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b talks about his two dogs, their ages, and the adjustments they've had to make.",
+          "value": "owns two dogs (aged ~14, owned since 2007)",
+          "lines": [
+            264,
+            266,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b lives in an RV park and regularly walks his dogs.",
+          "value": "lives in an RV park and walks dogs",
+          "lines": [
+            36,
+            38,
+            264,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions watching specific Netflix series.",
+          "value": "watches Netflix (e.g., Boardwalk Empire)",
+          "lines": [
+            156,
+            162,
+            186,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he would post on Facebook if he dislikes a show.",
+          "value": "uses Facebook",
+          "lines": [
+            182
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Both speakers reference timers, questions, and an interview setting, indicating they are in a research study.",
+          "value": "participated in a research interview/study",
+          "lines": [
+            10,
+            26,
+            285,
+            289,
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

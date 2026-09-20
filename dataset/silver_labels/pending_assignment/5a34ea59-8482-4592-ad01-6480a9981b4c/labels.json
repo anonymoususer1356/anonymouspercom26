@@ -1,0 +1,503 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Cleveland now'.",
+          "value": "Cleveland",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'that's where I grew up in Seattle'.",
+          "value": "Seattle",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes the house layout: 'we have basically given our son the first floor even though his bedroom is the third floor and my husband, I just like finger on the second floor all the time', indicating a three-story house.",
+          "value": "Lives in a three-story house",
+          "lines": [
+            257
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly says 'I'm 37' and speaker_b confirms 'you're 37'.",
+          "value": "37 years old",
+          "lines": [
+            9,
+            16,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to herself as a 'Pacific Northwest girl at heart', using 'girl' to describe herself, indicating female gender.",
+          "value": "Female",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my 15 year old' indicating she is a mother.",
+          "value": "Mother",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she double majored in English and Biology (creative writing and biology) the first time she went to college.",
+          "value": "Double major in English (creative writing) and Biology",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she later went back for a psychology degree, earning a bachelor's in psychology.",
+          "value": "Bachelor's in Psychology",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she earned a master's of psychology and counseling.",
+          "value": "Master's in Psychology and Counseling",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I teach montessori' and works as a substitute in a Montessori school.",
+          "value": "Montessori teacher",
+          "lines": [
+            313,
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she works as a substitute teacher in the public schools.",
+          "value": "Substitute teacher in public schools",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she tutors AP psychology and AP human geography.",
+          "value": "Tutor for AP Psychology and AP Human Geography",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having worked at a grocery store for three years.",
+          "value": "Former grocery store worker (3 years)",
+          "lines": [
+            383
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I wear my glasses almost every day', indicating need for vision correction.",
+          "value": "Wears glasses for vision correction",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a little bit of A. D. H. D.'",
+          "value": "Has ADHD",
+          "lines": [
+            397
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not great with like visual spatial awareness either' and relates it to difficulty with geometry and 3D thinking.",
+          "value": "Self-reported poor visual spatial awareness",
+          "lines": [
+            225,
+            229
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'my husband makes fairly good money... all of my income put together is still less than probably 20% of what we make each year', indicating husband is primary earner.",
+          "value": "Household income primarily from husband; her income is less than 20% of total",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions taking her name off the substitute teacher list because 'financially we're okay without it', indicating financial stability.",
+          "value": "Financially stable enough to not work",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm doing a lot of prolific' (likely Prolific, an online survey platform for money).",
+          "value": "Does online surveys on Prolific",
+          "lines": [
+            299
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says she uses her own income for travel: 'You want to know what I did with all the money I make. I just travel.'",
+          "value": "Spends personal income on travel",
+          "lines": [
+            409,
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a currently works little as substitute teacher/tutor and is on a break.",
+          "value": "Currently working reduced hours as substitute/tutor",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my husband' multiple times.",
+          "value": "Married",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her husband practices intellectual property law and taught a class on it at the law school he attended.",
+          "value": "Husband is an intellectual property lawyer",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'my husband is from Taiwan'.",
+          "value": "Husband is from Taiwan",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her husband attended Johns Hopkins: 'he has to go to johns Hopkins like his dad'.",
+          "value": "Husband attended Johns Hopkins",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my 15 year old' referring to her son.",
+          "value": "Has a 15-year-old son",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My grandma and I email every week'.",
+          "value": "Has a living grandmother she regularly emails",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my dad was there for a couple of years and this fluent in german'.",
+          "value": "Father is fluent in German and lived in Germany",
+          "lines": [
+            413
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my mom, she was always like crafting'.",
+          "value": "Has a mother",
+          "lines": [
+            263
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes herself as a 'Pacific Northwest girl at heart' who likes mild temperatures, clouds, and rain.",
+          "value": "Prefers mild, cloudy, rainy weather (Pacific Northwest climate)",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she reads a lot of nonfiction and uses the library.",
+          "value": "Avid nonfiction reader and library user",
+          "lines": [
+            181,
+            191,
+            463
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her passion for pie baking, including cooking through a 300-recipe pie book.",
+          "value": "Pie baking enthusiast; completed 300 pie recipes from a book",
+          "lines": [
+            443
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists places she travels frequently: Costa Rica, Panama, Mexico, and formerly Nicaragua.",
+          "value": "Frequent traveler to Costa Rica, Panama, Mexico",
+          "lines": [
+            419
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was an exchange student in the Netherlands for a year.",
+          "value": "Was an exchange student in the Netherlands for one year",
+          "lines": [
+            415
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she's been quarantining since March and staying home.",
+          "value": "Quarantining at home since March",
+          "lines": [
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using the Marco Polo app to leave messages for friends.",
+          "value": "Uses Marco Polo app to communicate with friends",
+          "lines": [
+            403
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she dislikes reality television where people are mean to each other.",
+          "value": "Dislikes mean-spirited reality TV",
+          "lines": [
+            421
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she loves algebra and chemistry but hates geometry.",
+          "value": "Enjoys algebra and chemistry; dislikes geometry",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having memberships and volunteer work that she is not currently doing.",
+          "value": "Previously engaged in volunteer work and holds memberships",
+          "lines": [
+            407
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a confirms her glasses are 'colorful' when speaker_b compliments them.",
+          "value": "Wears colorful glasses",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like your crocodile skin bag,' and speaker_a does not deny it, indicating she has such a bag.",
+          "value": "Carries a crocodile skin bag",
+          "lines": [
+            396
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I am located in texas' and the conversation confirms she is in Houston.",
+          "value": "Houston, Texas",
+          "lines": [
+            28,
+            30,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm at home' and later mentions parents and noise, indicating she lives with her parents.",
+          "value": "Lives at home with parents",
+          "lines": [
+            246,
+            252,
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm majoring in human resources development' and confirms being a student.",
+          "value": "College student majoring in Human Resources Development",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a sophomore in my first semester'.",
+          "value": "Sophomore in first semester",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'As an introvert' describing herself.",
+          "value": "Identifies as introvert",
+          "lines": [
+            468
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I've one sibling actually, he's older than me'.",
+          "value": "Has one older sibling (brother)",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I still don't have work experience'.",
+          "value": "No work experience",
+          "lines": [
+            342
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions having an older brother who graduated college.",
+          "value": "Has an older brother who graduated college",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my parents' and describes them talking loudly.",
+          "value": "Lives with parents",
+          "lines": [
+            252,
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I am currently doing online school'.",
+          "value": "Attends school online",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states last semester she went to yoga every Tuesday or Thursday for meditation.",
+          "value": "Used to attend yoga/meditation sessions weekly",
+          "lines": [
+            234,
+            236
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she was part of a robotics mentorship program for elementary school kids.",
+          "value": "Participated in robotics mentorship for kids",
+          "lines": [
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I do wish there was more colder weather here. I would love snow'.",
+          "value": "Dislikes warm weather, prefers cold and snow",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions watching Hell's Kitchen and Gordon Ramsay.",
+          "value": "Watches Hell's Kitchen and Gordon Ramsay",
+          "lines": [
+            418,
+            420
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b describes her goal to work in HR to foster a cooperative, family-like work environment.",
+          "value": "Aims to create a cooperative work environment in HR",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

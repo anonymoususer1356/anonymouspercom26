@@ -1,0 +1,472 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'Maybe I um um Greg I'm from New Jersey' in line 27, introducing himself as Greg.",
+          "value": "Greg",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he currently lives in Central Jersey, about 20 minutes north of Princeton: 'Central Jersey, so we're about 20 minutes north of Princeton' (line 109).",
+          "value": "Central Jersey, ~20 minutes north of Princeton",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he previously lived in Georgia near Savannah: 'I moved to... Georgia... south Georgia was more by like the savannah area' (line 89).",
+          "value": "Savannah, Georgia area (previously)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions living in Florida: 'in about 2015 I moved to florida' (line 89).",
+          "value": "Florida (previously)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes the current house having a basement (line 219) and stairs (lines 267-269), indicating a multi-level home.",
+          "value": "Lives in a house with a basement and stairs",
+          "lines": [
+            219,
+            267,
+            269
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a talks about his cat in several lines, e.g. 'my cats three' (line 57) and calls himself a cat person (line 195).",
+          "value": "Cat owner",
+          "lines": [
+            57,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to 'my girlfriend' in line 101, indicating he is in a romantic relationship.",
+          "value": "In a romantic relationship",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was born and raised in New Jersey (lines 27, 39, 89).",
+          "value": "Originally from New Jersey",
+          "lines": [
+            27,
+            39,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he helps take care of his 78-year-old grandmother who lives with them (line 103).",
+          "value": "Caregiver for elderly grandmother",
+          "lines": [
+            103
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says he was unemployed when they moved, then found online work: 'I ended up trying to find something working online and I finally did' (line 225); 'getting a job was already unemployed' (line 221).",
+          "value": "Currently works online",
+          "lines": [
+            221,
+            225
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he does a lot of these surveys for money: 'on top of I've been doing a lot of these surveys' (line 225), and agrees with speaker_b's comment about using survey money for household items (line 226).",
+          "value": "Does online surveys for money",
+          "lines": [
+            225,
+            226
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'My girlfriend and I' in line 101.",
+          "value": "Has a girlfriend (unnamed)",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they live with his 78-year-old grandmother and help care for her (lines 101, 103).",
+          "value": "Lives with girlfriend and his 78-year-old grandmother",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about his cat: a male orange tabby named Griffin, age 3. Name from lines 183 ('archaic griffin' interpreted as 'our cat Griffin') and 219 ('for griffin'); age/sex from line 57 ('My cats three, He just turned three in july'); color from line 205 ('he's an orange tabby').",
+          "value": "Owns a male orange tabby cat named Griffin, age 3",
+          "lines": [
+            57,
+            183,
+            205,
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes a previous long-distance relationship; they adopted a cat together but the ex kept it after the breakup (lines 195-196).",
+          "value": "Previously adopted a cat with an ex-girlfriend, who kept the cat after breakup",
+          "lines": [
+            195,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'all my friends are here and a lot of my family' in New Jersey (line 101).",
+          "value": "Has friends and family in New Jersey",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his grandmother has a dog, and they all live together (lines 273, 275): 'my grandma has a dog' and describes the dog interacting with his cat.",
+          "value": "Shares household with a dog (grandma's lab mix)",
+          "lines": [
+            273,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a indicates they moved back to New Jersey from Georgia during the COVID-19 pandemic, around April 2020: 'we've been here since Valley april' (line 105) with pandemic context in lines 99 and 109.",
+          "value": "Moved back to New Jersey during the pandemic, around April 2020",
+          "lines": [
+            99,
+            105,
+            109
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a pretty big cat person' (line 195) and 'I always had a fondness for orange tabbies' (line 207).",
+          "value": "Identifies as a cat person",
+          "lines": [
+            195,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'This is my first time' regarding the survey conversation (line 69).",
+          "value": "First time participating in this type of conversation",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a admits he almost didn't show up for the scheduled session (line 79).",
+          "value": "Almost didn't show up for this session",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he helps his grandmother by going out to get everything that needs to be done (line 103).",
+          "value": "Runs errands for his elderly grandmother",
+          "lines": [
+            103
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says previous homes were single-level ranch houses, so his cat never experienced stairs before (lines 267, 269).",
+          "value": "Previously lived in single-level homes (ranch houses)",
+          "lines": [
+            267,
+            269
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself in line 30: 'My name is Naomi.'",
+          "value": "Naomi",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she lives in Colorado, specifically Denver, and moved exactly one month ago: 'we're living in colorado' (30), 'like let's move to Denver' (92), 'We moved exactly a month ago' (300).",
+          "value": "Denver, Colorado (moved one month ago)",
+          "lines": [
+            30,
+            92,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is from New York, specifically Queens: 'I'm from new york' (30), 'Queens' (36).",
+          "value": "Originally from Queens, New York",
+          "lines": [
+            30,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains they lived in Louisiana for 4.5 years because her husband was stationed there (line 86).",
+          "value": "Lived in Louisiana for about 4.5 years",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband took a job in Atlanta and they lived there, but she was unhappy (lines 86, 98).",
+          "value": "Lived in Atlanta, Georgia",
+          "lines": [
+            86,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b notes they moved from a one-bedroom apartment and needed a second bedroom for an office (lines 142, 146).",
+          "value": "Lives in a residence with at least two bedrooms",
+          "lines": [
+            142,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to 'my husband' multiple times (e.g. line 28), indicating she is married.",
+          "value": "Married",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's name Naomi and references to a husband strongly imply she is a woman, though not explicitly stated.",
+          "value": "Woman",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b talks about her two cats extensively (lines 52, 174).",
+          "value": "Cat owner (two cats)",
+          "lines": [
+            52,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a yoga teacher' in line 146.",
+          "value": "Yoga teacher",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions doing online surveys for money to save for household items (line 226).",
+          "value": "Does online surveys for money",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is from New York (line 30).",
+          "value": "Originally from New York",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says they were 'priced out of new york so we can't go back home' (line 92), indicating financial constraint.",
+          "value": "Priced out of New York City",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is doing surveys to save for a new trash can and other household items (line 226).",
+          "value": "Uses survey income to save for household items",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes their previous apartment as a one-bedroom just over 800 square feet (line 142).",
+          "value": "Previously lived in an 800 sq ft one-bedroom apartment",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says her husband is from Northern New Jersey, Bergen County (lines 28, 112, 115, 116), and that he was in the military (line 86) and works from home (line 144).",
+          "value": "Married to a man from Bergen County, NJ, former military, who works from home",
+          "lines": [
+            28,
+            86,
+            112,
+            115,
+            116,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces her cat as Deena (line 52), a blind bengal (lines 134, 136), about 5 years old, turning 5 in January (line 56), and very attached to her (line 174). The name is also transcribed as Xena later (line 214), likely an ASR error.",
+          "value": "Has a blind bengal cat named Deena, ~5 years old, attached to her",
+          "lines": [
+            52,
+            56,
+            134,
+            136,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her other cat Lexi, an orange tabby, age 7, attached to her husband (lines 174, 176, 178).",
+          "value": "Has an orange tabby cat named Lexi, age 7, attached to her husband",
+          "lines": [
+            174,
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b explains they moved from Atlanta to Denver during the pandemic, exactly one month ago (lines 98, 99, 300).",
+          "value": "Moved cross-country during the COVID-19 pandemic",
+          "lines": [
+            98,
+            99,
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we've traveled a lot, we've traveled quite a bit' (line 98).",
+          "value": "Enjoys traveling and has traveled extensively",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions they went to Rocky Mountain National Park yesterday (line 122).",
+          "value": "Visits Rocky Mountain National Park",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is a yoga teacher and does not work from home: 'I'm a yoga teacher. ... I don't work at home.' (lines 146, 148).",
+          "value": "Works outside the home as a yoga teacher",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states this is her fifth time doing this type of conversation, and previously no one showed up (lines 64, 72).",
+          "value": "Has participated in this study 5 times before, often with no other participant",
+          "lines": [
+            64,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b participates in online surveys for extra money (line 226).",
+          "value": "Does online surveys for extra money",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I wear all black' in line 284.",
+          "value": "Wears all black clothing",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is still in her pajamas (line 14) and has to change them multiple times a day due to cat drool (line 248).",
+          "value": "Often wears pajamas during the day and changes them frequently",
+          "lines": [
+            14,
+            248
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

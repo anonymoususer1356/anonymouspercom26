@@ -1,0 +1,262 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a explicitly says 'my name is Kelly' and speaker_b addresses her as 'Hey kelly'.",
+          "value": "Kelly",
+          "lines": [
+            399,
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in Los Angeles right now' and refers to L.A. throughout the conversation.",
+          "value": "Los Angeles",
+          "lines": [
+            9,
+            17,
+            85,
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b asks 'I'm assuming you're asian, right?' and speaker_a replies 'Yes.'",
+          "value": "Asian",
+          "lines": [
+            38,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I usually wake up so late because I'd like to sleep in.'",
+          "value": "Likes to sleep in and wakes up late",
+          "lines": [
+            385
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I've never tried going to the beach shot early.' The ASR 'shot early' is phonetically close to 'that early', meaning early in the morning.",
+          "value": "Has never tried going to the beach early in the morning",
+          "lines": [
+            385
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as 'I'm side.' ASR likely misheard a name (e.g., 'Syed'), but we record the verbatim label.",
+          "value": "side",
+          "lines": [
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is 'all in new york', specifically 'in southern Brooklyn', surrounded by ocean on one side, took his kids to Coney Island, and can walk to the beach in 30 minutes.",
+          "value": "southern Brooklyn, New York City, near Coney Island",
+          "lines": [
+            12,
+            54,
+            362,
+            374
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'my wife', 'my two kids', 'my oldest son', 'my youngest son', and 'four people in my household, my two kids and my wife'.",
+          "value": "Married",
+          "lines": [
+            74,
+            172,
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my oldest son' and 'my youngest son', indicating two sons.",
+          "value": "Parent of two sons",
+          "lines": [
+            72,
+            74,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly states 'I'm not religious.'",
+          "value": "Non-religious",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Comparing himself to an EMT friend, speaker_b says 'he's about six times healthier than I am' and 'he's a lot healthier than I am', indicating a self-assessed lower health status.",
+          "value": "Self-assessed as significantly less healthy than a friend",
+          "lines": [
+            138,
+            140,
+            144
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says when he has to go back to the office, he has to sign the same waiver that others sign to enter the building.",
+          "value": "Required to sign a waiver to return to office",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He mentions 'at my place of work, we're working from home now' and discusses eventually going back to the office.",
+          "value": "Employed and currently working from home",
+          "lines": [
+            294,
+            296
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He repeatedly mentions his wife.",
+          "value": "Wife",
+          "lines": [
+            74,
+            172,
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my oldest son'.",
+          "value": "Oldest son",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my youngest son'.",
+          "value": "Youngest son",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my sister works as a nurse'.",
+          "value": "Sister who is a nurse",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He talks about 'my cousin who has a 14 year old'.",
+          "value": "Cousin who has a 14-year-old",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes a 'very very close friend … he works as an EMT'.",
+          "value": "Close friend who is an EMT",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I actually have a colleague who lives in Elmer's' (ASR for Elmhurst).",
+          "value": "Colleague who lives in Elmhurst",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'my colleagues' in the suburbs and tri-state area.",
+          "value": "Has work colleagues",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He contrasts past daily subway rides with current frequency: 'We're talking about once a week maybe.'",
+          "value": "Rides the subway about once a week",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes taking his kids to the beach around 5:30 AM and leaving when crowds arrive, calling themselves 'freaking vampires'.",
+          "value": "Goes to the beach very early in the morning to avoid crowds",
+          "lines": [
+            362,
+            382,
+            388
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they have specific face mask models assigned to each family member.",
+          "value": "Uses different face mask models for each household member",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'we're working from home now'.",
+          "value": "Currently working from home",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

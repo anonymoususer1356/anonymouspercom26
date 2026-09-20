@@ -1,0 +1,698 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses him as Josh; he confirms his name is Josh Burkhart and spells it B-U-R-K-H-A-R-T (no D).",
+          "value": "Josh Burkhart",
+          "lines": [
+            110,
+            111,
+            218,
+            219,
+            221,
+            383,
+            392
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is in Kentucky, later clarifies he is in Louisville.",
+          "value": "Louisville, Kentucky",
+          "lines": [
+            25,
+            137,
+            141,
+            143,
+            247,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he lives in the west end, which is the poorer part of Louisville.",
+          "value": "West end of Louisville",
+          "lines": [
+            247,
+            249
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions living in his apartment by himself.",
+          "value": "lives alone in an apartment",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Has a male name, referred to as a father, mentions beard.",
+          "value": "male",
+          "lines": [
+            110,
+            251,
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has a son who is turning 13.",
+          "value": "father of a 13-year-old son",
+          "lines": [
+            251,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attends church on Sundays.",
+          "value": "Christian",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he was raised by a single mother.",
+          "value": "raised by single mother",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes having control issues and acting out as a child.",
+          "value": "had behavioral issues as a child",
+          "lines": [
+            331,
+            333
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says his dog helps when he is depressed and upset.",
+          "value": "experiences depression",
+          "lines": [
+            227,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States his dog is an emotional support animal.",
+          "value": "has an emotional support animal (dog)",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Had behavioral issues as a child, which may relate to mental health.",
+          "value": "had childhood behavioral issues",
+          "lines": [
+            331,
+            333
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Says he pays child support.",
+          "value": "pays child support",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Receives subsidised rent through HUD.",
+          "value": "receives HUD housing assistance",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States his rent is $159 per month due to the subsidy.",
+          "value": "pays $159/month rent",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes catching buses to get around, indicating no car.",
+          "value": "does not own a car, relies on public buses",
+          "lines": [
+            257,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he does not have a game console and plays on PC.",
+          "value": "does not own a game console",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives in the poorer part of the city.",
+          "value": "lives in low‑income area",
+          "lines": [
+            245,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Has a son who is about 13.",
+          "value": "son, age 13",
+          "lines": [
+            251,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has an ex‑girlfriend who is the mother of his son; they remain good friends.",
+          "value": "ex‑girlfriend (mother of son), good friends",
+          "lines": [
+            251,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions his mother; she has no car, a BSSW degree, and he calls her often.",
+          "value": "mother",
+          "lines": [
+            95,
+            99,
+            101,
+            299,
+            327,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Father is 77, in a nursing home, recovered from Covid‑19.",
+          "value": "father (77, nursing home)",
+          "lines": [
+            115,
+            117,
+            123,
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a sister who is a recovering drug and alcohol addict.",
+          "value": "sister (recovering addict)",
+          "lines": [
+            303,
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a niece Lily, age 20, whom he helped raise.",
+          "value": "niece Lily, age 20",
+          "lines": [
+            313,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Owns a jack russell chihuahua named Selena, his emotional support animal.",
+          "value": "dog Selena (jack russell chihuahua)",
+          "lines": [
+            37,
+            41,
+            227,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Had a childhood sweetheart who passed away; he has a photo of them.",
+          "value": "childhood sweetheart (deceased)",
+          "lines": [
+            383
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Most of his friends live in the city (Louisville).",
+          "value": "friends in Louisville",
+          "lines": [
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes neighbours as more acquaintances than friends.",
+          "value": "neighbours are acquaintances",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he is extremely close to his mom's side of the family.",
+          "value": "close to maternal family",
+          "lines": [
+            351
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His ex has two daughters from another relationship, half‑sisters to his son.",
+          "value": "ex has two other daughters",
+          "lines": [
+            267,
+            269,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lives alone in an apartment.",
+          "value": "lives alone",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Walks his dog and chats with neighbours.",
+          "value": "walks dog, talks to neighbours",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attends church on Sundays and eats out afterwards.",
+          "value": "attends church and eats out Sundays",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Subscribes to Netflix, Hulu, CBS All Access, and YouTube.",
+          "value": "uses multiple streaming services",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Watches YouTube channels about buying and selling storage units and garage flips.",
+          "value": "watches storage unit resale YouTube",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Is a fan of the TV show Doctor Who.",
+          "value": "Doctor Who fan",
+          "lines": [
+            187,
+            189,
+            191,
+            193,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Supports Louisville Cardinals (college basketball) and prefers college sports over pro.",
+          "value": "Louisville Cardinals fan, prefers college sports",
+          "lines": [
+            155,
+            169,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Enjoys watching tennis and golf occasionally.",
+          "value": "enjoys tennis and golf",
+          "lines": [
+            181,
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Used to watch WWE wrestling (The Rock, John Cena, Triple H, Goldberg).",
+          "value": "former wrestling viewer",
+          "lines": [
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plays games on PC via PS Now subscription.",
+          "value": "PC gamer via PS Now",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses public buses for transportation.",
+          "value": "public transit user",
+          "lines": [
+            257,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Frequently calls his mother.",
+          "value": "calls mom often",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes himself as a people person who can talk to anyone easily.",
+          "value": "sociable, people person",
+          "lines": [
+            112,
+            113
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he isolated himself even before the pandemic.",
+          "value": "tended to isolate pre‑pandemic",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Uses Facebook.",
+          "value": "Facebook user",
+          "lines": [
+            369
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "States he still has a big beard.",
+          "value": "has a beard",
+          "lines": [
+            335,
+            337
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he currently has long hair that is thick.",
+          "value": "has long hair",
+          "lines": [
+            337
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions having a widow's peak.",
+          "value": "widow's peak",
+          "lines": [
+            345
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes two cowlicks that form horns when hair is long.",
+          "value": "cowlicks that form horns",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Dressed as Alfalfa for Halloween because his hair sticks up.",
+          "value": "dressed as Alfalfa for Halloween",
+          "lines": [
+            349
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as Erica, spells last name Clark.",
+          "value": "Erica Clark",
+          "lines": [
+            110,
+            216,
+            218,
+            394,
+            396
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says she is in North Carolina and later specifies Greenville.",
+          "value": "Greenville, North Carolina",
+          "lines": [
+            24,
+            402
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States that she lives with her mom.",
+          "value": "lives with mother",
+          "lines": [
+            320
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name and context indicate female.",
+          "value": "female",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is an online student majoring in criminal justice.",
+          "value": "criminal justice student",
+          "lines": [
+            50,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has Cherokee Native American heritage from her mother.",
+          "value": "Native American (Cherokee) heritage",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes herself as a loner who prefers being alone.",
+          "value": "loner",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Lives with her mother.",
+          "value": "lives with mother",
+          "lines": [
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her mom recently underwent gall bladder surgery.",
+          "value": "mother had gall bladder surgery",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Family is spread out over Greenville, Georgia, and some leaving New York.",
+          "value": "extended family in multiple states",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Had a friend who was a close call with Covid‑19.",
+          "value": "friend had Covid‑19 scare",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is an online student in criminal justice.",
+          "value": "online student",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Does her schoolwork from home.",
+          "value": "studies from home",
+          "lines": [
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Binge‑watches The Walking Dead and Riverdale on Netflix.",
+          "value": "watches Netflix series",
+          "lines": [
+            60,
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Enjoys watching shopping hauls and mukbang on YouTube.",
+          "value": "watches shopping hauls and mukbang",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Is a fan of the Duke Blue Devils (college basketball).",
+          "value": "Duke basketball fan",
+          "lines": [
+            160,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Loves Nascar and is a Jeff Gordon fan.",
+          "value": "Nascar fan (Jeff Gordon)",
+          "lines": [
+            174,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Huge wrestling fan, loves John Cena and The Rock.",
+          "value": "wrestling fan (John Cena, The Rock)",
+          "lines": [
+            200,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Owns a PS4 (ASR 'passport') and plays NBA 2K games.",
+          "value": "owns a PS4, plays NBA 2K",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Uses Skype, Zoom, and Facebook Messenger for virtual family connections.",
+          "value": "uses video chat apps",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Sets a timer on her phone that chimes every half hour.",
+          "value": "uses phone timer every half hour",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Self‑identifies as a loner who prefers solitude.",
+          "value": "prefers solitude",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Says she has curly hair that she had to fix before the call.",
+          "value": "curly hair",
+          "lines": [
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her Facebook profile picture shows her wearing a hat.",
+          "value": "Facebook profile picture with hat",
+          "lines": [
+            375
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

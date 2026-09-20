@@ -1,0 +1,309 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as Evan in lines 13 and 241.",
+          "value": "Evan",
+          "lines": [
+            13,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states he is from Connecticut (l13), specifies 'stores like Yukon area' which is ASR for 'Storrs, like UConn area' (l19), and describes the northeastern part near the campus (l21). He currently works at an animal hospital (l57) and keeps beehives in his yard (l143, l145, l153), indicating he resides in the same area.",
+          "value": "Storrs, Connecticut",
+          "lines": [
+            13,
+            19,
+            21,
+            57,
+            143,
+            145,
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions he worked in Westport for a while (l17).",
+          "value": "Westport, Connecticut (past work location)",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I already have my B.A.' (l65-67).",
+          "value": "College graduate (B.A.)",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm an essential worker right now' (l57).",
+          "value": "Essential worker",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I work at an animal hospital' (l57) and describes cleaning cages and assisting in surgery (l59).",
+          "value": "Employed at an animal hospital as an assistant",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he typically uses Prolific and Amazon Mechanical Turk for microjobs, making about $250 in 10 hours (l111, l113) and discusses using browser extensions (l117, l119). He also mentions having about 400 accepted HITs (l133).",
+          "value": "Earns money via online microjobs (Prolific, MTurk) with about 400 accepted HITs",
+          "lines": [
+            111,
+            113,
+            117,
+            119,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker bought two beehives for $400, extracted profit from existing honey, and expects to harvest about 150 lbs of honey later, potentially earning around $1,500 (l143, l145, l149).",
+          "value": "Owns beehives and sells honey",
+          "lines": [
+            143,
+            145,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a brand ambassador app called ST bees, explaining he earned $94 the first month and later around $25 a month (l247, l253, l255).",
+          "value": "Earns money via ST bees app ($94 first month, later ~$25/month)",
+          "lines": [
+            247,
+            253,
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'My neighbor had bees for like a couple years too' (l175).",
+          "value": "Has a neighbor who kept bees",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have friends that like work at like walmart and stuff' (l45).",
+          "value": "Has friends who work at Walmart",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker keeps two beehives in his yard, feeds bees sugar water, and has worked with bees many times (l143, l145, l153, l173).",
+          "value": "Beekeeping",
+          "lines": [
+            143,
+            145,
+            153,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker works at an animal hospital (l57, l59).",
+          "value": "Works at an animal hospital",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker does online surveys/microjobs on Prolific and MTurk regularly (l111, l117).",
+          "value": "Online microjobs as a side activity",
+          "lines": [
+            111,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'I took a class' about beekeeping (l203).",
+          "value": "Took a beekeeping class",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses desire to go back to school for veterinary medicine (l65, l69, l71).",
+          "value": "Aspires to become a veterinarian",
+          "lines": [
+            65,
+            69,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a asks 'what's your name Colin' (l11) and later repeats 'Colin' (l241); speaker_b appears to confirm with 'Sure it's calling' (ASR for 'Sure it's Colin') (l242).",
+          "value": "Colin",
+          "lines": [
+            11,
+            241,
+            242
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I guess I'm calling California' (l10) and confirms he lives in California (l12). He mentions being back home after being in Nevada (l32) and coming back home to food (l44), indicating California is his current residence.",
+          "value": "California (current residence)",
+          "lines": [
+            10,
+            12,
+            32,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I go to university of Nevada' (l28) and 'I used to be there like in Nevada' (l32).",
+          "value": "Nevada (university)",
+          "lines": [
+            28,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says he goes to the University of Nevada (l28) and is majoring in Geography and Spanish with GIS technologies (l90; 'gene technologies' is ASR for 'GIS technologies').",
+          "value": "College student at University of Nevada, majoring in Geography and Spanish with GIS",
+          "lines": [
+            28,
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I got fired from my job' (l42).",
+          "value": "Unemployed",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he had a school job earning minimum wage in Nevada ($8/hr) but got fired (l42).",
+          "value": "Previously employed at a minimum wage job ($8/hr) in Nevada but fired",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms using Prolific (l108, l110) and states it's where he makes most of his money (l124); he also does random surveys (l142).",
+          "value": "Earns money from online surveys (Prolific, etc.)",
+          "lines": [
+            108,
+            110,
+            124,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I can come back home and have food and stuff' (l44), implying financial reliance on his family.",
+          "value": "Financially supported by family",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'My mom's from communicating' (ASR for Connecticut) and 'She's from Westport' (l14, l16).",
+          "value": "Mother from Westport, Connecticut",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates he came back home and has food provided (l44), suggesting he lives with family.",
+          "value": "Lives with family",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b confirms his university classes are online due to COVID (l35-36).",
+          "value": "Taking university classes online due to COVID-19",
+          "lines": [
+            35,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b does online surveys as a side gig (l108, l142).",
+          "value": "Does online surveys for extra money",
+          "lines": [
+            108,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions trying to get an internship with the Forest Service but it fell through (l92).",
+          "value": "Applied for a Forest Service internship (unsuccessful)",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

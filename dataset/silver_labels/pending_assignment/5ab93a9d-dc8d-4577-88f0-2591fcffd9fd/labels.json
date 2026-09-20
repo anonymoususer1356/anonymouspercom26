@@ -1,0 +1,419 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Kelly when speaking with Jason. Speaker_b later addresses her as Kelly.",
+          "value": "Kelly",
+          "lines": [
+            13,
+            292
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she is in 'the middle of texas'. She also states she is a native Texan, born in the same city where she now lives (about five miles away). She mentions having lived in Dallas and Florida in the past, but currently resides in central Texas.",
+          "value": "Texas (middle of Texas)",
+          "lines": [
+            201,
+            229,
+            205,
+            95
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as 'pretty girl', discusses her hair, is a mother, and is addressed as Kelly, all indicating she is female.",
+          "value": "female",
+          "lines": [
+            13,
+            15,
+            1
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms her mother's question about turning 40, adding that she will turn 40 in about a week and a half.",
+          "value": "40 years old (turning 40 in about 1.5 weeks)",
+          "lines": [
+            179,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I'm native born Texan'.",
+          "value": "native Texan",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a mentions going through the disability application process and being told she was not disabled enough, implying she has some health condition.",
+          "value": "unspecified health condition (applied for disability, denied)",
+          "lines": [
+            267
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a applied for disability benefits but was not approved.",
+          "value": "applied for disability benefits, denied",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a discusses the costs and responsibilities of homeownership and states she does not own a home, as reflected in her remark 'that's why I don't know I'm home'.",
+          "value": "does not own a home",
+          "lines": [
+            267,
+            273
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "The conversation is a paid research study (Better Labs). Speaker_a explicitly says 'this is money' and structures her time to participate, indicating she takes part for compensation.",
+          "value": "participates in paid research studies",
+          "lines": [
+            1,
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a explicitly states she has a 23-year-old, an 18-year-old, and an almost two-year-old, making three children.",
+          "value": "has three children (ages 23, 18, almost 2)",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a calls out to Olivia, tells her to stop touching the laptop, and later refers to 'my daughter', identifying Olivia as her young daughter. She mentions the child will be two on Halloween.",
+          "value": "daughter named Olivia (almost 2 years old, birthday around Halloween)",
+          "lines": [
+            1,
+            121,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'Grace' alongside Olivia as someone who messed up her laptop, likely another child, though the exact relationship isn't restated explicitly.",
+          "value": "child named Grace (likely daughter/child)",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my ex husband' when recounting a story about Florida.",
+          "value": "ex-husband",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes babysitting her daughter's father's girlfriend's kids and says they have a good relationship despite the history.",
+          "value": "good relationship with daughter's father and his girlfriend",
+          "lines": [
+            22,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she lives there to take care of her mom and notes her mother's memory lapses.",
+          "value": "cares for aging mother with memory issues",
+          "lines": [
+            179,
+            181,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says her house is completely quiet by 9 pm, and even her 23-year-old goes to bed, indicating an early bedtime routine.",
+          "value": "household quiet and goes to bed early (by 9 pm)",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a admits she cuts her own hair and sometimes doesn't brush it.",
+          "value": "cuts her own hair",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls wasting a lot of time drinking and partying in her youth.",
+          "value": "used to drink and party heavily",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a talks about her hair being unbrushed and that she cuts it herself, implying she has hair of some length.",
+          "value": "has hair, often unbrushed, self-cut",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses speaker_b as Jason when they exchange names. He is called Jason again in the closing.",
+          "value": "Jason",
+          "lines": [
+            13,
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'we're in Wisconsin', mentions being near Lake Michigan, living 10 minutes from Mitchell Airport (Milwaukee), and references Milwaukee public schools, placing him in the Milwaukee area.",
+          "value": "Wisconsin, Milwaukee area",
+          "lines": [
+            88,
+            220,
+            246,
+            114
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b has a male name (Jason), refers to himself as a husband and father, and talks about shaving his head, indicating male gender.",
+          "value": "male",
+          "lines": [
+            13,
+            20,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b plainly states 'I'm 38'.",
+          "value": "38 years old",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a teacher' and later specifies he teaches middle school.",
+          "value": "teacher (middle school)",
+          "lines": [
+            22,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having kids right out of college, confirming he attended and completed college.",
+          "value": "college educated",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes staying up for two days straight, having head and mind pain, and being unable to sleep when he tries to nap, indicating significant sleep difficulties.",
+          "value": "experiences difficulty sleeping (possible insomnia)",
+          "lines": [
+            168,
+            170,
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b reveals they rent a three-bedroom apartment for $800/month and says they are not rich enough to buy a house, showing they are renters with modest income.",
+          "value": "renter, 3-bedroom apartment for $800/month",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having done two previous studies for Better Labs and signed up for this one, clearly participating in paid research.",
+          "value": "participates in paid research studies",
+          "lines": [
+            7,
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my wife', confirming he is married.",
+          "value": "married",
+          "lines": [
+            46,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife's school is back full time, indicating she works at a school.",
+          "value": "wife works at a school",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about 'my kids' in middle and high school and specifically mentions 'my son', so he has at least two children, including a son.",
+          "value": "has at least two children, including a son",
+          "lines": [
+            144,
+            190,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b shares that his sister waited until 38 to have a baby and now has a six-week-old.",
+          "value": "sister with a newborn (had baby at 38)",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says 'My mom has M. S.' and wants to stay close to her.",
+          "value": "mother has multiple sclerosis (MS)",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions staying close to his dad as well.",
+          "value": "father alive",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his dad's side has 11 brothers and sisters and his mom's side has 10, indicating a very large extended family.",
+          "value": "large extended family (11 aunts/uncles on dad's side, 10 on mom's)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b tells the story of his aunt Myrna and uncle Flip, who divorced 40 years ago but remain friends.",
+          "value": "aunt Myrna and uncle Flip (divorced)",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes that his wife's sister lives in Tampa.",
+          "value": "wife's sister lives in Tampa",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he gets up at five in the morning.",
+          "value": "wakes up at 5 am",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates he goes to bed early, saying he schedules things at 5-6-7 and after that goes to bed.",
+          "value": "goes to bed early (early evening)",
+          "lines": [
+            158
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions walking around the neighborhood with his son.",
+          "value": "enjoys walking for leisure",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b bought his own shaver and shaves his head himself.",
+          "value": "shaves his own head",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recalls drinking from noon to the next week in his younger days.",
+          "value": "used to drink heavily",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b states he lost his hair after high school and now shaves it all off.",
+          "value": "shaved/bald head",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'Hi Greg.' in line 42, which likely addresses speaker_a, though it could be a mishearing of the preceding 'cook'.",
+          "value": "Greg",
+          "lines": [
+            42
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "speaker_a states 'I am the PhD students' (117), 'my major is the finance' (151), and 'I finished just my first year' (123).",
+          "value": "PhD student in finance (first year)",
+          "lines": [
+            117,
+            151,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm living in Iowa' (49), refers to 'here in Iowa' (233), and describes it as 'the north part of the United States' (213).",
+          "value": "Iowa, United States",
+          "lines": [
+            49,
+            213,
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a compares his home country's winter temperature (zero Celsius) to Iowa's cold (225-227), and says 'when I come in United States' (225).",
+          "value": "International student, originally from a country with mild winters",
+          "lines": [
+            225,
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes his situation as 'super stressful station' (119), lists heavy workload (research, teaching, lessons) and says 'because of the coronavirus... I lose some of my motivation' (125).",
+          "value": "Experiences high stress and loss of motivation from PhD workload and COVID",
+          "lines": [
+            117,
+            119,
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have that roommate' in line 89, albeit with ASR errors.",
+          "value": "Has a roommate",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to 'My professor asked me about my Sofaer skills' in line 201.",
+          "value": "Has a professor",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states 'I play that every day' (75), mentions playing on 'chess dot com' (77), and describes daily chess's effect on mood (83).",
+          "value": "Plays chess daily on chess.com",
+          "lines": [
+            75,
+            77,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I paint something... oil painting on the canvas' in line 113.",
+          "value": "Does oil painting on canvas",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how long on Prolific (60), speaker_a replies 'just one year' (61) and confirms 'It's like the one year' (63).",
+          "value": "Prolific user for about 1 year",
+          "lines": [
+            60,
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I just learned the basics of bison' (155), plans 'next we'll be C++' (159), and finds it fun (165).",
+          "value": "Learning programming (Python, C++)",
+          "lines": [
+            155,
+            159,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'currently I am taking online courses uh to strengthen them' (157) and mentions 'I just backed it one course' (171).",
+          "value": "Taking online courses to strengthen programming skills",
+          "lines": [
+            157,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a asks about 'p interest' (109), describes it as an app for DIY pictures (111), and says 'I always look at them' (113).",
+          "value": "Uses Pinterest for DIY inspiration",
+          "lines": [
+            109,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I work at a machine shop right now' (132) for about 10 years (134), mentions 'I got a little shop the woodwork' (18), and previously worked in a cabinet shop (90).",
+          "value": "Machine shop worker (10 years) and hobbyist woodworker",
+          "lines": [
+            18,
+            90,
+            132,
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he lives in 'Alabama on a mountain skyline mountain' (44), part of the Cumberland Plateau in southeastern US, and later says 'I live up on this mountain' (100).",
+          "value": "Skyline Mountain, Alabama, USA (southeastern United States)",
+          "lines": [
+            44,
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b describes his childhood: 'Growing up it was bad around here... everybody was poor and we grew up on like squash and potatoes' (258).",
+          "value": "Grew up in poverty in rural Alabama",
+          "lines": [
+            258
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I went to college for two years... back then it was computer technician' (136).",
+          "value": "Two years of college education (computer technician)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I work at a machine shop right now' (132), 'I've been in about 10 years' (134), and does woodworking 'on the side' (90).",
+          "value": "Employed full-time at a machine shop (approx 10 years), does side woodworking",
+          "lines": [
+            132,
+            134,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my nephews, they usually play basketball and baseball' in line 266.",
+          "value": "Has nephews",
+          "lines": [
+            266
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes his woodworking shop (lines 18, 90) and working on a hawk sculpture from a tree (98).",
+          "value": "Woodworking hobby, carving sculptures from wood",
+          "lines": [
+            18,
+            90,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like checkers' (74).",
+          "value": "Enjoys playing checkers",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I started the python some... I like it though' (166).",
+          "value": "Started learning Python programming",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes his location: mountain, 20 minutes to town with Walmart, one grocery store, Dollar General (100).",
+          "value": "Lives in rural mountain area, shops at Walmart and Dollar General",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this first time out, do anything my fifth on it' (64), indicating he has completed about 5 studies on Prolific.",
+          "value": "Prolific user, completed about 5 studies",
+          "lines": [
+            64
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

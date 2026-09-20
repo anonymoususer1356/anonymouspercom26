@@ -1,0 +1,250 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'My name is danish Queen' (line 3). The ASR likely merged 'Danish' and 'Can You Hear Me' into 'danish Queen'. The intended name is Danish.",
+          "value": "Danish",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm from Chicago Illinois' (line 29) and 'I live here in Chicago' (line 35). He mentions the mayor of Chicago (85) and uses CST time (103).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            29,
+            35,
+            37,
+            85,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'back in India we have similar type of thing' (line 163), indicating origin from India.",
+          "value": "India (origin)",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker's reference to 'back in India' (163) and his name suggest Indian ethnicity.",
+          "value": "Indian ethnicity",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'my wife' (35,73,75), indicating he is married.",
+          "value": "married",
+          "lines": [
+            35,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions his 'six year old kid' (35) and refers to him as 'he' (75), indicating he is a parent of a young child.",
+          "value": "parent",
+          "lines": [
+            35,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says he takes care of his kid (35) and does 'this kind of stuff' for cash (47,53). He states 'predominantly it's my job to just take care of my kid' (49).",
+          "value": "Unemployed, stay-at-home dad, earns side cash from online conversations",
+          "lines": [
+            35,
+            47,
+            49,
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes working at an Indian fast food restaurant as a cashier/supervisor started around December last year and quit after a month due to school schedule conflicts (59-65).",
+          "value": "Previously cashier/supervisor at Indian fast food restaurant (worked ~1 month, Dec 2019)",
+          "lines": [
+            59,
+            61,
+            63,
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker refers to 'my wife' multiple times (35,73,75).",
+          "value": "has a wife",
+          "lines": [
+            35,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my six year old kid' (35) and later uses 'he' (75), discussing his homeschooling.",
+          "value": "has a 6-year-old son",
+          "lines": [
+            35,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says his son is home schooling and that he and his wife sit with him during sessions (35,73-75).",
+          "value": "Provides homeschooling for son",
+          "lines": [
+            35,
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker indicates this is his second such conversation (15) and he does it for cash (47,53).",
+          "value": "Participates in paid online conversation platforms",
+          "lines": [
+            15,
+            47,
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions reading Twitter for entertainment (189), following political news on CBS Chicago and other outlets (89,129), and reading tweets for fun (83,103,187-193).",
+          "value": "Follows political news and enjoys reading sarcastic tweets on Twitter",
+          "lines": [
+            83,
+            103,
+            129,
+            187,
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'my name's Quentin' (line 4).",
+          "value": "Quentin",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I am originally from colorado' (26).",
+          "value": "Colorado (origin)",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm in the south now. I'm near the Virginia border' (32) and confirms to 'New Virginia' (33-34).",
+          "value": "near the Virginia border, in the southern US",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says his second year in high school was 'probably over 10 years ago' (44), suggesting age at least 25.",
+          "value": "likely mid-20s to early 30s",
+          "lines": [
+            44
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I got a little bit of a migraine' (10).",
+          "value": "experiencing a migraine",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states 'currently I'm unemployed' (46).",
+          "value": "unemployed",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he does 'these kind of things to make a little cash on the side' (46).",
+          "value": "earns cash through side gigs like this conversation",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says he previously worked in a store stocking produce (54,56).",
+          "value": "previously worked as produce stocker in a store",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'this would be my 4th time' (14) doing this conversation.",
+          "value": "Participates in scheduled online conversations (4th time)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he reads content from both progressive and conservative viewpoints (150).",
+          "value": "Reads diverse political content",
+          "lines": [
+            150
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

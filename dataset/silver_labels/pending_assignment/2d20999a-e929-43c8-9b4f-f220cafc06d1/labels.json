@@ -1,0 +1,176 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'So I'm Richard' in line 3.",
+          "value": "Richard",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'Hi, I'm Orlando' (likely 'in Orlando') in line 3. Speaker_b later states 'you said you were from florida' (line 122) and speaker_a refers to Florida as his state (lines 119, 161) and alludes to living in a theme park area (line 85).",
+          "value": "Orlando, Florida",
+          "lines": [
+            3,
+            85,
+            119,
+            122,
+            161
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions 'school teacher' (line 19), describes teaching history/social studies (line 31), a leadership course for freshmen (line 33), gives a school-day start time (line 53), and notes his return to school in August (line 169).",
+          "value": "high school history and leadership teacher",
+          "lines": [
+            19,
+            31,
+            33,
+            53,
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "In line 67 speaker_a says 'I freak out over the ladders now' and describes a fear of falling, contrasting with his younger self.",
+          "value": "fear of ladders/heights",
+          "lines": [
+            67
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a talks about going to a movie after the call (lines 275, 277) and having seen a movie the previous week (line 281), indicating regular movie-going.",
+          "value": "goes to movies regularly",
+          "lines": [
+            275,
+            277,
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my work time is 6:50 AM' in line 53.",
+          "value": "work starts at 6:50 AM",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "In line 4 after speaker_a's location is mentioned, speaker_b says 'Uh Pittsburgh pennsylvania'. Speaker_a's 'East Coast' reply (line 5) and the context of exchanging locations suggest this is where speaker_b lives.",
+          "value": "Pittsburgh, Pennsylvania",
+          "lines": [
+            4
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is called 'good girl' by speaker_a (line 111) and refers to 'my husband' (lines 70, 112, 270), indicating female gender.",
+          "value": "female",
+          "lines": [
+            70,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work for an education company' (line 24), was already working from home before the pandemic (line 12), will work from home permanently (line 16), and her company is based in Maryland (line 16) and serves higher ed and districts (lines 24, 26).",
+          "value": "employee at an education company (remote)",
+          "lines": [
+            12,
+            16,
+            24,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I get dizzy … on anything really' (line 70) and explains her husband holds her things at theme parks because of it (line 72).",
+          "value": "prone to dizziness or motion sickness",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explicitly states 'I was an overweight child' in line 66.",
+          "value": "was overweight as a child",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my husband' (lines 70, 112, 270) and describes him doing the grocery shopping (line 112).",
+          "value": "married, has husband",
+          "lines": [
+            70,
+            112,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 264 speaker_b states 'my sister was in California'.",
+          "value": "sister lives in California",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she was already a 'from home person' (line 12) and will 'work from home forever' (line 16).",
+          "value": "works from home permanently",
+          "lines": [
+            12,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains she has hardly gone out during the pandemic; she went grocery shopping a few times but usually her husband does it (line 112).",
+          "value": "homebound during pandemic, husband does grocery shopping",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'I am Brandon' in line 5.",
+          "value": "Brandon",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in north texas in Wichita Falls' (line 11), mentions five minutes from the Oklahoma border (13), refers to 'our mayor here in this in Wichita Falls' (99), names a local grocery store United Market Street (135), and mentions the nearby state prison (179).",
+          "value": "Wichita Falls, Texas",
+          "lines": [
+            11,
+            13,
+            99,
+            135,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Brandon' and references to a fiancee (she/her) indicate male gender.",
+          "value": "male",
+          "lines": [
+            5,
+            121,
+            427
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is engaged to be married: states 'we're actually getting married ... in 25 days' (427), refers to a fiancee (121, 367), obtained a marriage certificate (437), and won a wedding (431).",
+          "value": "engaged",
+          "lines": [
+            121,
+            427,
+            437,
+            431
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'now I work from home for insurance' (205).",
+          "value": "works from home for insurance",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to work in the maximum security state prison that's here' (179) and 'I was a corrections officer' (189) and describes leaving due to lack of support (191).",
+          "value": "previously worked as a corrections officer at a maximum security state prison",
+          "lines": [
+            179,
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'we are poor, we are very much paycheck to paycheck here' (433).",
+          "value": "poor, living paycheck to paycheck",
+          "lines": [
+            433
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions doing online surveys on Prolific for gas money: 'I do so much stuff on like prolific and stuff like that. It's just to help out with that gas money' (435).",
+          "value": "uses Prolific to earn extra money for gas",
+          "lines": [
+            435
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes winning a complimentary wedding from a local venue and saving around $23,000: 'we're saving like 23,' (433). The context of a full wedding package makes $23,000 the most plausible reading.",
+          "value": "won a wedding package, saving approximately $23,000",
+          "lines": [
+            431,
+            433,
+            435,
+            439
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my fiance' multiple times (121, 367, 427, 435, 437) and uses 'she' (123, 501), indicating an engaged relationship.",
+          "value": "has a fiancee",
+          "lines": [
+            121,
+            367,
+            427,
+            435,
+            437,
+            501
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we've got a little girl that's six' (437), indicating a 6-year-old daughter.",
+          "value": "father of a 6-year-old daughter",
+          "lines": [
+            437
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my grandma' (71) and running errands for her weekly.",
+          "value": "has a grandmother",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls watching a movie 'for the first time with my dad' (301).",
+          "value": "has a father",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my best friend's grandma' (21) and 'my best friend's wife' (135), indicating a best friend.",
+          "value": "has a best friend",
+          "lines": [
+            21,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a discusses subscribing to Hulu (ASR: lulu) and Disney+ bundle: 'We use lulu... We have the combo where you get Disney and Julia [Hulu] together... $14 for both of them' (315, 321).",
+          "value": "subscribes to Disney+ and Hulu bundle ($14/month)",
+          "lines": [
+            315,
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we watch a lot of true crime stuff here too' (309) and describes watching 'The Murder of Lacy Peterson' (351) and other true crime content.",
+          "value": "watches true crime documentaries",
+          "lines": [
+            309,
+            351,
+            355,
+            383
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'we use it through our xbox' (331) when discussing a streaming service.",
+          "value": "uses Xbox for media streaming",
+          "lines": [
+            331
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes going to United Market Street grocery store at 2:00 AM to avoid crowds (135).",
+          "value": "shops late at night at United Market Street",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a mask printed with candy corn: 'it's got little candy corn just all over it' (137).",
+          "value": "wears a candy corn patterned face mask",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says his hair is 'almost got it long enough to put it in a ponytail, but not quite' (7).",
+          "value": "hair almost long enough for a ponytail",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'I'm Joni' in line 6.",
+          "value": "Joni",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'now I live in grow town Georgia which is just outside of Augusta' (18). ASR 'grow town' is interpreted as Grovetown.",
+          "value": "Grovetown, Georgia (near Augusta)",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I used to live in Joplin Missouri' (14).",
+          "value": "Joplin, Missouri (formerly)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Joni, references to 'my husband' (50, 466) indicate female gender.",
+          "value": "female",
+          "lines": [
+            6,
+            50,
+            466
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'we've been married uh it will be 10 years next year' (466) and 'been together ... 2004' (468), indicating married status.",
+          "value": "married",
+          "lines": [
+            466,
+            468,
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker states 'I'm retired, disabled slash retired' (42) and 'I'm disabled and that's really hard for me' (496).",
+          "value": "disabled",
+          "lines": [
+            42,
+            496
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm retired' (42).",
+          "value": "retired",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes financial difficulties: car towed and needs fixing (44-48), lost $40 on non-refundable seminar tickets due to car trouble (50-52), and had to put money into car last year and avoided spending due to Covid (56). These indicate limited financial flexibility.",
+          "value": "financially constrained, as evidenced by car repair burden and loss of $40 on unused tickets",
+          "lines": [
+            44,
+            48,
+            50,
+            52,
+            56
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions using virtual gift cards from doing surveys (258).",
+          "value": "participates in online surveys for gift cards",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my husband' multiple times (50, 226, 412, 466).",
+          "value": "has a husband",
+          "lines": [
+            50,
+            226,
+            412,
+            466
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my mother never said...' (120), indicating a mother.",
+          "value": "has a mother",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'his mom just turned 90' (412) in reference to her husband's mother, indicating a mother-in-law.",
+          "value": "has a mother-in-law",
+          "lines": [
+            412
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she is 'hooked' on true crime (308-310) and watches true crime shows and reads about crime on her phone.",
+          "value": "watches and reads about true crime regularly",
+          "lines": [
+            308,
+            310
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she and her husband started watching plane crash shows every night for the last 6-8 months (398).",
+          "value": "watches plane crash documentaries with husband",
+          "lines": [
+            398
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having Netflix, Amazon Prime, and Vudu (328).",
+          "value": "subscribes to Netflix, Amazon Prime, and uses Vudu",
+          "lines": [
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes going to the library in Evans, a town 15 minutes north (48).",
+          "value": "visits the library in Evans, GA",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker recounts a bad experience shopping at Lowe's (240) and going to Home Depot (282).",
+          "value": "shops at Lowe's and Home Depot",
+          "lines": [
+            240,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker planned to attend an active shooter seminar but missed it due to car trouble (50).",
+          "value": "planned to attend an active shooter seminar",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

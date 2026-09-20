@@ -1,0 +1,156 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "States name is 'chai' (line 3).",
+          "value": "chai",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm in Pittsburgh' (line 5) and confirms in lines 21 and 27.",
+          "value": "Pittsburgh",
+          "lines": [
+            5,
+            21,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm from New york city originally' (line 5).",
+          "value": "New York City",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lived in a fairly rural part of Connecticut when Covid first hit (line 21) and just moved back from there (line 27).",
+          "value": "rural Connecticut",
+          "lines": [
+            21,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm a student right now, I'm in my first semester of grad school' (line 25).",
+          "value": "graduate student, first semester",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was in this area for undergrad too' referring to Pittsburgh (line 27).",
+          "value": "completed undergraduate studies in Pittsburgh area",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I get a stipend through my program' (line 39).",
+          "value": "receives graduate stipend",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'My boyfriend just sent me something' (line 193).",
+          "value": "has a boyfriend",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "States 'My name man Scott' (line 2), interpreted as 'My name's Scott'.",
+          "value": "Scott",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is in New Jersey (line 4) and 'closer to the Jersey coast' (line 6).",
+          "value": "New Jersey, near Jersey coast",
+          "lines": [
+            4,
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has lived in New Jersey his whole life (lines 32, 34) and nowhere else (line 36).",
+          "value": "lifelong New Jersey resident",
+          "lines": [
+            32,
+            34,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I'm in between jobs' (line 38) and 'I'm not even attempting right now' (line 40).",
+          "value": "unemployed, not looking for work",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "When asked about hobbies, replies 'mostly movies and stuff' (line 62).",
+          "value": "watches movies",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm using an ipad' (line 108).",
+          "value": "uses an iPad",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I currently live in phoenix Arizona' and later refers to 'in phoenix, we're pretty lax'.",
+          "value": "Phoenix, Arizona",
+          "lines": [
+            31,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm originally from Virginia' and 'I used to live in Virginia too'.",
+          "value": "Originally from Virginia",
+          "lines": [
+            31,
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm half asian. Right? So my mom's japanese'; speaker_b confirms with 'You are.'",
+          "value": "Half Asian, mother is Japanese",
+          "lines": [
+            83,
+            84,
+            85,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a calls herself an introvert: 'introvert here' and 'I'm introvert too'.",
+          "value": "Introvert",
+          "lines": [
+            341,
+            347
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I did a contract over KPMG like there was a big four for accounting'.",
+          "value": "Did contract work at KPMG (Big Four accounting firm)",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'our business is saved', indicating she is part of a business.",
+          "value": "Part of a business (unspecified)",
+          "lines": [
+            351
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a repeatedly mentions her mother, e.g., 'my mom's japanese'.",
+          "value": "Mother (Japanese)",
+          "lines": [
+            83,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a friend that's in massachusetts'.",
+          "value": "Friend in Massachusetts",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'the massage therapist was a friend of mine'.",
+          "value": "Friend who is a massage therapist",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'actually, I do know the Swedish lady'.",
+          "value": "Knows a Swedish lady",
+          "lines": [
+            437
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm taking some courses'.",
+          "value": "Takes courses",
+          "lines": [
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I study French right?'",
+          "value": "Studies French",
+          "lines": [
+            437
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a small bookstore and says 'I would go there all the time'.",
+          "value": "Frequented a local small bookstore",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I actually need to go to target to pick up some stuff'.",
+          "value": "Shops at Target",
+          "lines": [
+            501
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in New Jersey in Usa'.",
+          "value": "New Jersey, USA",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I was born in Hong kong and I am ready here when I was five' (ASR 'ready' for 'came'), indicating immigration at age five.",
+          "value": "Born in Hong Kong, immigrated to US at age 5",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b groups herself with 'other people of color', indicating she identifies as a person of color.",
+          "value": "Person of color",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I'm usually like a really impulsive person'.",
+          "value": "Impulsive personality",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm just like um absolutely hopeless' when describing her outlook, and later repeats the sentiment.",
+          "value": "Feeling hopeless about the future",
+          "lines": [
+            270,
+            456
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes 'the pressure of everything ... pushing down on my mental health' and needing to stop watching news.",
+          "value": "Mental health stress from the pandemic",
+          "lines": [
+            336
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b explains her family distributes products to restaurants and she works for her dad, accompanying him on deliveries.",
+          "value": "Works for family business (distribution to restaurants)",
+          "lines": [
+            64,
+            76,
+            394
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes taking a temporary receptionist/customer-service job at a screen-printing company and leaving because of busy work.",
+          "value": "Previously worked as receptionist at screen-printing company",
+          "lines": [
+            396,
+            398,
+            400,
+            402,
+            404
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her mom wanting help with the garden (ASR 'you' likely 'me').",
+          "value": "Mother",
+          "lines": [
+            500
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about her dad’s diabetes and hypertension, and going with him for deliveries.",
+          "value": "Father",
+          "lines": [
+            76,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my sister went to go like grocery shopping'.",
+          "value": "Sister",
+          "lines": [
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my boyfriend's uncle' and 'my boyfriend' in the context of illness.",
+          "value": "Boyfriend",
+          "lines": [
+            250,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My friend lives there' when discussing Secaucus.",
+          "value": "Friend in Secaucus",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a friend who had a Prolific chat on Friday.",
+          "value": "Friend who participated in a Prolific study",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I have one of them right there. He's a yorkie. ... his name is Junior. I have another one. He's underneath the blanket though.'",
+          "value": "Has two dogs, one named Junior (Yorkshire Terrier)",
+          "lines": [
+            6,
+            8,
+            10,
+            12,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she would 'go out to eat with my friends' or 'go to the beach' as a typical day.",
+          "value": "Enjoys dining out and beach trips",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'psychology is also like one of my favorite topics'.",
+          "value": "Interested in psychology",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes herself as 'such an extroverted like in the past years'.",
+          "value": "Used to be extroverted",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is 'just kind of chilling at home' during the pandemic.",
+          "value": "Currently staying home due to pandemic",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually love that show' when The Walking Dead is mentioned.",
+          "value": "Fan of The Walking Dead",
+          "lines": [
+            312
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

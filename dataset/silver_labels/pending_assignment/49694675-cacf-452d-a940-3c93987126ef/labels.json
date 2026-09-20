@@ -1,0 +1,392 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I guess my name is Ryan, You are Brandon.' speaker_a repeats 'Brandon.' Thus his first name is Brandon.",
+          "value": "Brandon",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is in Texas, central Texas, and specifically 'college station'.",
+          "value": "College Station, Texas",
+          "lines": [
+            11,
+            17,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My home county um Montgomery county Maryland' indicating his home county.",
+          "value": "Montgomery County, Maryland",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b asks if he is 22 and speaker_a confirms 'Yeah. Turn 22.'",
+          "value": "22 years old",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to with male name 'Brandon' and mentions a fiancee; implied male gender.",
+          "value": "Male",
+          "lines": [
+            6,
+            7,
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Conversation references Texas A&M campus, speaker_a says he is off campus but associated, and is in ROTC at A&M.",
+          "value": "Student at Texas A&M University",
+          "lines": [
+            30,
+            31,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about his year he says 'political science, it's a waste of money', revealing his major.",
+          "value": "Political Science major",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm in the ROTC at A and M' and later mentions 'army stuff', so Army ROTC.",
+          "value": "Army ROTC participant",
+          "lines": [
+            39,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I'm a very traditional catholic'.",
+          "value": "Traditional Catholic",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he and his fiancee plan to 'save … more than half of our income' to pay off debt and invest.",
+          "value": "Plans to save over half of income to pay off debt and invest",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I got two cards like that' referring to credit cards with rewards.",
+          "value": "Has two credit cards",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains using his credit card for a Disney trip and getting cash back, and using that to partly pay for the engagement ring.",
+          "value": "Uses credit card rewards for purchases",
+          "lines": [
+            59,
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says the store gave him a 0% loan for three years on the ring setting costing $1600.",
+          "value": "Financed engagement ring with $1600 at 0% over 3 years",
+          "lines": [
+            75,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'the store gave me a military deal' for a discount on the ring.",
+          "value": "Received military discount on engagement ring",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my fiance and I' multiple times and discusses buying her engagement ring.",
+          "value": "Engaged to a fiancee",
+          "lines": [
+            43,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my brother, he was having a bachelor party at Disney World.'",
+          "value": "Has a brother",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'my cousin for example, she is a twitch streamer.'",
+          "value": "Has a cousin who is a Twitch streamer",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I run a political club basically seeing what the other side's doing on my campus.'",
+          "value": "Runs a political club on campus",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He admits he used to have many Facebook arguments in high school.",
+          "value": "Used to argue on Facebook frequently in high school",
+          "lines": [
+            147,
+            149
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he has Facebook and Instagram but mostly uses them to passively browse ('stalk').",
+          "value": "Uses Facebook and Instagram mostly passively",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he gave up Twitter for Lent and then stopped looking through it meticulously.",
+          "value": "Gave up Twitter for Lent and reduced usage",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he played video games in freshman year but since then has only beaten a few because he has no time.",
+          "value": "Plays video games but has limited time now",
+          "lines": [
+            109,
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself: 'my name is Ryan'.",
+          "value": "Ryan",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he is currently in Wisconsin, and specifies Washington County, about 30 minutes north of Milwaukee.",
+          "value": "Washington County, Wisconsin (near Milwaukee)",
+          "lines": [
+            12,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'a man who is 40 years old'.",
+          "value": "40 years old",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to himself as 'a man'.",
+          "value": "Male",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm technically gen x'.",
+          "value": "Generation X",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is a high school teacher, teaches at a Lutheran school, and is a religion teacher.",
+          "value": "High school religion teacher at a Lutheran school",
+          "lines": [
+            92,
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He identifies as 'Missouri scented' (Missouri Synod) after discussing Lutheran synods.",
+          "value": "Lutheran (Missouri Synod - LCMS)",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was at the seminary for a couple of years getting his grad degree, and earlier mentions two years of grad school.",
+          "value": "Attended LCMS seminary for graduate degree",
+          "lines": [
+            48,
+            168
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He says 'I sometimes think that I have adult A. D. D.' indicating he suspects he has the condition.",
+          "value": "Suspected adult ADD",
+          "lines": [
+            90
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he came out of college with about $25,000 in student loan debt and paid it off before his first son was born.",
+          "value": "Had $25,000 student loan debt; fully paid off",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they are 'minus the mortgage', meaning debt-free except for the house.",
+          "value": "Debt-free except for mortgage",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes having a 30-year mortgage, currently 7 years in, and aims to pay it off in 6 more years.",
+          "value": "30-year mortgage, 7 years paid, plans to pay off in 6 years",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they never carry a credit card balance, pay it off monthly, and use points for teacher gift cards.",
+          "value": "Pays credit card in full monthly; uses rewards for teacher gifts",
+          "lines": [
+            86,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'my wife and I have been married 11 years now' and mentions she is a nurse.",
+          "value": "Married 11 years to a wife who is a nurse",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'we have two boys 10 and 8'.",
+          "value": "Two sons, ages 10 and 8",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He tells a story about a college roommate named Paul.",
+          "value": "Had a college roommate named Paul",
+          "lines": [
+            138
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he has been teaching virtual learning for the past two months due to the stay-at-home order.",
+          "value": "Teaches high school virtually during COVID-19 stay-at-home order",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he gave up Twitter two years ago and implies he mainly uses Facebook.",
+          "value": "Uses Facebook, gave up Twitter",
+          "lines": [
+            138,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He expresses concern about his children's screen time (6-7 hours) and wants a 'hard shutdown' of technology, indicating he tries to limit it.",
+          "value": "Tries to limit his children's screen time",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

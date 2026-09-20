@@ -1,0 +1,487 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are from Alabama and confirms they are currently in Alabama when asked.",
+          "value": "Alabama",
+          "lines": [
+            19,
+            76,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their current time is one hour behind speaker_b's 7:00 PM Eastern, and agrees they are an hour behind, placing them in Central Time, consistent with Alabama.",
+          "value": "Central Time (UTC-6)",
+          "lines": [
+            249,
+            250,
+            251,
+            252,
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly says they are in college.",
+          "value": "college student",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they are majoring in civil engineering.",
+          "value": "civil engineering major",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about graduation, speaker_a says '2023'.",
+          "value": "graduation year 2023",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_a responds 'Not yet. No.' when asked if they have voted, indicating they have not yet voted.",
+          "value": "has not yet voted",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says they have a sister and a brother.",
+          "value": "has a sister and a brother",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm the others in my family'. Given the context (speaker_b just mentioned having a younger sister), the garbled phrase 'others' is phonetically close to 'oldest', making 'I'm the oldest in my family' the most plausible reading.",
+          "value": "oldest sibling",
+          "lines": [
+            351
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my roommates' and mentions one of them using 'he'.",
+          "value": "has roommates",
+          "lines": [
+            397,
+            399
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they watch a show called Lovecraft Country and that it is on HBO.",
+          "value": "watches Lovecraft Country on HBO",
+          "lines": [
+            41,
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains the concept of subreddits and asks speaker_b if they subscribe, demonstrating familiarity with Reddit.",
+          "value": "uses Reddit and knows about subreddits",
+          "lines": [
+            203,
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked if they are a big football fan, speaker_a answers 'Not really.'",
+          "value": "not a football fan",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they don't have a lot of hobbies.",
+          "value": "no hobbies",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms their dinner came from a campus cafeteria when asked.",
+          "value": "eats at campus cafeteria",
+          "lines": [
+            264,
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'd like seven classes' (ASR for 'I have like seven classes'), indicating a heavy course load.",
+          "value": "takes seven classes",
+          "lines": [
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they studied for midterms over the weekend and took them today.",
+          "value": "studied for and took midterms recently",
+          "lines": [
+            281,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes online classes as 'terrible' and lists specific technical difficulties.",
+          "value": "finds online classes difficult",
+          "lines": [
+            299,
+            303
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b estimates speaker_a's age as 'young twenties', and speaker_a receives it as a compliment without disagreeing.",
+          "value": "appears to be in young twenties",
+          "lines": [
+            366,
+            367
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says they are from North Carolina, mentions schools near them (UNC, Duke, NC State), and states that their family lives near here, confirming current residence.",
+          "value": "North Carolina",
+          "lines": [
+            18,
+            112,
+            388
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm near you and see and Duke and NC State'; the ASR 'you and see' is phonetically close to 'UNC', referring to the University of North Carolina, placing them in the Research Triangle area.",
+          "value": "lives near UNC, Duke, and NC State in North Carolina",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states their current time is 7:00, and speaker_a confirms they are an hour behind, establishing speaker_b as Eastern Time.",
+          "value": "Eastern Time (UTC-5/UTC-4)",
+          "lines": [
+            252,
+            250,
+            251,
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says they majored in business when they went to college.",
+          "value": "business major (college)",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I graduated No. six.' The ASR 'No. six' is a phonetic rendering of 'oh six', meaning 2006.",
+          "value": "graduated college in 2006",
+          "lines": [
+            338
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explicitly states 'my birthday was in May'.",
+          "value": "birthday in May",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my husband', strongly implying female gender; the context of compliments about looking young also aligns with this, though gender is never directly stated.",
+          "value": "female",
+          "lines": [
+            22,
+            354
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I have a younger sister'.",
+          "value": "has a younger sister",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if they have children, speaker_b says 'No, just me and my husband.'",
+          "value": "no children",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says 'I've already visited' but in the context of voting and debates, 'visited' is an ASR error for 'voted'. They then ask speaker_a if they have voted, confirming they themselves have, and later explain their vote.",
+          "value": "has voted in 2020 election",
+          "lines": [
+            224,
+            226,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they think Biden is the best candidate and that's why they voted for him.",
+          "value": "voted for Joe Biden",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes doing support work on a computer and later refers to working for a software company.",
+          "value": "employed in support role at a software company",
+          "lines": [
+            70,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they and their company have been working from home since March 10.",
+          "value": "working from home since March 10, 2020",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the earliest their office might reopen is June of next year (likely 2021, based on the timeline of the pandemic).",
+          "value": "expects office return around June 2021",
+          "lines": [
+            156
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says regarding the survey site bulletin, 'I've already gotten by money for it' (ASR 'by' for 'my'), indicating they receive payment.",
+          "value": "receives payment from survey site (bulletin)",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions taking 'a couple like sequel glasses' that work paid for; 'sequel glasses' is ASR for 'SQL classes'.",
+          "value": "taking SQL classes paid for by employer",
+          "lines": [
+            342
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes shopping at Target a couple of times and using delivery or drive-up pickup services.",
+          "value": "shops at Target, uses delivery and pickup",
+          "lines": [
+            136,
+            138,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' multiple times and says no children, just her and her husband.",
+          "value": "married, has a husband",
+          "lines": [
+            22,
+            172,
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I have a younger sister'.",
+          "value": "has a younger sister",
+          "lines": [
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says they have no children.",
+          "value": "no children",
+          "lines": [
+            354
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says their family lives near here and they see them quite a bit.",
+          "value": "family lives nearby and sees them often",
+          "lines": [
+            388,
+            390
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a friend sending a link, talking with friends, and discussing issues with friends, indicating they have a social circle.",
+          "value": "has friends",
+          "lines": [
+            12,
+            212,
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they watched Emily in Paris on Netflix; the ASR 'Emily in paris' is corrected to 'Emily in Paris'.",
+          "value": "watched Emily in Paris on Netflix",
+          "lines": [
+            24,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says in their spare time they 'scroll on instagram and look on Reddit'.",
+          "value": "spends spare time on Instagram and Reddit",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they hardly ever use Twitter but occasionally get on for events like the debate.",
+          "value": "occasional Twitter user",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they used to play tennis (in high school and for fun) and like to ski.",
+          "value": "enjoys tennis and skiing (past hobbies)",
+          "lines": [
+            188,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they haven't been to a restaurant since March.",
+          "value": "has not been to a restaurant since March 2020",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they haven't been able to see any of their friends since March.",
+          "value": "has not socialized with friends since March 2020",
+          "lines": [
+            386
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes posting a parody to the tune of 'Be Our Guest' with lyrics 'wear a mask'.",
+          "value": "posted a mask-wearing parody on social media",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists their dinner as a BLT, popcorn, and a clementine.",
+          "value": "ate BLT, popcorn, and clementine for dinner",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they were invited to a wedding in Ohio but did not attend.",
+          "value": "did not attend a wedding in Ohio",
+          "lines": [
+            402,
+            404,
+            406,
+            408
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes being too lazy to go to another room for TV and needing to get outside but being lazy, explicitly calling themselves lazy.",
+          "value": "considers herself lazy",
+          "lines": [
+            36,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a tells speaker_b they look a lot younger than someone who graduated in 2006, and speaker_b agrees, attributing it to genetics.",
+          "value": "looks younger than her age",
+          "lines": [
+            355,
+            356,
+            358
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

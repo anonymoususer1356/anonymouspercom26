@@ -1,0 +1,351 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself explicitly.",
+          "value": "Gabby",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states she is in the Boston area after moving back from Colorado.",
+          "value": "Boston area, Massachusetts",
+          "lines": [
+            25,
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states her age directly.",
+          "value": "32 years old",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she went to Brandeis University and ended up with a history major and economics minor; the ASR is slightly garbled but the meaning is clear.",
+          "value": "Alumna of Brandeis University, B.A. in History, minor in Economics",
+          "lines": [
+            57,
+            155,
+            156
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says she grew up in Boston.",
+          "value": "From Boston, Massachusetts",
+          "lines": [
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker states she was receiving unemployment benefits after her layoff.",
+          "value": "Receiving unemployment benefits",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker states she was furloughed in March and officially laid off in August.",
+          "value": "Unemployed (laid off, previously furloughed)",
+          "lines": [
+            79,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she received a nice severance package from her company.",
+          "value": "Received severance pay",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she made several hundred dollars from Prolific surveys.",
+          "value": "Earns money via Prolific surveys (several hundred dollars made)",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes using dScout for paid market research studies.",
+          "value": "Earns money via dScout studies",
+          "lines": [
+            199,
+            201,
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes doing micro-work on Neevo (DefinedCrowd) and having made about $400; the exact name is slightly garbled but understandable.",
+          "value": "Earns money via Neevo (DefinedCrowd), made approximately $400",
+          "lines": [
+            235,
+            239,
+            269
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says she uses her friend's Amazon Prime account instead of her own; the line is phonetically garbled but the intended meaning is clear.",
+          "value": "Uses friend's Amazon Prime account",
+          "lines": [
+            259
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions multiple times that she is now living with her family in her hometown.",
+          "value": "Lives with parents",
+          "lines": [
+            51,
+            83,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her parents also use Prolific and are around 70 years old.",
+          "value": "Parents are approximately 70 years old",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states her sister lives 25 minutes away and has a two-year-old son (the speaker’s nephew).",
+          "value": "Has a sister and a 2-year-old nephew",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having a friend who earned a PhD in astrophysics and now teaches; the pronouns are inconsistent but the relationship is established.",
+          "value": "Has a friend who is an astrophysics PhD/professor",
+          "lines": [
+            147
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she lived in Colorado for 10 years, specifically in Summit County, and worked at Keystone resort.",
+          "value": "Lived in Summit County, Colorado for 10 years, worked at Keystone resort",
+          "lines": [
+            33,
+            35,
+            41,
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker indicates she is currently living with family in her hometown.",
+          "value": "Living with parents in hometown",
+          "lines": [
+            51,
+            83,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about visiting Stockbridge and New Orleans, and considering moving to New Orleans.",
+          "value": "Enjoys traveling (visited Stockbridge, New Orleans)",
+          "lines": [
+            27,
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes doing various online side gigs to make money while unemployed.",
+          "value": "Participates in online side gigs (surveys, micro-tasks)",
+          "lines": [
+            219,
+            235,
+            199
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker gives her name directly.",
+          "value": "Lauren",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says she is in Massachusetts, in the Berkshires, and later mentions she goes to Williams College there.",
+          "value": "Berkshires, Western Massachusetts",
+          "lines": [
+            24,
+            28,
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she is originally from Colorado, near Denver.",
+          "value": "Originally from Colorado, near Denver",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says she is a junior at Williams College with one year left.",
+          "value": "Junior at Williams College",
+          "lines": [
+            52,
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is double majoring in computer science and astrophysics.",
+          "value": "Majoring in Computer Science and Astrophysics",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is from Colorado.",
+          "value": "From Colorado",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says she works as a teaching assistant for the observatory this semester.",
+          "value": "Teaching assistant at Williams College observatory",
+          "lines": [
+            272,
+            274
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker notes the TA job has few hours and does not pay much.",
+          "value": "Part-time TA position with low pay",
+          "lines": [
+            276
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she signed up for Prolific for a class and continues using it to earn money.",
+          "value": "Earns money via Prolific surveys",
+          "lines": [
+            214,
+            218
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker confirms she also got rejected when she tried to sign up for Amazon Mechanical Turk.",
+          "value": "Rejected from Amazon Mechanical Turk",
+          "lines": [
+            254,
+            256,
+            257
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker talks about going home to Colorado during breaks, implying family there.",
+          "value": "Family in Colorado",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker mentions being on campus and the restrictions on leaving, showing she lives on campus.",
+          "value": "Lives on campus at Williams College",
+          "lines": [
+            64,
+            70
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states that she runs cross country for the college.",
+          "value": "Runs cross country",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she does Prolific studies on the side.",
+          "value": "Completes online surveys for extra money",
+          "lines": [
+            218
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about a decoration behind her, she calls it her “nerdy astrophysics part,” implying a space-themed poster or object.",
+          "value": "Has a space/astrophysics-themed poster in room",
+          "lines": [
+            290
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

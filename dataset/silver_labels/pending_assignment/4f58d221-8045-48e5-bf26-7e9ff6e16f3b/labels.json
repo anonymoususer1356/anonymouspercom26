@@ -1,0 +1,322 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces themselves: 'my name is jay'.",
+          "value": "Jay",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm currently in Alabama' and confirms living there when asked how long.",
+          "value": "Alabama, USA",
+          "lines": [
+            13,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have been in Alabama for three years and a couple of weeks.",
+          "value": "Lived in Alabama for 3 years",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm originally from India' and specifies 'Mumbai' when discussing travel.",
+          "value": "Mumbai, India",
+          "lines": [
+            137,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states being originally from India.",
+          "value": "Indian origin",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live alone' and 'I live by myself'.",
+          "value": "Lives alone",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses their workplace and working from home, indicating they are employed.",
+          "value": "Employed",
+          "lines": [
+            35,
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'going out has always induced more anxiety' in the context of the pandemic.",
+          "value": "Experiences anxiety about going out during the pandemic",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions they can work from home and their work is computer-based.",
+          "value": "Has a remote-capable job",
+          "lines": [
+            35,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have netflix, prime and hulu access'.",
+          "value": "Subscribes to Netflix, Amazon Prime, and Hulu",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they found out the platform pays for talking to strangers (ASR: 'paying for paying to Doctor Strange' interpreted as 'paying for you to talk to strangers').",
+          "value": "Receives payment for participating in this virtual chat platform",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'one of my friends' when explaining a prior conversation.",
+          "value": "Has friends",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they have gone hiking on trails in their area.",
+          "value": "Enjoys hiking",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes saturating themselves with online content and watching Netflix.",
+          "value": "Watches streaming content regularly",
+          "lines": [
+            87,
+            89,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they listen to audiobooks, including sci-fi and non-fiction.",
+          "value": "Listens to audiobooks",
+          "lines": [
+            101,
+            103,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains they stay home almost all the time, only going out once or twice for work.",
+          "value": "Stays at home most of the time during pandemic",
+          "lines": [
+            29,
+            35,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a proposes the idea of just driving with no destination as a way to escape.",
+          "value": "Interested in driving for leisure",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says this is their third time doing this type of virtual meeting.",
+          "value": "Participated in similar virtual meetings 3 times",
+          "lines": [
+            5,
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces themselves: 'my name is Ryan'.",
+          "value": "Ryan",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b indicates they are from Michigan (ASR 'interested Michigan' likely 'I'm in/from Michigan') and talks about Michigan summers.",
+          "value": "Michigan, USA",
+          "lines": [
+            14,
+            16,
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I got a family, so I got a couple of kids and my wife'.",
+          "value": "Married with children",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I work in the office furniture industry'.",
+          "value": "Works in office furniture industry",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b describes going back to the office for about a month, indicating employment in office furniture.",
+          "value": "Employed in office furniture industry, working partially at office",
+          "lines": [
+            172,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions their employer has manufacturing facilities in Alabama, which they visit for product introductions.",
+          "value": "Employer has manufacturing operations in Alabama",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b states having a wife and kids.",
+          "value": "Has a wife and children",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they had a friend from Bangalore who now lives in Pennsylvania.",
+          "value": "Has a friend from Bangalore, India, now living in Pennsylvania",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they have been binging movies and re-watching old favorites.",
+          "value": "Enjoys watching movies and re-watching favorites",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions listening to a lot of music, usually in the car.",
+          "value": "Listens to music, especially while driving",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists international destinations traveled for work: England, Italy, Singapore, Thailand, Japan, China.",
+          "value": "Travels internationally for work",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they feel like taking a vacation day just to drive.",
+          "value": "Enjoys driving for leisure",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes watching movies with their kids to help them understand concepts.",
+          "value": "Watches movies with children",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they travel to Alabama for work to manufacturing facilities.",
+          "value": "Travels to Alabama for work",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states this is also their third such virtual chat.",
+          "value": "Participated in similar virtual meetings 3 times",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

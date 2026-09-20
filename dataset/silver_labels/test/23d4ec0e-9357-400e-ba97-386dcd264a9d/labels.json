@@ -1,0 +1,516 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a directly states her name is Andrea.",
+          "value": "Andrea",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm from Ohio' in line 5.",
+          "value": "From Ohio",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 7, speaker_a says she lives 'an hour south of Cleveland'. In line 103, she mentions someone from Cleveland being 'probably a dollar from me' (likely 'an hour from me'), supporting the same relative distance.",
+          "value": "Lives about an hour south of Cleveland, Ohio",
+          "lines": [
+            7,
+            103
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 27: 'I live probably 30 minutes from where I grew up'.",
+          "value": "Lives about 30 minutes from her hometown",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 137 and 139 describe growing up in a very small town surrounded by cornfields, indicating a rural Ohio upbringing.",
+          "value": "Grew up in a small rural town in Ohio surrounded by cornfields",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 115 and 117: Columbus is about an hour and a half away, Cincinnati about 3 hours, and she is between Cleveland and Columbus, more northeastern Ohio.",
+          "value": "Lives between Cleveland and Columbus, about 1.5 hr from Columbus, 3 hr from Cincinnati",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 155: 'I'm 42'.",
+          "value": "Age 42",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Andrea and references to being a mother and 'single dad' (ASR for single mom) indicate female gender.",
+          "value": "Female",
+          "lines": [
+            5,
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 139 and 141 describe growing up among cornfields and coming from 'a long line of farmers'.",
+          "value": "From a farming family",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 165 and 167: 'got custody of my son' and raised him as a single parent from age 18, implying she became a mother as a teenager.",
+          "value": "Teenage mother",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 165: 'I had to just graduated high school' indicates she completed high school.",
+          "value": "High school graduate",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Lines 165 and 167 state she got custody of her son and raised him from age 18, implying a legal custody arrangement.",
+          "value": "Obtained custody of her son at age 18",
+          "lines": [
+            165,
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 57: 'I am actually a drug and alcohol counselor'.",
+          "value": "Drug and alcohol counselor",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 59: she works in a hospital detox unit.",
+          "value": "Works in a hospital detox unit",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 159 and 161: she was self-employed selling on Amazon from home for 15-20 years.",
+          "value": "Previously self-employed as an Amazon seller from home",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 299 and 301 refer to Prolific studies as 'easy side money' and mention doing multiple studies.",
+          "value": "Side income from Prolific online studies",
+          "lines": [
+            299,
+            301
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 169: she took a 40-hour course to get started in counseling.",
+          "value": "Completed a 40-hour counseling certification course",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 77 and 79: speaker_a says her daughter is a theater major, a junior, and 'Just 21'.",
+          "value": "Daughter, age 21, junior theater major in college",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 81: 'my oldest daughter is a history teacher', and line 87 clarifies she is a senior doing student teaching.",
+          "value": "Oldest daughter, senior in college, student teaching to become a history teacher",
+          "lines": [
+            81,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 83: 'My oldest son … could drive like doordash or something' indicates he does odd jobs like DoorDash.",
+          "value": "Oldest son does gig work such as DoorDash",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 83 and 89: youngest son is 15 and home-schooled.",
+          "value": "Youngest son, age 15, home-schooled",
+          "lines": [
+            83,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 109 and 111 mention her dog outside, indicating pet ownership.",
+          "value": "Has a dog",
+          "lines": [
+            109,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 263: 'me and my nephew' discussing camping along the Appalachian Trail.",
+          "value": "Has a nephew",
+          "lines": [
+            263
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 143: 'my mom was a nurse'.",
+          "value": "Mother was a nurse",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 143: 'my dad was a farmer'.",
+          "value": "Father was a farmer",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 167: 'I raised a single dad from the time I was 18 years old' (ASR for 'single mom' or 'single parent') indicates she was a single mother.",
+          "value": "Single mother from age 18",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 255: 'I'm a big hiker'.",
+          "value": "Avid hiker",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 205, 199, 243: she states she has been to almost all US states, takes regular road trips, and enjoys travel.",
+          "value": "Frequent traveler, road tripper, has visited most US states",
+          "lines": [
+            205,
+            199,
+            243
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 163: 'I coached sports and I could coach all my kids'.",
+          "value": "Coached children's sports teams",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 159, 163: she worked from home as an Amazon seller for about 20 years.",
+          "value": "Worked from home for approximately 20 years",
+          "lines": [
+            159,
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b directly states 'I'm Lauren'.",
+          "value": "Lauren",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 18: 'I was born in new york actually'.",
+          "value": "Born in New York",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 4: 'I'm from Atlanta'.",
+          "value": "From Atlanta, Georgia",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 4: 'I live in California' and line 102: 'I'm in Los Angeles'.",
+          "value": "Lives in Los Angeles, California",
+          "lines": [
+            4,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 34: 'I was 13 years ago' in reference to moving to California.",
+          "value": "Moved to California 13 years ago",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 20 says 'Oklahoma', and line 22 specifies they moved there when she was six and left when she was 10.",
+          "value": "Lived in Oklahoma from age 6 to 10",
+          "lines": [
+            20,
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 24: 'from like fifth grade through high school, I was in Georgia'.",
+          "value": "Lived in Georgia from approximately age 10 through high school",
+          "lines": [
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 12 and 24: 'I went to college in Minnesota'.",
+          "value": "Attended college in Minnesota",
+          "lines": [
+            12,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 112 asks if Centerville is near speaker_a, and line 246 explains she was there because she worked for a traveling children's theater.",
+          "value": "Spent work-related time in Centerville, Ohio",
+          "lines": [
+            112,
+            246
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 154: 'I'm 37'.",
+          "value": "Age 37",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Lauren, references to being a stepmother and wife indicate female gender.",
+          "value": "Female",
+          "lines": [
+            4,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'I went to Mcallister' (Macalester College, a four-year liberal arts college), and line 76 indicates she studied liberal arts.",
+          "value": "College graduate (Macalester College, liberal arts)",
+          "lines": [
+            14,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 76: 'I was the manager a theater measure' interpreted as 'theater major', given the context of working for a traveling children's theater and speaker_a's follow-up about her own daughter's theater major.",
+          "value": "Theater major in college",
+          "lines": [
+            76
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 40: 'Uh well nothing right now' when asked what she does for a living.",
+          "value": "Currently unemployed",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 52: 'I was the events manager for a restaurant' and line 54 says she started in September 2019 and the program was shut down due to COVID.",
+          "value": "Former events manager at a restaurant (September 2019 - early 2020)",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 246: 'I used to work for a traveling Children's theater'.",
+          "value": "Former worker for a traveling children's theater",
+          "lines": [
+            246
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 298 and 300 indicate she signs up repeatedly for Prolific studies, implying side income.",
+          "value": "Side income from Prolific online studies",
+          "lines": [
+            298,
+            300
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 90: 'my husband, he's a chef'.",
+          "value": "Husband is a chef",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 92: 'Uh Six years' in response to how long they have been together.",
+          "value": "Together with husband for 6 years",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 90: garbled ASR 'we have a um a step mom so I have a nine and 11 year old' interpreted as having stepchildren ages 9 and 11, supported by speaker_a's follow-up about 'your kids'.",
+          "value": "Two stepchildren, ages 9 and 11",
+          "lines": [
+            90
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 126: 'My sister's in Minneapolis'.",
+          "value": "Sister lives in Minneapolis",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 232: 'my mom still lives in Georgia and they have a house in south Georgia'.",
+          "value": "Mother lives in Georgia (parents have a house in south Georgia)",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 108: 'my dog is scratching to come up on the bed'.",
+          "value": "Has a dog",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 32: 'I moved out here with a couple friends back then'.",
+          "value": "Moved to California with friends",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 272: she has hiked for a few days on the Appalachian Trail in Georgia and North Carolina.",
+          "value": "Hiker, completed sections of the Appalachian Trail",
+          "lines": [
+            272
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 198, 206, 234: she describes road trips, cross-country drives, and trips to places like the Florida Keys, indicating frequent travel.",
+          "value": "Enjoys travel, takes road trips around the US",
+          "lines": [
+            198,
+            206,
+            234
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

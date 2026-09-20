@@ -1,0 +1,512 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they live in Connecticut, and earlier confirms they are on the east coast (line 95 'Me too' in response to speaker_b's east coast statement).",
+          "value": "Connecticut",
+          "lines": [
+            95,
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a directly states their age.",
+          "value": "19 years old",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they are going to be a sophomore in college.",
+          "value": "college sophomore",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates they are majoring in psychology after taking a personality test and switching from business.",
+          "value": "psychology major",
+          "lines": [
+            261,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names their university as UConn (University of Connecticut).",
+          "value": "attends University of Connecticut (UConn)",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a explains that if they don't sleep before 1 a.m., they get a headache, even though they wake up at 11 a.m.",
+          "value": "gets a headache if they do not sleep before 1 a.m.",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they gained 10 to 15 pounds during their freshman year of college due to excessive drinking (the 'freshman 15').",
+          "value": "gained 10-15 lbs in freshman year of college",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they work at the mall, and later describes it as a yoga/athletic store.",
+          "value": "employed at an athletic apparel store in the mall",
+          "lines": [
+            91,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions their workplace uses iPads for transactions and only accepts cards, no cash.",
+          "value": "workplace uses iPad-based POS and only accepts cards",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they got three free outfits (leggings, bottom, and top) as part of the job.",
+          "value": "received free outfit pieces as uniform",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they get a really good employee discount at the store.",
+          "value": "has employee discount at athletic store",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they work 4-5 hour shifts and cannot work Tuesday, Wednesday, Thursday because their online classes run from 11 to 6 and mall hours are 11-7.",
+          "value": "works 4-5 hour shifts, cannot work Tue-Thu due to class schedule",
+          "lines": [
+            91,
+            93,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions doing Instacart, grocery shopping for people, and once made $98.",
+          "value": "works as an Instacart shopper",
+          "lines": [
+            131,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they do online surveys for extra money, starting in March.",
+          "value": "does online surveys for extra income",
+          "lines": [
+            113,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts working at Chick-fil-A at age 17, being overworked with 8-hour daily shifts, and quitting after two weeks.",
+          "value": "previously worked at Chick-fil-A for two weeks, quit due to overwork",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions working at Macy's as a seasonal employee and describes cash mishandling.",
+          "value": "previously worked seasonal at Macy's",
+          "lines": [
+            205,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they did babysitting when they were 17.",
+          "value": "previously did babysitting",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have an Xbox, and that they got it on Black Friday.",
+          "value": "owns an Xbox console, bought on Black Friday",
+          "lines": [
+            23,
+            25,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their bank account is not growing and they are spending money without steady increase.",
+          "value": "bank account balance not currently increasing",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly mentions their brother, who is 16 and still in school.",
+          "value": "has a 16-year-old brother",
+          "lines": [
+            25,
+            81,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions their mom not wanting the brother to go to the gym.",
+          "value": "has a mother",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their parents bought them an Xbox.",
+          "value": "has parents",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a makes a brief reference to 'my sister' while talking about babysitting, indicating a sister.",
+          "value": "has a sister",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says playing games is fun with cousins.",
+          "value": "has cousins",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions their best friend's birthday and spending $100 on her.",
+          "value": "has a best friend",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a talks about playing various games on Xbox, including Minecraft, Fortnite, Call of Duty, and Rocket League, often with friends and cousins.",
+          "value": "plays Xbox games (Minecraft, Fortnite, Call of Duty, Rocket League) with friends and cousins",
+          "lines": [
+            15,
+            23,
+            27,
+            33,
+            39,
+            41,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they usually wake up at 11 a.m. and try to sleep before 1 a.m. to avoid a headache.",
+          "value": "wakes at 11 a.m., tries to sleep before 1 a.m.",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes working out inconsistently in the backyard with a bar and weights, losing motivation after a week.",
+          "value": "works out inconsistently with backyard weights and bar",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a attributes their freshman weight gain to excessive drinking.",
+          "value": "engaged in excessive drinking during freshman year of college",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms they are doing college online, and that this semester most classes have scheduled meeting times.",
+          "value": "attends college online with scheduled class times",
+          "lines": [
+            77,
+            85,
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces themselves as 'I'm zack', indicating their name is Zack. Their name was also misspelled on a paycheck.",
+          "value": "Zack",
+          "lines": [
+            12,
+            168,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b explicitly states they live in Pennsylvania and earlier mentions being on the east coast.",
+          "value": "Pennsylvania",
+          "lines": [
+            94,
+            246
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states their age directly.",
+          "value": "18 years old",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says this is their last year of school, indicating they are a high school senior.",
+          "value": "high school senior",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they just got a cashier job at a grocery store, later specifying it is a discount store.",
+          "value": "cashier at a discount grocery store",
+          "lines": [
+            90,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states their hourly wage is $8.25, but they were only paid $7.25 due to an error.",
+          "value": "$8.25 per hour",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions getting paid every other week and that the employer only pays by check, no direct deposit.",
+          "value": "paid biweekly by physical paycheck",
+          "lines": [
+            158,
+            170,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes working about 14 hours a week, typically 3-hour weekday shifts and 5+ hours on Saturday.",
+          "value": "works about 14 hours per week (3-hr weekdays, 5+ hrs Saturday)",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they were trained for only two days and then left on their own.",
+          "value": "received two days of training",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts their first paycheck was underpaid because they were paid at $7.25 instead of $8.25, and their name was misspelled on the check.",
+          "value": "first paycheck underpaid and name misspelled",
+          "lines": [
+            162,
+            164,
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the first thing they bought with their paycheck was cookies because they were hungry and it cost a dollar.",
+          "value": "first purchase with first paycheck was cookies",
+          "lines": [
+            238,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have been doing surveys for two years and made about $1000 on Prolific.",
+          "value": "earns money through online surveys, made ~$1000 on Prolific over two years",
+          "lines": [
+            114,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says there is a weekly hour-long survey about COVID-19 that pays $10 every week.",
+          "value": "participates in a weekly paid COVID-19 survey ($10/week)",
+          "lines": [
+            134,
+            136,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates they are doing a paid research study that allows only four sessions, and this was their fourth (last) one.",
+          "value": "participates in a paid research study limited to four sessions",
+          "lines": [
+            122,
+            124,
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says they are saving up for college to study networking.",
+          "value": "saving money for college",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b affirms they have no bills to pay and can just save up.",
+          "value": "has no bills to pay",
+          "lines": [
+            110,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they play on a PS4.",
+          "value": "owns a PlayStation 4",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they kept their Xbox controller and use it for PC games.",
+          "value": "uses a PC for gaming",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they had an Xbox but sold it because they didn't use it.",
+          "value": "previously owned and sold an Xbox",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions playing Minecraft, GTA, and Fortnite on PS4 and PC.",
+          "value": "plays PS4 and PC games (Minecraft, GTA, Fortnite)",
+          "lines": [
+            16,
+            18,
+            20,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have been staying at home since March, making the job a welcome chance to get out.",
+          "value": "has been staying home since March",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes the job requires standing for about four hours at a time.",
+          "value": "job requires standing for 4-hour stretches",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they attend school online with flexible scheduling, allowing them to do work at any time.",
+          "value": "attends high school online with flexible scheduling",
+          "lines": [
+            76,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they want to study networking in college because it's interesting and a good job.",
+          "value": "plans to study networking in college",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

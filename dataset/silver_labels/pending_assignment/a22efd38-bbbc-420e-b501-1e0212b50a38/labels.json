@@ -1,0 +1,143 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b calls him Darren, asks for his name, and later repeats it, while speaker_a's line 9 also contains 'Darren' (possibly a self-reference or greeting to himself).",
+          "value": "Darren",
+          "lines": [
+            9,
+            10,
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a confirms he is in Florida, names Pensacola, describes it as in the panhandle, and states he lives seven miles from Alabama.",
+          "value": "Pensacola, Florida, near Alabama",
+          "lines": [
+            16,
+            33,
+            35,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly says 'if I was a Republican, I'm not', indicating his political affiliation is not Republican.",
+          "value": "not a Republican",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions it is his day off, mirroring speaker_b's earlier mention of a day off from work, which implies he is employed.",
+          "value": "employed (has days off)",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to friends of different political persuasions, a friend who sent a tweet, and talking to friends and family every day.",
+          "value": "has friends and family",
+          "lines": [
+            171,
+            179,
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he gets up early, though not at 6 a.m., which reflects a habitual behavior.",
+          "value": "gets up early",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states his name directly: 'My name is Alan'.",
+          "value": "Alan",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from California and names a city that sounds like 'Sherlock', located 20 minutes from Modesto. The exact spelling may differ due to ASR, but the intended place is near Modesto, CA.",
+          "value": "Sherlock, California (near Modesto)",
+          "lines": [
+            10,
+            28
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b explicitly says 'it's a day off for me from work', confirming he is employed.",
+          "value": "employed (has days off from work)",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions traveling to Washington to visit his girlfriend.",
+          "value": "has a girlfriend",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recalls going outside to ask his family members if they felt an earthquake.",
+          "value": "has family",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states his parents used to live in Mexico and that they gave him earthquake safety advice.",
+          "value": "parents used to live in Mexico",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [],
+      "appearance": []
+    }
+  ]
+}

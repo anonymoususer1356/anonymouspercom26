@@ -1,0 +1,299 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'Well uh laura lee' apparently giving her full name. When speaker_b later asks 'What was your name? Laura?' she confirms with 'Yeah, yeah', supporting that her name is Laura Lee.",
+          "value": "Laura Lee",
+          "lines": [
+            277,
+            278,
+            279
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm up in Portland Oregon right now' and later refers to getting a good deal on rent in the same city.",
+          "value": "Portland, Oregon",
+          "lines": [
+            3,
+            25,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I'm from Hawaii originally'.",
+          "value": "Hawaii (origin)",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was in Singapore all the way across the world for about half a year'.",
+          "value": "Singapore (lived for half a year)",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she did a summer program in Mexico in a smaller state, not Mexico City; the ASR 'kenya to' is phonetically close to 'Guanajuato', a state in central Mexico.",
+          "value": "Guanajuato, Mexico (summer program)",
+          "lines": [
+            155
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In discussing her wide feet, speaker_a says 'even in America for women's feet... it's not very common', implying she is a woman. She also describes personal experience with clothing norms in Singapore (tank top cleavage).",
+          "value": "Female",
+          "lines": [
+            181,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions writing a senior thesis and applying to law school, indicating she holds or is completing an undergraduate degree.",
+          "value": "College graduate (undergraduate degree)",
+          "lines": [
+            17,
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I pay like $750 a month for rent in in a city', referring to Portland, where she mentions a good deal on rent.",
+          "value": "$750 monthly rent (Portland)",
+          "lines": [
+            33,
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'one of my friends is down in the bay area right now in Berkeley for at Berkeley for school'.",
+          "value": "Friend in Berkeley, California attending school",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'one of my friends is there right now' referring to Mexico, where she previously did a summer program.",
+          "value": "Friend currently in Mexico",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states 'I'm applying to law schools right now' and mentions her dream job is 'international human rights' law.",
+          "value": "Law school applicant interested in international human rights law",
+          "lines": [
+            17,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually wrote my senior thesis about specifically relating to their government policies' (Singapore).",
+          "value": "Wrote senior thesis on Singapore government policies",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a explicitly states 'my feet are wide'.",
+          "value": "Wide feet",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'My name is ted' (ASR for Ted).",
+          "value": "Ted",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Baltimore' and 'I've only been here since february'.",
+          "value": "Baltimore, Maryland",
+          "lines": [
+            12,
+            16,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'before this actually was living in Panama' and that he was repatriated from there due to coronavirus.",
+          "value": "Panama (previously lived)",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was in South America' when discussing rent prices, indicating he traveled or lived there.",
+          "value": "South America (traveled/lived)",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b calls himself 'a pretty tall guy', indicating male gender.",
+          "value": "Male",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got a biomedical sciences degree' and attended one year of medical school.",
+          "value": "Biomedical sciences degree",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'now I work in technology'.",
+          "value": "Works in technology",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm uh 10 99 so some months are really busy', indicating he is a 1099 independent contractor.",
+          "value": "1099 independent contractor",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I worked for a an agency, they're actually out in new york'.",
+          "value": "Works for an agency based in New York",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes his work: 'we create software that helps for like corporate training... customer experience'.",
+          "value": "Creates corporate training software",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my sister lives there and she lives in Arlington', and later notes she is about 30 minutes away from him in Baltimore.",
+          "value": "Sister in Arlington, Virginia",
+          "lines": [
+            30,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my brother he's uh he's he lives in the bay Area'.",
+          "value": "Brother in Bay Area, California",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was with a buddy of mine and we he was he was a programmer and we're just hopping around splitting places'.",
+          "value": "Friend who is a programmer, traveled together",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes working remotely, traveling in South America, and being able to 'work anywhere'.",
+          "value": "Digital nomad, works remotely while traveling",
+          "lines": [
+            118,
+            128,
+            130,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I did a year medical school and I realized I hated it'.",
+          "value": "Former medical student (one year)",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I'm six ft seven'.",
+          "value": "6 feet 7 inches tall",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my shoe size is 14.5'.",
+          "value": "Shoe size 14.5",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

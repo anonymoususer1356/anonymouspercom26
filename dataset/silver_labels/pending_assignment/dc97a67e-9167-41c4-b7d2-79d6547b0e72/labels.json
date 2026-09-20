@@ -1,0 +1,586 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'molly' and is addressed as 'molly' by speaker_b.",
+          "value": "Molly",
+          "lines": [
+            8,
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States directly 'I live in Cleveland.' and mentions quarantining in Cleveland.",
+          "value": "Cleveland, Ohio",
+          "lines": [
+            41,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm from Seattle.'",
+          "value": "Seattle, Washington",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Describes herself as a part-time teacher and 'a substitute teacher'.",
+          "value": "substitute teacher",
+          "lines": [
+            137,
+            139,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has 'a couple of degrees' in psychology.",
+          "value": "degrees in psychology",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly mentions 'my husband'.",
+          "value": "married",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly mentions 'my son'.",
+          "value": "mother",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Admits 'I have a little bit of a fear of ladders' and describes feeling like she's going to die when up high on them.",
+          "value": "fear of ladders",
+          "lines": [
+            239,
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Explicitly says 'we're in an okay stable financial situation'.",
+          "value": "financially stable",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States her substituting was not a large contribution to the household income.",
+          "value": "substitute teaching contributes little to household income",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes buying a house that was redone right before they purchased it, and calls it 'our new house'.",
+          "value": "homeowner",
+          "lines": [
+            245,
+            257
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions donating to a Cleveland school's technology fund via a GoFundMe-like campaign.",
+          "value": "donated to Cleveland school technology fund",
+          "lines": [
+            355
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my husband' many times.",
+          "value": "has a husband",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says husband's dad has had some strokes.",
+          "value": "father-in-law had strokes",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that husband will call his aunt Jen Jen, who currently cares for his father.",
+          "value": "husband's aunt Jen Jen is caregiver for father-in-law",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly mentions 'my son'.",
+          "value": "has a son",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my son is a freshman in high school now'.",
+          "value": "son is a high school freshman",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says they were relieved when their son retired from gymnastics.",
+          "value": "son retired from gymnastics",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells a story where her son, around age 10, hit his shins on the high bar and then kneed himself in the eye during a release move, but was not seriously injured. (ASR 'need himself' interpreted as 'kneed himself'.)",
+          "value": "son had a gymnastics accident (hit shins on bar, kneed own eye)",
+          "lines": [
+            77,
+            79,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says son is in 'really advanced math' and has to work at it.",
+          "value": "son takes advanced math",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her son wrote a novel with friends over the summer, over 50,000 words.",
+          "value": "son co-wrote a novel with friends",
+          "lines": [
+            279,
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Announces that her son was the fifth kid in the country for his age group to participate in a vaccine trial (the one that just announced 90% efficacy), and they feel confident now past the 28-day mark.",
+          "value": "son participated in a vaccine trial (early COVID-19 vaccine), fifth in age group",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that they enrolled their son in an online school for the year because of inconsistent district plans.",
+          "value": "son enrolled in online school for the year",
+          "lines": [
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my sister' who played college soccer.",
+          "value": "has a sister",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes sister as 5'2', sturdy, and on a soccer scholarship.",
+          "value": "sister is a short, sturdy former college soccer player",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says sister was well known for sneaky yellow and red card fouls and never getting caught.",
+          "value": "sister was sneaky with fouls in soccer",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Relates that her mom went to art school and later became an occupational therapist.",
+          "value": "mother is an occupational therapist, formerly attended art school",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her parents really love the Seahawks, making it easy to send gifts to their dog.",
+          "value": "parents are Seahawks fans",
+          "lines": [
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Notes that her husband 'did Montessori' as a child, indicating he attended a Montessori school.",
+          "value": "husband attended Montessori school",
+          "lines": [
+            209
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States she was re-reading Snow Crash by Neal Stephenson, a book she has read many times.",
+          "value": "re-reads the book Snow Crash regularly",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Admits 'I usually don't like sci fi that much' but makes an exception for this book.",
+          "value": "not typically a science fiction fan",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes staying up late reading, past bedtime.",
+          "value": "stays up late reading",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to play a game with her husband later in the day.",
+          "value": "plays games with her husband",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I mostly just repay my own houses over and over again' (ASR 'repay' = repaint).",
+          "value": "does her own house painting",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she has a fear of ladders and cannot comfortably paint high stairwells even with an adjustable ladder.",
+          "value": "avoids painting high stairwells due to ladder fear",
+          "lines": [
+            239,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is not a huge football fan but should care about the Browns because she lives in Cleveland, and also follows the Seahawks because of her parents.",
+          "value": "casual football fan who follows the Browns and Seahawks",
+          "lines": [
+            41,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions quitting pickup soccer with her sister because her sister was too aggressive and dirty.",
+          "value": "used to play pickup soccer with her sister",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she sends Seahawks-themed sweaters to her parents' dog.",
+          "value": "sends Seahawks-themed gifts to her parents' dog",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Discloses she started doing Prolific (online surveys/studies) more often.",
+          "value": "participates in online studies via Prolific",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has stepped in twice to substitute at a Montessori school when called individually.",
+          "value": "occasionally substitutes at a Montessori school",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Sent her son to a Montessori school for ages 3 to 6.",
+          "value": "sent son to Montessori preschool",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she will probably edit her son's English paper later.",
+          "value": "edits her son's school papers",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Reflects that she apparently is not as much of a go-getter as she thought, noting she hasn't written a novel or tackled big projects.",
+          "value": "describes herself as not very ambitious",
+          "lines": [
+            277,
+            279
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I'm pretty much in quarantine' because COVID numbers are bad in Cleveland.",
+          "value": "quarantining during the COVID-19 pandemic",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'jay'.",
+          "value": "Jay",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explains he moved to Virginia three years ago for his wife's work, lives just outside the district (Washington D.C.), across the river, and sees the Washington Monument when running errands. He visits the district about once a month.",
+          "value": "lives in Northern Virginia near Washington D.C., across the Potomac River",
+          "lines": [
+            132,
+            156,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I work with my hands. I'm a painter.' and later clarifies he paints houses.",
+          "value": "house painter",
+          "lines": [
+            220,
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I went to school for graphic design'.",
+          "value": "studied graphic design",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Worked as a graphic designer for about five years before getting burned out.",
+          "value": "former graphic designer",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly mentions 'my wife'.",
+          "value": "married",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I definitely had a number of concussions from playing like sandlot ball' as a kid.",
+          "value": "history of concussions from childhood football",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Says his wife is a teacher; later specifies she teaches kindergarten at a Title 1 public school and they are returning to hybrid in-person teaching.",
+          "value": "wife is a kindergarten teacher at a Title 1 public school",
+          "lines": [
+            134,
+            296,
+            298,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States they moved to Virginia three years ago for his wife's work.",
+          "value": "moved to Virginia for wife's job",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains his mother did not allow him to play organized football because she saw how many injuries his uncle (her brother) got in high school.",
+          "value": "mother forbade him from playing organized football",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions his mother's brother (his uncle) played high school football and had multiple injuries.",
+          "value": "uncle played high school football and had many injuries",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When recounting graphic-design client frustrations, mentions 'my nephew drew this'.",
+          "value": "has a nephew",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I like the philadelphia eagles' and plans to watch them play at 1 o'clock, hoping they beat the Giants.",
+          "value": "fan of the Philadelphia Eagles",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is 'usually up very early' but slept in a little that Sunday morning.",
+          "value": "usually an early riser",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes playing pickup football games in the neighborhood as a kid (sandlot ball).",
+          "value": "played pickup tackle football as a child",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions he needs to do some laundry and that they did most of the cleaning chores yesterday.",
+          "value": "does household chores like laundry and cleaning on weekends",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he is in the district (Washington D.C.) about once a month.",
+          "value": "visits Washington D.C. about once a month",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses conflict about enjoying football while being aware of CTE and the danger of repeated hits.",
+          "value": "concerned about brain injuries in football",
+          "lines": [
+            50,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he and his wife discuss education often.",
+          "value": "frequently discusses education with his wife",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains he got burned out doing graphic design for five years and now paints houses, which he loves for the immediate gratification.",
+          "value": "switched from graphic design to house painting for job satisfaction",
+          "lines": [
+            222,
+            234,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to signing up for studies and waiting to be matched, indicating participation in online research studies (likely Prolific).",
+          "value": "participates in online research studies",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

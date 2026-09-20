@@ -1,0 +1,391 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'I'm sam' in line 15, giving their first name.",
+          "value": "Sam",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When asked where they are from, speaker_a says 'I'm from pussy Tennessee' (line 21). The intended location is Tennessee, with the ASR misrecognizing a specific city name.",
+          "value": "Tennessee",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b guesses University of Tennessee then corrects to Georgia, Athens, and speaker_a confirms. Speaker_a also says they live off campus (line 139). Thus speaker_a lives in Athens, Georgia for college.",
+          "value": "Athens, Georgia",
+          "lines": [
+            66,
+            67,
+            68,
+            139
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'it was the first day of classes' (25) and 'it's the second year' (49); speaker_b calls them 'sophomore at Georgia' (200).",
+          "value": "Second-year (sophomore) college student",
+          "lines": [
+            25,
+            49,
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm doing environmental report science right now' (47). Intended major is Environmental Science.",
+          "value": "Environmental Science major",
+          "lines": [
+            47
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked about loans, speaker_a says 'Um A little bit.' (257), indicating they have some student loans.",
+          "value": "has some student loans",
+          "lines": [
+            257
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my boyfriend's going to state school in Tennessee' (277).",
+          "value": "has a boyfriend",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my cousin goes to school in Cali' (267).",
+          "value": "has a cousin attending school in California",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my cousin has like eight a.m. classes and she's failing a lot of them' (163). This may be the same or a different cousin.",
+          "value": "has a female cousin failing 8am classes",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my parents' (257).",
+          "value": "has parents",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they live off campus now (139) in contrast to last year.",
+          "value": "lives off campus",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about free time, speaker_a says 'Probably just hang out with friends' (91).",
+          "value": "spends free time with friends",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Regarding sports, speaker_a says 'I don't really keep up with it' (73).",
+          "value": "does not follow sports",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses payment and time tracking for the conversation (105, 295), indicating they participate in a paid conversation platform.",
+          "value": "participates in paid conversation platform",
+          "lines": [
+            105,
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'I'm rick' (16), giving his first name.",
+          "value": "Rick",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm from Florida Delray Beach' (22) and 'I'm at home right now but I'm in florida' (24).",
+          "value": "Delray Beach, Florida",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm originally from New Jersey' (190).",
+          "value": "originally from New Jersey",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to coastal Caroline' (58, meaning Coastal Carolina University) and 'I was in Myrtle beach' (64).",
+          "value": "Myrtle Beach, South Carolina (college)",
+          "lines": [
+            58,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'when I was working up in New Jersey' (216), indicating past work location.",
+          "value": "previously worked in New Jersey",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'at 41' (102) in context of running around a court.",
+          "value": "41 years old",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Rick and the statement 'no wife' (220) strongly imply male gender.",
+          "value": "male",
+          "lines": [
+            220
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I have no wife, no kids, no dependence' (220).",
+          "value": "single, no children",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes working for the I.L.A. and with big cargo ships (30), and got the job through his buddy's father who is the president (36).",
+          "value": "shipping/longshoreman",
+          "lines": [
+            30,
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'the union has great insurance' (218), indicating union membership.",
+          "value": "union member (ILA)",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he graduated, and mentions 'political science' (32) as his degree. He also says he did nothing with it.",
+          "value": "Bachelor's degree in Political Science",
+          "lines": [
+            28,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'my back, I had a fuse from a car accident when I was a kid' (60).",
+          "value": "fused back from childhood car accident",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he bought a condo near college (61).",
+          "value": "owns a condo in Myrtle Beach, SC",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the shipping job has 'good pay good benefits' (38).",
+          "value": "good pay and benefits from shipping job",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I graduated with no debts' (262).",
+          "value": "graduated college with no debt",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions making extra spending money on the app (20) and discusses payment rate (106).",
+          "value": "earns extra money via paid conversation app",
+          "lines": [
+            20,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b talks about his little cousin posting on Facebook (52) and later names her Kaya from northern Florida (174).",
+          "value": "cousin named Kaya (female, student in North Florida)",
+          "lines": [
+            52,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'her brother graduated though he went to florida state' (174), indicating another cousin.",
+          "value": "male cousin (Kaya's brother) who graduated from Florida State",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My body's father is the president' (36, 'buddy'), describing a friend who is son of the company president.",
+          "value": "friend whose father is the president of his company",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says 'no wife, no kids' (220).",
+          "value": "no spouse or children",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I played baseball. Golf.' (96) and discusses golf at length (82-86).",
+          "value": "plays baseball and golf",
+          "lines": [
+            96,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions rooting for Coastal Carolina and South Carolina Gamecocks (76) and discusses football playoffs (70).",
+          "value": "watches college sports (Coastal Carolina, South Carolina Gamecocks)",
+          "lines": [
+            70,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b grabs coffee mid-call (202) and says he needs a caffeine kick (206).",
+          "value": "drinks coffee regularly",
+          "lines": [
+            202,
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he gets up at 5am for work (212), sometimes works until 7pm or sleeps at work, and works 60-104 hours/week (216).",
+          "value": "works long hours (60+ per week, sometimes overnight)",
+          "lines": [
+            212,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he does the app during downtime at work (114) and to make extra money (20).",
+          "value": "uses paid conversation app for extra income and entertainment",
+          "lines": [
+            20,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions originally from New Jersey, moved to Florida and South Carolina for warmer climate, and enjoys warm weather (190, 284-286).",
+          "value": "prefers warm climate, relocated for warmth",
+          "lines": [
+            190,
+            284,
+            286
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "When asked about his hat, speaker_b says 'That's titles. Golf Tiger moth balls' (80), interpreted as a Titleist golf hat.",
+          "value": "wears a Titleist golf hat",
+          "lines": [
+            79,
+            80
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

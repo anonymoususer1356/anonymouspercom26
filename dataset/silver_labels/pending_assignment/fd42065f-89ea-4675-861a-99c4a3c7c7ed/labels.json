@@ -1,0 +1,452 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 5: speaker says 'I'm Andrew'.",
+          "value": "Andrew",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 13: 'I'm in uh city stop' (the city) meaning New York City; line 159: 'I live down the financial'; line 165 confirms living near John Street after moving from previous place.",
+          "value": "New York City (Financial District, Manhattan)",
+          "lines": [
+            13,
+            159,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 47: 'I'm taking a vacation, I'm going to Utah tomorrow'; line 87 specifies Salt Lake City and Moab.",
+          "value": "Traveling to Utah (Salt Lake City, Moab)",
+          "lines": [
+            47,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 163: 'I lived in the east Village and then I lived in Chelsea for like eight years'.",
+          "value": "Previously lived in East Village and Chelsea, NYC",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 313: 'we're in like 3rd Avenue' referring to the office location.",
+          "value": "Works on 3rd Avenue, New York City",
+          "lines": [
+            313
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 223: 'I'm 31'.",
+          "value": "31 years old",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Andrew and reference to 'my girlfriend' (line 21) conventionally indicate male.",
+          "value": "Male",
+          "lines": [
+            5,
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 35: 'I went to a similar school in Connecticut'; line 209: 'I graduated in 2000 10' (undergrad); line 211: 'I got an MBA'.",
+          "value": "MBA degree; undergraduate degree from a college in Connecticut",
+          "lines": [
+            35,
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 23: 'I work hedge fund'; line 205: 'I do like marketing for a hedge fund'.",
+          "value": "Works in marketing for a hedge fund",
+          "lines": [
+            23,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 227: 'I own a bunch of apartments to in Westchester'; line 245: 'I'm buying an apartment building up in White Plains'.",
+          "value": "Landlord / real estate investor",
+          "lines": [
+            227,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 157: 'We pay like 4000 now' for a one-bedroom in the Financial District.",
+          "value": "Pays approximately $4000 per month in rent",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 227, 245 state he owns multiple apartments in Westchester and is buying a building in White Plains.",
+          "value": "Owns rental units in Westchester; buying an apartment building in White Plains",
+          "lines": [
+            227,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 69, 71, 247, 255: recommends usertesting.com, made about $1000, also mentions IntelliZoom.",
+          "value": "Side income from online user testing (e.g., usertesting.com, IntelliZoom)",
+          "lines": [
+            69,
+            71,
+            247,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 55: 'we don't get paid out for our [vacation days]'.",
+          "value": "Employer does not pay out unused vacation days",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 305-307: his firm fired the compliance guy to cut costs; speaker_a says 'I didn't get a pay cut'.",
+          "value": "No pay cut during pandemic; firm reduced costs by laying off a high-paid employee",
+          "lines": [
+            305,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 21: 'I live with my girlfriend'; lines 163,165 describe living with her and moving from John Street.",
+          "value": "Has a girlfriend, lives with her in NYC",
+          "lines": [
+            21,
+            163,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 227: 'we'll probably get engaged next year'.",
+          "value": "Planning to get engaged next year",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 19: 'my parents are out of Long Island'.",
+          "value": "Parents live on Long Island, NY",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 313: boss is retiring and moving to California.",
+          "value": "Boss is retiring and relocating to California",
+          "lines": [
+            313
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 47, 87: going to Utah to fly into Salt Lake, Moab, fish, drink, chill.",
+          "value": "Enjoys outdoor vacations (fishing, drinking) in Utah",
+          "lines": [
+            47,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 95: grew up going to Hamptons; line 113: usually goes to Montauk.",
+          "value": "Frequent visitor to Long Island's East End (Montauk, Hamptons)",
+          "lines": [
+            95,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 259: 'we can only go on runs or work out like once a day'.",
+          "value": "Works out or runs regularly",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 261, 269, 273: mentions watching Indian Matchmaker, Ozark, Real Housewives of NY on Netflix.",
+          "value": "Watches Netflix series: Indian Matchmaker, Ozark, Real Housewives of NY",
+          "lines": [
+            261,
+            269,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 275: 'I cook more often' because restaurants were closed.",
+          "value": "Cooks at home frequently during pandemic",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 231, 233: partying days done, doesn't go to bars.",
+          "value": "No longer parties or goes to bars frequently",
+          "lines": [
+            231,
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 6: 'I'm Sharon'.",
+          "value": "Sharon",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 10: 'I'm in pennsylvania right now'; line 22: 'I'm in um near Bethlehem'.",
+          "value": "Pennsylvania, near Bethlehem",
+          "lines": [
+            10,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'I worked in new york city until pandemic... moved back home'; line 140: 'I broke my lease because I just I didn't want to stay in new york'.",
+          "value": "Previously lived in New York City",
+          "lines": [
+            14,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 42: 'I was planning on moving like in january back to new york'.",
+          "value": "Planning to move back to New York City (possibly in January)",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 94: 'my grandma lives out there... her summer houses out there' in Southampton.",
+          "value": "Grandma has a summer house in Southampton, Long Island",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 122: 'my uncle has a place there [Shelter Island]... we usually fly there'.",
+          "value": "Uncle has a house on Shelter Island, accessible by small plane",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 92: 'we're going out to Long Island' for a long weekend.",
+          "value": "Visiting Long Island for a weekend trip",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Sharon conventionally female; no contradictory indicators.",
+          "value": "Female",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 32: 'I graduated um in august last year'; line 34: school 'similar to Villanova'.",
+          "value": "Bachelor's degree (graduated August 2019) from a college similar to Villanova",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 22: 'I do consulting... tech consultant'; line 58: 'I do it for financial institutions'.",
+          "value": "Tech consultant for financial institutions",
+          "lines": [
+            22,
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 280: 'I broke my lease so that also like costed some money'.",
+          "value": "Paid a cost to break her NYC lease",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 280: 'I definitely like save a lot living at home'.",
+          "value": "Saves money by living with parents",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 54: 'I have to use it my vacation days before they expired'.",
+          "value": "Has expiring vacation days",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 302: 'I'm just like hoping I get like a decent raise this year'.",
+          "value": "Hoping for a raise at work",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 162: 'that's where um I wanted to move with my boyfriend actually'; line 190: boyfriend graduated this year, going to grad school in the city, so they will live together.",
+          "value": "Has a boyfriend; he is attending grad school in NYC and they plan to live together there",
+          "lines": [
+            162,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 94, 122: grandma in Southampton, uncle on Shelter Island.",
+          "value": "Extended family (grandma, uncle) have properties in Long Island/Shelter Island",
+          "lines": [
+            94,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'I just moved back home' implying she lives with parents in PA.",
+          "value": "Lives with parents in Pennsylvania",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 136-138: friends are in Boston, New York, Chicago; none in Pennsylvania.",
+          "value": "Friends scattered across Boston, NYC, Chicago",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 66: 'I get to like go for a run if I wanted to'.",
+          "value": "Enjoys running and exercising",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 98, 100: kayaks at night at grandma's with a light; house is right on the water.",
+          "value": "Enjoys nighttime kayaking on the bay at Southampton",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 278: 'I've been doing a lot of baking'.",
+          "value": "Bakes frequently",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 264: recommends Black Mirror, indicating she watches it.",
+          "value": "Watches the series Black Mirror",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 144: preferred living alone rather than with five other people.",
+          "value": "Prefers solitary living arrangements",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

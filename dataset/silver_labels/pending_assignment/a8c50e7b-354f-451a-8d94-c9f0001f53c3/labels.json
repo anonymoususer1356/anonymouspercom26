@@ -1,0 +1,270 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I live in texas' (line 61) and specifies 'I live in san Antonio' (line 65).",
+          "value": "San Antonio, Texas",
+          "lines": [
+            61,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I was that millennial that decided to get on Tiktok' (line 151), identifying herself as a millennial.",
+          "value": "millennial",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a works from home doing social media for a party store. She says 'I work for a party store and basically run out over social media' (line 299), 'I work from home' (line 35, 301), and her hours were cut from full-time to 'like four hours a week' (line 303). She also states 'I work in social media' (line 177).",
+          "value": "social media manager for a party store, work from home, ~4 hours/week",
+          "lines": [
+            35,
+            177,
+            299,
+            301,
+            303
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions her aunt in Colorado: 'that's how my aunt is with Colorado. She's like you should just move here to Denver.' (lines 99-101).",
+          "value": "aunt in Denver, Colorado",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about her dog and gives his age: 'I don't know where my dog is right now' (line 227) and 'He's eight. He's like an older dog.' (line 231).",
+          "value": "dog, 8 years old",
+          "lines": [
+            227,
+            231
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'if I were to choose a favorite band, probably be my chemical romance' (line 275).",
+          "value": "My Chemical Romance (favorite band)",
+          "lines": [
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes herself as a millennial on TikTok and mentions using the app (line 151, also lines 167, 169).",
+          "value": "active on TikTok",
+          "lines": [
+            151,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I like hanging out at happy hour' and has been experimenting with a bottle of gin at home (lines 329-333).",
+          "value": "enjoys craft cocktails and gin",
+          "lines": [
+            329,
+            331,
+            333
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I read a lot of books' and mentions hearing something on a podcast (line 55).",
+          "value": "reads books and listens to podcasts",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been watching Emily in paris' (line 55).",
+          "value": "watched Emily in Paris",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b initially says 'Oh I live in texas' (line 62) and then specifies 'I moved here like three years ago now mm Lufkin that's like three out, two hours north of Houston' (line 64). Later she calls it 'this small town' (line 96). Although later talk of Chicago creates some ambiguity, her explicit statements place her current home in Lufkin, Texas.",
+          "value": "Lufkin, Texas",
+          "lines": [
+            62,
+            64,
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in Chicago' (line 96).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked where she is from, speaker_b says 'Yeah I'm from Richmond thing' (line 58). The ASR 'thing' likely is 'Texas' or a trailing word; Richmond could be Richmond, Texas (near Houston) or Richmond, Virginia. The exact location is uncertain.",
+          "value": "Richmond (likely Texas or Virginia)",
+          "lines": [
+            58
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b describes her current job: 'selling eyeglasses, like fitting them' (line 290). She earlier mentions retail 'like Nordstrom' (line 40) and says she just started work (line 38) with a schedule 'mostly whenever but in the morning' (line 44).",
+          "value": "eyeglass retailer/fitter",
+          "lines": [
+            290,
+            38,
+            40,
+            44
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says her job transitioned 'from like um Bath and Body works to like selling eyeglasses' (line 290).",
+          "value": "previously worked at Bath and Body Works",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains that she was eligible for unemployment and that her start date was in March, qualifying her for extended benefits (lines 308-311).",
+          "value": "received unemployment benefits, job start date delayed to March",
+          "lines": [
+            308,
+            310
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b talks extensively about her cat: 'She's two, Maybe 3' (line 104), 'Her name is Neil' (line 106), 'she's missing two teeth because she likes getting into plastic bags' (line 112). Pronouns confirm female cat.",
+          "value": "cat named Neil, female, 2-3 years old, missing two teeth",
+          "lines": [
+            104,
+            106,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my neighbor, I started hanging out with her since it's Just her and her baby' (line 196) and mentions walking to the park with them (line 198).",
+          "value": "neighbor with a baby, spends time together",
+          "lines": [
+            196,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In talking about moving to Chicago, speaker_b says 'my ass like, you know what, Come live with me' (line 96). The ASR 'ass' is phonetically close to 'aunt', and context confirms a family member offering her a place to stay.",
+          "value": "aunt in Chicago",
+          "lines": [
+            96
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says her favorite band 'right now it's probably still fall out boy' (line 246) and lists songs 'immortals dance, dance and uh let's see… Oh 27' (line 252).",
+          "value": "favorite band Fall Out Boy, top songs Immortals, Dance Dance, 27",
+          "lines": [
+            246,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked for a second favorite band, speaker_b says 'Panic at the disco' (line 268).",
+          "value": "also likes Panic at the Disco",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaking about her plants, speaker_b says 'I live in a basement apartment so they don't get a lot of light' (line 140).",
+          "value": "lives in a basement apartment",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about a perfect day in Chicago, speaker_b says 'I like spending my time in park, so it's like probably go ice skating at a park or try to do something outdoorsy' (line 190) and later explains she needs a friend to motivate her (lines 196-198).",
+          "value": "enjoys parks and ice skating, needs social motivation",
+          "lines": [
+            190,
+            196,
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I don't like cooking either' (line 318), 'I snack throughout the day' (line 320), 'probably like cookies or something' (line 322), and 'Just sandwiches' (line 324).",
+          "value": "does not cook, prefers snacks like cookies and sandwiches",
+          "lines": [
+            318,
+            320,
+            322,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The ASR 'in no homes' (line 52) is phonetically close to 'Enola Holmes'. Combined with the later discussion of the Sherlock Holmes estate lawsuit, the intended movie is clearly Enola Holmes. She says it was the last movie she watched and she really liked it.",
+          "value": "watched the movie Enola Holmes",
+          "lines": [
+            52
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "The ASR 'the haunting of my house' (line 50) is a common garbling of the Netflix series 'The Haunting of Hill House'. She says she has been wanting to watch it.",
+          "value": "wants to watch The Haunting of Hill House",
+          "lines": [
+            50
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

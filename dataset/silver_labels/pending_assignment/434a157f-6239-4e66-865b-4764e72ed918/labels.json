@@ -1,0 +1,358 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name and spells it: 'My name is Burhanuddin', then spells 'Bur H A N' and 'You D D I M' (intended U D D I N).",
+          "value": "Burhanuddin",
+          "lines": [
+            285,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a provides his phone number when exchanging contacts, reading '832 289 UG 1051' (UG likely misheard digits).",
+          "value": "832 289 UG 1051",
+          "lines": [
+            291
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I went to U.T. Austin here in texas', placing himself in Texas.",
+          "value": "Texas",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'We used to live in Kansas'.",
+          "value": "Kansas (past)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says his mother is from India and father from Pakistan, and he speaks Gujarati and Hindi at home.",
+          "value": "South Asian (Indian and Pakistani heritage)",
+          "lines": [
+            111,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just finished with college. I went to U.T. Austin' and 'I studied biochemistry and then I had a minor in Arabic'.",
+          "value": "Recent college graduate from UT Austin (biochemistry major, Arabic minor)",
+          "lines": [
+            53,
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a explicitly states his mother is from India and father from Pakistan.",
+          "value": "Parents: mother from India, father from Pakistan",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'a really good friend of mine who... has been increasingly radicalized in the left direction'.",
+          "value": "Close friend who is a leftist",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a lists languages he has learned and speaks at home: English, Spanish, German, Arabic, Gujarati, Hindi, and Urdu (ASR 'in order' in line 65 likely 'and Urdu').",
+          "value": "Speaks English, Spanish, German, Arabic, Gujarati, Hindi, Urdu",
+          "lines": [
+            63,
+            65,
+            67,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I can't really plan them... if I'm feeling it I'm feeling it' about naps.",
+          "value": "Takes sporadic naps",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a confirms 'Yes bro' when asked if he uses WhatsApp.",
+          "value": "Uses WhatsApp",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In line 116 speaker_b says 'make sure Valeria speak spanish' referring to herself; in line 296 she says her name is 'malaria' (ASR mishearing of Valeria).",
+          "value": "Valeria",
+          "lines": [
+            116,
+            296
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'We're in florida' and later 'I'm from Miami florida'.",
+          "value": "Miami, Florida",
+          "lines": [
+            56,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it was going to school in colorado'.",
+          "value": "Colorado (for school)",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm from peru' and discusses her immigration.",
+          "value": "Peru (origin)",
+          "lines": [
+            92,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b identifies as being from Peru, i.e., Peruvian and Hispanic.",
+          "value": "Peruvian, Hispanic",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'spanish... it's my native language'.",
+          "value": "Native Spanish speaker",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I came here when I was like 4.5'.",
+          "value": "Immigrated to US at age 4.5",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions taking a gap year after school, studying Russian and linguistics, and being in training now.",
+          "value": "College student (studied Russian and linguistics, currently on gap year volunteer training)",
+          "lines": [
+            26,
+            30,
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b declares 'I'm also a very big leftist'.",
+          "value": "Leftist political views",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes losing weight during CS classes due to stress and poor eating, and notes she has always been skinny.",
+          "value": "Lost weight during stressful CS classes; naturally skinny",
+          "lines": [
+            128,
+            130,
+            132,
+            134
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b states she immigrated from Peru to the US at age 4.5.",
+          "value": "Immigrant from Peru (entered US at age 4.5)",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her boyfriend multiple times, saying he is half-Hispanic and learning Spanish.",
+          "value": "Boyfriend (half-Hispanic, learning Spanish)",
+          "lines": [
+            80,
+            84,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mother came to the US from Peru at 18 and had her young.",
+          "value": "Mother (immigrated from Peru at 18)",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b talks about a friend from Pakistan she met in Russia; ASR renders as 'a base' likely 'a friend'.",
+          "value": "Friend from Pakistan",
+          "lines": [
+            70,
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes a Russian professor who was a mentor figure.",
+          "value": "Russian professor mentor",
+          "lines": [
+            190,
+            192
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b is in training for a volunteer program working with kids in public schools; she mentions 'America or it's like peace' (likely AmeriCorps or Peace Corps).",
+          "value": "Training for a school support volunteer program (like AmeriCorps)",
+          "lines": [
+            14,
+            16,
+            22,
+            24
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says Spanish is her native language, she studied French in high school and Russian in college, and speaks English.",
+          "value": "Speaks Spanish (native), English, Russian, French",
+          "lines": [
+            70,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'afternoon naps are the best' and talks about napping.",
+          "value": "Enjoys afternoon naps",
+          "lines": [
+            4,
+            6,
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes studying abroad in Russia, staying in St. Petersburg and Moscow.",
+          "value": "Studied abroad in Russia (St. Petersburg and Moscow)",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b ends the call saying 'I need to cook and it early dinner time now'.",
+          "value": "Cooks meals",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks 'do you use WhatsApp?' and then says 'Okay, awesome', implying she uses it.",
+          "value": "Uses WhatsApp",
+          "lines": [
+            278
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b discusses coding in Python, C++, and Java, and having coded throughout high school.",
+          "value": "Has coding experience (Python, C++, Java)",
+          "lines": [
+            36,
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks 'Do you particularly like Russian literature?' and speaker_b responds affirmatively and says it got her into the field.",
+          "value": "Enjoys Russian literature",
+          "lines": [
+            35,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I actually went there when I had like super short hair and like looked very alternative'.",
+          "value": "Had short hair and alternative look (during Russia trip)",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I've always been like a skinny kid'.",
+          "value": "Skinny build",
+          "lines": [
+            130
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

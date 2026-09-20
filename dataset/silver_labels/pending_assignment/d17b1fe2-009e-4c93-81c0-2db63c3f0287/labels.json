@@ -1,0 +1,198 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says they are from New York (line 59), lives about 1.5 hours outside NYC (line 63), in an upstate suburb/country area (lines 97-101), and estimates their town population at around 10,000 (line 143).",
+          "value": "Upstate New York, approximately 1.5 hours outside New York City, in a town of about 10,000 people.",
+          "lines": [
+            59,
+            63,
+            97,
+            101,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a train that runs through their city directly to New York City, which they used before Covid.",
+          "value": "Has a direct train line to New York City from their town.",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they have multiple airports very close to them (line 111).",
+          "value": "Lives near multiple airports.",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says they graduated with a music degree after returning to school (lines 189, 191).",
+          "value": "College graduate (music degree).",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions attending college for forensic anthropology and dropping out in the final year (lines 177, 179).",
+          "value": "Former forensic anthropology student (dropped out).",
+          "lines": [
+            177,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'we own like property and stuff' when describing their living situation (line 101).",
+          "value": "Owns property.",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states they now work in the music field, landed a job in July during the pandemic, and the company is doing all right (lines 189, 191, 197, 201).",
+          "value": "Employed in the music field since July (of the pandemic year).",
+          "lines": [
+            189,
+            191,
+            197,
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states they have family living in New York City, whom they used to visit (line 109).",
+          "value": "Has family members residing in New York City.",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeated use of 'we' in relation to owning property, staying home, and wanting to travel suggests speaker_a lives with a partner or family (lines 101, 139, 141).",
+          "value": "Lives with a partner or family (cohabitates).",
+          "lines": [
+            101,
+            139,
+            141
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes being in a band, singing, traveling the country for about three years, signing to a label, and eventually leaving to study music (lines 187, 267, 269).",
+          "value": "Former touring musician (sang in a band for ~3 years, traveled the US).",
+          "lines": [
+            187,
+            267,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates they used to go into New York City frequently before Covid, using the train or driving (lines 103, 109).",
+          "value": "Used to visit New York City regularly before Covid.",
+          "lines": [
+            103,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses strong enthusiasm for Nashville, Tennessee, specifically citing the chicken fingers as a highlight, suggesting a food-oriented travel interest (line 277).",
+          "value": "Enjoys food tourism, particularly chicken fingers in Nashville.",
+          "lines": [
+            277
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b confirms they are from Hawaii when prompted (lines 55-56), mentions being outside the city (likely Honolulu, line 62), and describes their town as small but 'the shotgun biggest town' (likely 'second biggest town', ASR error), with a garbled name 'Marcia bourbon' (line 94). They also discuss the humid, not always sunny weather (line 88).",
+          "value": "Hawaii, outside the main city (likely Honolulu), in a small town (reportedly the second largest on the island, possibly named something like 'Marcia bourbon' but unclear).",
+          "lines": [
+            55,
+            56,
+            62,
+            82,
+            88,
+            92,
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states they are a college student and lists their majors (lines 148, 150).",
+          "value": "College student (triple major: chemistry, biology, sociology).",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they work in student government, requiring weekly campus visits (line 166).",
+          "value": "Works in student government.",
+          "lines": [
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states they work in a biology lab, going in about four times a week (line 168).",
+          "value": "Works in a biology lab.",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes taking online college classes but still going to campus several times a week for student government and lab work (lines 158, 162, 166, 168). They also mention living in a humid climate (line 88).",
+          "value": "Attends college online, goes to campus regularly for student government and lab work; lives in a humid tropical climate.",
+          "lines": [
+            158,
+            162,
+            166,
+            168,
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

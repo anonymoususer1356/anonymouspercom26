@@ -1,0 +1,430 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker a states their name when greeting speaker b.",
+          "value": "Sam",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker a says they are on the east coast, in Massachusetts, lives in a rural part of the state, and refers to it as 'the boonies'.",
+          "value": "Lives in rural Massachusetts",
+          "lines": [
+            25,
+            31,
+            145,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they grew up in New York.",
+          "value": "Grew up in New York",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions living in Spain for a couple of years, specifically Southern Spain and the Canary Islands.",
+          "value": "Lived in Spain",
+          "lines": [
+            83,
+            177,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a states they are going to the Dominican Republic for 10 days at the end of January.",
+          "value": "Planned trip to Dominican Republic",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker a says they picked up Spanish and lived in Spanish-speaking countries, indicating language proficiency.",
+          "value": "Speaks Spanish",
+          "lines": [
+            177,
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker a mentions attending college in Massachusetts.",
+          "value": "Attended college",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker a states they bought a house this past year together with their mother.",
+          "value": "Homeowner (co-owner with mother) of a farmhouse",
+          "lines": [
+            27,
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a describes the property as a multi-family with rental units.",
+          "value": "Owns a multi-family property with rental units",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they worked for a campaign finance reform organization doing political research.",
+          "value": "Former political researcher for campaign finance reform",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions completing a handyman apprenticeship.",
+          "value": "Former handyman apprentice",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a states they have owned a car since junior year of high school and drives about 20,000 miles per year.",
+          "value": "Owns a car and drives extensively",
+          "lines": [
+            145,
+            149
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker a says their mother co-bought the house and is involved in the renovation.",
+          "value": "Has a mother",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions their brother being a big gamer.",
+          "value": "Has a brother",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a refers to a friend who bred rats.",
+          "value": "Has a friend who breeds rats",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker a expresses enjoyment in renovating their house and says the handyman apprenticeship was more fun than office work.",
+          "value": "Enjoys home renovation and handyman work",
+          "lines": [
+            27,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a describes themselves as an itinerant traveler who has lived abroad and worked remotely while traveling.",
+          "value": "Frequent traveler, has lived abroad",
+          "lines": [
+            83,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they kept dwarf rats as pets and trained them to do tricks and use a litter box.",
+          "value": "Kept and trained pet rats",
+          "lines": [
+            83,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a indicates they played Halo and Call of Duty in the past.",
+          "value": "Played video games (Halo, Call of Duty)",
+          "lines": [
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker a states they put about 20,000 miles on their car per year due to living in a rural area.",
+          "value": "Drives extensively (~20,000 miles/year)",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they are thinking about getting a cat or chickens.",
+          "value": "Considering getting a cat or chickens",
+          "lines": [
+            85,
+            89
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker a describes participating in a Rotary exchange program to the Canary Islands in high school.",
+          "value": "Participated in Rotary exchange program to Canary Islands",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions they worked remotely while traveling.",
+          "value": "Has worked remotely",
+          "lines": [
+            177
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker b introduces themselves by name at the start of the conversation.",
+          "value": "James",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker b says they live in Portland, Oregon, specifying it is the Oregon one, not Maine.",
+          "value": "Lives in Portland, Oregon",
+          "lines": [
+            18,
+            22,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b states they are originally from California, later clarifying southern California.",
+          "value": "Originally from Southern California",
+          "lines": [
+            18,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b mentions living in Bend, central Oregon, before moving to Portland.",
+          "value": "Previously lived in Bend, Oregon",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b attended Landmark College in Vermont for students with learning disabilities.",
+          "value": "Attended Landmark College in Vermont",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says they went to London for a study abroad trip.",
+          "value": "Studied abroad in London",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker b says they were a groomsman at a friend's wedding, a role typically held by men.",
+          "value": "Male",
+          "lines": [
+            116
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker b states they have ADD and attended a college for the learning disabled.",
+          "value": "Has Attention Deficit Disorder (ADD)",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker b explicitly says they do not have a driver's license and never passed the test.",
+          "value": "No driver's license",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker b states they are unemployed and looking for work.",
+          "value": "Unemployed",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b describes living in an apartment building, implying tenant status.",
+          "value": "Rents an apartment",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker b says they do not have a car to practice with and rely on public transit.",
+          "value": "No car ownership",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker b mentions parents several times in relation to upbringing and pets.",
+          "value": "Has parents",
+          "lines": [
+            26,
+            102,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b names their friend Justin, whose wedding they were a groomsman in, and who has a wife and baby.",
+          "value": "Close friend Justin (married, has a baby)",
+          "lines": [
+            114,
+            116,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says they have friends who keep pet rats.",
+          "value": "Has friends who own pet rats",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker b describes playing many video games, including RPGs, RuneScape, WoW, and Death Stranding.",
+          "value": "Avid gamer (RPGs, MMOs, action games)",
+          "lines": [
+            52,
+            60,
+            66,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b learned to code, attended a code school, and hopes to become a game developer.",
+          "value": "Learned coding, aspires to be a game developer",
+          "lines": [
+            34,
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b uses public transit and previously biked everywhere; does not drive.",
+          "value": "Relies on public transit and biking",
+          "lines": [
+            136,
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b expresses a preference for jobs that are not customer-facing.",
+          "value": "Dislikes customer-facing work",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says they currently have no pets.",
+          "value": "No current pets",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b states they have always wanted a dog.",
+          "value": "Wants a dog",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker b mentions taking Latin in high school.",
+          "value": "Studied Latin in high school",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

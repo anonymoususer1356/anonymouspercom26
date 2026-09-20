@@ -1,0 +1,454 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 7: 'I'm marissa'. Line 363 speaker_a says 'Um brisa' (ASR error for Marissa). Speaker_b then says 'I forgot Marissa' (364).",
+          "value": "Marissa",
+          "lines": [
+            7,
+            363,
+            364
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 23: 'I'm from new york'. Line 113 clarifies she does not live in New York City but 'a little bit far away from it'. Line 347 says her mom works at 'stony brook hospital' which is 'really close to home', so she lives near Stony Brook, NY.",
+          "value": "New York, near Stony Brook, not in New York City",
+          "lines": [
+            23,
+            113,
+            347
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 175: 'I'm in college, I'm going into my second year so.'",
+          "value": "College student, second year",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Marissa is typically female.",
+          "value": "Female",
+          "lines": [
+            7,
+            363
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "When asked if she had COVID-19, line 101: 'no, I haven't thankfully'.",
+          "value": "Has not contracted COVID-19",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 73: 'I had a job before Covid started and I had to, they like cut me when I when it all happened and I'm still trying to get back'.",
+          "value": "Lost part-time job due to COVID-19 pandemic",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 17: brother told her about Prolific as a way to make extra money. Line 207: 'I signed up for focus group dot org'. Line 209 describes doing these for money.",
+          "value": "Participates in online surveys and focus groups for extra money (Prolific, focus group .org)",
+          "lines": [
+            17,
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 307: 'I have sometimes uh like part time over summers and stuff just to get extra work experience or get some extra money' when asked about working at her dad's store.",
+          "value": "Works part-time at father's liquor store occasionally (e.g., summers)",
+          "lines": [
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 141: 'I live with both of my parents'. As a college student with only part-time work, she is likely financially dependent.",
+          "value": "Lives with parents, likely financially dependent",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 261: 'I've got three brothers'.",
+          "value": "Has three brothers",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 165-166: 'The only one who like lives kind of far away is my brother. Um He's got an apartment in the city' (NYC). Line 17: brother found Prolific and told her. Line 243: 'he bought himself a VR headset with the money that he earned from it'.",
+          "value": "One brother lives in New York City; he participates in online surveys and bought a VR headset with earnings",
+          "lines": [
+            165,
+            166,
+            17,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 261: 'two of them went into like computer programming and engineering and stuff'.",
+          "value": "Two brothers work in computer programming/engineering",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 87: 'my mom too because she works at the hospital' (essential). Line 89: 'she works in flow saitama tree' (flow cytometry). Line 347: 'stony brook hospital she goes there so it's like really close to home'.",
+          "value": "Mother works at Stony Brook Hospital lab (flow cytometry), essential worker during COVID-19",
+          "lines": [
+            87,
+            89,
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 291: 'he he owns a liquor store'. Line 275: 'my dad he owns a store'.",
+          "value": "Father owns a liquor store",
+          "lines": [
+            275,
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 169: 'his girlfriend works at the hospital' (referring to brother).",
+          "value": "Brother's girlfriend works at a hospital",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 101: 'the only person I know who's gotten it was my friends like uncle and some of her cousins got it'.",
+          "value": "Has a friend whose uncle and cousins contracted COVID-19",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 165: when asked if close with family, replies 'Yeah we all stay pretty close'.",
+          "value": "Is close with her family",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 139: 'I used to rock climbing a lot and obviously I stopped when all this happened'. Despite gym reopening, she won't go back because she lives with older parents (line 141).",
+          "value": "Used to rock climb but stopped due to COVID-19; won't return yet despite gym reopening because she lives with older parents",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 45, 47: loved snow as a child but now has to shovel it and hates it. Line 49: 'I'm definitely more of a like spring and summer person'.",
+          "value": "Dislikes snow and winter; prefers spring and summer; finds shoveling snow burdensome",
+          "lines": [
+            45,
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 309: 'I'm not a very big drinker so I have no idea what to tell them' (about wine).",
+          "value": "Not a heavy drinker; has limited knowledge about alcohol",
+          "lines": [
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 41: 'I've taken like vacations to like Italy or Canada or something'.",
+          "value": "Has traveled to Italy and Canada on vacation",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 41: 'I was interested in like maybe studying abroad some year or something like that'.",
+          "value": "Interested in studying abroad",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 209, 211: explains she hasn't done many Zoom calls because they last hours and she likes 'just taking short surveys'.",
+          "value": "Prefers short surveys over long Zoom calls for focus groups",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 371: 'Yes I wrote it down on my phone' (Opinion Outpost recommendation).",
+          "value": "Uses phone to write notes",
+          "lines": [
+            371
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 61: 'I'll be driving and I just feel the back of my car starts sliding a little bit'.",
+          "value": "Drives a car; has experienced sliding on snow while driving",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 71: 'with Covid and everything going on, I've just spent so much time in the house like not doing anything'.",
+          "value": "Staying home a lot due to COVID-19 pandemic",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 269: 'I was trying to do something maybe with psychology ... or like biology or something like that, but I'm not exactly sure what kind of job'.",
+          "value": "Considering studying psychology or biology in college, but undecided on major",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 12: 'I'm Sheila.'. Line 366 speaker_b says 'She left' (ASR for Sheila), which speaker_a acknowledges ('Yes you did tell me that').",
+          "value": "Sheila",
+          "lines": [
+            12,
+            366
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 24: 'I'm from Arkansas.' Line 118: 'I just live in a country side'.",
+          "value": "Lives in Arkansas, countryside",
+          "lines": [
+            24,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 26: 'I'm really from the Philippines, like mm A year ago.' Line 160: 'that's when I flew there, it's like a year ago here'.",
+          "value": "Originally from the Philippines; moved to the US about one year ago",
+          "lines": [
+            26,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Sheila is typically female.",
+          "value": "Female",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 26: 'I'm really from the Philippines'.",
+          "value": "Filipino",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'My husband's using it to'.",
+          "value": "Married",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 26 and 28 describe moving from the Philippines to the US a year ago.",
+          "value": "Immigrant to the United States",
+          "lines": [
+            26,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "When asked if she knows anyone with COVID-19, she says 'Not really. It wasn't that bad in my area.' (line 104).",
+          "value": "Has not contracted COVID-19; does not know anyone personally who had it",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 214: 'I kind of like if it's like a video it's like oh like it kind of makes me anxious.'",
+          "value": "Experiences anxiety with video calls",
+          "lines": [
+            214
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 80: 'I work at the laundromat'.",
+          "value": "Works at a laundromat",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 196: 'Actually I work for them. They own the business.' (husband's family).",
+          "value": "The laundromat is owned by her husband's family; she works for them",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: husband uses Prolific. Line 222: 'I tried opinion outpost'. Line 228: 'I tried it like last year maybe december and I made a lot'.",
+          "value": "Participates in online surveys for extra money (Prolific, Opinion Outpost); earned a lot on Opinion Outpost last December",
+          "lines": [
+            14,
+            222,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 16: 'he's the one who referred it to me' (husband).",
+          "value": "Husband referred her to Prolific",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 257-258: speaker_a asks about husband in IT, speaker_b confirms 'He like fixes, stuff, computer problems and stuff'.",
+          "value": "Husband works in IT/computer repair",
+          "lines": [
+            257,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 196: husband's family owns the laundromat where she works.",
+          "value": "Husband's family owns the laundromat where she works",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 144: planning to visit family in the Philippines later this/next year but unsure. Lines 155-156: keeps in touch via phone/FaceTime. Line 160: last saw them a year ago.",
+          "value": "Has family in the Philippines; stays in touch via phone/FaceTime; planned to visit later this year/next year but uncertain due to pandemic; last saw them about a year ago",
+          "lines": [
+            144,
+            155,
+            156,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 28: 'I'm over here because my husband, because he's from here'.",
+          "value": "Moved to US because husband is from here (Arkansas)",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 132: 'like not going to church because I like going to my church'.",
+          "value": "Attends church; has missed church due to COVID-19",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 282: 'I've been watching a lot of videos' about the 'Karen thing'.",
+          "value": "Watches internet videos (e.g., 'Karen' videos)",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 44: 'it was my first time to experience like really cool like snow'.",
+          "value": "Experienced snow for the first time after moving to the US",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 36: 'the culture is just so different.' Line 38: 'The food, weather, everything pretty much.'",
+          "value": "Finds US culture very different from the Philippines (food, weather, etc.)",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

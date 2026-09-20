@@ -1,0 +1,382 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a attends the University of Hawaii and discusses local Hawaii details such as school start dates, COVID-19 case numbers, and a recent hurricane threat (Hurricane Douglas). They also give their local time as 11:30. This establishes they are in Hawaii.",
+          "value": "Hawaii",
+          "lines": [
+            15,
+            16,
+            135,
+            143,
+            146,
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states they are in college at the University of Hawaii.",
+          "value": "College student at University of Hawaii",
+          "lines": [
+            14,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they are studying secondary education with the goal of becoming a teacher, and are currently undecided about teaching middle or high school.",
+          "value": "Majoring in secondary education",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my age category' as being more immune to COVID-19, implying they are a young adult.",
+          "value": "Young adult",
+          "lines": [
+            73
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a explicitly says they do not speak Japanese.",
+          "value": "Does not speak Japanese",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states they started working on Prolific about two months ago.",
+          "value": "Works on Prolific (microtask platform) for about two months",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists the survey platforms they have used, specifically naming Testable Minds.",
+          "value": "Uses Testable Minds survey platform",
+          "lines": [
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions another platform transcribed as 'empty' by the ASR, likely a mishearing of another microtask site (e.g., MTurk). The exact name is uncertain.",
+          "value": "Uses another survey platform (ASR: 'empty')",
+          "lines": [
+            199
+          ],
+          "certainty": 2
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says they traveled to Japan to visit relatives.",
+          "value": "Has relatives in Japan",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions their brother plays Call of Duty on his phone.",
+          "value": "Has a brother",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they do tennis and occasionally jogging/running as a de-stressor.",
+          "value": "Plays tennis, jogs, and runs",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts taking surfing lessons during high school through a P.E. course.",
+          "value": "Took surfing lessons in high school",
+          "lines": [
+            223,
+            225,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a preference for logic-based games and names Scrabble, Words with Friends, and World of Goo.",
+          "value": "Enjoys logic-based games (e.g., Scrabble, Words with Friends, World of Goo)",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions playing Minecraft on their iPad.",
+          "value": "Plays Minecraft",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have tried shooting games like Call of Duty but they are not really their kind of game, and later says they don't see the attraction.",
+          "value": "Dislikes shooting games (e.g., Call of Duty)",
+          "lines": [
+            233,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes distance learning as a struggle because they are more of an active learner and find limited interaction ineffective.",
+          "value": "Finds distance learning challenging due to being an active learner",
+          "lines": [
+            75,
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states the last time they traveled was three years ago to Japan, and that was their second trip there, staying in the Tokyo area.",
+          "value": "Traveled to Japan twice, last trip three years ago to the Tokyo area",
+          "lines": [
+            94,
+            95,
+            99,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b explicitly states they are in Los Angeles, and later refers to 'our state of California'. They also describe local LA weather and living in a condo complex.",
+          "value": "Los Angeles, California",
+          "lines": [
+            18,
+            28,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are originally from Ohio and taught there for 10 years.",
+          "value": "Originally from Ohio",
+          "lines": [
+            24,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states they were a teacher and taught for 10 years in Ohio.",
+          "value": "Former teacher (taught 10 years in Ohio)",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they homeschooled their son from age 4.5 until his freshman year of high school.",
+          "value": "Homeschool educator",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b implies they work on Prolific by stating their son found it and recommending it, and they are participating in this Prolific-based conversation study. They also ask speaker_a about their Prolific experience, indicating familiarity.",
+          "value": "Works on Prolific (microtask platform)",
+          "lines": [
+            6,
+            202,
+            286
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b confirms they have tried MTurk when asked.",
+          "value": "Uses MTurk",
+          "lines": [
+            11,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes using a product feedback platform and spells its name as 'Proof of Purchase' (P.O.P.).",
+          "value": "Uses 'Proof of Purchase' platform",
+          "lines": [
+            204,
+            205,
+            206,
+            207,
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explains their husband, a professional musician, has no gigs due to COVID-19 closures, and they are figuring out how to pay bills, indicating financial strain.",
+          "value": "Household financial strain due to husband's unemployment as a musician during COVID-19",
+          "lines": [
+            180,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts a previous job doing data entry for a bridal gown business, where the owners later went to jail for using unauthorized photos.",
+          "value": "Previously worked data entry for a bridal gown seller",
+          "lines": [
+            214,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having done this type of paid conversation study twice now.",
+          "value": "Participates in paid conversation studies",
+          "lines": [
+            286
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to her husband as a musician.",
+          "value": "Married to a professional musician",
+          "lines": [
+            110,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses her son's age, education, gaming habits, and how he found Prolific for her.",
+          "value": "Has a son (teenager in high school)",
+          "lines": [
+            42,
+            202,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having a brother when talking about sister-in-law's family.",
+          "value": "Has a brother",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her brother's wife's family lives in Maui and many are teachers.",
+          "value": "Has a sister-in-law and her family in Maui",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions a trip to Sydney, Australia last year, a planned cruise to the British Isles that was canceled, and future cruise plans to Spain, Portugal, and Africa.",
+          "value": "Enjoys international travel (Australia, planned cruises to British Isles, Spain, Portugal, Africa)",
+          "lines": [
+            110,
+            112,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they have done body boarding.",
+          "value": "Has done body boarding",
+          "lines": [
+            228
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states they mostly stay home and go shopping minimally during the pandemic.",
+          "value": "Stays home mostly with minimal shopping during pandemic",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses in detail their interest in the division of federal, state, and local government responsibilities, and expresses newfound attention to local elections.",
+          "value": "Interested in government and political processes",
+          "lines": [
+            160,
+            162,
+            164,
+            166,
+            168,
+            170,
+            172,
+            176
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says they used to play Minecraft with their son and his friends, building things like the Santa Monica Pier.",
+          "value": "Plays Minecraft with son",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses dislike for shooting games and does not want their son playing them.",
+          "value": "Dislikes shooting games",
+          "lines": [
+            256
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions using virtual schools for some years of homeschooling, meaning teachers and online distance learning.",
+          "value": "Used virtual schools for homeschooling",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

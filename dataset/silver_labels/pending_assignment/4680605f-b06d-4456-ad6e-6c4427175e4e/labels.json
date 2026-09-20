@@ -1,0 +1,505 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself at line 7: 'Hi, I'm Jessica.'",
+          "value": "Jessica",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'now I live in Pittsburgh' at line 21 and mentions Pittsburgh multiple times.",
+          "value": "Pittsburgh, Pennsylvania",
+          "lines": [
+            21,
+            31,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I lived in Richmond Virginia' and biked everywhere, indicating previous residence.",
+          "value": "Richmond, Virginia (previous residence)",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'When I lived in New Orleans' indicating previous residence.",
+          "value": "New Orleans, Louisiana (previous residence)",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "At line 91, after Ben says he's from rural NC, she responds 'Sorry from the D. C. Area.' (likely 'I'm originally from the D.C. area'). Other references (parents in Charlottesville, including herself as 'from Virginia') support an origin in the D.C. area.",
+          "value": "Washington, D.C. area (origin)",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Jessica and self-references as 'kind of girl' (line 287).",
+          "value": "Female",
+          "lines": [
+            7,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I graduated high school in 1996' indicating approximate age.",
+          "value": "Graduated high school in 1996 (born approximately 1978)",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has 'a master's in creative writing'.",
+          "value": "Master's degree in creative writing",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't have kids'.",
+          "value": "No children",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my boyfriend, we've been together for like six years', indicating an unmarried long-term relationship.",
+          "value": "Unmarried, in a 6-year relationship with boyfriend",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses candidates and says 'I'm not going to vote for someone just because they're gay', implying she participates in elections.",
+          "value": "Voter (plans to vote in 2020)",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'the more liberal the better' (line 173) and expresses support for Bernie Sanders (line 163).",
+          "value": "Liberal political views",
+          "lines": [
+            163,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I don't drive because I don't like driving, it scares me, especially in Pittsburgh', indicating a fear or phobia of driving.",
+          "value": "Fear of driving",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She admits to writing college papers for money, calling it 'so illegal' and 'I probably shouldn't have done that'.",
+          "value": "Committed illegal academic fraud (wrote college papers for pay)",
+          "lines": [
+            253,
+            255,
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says 'I wait tables in 10 bar' (likely 'in a bar') and it's good money, indicating current job.",
+          "value": "Waitress/bartender",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I pick up extra money doing on my transcriptions' (likely online transcriptions).",
+          "value": "Transcription work (side job)",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she got through two years after college by writing/editing college papers for money.",
+          "value": "Past income from writing and editing college papers for students",
+          "lines": [
+            251,
+            253,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She didn't have a car for the last five years in Richmond and currently doesn't drive, implying no car ownership.",
+          "value": "Does not own a car",
+          "lines": [
+            23,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't have kids or anyone depending on her, implying no financial dependents.",
+          "value": "No financial dependents",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my boyfriend, we've been together for like six years'.",
+          "value": "Boyfriend of 6 years",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my parents live in Charlottesville Virginia'.",
+          "value": "Parents live in Charlottesville, VA",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a cousin who attended a college in the mountains (Appalachian State, inferred from 'Aspect'/ 'An astronaut').",
+          "value": "Has a cousin who attended Appalachian State University",
+          "lines": [
+            111,
+            113
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I've got a bunch of friends and Fairfax'.",
+          "value": "Has friends in Fairfax, VA",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes living with a female friend, her child, and a dog, and helping raise the child ('it takes a village to raise a child kind of situation').",
+          "value": "Lived with a friend, her child, and a dog; helped raise the child",
+          "lines": [
+            75,
+            293,
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we're putting together kind of writers workshop online with a few of us'.",
+          "value": "Member of an online writers workshop",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she biked everywhere in Richmond and New Orleans, indicating a biking lifestyle previously.",
+          "value": "Used to bike as primary transportation",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I read a lot, I write a lot'.",
+          "value": "Reads and writes regularly",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to sing in bands and played bass guitar.",
+          "value": "Former singer and bass guitarist in bands",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lists various music genres she enjoys, including hip hop, indie, folk, opera.",
+          "value": "Enjoys diverse music genres (hip hop, indie, folk, opera)",
+          "lines": [
+            175
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she loves big dogs and cats, and had a cat that was her favorite pet.",
+          "value": "Likes big dogs and cats; previously owned a cat",
+          "lines": [
+            271,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is currently staying in an Airbnb.",
+          "value": "Currently staying in an Airbnb",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't drive because it scares her.",
+          "value": "Does not drive",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself at line 8: 'Hi, I'm Ben.'",
+          "value": "Ben",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states 'I live in D.C.' and references D.C. metro and UDC.",
+          "value": "Washington, D.C.",
+          "lines": [
+            26,
+            28,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm from rural north Carolina... I'm from Asheboro.'",
+          "value": "Asheboro, North Carolina (hometown)",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Ben and male pronouns.",
+          "value": "Male",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I'm a bicycle mechanic' at line 20.",
+          "value": "Bicycle mechanic",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he started classes, going back to college part-time, at 'You D. C.' (UDC) and it's the only place he can get in-state.",
+          "value": "Part-time college student at University of the District of Columbia",
+          "lines": [
+            14,
+            16,
+            18,
+            144,
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He plays euphonium in a community band and is on the board.",
+          "value": "Euphonium player in a community concert band, board member",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He indicates he plans to vote in the 2020 election ('I still have no idea I'm voting for').",
+          "value": "Voter (plans to vote in 2020)",
+          "lines": [
+            174
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says 'I'm from rural north Carolina'.",
+          "value": "From a rural area",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works as a bicycle mechanic.",
+          "value": "Bicycle mechanic (employment)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He sold his car about two years ago.",
+          "value": "No car (sold car 2 years ago)",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives alone in an apartment, implying rent payment.",
+          "value": "Lives alone in an apartment (pays rent)",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'It's the only place I can get in state' regarding UDC, indicating he qualifies for in-state tuition.",
+          "value": "Qualifies for in-state tuition at UDC",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked if his folks are still in NC, he confirms 'Yeah'.",
+          "value": "Parents live in North Carolina",
+          "lines": [
+            97,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'a lot of my friends in the government'.",
+          "value": "Has friends who work in government",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he edits for friends for fun.",
+          "value": "Edits for friends as a hobby",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he bikes and uses metro, and doesn't have a car.",
+          "value": "Uses bike and Metro for transportation",
+          "lines": [
+            28,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays euphonium in a community band, rehearses on Mondays.",
+          "value": "Plays in a community concert band (euphonium)",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lists favorite bands: Against Me, Mountain Goats, Speedy Ortiz, Liz Phair.",
+          "value": "Enjoys punk/indie music (Against Me, Mountain Goats, Speedy Ortiz, Liz Phair)",
+          "lines": [
+            186,
+            198,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives with a cat, who sleeps on the sofa and has a personality (lines 132, 278, 122-126).",
+          "value": "Lives with a cat",
+          "lines": [
+            132,
+            278,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He edits for friends in spare time for fun.",
+          "value": "Edits for friends as a hobby",
+          "lines": [
+            248,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He attends college part-time.",
+          "value": "Part-time college student",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

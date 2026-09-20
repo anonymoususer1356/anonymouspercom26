@@ -1,0 +1,432 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in Connecticut' while discussing previous job at the Department of Environmental Protection.",
+          "value": "Connecticut",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States he has a degree in Biology ('my degrees in Biology') and notes it is ecology-related.",
+          "value": "Has a degree in Biology (ecology-related)",
+          "lines": [
+            27,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I'm tired and blah blah blah last night to get going' when describing his current job's schedule.",
+          "value": "Expressed feeling tired",
+          "lines": [
+            49
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he makes wiring harnesses for the Patriot missile system mobile launchers, and that the company has military contracts.",
+          "value": "Makes wiring harnesses for Patriot missile system",
+          "lines": [
+            7,
+            13,
+            15,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions working '2nd shift' when asked about his day.",
+          "value": "Works second shift",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he has been at the current job 'maybe almost two years'.",
+          "value": "Has been at current job for almost two years",
+          "lines": [
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes previous job at the Department of Environmental Protection in Connecticut doing fisheries work (stocking game fish, water monitoring).",
+          "value": "Previously worked for Connecticut Department of Environmental Protection in fisheries",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions working at Charles River doing vaccine research for the avian industry.",
+          "value": "Previously worked at Charles River on avian vaccine research",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms he applied for unemployment during seasonal layoffs, saying 'Yeah. Yeah. Yeah.' when asked.",
+          "value": "Collected unemployment benefits during seasonal layoffs",
+          "lines": [
+            44,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having a spare bedroom where his brother stays during visits.",
+          "value": "Has a spare bedroom in his home",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States his dog is a 13-year-old German Shepherd and refers to her sleeping all day.",
+          "value": "Has a 13-year-old German Shepherd dog",
+          "lines": [
+            109,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions his brother multiple times, including his brother's dog and staying in his spare bedroom.",
+          "value": "Has a brother",
+          "lines": [
+            281,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his cousin watched his dog when he went on a trip.",
+          "value": "Has a cousin",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his mother as retired and managing a cat rescue foster.",
+          "value": "Has a mother who runs a cat rescue foster",
+          "lines": [
+            243,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states 'I never had cats'.",
+          "value": "Has never owned cats",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Expresses strong preference for outdoor and ecology-related work, and mentions he would love a park ranger job.",
+          "value": "Prefers outdoor work and would like to be a park ranger",
+          "lines": [
+            53,
+            55,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes hating his lab job due to no windows, being stuck inside, and the sterile smell, comparing it to a hospital.",
+          "value": "Dislikes indoor lab work environments",
+          "lines": [
+            53,
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his family had German Shepherds all his life while growing up.",
+          "value": "Grew up in a household with dogs",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions his dog is elderly and sleeps all day, and that she is used to being the only dog.",
+          "value": "Cares for an elderly, single-pet household dog",
+          "lines": [
+            109,
+            117,
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I'm in Nebraska' when discussing cold weather and seasonal jobs.",
+          "value": "Nebraska",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I am a PhD student border school of Psychology' (ASR for 'at a school of Psychology' or similar).",
+          "value": "PhD student in Psychology",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my husband' when talking about dog preferences and future plans.",
+          "value": "Married",
+          "lines": [
+            110,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has two blue heeler dogs.",
+          "value": "Dog owner (two blue heelers)",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'we also have two cats' and describes their living arrangements.",
+          "value": "Cat owner (two cats)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've never had dogs before. I always had cats growing up' indicating first-time dog ownership as an adult.",
+          "value": "First-time dog owner as an adult",
+          "lines": [
+            190,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes research interests: resilience in kids and adults with ADHD, teacher-student relationships.",
+          "value": "Research interests: ADHD, resilience, teacher-student relationships",
+          "lines": [
+            92,
+            98,
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that her graduate program involves learning to be a therapist.",
+          "value": "Training to be a therapist",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Reports 'I feel like I'm not retaining information as well' and describes slogging through academics since March due to the pandemic.",
+          "value": "Self-reports decreased information retention and academic motivation during pandemic",
+          "lines": [
+            148,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her dissertation is 'so scary to think about' and 'it's probably going to go horribly'.",
+          "value": "Expresses anxiety about dissertation",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Refers to her house as a 'starter house' that is 'not amazing or anything'.",
+          "value": "Owns a starter house",
+          "lines": [
+            250,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes plans to visit family, stay in a cabin, and board dogs in a kennel, indicating discretionary spending ability.",
+          "value": "Has budget for travel and pet boarding",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Being a PhD student typically implies receiving a stipend or having funding, though not explicitly mentioned.",
+          "value": "PhD student (likely has stipend/funding)",
+          "lines": [
+            84
+          ],
+          "certainty": 2
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "References 'my husband' in discussions about dogs and moving.",
+          "value": "Husband",
+          "lines": [
+            110,
+            254,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my sister in law will come by' when discussing pet care for a trip.",
+          "value": "Sister-in-law",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has two blue heeler dogs; describes one as older and calm, the other as young and naughty. Provides ages as approximately 5 and 2.5 (ASR '5.5 and 2.5').",
+          "value": "Two dogs (blue heelers, ages ~5 and ~2.5 years)",
+          "lines": [
+            108,
+            180,
+            192
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Says 'we also have two cats' and explains they stay upstairs while dogs stay downstairs.",
+          "value": "Two cats",
+          "lines": [
+            202,
+            204,
+            210,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about a friend who is a student in her lab/cohort and fosters cats.",
+          "value": "Friend in PhD cohort/lab",
+          "lines": [
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I have a really great adviser' and discusses lab group.",
+          "value": "PhD advisor",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes applied experiences: working in an elementary school two days a week last year, and now learning to give therapy on Zoom.",
+          "value": "Graduate student with applied training in schools and teletherapy",
+          "lines": [
+            130,
+            136,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that her high-energy young dog often interrupts Zoom meetings and needs supervision.",
+          "value": "Manages high-energy dog during remote work/study",
+          "lines": [
+            104,
+            106,
+            164,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes living in a split-level house with basement and upstairs, with cats upstairs and dogs downstairs.",
+          "value": "Lives in a split-level house with separate pet zones",
+          "lines": [
+            204,
+            210,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses a desire to foster cats, trying to convince her husband.",
+          "value": "Wants to foster cats",
+          "lines": [
+            256,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shows intention to leave Nebraska for internship and permanently move to a warm southern state.",
+          "value": "Plans to relocate to a warm southern state after internship",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Grew up with cats, currently a new dog owner who now loves having dogs and doesn't see herself without them.",
+          "value": "Transitioned from cat-only household to dog lover",
+          "lines": [
+            190,
+            192,
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

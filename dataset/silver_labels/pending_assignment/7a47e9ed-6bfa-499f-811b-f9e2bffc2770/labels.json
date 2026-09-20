@@ -1,0 +1,366 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I go to the University of North texas' and describes it as 'north of Dallas. It's called a then so texas game' which is phonetically close to 'Denton, Texas'.",
+          "value": "University of North Texas, Denton, Texas (north of Dallas)",
+          "lines": [
+            77,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says masks are required everywhere on campus 'Unless you're in your dorm room basically', implying they live in a dorm; also mentions getting tested on campus for free, indicating they are often on campus.",
+          "value": "Lives in a dorm room on campus",
+          "lines": [
+            103,
+            119
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In response to 'Are you in college right now?', speaker_a says 'Yeah, I'm a sophomore.'",
+          "value": "College sophomore",
+          "lines": [
+            56,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a political science major.'",
+          "value": "Political science major",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I go to the University of North texas.'",
+          "value": "University of North Texas student",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I go and get tested every week just because it's free on campus.'",
+          "value": "Gets tested for COVID-19 every week",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I woke up like two hours ago' during the conversation and describes waking up as classes are ending; states class schedule 10-1 MWF but often sleeps through.",
+          "value": "Irregular sleep schedule; often wakes up during or after morning classes",
+          "lines": [
+            99,
+            111,
+            113
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Both speakers reference 'prolific money'; speaker_a says 'I'm using it to fund my gotcha addiction' in response to speaker_b's mention of using prolific money for games.",
+          "value": "Earns money from Prolific surveys",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I also have a switch' and lists games owned.",
+          "value": "Owns a Nintendo Switch",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm using it to fund my gotcha addiction' and 'I'm gonna pay for a season pass with it.'",
+          "value": "Spends money on video games (gacha games, season passes)",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have a friend who lives in Georgia' while trying to recall details.",
+          "value": "Has a friend who lives in Georgia",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'like my group of friends from band and like we're the only people that we all hang out with.'",
+          "value": "Has a group of friends from band",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I know my family was really musical, so it was kind of just like what the fuck are you doing band?'",
+          "value": "Family was musical",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'some of my mom's high school friends' posting on Facebook about Biden.",
+          "value": "Mother has high school friends on Facebook",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines mention playing Mad Max, having Switch and listing games (Smash, Zelda, Mario Odyssey, considering Mario Kart/Party), and playing original Luigi's Mansion on GameCube.",
+          "value": "Plays video games (Mad Max, Switch games, original Luigi's Mansion on GameCube)",
+          "lines": [
+            9,
+            33,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I still do the marching band here' and describes playing mellophone for marching, originally French horn, and teaching self trumpet.",
+          "value": "Participates in marching band; plays mellophone, French horn, and trumpet",
+          "lines": [
+            89,
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've just been going to the zoom lectures instead or watching the recordings.'",
+          "value": "Attends classes via Zoom or recordings rather than in-person",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes 'we usually like go through the drive thru someplace like Taco Bell and then go sit in the parking lot.'",
+          "value": "Goes to drive-thrus (e.g., Taco Bell) and sits in parking lot with friends",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'on election Day I woke up, sat down on my computer, turned on my tv and then put on CNN and watch the election results all day long.'",
+          "value": "Watched CNN all day for election results",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I haven't shaved since like the start of quarantine and it's because I'm just wearing a mask so I don't really need to care what my face looks like.'",
+          "value": "Has not shaved since start of quarantine; wears mask",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says 'I haven't shaved since like the start of quarantine' implying facial hair.",
+          "value": "Has facial hair due to not shaving since quarantine",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Line 82 'I got a George attack' phonetically resembles 'I go to Georgia Tech'. Speaker_a immediately asks 'Where do you go to school?' (line 83), confirming speaker_b had just named a school. Later familiarity with Georgia elections supports this.",
+          "value": "Georgia Tech, Atlanta, Georgia",
+          "lines": [
+            82,
+            83
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "After speaker_a says 'I'm a sophomore', speaker_b says 'me as well'.",
+          "value": "College sophomore",
+          "lines": [
+            57,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked 'What are you studying, biochemistry?', speaker_b replies 'I'm biochemistry.'",
+          "value": "Biochemistry major",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Inferred from 'I got a George attack' (Georgia Tech).",
+          "value": "Georgia Tech student",
+          "lines": [
+            82
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'My sleep schedule is really messed up right now.'",
+          "value": "Messed up sleep schedule",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I just bought a Nintendo switch' in response to 'what are you doing with your prolific money?', and later 'I've been like funding like games and stuff with my prolific money.'",
+          "value": "Earns money from Prolific surveys",
+          "lines": [
+            15,
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I just bought a Nintendo switch.'",
+          "value": "Owns a Nintendo Switch",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_a mentions Black Friday price reductions, speaker_b says 'I'm like saving up for that.'",
+          "value": "Saves money for Black Friday deals",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I got super smashed' (Super Smash Bros.) and 'I got like the online subscription'.",
+          "value": "Purchased Super Smash Bros. and Nintendo Switch Online subscription",
+          "lines": [
+            26,
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'My parents made me like take a lesson like Really like 10 years ago'.",
+          "value": "Parents made him take piano lessons",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 88 'I don't want to bend friends though' is likely ASR for 'I have band friends though', given the context of discussing band.",
+          "value": "Has band friends",
+          "lines": [
+            88
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I play piano' and describes taking lessons for ten years.",
+          "value": "Plays piano",
+          "lines": [
+            84,
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists Switch games: 'super smashed' (Super Smash Bros.), 'the delegate', and online subscription.",
+          "value": "Plays Nintendo Switch games (Super Smash Bros., etc.)",
+          "lines": [
+            26,
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I ran across country feel like and I did quiz bowl like in the fall' where 'across country feel like' is ASR for 'cross country'.",
+          "value": "Participated in cross country and quiz bowl in middle school",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I like watch a whole bunch of politics and like analysis like on my free time.'",
+          "value": "Watches political analysis in free time",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I just sleep through them like almost all the time' referring to 8 a.m. classes now that they don't have to go in person.",
+          "value": "Attends college classes online, sleeps through 8 a.m. recordings",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was at walmart yesterday'.",
+          "value": "Visited Walmart yesterday",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

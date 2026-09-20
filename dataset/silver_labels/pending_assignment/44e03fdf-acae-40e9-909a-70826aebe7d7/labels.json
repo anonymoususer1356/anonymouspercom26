@@ -1,0 +1,568 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself with 'hi, I'm becca'.",
+          "value": "Becca",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm up in Salem Oregon' and mentions Marion County.",
+          "value": "Salem, Oregon",
+          "lines": [
+            19,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live on site of a daycare'.",
+          "value": "Lives on the site of a daycare",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live across the street from a big park'.",
+          "value": "Lives across the street from a park",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lists the doctor's office and dispensary as being four blocks away.",
+          "value": "Doctor's office and dispensary are approximately four blocks from home",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I grew up in South city' after speaker_b mentions the Bay Area; South city is a common nickname for South San Francisco.",
+          "value": "Grew up in South San Francisco, California",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I spent most of my twenties in san Francisco proper'.",
+          "value": "Lived in San Francisco proper during her twenties",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'the last place I lived in before I moved to Oregon was colorado'.",
+          "value": "Previously lived in Colorado",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I graduated from there in 99' referring to her K-12 school.",
+          "value": "High school graduation year 1999",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes attending a small private Christian K-12 school in Pacifica, originally Heights Christian Academy, now Pacific Bay School.",
+          "value": "Attended Heights Christian Academy (now Pacific Bay School), a private K-12 school in Pacifica, California",
+          "lines": [
+            73,
+            77,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to her girlfriend and female partner, indicating she is part of the LGBTQ+ community.",
+          "value": "LGBTQ+",
+          "lines": [
+            25,
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'thankfully amazon can take E. B. T. Cards online', indicating she receives food assistance.",
+          "value": "Receives EBT (food stamps)",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I lived in eight states as an adult'.",
+          "value": "Has lived in 8 states as an adult",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she does transcription work and later mentions working for Rev.",
+          "value": "Transcriptionist by occupation",
+          "lines": [
+            7,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I'm allergic to eucalyptus', 'I'm allergic to cottonwood', and that allergies turned on at puberty.",
+          "value": "Allergic to eucalyptus and cottonwood; allergies began at puberty",
+          "lines": [
+            37,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've suffered depression most of my life'.",
+          "value": "Chronic depression",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she works from home doing transcription.",
+          "value": "Transcriptionist, works from home",
+          "lines": [
+            7,
+            53,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'working for a place like rev' and describes the Rev testing process, implying she works for Rev.",
+          "value": "Works for Rev (transcription service)",
+          "lines": [
+            109
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I signed a contract today to do independent contract work for gallo' (ASR may be garbled).",
+          "value": "Signed independent contract with 'Gallo' (possibly a transcription company)",
+          "lines": [
+            53
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I don't have a car'.",
+          "value": "Does not own a car",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions using EBT cards for online groceries, indicating low income.",
+          "value": "Low income, uses EBT for groceries",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to getting paid for participating in the study.",
+          "value": "Receives payment for research study participation",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my girlfriend lives in pennsylvania'.",
+          "value": "Has a girlfriend",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says her girlfriend lives in Pennsylvania.",
+          "value": "Girlfriend lives in Pennsylvania",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they've known each other since ages 13 and 15 and went to school together.",
+          "value": "Has known girlfriend since school days (ages 13/15)",
+          "lines": [
+            71,
+            73,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we haven't seen each other in person 14 years I think 13 or 14 years'.",
+          "value": "Has not seen girlfriend in person for about 14 years",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my partner used to write harry potter fan fiction'.",
+          "value": "Girlfriend used to write Harry Potter fan fiction",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my sister has a degree in english'.",
+          "value": "Has a sister",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister has a degree in English.",
+          "value": "Sister has an English degree",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My dad's side of the family all live down there. My my uncle's got a condo down in Fullerton. ... the rest of my family is in Manteca'.",
+          "value": "Has paternal extended family in Southern California (Fullerton, Manteca)",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my local friends will come and we'll do social distancing picnic'.",
+          "value": "Has local friends in Salem",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had a friend visit me from florida'.",
+          "value": "Has a friend from Florida",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a weekly Zoom karaoke with friends.",
+          "value": "Participates in weekly Zoom karaoke with friends",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I'm a big fan fiction nerd' and describes writing for multiple TV shows.",
+          "value": "Writes fan fiction for TV shows (Glee, Carmela, Supergirl, etc.)",
+          "lines": [
+            127,
+            129,
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she reads 'a million words a week... closer to two' and compares to the Harry Potter series length.",
+          "value": "Reads extensively (up to 2 million words per week)",
+          "lines": [
+            157,
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She cites 'the dispensary is four blocks away' as a convenience, implying she uses it.",
+          "value": "Uses cannabis (dispensary nearby)",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she is a big karaoke fan and does weekly Zoom karaoke.",
+          "value": "Enjoys karaoke, participates in Zoom sessions",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't have a car and relies on walking, parks, and buses.",
+          "value": "Car-free, relies on walking and public transit",
+          "lines": [
+            23,
+            51,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she exercises at the park across the street.",
+          "value": "Exercises in the park across the street",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm wearing a mask when I leave the house'.",
+          "value": "Wears a mask outside",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I haven't gone probably more than half a mile from my home since March'.",
+          "value": "Has not traveled more than half a mile from home since March 2020",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she uses Amazon for grocery delivery with her EBT card.",
+          "value": "Uses Amazon for grocery delivery",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives on the site of a daycare.",
+          "value": "Lives on the premises of a daycare",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions being a fan of several TV shows and avoiding spoilers for them.",
+          "value": "Fan of TV shows including Supergirl, The Flash, Xena, Glee, Carmela",
+          "lines": [
+            125,
+            129,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses reading and rereading the Anita Blake series by Laurell K Hamilton.",
+          "value": "Reads the Anita Blake book series by Laurell K Hamilton",
+          "lines": [
+            155,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes picking transcription projects and avoiding body cam files because they are difficult.",
+          "value": "Selects transcription projects; avoids body cam files",
+          "lines": [
+            115,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She mentions wearing headphones for work and takes them off during the call.",
+          "value": "Wears headphones",
+          "lines": [
+            25,
+            101
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She says 'I'm Rebecca too' when speaker_a introduces herself.",
+          "value": "Rebecca",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in the san Francisco Bay area' and 'I'm in san leandro'.",
+          "value": "San Leandro, California (San Francisco Bay Area)",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked where she is from originally, she answers 'So uh Southern California.'",
+          "value": "Originally from Southern California",
+          "lines": [
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she's taking a drive up to the Salem area on Wednesday and has been driving to the Pacific Northwest quite a bit.",
+          "value": "Frequently drives to Oregon and Washington",
+          "lines": [
+            20,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm a journalist, I write about like medicine and health'.",
+          "value": "Journalist covering medicine and health",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Rebecca and references to a boyfriend/husband suggest female gender.",
+          "value": "Female",
+          "lines": [
+            4,
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she is a journalist covering medicine and health.",
+          "value": "Journalist (medicine/health reporter)",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I can't imagine not having a car right now' and mentions driving, implying car ownership.",
+          "value": "Owns a car",
+          "lines": [
+            22,
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'My boyfriend lives up in um Washington State' and later 'My husband had the same experience'.",
+          "value": "Has a husband/boyfriend living in Washington State",
+          "lines": [
+            22,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she drives to visit him because she can't fly.",
+          "value": "Drives to visit partner in Washington",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She notes 'most family and friends like didn't follow' certain announcements.",
+          "value": "Has family and friends",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she prefers driving over flying and takes road trips to the Pacific Northwest.",
+          "value": "Prefers driving over flying for long trips",
+          "lines": [
+            22,
+            26,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've done like the group ones but I've never done like a one on one chat' referring to research studies.",
+          "value": "Has participated in group research studies",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'when I was a teenager did a little bit of dabbling um in like harry potter fan fiction'.",
+          "value": "Dabbled in Harry Potter fan fiction as a teenager",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She appears to say she transcribed television shows in college for grad students; ASR is garbled but the intent is fairly clear.",
+          "value": "Transcribed television shows in college",
+          "lines": [
+            118
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

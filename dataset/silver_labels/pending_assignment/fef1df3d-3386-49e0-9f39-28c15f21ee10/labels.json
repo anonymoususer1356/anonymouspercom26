@@ -1,0 +1,376 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker explicitly states they are in Cincinnati, Ohio.",
+          "value": "Cincinnati, Ohio",
+          "lines": [
+            17,
+            183,
+            433
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker states they are from New Jersey.",
+          "value": "New Jersey (origin)",
+          "lines": [
+            183,
+            185,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker says they lived in Finland for a couple of years.",
+          "value": "Finland (past residence)",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker is pursuing a PhD; field is identified as biomedical informatics.",
+          "value": "PhD student in biomedical informatics",
+          "lines": [
+            265,
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker says 'I work from home', indicating remote employment, likely a graduate assistantship.",
+          "value": "works remotely (likely graduate assistant)",
+          "lines": [
+            5,
+            9
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker states parents live in New Jersey.",
+          "value": "Parents live in New Jersey",
+          "lines": [
+            185,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker mentions their father is a teacher.",
+          "value": "Father is a teacher",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker describes a younger sister in Virginia and an older sister in California.",
+          "value": "Sisters: younger in Virginia, older in California",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker explains the older sister works/worked in a nursing home.",
+          "value": "Older sister works/worked in a nursing home",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker says they work from home, often on the couch.",
+          "value": "Works from home, often from couch",
+          "lines": [
+            5,
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker states they have been to more European countries than US states, showing a preference for international travel.",
+          "value": "Prefers international travel (Europe) over domestic",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker expresses enjoyment of reality TV and mindless shows.",
+          "value": "Enjoys reality TV and light entertainment",
+          "lines": [
+            363,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker says their apartment does not allow animals.",
+          "value": "No pets (no-pet apartment)",
+          "lines": [
+            473
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker describes keeping the TV on as background noise and cycling through shows quickly.",
+          "value": "Has TV on in background frequently",
+          "lines": [
+            387,
+            391
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker's boss and mother both address her as Ashley.",
+          "value": "Ashley",
+          "lines": [
+            10,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker mentions 'together since 1996, because that's when I was born'.",
+          "value": "born in 1996",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker says she lives in a suburb of Atlanta, Georgia, about 30 minutes from downtown.",
+          "value": "suburb of Atlanta, Georgia",
+          "lines": [
+            16,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker states she was born in California and moved to Georgia as an infant.",
+          "value": "Born in California",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker mentions living in Augusta while attending university.",
+          "value": "Augusta, Georgia (past residence during college)",
+          "lines": [
+            254,
+            476
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to a 'girls trip' with mother, grandmother, and sister; name Ashley also suggests female.",
+          "value": "female",
+          "lines": [
+            136
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states 'I'm an accountant by the way'.",
+          "value": "accountant",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions completing a master's program and finishing in May.",
+          "value": "holds a master's degree",
+          "lines": [
+            121,
+            268,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes herself as an Amazon reviewer.",
+          "value": "Amazon reviewer (side hustle)",
+          "lines": [
+            434
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Based on birth year 1996, speaker is approximately 24 years old.",
+          "value": "age ~24",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker is employed as an accountant; mentions work, vacation days, and a boss.",
+          "value": "Employed as an accountant",
+          "lines": [
+            156,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker receives free or discounted products through Amazon reviewing, as she describes getting items and sometimes being reimbursed.",
+          "value": "Receives free products via Amazon reviewing",
+          "lines": [
+            436,
+            444,
+            446
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says her grandmother lives with them in the basement, and her mother is also part of the household.",
+          "value": "Lives with mother and grandmother",
+          "lines": [
+            206,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her sister multiple times; sister is a nurse who lives in Atlanta.",
+          "value": "Has a sister who is a nurse",
+          "lines": [
+            172,
+            518
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her sister graduated in May.",
+          "value": "Sister graduated in May",
+          "lines": [
+            512
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions attending a cousin's wedding in Guatemala.",
+          "value": "Has a cousin who got married in Guatemala",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to friends from Augusta, indicating she maintains social ties there.",
+          "value": "Has friends from Augusta",
+          "lines": [
+            492
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker works from home, usually in the basement, sitting on an uncomfortable plastic chair.",
+          "value": "Works remotely from basement",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her workspace chair as a hot pink plastic chair from IKEA.",
+          "value": "Uses a hot pink IKEA chair for work",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker lists many countries she has visited and mentions living in Spain for five weeks, showing a love for international travel.",
+          "value": "Avid international traveler",
+          "lines": [
+            76,
+            80,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has pet birds in the house.",
+          "value": "Has pet birds",
+          "lines": [
+            478
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker watches movies with her family regularly in the evenings.",
+          "value": "Family movie nights",
+          "lines": [
+            410,
+            412
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions she used to go for walks after dinner but stopped due to darkness.",
+          "value": "Liked walking after dinner",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she worked at the Masters golf tournament in Augusta.",
+          "value": "Worked at the Masters tournament",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker watches Netflix series like Dash & Lily and enjoys Christmas movies.",
+          "value": "Enjoys Netflix and Christmas movies",
+          "lines": [
+            380,
+            366
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

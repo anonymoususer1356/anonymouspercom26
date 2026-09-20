@@ -1,0 +1,396 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states her name when greeting speaker_b.",
+          "value": "Sarah",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'll be 23 next week', implying she is currently 22.",
+          "value": "22 (turning 23 next week)",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Sarah and the mention of 'mothering instinct' indicate female gender.",
+          "value": "female",
+          "lines": [
+            3,
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states her degree is in neuroscience and she graduated in the spring.",
+          "value": "Bachelor's degree in neuroscience",
+          "lines": [
+            33,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her job answering calls for a suicide hotline and scheduling for a gamblers hotline.",
+          "value": "crisis hotline worker (suicide and gamblers hotline)",
+          "lines": [
+            43,
+            45,
+            49,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is starting her Master's in the coming spring.",
+          "value": "incoming Master's student (starting in spring)",
+          "lines": [
+            43,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she received a C in chemistry.",
+          "value": "received a C in chemistry",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says embroidery 'hurts my wrist'.",
+          "value": "experiences wrist pain from embroidery",
+          "lines": [
+            217
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions getting calluses on her fingers from pushing the needle in embroidery.",
+          "value": "gets calluses on fingers from crafting",
+          "lines": [
+            217
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a confirms her crisis line work is paid, not volunteer.",
+          "value": "paid job at crisis hotline",
+          "lines": [
+            49,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her work schedule: weekends 7-7 and one weekday.",
+          "value": "works weekends 7am-7pm and one weekday",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she goes to Hobby Lobby every other day with family to use a 40% off coupon.",
+          "value": "regularly uses 40% off coupons at Hobby Lobby",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my best friend' who does pottery and made her a mug.",
+          "value": "has a best friend who does pottery",
+          "lines": [
+            183,
+            185,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions bringing 'my mom' to Hobby Lobby.",
+          "value": "has a mother",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions bringing 'my grandma' to Hobby Lobby.",
+          "value": "has a grandmother",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she does 'a lot of croquet' (crochet) and is working on a scarf during the call.",
+          "value": "crochets scarves and other items",
+          "lines": [
+            211,
+            213,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she does 'a lot of embroidery'.",
+          "value": "does embroidery",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions watching the show 90 Day Fiance while crocheting.",
+          "value": "watches 90 Day Fiance",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she spends eight hours a day on TikTok, indicating frequent use.",
+          "value": "spends many hours daily on TikTok",
+          "lines": [
+            261,
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she is making scarves for Christmas presents.",
+          "value": "makes handmade Christmas gifts (scarves)",
+          "lines": [
+            233,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a repeatedly calls children nasty, describes being slobbered and peed on, and says she wouldn't touch them with a 10-foot pole.",
+          "value": "dislikes children, finds them unhygienic",
+          "lines": [
+            71,
+            73,
+            77,
+            79,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she was not allowed to watch or read Harry Potter as a child.",
+          "value": "was not allowed to watch or read Harry Potter growing up",
+          "lines": [
+            309,
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she has worked at multiple daycares in the past.",
+          "value": "has worked at many daycares",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she wants to get a doctorate and become a neuropsychologist, working with stroke and dementia patients.",
+          "value": "aspires to become a neuropsychologist",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a recounts taking pottery in high school and making an ugly turtle.",
+          "value": "took pottery in high school, made a turtle",
+          "lines": [
+            193,
+            199,
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'Melanie' at the start of the conversation.",
+          "value": "Melanie",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I am 18'.",
+          "value": "18",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Melanie and the context suggest female gender.",
+          "value": "female",
+          "lines": [
+            2
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she is currently in college, and speaker_a calls her 'a freshman' to which she agrees.",
+          "value": "college freshman",
+          "lines": [
+            26,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm doing political science'.",
+          "value": "political science major",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is not working right now.",
+          "value": "not currently employed",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions going to Michael's 'with my boyfriend'.",
+          "value": "has a boyfriend",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states she wants to become a lawyer.",
+          "value": "aspires to be a lawyer",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she initially wanted to be a veterinarian and then considered marine biologist before settling on lawyer.",
+          "value": "previously considered veterinarian and marine biologist careers",
+          "lines": [
+            132,
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she bombed chemistry, got a C in a computer science class, and was told she needed chemistry for marine biology.",
+          "value": "struggled with chemistry, received a C in high school science",
+          "lines": [
+            126,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she recently started to crochet and made a tiny octopus amigurumi.",
+          "value": "crochets, made amigurumi",
+          "lines": [
+            218,
+            220,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves to read and has a backup plan to work in publishing.",
+          "value": "enjoys reading, considers publishing as backup career",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is considering adding English to her studies because she likes English.",
+          "value": "considering English minor or courses",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b expresses interest in pottery, art, and being creative despite not being very artistic.",
+          "value": "interested in pottery and creative activities",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she hasn't watched all the Harry Potter movies.",
+          "value": "has not watched all Harry Potter movies",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is not a very big Harry Styles fan.",
+          "value": "not a big Harry Styles fan",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

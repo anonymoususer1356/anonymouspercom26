@@ -1,0 +1,360 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'my name is Melissa' directly.",
+          "value": "Melissa",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in new york' multiple times and specifically 'I'm in the Bronx and I'm in an old building' and 'the Bronx is the poorest borough ... which is where I live'.",
+          "value": "Bronx, New York City",
+          "lines": [
+            11,
+            71,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'When I lived in Chicago...' and 'I love Chicago', indicating past residence there.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            71,
+            79,
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b notes that everyone she has talked to in these chats has been a woman, and speaker_a is the current chat partner, confirming speaker_a is a woman. Additionally, the name Melissa is typically female.",
+          "value": "female",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a refers to herself as 'a new yorker' and repeatedly claims New York identity.",
+          "value": "New Yorker",
+          "lines": [
+            11,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a explicitly says 'I'm rather socially awkward and shy with people'.",
+          "value": "socially awkward and shy",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'my work is from home', indicating she is employed and works remotely.",
+          "value": "works from home",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'the Bronx is the poorest borough ... which is where I live' and refers to living in a low-income area.",
+          "value": "lives in a low-income area (the Bronx, poorest borough)",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my partner and I' multiple times, indicating she has a romantic or domestic partner.",
+          "value": "has a partner",
+          "lines": [
+            7,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her sister passed away and she lives in the apartment her sister used to live in.",
+          "value": "deceased sister",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has friends in Middlesex County, New Jersey, near New Brunswick.",
+          "value": "friends in Middlesex County, New Jersey",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions an online friend who lives in Covington, Kentucky, near Cincinnati.",
+          "value": "online friend in Covington, Kentucky",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has a friend who is a pharmacist in a hospital.",
+          "value": "friend who is a pharmacist",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she made friends in Chicago when she lived there.",
+          "value": "friends in Chicago",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes a long-running feud with her upstairs neighbour, including direct interactions.",
+          "value": "upstairs neighbour with whom she has a feud",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I fed my cat' and earlier offered a granola bar, indicating she owns a cat.",
+          "value": "owns a cat",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions pouring coffee, getting coffee from behind her laptop, and says 'Got to have coffee to talk'.",
+          "value": "drinks coffee",
+          "lines": [
+            7,
+            21,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she lives in an old building in the Bronx, specifically an apartment.",
+          "value": "lives in an apartment building",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks 'Have you done these chats before?' and discusses previous chat experiences, showing she participates in these sessions.",
+          "value": "participates in online research chats",
+          "lines": [
+            29,
+            33,
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a repeatedly says she is not taking chances with COVID, only going to mailbox, supermarket, drugstore, and avoiding indoor dining or gatherings.",
+          "value": "practices strict COVID-19 precautions",
+          "lines": [
+            149,
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'I'm Amanda' (though garbled as 'I'm Amanda dad hurry on') and speaker_a later addresses her as 'Amanda'.",
+          "value": "Amanda",
+          "lines": [
+            4,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm living in Cincinnati' and adds that she's been there about a year and lives on the border of Kentucky near Covington.",
+          "value": "Cincinnati, Ohio (lived there for about a year)",
+          "lines": [
+            10,
+            58,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from Monmouth County' and clarifies it's in New Jersey, near the beach.",
+          "value": "Monmouth County, New Jersey",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to, I lived there for a little bit too' in reference to New York, indicating a past short-term residence.",
+          "value": "New York (short-term past residence)",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b's name is Amanda, a female name, and she introduces herself as such; the context strongly implies female.",
+          "value": "female",
+          "lines": [
+            4,
+            267
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm doing a grad program' and describes her field, making her a graduate student.",
+          "value": "graduate student",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'where I work at. There's a lot of people who are back there because like there's a lot of labs', implying she has a job, likely at the university.",
+          "value": "employed (has a workplace with labs)",
+          "lines": [
+            258
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b claims 'I pay like half of what my friends pay' for rent in New Jersey/New York for a similar apartment.",
+          "value": "pays about half the rent of friends in NJ/NY",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says her family lives in the central part of New Jersey near the beach.",
+          "value": "family in central New Jersey near the beach",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b compares her rent to what friends pay in New Jersey/New York, implying she has friends there.",
+          "value": "friends in New Jersey/New York",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'the people I live on the bottom floor of an apartment, like well upstairs where being loud', so she has loud upstairs neighbours.",
+          "value": "upstairs neighbours (loud)",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she lives on the bottom floor of an apartment.",
+          "value": "lives in an apartment on the bottom floor",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is in a computational biology grad program and her degree is centered on the computer.",
+          "value": "studies computational biology",
+          "lines": [
+            54,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has done these chats multiple times ('I did one yesterday, I did another one last week') and this is the third one.",
+          "value": "participates in online research chats",
+          "lines": [
+            30,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b notes there are many lizards where she lives in Cincinnati, and she had only seen them before in South Carolina/Virginia.",
+          "value": "observes lizards around home",
+          "lines": [
+            120,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions that her area is mostly students, with fraternities and tons of parties, and she tries to be careful about COVID.",
+          "value": "lives in student area with frequent parties",
+          "lines": [
+            144,
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm trying to be really careful' regarding COVID, contrasting with others in her area.",
+          "value": "practices COVID-19 precautions",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

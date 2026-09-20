@@ -1,0 +1,444 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as 'Christie' (ASR for 'Christy'); speaker_b repeats 'Christy'.",
+          "value": "Christy",
+          "lines": [
+            27,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a gives her Etsy shop name as 'spooky luna Fido sambo' (ASR garbled) and spells it out: S, P, O, O, K, Y, L, U, F, I, B, O, yielding the username 'SPOOKYLUFIBO'.",
+          "value": "SPOOKYLUFIBO",
+          "lines": [
+            351,
+            353,
+            355,
+            357
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she lives in Illinois, north of Chicago by 40 minutes, in a northwest suburb; later tells a caller she lives in Wheeling.",
+          "value": "Wheeling, Illinois",
+          "lines": [
+            5,
+            9,
+            11,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is a California girl, grew up in California much further north, in the Santa Clara / Fresno area (ASR 'santa's a santa clara Fresno').",
+          "value": "grew up in California (Santa Clara, Fresno area)",
+          "lines": [
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she went to school at UC Santa Barbara.",
+          "value": "attended college in Santa Barbara, California",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to herself as 'California girl' and has a feminine name; she also mentions a past husband, indicating she is female.",
+          "value": "female",
+          "lines": [
+            27,
+            123,
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she went to school at UC Santa Barbara.",
+          "value": "attended UC Santa Barbara",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she just got home from work at Petsmart, and later mentions a co-worker there.",
+          "value": "works at Petsmart",
+          "lines": [
+            57,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has a shop on Etsy where she sells handmade cat mats, and describes making them.",
+          "value": "sells cat mats on Etsy",
+          "lines": [
+            149,
+            157,
+            159,
+            351
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has been doing surveys on Prolific for at least a year.",
+          "value": "earns money via Prolific surveys",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a implies she uses Amazon Prime by mentioning she orders from Amazon Fresh, and later refers to 'amazon prime' in a way that suggests she has it.",
+          "value": "Amazon Prime subscriber",
+          "lines": [
+            257,
+            261,
+            265
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions her daughter and her daughter's roommate moving out of the house.",
+          "value": "has a daughter",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a college visit with her son.",
+          "value": "has a son",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'at the time I was married and um my husband then', indicating she is no longer married to that person.",
+          "value": "ex-husband",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she settled on cats as an adult, currently has one 19-year-old cat named Luna, and has owned multiple cats.",
+          "value": "cat owner (currently one cat, Luna, age 19)",
+          "lines": [
+            59,
+            61,
+            77,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes making crinkle cat mats filled with grocery bags and catnip, and selling them at craft shows and on Etsy.",
+          "value": "makes and sells cat mats",
+          "lines": [
+            157,
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions watching Survivor, Big Brother, and Amazing Race; says she is addicted to Survivor and participated in a Big Brother pool.",
+          "value": "watches reality TV (Survivor, Big Brother, Amazing Race)",
+          "lines": [
+            301,
+            305,
+            309,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her daughter moved out and later states 'it's only me' when discussing grocery spending, implying she lives alone.",
+          "value": "lives alone",
+          "lines": [
+            91,
+            269
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she feeds the feral cats that are outside her home.",
+          "value": "feeds feral cats",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she subscribed to CBS All Access to catch up on Survivor seasons.",
+          "value": "subscribes to CBS All Access",
+          "lines": [
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she used to have a polydactyl cat a long time ago, and that her college cat was a polydactyl named Sam.",
+          "value": "previously owned a polydactyl cat named Sam",
+          "lines": [
+            103,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her cat Luna goes to acupuncture every two weeks.",
+          "value": "takes cat to acupuncture every two weeks",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says this chat is her sixth time participating.",
+          "value": "has done 6 Prolific chat studies",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'Milan Milan' (repeating to clarify); speaker_a addresses her as Milan.",
+          "value": "Milan",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in Hawaii, mentions Honolulu, and describes the weather there (high 70s, low 80s).",
+          "value": "Honolulu, Hawaii (vacation)",
+          "lines": [
+            4,
+            192,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she is going back to Los Angeles and lives in the area around LA.",
+          "value": "Los Angeles area, California",
+          "lines": [
+            20,
+            121,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is from Illinois, Chicago.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she went to the University of Illinois in Champaign and graduated.",
+          "value": "attended University of Illinois at Urbana-Champaign",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b has a boyfriend and the name Milan suggests female; she also refers to herself in contexts that indicate she is a woman.",
+          "value": "female",
+          "lines": [
+            14,
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she studied information systems and graduated last December with a bachelor's degree.",
+          "value": "Bachelor's degree in Information Systems",
+          "lines": [
+            132,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she will be starting grad school in January for machine learning.",
+          "value": "incoming master's student in machine learning",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I am allergic to cats', but adds it is not deadly.",
+          "value": "allergic to cats",
+          "lines": [
+            272,
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she has been doing stuff on Prolific since early to mid August.",
+          "value": "earns money via Prolific surveys",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she uses Prime Video and that there is an Amazon Fresh store near her, implying she has Amazon Prime.",
+          "value": "Amazon Prime subscriber",
+          "lines": [
+            260,
+            262
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she is on a trip with her boyfriend.",
+          "value": "has a boyfriend",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her dog is with her mom in California, and her mom is the dog's second favorite person.",
+          "value": "has a mother (lives in California)",
+          "lines": [
+            112,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her oldest brother went through a PhD for computer science.",
+          "value": "has an older brother",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a friend who rescued three feral cats, one named Buddha with thumbs.",
+          "value": "has a friend who rescued feral cats",
+          "lines": [
+            98,
+            100,
+            102
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she has a toy poodle and previously had a larger dog that passed away in 2018.",
+          "value": "dog owner (toy poodle)",
+          "lines": [
+            56,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b watches Big Brother (but stopped this season) and The Challenge on MTV.",
+          "value": "watches Big Brother, The Challenge",
+          "lines": [
+            300,
+            302,
+            322,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has played the lottery in California but does not play much anymore.",
+          "value": "occasionally plays lottery",
+          "lines": [
+            300
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b is on a month-long trip to Hawaii, has a rental car, and is staying in an Airbnb.",
+          "value": "enjoys traveling (month-long Hawaii trip)",
+          "lines": [
+            4,
+            14,
+            16,
+            190,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she really wants a cat and is trying to figure out a workaround for her allergy; she asks about hypoallergenic breeds.",
+          "value": "wants to own a cat despite allergy",
+          "lines": [
+            272,
+            274,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says this chat is probably her 3rd or 4th time.",
+          "value": "has done 3-4 Prolific chat studies",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

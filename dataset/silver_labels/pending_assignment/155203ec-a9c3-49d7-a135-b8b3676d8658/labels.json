@@ -1,0 +1,233 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly says 'I'm in new york', and mentions NYC-specific places (Coney Island), transport (subway), and regulations (alternate side parking).",
+          "value": "New York City, New York",
+          "lines": [
+            19,
+            51,
+            303,
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes neighbours on two sides, upstairs and downstairs, and estimates around 200 people living on the block, indicating a dense apartment building.",
+          "value": "lives in a dense apartment building",
+          "lines": [
+            167,
+            169,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to 'my wife' (line 181), indicating married status.",
+          "value": "married",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly states 'I have a four year old and a one year old'.",
+          "value": "parent of two young children (ages 4 and 1)",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says of his EMT friend 'he's in much better physical shape than I am', admitting relatively lower physical fitness.",
+          "value": "admits being in worse physical shape than his EMT friend",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker mentions a coworker, a place of work with cubicles, and working from home, showing office-based employment.",
+          "value": "employed in an office job, currently working remotely",
+          "lines": [
+            127,
+            185,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about personal driving experience in NYC and alternate side parking, implying car ownership or regular use.",
+          "value": "owns or regularly drives a car in New York City",
+          "lines": [
+            311,
+            315
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Uses the phrase 'my wife'.",
+          "value": "has a wife",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I have a four year old and a one year old'.",
+          "value": "has two young children (ages 4 and 1)",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a friend who is an EMT and says 'he's literally my age'.",
+          "value": "has a friend who is an EMT and same age",
+          "lines": [
+            105,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my coworker' and states he is in his 60s.",
+          "value": "has a coworker in his sixties",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my neighbor who happens to be a nurse'.",
+          "value": "has a neighbor who is a nurse",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Recalls using the subway to get to work.",
+          "value": "commutes by subway",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates the workplace is still only working from home.",
+          "value": "works from home",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes taking his young children outside and having them wear masks.",
+          "value": "takes young children out while wearing masks",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly states he is from Bakersfield, California, and has lived there most of his life.",
+          "value": "Bakersfield, California",
+          "lines": [
+            14,
+            32,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a addresses him as 'man' in line 287, strongly implying male gender.",
+          "value": "male",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says conversations make him nervous and he has a habit of interrupting people.",
+          "value": "gets nervous speaking and tends to interrupt",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I haven't known to personally come down with it', which in context likely means he has not personally known anyone who contracted COVID-19. The garbled wording introduces some uncertainty.",
+          "value": "has not personally known anyone with COVID-19",
+          "lines": [
+            164
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "States 'my father was a doctor'.",
+          "value": "father is a doctor",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says his mother graduated from nursing school.",
+          "value": "mother is a nurse",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Relates that his father 'went to prison for a little while', presented as his mother's account, so slightly less certain.",
+          "value": "father served time in prison",
+          "lines": [
+            32
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'my sisters were born in new york too'.",
+          "value": "has sisters born in New York",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [],
+      "appearance": []
+    }
+  ]
+}

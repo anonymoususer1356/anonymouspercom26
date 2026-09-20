@@ -1,0 +1,351 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'I'm Rose' when asked her name.",
+          "value": "Rose",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in Seattle Washington'.",
+          "value": "Seattle, Washington",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she was relieved to see 'another woman', implying she is a woman.",
+          "value": "woman",
+          "lines": [
+            263
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I have asthma'.",
+          "value": "asthma",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm getting older so it's like I'm kind of getting to that point in my life where if I don't start doing it more it's gonna be too late.'",
+          "value": "feels she is getting older",
+          "lines": [
+            47
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'my husband and I both work in restaurants'.",
+          "value": "works in restaurants",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'nobody is working in restaurants right now' and is seeking passive income, indicating unemployment due to COVID-19.",
+          "value": "unemployed due to COVID-19",
+          "lines": [
+            219,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has been on Prolific for 'three or four months'.",
+          "value": "Prolific user for 3-4 months",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm trying to just really learn about passive income in general' and takes notes on speaker_b's suggestions.",
+          "value": "seeking passive income opportunities",
+          "lines": [
+            159,
+            151,
+            97
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have been married how long? … 11 years, but we've been together over 20.'",
+          "value": "married 11 years, together over 20 years",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my husband and I both work in restaurants'.",
+          "value": "spouse works in restaurants",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'he has lung are sorry liver disease', indicating spouse has liver disease.",
+          "value": "spouse has liver disease",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my sister does it for passive income'.",
+          "value": "has a sister who does passive income",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a few friends in Atlanta'.",
+          "value": "has friends in Atlanta",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I really like backpacking' and discusses hiking.",
+          "value": "enjoys backpacking and hiking",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I worked for Tom Douglas … it was a restaurant called serious pie' specializing in pizzas.",
+          "value": "worked at Serious Pie restaurant",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Not that I've ever been a good swimmer' and describes struggling in pools.",
+          "value": "not a good swimmer",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'my name is Tracy'.",
+          "value": "Tracy",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in Atlanta Georgia'.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually just moved here recently um from Raleigh north Carolina'.",
+          "value": "formerly lived in Raleigh, North Carolina",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I moved here maybe about nine months ago'.",
+          "value": "moved to Atlanta about 9 months ago",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she was relieved to see 'another woman' and speaker_b agrees; context and name indicate both are women.",
+          "value": "woman",
+          "lines": [
+            263,
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to speaker_b's spouse as 'your wife', and speaker_b confirms, indicating a same-sex marriage.",
+          "value": "in a same-sex marriage",
+          "lines": [
+            87,
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'actually lost my job'.",
+          "value": "lost her job",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes owning two small businesses: one plant-based smoothie bar (Blended Soul Smoothie Bar) and one plant-based body butter/incense business. She provides the website.",
+          "value": "co-owns Blended Soul Smoothie Bar and a plant-based body butter/incense business",
+          "lines": [
+            102,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have moved into 780 for may' referring to monthly side income.",
+          "value": "earns approximately $780/month from side hustles (May)",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I started like 300 in december' referring to monthly side income.",
+          "value": "earned $300/month in December 2019 from side hustles",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions using Prolific, Respondent, User Interviews, User Testing, Survey Merchandiser, and Reddit communities r/beermoney and r/WorkOnline for extra income.",
+          "value": "uses multiple online platforms and Reddit for side income",
+          "lines": [
+            110,
+            164,
+            166,
+            174,
+            188,
+            192,
+            202,
+            104,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm trying to get to 1000 a month' as a goal.",
+          "value": "goal to earn $1000/month from side hustles",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a google sheets freak' and mentions tracking earnings in Google Sheets.",
+          "value": "tracks side income in Google Sheets",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I actually got married' and 'We're not even a full year in.'",
+          "value": "married less than a year",
+          "lines": [
+            74,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'So your wife already lived in Atlanta and so you moved from north Carolina' and speaker_b confirms, indicating spouse is a woman and lived in Atlanta.",
+          "value": "spouse is a woman who lived in Atlanta before marriage",
+          "lines": [
+            87,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms she moved to Atlanta for marriage.",
+          "value": "moved to Atlanta for marriage",
+          "lines": [
+            74,
+            87,
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes hiking at Stone Mountain and wanting to go more often.",
+          "value": "enjoys hiking, recently hiked Stone Mountain",
+          "lines": [
+            50,
+            52,
+            54,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We cook all of our meals here all day, every day'.",
+          "value": "cooks all meals at home",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I did a lot more in north Carolina because we have all those great places to hike there', implying frequent hiking.",
+          "value": "used to hike frequently in North Carolina",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,307 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name when greeting speaker_b.",
+          "value": "Sarah",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she goes to a call center for her suicide hotline work and is currently there in person.",
+          "value": "at a suicide hotline call center",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly gives her age.",
+          "value": "23",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name 'Sarah' is traditionally female, and speaker_a does not indicate otherwise.",
+          "value": "female",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she earned a degree in neuroscience.",
+          "value": "holds a Bachelor's degree in neuroscience",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a announces she will start a graduate program in Clinical Psychology in the spring.",
+          "value": "starting graduate school for a Master's in Clinical Psychology in spring",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she works for a suicide hotline.",
+          "value": "employed at a suicide hotline",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a shares her career goal of becoming a neuropsychologist, framed as a hope.",
+          "value": "aspires to be a neuropsychologist",
+          "lines": [
+            37
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions that her mother works for a doctor.",
+          "value": "mother works for a doctor",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her best friend who writes code and introduced her to Overleaf (transcribed as 'ever leaf').",
+          "value": "has a best friend who codes and uses Overleaf",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about a regular weekly Zoom call with friends to watch TV together.",
+          "value": "has a group of friends for weekly Zoom TV watching",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions she has a friend who is going to veterinary school.",
+          "value": "has a friend attending veterinary school",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states that her family watches the show Dr. Pol.",
+          "value": "family watches Dr. Pol on TV",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls a former professor who joked about artificial intelligence taking over the world.",
+          "value": "had a professor who joked about AI taking over",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a participates in a weekly social activity over Zoom with friends watching TV.",
+          "value": "weekly Zoom TV watching with friends",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a watches the National Geographic show Dr. Pol as a way to relax.",
+          "value": "watches the TV show Dr. Pol",
+          "lines": [
+            63,
+            65,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a enjoys watching videos of Koko the gorilla on YouTube, mentioning Robin Williams.",
+          "value": "watches Koko the gorilla YouTube videos",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts a trip to Europe, returning via a Dutch airline.",
+          "value": "traveled to Europe using a Dutch airline",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes laboratory experiences from her neuroscience education: injecting crickets with cocaine and dissecting sheep brains.",
+          "value": "conducted lab work including injecting crickets with cocaine and dissecting sheep brains",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself by name.",
+          "value": "Patrick",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "The name 'Patrick' is traditionally male.",
+          "value": "male",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states his occupation.",
+          "value": "software engineer",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b names his current employer (transcribed as 'mail chimp', intended Mailchimp).",
+          "value": "works at Mailchimp",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b reveals he previously worked at IBM.",
+          "value": "previously worked at IBM",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions his wife, indicating he is married.",
+          "value": "married",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b recounts that he received a pay raise at IBM after the Watson AI analyzed internal data and recommended raises for underpaid employees.",
+          "value": "received a pay raise at IBM determined by the Watson AI",
+          "lines": [
+            150,
+            152,
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b states his wife is a veterinarian, later specifying she specializes in lab animal medicine with non-human primates and other common lab animals.",
+          "value": "wife is a veterinarian specializing in lab animal medicine, especially primates",
+          "lines": [
+            56,
+            104,
+            106,
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions his mother in the context of the show Dr. Pol.",
+          "value": "has a mother who discusses Dr. Pol",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has a couple of friends in neuroscience, one of whom earned a PhD researching why neurons sometimes fail to fire.",
+          "value": "has friends working in neuroscience, one with a PhD on neuron firing behavior",
+          "lines": [
+            46,
+            48,
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b explains that he began working remotely last year due to the pandemic and was better prepared than most.",
+          "value": "has been working remotely since the pandemic started",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes his computer setup, noting he has four microphones plugged in which can cause confusion.",
+          "value": "has four microphones connected to his computer",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b shares a story about driving to the beach to pick up a cooler of sea turtle heads, presumably related to his wife's work.",
+          "value": "drove to the beach to pick up sea turtle heads",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

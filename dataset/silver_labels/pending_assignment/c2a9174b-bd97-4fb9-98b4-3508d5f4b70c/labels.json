@@ -1,0 +1,386 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states 'my name is Kevin'.",
+          "value": "Kevin",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I'm located in new york so I'm in Queens' and repeatedly refers to being in New York and Queens.",
+          "value": "Queens, New York",
+          "lines": [
+            3,
+            9,
+            13,
+            53,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't think it was that big in Connecticut in general' referring to the IB program when he was in high school, implying he attended high school in Connecticut.",
+          "value": "attended high school in Connecticut",
+          "lines": [
+            85
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Kevin, mentions wife and bald spot, all consistent with male gender.",
+          "value": "male",
+          "lines": [
+            3,
+            49,
+            57,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'just like every other you call us, Yankees' identifying as a Northerner.",
+          "value": "Yankee (Northerner)",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I'm in a cybersecurity guy... I work more on that see s side of the house'.",
+          "value": "works in cybersecurity",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions owning and driving a used Corolla ('we got a used Corolla', 'I drive a Corolla').",
+          "value": "owns a used Toyota Corolla",
+          "lines": [
+            49,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'she's a stay at home mom' about his wife.",
+          "value": "wife is a stay-at-home mom",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I was taking the subway into work all the time' regarding his commute.",
+          "value": "used to commute to work by subway",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Refers to 'my wife' and 'our honeymoon'.",
+          "value": "married to wife",
+          "lines": [
+            49,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've got a four year old and two year old'.",
+          "value": "has a 4-year-old child",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Same line, mentions the two year old.",
+          "value": "has a 2-year-old child",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my mother lives up in Connecticut'.",
+          "value": "mother lives in Connecticut",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my sister in law lives in bradenton...' near Tampa.",
+          "value": "sister-in-law lives in Bradenton/Sarasota, Florida",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'one of my buddies who lived in the city' (NYC).",
+          "value": "has a buddy in New York City",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we still have some family down in florida'.",
+          "value": "has extended family in Florida",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'one of my family's in North Carolina too'.",
+          "value": "has extended family in North Carolina",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my friend just texted me about Australia'.",
+          "value": "has a friend who texted about Australia",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he was taking the subway to work and describes driving to avoid subway.",
+          "value": "uses subway for commuting",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions driving a Corolla and moving it for alternate side parking.",
+          "value": "drives a Toyota Corolla and must move it for street cleaning",
+          "lines": [
+            49,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that they got used to cooking at home and finds eating out economically inefficient.",
+          "value": "prefers cooking at home over eating out",
+          "lines": [
+            117,
+            121
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes alternate side parking rules and having to move the car to avoid tickets.",
+          "value": "subject to alternate side parking regulations",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References football games when identifying Jacksonville and mentions watching football in fall.",
+          "value": "enjoys watching American football",
+          "lines": [
+            33,
+            113
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I like my pizza' and mentions getting delivery.",
+          "value": "orders pizza delivery",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Chose to drive to Connecticut and to pick up friend instead of taking train, indicating road trip preference.",
+          "value": "takes road trips",
+          "lines": [
+            9,
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes himself as 'a glass half full type person'.",
+          "value": "optimist (glass-half-full outlook)",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Jokes about feeling 'the bald spot on my head' burning at the beach.",
+          "value": "has a bald spot",
+          "lines": [
+            129
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "States 'My name is bob'.",
+          "value": "Bob",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'located in florida', then clarifies 'We will jack up in the northern part of florida' which is Jacksonville, confirmed by Jaguars reference.",
+          "value": "Jacksonville, Florida",
+          "lines": [
+            4,
+            28,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've been here for like seven years from California'.",
+          "value": "previously lived in California",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Bob, refers to 'our son' and uses 'he' for the child, indicating male gender.",
+          "value": "male",
+          "lines": [
+            4,
+            58,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Says 'I have a five year old and a 13 year old' and refers to the 13-year-old as 'she' and the 5-year-old as 'our son'.",
+          "value": "has a 13-year-old daughter",
+          "lines": [
+            58,
+            62,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The same statement and later reference to 'our son'.",
+          "value": "has a 5-year-old son",
+          "lines": [
+            58,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Consistently uses 'we' and 'our' to describe household decisions (signing up for school, going on vacation, cooking), implying a cohabiting spouse or partner.",
+          "value": "has a spouse or long-term partner",
+          "lines": [
+            58,
+            60,
+            68,
+            102,
+            122
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says they do theme parks starting in October or November when it cools down.",
+          "value": "enjoys theme parks, prefers visiting in fall",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions going to Orange Lake resort a couple of times a year, describing it as a frequent destination.",
+          "value": "frequently visits Orange Lake resort near Disney World",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "On their Orlando trip, they brought and cooked their own food, avoiding restaurants entirely due to safety concerns.",
+          "value": "prefers to cook own meals on vacation to avoid dining out",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we just sign up both' for Duval home room online instruction because they were not comfortable with in-person school.",
+          "value": "opted children into online schooling for 2020-2021",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he keeps up with number of cases locally and in other states.",
+          "value": "regularly tracks COVID-19 case statistics",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions going to the beach as a less crowded outdoor activity; implies a beach-going habit.",
+          "value": "enjoys going to the beach",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

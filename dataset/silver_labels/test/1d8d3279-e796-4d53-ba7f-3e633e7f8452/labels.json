@@ -1,0 +1,480 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself directly: 'nice to meet you. My name is Andrew.'",
+          "value": "Andrew",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in New york city' and later mentions living there and working in midtown and the financial district.",
+          "value": "New York City",
+          "lines": [
+            13,
+            57,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I live down the financial district'.",
+          "value": "Financial District, Manhattan",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked in midtown'.",
+          "value": "Midtown Manhattan",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he grew up in New York, speaker_a answers 'Yeah... just right in like Long Island, right outside the city', indicating he is originally from Long Island.",
+          "value": "Long Island, New York (origin)",
+          "lines": [
+            203
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked 'What line of work are you in?', speaker_a replies 'Financial services like stuff.'",
+          "value": "Works in financial services",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his office: 'we're a small company... planning on going full remote... my boss was like, he's retiring or whatever and he's gonna leave new york'.",
+          "value": "Works at a small company that is planning full remote work, boss retiring",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I do this one else do user testing they've ever done that', referring to a side online money-making task; speaker_b confirms she has also done user testing.",
+          "value": "Does online user testing for extra money",
+          "lines": [
+            27,
+            28
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I was paying 150 a month for class fast' (class pass) before they decided to buy a Peloton.",
+          "value": "Previously paid $150/month for ClassPass",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explains they bought a Peloton: 'we did the math, the pellet on 60 Total split between two people, it's nothing you know like an interest financing and you get the service and the bike'.",
+          "value": "Purchased Peloton bike with interest financing",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'she is unlimited vacation time, I have time. I have to take, I didn't take it, I'm gonna lose it', indicating he has vacation days that will expire if not used.",
+          "value": "Has use-it-or-lose-it vacation time",
+          "lines": [
+            117
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my girlfriend' multiple times, indicating he is in a relationship.",
+          "value": "Has a girlfriend",
+          "lines": [
+            57,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my girlfriend works from home too' and later 'my girlfriend started a new job... the week before they started'.",
+          "value": "Girlfriend works from home, started a new job during the pandemic",
+          "lines": [
+            57,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my girlfriend, her all her friends live out there' referring to Chicago.",
+          "value": "Girlfriend has friends in Chicago",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my parents are like in their sixth, late 60s, early 70s' and they are 'in suburbia' and 'right in like Long Island'.",
+          "value": "Parents live in Long Island suburbs, in their late 60s to early 70s",
+          "lines": [
+            137,
+            139,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says of his girlfriend: 'her parents are moving, they're retired and they're moving down in north Carolina there like building a house'.",
+          "value": "Girlfriend's parents are retired, moving to North Carolina and building a house",
+          "lines": [
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'all our friends live out there. They just had kids' referring to friends in Chicago.",
+          "value": "Has friends in Chicago who recently had children",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my boss was like, he's retiring or whatever and he's gonna leave new york'.",
+          "value": "Boss is retiring and leaving New York",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a friend who's, he's like, yeah, you can come back, but you have to wear a mask all day' about a workplace.",
+          "value": "Has a friend whose workplace requires mask all day",
+          "lines": [
+            195
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a discusses participating in online studies: 'no one ever shows up for these things, log nines and like no one's ever there' and 'I do this one else do user testing', showing he takes part in paid research.",
+          "value": "Participates in online paid research/studies",
+          "lines": [
+            19,
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I got a Fitbit during this and like a challenge to get 10,000 steps'.",
+          "value": "Uses a Fitbit and aims for 10,000 daily steps",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his pre-pandemic routine: 'I would commute in, I would take a train, I would like go to the gym, I would walk to the gym, I would walk around the office'.",
+          "value": "Used to commute by train, walk to gym, and exercise at gym",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we used to go to clap me and my girlfriend go to like spin class in the city all the time' (class pass) and then they bought a Peloton.",
+          "value": "Used to attend spin classes with girlfriend, now bought a Peloton for home cycling",
+          "lines": [
+            97,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a trip: 'we were just like looking on states we could go to... we went out to Utah' and details flights.",
+          "value": "Took a trip to Utah during quarantine, flying United and Delta",
+          "lines": [
+            117,
+            119,
+            123,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we went to visit them... last Labor Day for the first time' in Chicago.",
+          "value": "Visited Chicago over Labor Day weekend",
+          "lines": [
+            147
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a indicates living arrangement: 'my girlfriend works from home too... it's just hear someone like is not... I got this whole place to myself now' and earlier mentions the apartment.",
+          "value": "Lives in an apartment with girlfriend",
+          "lines": [
+            57,
+            59,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he comes to the office because 'it's close to my apartment' and 'I got this whole place to myself now', describing working alone in the office during quarantine.",
+          "value": "Works alone in the office during quarantine",
+          "lines": [
+            57,
+            59,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about mask use and plastic gloves early in the pandemic.",
+          "value": "Wears a mask, used to wear plastic gloves during early quarantine",
+          "lines": [
+            225,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself as: 'Hi, my name is Samantha.'",
+          "value": "Samantha",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in Chicago' and repeatedly references living there.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            14,
+            88,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live right downtown in Chicago'.",
+          "value": "Downtown Chicago",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we live in a high rise now'.",
+          "value": "Lives in a high-rise building",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I used to live in boston. I was in new york for a while.'",
+          "value": "Previously lived in Boston and New York",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up in Chicago'.",
+          "value": "Grew up in Chicago",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I grew up in Chicago', identifying as a Chicago native.",
+          "value": "Chicago native",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states: 'um I'm a strategy director for like a health care company.'",
+          "value": "Strategy director at a healthcare company",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I've done this one time I think one time before' (online user study) and 'still a little here and there beer money or whatever' and 'I've done that for a little bit' (user testing), indicating occasional side income from online tasks.",
+          "value": "Does occasional online paid tasks for extra money",
+          "lines": [
+            22,
+            28
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b mentions 'when I was in consulting I used to work in new york for several years'.",
+          "value": "Previously worked in consulting in New York",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my husband' several times and describes him traveling for work.",
+          "value": "Married, husband travels frequently for work",
+          "lines": [
+            40,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we don't have any kids'.",
+          "value": "No children",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents live here too... my dad is retired... my mom is still working, she works at the University of Chicago'.",
+          "value": "Parents live in Chicago; father retired in 70s, mother works at University of Chicago",
+          "lines": [
+            38,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my brother's soul lives in new york' (ASR likely for 'my brother still lives in New York').",
+          "value": "Brother lives in New York",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions 'one of my girlfriends I think she bought it in june' about a Peloton, indicating a female friend.",
+          "value": "Has a girlfriend who purchased a Peloton",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm still friends with some people that I work with, like my old job'.",
+          "value": "Still friends with former coworkers",
+          "lines": [
+            194
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b confirms she has done this type of online study before: 'I've done this one time I think one time before'.",
+          "value": "Participates in online research studies for money",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b describes prepandemic routine: 'I used to walk to work uh like a 20 minute walk... like almost like an hour a day just like walking around'.",
+          "value": "Used to walk 20 minutes to work, daily walking to get steps",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'now even in my building like my gym has been closed... trying to get some like think this equipment in here' indicating gym closure and plans for home equipment.",
+          "value": "Gym in building closed, looking into home exercise equipment",
+          "lines": [
+            90,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes dining: 'my husband just last weekend we went to like an outdoor like seating place... all the seatings like 6ft apart. You have to wear your masks...'",
+          "value": "Does outdoor dining with husband, follows mask and distancing protocols",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're supposed to go to like Miami or something in in March... definitely just cancelled it'.",
+          "value": "Planned trip to Miami cancelled due to COVID",
+          "lines": [
+            182,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my job even before quarantine was like fully remote but with like with travel like to see my teens and stuff' (likely 'teams').",
+          "value": "Traveled for work before quarantine",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't drive it also like I'm just like someone that needs to drive' which, despite garbling, indicates she does not drive.",
+          "value": "Does not drive",
+          "lines": [
+            48
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b comments on mask awareness and distancing in her area: 'everyone was like very aware of like masks and like you know like keeping your distance', implying she also practices precautions.",
+          "value": "Practices COVID-19 precautions (mask, distancing)",
+          "lines": [
+            222,
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

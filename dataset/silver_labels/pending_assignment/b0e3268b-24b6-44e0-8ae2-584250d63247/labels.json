@@ -1,0 +1,313 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states his name directly after speaker_b introduces herself.",
+          "value": "Logan",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Virginia, later confirms Norfolk specifically. He mentions living in the city, near restaurants, and his brother lives in nearby Chesapeake.",
+          "value": "Norfolk, Virginia",
+          "lines": [
+            85,
+            87,
+            258,
+            259,
+            263
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says '23 is pretty good for me' when discussing his age.",
+          "value": "23 years old",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to himself as a 'young man' and mentions dating black chicks, indicating he is male.",
+          "value": "male",
+          "lines": [
+            97,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is voting for Trump and attended a Trump rally, indicating he is a Trump supporter.",
+          "value": "Trump supporter",
+          "lines": [
+            147,
+            149,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states he bought a tiny studio apartment with cash and has no rent or mortgage.",
+          "value": "owns a studio apartment outright",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does Doordash and Grubhub and currently makes 20-25 dollars an hour.",
+          "value": "earns $20-25 per hour from delivery gigs",
+          "lines": [
+            65,
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he has made about $400 this year on Prolific surveys.",
+          "value": "earns about $400 per year from Prolific surveys",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he worked at Domino's for three years and saved 50 grand.",
+          "value": "saved $50,000 working at Domino's for 3 years",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a claims he does not pay taxes by taking advantage of deductions like mileage.",
+          "value": "does not pay income taxes due to deductions",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says his brother lives in Chesapeake, about 10 minutes away, and they attended a Trump rally together.",
+          "value": "has a brother who lives in Chesapeake, VA",
+          "lines": [
+            263,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his dad was in the military, which caused the family to move frequently.",
+          "value": "father was in the military",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has 'majorly just dated like black chicks'.",
+          "value": "has dated mostly black women",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions doing DoorDash and Grubhub deliveries, often waiting for orders at home.",
+          "value": "gig economy delivery driver",
+          "lines": [
+            65,
+            83,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he does surveys on Prolific and previously on Amazon Mechanical Turk.",
+          "value": "takes online surveys for money",
+          "lines": [
+            46,
+            47,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he deleted his Facebook account and does not use Twitter, but still uses Instagram.",
+          "value": "uses Instagram; no Facebook or Twitter",
+          "lines": [
+            189,
+            191,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions going to a Trump rally in Newport News with his brother.",
+          "value": "attends Trump rallies",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he plans to sell his current place and move to North Carolina to buy a house.",
+          "value": "plans to move to North Carolina and buy a house",
+          "lines": [
+            273,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a directly states 'I'm bald'.",
+          "value": "bald",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself by name at the start of the conversation.",
+          "value": "Karen",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I live like on a college campus' when discussing the potential for delivery requests.",
+          "value": "lives on a college campus",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b mentions she is taking online classes and had just finished a class at 10:45.",
+          "value": "college student taking online classes",
+          "lines": [
+            60,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b gave her name as Karen, a traditionally female name, though gender is not explicitly stated elsewhere.",
+          "value": "female",
+          "lines": [
+            8
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b affirms she has a car when asked.",
+          "value": "owns a car",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she uses Prolific and does surveys in her spare time and during class, implying she earns money from them.",
+          "value": "earns money from Prolific surveys",
+          "lines": [
+            46,
+            52,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes doing one or two Instacart deliveries the previous summer but hating it.",
+          "value": "tried Instacart delivery work",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says her friend recommended Prolific and she tried to do a survey at that friend's house.",
+          "value": "has a friend who uses Prolific",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she does Prolific surveys during class or whenever she has spare time.",
+          "value": "does online surveys in spare time",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a Facebook account but does not use it; she thinks it is deactivated.",
+          "value": "keeps a deactivated Facebook account",
+          "lines": [
+            194,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is not on Twitter.",
+          "value": "does not use Twitter",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions scrolling through her Reddit feed and discussing whether Reddit is social media.",
+          "value": "uses Reddit",
+          "lines": [
+            208,
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

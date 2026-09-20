@@ -1,0 +1,453 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States she attends UT Austin (line 77), which is located in Austin, Texas. As a junior who has been there for three years, she presumably lives in Austin.",
+          "value": "Austin, Texas",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I'm on my junior' and has been at UT Austin for three years.",
+          "value": "college junior",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a nursing leader' (ASR error, confirmed as 'nursing major' by speaker_b in line 76) and mentions starting clinicals.",
+          "value": "nursing major",
+          "lines": [
+            73,
+            76,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I took spanish um starting in middle school up until like the end of high school, so I did like four years of spanish'.",
+          "value": "studied Spanish for four years in middle and high school",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I'm pretty sure my hearing is probably diminished because I like going to concerts and stuff' and admits to listening to loud music. No formal test mentioned.",
+          "value": "believes hearing is diminished",
+          "lines": [
+            133,
+            135
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Stopped working at daycare because two coworkers tested positive for COVID, implying potential exposure.",
+          "value": "potentially exposed to COVID-19 from coworkers",
+          "lines": [
+            37
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I worked previously at like a math tutoring place called Magnesium' – ASR misrecognition of 'Mathnasium'.",
+          "value": "Mathnasium (math tutoring)",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'over the summer I worked at like a daycare, it's technically a preschool'.",
+          "value": "worked at a daycare/preschool",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'blasting music in my car', indicating car ownership.",
+          "value": "owns a car",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'obviously traveling is expensive'.",
+          "value": "finds travel expensive",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'my brother is actually an audio file' (audiophile).",
+          "value": "has a brother",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes brother's passion for high-quality audio equipment, including expensive headphones.",
+          "value": "brother is an audiophile",
+          "lines": [
+            85,
+            99,
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'he gets a lot of his music illegally through priority and stuff' (piracy).",
+          "value": "brother pirates music",
+          "lines": [
+            117
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I used to play piano and violin growing up, but I haven't played in like two years now almost'.",
+          "value": "played piano and violin growing up, hasn't played in ~2 years",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions choosing orchestra over band in school.",
+          "value": "participated in orchestra",
+          "lines": [
+            183,
+            184,
+            185
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lists countries visited and says 'I've been out of the country I think 56 times' – ASR likely captured 'five or six times'.",
+          "value": "traveled internationally to Canada, Japan, Hong Kong, Taiwan, mainland China (five or six times)",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Admits to listening to music at loud volumes and blasting music in the car.",
+          "value": "listens to music at loud volumes",
+          "lines": [
+            135,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I like going to concerts and stuff. I've been clubbing before too'.",
+          "value": "attends concerts and clubs",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am taking like a spanish course uh this upcoming semester, it's spanish for like healthcare professionals'.",
+          "value": "taking a Spanish course for healthcare professionals",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I thought about learning guitar too'.",
+          "value": "interested in learning guitar",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Sets a 25-minute timer for the conversation.",
+          "value": "uses a 25-minute timer",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Attends Old Dominion University (line 84), which is located in Norfolk, Virginia. As a current student almost done, he likely lives in the Norfolk area.",
+          "value": "Norfolk, Virginia",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States he switched his major to sound recording technology and is still attending Old Dominion University.",
+          "value": "student at Old Dominion University, major in sound recording technology",
+          "lines": [
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I started with like music education as my degree to teach'.",
+          "value": "previously majored in music education",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm still young and my hearing is a little lower than I thought it would be'.",
+          "value": "young adult",
+          "lines": [
+            130
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "When asked his Spanish level, replies 'intermediate, I guess'.",
+          "value": "intermediate Spanish speaker",
+          "lines": [
+            66,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is still learning Spanish and took online classes to improve.",
+          "value": "learning Spanish",
+          "lines": [
+            60,
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Reports that a frequency hearing test video showed his hearing stops around 9600 Hz, and he is concerned about early hearing decay.",
+          "value": "high-frequency hearing loss (limit ~9600 Hz)",
+          "lines": [
+            126,
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'obviously my participate negative' – likely ASR error for 'my test was negative', referring to a COVID-19 test.",
+          "value": "tested negative for COVID-19",
+          "lines": [
+            38
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Describes himself as a musician trying to get more students, teaches private guitar lessons, and has been teaching for a couple of years.",
+          "value": "guitar teacher (private lessons)",
+          "lines": [
+            10,
+            16,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'just basically on prolific just to make a liberation money on the side' – ASR error for 'a little extra money', referring to the Prolific platform.",
+          "value": "uses Prolific for side income",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'when I worked at a guitar center for a couple of years when I was like a salesperson'.",
+          "value": "worked at Guitar Center as a salesperson",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains he gets paid to set up livestreams for a classical guitar society.",
+          "value": "paid to set up livestreams for classical guitar society",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes paying for a month of online Spanish classes (15 classes/month) through a platform he calls 'lingo to' (likely Lingoda).",
+          "value": "pays for online Spanish classes",
+          "lines": [
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions driving and setting a volume limit in his car.",
+          "value": "owns a car",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Refers to 'my sister's friend', implying he has a sister.",
+          "value": "has a sister",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my father got tested recently'.",
+          "value": "has a father",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he visited 'the homes of my relatives' in Chile.",
+          "value": "has relatives in Chile",
+          "lines": [
+            48,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I got a friend of mine... he's a reggae kind of guy'.",
+          "value": "has a friend who likes reggae",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'this classical guitar society, I'm a part of'.",
+          "value": "member of a classical guitar society",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he plays guitar and piano, specifically acoustic guitar with fingerstyle technique.",
+          "value": "plays acoustic guitar (fingerstyle) and piano",
+          "lines": [
+            10,
+            12,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists his music tastes: Japanese rock (favorite), 80s pop, metal, Mongolian metal, Latin music, reggae.",
+          "value": "listens to Japanese rock, 80s pop, metal, Mongolian metal, Latin music, reggae",
+          "lines": [
+            150,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he visited Chile twice: once as a toddler, once at age 13-14.",
+          "value": "visited Chile twice",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions visiting Punta Arenas, Chile, near the Antarctic.",
+          "value": "visited Punta Arenas, Chile",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Admits to cranking headphones in high school.",
+          "value": "listened to loud music in high school",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a rule to keep car volume at or below 30.",
+          "value": "limits car volume to 30",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'right now I'm learning a percussive guitar'.",
+          "value": "learning percussive guitar",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Took an online Spanish course called 'lingo to' (likely Lingoda) over the summer.",
+          "value": "took online Spanish classes via Lingoda/Lingo",
+          "lines": [
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has a Chilean flag in the background, which speaker_a mistook for the Texas flag.",
+          "value": "displays a Chilean flag",
+          "lines": [
+            42,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

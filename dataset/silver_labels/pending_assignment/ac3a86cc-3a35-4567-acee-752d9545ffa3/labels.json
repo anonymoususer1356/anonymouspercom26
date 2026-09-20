@@ -1,0 +1,332 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name when asked by speaker_b.",
+          "value": "Rebecca",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a provides her Reddit username, which is garbled by ASR as 'mind stripes weaker so weaker like a squeaker toy'; speaker_b interprets it as 'squeaker'. The intended username is likely 'squeaker'.",
+          "value": "squeaker",
+          "lines": [
+            437,
+            438
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she was born in Columbia, South Carolina (ASR 'Colombia') and later confirms it when asked directly.",
+          "value": "Columbia, South Carolina",
+          "lines": [
+            35,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she currently lives in Greenville, South Carolina (ASR 'Greenville net').",
+          "value": "Greenville, South Carolina",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions moving to Florida for a little while.",
+          "value": "Florida",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she lived in Albany, Georgia.",
+          "value": "Albany, Georgia",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as a girl when comparing to previous chat partners (all male), has a female name, and mentions a boyfriend.",
+          "value": "female",
+          "lines": [
+            15,
+            25,
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she works at a pet store and uses present tense when describing the many animals they have.",
+          "value": "works at a pet store",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a explicitly says she has a long-term boyfriend, who is upstairs with birds.",
+          "value": "has a long-term boyfriend",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her brother several times, including his incarceration and mental health issues.",
+          "value": "has a brother",
+          "lines": [
+            271,
+            283,
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'we actually do factory hunting' (ASR for falconry), mentions a hawk, and indicates her boyfriend is with birds, implying falconry as a hobby.",
+          "value": "falconry",
+          "lines": [
+            75,
+            77,
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'We have a ton … a lot' when asked about pets.",
+          "value": "has many pets",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has been doing Reddit Secret Santa every year for about eight years.",
+          "value": "participates in Reddit Secret Santa",
+          "lines": [
+            361,
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has been on Prolific since Covid started.",
+          "value": "uses Prolific survey platform",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions liking freebies, receiving free breakfast bars, CBD gummies, shampoo, and toothpaste.",
+          "value": "enjoys freebies and product samples",
+          "lines": [
+            339,
+            341,
+            343
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a talks about selling a lamp on Facebook to make money.",
+          "value": "sells items on Facebook",
+          "lines": [
+            373
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states her name when asked by speaker_a.",
+          "value": "Kayla",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says her Reddit username is 'soy can'.",
+          "value": "soy can",
+          "lines": [
+            436
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is from North Carolina.",
+          "value": "North Carolina",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she currently lives in Lumberton, North Carolina.",
+          "value": "Lumberton, North Carolina",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she used to live in Dillon, South Carolina (ASR 'Dylan') for about two years.",
+          "value": "Dillon, South Carolina",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b has a female name, refers to her first chat partner being a girl as well, and discusses boyfriends/dating.",
+          "value": "female",
+          "lines": [
+            16,
+            26,
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes her job in juvenile services as a residential counselor at a Christian-based agency she identifies as Methodist (ASR 'method is').",
+          "value": "residential counselor at Methodist juvenile group home",
+          "lines": [
+            90,
+            92,
+            96,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'when my lease is up here', indicating she rents her home.",
+          "value": "rents home",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is pursuing a BS in Criminal Justice.",
+          "value": "BS in Criminal Justice student",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b states she has a twin brother living in Milledgeville, Georgia.",
+          "value": "has a twin brother in Milledgeville, GA",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains her mother and stepfather went through a separation and are now divorced.",
+          "value": "parents divorced",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about her own relationship status, speaker_b describes how hard it is to date with her schedule, strongly implying she is single.",
+          "value": "single",
+          "lines": [
+            130,
+            133,
+            134
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is teaching herself to paint and draw with charcoal, and she describes showing a face drawing and a balloon dog drawing.",
+          "value": "painting and drawing",
+          "lines": [
+            386,
+            394,
+            416,
+            422
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she did Reddit Secret Santa for the first time last year and plans to do it again.",
+          "value": "participates in Reddit Secret Santa",
+          "lines": [
+            358,
+            390
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions discovering Prolific through a subreddit and using the platform.",
+          "value": "uses Prolific",
+          "lines": [
+            320,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists favorite subreddits including Dunder Mifflin and Random Acts of Amazon, and mentions sending cards.",
+          "value": "enjoys Reddit gift exchanges and card sending",
+          "lines": [
+            346,
+            348,
+            352
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states she has no pets but wants dogs; her current rental does not allow pets.",
+          "value": "wants a dog, no pets currently",
+          "lines": [
+            74,
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

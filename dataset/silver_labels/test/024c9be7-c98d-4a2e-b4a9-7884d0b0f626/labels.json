@@ -1,0 +1,344 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in texas' and 'I live basically like where like Dallas and Fort Worth meat' (meet). Later confirms born and raised in the same area.",
+          "value": "Texas, specifically Dallas-Fort Worth area",
+          "lines": [
+            17,
+            25,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_b says born and raised in Oakland, speaker_a says 'born and born and raised here actually' referring to Texas.",
+          "value": "Born and raised in Texas",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to 'my wife' multiple times, strongly suggesting male gender.",
+          "value": "Male",
+          "lines": [
+            163,
+            165,
+            173
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I have really bad allergies right now' and worries about coughing in public.",
+          "value": "Suffers from allergies",
+          "lines": [
+            31,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I've been able to work from home' and 'I really don't leave the house that much', indicating remote employment.",
+          "value": "Employed, works from home",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'my wife's family is in Tennessee' and plans Thanksgiving with them, confirming marriage.",
+          "value": "Married, has a wife",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions wife's younger siblings (three in college, one is gay) and her parents.",
+          "value": "Wife's family includes parents and three younger siblings (one gay)",
+          "lines": [
+            165,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my brother went to Oregon' and 'I'm staying with my brother'.",
+          "value": "Has a brother, currently living with him",
+          "lines": [
+            103,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom like lived there for a while' when discussing Oregon.",
+          "value": "Mother lived in Oregon",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my friend invited me to go to one of those games' (World Series/NLCS) and 'me and my friend read a hockey game'.",
+          "value": "Has a close friend who attends sports events with him",
+          "lines": [
+            49,
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a attended a World Series/NLCS game in a suite and a hockey game with a friend.",
+          "value": "Attends major sporting events (baseball, hockey)",
+          "lines": [
+            49,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I went to Arkansas of all places like in september'.",
+          "value": "Traveled to Arkansas",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I use twitter but like I primarily felt like sports people' and avoids political posting.",
+          "value": "Uses Twitter, mainly follows sports",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes liking to travel and pack activities, e.g., when going to Nashville.",
+          "value": "Enjoys travel and active sightseeing",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a works from home and says he rarely leaves the house.",
+          "value": "Homebody due to remote work",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've been to Oakland once. I think I went to an A's game.'",
+          "value": "Visited Oakland for an A's game",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions driving 10 hours to Tennessee for Thanksgiving and staying a week.",
+          "value": "Plans long road trip to Tennessee for family Thanksgiving",
+          "lines": [
+            165,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I will be able to play my on my laptop or you know, watch watch movies'.",
+          "value": "Watches movies on laptop",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in California'.",
+          "value": "California",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Born and raised in Oakland' (despite ASR 'rains tents') and later 'I live in Oakland now'.",
+          "value": "Lives in Oakland, California",
+          "lines": [
+            38,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'born and raised in the Bay Area'.",
+          "value": "Born and raised in the Bay Area (Oakland)",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I grew up in like a small town, which to us small town is like 150,000 people' in the Bay Area.",
+          "value": "Grew up in a small town of ~150,000 people",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'my boss lives in Portland', indicating she is employed.",
+          "value": "Employed",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my best friend's mom' and later 'my best friend and I were talking'.",
+          "value": "Has a best friend",
+          "lines": [
+            46,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my friend really wanted to go to Oregon' for his birthday.",
+          "value": "Has a friend who wanted to travel to Oregon",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my family's that lives here is pretty small, like it's just my mom, my brother and my grandpa'.",
+          "value": "Immediate family includes mother, brother, and grandfather",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my boss lives in Portland'.",
+          "value": "Has a boss",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'we just do a ton of A's games' over the summer and misses them.",
+          "value": "Frequently attends Oakland A's games in summer",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to a Raiders game there last... it was supposed to be their last game in Oakland'.",
+          "value": "Attended Raiders game in Oakland",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to um hockey game' that was packed.",
+          "value": "Attended a hockey game",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to New Zealand for two weeks' and was on last flight out.",
+          "value": "Traveled to New Zealand",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'this seven hour ride' in northern California.",
+          "value": "Takes road trips (seven-hour drive) in California",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a twitter person too' and describes her usage.",
+          "value": "Uses Twitter",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we still did outdoor dining because I was like, I am not going into a restaurant with other people in it' and describes preferring outdoor setups.",
+          "value": "Prefers outdoor dining, avoids indoor dining due to COVID",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes driving to Oregon with a friend for his birthday and stopping in Bend.",
+          "value": "Traveled to Oregon",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I clicked my exit tab' when seeing proposition results, indicating computer use.",
+          "value": "Uses a computer",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

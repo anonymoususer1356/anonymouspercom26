@@ -1,0 +1,516 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b addresses her as 'Tiffany' (line 10) and she confirms 'My name is Tiffany' (line 11).",
+          "value": "Tiffany",
+          "lines": [
+            10,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in California' (line 27) and expresses preference for its weather (line 37).",
+          "value": "Lives in California",
+          "lines": [
+            27,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I don't really live too far from my university, I live about 30 minutes away' (line 75).",
+          "value": "Lives about 30 minutes away from her university",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live with my mom and my brother' (line 89) and earlier mentions moving back home (line 77).",
+          "value": "Lives with mother and brother",
+          "lines": [
+            77,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm only 21' when asked about marriage/kids (line 87).",
+          "value": "21 years old",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her name is Tiffany (lines 10-11), typically female, and there is no indication otherwise.",
+          "value": "Female",
+          "lines": [
+            10,
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm in college right now so it's my fourth year actually I'm studying accounting' (line 49).",
+          "value": "Fourth-year college student studying accounting",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if married with kids, she replies 'No, I'm only 21' (line 87).",
+          "value": "Not married and no children",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She describes herself as 'really small' and 'very petite person' (line 117).",
+          "value": "Petite/small body frame",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says after not working, 'everything is so heavy now' and 'I'm actually really, really weak now' (lines 193-195).",
+          "value": "Feels physically weak after stopping work/exercise",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she 'doesn't have a lot of money' and appreciates free food at work (line 73).",
+          "value": "Limited financial means as a student",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She worked at university dining halls (line 71), was promoted to supervisor and a new location was opening (lines 77-81), but she no longer works there due to Covid (line 73).",
+          "value": "Previously worked at university dining halls, promoted to supervisor but currently unemployed due to Covid",
+          "lines": [
+            71,
+            73,
+            77,
+            79,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been using prolific for about two months' (line 17), indicating she participates in online surveys.",
+          "value": "Participates in online surveys on Prolific",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She states 'I live with my mom and my brother' (line 89) and helps her mom with work (line 201).",
+          "value": "Lives with mother and brother",
+          "lines": [
+            89,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Implied by living with them; she also mentions helping her mom (line 201) and having a brother (line 89).",
+          "value": "Has a mother and a brother",
+          "lines": [
+            89,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching shows 'when I'm with my friends' (line 163).",
+          "value": "Has friends",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I'm like a home person', 'I mostly like play games in my free time', 'watch tv', 'like this stuff on the internet' (lines 151-155).",
+          "value": "Prefers staying home, playing games, watching TV, browsing the internet",
+          "lines": [
+            151,
+            153,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'My like favorite show of all time is booking 99' (Brooklyn 99) and she's watching it for the third time (line 157).",
+          "value": "Favorite TV show is Brooklyn 99",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains she helps her mom who runs a daycare, and assists with technology for the kids' online school (lines 201-209).",
+          "value": "Helps mother with daycare work, including technology support",
+          "lines": [
+            201,
+            203,
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my love languages physical touch' (line 113).",
+          "value": "Love language is physical touch",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I think I've only been out of state like once in my life' (line 27).",
+          "value": "Rarely travels out of state",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm not that much of a people person' (line 61) and 'I like to just kind of sit down and do my work' (line 63).",
+          "value": "Not a people person; prefers solitary work",
+          "lines": [
+            61,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She describes herself as 'really small' and 'very petite person' (line 117).",
+          "value": "Very petite/small",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself: 'I'm kat my full name is Katherine, but I go by cat' (line 6).",
+          "value": "Katherine, goes by Cat",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in the west in Utah' (line 22), mentions a Utah windstorm (line 40), and comments on Utah marriage culture (line 90).",
+          "value": "Lives in Utah",
+          "lines": [
+            22,
+            40,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I was born in Utah' (line 24).",
+          "value": "Born in Utah",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've also lived in like Idaho and California' (line 24).",
+          "value": "Has lived in Idaho and California",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In discussing California earthquake drills, she says 'when I lived there I lived there for about nine or 10 years' (line 46).",
+          "value": "Lived in California for about 9-10 years",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I live with one of my best friends actually, and she owns the house' and moved in July (line 98).",
+          "value": "Lives with best friend/roommate who owns the house",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains 'before that I was living with my grandmother, I lived with her for four years' (line 98).",
+          "value": "Previously lived with grandmother for four years",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm 29 years old' (line 92).",
+          "value": "29 years old",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her name is Katherine (line 6) and she uses female-gendered terms like 'old maid' (line 96) and 'woman's role' (line 138).",
+          "value": "Female",
+          "lines": [
+            6,
+            92,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I was raised mormon, but I'm not at all' (line 92).",
+          "value": "Raised Mormon but no longer practicing",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'no I'm not married' (line 94) and that she's not ready for kids (line 92).",
+          "value": "Not married and no children",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I work as a caregiver for a woman with disabilities' (line 48) and has been doing it for 3.5 years (line 50).",
+          "value": "Works as a caregiver for a woman with disabilities",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself and her roommate as 'both pretty introverted' (line 100).",
+          "value": "Introverted",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I've gotten so much weaker' after stating she no longer rock climbs during Covid (lines 184, 188).",
+          "value": "Feels physically weaker after stopping rock climbing",
+          "lines": [
+            184,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she works as a caregiver (line 48).",
+          "value": "Employed as a caregiver",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her friend 'owns the house' and she moved in, implying she does not own the residence (line 98).",
+          "value": "Does not own her residence; lives in friend's house",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions working at Cold Stone in high school (line 70) and doing house cleaning/organization for a while (line 136).",
+          "value": "Previously worked at Cold Stone and house cleaning",
+          "lines": [
+            70,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been on prolific and doing surveys on there for like the past two months' (line 16).",
+          "value": "Participates in online surveys on Prolific",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I have three brothers' and lists their locations (line 90).",
+          "value": "Has three brothers",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she's not married (line 94) and calls herself an 'old maid' (line 96), indicating single status.",
+          "value": "Single, not married",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes living with her best friend (line 98).",
+          "value": "Lives with best friend (roommate)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lived with and helped care for her grandmother for four years (line 98).",
+          "value": "Cared for grandmother for four years",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my ex boyfriend' gave her a cat (line 120).",
+          "value": "Has an ex-boyfriend",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her cat 'ended up passing away earlier this year' (lines 122-124).",
+          "value": "Had a cat that passed away",
+          "lines": [
+            120,
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she's happy with her roommate's pets (line 124) and notes the roommate has a corgi (line 100).",
+          "value": "Currently no pets, but enjoys roommate's corgi",
+          "lines": [
+            100,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions hiking with her brother (line 146) and says she used to rock climb 5 times a week (line 184).",
+          "value": "Enjoys hiking and used to rock climb regularly",
+          "lines": [
+            146,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I like to do yoga. I've done yoga teacher training before' (line 184).",
+          "value": "Practices yoga and completed yoga teacher training",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes loving to read and making collages from old thrift store books (line 184).",
+          "value": "Enjoys reading and making collages from old books",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a movie tracking app (line 168) and loving 'really old shitty movies' like Con Air (lines 170-172).",
+          "value": "Watches movies, especially old ones, and uses a movie tracking app",
+          "lines": [
+            168,
+            170,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about arranging books by rainbow color, redoing the kitchen (line 130), and her background in house cleaning/organization (line 136).",
+          "value": "Likes home decoration and organization",
+          "lines": [
+            130,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I used to do babysitting to before Covid' (line 218).",
+          "value": "Used to babysit",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I visited san Francisco a couple of years ago' (line 34).",
+          "value": "Has visited San Francisco",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

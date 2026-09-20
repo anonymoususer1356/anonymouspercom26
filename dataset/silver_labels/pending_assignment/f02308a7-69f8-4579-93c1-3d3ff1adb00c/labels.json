@@ -1,0 +1,453 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'my name is Helen?' (likely a self‑introduction); speaker_b mishears as 'Killin' in line 12. The intended name is Helen.",
+          "value": "Helen",
+          "lines": [
+            9,
+            12
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in New York City and lives in the Upper East Side of Manhattan.",
+          "value": "Upper East Side, Manhattan, New York City",
+          "lines": [
+            17,
+            37,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is visiting her parents at their house, which is across the street from where her father grew up, and describes it as where she was born.",
+          "value": "At her parents' house in New York City",
+          "lines": [
+            37,
+            39,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she was born 22 years ago when referring to her parents' home.",
+          "value": "22 years old",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she recently graduated, was a finance major, and went to school in the city.",
+          "value": "Finance major, recently graduated",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she went to Catholic school.",
+          "value": "Attended Catholic school",
+          "lines": [
+            107
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she no longer buys Catholic teachings and doesn't believe; she is non‑religious.",
+          "value": "Lapsed Catholic, does not practice",
+          "lines": [
+            107,
+            109,
+            119,
+            133
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to her brother multiple times.",
+          "value": "Has a brother",
+          "lines": [
+            151,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes her face sinking in and losing hair during her demanding summer internship at Morgan Stanley.",
+          "value": "Experienced stress‑related facial gauntness and hair loss during internship",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she has been working at a startup for the last few months.",
+          "value": "Works at a startup",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she interned last summer at Morgan Stanley in investment banking.",
+          "value": "Interned at Morgan Stanley in investment banking",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a gives her parents' exact ages: father 66, mother 65.",
+          "value": "Father aged 66, mother aged 65",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her mother works for Sesame Street, has been there about 25 years, and her role involves social impact.",
+          "value": "Mother works at Sesame Street (social impact role, ~25 years)",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her parents bought their home for about $190,000 when she was born (22 years ago) and a neighbouring house recently sold for over $1 million.",
+          "value": "Parents' home purchased for ~$190K, now area homes selling for >$1M",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her brother has been dating his girlfriend for nine or ten years and they will likely marry.",
+          "value": "Brother in a long-term relationship (9‑10 years) with soon‑to‑be fiancée",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a cousin who is a singer, known on a TV show, and performs often.",
+          "value": "Cousin is a singer appearing on TV",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she is visiting her parents during the conversation.",
+          "value": "Currently visiting parents",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a expresses doubt about marriage, calling it a construct and citing the high divorce rate.",
+          "value": "Skeptical of marriage",
+          "lines": [
+            213,
+            214,
+            215
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes herself as a ruminator and perfectionist to a detrimental degree.",
+          "value": "Tends to ruminate and be a perfectionist",
+          "lines": [
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says she used to have long hair.",
+          "value": "Formerly had long hair",
+          "lines": [
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a reports her face and hair looked worse during her internship.",
+          "value": "Sunken face and thinner hair during stressful internship",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself directly as 'I'm Raylene'.",
+          "value": "Raylene",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she is in Utah, mentions Utah as home, and refers to the local housing market.",
+          "value": "Lives in Utah",
+          "lines": [
+            14,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up in Idaho.",
+          "value": "Grew up in Idaho",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she previously lived in New Hampshire, about an hour and a half from Boston.",
+          "value": "Lived in New Hampshire (about 1.5 hours from Boston)",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states she is not Mormon, has polygamist ancestors, and is part of an ex‑Mormon women's group, indicating a non‑religious identity with a Mormon background.",
+          "value": "Ex‑Mormon, not religious (Mormon background with polygamist ancestors)",
+          "lines": [
+            28,
+            106,
+            116,
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b says she went through a really nasty divorce.",
+          "value": "Divorced",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she and her partner bought a home in Utah in 2014, and its value has greatly increased.",
+          "value": "Homeowner in Utah (purchased 2014)",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says 'Yeah, I work.' in response to a question about work, though the job is not further specified.",
+          "value": "Employed (unspecified job)",
+          "lines": [
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she and her partner are writing a free online course on beliefs and values.",
+          "value": "Co‑writing a free online self‑help course",
+          "lines": [
+            88,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she has been with her current partner for 24 years and they are not married.",
+          "value": "Has a long‑term partner of 24 years (not married)",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her partner taught languages and finance at USC.",
+          "value": "Partner taught languages and finance at USC",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b names one son Jamison, describes him as the long‑black‑haired member of the metal band Visigoths, and says he works another job to support his music.",
+          "value": "Son Jamison is a metal musician in band Visigoths",
+          "lines": [
+            150,
+            152,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says both her sons have long hair and are into heavy metal.",
+          "value": "Both biological sons are long‑haired heavy metal enthusiasts",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has two biological children and ten stepchildren.",
+          "value": "Mother of 2, stepmother of 10",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her stepson's house burned down in the Paradise, California fire.",
+          "value": "Stepson lost his house in the Paradise fire",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says another stepson does social impact consulting across Europe, including Amsterdam and Germany.",
+          "value": "Stepson is a social impact consultant working in Europe",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b recounts a family wedding where her oldest stepson jokingly suggested they could date.",
+          "value": "Oldest stepson made a joke about dating her",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her sisters are Mormon and were at that wedding.",
+          "value": "Has sisters who are Mormon",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is a member of an ex‑Mormon women's Facebook group.",
+          "value": "Member of ex‑Mormon women's Facebook group",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says all her children are grown and the youngest is a little older than speaker_a (22).",
+          "value": "All children are adults, youngest slightly older than 22",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a stepson who is only 12 years younger than her.",
+          "value": "Oldest stepson is 12 years younger than her",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves her daughter‑in‑law, describing her as fabulous.",
+          "value": "Has a daughter‑in‑law (Jamison's wife)",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b states she does not want a marriage certificate, values commitment without legal marriage, and finds the idea of asking a judge for permission to separate ridiculous.",
+          "value": "Anti‑marriage; prefers commitment without legal marriage",
+          "lines": [
+            216,
+            217,
+            226,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she prefers to meditate and go inside rather than follow a religion.",
+          "value": "Practices meditation and introspection",
+          "lines": [
+            124,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was constantly in the principal's office, indicating a rebellious nature.",
+          "value": "Rebellious attitude toward authority",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she loved every stage of being a mother and just loves her kids.",
+          "value": "Loves motherhood and enjoyed raising children",
+          "lines": [
+            196,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes co‑writing a free online course aimed at helping people parse beliefs and reduce stress.",
+          "value": "Writing a free self‑help course with partner",
+          "lines": [
+            88,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

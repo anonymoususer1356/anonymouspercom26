@@ -1,0 +1,454 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Caroline in line 9 ('I can Caroline' likely 'I am Caroline') and speaker_b addresses her as Caroline in line 10.",
+          "value": "Caroline",
+          "lines": [
+            9,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm from Ohio' in line 19.",
+          "value": "Ohio",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I live in the boonies, I live out in the rural town and we're like 5000 people' (line 145) and earlier indicates she is in a time zone one hour ahead of speaker_b (line 13), consistent with Eastern Time and Ohio.",
+          "value": "rural town in Ohio (population ~5,000)",
+          "lines": [
+            13,
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I grew up in Columbus' in line 193.",
+          "value": "Columbus, Ohio",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I lived in the city for a while before I had to move back out here. I lost my condo and a recession' (line 187), indicating she previously lived in Columbus as an adult.",
+          "value": "previously lived in Columbus, Ohio (lost condo in recession)",
+          "lines": [
+            187
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm a christian' in line 219.",
+          "value": "Christian",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her political affiliation: 'I've flipped from Democratic to Republican back now... I think I'm independent' (lines 217-218) and 'um um moderate conservative' (line 219).",
+          "value": "political independent and moderate conservative",
+          "lines": [
+            217,
+            218,
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'when I went to school in college of two' (line 239), indicating she attended college despite ASR garbling.",
+          "value": "attended college",
+          "lines": [
+            239
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states 'I got asthma' in line 99.",
+          "value": "asthma",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I've been working remotely before the covid' (line 33) and 'I was trying to work remotely now' (line 111).",
+          "value": "works remotely",
+          "lines": [
+            33,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I was working for Medicaid before I had to quit right before the covid' (line 111).",
+          "value": "formerly worked for Medicaid",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I work for a telecommunications company who sent out political calls for progressive' (line 215). The present tense suggests current employment.",
+          "value": "works for a telecommunications company making political calls",
+          "lines": [
+            215
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked in survey research when I went to school in college' (line 239).",
+          "value": "worked in survey research during college",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I lost my condo and a recession' (line 187).",
+          "value": "lost a condominium in a recession",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when we bought my parents bought this house' (line 205), indicating she resides in a home purchased by her parents.",
+          "value": "lives in parents' house",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'we have an acre' (line 201) in the context of describing her property.",
+          "value": "lives on a one-acre lot",
+          "lines": [
+            201
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I take care of my dad' (line 33) and describes his serious health issues (lines 99-103).",
+          "value": "caregiver for her father",
+          "lines": [
+            33,
+            99,
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom was sick before she died a long time, I took care of her' (line 115).",
+          "value": "mother is deceased",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if she has pets, speaker_a answers 'three' (line 25) and then responds to clarification (line 27).",
+          "value": "has three pets",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'others police officer lives next door' (line 37).",
+          "value": "has a police officer neighbor",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a neighbor in her 80s who has lived there all her life (lines 193-205).",
+          "value": "has an elderly female neighbor (in her 80s)",
+          "lines": [
+            193,
+            194,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'One of my pastor friends' (line 63).",
+          "value": "has a friend who is a pastor",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have people that live down in the bottoms which is the bad part of town' (line 133).",
+          "value": "has acquaintances in the bottoms area of Columbus",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I follow the stories, I just like the news' (line 49).",
+          "value": "follows the news closely",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a implies she voted in the 2020 election: 'when I initially voted for him' (line 219) and later 'I thought about well maybe I should have voted the other way' (line 245).",
+          "value": "voted in the 2020 U.S. presidential election",
+          "lines": [
+            219,
+            245
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes staying home, having items shipped, and avoiding bringing Covid to her father (lines 33, 99, 103).",
+          "value": "takes strict precautions against Covid-19",
+          "lines": [
+            33,
+            99,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'cleaning house kind of work' (line 15) when describing her activities.",
+          "value": "does house cleaning",
+          "lines": [
+            15
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she lives 'in the boonies' and in a rural town (line 145).",
+          "value": "lives a rural lifestyle",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as Nick: 'I'm nick' (line 10) and earlier says 'Oh, nick' (line 4) likely offering his name.",
+          "value": "Nick",
+          "lines": [
+            4,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm from Minnesota' (line 18) and later specifies 'I'm from the twin cities suburbs' (line 130).",
+          "value": "Minnesota (Twin Cities suburbs)",
+          "lines": [
+            18,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a college student in Iowa right now though' (line 20).",
+          "value": "Iowa",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm a college student in Iowa' (line 20).",
+          "value": "college student",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm also a christian' (line 224).",
+          "value": "Christian",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I didn't vote' (line 220).",
+          "value": "did not vote in the 2020 election",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't lean hard either way specifically' (line 222).",
+          "value": "politically unaffiliated",
+          "lines": [
+            222
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm technically an essential workers' (line 106).",
+          "value": "designated essential worker",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I worked in a nursing home for two years' and 'I was still working through the pandemic in a nursing home' (lines 106-108).",
+          "value": "nursing home worker",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I do have some health issues' (line 106).",
+          "value": "has some health issues (unspecified)",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still haven't gotten it' (line 32) referring to Covid-19.",
+          "value": "has not contracted Covid-19",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b indicates he works in a nursing home (lines 106-108).",
+          "value": "nursing home employee",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his sister multiple times: 'my sister, she had the same thing' (line 40), 'the only person... that's got it is my sister' (line 70), and that she goes to college in Wisconsin and tested positive for Covid (line 72).",
+          "value": "has a sister (attends college in Wisconsin, had Covid-19)",
+          "lines": [
+            40,
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my roommate tested positive in a couple of months ago' (line 32).",
+          "value": "has a roommate (tested positive for Covid-19)",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got one dog' (line 28).",
+          "value": "has one dog",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my dad has a lot of heart problems' and 'my mom... we all worked in a nursing' (line 106), indicating both parents.",
+          "value": "has a mother and father",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I had friends who worked at targets' (line 130).",
+          "value": "has friends who worked at Target",
+          "lines": [
+            130
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions being busy with school (line 221).",
+          "value": "busy with college studies",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he was still working through the pandemic in a nursing home (line 108).",
+          "value": "works in person during the Covid-19 pandemic",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I saw it on twitter' (line 86) regarding the first Covid case, indicating he uses Twitter for news.",
+          "value": "gets news from Twitter",
+          "lines": [
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't seen him for a few months' (line 28) referring to his dog.",
+          "value": "hasn't seen his dog in months",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

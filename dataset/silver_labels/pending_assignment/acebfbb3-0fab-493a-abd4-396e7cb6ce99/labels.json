@@ -1,0 +1,497 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I love the not New Jersey' (ASR for 'I live in New Jersey') and 'I've been New Jersey all my life'",
+          "value": "New Jersey",
+          "lines": [
+            9,
+            95
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I grew up in the city too it's really rough... It is a city right outside of atlantic city'",
+          "value": "grew up in a city outside Atlantic City, New Jersey",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I plan on moving uh Jersey, I'm not sure where yet'",
+          "value": "plans to move out of New Jersey",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'luckily most of my work's done inside so I don't have to worry about like, you know, working on the heat'",
+          "value": "has a job that is mostly indoors",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've been doing user testing for a while' and acknowledges hearing of UserTesting",
+          "value": "does user testing for side income",
+          "lines": [
+            283,
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker lists 'amazon mechanical turk' as a side income source",
+          "value": "does Amazon Mechanical Turk",
+          "lines": [
+            411
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says this is his second paid call, and mentions the call length and pay",
+          "value": "participates in paid research calls",
+          "lines": [
+            271,
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker agrees he shops on Amazon and comments on prices",
+          "value": "shops on Amazon",
+          "lines": [
+            295,
+            297
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I used to go to on the store called Goodwill'",
+          "value": "shops at Goodwill",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I buy used books online and uh when I do that I'm always searching for like promo codes'",
+          "value": "buys used books online with promo codes",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I'm gonna have a baby and everything to go through this pandemic so.' This could indicate he is expecting a child, though it might be a hypothetical statement. Context: discussing a friend's baby.",
+          "value": "expecting a baby",
+          "lines": [
+            61
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I just order everything I need online' and 'I try to stay out from going places'",
+          "value": "orders everything online and avoids going out",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'same here needs to go down to the beach and everything in the board wall' referring to summer activities, indicating he usually goes to the beach and boardwalk",
+          "value": "usually goes to the beach and boardwalk in summer",
+          "lines": [
+            231
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'people like on facebook I see um some people are going crazy'",
+          "value": "uses Facebook",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'My facebook's under Stacy Watson' and later suggests 'Stacey May wants' as possible full name",
+          "value": "Stacy Watson",
+          "lines": [
+            378,
+            394
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm in Kentucky' and later 'I'm in Louisville'",
+          "value": "Louisville, Kentucky",
+          "lines": [
+            6,
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm from Maryland' and 'I grew up in Baltimore'",
+          "value": "originally from Baltimore, Maryland",
+          "lines": [
+            96,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I lived in the country with my mom before this so and I got brought back here to the city'",
+          "value": "previously lived in the country with her mother",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to 'my husband', uses she/her pronouns (implied), and mentions 'my son'",
+          "value": "female",
+          "lines": [
+            146,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'so my son can go back to school'",
+          "value": "mother",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker states 'I only weighed 95 lb'",
+          "value": "weighs 95 pounds",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've lost like £35 since February'",
+          "value": "lost 35 pounds since February",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'That and I smoke'",
+          "value": "smokes cigarettes",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'Yeah, I signed up for and frank with you' in context of a COVID vaccine trial",
+          "value": "signed up for a COVID vaccine trial",
+          "lines": [
+            196,
+            198,
+            200
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm a package handler for ups' and describes unloading airplanes",
+          "value": "works as a package handler for UPS",
+          "lines": [
+            24,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I work at night, I get home about 5:00 AM'",
+          "value": "works night shift at UPS, getting home at 5 AM",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'We do all the transport for the covid stuff, like all the mask... hired ups to do all that' and mentions being essential",
+          "value": "UPS job involves transporting COVID-19 supplies, considered essential worker",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I get paid like 60 weeks from each of those' referring to Lionbridge social media evaluator work",
+          "value": "works for Lionbridge as a social media evaluator",
+          "lines": [
+            278,
+            284
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I do a lot of user testing'",
+          "value": "does user testing for side income",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes product testing: buying products, leaving reviews, and getting refunds, and says 'I did a lot of product testing'",
+          "value": "does product testing for free products",
+          "lines": [
+            296,
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I get I make At least 2 300 a week doing like different things like this call'",
+          "value": "earns at least $200-300 per week from side gigs",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I give him my paycheck... I learn all of the side money. I make it mine... I buy all the stuff for the house and dog and everything I want'",
+          "value": "gives her main paycheck to husband for household bills, keeps side gig money for personal spending",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I love amazon it's my best friend' and 'I shop daily'",
+          "value": "shops frequently on Amazon",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions using Swap.com and ThredUp for cheap clothes, says she pays '$1.99 per shirt'",
+          "value": "shops on online thrift stores Swap.com and ThredUp",
+          "lines": [
+            298,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains method of opening a new tab to search for promo codes when shopping online",
+          "value": "uses online promo codes for discounts",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've got a closet full of stuff I need to put on like let go or something and get rid of'",
+          "value": "sells items on Letgo",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says this call pays '$15' and she did one yesterday, this is her second",
+          "value": "participates in paid research calls",
+          "lines": [
+            270,
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my husband was talking about it'",
+          "value": "married, has a husband",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'so my son can go back to school' and describes him",
+          "value": "has a son",
+          "lines": [
+            180,
+            182,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'she's my sister' and refers to her as best friend",
+          "value": "has a sister who is her best friend",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My friend had her baby during this covid period... He's my little covid baby' and confirms the friend is her sister, so the baby is her nephew",
+          "value": "has a nephew (sister's baby)",
+          "lines": [
+            54,
+            56,
+            58,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my dog' and describes its behavior",
+          "value": "has a dog",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I lived in the country with my mom before this'",
+          "value": "mother lives in the country",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I even ordered groceries online' and 'I stay in the house, I don't go anywhere'",
+          "value": "stays home and orders groceries online",
+          "lines": [
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'we usually go to like six flags or something like that'",
+          "value": "family usually visits Six Flags amusement park",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm not a big thing of the president'",
+          "value": "dislikes the president",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'you can add me on like facebook or something' and uses Facebook for product groups",
+          "value": "uses Facebook",
+          "lines": [
+            368,
+            370
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I wear a face shield. I can't stand that mask.'",
+          "value": "wears a face shield instead of a mask at work",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'So I don't go in the break room either' to avoid groups",
+          "value": "avoids break room at work due to COVID-19",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes smoking before work and going to the smoke shack",
+          "value": "smokes cigarettes during work breaks",
+          "lines": [
+            256
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker states her weight as 95 lbs, indicating a small frame",
+          "value": "thin, weighs 95 pounds",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my hair is always pulled up'",
+          "value": "hair always pulled up",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes searching for hair dye and buying it",
+          "value": "dyes her hair",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I ain't got dressed yet. This is just thrown together clothes I put on'",
+          "value": "often wears casual, thrown-together clothes",
+          "lines": [
+            314
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

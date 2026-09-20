@@ -1,0 +1,626 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states her name directly.",
+          "value": "Rebecca",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states she lives in New York City.",
+          "value": "New York City",
+          "lines": [
+            19,
+            21,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is currently visiting her husband's parents on Long Island and is in the suburbs.",
+          "value": "Long Island, New York (visiting in-laws)",
+          "lines": [
+            23,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Referred to as a lady by speaker_b, name Rebecca, mentions husband.",
+          "value": "Female",
+          "lines": [
+            14,
+            17,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she and her husband are Jewish.",
+          "value": "Jewish",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker repeatedly refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            23,
+            79,
+            83,
+            105,
+            125,
+            127,
+            143,
+            145,
+            165,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is a teacher.",
+          "value": "Teacher",
+          "lines": [
+            105,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'you're obviously younger than me' and he is 40; speaker_a agrees ('Yeah').",
+          "value": "Under 40 years old",
+          "lines": [
+            130,
+            131
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker describes her NYC apartment as about 500 square feet and says it's very affordable.",
+          "value": "Lives in a ~500 sq ft NYC apartment, considers it affordable",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker expresses that buying a house on Long Island is too expensive for them and would cause financial struggle.",
+          "value": "Unable to afford a house on Long Island",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says her husband is Persian (Iranian).",
+          "value": "Husband is Persian",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she met her husband in college.",
+          "value": "Met husband in college",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they married at ages 24 and 25.",
+          "value": "Married at ages 24 and 25",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions visiting her husband's parents on Long Island.",
+          "value": "Husband's parents live on Long Island",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my whole family loves Disney', indicating she has family.",
+          "value": "Has family members who love Disney",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks if they have kids and speaker_a does not indicate any; earlier says 'maybe one day' implying no children yet.",
+          "value": "No children",
+          "lines": [
+            83,
+            184
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states she loves Disney World and has been many times.",
+          "value": "Loves Disney World, frequent visitor",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she learned to cook a lot of Persian food.",
+          "value": "Enjoys cooking Persian food",
+          "lines": [
+            153,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says as a teacher she has summers off and usually takes a big summer trip.",
+          "value": "Takes a big trip every summer",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a planned vacation to Panama that was cancelled because her husband's passport was too close to expiration.",
+          "value": "Planned Panama trip cancelled due to husband's passport issue",
+          "lines": [
+            175,
+            177,
+            179,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says this is the third time she has attempted this Prolific call, having been ghosted twice before.",
+          "value": "Participates in Prolific studies; experienced no-shows",
+          "lines": [
+            7,
+            11,
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker states his name, clarifying it is Vasile with a V.",
+          "value": "Vasile",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states he is originally from Bulgaria.",
+          "value": "Originally from Bulgaria",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he is calling from an RV in a campground in North Carolina.",
+          "value": "Currently at a campground in North Carolina",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they recently purchased 20 acres of land in NC; ASR transcribed '2020 acres', but '20 acres' is the intended meaning.",
+          "value": "Owns 20 acres of land in North Carolina",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says they used to live in Florida, specifically Jacksonville/Ponte Vedra.",
+          "value": "Previously lived in Jacksonville, Florida (Ponte Vedra area)",
+          "lines": [
+            42,
+            50,
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Male name, refers to self as stay-at-home dad and mentions 'my wife'.",
+          "value": "Male",
+          "lines": [
+            14,
+            30,
+            52,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he and his wife just turned 40.",
+          "value": "40 years old",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he is originally from Bulgaria.",
+          "value": "Bulgarian origin",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he moved to the United States at age 25, 15 years ago.",
+          "value": "Immigrated to U.S. at age 25 (15 years ago)",
+          "lines": [
+            130,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions having a two-year-old son.",
+          "value": "Father of a 2-year-old",
+          "lines": [
+            74,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he is a stay-at-home dad.",
+          "value": "Stay-at-home dad",
+          "lines": [
+            106,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he was a tennis teacher, head tennis professional, and tennis director at a country club in Florida.",
+          "value": "Former tennis professional and club director",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has no siblings.",
+          "value": "Only child",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he was raised by a single parent (mother).",
+          "value": "Raised by single mother",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his parents are divorced.",
+          "value": "Parents divorced",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he was taught British English and still speaks with that influence.",
+          "value": "Speaks British English",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions doing small online gigs, including Prolific.",
+          "value": "Does online gig work (including Prolific)",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker apologizes for being late, saying he is not very computer savvy.",
+          "value": "Not computer savvy",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker explains he obtained a U.S. green card through the diversity lottery, which his father won, and he inherited the privilege.",
+          "value": "Obtained U.S. green card via diversity lottery",
+          "lines": [
+            190,
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker states they have no debt.",
+          "value": "Debt-free",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions owning 20 acres of land in NC.",
+          "value": "Land owner (20 acres in NC)",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes living in a large fifth-wheel RV with full amenities, and owning a dually truck.",
+          "value": "Lives in an RV (fifth wheel) with amenities; owns a truck",
+          "lines": [
+            106,
+            116,
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they previously owned a 3000 sq ft home in Florida, had a nanny, and worked 80-hour weeks, indicating prior affluence.",
+          "value": "Previously owned a large home in Florida and had a nanny",
+          "lines": [
+            112,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his wife was the sole worker for a time and he does online gigs for income.",
+          "value": "Current income from wife's work and his online gigs",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains they sold their house, cars, and possessions to adopt the RV lifestyle.",
+          "value": "Sold most possessions to live debt-free in an RV",
+          "lines": [
+            106,
+            114,
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker refers to his wife multiple times; says she is American.",
+          "value": "Married to an American wife",
+          "lines": [
+            30,
+            50,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he and his wife were born a week apart and both just turned 40.",
+          "value": "Wife is the same age (40), birthday a week apart",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he met his wife in Atlanta, Georgia.",
+          "value": "Met wife in Atlanta, Georgia",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his wife's family lives in the Daytona Beach area.",
+          "value": "Wife's family lives in Daytona Beach, Florida",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes his wife's family as big, dysfunctional, with many divorces and remarriages.",
+          "value": "Wife's family described as large and dysfunctional",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions his mother-in-law is in a wheelchair, has health issues, and loves Disney.",
+          "value": "Mother-in-law in wheelchair, loves Disney",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he has a two-year-old son.",
+          "value": "Has a 2-year-old son",
+          "lines": [
+            74,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his mother is a pediatrician pulmonologist in Bulgaria.",
+          "value": "Mother is a pediatrician pulmonologist in Bulgaria",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his father won the green card lottery, which allowed him to immigrate.",
+          "value": "Father won U.S. green card lottery",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his wife likes Disney World.",
+          "value": "Wife likes Disney World",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his wife is also part of Prolific.",
+          "value": "Wife participates in Prolific",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says they have been traveling full-time in an RV for the past two years.",
+          "value": "Full-time RV travel",
+          "lines": [
+            106,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he is a stay-at-home dad who does cooking, cleaning, and childcare.",
+          "value": "Primary caregiver for son (cooking, cleaning, childcare)",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions plans to start a farm with chickens and goats on their NC land.",
+          "value": "Plans to start a farm (chickens, goats)",
+          "lines": [
+            108,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he and his wife love watching the NY governor's COVID-19 updates.",
+          "value": "Watches NY Governor Cuomo's COVID-19 briefings",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he follows COVID-19 guidelines, wears a mask, and has bought a mask for his son.",
+          "value": "Follows mask guidelines, bought mask for son",
+          "lines": [
+            100,
+            102,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they visited Bulgaria in February and went skiing.",
+          "value": "Visits Bulgaria; went skiing in February",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he does small online gigs, including Prolific.",
+          "value": "Participates in online gig economy (Prolific)",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has been to Disney World once and is not a big fan.",
+          "value": "Not a fan of Disney World; visited once",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker admits he is not very computer savvy.",
+          "value": "Not tech-savvy",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker notes he prefers the clear speech of Northern US accents over Southern ones.",
+          "value": "Prefers Northern US accents for clarity",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

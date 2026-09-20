@@ -1,0 +1,446 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'My name's Andy'.",
+          "value": "Andy",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live in Missouri'.",
+          "value": "Missouri",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we're living in a city, so it's... medium sized city'.",
+          "value": "medium-sized city",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm 39'.",
+          "value": "39 years old",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is called 'man', has a wife, and is named Andy.",
+          "value": "male",
+          "lines": [
+            3,
+            4,
+            11,
+            31
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my wife'.",
+          "value": "married",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his three children.",
+          "value": "parent of three children",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'a lot of officers are more right wing, which does not fit me at all'.",
+          "value": "not right-wing",
+          "lines": [
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'when I graduated high school'.",
+          "value": "high school graduate",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work for a police department. I'm non sworn... I work in the property room'.",
+          "value": "police department property room employee (non-sworn)",
+          "lines": [
+            123,
+            127,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm an essential worker, so I've been going in every day'.",
+          "value": "essential worker",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a caught a survey on Prolific and mentions doing it for 'beer money'.",
+          "value": "Prolific survey participant for extra income",
+          "lines": [
+            5,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife is she's been working from home since basically beginning of March'.",
+          "value": "wife works from home",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my wife'.",
+          "value": "spouse: wife",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My youngest just turned 13'.",
+          "value": "child: youngest, age 13",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my son he'll be 16 in September'.",
+          "value": "child: son, age 16 in September",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my oldest will be 23 this month'.",
+          "value": "child: oldest, age 23",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his parents and that he moved out at 18.",
+          "value": "parents: alive, moved out at 18",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Buddy of mine told me about it'.",
+          "value": "friend who recommended Prolific",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have friends who have been either laid off or furloughed'.",
+          "value": "friends who were laid off/furloughed",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I moved out when I was 18'.",
+          "value": "moved out of parents' house at 18",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when I graduated high school, I was playing music'.",
+          "value": "played music after high school",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I can bullshit for all day'.",
+          "value": "enjoys talking extensively",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not a big gun guy'.",
+          "value": "not a gun enthusiast",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we're in the basement... it's a secure area so it's just me and like four other people'.",
+          "value": "works in a basement property room with four colleagues",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "ASR 'benefits' in line 12 is phonetically close to 'Ben'. Speaker_a later calls him 'Bennett' (lines 183,185,191). Speaker_b never corrects, suggesting his name is Ben/Bennett. The intended name is 'Ben'.",
+          "value": "Ben",
+          "lines": [
+            12,
+            183,
+            185,
+            191
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I live in, I live in florida and actually I've been living in china... this happened to be back here during february for a visit and now I'm here', indicating current location in Florida.",
+          "value": "currently in Florida",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b calls Florida 'here' and 'back here', implying it is his home state.",
+          "value": "originally from Florida",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he lived in China for seven years, in a bigger city for five years, then a smaller town for the last two.",
+          "value": "lived in China for 7 years, currently in a small town",
+          "lines": [
+            14,
+            82,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is addressed as 'man', has a wife, and likely has a male name.",
+          "value": "male",
+          "lines": [
+            3,
+            4,
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b is from Florida, studied abroad in China, and is a native English speaker teaching English; these point to U.S. nationality.",
+          "value": "American",
+          "lines": [
+            14,
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I just got married... we got married about two years ago'.",
+          "value": "married",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we just had a baby a year ago' and 'he's about a year and two months now'.",
+          "value": "parent of a baby boy (~1 year 2 months)",
+          "lines": [
+            22,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he 'became a teacher for an english teacher' and later 'I've been teaching kindergartens'.",
+          "value": "English teacher (kindergarten) in China",
+          "lines": [
+            18,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been pretty useless over here trying to like you to online job or something', indicating he is not currently employed in his usual role and is looking for online work.",
+          "value": "unemployed, seeking online work",
+          "lines": [
+            96,
+            100
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he found Prolific and it's 'working out pretty good' with surveys.",
+          "value": "Prolific survey participant for income",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my wife is chinese and so we got married about two years ago'.",
+          "value": "wife (Chinese, married ~2 years)",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they had a baby a year ago and he's about 1 year 2 months.",
+          "value": "child: baby boy (~1 year 2 months)",
+          "lines": [
+            22,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we've been with my parents for quite a while'.",
+          "value": "parents (in Florida)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my brother lives real nearby in the same city... he's out in a different state right now'.",
+          "value": "brother (lives nearby, currently out of state)",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I studied abroad there while I was in college'.",
+          "value": "studied abroad in China during college",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I didn't know any chinese when I got there, but I've learned, you know... picked it up on the streets'.",
+          "value": "learned Mandarin by immersion",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I speak a lot with my wife so that kind of keeps me... from getting too rusty'.",
+          "value": "practices Mandarin with wife",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been teaching kindergartens'.",
+          "value": "teaches kindergarten in China",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'everybody's really really like laid back... more introverted... easy to get along with'.",
+          "value": "appreciates introverted, laid-back culture",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I was kind of lazy and didn't want to ever cook for myself, I kind of forced myself to learn... food words first'.",
+          "value": "learned food words first to avoid cooking",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're house sitting for him'.",
+          "value": "currently house-sitting for brother",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions using Prolific surveys.",
+          "value": "participates in Prolific surveys",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

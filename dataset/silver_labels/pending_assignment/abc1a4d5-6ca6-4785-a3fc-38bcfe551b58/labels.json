@@ -1,0 +1,491 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'I'm Jacob' (line 7). The following phrase 'it's my girlfriend's name' creates slight ambiguity, but the most direct interpretation is that his name is Jacob.",
+          "value": "Jacob",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a provides his Steam friend code when asked for his Steam name.",
+          "value": "1086491607",
+          "lines": [
+            443
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After speaker_a gives his friend code, speaker_b says 'Or nine marksman.' and speaker_a confirms 'Yeah' and 'Yes', indicating this is his Steam username.",
+          "value": "nine marksman",
+          "lines": [
+            444,
+            445,
+            446,
+            447
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'we live in indiana' (line 59) and later specifies 'we live in bloomington ... south of Indy about an hour' (line 65).",
+          "value": "Bloomington, Indiana, USA",
+          "lines": [
+            59,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states he is in the electrical union and describes his apprenticeship (lines 89, 91, 95).",
+          "value": "Apprentice electrician",
+          "lines": [
+            89,
+            91,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my son's best friend' (line 367), indicating he has a son.",
+          "value": "Father",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm going to school' (line 87) and discusses classroom hours for apprenticeship (lines 93, 95).",
+          "value": "Student",
+          "lines": [
+            87,
+            93,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he has earned about $400 from Prolific since August (line 27).",
+          "value": "Earned ~$400 from Prolific since August",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms he is paid for his apprenticeship (line 93) and receives raises each year (line 97).",
+          "value": "Paid electrical apprentice with annual raises",
+          "lines": [
+            93,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he sold a huge game collection to buy PC components (lines 201, 203).",
+          "value": "Sold game collection to fund PC build",
+          "lines": [
+            201,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes adding games to wishlist and buying when they go on sale (e.g., SimCity 4 for $3.99, lines 213-219).",
+          "value": "Buys games on sale to save money",
+          "lines": [
+            213,
+            217,
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions his girlfriend multiple times (lines 7, 49, 198) and uses 'we' to describe their living situation (line 65).",
+          "value": "Has a girlfriend",
+          "lines": [
+            7,
+            49,
+            65,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my son's best friend' (line 367).",
+          "value": "Has a son",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My mom was her caretaker' about his grandmother (line 79).",
+          "value": "Has a mother",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my grandma just passed from Alzheimer's in december last year' (line 75).",
+          "value": "Grandmother deceased (Alzheimer's)",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my roommate' (line 489).",
+          "value": "Has a roommate",
+          "lines": [
+            489
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he was at 'my buddy's house' (line 333).",
+          "value": "Has at least one close friend (buddy)",
+          "lines": [
+            333
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes building a PC (line 201), downloading Steam (line 205), and playing various video games such as Fall Guys (line 331), shooter games (line 317), SimCity (line 213).",
+          "value": "Plays video games on PC",
+          "lines": [
+            201,
+            203,
+            205,
+            207,
+            213,
+            217,
+            219,
+            317,
+            319,
+            321,
+            325,
+            331,
+            333,
+            335,
+            431,
+            439,
+            461,
+            463,
+            479,
+            483,
+            489
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses playing 'room escape' (Runescape) and the differences between old school and new versions (lines 249-255, 259).",
+          "value": "Plays Runescape",
+          "lines": [
+            249,
+            251,
+            253,
+            255,
+            259
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a expresses desire to get into D&D, asks about its purpose, and considers learning from son's friend's dad (lines 131, 137, 165, 196, 367-377).",
+          "value": "Interested in learning Dungeons & Dragons",
+          "lines": [
+            131,
+            137,
+            165,
+            196,
+            367,
+            369,
+            371,
+            375,
+            377
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he uses Chrome on his phone for Prolific and also uses Firefox (lines 33, 35, 37).",
+          "value": "Uses Chrome and Firefox on phone, Chrome for Prolific",
+          "lines": [
+            33,
+            35,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he currently lives in Bloomington but plans to move to the country outside the city (lines 65, 67).",
+          "value": "Lives in Bloomington, plans to move to rural area",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using Prolific (line 15 implied), earnings (line 27), and experiencing a technical issue with a video chat (lines 395-403).",
+          "value": "Participates in Prolific academic studies",
+          "lines": [
+            15,
+            27,
+            35,
+            37,
+            395,
+            397,
+            399,
+            401,
+            403
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a admits 'I was real nervous' about this video chat (line 389).",
+          "value": "Nervous about video chat",
+          "lines": [
+            389
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his board interview experience for the electrical apprenticeship (lines 117, 121, 123, 125).",
+          "value": "Experienced a board interview for apprenticeship",
+          "lines": [
+            117,
+            121,
+            123,
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'It's Kimberly' (line 12) and speaker_a repeats the name (line 13). She also introduced herself as 'Jimmy' (line 6).",
+          "value": "Kimberly",
+          "lines": [
+            12,
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b corrects speaker_a's mishearing with 'Jimmy' (line 6).",
+          "value": "Jimmy",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b provides 'Um Wolf Maiden' as her Steam username when adding each other (line 448).",
+          "value": "Wolf Maiden",
+          "lines": [
+            448
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I moved from California which is where I'm at now' (line 62).",
+          "value": "California, USA",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions she has been doing Prolific for 3-4 months (line 22), has done multiple video calls (line 418), and notes payment of $14 per complete and $1.50 for no-shows (lines 421-422).",
+          "value": "Earns money from Prolific studies (~$14 per video chat)",
+          "lines": [
+            22,
+            418,
+            421,
+            422
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about work, speaker_b replies 'nothing right now' (line 72).",
+          "value": "Unemployed",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses buying games on sale (e.g., Tabletop Simulator for $10, line 222) and using G2A for cheap keys (line 284, 290, 292, 296, 298, 302, 304).",
+          "value": "Buys games on sale, uses G2A marketplace",
+          "lines": [
+            222,
+            224,
+            284,
+            290,
+            292,
+            296,
+            298,
+            302,
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I have an iphone' (line 38).",
+          "value": "Owns an iPhone",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I think I might be taking care of my grandmother, she's got Alzheimer's' (line 72).",
+          "value": "Grandmother with Alzheimer's",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my sister runs her own store' (line 72).",
+          "value": "Sister who runs a store",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my nephew, I watch him' (line 72).",
+          "value": "Nephew she watches",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions friends: 'my friend' (line 222), 'I have one friend who wanted to play' (line 452), 'I would buy my friends on that' (line 306).",
+          "value": "Has friends",
+          "lines": [
+            222,
+            452,
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b plays video games since age 6 (line 262), owns a Switch (line 274), plays PC games (Boundless, Tabletop Simulator, Runescape; lines 252, 280), and has many Steam games (line 456).",
+          "value": "Avid gamer (PC, Switch)",
+          "lines": [
+            130,
+            182,
+            222,
+            224,
+            252,
+            262,
+            274,
+            280,
+            306,
+            340,
+            448,
+            452,
+            456
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I run DND games at a local game store' (line 130).",
+          "value": "Dungeon Master for D&D at local store",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions painting miniatures for tabletop games (line 182).",
+          "value": "Paints miniatures for D&D",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes taking care of household things, watching nephew, and expects to care for grandmother with Alzheimer's (line 72).",
+          "value": "Caregiver for grandmother and nephew",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses the 'prolific assistant' extension (line 30) and states she uses Google Chrome (line 32).",
+          "value": "Uses Google Chrome with Prolific Assistant extension",
+          "lines": [
+            30,
+            32,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just freed a book when I do that' referring to reading while waiting for Prolific studies (line 422).",
+          "value": "Reads books while waiting for Prolific no-shows",
+          "lines": [
+            422
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits 'but I do talk a lot' (line 390).",
+          "value": "Enjoys talking a lot",
+          "lines": [
+            390
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she uses Prolific (line 16), has been doing it for 3-4 months (line 22), and has completed several video chats (lines 386, 418).",
+          "value": "Participates in Prolific studies (video chats)",
+          "lines": [
+            16,
+            22,
+            386,
+            418
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

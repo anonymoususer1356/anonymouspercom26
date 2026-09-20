@@ -1,0 +1,290 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Iowa' (33), 'eastern Iowa' (37), 'Davenport davenport area' (39), is less than a mile from the Mississippi River and right next to Illinois (47), and is 150 miles west of Chicago (69).",
+          "value": "Davenport, Iowa area",
+          "lines": [
+            33,
+            37,
+            39,
+            47,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I did live in Illinois... for about four or five years' and 'I lived in east Moline Illinois' (181).",
+          "value": "East Moline, Illinois",
+          "lines": [
+            179,
+            181,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I work for enterprise, rent a car and I drive cars for them' and 'I'll do Uber lift'.",
+          "value": "driver for Enterprise Rent-A-Car and Uber/Lyft",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions receiving $15 for a completed chat session and '$1.50' for no-shows.",
+          "value": "earns $15 per completed chat session and $1.50 for no-shows",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he works two jobs: Enterprise and rideshare driving.",
+          "value": "has multiple jobs (Enterprise and rideshare)",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my dad lives in Clearwater' and mentions visiting Florida two weeks ago because of that.",
+          "value": "father lives in Clearwater, Florida",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a expresses enjoyment of driving jobs and does them regularly.",
+          "value": "enjoys driving and works as a driver",
+          "lines": [
+            87,
+            91,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my big thing is younger fee' (likely 'geography') and 'I'm a geography'.",
+          "value": "geography enthusiast",
+          "lines": [
+            31,
+            129
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I was just to florida two weeks ago'.",
+          "value": "recently traveled to Florida",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I am from California' (36), 'I live in northern California up in san Francisco bay Area' (62), 'the part that I'm in is marin County' (126), and confirms she is north of the Golden Gate Bridge (128).",
+          "value": "Marin County, California (San Francisco Bay Area)",
+          "lines": [
+            36,
+            62,
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we lived in Nevada when I was little' (56) and 'except for like one year where I was a little girl and I lived in Nevada' (184).",
+          "value": "lived in Nevada as a child",
+          "lines": [
+            56,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've lived here the majority of my life in the same county' (184), referring to Marin County.",
+          "value": "lived in Marin County most of her life",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my daughter's father' (48) and having a daughter (76), implying she is female.",
+          "value": "female",
+          "lines": [
+            48,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a daughter is in her 20's' (76).",
+          "value": "parent",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she works at a medical facility (80) as a human resources type doing payroll, scheduling, training (84) and calls her role 'administrative assistant' (86).",
+          "value": "administrative assistant / human resources at a medical facility",
+          "lines": [
+            80,
+            82,
+            84,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'because I have disabilities so I it's easier for me to just do that instead of taking the bus' (120).",
+          "value": "has disabilities",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I have a really hard time living here. I struggle even even though I don't pay like the full amount of my rent' (70).",
+          "value": "struggles financially with high Bay Area cost of living",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'that's why I do these types of things because I need to make a little extra money' (66), referring to the paid chat.",
+          "value": "participates in paid chat sessions for extra income",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been making the same amount for like almost five years' (72) and mentions a wage freeze at her company (74).",
+          "value": "has stagnant wages at current job",
+          "lines": [
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I don't pay like the full amount of my rent' (70), implying a subsidy or sharing arrangement.",
+          "value": "does not pay the full rent amount",
+          "lines": [
+            70
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I have a daughter is in her 20's' (76).",
+          "value": "daughter in her 20s",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my daughter's father is actually from Illinois, but he's in east ST louis' (48).",
+          "value": "child's father is from East St. Louis, Illinois",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom lives in Cinema... napa and then Cinema County' (194). 'Cinema' is likely an ASR error for Sonoma.",
+          "value": "mother lives in Sonoma County, California",
+          "lines": [
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'my uncle john was born in Iowa' (42).",
+          "value": "uncle named John born in Iowa",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she uses ride-sharing instead of the bus because of disabilities and not having a car (120), and describes bus frequencies (124).",
+          "value": "relies on ride-sharing and public transit",
+          "lines": [
+            120,
+            122,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've done driving jobs a lot in my life too' (94) and 'I love to drive' (92).",
+          "value": "has worked driving jobs and enjoys driving",
+          "lines": [
+            92,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having an emergency alert app (likely Nixle) for fires and other hazards (196-200).",
+          "value": "uses public safety alert app",
+          "lines": [
+            196,
+            200
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b discusses wildfires coming close to her job and the need for an evacuation plan (190-194).",
+          "value": "concerned about wildfires and has emergency preparedness measures",
+          "lines": [
+            190,
+            192,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

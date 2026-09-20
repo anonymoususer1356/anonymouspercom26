@@ -1,0 +1,611 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At the end of the conversation she gives her name explicitly.",
+          "value": "Rachel",
+          "lines": [
+            477
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states she lives right outside of Philly (Philadelphia).",
+          "value": "right outside of Philly",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she lives in an apartment directly above the leasing office.",
+          "value": "apartment above the leasing office",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions they moved in pretty recently and don't know many people.",
+          "value": "moved in recently",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In reference to New York City, she says she grew up right outside the city.",
+          "value": "grew up right outside of New York City",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name and self-reference as 'girl' indicate female gender.",
+          "value": "female",
+          "lines": [
+            477,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states she loves cats but is allergic to them.",
+          "value": "allergic to cats",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her rabbit jumped on her face and left scratches.",
+          "value": "scratches on face from rabbit",
+          "lines": [
+            87,
+            88,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She mentions a landlord who doesn't allow dogs and that she lives above a leasing office, indicating she rents.",
+          "value": "rents apartment",
+          "lines": [
+            57,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Multiple references to a boyfriend throughout the conversation.",
+          "value": "has a boyfriend",
+          "lines": [
+            91,
+            57,
+            107,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she and her boyfriend met on Tinder (ASR 'tenders').",
+          "value": "met boyfriend on Tinder",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_b says she has been with her boyfriend 8 years, speaker_a replies that she is at 5.5 years.",
+          "value": "together with boyfriend approximately 5.5 years",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about calling her dad for help fixing a refrigerator cord.",
+          "value": "has a father",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her mother's opinion on blue cheese dressing.",
+          "value": "has a mother",
+          "lines": [
+            375
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She shows her rabbit and says its name is Coco; earlier she explained she got a rabbit as a compromise.",
+          "value": "has a pet rabbit named Coco",
+          "lines": [
+            57,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She owns a rabbit that is litter box trained.",
+          "value": "owns a litter-trained rabbit (Coco)",
+          "lines": [
+            57,
+            67,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a lot of plants in her apartment, including a strawberry plant that was a gift.",
+          "value": "keeps many indoor plants, including a strawberry plant",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her boyfriend is a Penn State football season ticket holder, and she says they are up there a lot during football season.",
+          "value": "attends Penn State football games with boyfriend",
+          "lines": [
+            459,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She tries to avoid eating a ton of meat mainly because it gets expensive.",
+          "value": "limits meat consumption for cost reasons",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She exclaims that she lives for cheese and says a glass of wine and cheese for dinner is the dream.",
+          "value": "enthusiastic about cheese and wine",
+          "lines": [
+            359,
+            363
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She cannot eat blue cheese but says she recently became okay with blue cheese dressing.",
+          "value": "dislikes blue cheese but accepts blue cheese dressing",
+          "lines": [
+            371,
+            372,
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In the context of quarantine, she says the idea of putting on real pants is 'nope, not gonna happen'.",
+          "value": "avoids wearing real pants during quarantine",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says her rabbit gave her two scratches on her face that morning, though they may be hard to see.",
+          "value": "facial scratches from rabbit",
+          "lines": [
+            87,
+            88,
+            89
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "At the end of the conversation she introduces herself as Crystal.",
+          "value": "Crystal",
+          "lines": [
+            476
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states she is in Pittsburgh.",
+          "value": "Pittsburgh",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked, she confirms she grew up in Pittsburgh.",
+          "value": "grew up in Pittsburgh",
+          "lines": [
+            95,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes living in a duplex; they previously lived upstairs and moved to the downstairs unit when those tenants moved out.",
+          "value": "lives in a duplex (downstairs unit)",
+          "lines": [
+            218,
+            219,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her landlord giving permission for a cat, indicating she rents and has a landlord.",
+          "value": "has a landlord",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She shows her garden with flowers growing and later mentions an awning, birds nest, and mailbox with birds.",
+          "value": "has a garden and an outdoor area with awning and birds",
+          "lines": [
+            184,
+            212,
+            394,
+            395,
+            396,
+            397,
+            398,
+            399,
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Crystal and self-reference as 'girl' indicate female gender.",
+          "value": "female",
+          "lines": [
+            476,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she just turned 30.",
+          "value": "30 years old",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she went to hair school.",
+          "value": "attended hair school (cosmetology)",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if she went to Pitt, she says no.",
+          "value": "did not attend University of Pittsburgh",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked about work, she says flatly that she does not work.",
+          "value": "does not work",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She references a landlord, implying she rents her home.",
+          "value": "rents home (duplex)",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her boyfriend multiple times.",
+          "value": "has a boyfriend",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states they have been together for eight years.",
+          "value": "together with boyfriend for 8 years",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they met online, on OKCupid (ASR 'Okay. Cupid').",
+          "value": "met boyfriend on OKCupid",
+          "lines": [
+            106,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a calls the dog Poppy and asks its age; speaker_b answers '12' without correcting the name. Earlier she said she has a miniature pincher (dog).",
+          "value": "has a dog named Poppy (miniature pincher, age 12)",
+          "lines": [
+            30,
+            43,
+            44
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she has two cats; one is named Tommy, the other is named Sam ('she's beautiful').",
+          "value": "has two cats: Tommy and Sam",
+          "lines": [
+            28,
+            38,
+            40,
+            41,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her boyfriend hates most of her tattoos, but acknowledges he bought her last couple.",
+          "value": "boyfriend dislikes most of her tattoos but paid for some",
+          "lines": [
+            298,
+            299,
+            300,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She cuts up apples and feeds a wild rabbit outside.",
+          "value": "feeds a wild rabbit",
+          "lines": [
+            180,
+            181,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says a squirrel comes and eats peanuts from her hand, and she sometimes uses peanut butter on her finger.",
+          "value": "hand-feeds a squirrel",
+          "lines": [
+            426,
+            428,
+            430
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she hangs out at home with her boyfriend and does not work.",
+          "value": "stays home with boyfriend; does not work",
+          "lines": [
+            28,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about going to Indy car races at Pocono and camping there.",
+          "value": "attends Indy car races and camps in the Poconos",
+          "lines": [
+            134,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She and her boyfriend took an Amtrak to New York City, specifically to see electric race cars in Brooklyn.",
+          "value": "visited NYC via Amtrak for electric race cars in Brooklyn",
+          "lines": [
+            142,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms she and her boyfriend are into race car stuff (Indy car, Formula E).",
+          "value": "enthusiast of auto racing (Indy car, Formula E)",
+          "lines": [
+            155,
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked what she is growing, she says just flowers.",
+          "value": "gardens (grows flowers)",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she sometimes does hair but not as much as she should.",
+          "value": "occasionally does hair styling",
+          "lines": [
+            271,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She wasn't sure what the call would be, so she put on eyeliner and mascara.",
+          "value": "wears eyeliner and mascara",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she waxed her eyebrows for the first time since quarantine started.",
+          "value": "waxes eyebrows",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hasn't done her roots in a very long time, giving an ombre effect.",
+          "value": "dyes hair but lets roots grow out",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has a lip piercing and one other piercing (lost the top of the first).",
+          "value": "has multiple piercings",
+          "lines": [
+            257,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She likes meat and cheese; specifically enjoys blue cheese on bacon burgers.",
+          "value": "eats meat and cheese; prefers blue cheese on bacon burgers",
+          "lines": [
+            334,
+            370
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hates beans and can't eat them.",
+          "value": "hates beans",
+          "lines": [
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says there are times they've just eaten cheese for dinner.",
+          "value": "occasionally eats only cheese for dinner",
+          "lines": [
+            362
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She keeps a wild rabbit fed and hand-feeds a squirrel peanuts or peanut butter.",
+          "value": "feeds wild animals (rabbit, squirrel)",
+          "lines": [
+            180,
+            181,
+            182,
+            426,
+            428,
+            430
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a compliments her hair's ombre effect; speaker_b says she hasn't done her roots in a long time.",
+          "value": "dyed hair with grown-out roots (ombre effect)",
+          "lines": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks about a lip piercing and speaker_b confirms, adding she has one 'here too' and lost the top of the lip one.",
+          "value": "lip piercing and another piercing (location unspecified)",
+          "lines": [
+            257,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a spots a tattoo on her finger and speaker_b confirms.",
+          "value": "finger tattoo",
+          "lines": [
+            265,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has about 14–15 tattoos now; mentions a scissors tattoo from hair school, bows on ankles, a flower on foot, and hand tattoos including a heart, question mark, and cupcake.",
+          "value": "~15 tattoos: bows (ankles), flower (foot), scissors (wrist), heart, question mark, cupcake (hand)",
+          "lines": [
+            268,
+            270,
+            282,
+            284,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she put on eyeliner and mascara for the call.",
+          "value": "eyeliner and mascara",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she waxed her eyebrows.",
+          "value": "waxed eyebrows",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

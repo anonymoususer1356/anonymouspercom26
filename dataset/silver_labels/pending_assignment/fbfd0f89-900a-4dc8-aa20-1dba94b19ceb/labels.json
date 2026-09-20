@@ -1,0 +1,459 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Stated her name is Robin in lines 5 and 215.",
+          "value": "Robin",
+          "lines": [
+            5,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Said she is from Kentucky (9), close to Cincinnati (11), and on the river down by Maysville, Kentucky (13).",
+          "value": "Maysville, Kentucky",
+          "lines": [
+            9,
+            11,
+            13
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Mentioned having mental health issues in line 95.",
+          "value": "person with mental health issues",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to a rare genetic disorder in her family (89) and that she carries the gene (127).",
+          "value": "carrier of a rare genetic disorder",
+          "lines": [
+            89,
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Described having a stroke that paralysed her left side, taking two years to recover (85,87,89).",
+          "value": "stroke survivor",
+          "lines": [
+            85,
+            87,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Had a stroke with a blood clot in her brain causing left-side paralysis; recovered after two years of hard work (85,87,89).",
+          "value": "history of stroke with left hemiparesis, recovered",
+          "lines": [
+            85,
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Stated she had mental health issues (95).",
+          "value": "mental health issues",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Carries a gene for a rare genetic disorder (89,127).",
+          "value": "carrier of rare genetic disorder",
+          "lines": [
+            89,
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Said 'My memory sucks' (111), suggesting a subjective memory complaint.",
+          "value": "self-reported poor memory",
+          "lines": [
+            111
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works with people with disabilities doing advocacy; confirmed she does not get paid for it (27,33,129).",
+          "value": "unpaid disability advocate",
+          "lines": [
+            27,
+            33,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Participating in this conversation as part of a paid research study, referencing a timer and getting paid (205,209,211).",
+          "value": "participant in paid research study",
+          "lines": [
+            205,
+            209,
+            211
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Said 'My mother was a nurse' (95).",
+          "value": "mother (was a nurse)",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Had siblings born with severe disabilities in the sixties who were institutionalised and died (89,91).",
+          "value": "siblings with severe disabilities who died in institutions",
+          "lines": [
+            89,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to 'my own sister and brother' in line 223, indicating she has at least one sister and one brother (possibly surviving, or the deceased siblings kept in her memory).",
+          "value": "has a sister and a brother",
+          "lines": [
+            223
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She does genealogy and DNA research as a hobby (115).",
+          "value": "genealogy and DNA hobby",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has about 30,000 Twitter followers and uses the platform to educate about disability issues (97).",
+          "value": "Twitter influencer with ~30k followers, disability education",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Serves on public policy advisory councils and lobbies legislators in Kentucky (129,131).",
+          "value": "serves on public policy advisory councils, lobbies legislators",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Runs or contributes to KYHI.org, a website preserving the history of asylums and people with disabilities (35,37).",
+          "value": "operates KYHI.org website about asylum/disability history",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduced as Evan in line 4; later said 'Evan smith' (ASR for Evan Smith) in line 238, indicating full name.",
+          "value": "Evan Smith",
+          "lines": [
+            4,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentioned being on Facebook as Evan Smith (232,238).",
+          "value": "Facebook username: Evan Smith",
+          "lines": [
+            232,
+            238
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Stated he now lives in Idaho (18), about half an hour from Boise (20), in a town he called 'Netbook' (22). ASR likely misheard the town name (e.g., Nampa).",
+          "value": "Netbook, Idaho (near Boise)",
+          "lines": [
+            18,
+            20,
+            22
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Used to live in Ohio when he was young (14,18).",
+          "value": "Ohio (past residence)",
+          "lines": [
+            14,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Stated he is physically 34 (186).",
+          "value": "34 years old",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Said 'I have cerebral policy' (ASR for cerebral palsy) since birth (40).",
+          "value": "has cerebral palsy",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Also said he has mental health issues (40).",
+          "value": "has mental health issues",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Born three months premature (68).",
+          "value": "born premature (3 months early)",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Identifies as Christian, believes in Jesus (166); raised Mormon but left the church (170).",
+          "value": "Christian (ex-Mormon)",
+          "lines": [
+            166,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicated having 24/7 in-home caregivers due to disability (46).",
+          "value": "person with disability requiring 24/7 care",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Cerebral palsy since birth (40).",
+          "value": "cerebral palsy (congenital)",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mental health issues (40).",
+          "value": "mental health issues",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Born three months premature (68).",
+          "value": "premature birth (3 months early)",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Cannot write due to hand condition (110: 'when you can't write anything down because your hands like this' – ASR for 'my hands are like this').",
+          "value": "fine motor impairment (unable to write)",
+          "lines": [
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Feels emotionally around age 5 despite physical age 34 (186).",
+          "value": "feels emotionally like a 5-year-old",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Participating in this paid research study, as shown by his timekeeping and the payment discussion (206,210,211).",
+          "value": "participant in paid research study",
+          "lines": [
+            206,
+            210,
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Receives services from a caregiving agency and takes quarterly surveys about them (56,74).",
+          "value": "client of caregiving agency",
+          "lines": [
+            56,
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentioned his mother in lines 76 and 134.",
+          "value": "mother",
+          "lines": [
+            76,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His mother married a man who told him he would want to be heavily medicated and locked away if he had Evan's condition (76,78).",
+          "value": "mother's husband (stepfather) made derogatory remarks",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Brother-in-law worked for Senator Mike Crapo (140).",
+          "value": "brother-in-law",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentioned a sister who enjoys video games (190).",
+          "value": "sister",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has caregivers; a current favorite caregiver is present with him (56).",
+          "value": "has caregivers (one favorite present)",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Met Senator Mike Crapo through a youth forum contest (140,142).",
+          "value": "acquainted with Senator Mike Crapo",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Enjoys watching Sesame Street, plays with stuffed animals, and likes cartoons (186).",
+          "value": "enjoys children's media (Sesame Street, cartoons) and stuffed animals",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has 24/7 in-home caregivers (46).",
+          "value": "has 24/7 in-home caregivers",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Participated in a national youth forum in Washington D.C. as a contest winner in 7th grade (134,136,138,140,142).",
+          "value": "attended national youth forum in Washington D.C.",
+          "lines": [
+            134,
+            136,
+            138,
+            140,
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Active on Facebook (232).",
+          "value": "Facebook user",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Barely uses Twitter (102).",
+          "value": "infrequent Twitter user",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Takes quarterly surveys for his caregiving agency (74).",
+          "value": "completes quarterly care agency surveys",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Mentioned that his body grows hair and his voice sounds deeper, indicating male physical development (224).",
+          "value": "has facial hair and deep voice",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,396 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'we live here in College station' and 'we live in texas'.",
+          "value": "College Station, Texas",
+          "lines": [
+            37,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up in what's called east Chicago indiana'.",
+          "value": "East Chicago, Indiana",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists places she lived: 'I moved to L.A. ... then Minneapolis ... then Kentucky ... then florida ... then Omaha'.",
+          "value": "Previously lived in Los Angeles, CA; Minneapolis, MN; Kentucky; Florida; Omaha, NE",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a identifies as a wife and mother, referring to a husband.",
+          "value": "Female",
+          "lines": [
+            45,
+            51,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she got married and has been married for 8 years.",
+          "value": "Married",
+          "lines": [
+            157,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her son and states he is five years old.",
+          "value": "Mother of a 5-year-old son",
+          "lines": [
+            51,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm the only one' in the context of inheritance, implying no siblings.",
+          "value": "Only child",
+          "lines": [
+            267
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she went to Purdue, studied hospitality and tourism management, and graduated in 2005.",
+          "value": "Purdue University graduate (B.S. Hospitality and Tourism Management, 2005)",
+          "lines": [
+            15,
+            73,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'one of my sorority sisters', indicating sorority membership.",
+          "value": "Sorority member",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works for a payroll company from home; later says her uncle owned the company and hired her.",
+          "value": "Works remotely for uncle's payroll company",
+          "lines": [
+            63,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she worked at Hyatt for about 10 years, last role assistant general manager. (ASR 'higher' = Hyatt)",
+          "value": "Former Hyatt employee (~10 years), last position Assistant General Manager",
+          "lines": [
+            15,
+            75,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes husband's job: design engineering for railroad, now consultant, previously Union Pacific for 7 years.",
+          "value": "Husband is design engineer/consultant for railroad, formerly at Union Pacific for 7 years",
+          "lines": [
+            45,
+            178,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Guess who paid for it?' about her parents' divorce, notes divorces cost $5,000, and she got into debt.",
+          "value": "Paid $5,000 for parents' divorce, incurred debt",
+          "lines": [
+            269,
+            275,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'zero of zero is still zero' and 'I never had that net', indicating no inheritance or financial safety net from parents.",
+          "value": "No inheritance/financial safety net from parents",
+          "lines": [
+            261,
+            267
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to her husband Nick, married 8 years, 4 years younger, design engineer for railroad.",
+          "value": "Husband: Nick, design engineer/railroad consultant, 4 years younger, married 8 years",
+          "lines": [
+            45,
+            167,
+            173,
+            191,
+            281
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions her son multiple times, age 5.",
+          "value": "Son, age 5",
+          "lines": [
+            51,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her mother moved in with them when son was 9 months old, currently in Florida.",
+          "value": "Mother lives with them, currently in Florida",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her father divorced mother, lives in Indiana.",
+          "value": "Father divorced, lives in Indiana",
+          "lines": [
+            269,
+            271
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses her grandfather, age 91, stage 4 cancer, given 3 months to live.",
+          "value": "Grandfather, 91, stage 4 cancer, 3 months prognosis",
+          "lines": [
+            99,
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her grandmother's 83rd birthday and that her grandma has a house in Florida.",
+          "value": "Grandmother, age 83, lives in Florida",
+          "lines": [
+            121,
+            111,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her uncle owns the payroll company and hired her; later calls him the rich uncle.",
+          "value": "Wealthy uncle, owner of the payroll company she works for",
+          "lines": [
+            93,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my other uncle that lives in California'.",
+          "value": "Uncle lives in California",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes an aunt living next to her grandma's house in Florida.",
+          "value": "Aunt lives in Florida, near grandmother's house",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the oldest cousin studies set design at Carnegie Mellon University, second year.",
+          "value": "Cousin studies theater set design at Carnegie Mellon University (second year)",
+          "lines": [
+            227,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a little cousin in a marine biology vet program.",
+          "value": "Cousin in a marine biology veterinary program",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to a cousin from New York.",
+          "value": "Cousin from New York",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She has worked remotely for the past 5.5 years, currently for a payroll company.",
+          "value": "Works remotely from home",
+          "lines": [
+            25,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her daily routine: drop son at school, work, pick him up, park, dinner, games.",
+          "value": "Daily routine includes school drop-off/pick-up, park visits, cooking dinner, playing games",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we work out together' referring to herself and her husband.",
+          "value": "Exercises with husband regularly",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has moved multiple times to different cities due to husband's job, and states 'I just follow him'.",
+          "value": "Frequently relocates for husband's career",
+          "lines": [
+            135,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions cooking spaghetti for dinner during the call.",
+          "value": "Enjoys cooking (e.g., spaghetti)",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she is on her third session of this virtual chat study.",
+          "value": "Participated in a virtual chat study (third session)",
+          "lines": [
+            9,
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm originally from the suburbs of Chicago' and confirms Illinois.",
+          "value": "Originally from suburbs of Chicago, Illinois",
+          "lines": [
+            198,
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she just finished an interview, and later says it's for vet school; she applied to vet schools. (ASR 'vegetable' = vet school)",
+          "value": "Vet school applicant",
+          "lines": [
+            28,
+            36,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a advises about marriage, speaker_b responds 'Oh no, I'm not.'",
+          "value": "Not married",
+          "lines": [
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my school' and discusses pre-vet major, implying she completed an undergraduate degree.",
+          "value": "College graduate",
+          "lines": [
+            208
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "She says her best friend has a younger brother who was accepted to UCLA. (ASR 'U.' + 'T. L. A.' = UCLA)",
+          "value": "Best friend has younger brother accepted to UCLA",
+          "lines": [
+            238,
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'my dad always dreamed of me being a marine biologist'.",
+          "value": "Father wanted her to be a marine biologist",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a friend who is a software engineer designing railroads, works remote from Seattle.",
+          "value": "Friend is a software engineer designing railroads, works remote from Seattle",
+          "lines": [
+            178,
+            180,
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She discusses having just finished a virtual interview for vet school and the awkwardness of virtual formats.",
+          "value": "Has experienced virtual interviews for vet school",
+          "lines": [
+            28,
+            30,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,323 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm from Houston texas' when asked where he is from. He also indicates he is at home (not in his dorm) at the time of the call, which places him in Houston.",
+          "value": "Houston, Texas",
+          "lines": [
+            33,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I go to texas tech' when asked about college. Texas Tech University is in Lubbock, Texas, and he mentions moving into a dorm there the following week.",
+          "value": "Texas Tech University (Lubbock, Texas)",
+          "lines": [
+            79,
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm 19' when asked if he has gone through a tough separation.",
+          "value": "Age 19",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I go to texas tech' and discusses moving into a dorm.",
+          "value": "College student at Texas Tech University",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "In response to 'How long have you been doing that Profilic for?', speaker_a answers 'probably like three months now'. He also confirms he has done 'these' (the study sessions) before.",
+          "value": "Participates in paid surveys on the Prolific platform (3 months)",
+          "lines": [
+            15,
+            25
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked about siblings, speaker_a initially says '31' (likely ASR for 'three, yeah') and then lists their ages: 'my sister is 15, my brother's 12, and my other sister's 9'.",
+          "value": "Three siblings: sister (15), brother (12), sister (9)",
+          "lines": [
+            109,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b asks 'Are you watching them?' and speaker_a replies 'Yeah. I'm watching them for now.' This confirms he is babysitting his siblings during the call.",
+          "value": "Babysits younger siblings",
+          "lines": [
+            126,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He mentions 'playing like video games with friends' as an activity during quarantine.",
+          "value": "Plays video games with friends",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked what he will do if TikTok is banned, he says 'I say I like hours a day', indicating heavy daily use of TikTok.",
+          "value": "Uses TikTok for hours each day",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states 'I watch a lot of netflix' and 'especially like right now I'm watching a lot of netflix basically'.",
+          "value": "Watches Netflix extensively",
+          "lines": [
+            133,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked for top artists he names 'Kendrick Lamar Drake' (Kendrick Lamar, Drake) and expresses love for J. Cole; he also says 'I don't know that much about any other house of music', indicating a preference for hip-hop.",
+          "value": "Favorite music artists: Kendrick Lamar, Drake, J. Cole; hip-hop genre",
+          "lines": [
+            235,
+            244,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly states 'I'm in a Pittsburgh pennsylvania'.",
+          "value": "Pittsburgh, Pennsylvania",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'whenever my lease is up in february, I have a two bedroom apartment'.",
+          "value": "Two-bedroom apartment, lease expires in February",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly says 'I'm 24'.",
+          "value": "Age 24",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly refers to herself as a mother ('being a mom', having given birth) and refers to the other parent as 'he'. While not stated verbatim, the evidence is overwhelming.",
+          "value": "Female",
+          "lines": [
+            68,
+            90,
+            94,
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I have two kids', gives their names and birth years.",
+          "value": "Mother of two children",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I was in the military … when I was 17 I joined the military'.",
+          "value": "Military veteran",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I was going to … ST Leo University … I was doing that for a while' (Saint Leo University online).",
+          "value": "Former online student at Saint Leo University",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'I have really bad depression'.",
+          "value": "Depression",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attributes inability to work to PTSD: 'I had pTSD'.",
+          "value": "PTSD from military service",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes starting a new antidepressant that 'keeps making my I twist and sometimes my eyes my I will get stuck shut'.",
+          "value": "Experiences side effects from antidepressant (eye twitching, eyelid sticking shut)",
+          "lines": [
+            62,
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Explains 'we have like split custody right now' and gives the exact schedule: she has them Sunday–Wednesday, father has them Thursday–Saturday.",
+          "value": "Split custody arrangement (50/50 physical custody)",
+          "lines": [
+            92,
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States 'I'm not able to work or anything because … I had pTSD'.",
+          "value": "Unable to work due to PTSD",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I've already made like $250 over the past three months, or not three months over the past six months since I've been taking it seriously', reconciling to six months.",
+          "value": "Earned $250 from Prolific in the past six months",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Complains 'they only give you what, like a dollar 25 for your waiting' when a participant does not show up.",
+          "value": "Receives $1.25 compensation for no‑show waiting time on Prolific",
+          "lines": [
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Provides names and ages: 'I had scarlet … she's three and … Marley, I just had her last year'.",
+          "value": "Two children: Scarlet (age 3) and Marley (born last year)",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm not with um my ex anymore' and 'I wasn't married to him', indicating the father of her children is an ex‑partner.",
+          "value": "Ex‑partner (father of the children), never married to him",
+          "lines": [
+            92,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells a story: 'I got married when I was 19 … my marriage only lasted like four months, I went through a divorce'.",
+          "value": "Previously married at 19, divorced after four months",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After divorce she says 'I moved back up to Pittsburgh to be with my family'.",
+          "value": "Family resides in Pittsburgh (moved back to be near them)",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'this would be my fourth one. I've been doing them like once a week' regarding the Prolific study sessions.",
+          "value": "Completes Prolific studies regularly (once a week, on fourth session)",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses being 'really hooked on Orange is the New Black', 'washed bates motel', and watching the Aaron Hernandez documentary.",
+          "value": "Watches Netflix series and documentaries (e.g., Orange Is the New Black, Bates Motel, Aaron Hernandez documentary)",
+          "lines": [
+            146,
+            150,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shares favorite music: 'my number one is her' (H.E.R.), 'daniel caesar too', 'J. Cole, I love jake whole so much'.",
+          "value": "Enjoys music artists H.E.R., Daniel Caesar, J. Cole",
+          "lines": [
+            240,
+            242,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I've been trying to read' as an activity to fill time, but it is phrased as an attempt rather than a consistent habit.",
+          "value": "Attempts to read for leisure",
+          "lines": [
+            68
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

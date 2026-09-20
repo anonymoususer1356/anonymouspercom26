@@ -1,0 +1,532 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name directly: 'My name is Marie.'",
+          "value": "Marie",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she lives in Boston, specifically near the airport in an Italian neighborhood, East Boston.",
+          "value": "East Boston, Boston, Massachusetts, near the airport",
+          "lines": [
+            79,
+            257,
+            259,
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm american.'",
+          "value": "American",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes herself as an older student returning to finish her degree.",
+          "value": "Older student returning to finish degree",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Marie is typically female; inferred gender.",
+          "value": "Female",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says her dad spoke Sicilian and she grew up in an Italian neighborhood, implying Italian ancestry.",
+          "value": "Italian ancestry",
+          "lines": [
+            77,
+            257,
+            261
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "During a conversation about electives and time, speaker_a says 'Let's loans hanging over your head,' implying she has student loans.",
+          "value": "Has student loans",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states her summer job for the past few years is a historical tour guide, specifically giving ghost story tours at night.",
+          "value": "Historical tour guide (ghost story tours at night)",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has an internship writing movie reviews specifically for horror for 'Next investor' (ASR transcription).",
+          "value": "Internship writing horror movie reviews for Next investor",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she worked full time while taking online classes at community college.",
+          "value": "Worked full time while in community college",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a reveals her father passed away during the pandemic after a long illness, and she took care of him for seven years.",
+          "value": "Father deceased",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her mother spoke French.",
+          "value": "Mother (presumed alive)",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she has three cats, one of which was her father's.",
+          "value": "Has three cats",
+          "lines": [
+            95,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has many friends in San Diego.",
+          "value": "Has many friends in San Diego",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her parents' languages: her mother spoke French, her father spoke Sicilian.",
+          "value": "Parents: mother spoke French, father spoke Sicilian",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a discusses her love of horror movies, taking a class on horror, and writing reviews for horror films.",
+          "value": "Enjoys horror movies",
+          "lines": [
+            13,
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names specific horror movies she likes: 'It Follows', 'Suspiria', 'Cat People', 'Psycho'.",
+          "value": "Favorite horror movies: 'It Follows', 'Suspiria', 'Cat People', 'Psycho'",
+          "lines": [
+            49,
+            51,
+            53,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses a strong preference for cats and dislike of dogs, citing dogs' smell and need for walks.",
+          "value": "Prefers cats; dislikes dogs (smelly, require discipline)",
+          "lines": [
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is a late-night person and now takes walks around midnight.",
+          "value": "Late-night person; walks at midnight",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes using public transportation (bus, train) and estimates 8-10 hours per week commuting.",
+          "value": "Uses public transportation; commutes 8-10 hours/week",
+          "lines": [
+            331,
+            333
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she loves people watching.",
+          "value": "Loves people watching",
+          "lines": [
+            247,
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she misses restaurants and having coffee outside.",
+          "value": "Misses going to restaurants and coffee shops",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes taking a multimedia class where she produced a photo essay, podcast, and documentary.",
+          "value": "Took a multimedia class (photo essay, podcast, documentary)",
+          "lines": [
+            169,
+            171,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions taking a film genre class on horror as an elective for fun.",
+          "value": "Took a horror film genre class as an elective",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was originally supposed to go on a six-week study abroad program in Sweden.",
+          "value": "Planned study abroad program in Sweden",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she worked for three years as a lab animal technician in a medical research facility before returning to school.",
+          "value": "Previously worked as a lab animal technician for 3 years",
+          "lines": [
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains she started at a community college and later transferred to a bigger college.",
+          "value": "Transferred from community college to a larger college",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she changed her major from computer science to communications.",
+          "value": "Changed major from computer science to communications",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states her career goal is to have a job that allows travel, as she wants to travel more.",
+          "value": "Wants a career that enables travel",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a weird lamp and a Halloween mask/Halo mask she made that turns red.",
+          "value": "Owns a Halloween/Halo mask and a weird lamp that turns red",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she never learned Sicilian and speaks only a little French, expressing frustration.",
+          "value": "Speaks a little French; does not speak Sicilian",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself as Adriana.",
+          "value": "Adriana",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states she lives in Oakland, California, and is currently in California.",
+          "value": "Oakland, California (current residence)",
+          "lines": [
+            88,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she goes to school in Boston.",
+          "value": "Boston, Massachusetts (for school)",
+          "lines": [
+            84,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is from California, born and raised.",
+          "value": "Originally from California",
+          "lines": [
+            142,
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states she is a student studying linguistics and Spanish.",
+          "value": "Student (linguistics and Spanish)",
+          "lines": [
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if she is in America, speaker_b confirms 'Yeah. Yes'.",
+          "value": "American",
+          "lines": [
+            28,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Adriana is typically female; inferred gender.",
+          "value": "Female",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her father's family is Latino and she speaks Spanish (grew up with it).",
+          "value": "Latina / Hispanic",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she works for a performing arts summer camp and used to be their film staff.",
+          "value": "Works at a performing arts summer camp (film staff)",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she also works for a backpacking camp.",
+          "value": "Works at a backpacking camp",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she leads pub crawls for a hostel in Boston's Chinatown. (ASR: 'hostile')",
+          "value": "Leads pub crawls for a hostel in Boston's Chinatown",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my father's family', indicating she has a father.",
+          "value": "Has a father (father's family is Latino)",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her cat and its ability to open doors.",
+          "value": "Has a cat",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she likes cats a lot.",
+          "value": "Likes cats",
+          "lines": [
+            98,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she likes spooky psychological things but is not into gore.",
+          "value": "Enjoys spooky psychological horror, not gore",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is not a morning person.",
+          "value": "Not a morning person",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses love for people watching and being part of the world.",
+          "value": "Loves people watching",
+          "lines": [
+            250,
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she misses being able to walk places, indicating she enjoys walkable cities.",
+          "value": "Enjoys walkable urban environments",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she wants to avoid downloading TikTok because it will waste too much time.",
+          "value": "Avoids TikTok",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions she was hoping to study abroad in the fall.",
+          "value": "Hoped to study abroad in fall",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she used to study film for several years but not as her major.",
+          "value": "Studied film for several years as a non-major",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she likes taking language courses (Spanish, Italian, English) and is not fluent in Italian.",
+          "value": "Enjoys language courses (Spanish, Italian, English); not fluent in Italian",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms she is fluent in Spanish, having grown up with it.",
+          "value": "Fluent in Spanish",
+          "lines": [
+            75,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she wants to be a language teacher.",
+          "value": "Wants to be a language teacher",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she recently transferred schools and is catching up on gen eds and major requirements.",
+          "value": "Recently transferred schools",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she likes taking the train.",
+          "value": "Likes taking the train",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes herself as 'technologically challenged'.",
+          "value": "Considers herself technologically challenged",
+          "lines": [
+            352
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

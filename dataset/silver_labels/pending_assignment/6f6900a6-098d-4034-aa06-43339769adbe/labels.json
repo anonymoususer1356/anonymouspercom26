@@ -1,0 +1,316 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'north Carolina' when asked where he lives. He later refers to the area as 'down here' and discusses the Charlotte and Raleigh areas, confirming residence in North Carolina.",
+          "value": "Lives in North Carolina",
+          "lines": [
+            165,
+            169,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'being in my thirties' when discussing his expected vaccine priority.",
+          "value": "Age 30-39",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes himself as 'healthy' alongside his age.",
+          "value": "Healthy",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a indicates he is a small business owner and explains that his company does auctions and estate sales, referring to 'our business'.",
+          "value": "Small business owner (auctions and estate sales)",
+          "lines": [
+            83,
+            85,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've got a nice house... a decent sized piece of property', and his weekend leaf-raking indicates a yard, strongly implying home ownership.",
+          "value": "Owns a house with property",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses using multiple online platforms (Prolific, The Scout, Quick Thoughts, UserTesting) to earn extra money, mentioning he makes close to $100 a month on Prolific and uses the earnings to pay his internet bill.",
+          "value": "Earns extra income through online survey and testing platforms (Prolific, The Scout, Quick Thoughts, UserTesting)",
+          "lines": [
+            103,
+            105,
+            113,
+            119,
+            135,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my parents' and expresses hope they will receive the vaccine soon.",
+          "value": "Has living parents",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my sister in law is doing that also' in reference to making masks.",
+          "value": "Has a sister-in-law",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a talks about spending weekends raking leaves for several weeks each year, indicating regular yard work.",
+          "value": "Does yard work (raking leaves) regularly",
+          "lines": [
+            35,
+            37,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he takes COVID seriously and 'wear[s] a mask whenever I go out'.",
+          "value": "Wears a mask in public during COVID",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b directly says 'I live in Chicago'.",
+          "value": "Lives in Chicago, Illinois",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live right on the lake. the beach is really about two blocks away from my house.'",
+          "value": "Lives near the lake, two blocks from the beach",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live on the fifth floor beside for walk up' which is clearly 'I live on the fifth floor; it's a walk-up', meaning a building with no elevator.",
+          "value": "Lives on the fifth floor of a walk-up building",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up about 30 miles from here' in response to a question about being originally from the Chicago area.",
+          "value": "Grew up about 30 miles from Chicago",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'Being 46' when discussing her expected vaccine priority.",
+          "value": "Age 46",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explicitly says she does not have kids and no one under 18 lives with her.",
+          "value": "No children, no one under 18 in household",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she studied in England, later clarifying she started her undergraduate studies abroad before returning to finish in Illinois.",
+          "value": "Studied abroad in England during undergraduate education",
+          "lines": [
+            62,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she went to grad school for stage management and subsequently worked as a stage manager at The Second City, indicating she earned a degree in the field.",
+          "value": "Has a degree in stage management",
+          "lines": [
+            74,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'my glasses are horrible with a mask', indicating she wears corrective lenses.",
+          "value": "Wears glasses (vision impairment)",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b identifies herself as a stage manager and mentions working at The Second City, a comedy theater in Chicago.",
+          "value": "Stage manager by profession",
+          "lines": [
+            74,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'there's no theater anywhere right now, so I'm not working right now', indicating current unemployment due to theater closures.",
+          "value": "Currently unemployed due to COVID theater shutdown",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live in a condo' and describes replacing her furnace, refrigerator, and central air, and having a washer/dryer, strongly implying she owns the unit.",
+          "value": "Owns a condo",
+          "lines": [
+            36,
+            44,
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b recounts that after her mother died, she inherited a trailer that was in her mother's name.",
+          "value": "Inherited a trailer (mobile home) from mother",
+          "lines": [
+            92,
+            94,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses using Prolific, Hatch, and previously Quick Thoughts and Amazon review programs, as well as attending in-person studies like eye testing, to earn money.",
+          "value": "Earns money through online platforms (Prolific, Hatch, Quick Thoughts) and in-person studies (e.g., eye testing)",
+          "lines": [
+            102,
+            108,
+            118,
+            136,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my husband and I went down to look at it' when describing the inherited trailer.",
+          "value": "Married (has a husband)",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mother 'died a year ago in august'.",
+          "value": "Mother died a year ago in August",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my uncle there to retire' when North Carolina is mentioned, indicating she has an uncle who retired there.",
+          "value": "Has an uncle who retired in North Carolina",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she makes masks for friends and is currently designing a smaller mask; she also started with t-shirts, indicating sewing as a hobby.",
+          "value": "Makes cloth masks as a hobby",
+          "lines": [
+            228,
+            232,
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she only leaves home for necessities such as blood work and that all her doctor's appointments are on Zoom, indicating a homebound lifestyle during the pandemic.",
+          "value": "Primarily stays home, only leaves for essential errands",
+          "lines": [
+            246,
+            248,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Living on the fifth floor of a walk-up implies she climbs several flights of stairs regularly.",
+          "value": "Climbs stairs daily (fifth-floor walk-up)",
+          "lines": [
+            50
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b mentions that she wears glasses, which fog up when wearing a mask.",
+          "value": "Wears glasses",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,527 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'carol' (likely Carol) in line 13 and confirms name is Carol in line 293.",
+          "value": "Carol",
+          "lines": [
+            13,
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she retired to Florida (line 49) and lives on the west coast (line 93). Describes her home in Florida with a backyard and mentions living there with her husband (lines 49, 89).",
+          "value": "Florida, west coast, USA",
+          "lines": [
+            49,
+            89,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having 'a little place we keep up north' (line 225), a second property.",
+          "value": "second home 'up north' (unspecified location)",
+          "lines": [
+            225
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Implies she previously lived in Montreal: has friends back in Montreal (line 49) and describes summer festivals there fondly (line 55).",
+          "value": "formerly lived in Montreal, Canada",
+          "lines": [
+            49,
+            55
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Carol and conversational context indicate female gender.",
+          "value": "female",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is semi-retired (line 107), retired to Florida (line 49), married in her 50s (line 171), and has grandchildren (line 187), indicating an older adult age.",
+          "value": "older adult, likely 60s-70s",
+          "lines": [
+            49,
+            107,
+            171,
+            187
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Teaches English to Chinese speakers (line 23) and is a native English speaker based on fluency.",
+          "value": "native English speaker",
+          "lines": [
+            23,
+            29
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "From Montreal originally, compares Michigan climate to what she grew up with (line 219), indicating she is Canadian.",
+          "value": "Canadian (from Montreal)",
+          "lines": [
+            49,
+            219
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Explicitly says 'we are a semi retired' (lines 107) and earlier 'I've retired to florida' (line 49).",
+          "value": "semi-retired",
+          "lines": [
+            49,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I teach chinese kids english in the morning' (line 23) and 'I'm a tutor' (line 29).",
+          "value": "part-time online English tutor",
+          "lines": [
+            23,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I used to be broadcasting' (line 183) when describing background.",
+          "value": "former broadcaster",
+          "lines": [
+            183
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'we're not suffering financially' (line 107) and 'sometimes I feel a bit guilty because we're fine' (line 105).",
+          "value": "financially comfortable",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Earns from part-time tutoring (line 23), Prolific surveys (lines 129, 135), and is semi-retired suggesting other retirement income.",
+          "value": "multiple income streams: tutoring, surveys, likely retirement",
+          "lines": [
+            23,
+            107,
+            129,
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has a home with backyard in Florida (line 49) and a second property up north (line 225).",
+          "value": "owns home in Florida and second property up north",
+          "lines": [
+            49,
+            225
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Met husband online 8 years ago (line 185), refers to 'my husband' (lines 89, 171). He is from Oklahoma.",
+          "value": "husband from Oklahoma",
+          "lines": [
+            89,
+            171,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Husband has two grown sons (line 171), and she says 'now I have to step Children' (line 187).",
+          "value": "two stepsons",
+          "lines": [
+            171,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having four grandchildren (line 187) but clarifies the fourth is not yet born (line 199: 'the 4th 1 is not quite here yet').",
+          "value": "three grandchildren, one on the way",
+          "lines": [
+            187,
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "'My husband and I are looking after his 91 year old mother' (line 89), indicating she lives with them or nearby.",
+          "value": "cares for 91-year-old mother-in-law",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References friends in Montreal (line 49), Miami area (line 91), and Niagara/Windsor (line 235).",
+          "value": "friends in Montreal, Miami area, and Niagara/Windsor",
+          "lines": [
+            49,
+            91,
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Teaches online from a home office with a green screen (line 15) in the mornings (line 23).",
+          "value": "works from home teaching English online in mornings",
+          "lines": [
+            15,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes during pandemic: 'we pretty much stay home... get deliveries and when we do go out with mask up' (line 89).",
+          "value": "stays home mostly during pandemic, uses masks and deliveries",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Suggests walking on the beach as a casual activity (line 267).",
+          "value": "enjoys walking on the beach",
+          "lines": [
+            267
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has camping gear (line 237) and used to camp, but also mentions staying at a fancy hotel after trips and getting nails done (line 247).",
+          "value": "occasional camper, also likes comfort and manicures",
+          "lines": [
+            237,
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Adopted a stray cat and named her Covi (line 75).",
+          "value": "owns a cat named Covi",
+          "lines": [
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Recalls Montreal summer festivals with jazz and comedy (line 55) fondly.",
+          "value": "used to enjoy Montreal summer festivals",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses Prolific for pocket money (line 129) and has made more recently (line 135).",
+          "value": "does Prolific surveys for extra cash",
+          "lines": [
+            129,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Grandchildren visit them in Florida during winter (line 207).",
+          "value": "hosts grandchildren in Florida during winter",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as Ryan in line 14, and speaker_a addresses him as Ryan in line 13.",
+          "value": "Ryan",
+          "lines": [
+            13,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a asks for his name again and guesses 'brian' (line 291), he responds 'O brien?' (line 292), likely providing his surname O'Brien.",
+          "value": "O'Brien (surname)",
+          "lines": [
+            291,
+            292
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I live in michigan' (line 96) and 'we're out in the country myself' (line 48), indicating a rural area.",
+          "value": "rural Michigan, USA",
+          "lines": [
+            48,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he is in a 'basement bedroom' (line 14) and describes setting up a room with little decor as a workspace (lines 16-18).",
+          "value": "works from a basement home office",
+          "lines": [
+            14,
+            16,
+            17,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Ryan and conversational pronouns indicate male.",
+          "value": "male",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a 12-year-old and a 15-year-old daughter (line 60), and mentions 'my younger daughter' (line 58).",
+          "value": "father of two daughters",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my wife' multiple times (lines 102, 260).",
+          "value": "married",
+          "lines": [
+            102,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Children's ages (12 and 15) suggest he is likely in his 40s.",
+          "value": "likely in his 40s",
+          "lines": [
+            60
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Works with China and Italy (line 44) and has been able to work from home (line 102), indicating international work.",
+          "value": "works internationally with Italy and China",
+          "lines": [
+            44,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'My wife does not work' (line 260), making her a homemaker.",
+          "value": "wife is homemaker",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm not a big camper' (line 238) and prefers clean hotels (line 244).",
+          "value": "prefers hotels to camping",
+          "lines": [
+            238,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions starting to go to concerts with his daughter this year (line 58).",
+          "value": "concert-goer with daughter",
+          "lines": [
+            58
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works from home full-time (line 102) and discusses ongoing work with Italy and China (line 44).",
+          "value": "full-time employed, works from home",
+          "lines": [
+            44,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He works while wife does not (line 260), implying he is the primary earner.",
+          "value": "primary breadwinner",
+          "lines": [
+            260,
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Observes that restaurant spending disappeared and they are saving money by cooking at home (lines 270, 272, 274).",
+          "value": "saving money during pandemic by eating at home",
+          "lines": [
+            270,
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Started exploring Prolific surveys to see if his daughter can earn pocket money (lines 130, 132) and himself has been doing it for two weeks (line 324).",
+          "value": "uses Prolific surveys for extra income exploration",
+          "lines": [
+            130,
+            132,
+            324
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my wife' (lines 102, 260).",
+          "value": "wife",
+          "lines": [
+            102,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he has a 12-year-old and a 15-year-old (line 60).",
+          "value": "two daughters, ages 12 and 15",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "'me and my two brothers have all stayed in michigan' (line 194).",
+          "value": "two brothers, all live in Michigan",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks to his parents a couple times a week; they miss seeing grandkids and previously attended the children's games on weekends (line 194).",
+          "value": "parents live nearby in Michigan",
+          "lines": [
+            194
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Set up a basement bedroom as a workspace (lines 14-18) and works from home (line 102).",
+          "value": "works from home in basement office",
+          "lines": [
+            14,
+            16,
+            17,
+            18,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During pandemic, they take walks and sit outside (line 262) and have not gotten takeout, cooking all meals at home (line 270).",
+          "value": "stays home, walks, no dining out during pandemic",
+          "lines": [
+            262,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attends concerts with his younger daughter; three were cancelled this year (lines 58, 60).",
+          "value": "attends concerts with daughter",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has visited China a few times (line 36), works with Italy (line 44) and likely visited, and spent four days in Montreal (line 50); mentions not having been to China/Italy in a couple of years (line 46).",
+          "value": "has traveled to China, Italy, and Montreal",
+          "lines": [
+            36,
+            44,
+            46,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'life has slowed down' and they just sit and talk (line 262).",
+          "value": "enjoys slower pace of life currently",
+          "lines": [
+            262
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has been doing Prolific surveys for two weeks (line 324) to test for daughter (line 130).",
+          "value": "does Prolific surveys occasionally",
+          "lines": [
+            130,
+            132,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Encouraged daughter to take computer programming; she excelled and helped other students (lines 154-160).",
+          "value": "supports daughter's interest in computer programming",
+          "lines": [
+            154,
+            156,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

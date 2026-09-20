@@ -1,0 +1,355 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as Sam when speaker_b asks 'What's your name?'",
+          "value": "Sam",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says she is from 'New York, like Long Island' and later refers to Long Island as her home base when citing an eight-hour drive to college.",
+          "value": "Long Island, New York",
+          "lines": [
+            11,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a explicitly says she is 22 years old.",
+          "value": "22",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she just graduated in May, studied psychology, and attended Allegheny College in Pennsylvania.",
+          "value": "College graduate (May) with a degree in psychology from Allegheny College",
+          "lines": [
+            35,
+            37,
+            53,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a explains it has been hard to find a job in her area because NYC companies are on hiring freezes; she is applying nonstop and does not want a grocery store job, indicating unemployment and active job search.",
+          "value": "Unemployed, actively seeking a job in her field amid NYC hiring freezes",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says she has a Maltese Yorkie mix dog that is 12 years old.",
+          "value": "Owns a 12-year-old Maltese Yorkie mix dog",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions she met most of her friends during her first semester freshman year in her dorm hall.",
+          "value": "Has a close group of friends from her freshman dormitory",
+          "lines": [
+            189,
+            195
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a studied abroad in England for a semester and traveled to Ireland, Amsterdam, Prague, Greece, and Germany.",
+          "value": "Studied abroad in England and traveled to multiple European countries",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her psychology-related internship at a women's prison in drug and alcohol treatment, for which she received credit.",
+          "value": "Completed an internship at a women's prison in drug and alcohol treatment",
+          "lines": [
+            61,
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a tells about a credit-bearing internship where she prepared taxes for elderly people in town.",
+          "value": "Internship preparing taxes for elderly people",
+          "lines": [
+            151,
+            153,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was a teaching assistant for a behavioral science class.",
+          "value": "Teaching assistant for a behavioral science class",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was in the honor society for psychology.",
+          "value": "Member of psychology honor society",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts having jello shots and alcohol in her dorm room as a freshman, and her RA tolerated it.",
+          "value": "Kept alcohol in her dorm room as a freshman",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she joined the Beer Insider Society in England and went to pubs every Tuesday.",
+          "value": "Joined a social drinking club (Beer Insider Society) while abroad",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions it was normal to get a beer between classes while studying abroad.",
+          "value": "Drank beer between classes while studying abroad",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her senior project working with rats, studying behavior and motivation.",
+          "value": "Senior research project with rats on behavior and motivation",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is thinking of taking a gap year and then pursuing a master's degree.",
+          "value": "Planning a gap year before pursuing a master's degree",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says she is really into traveling.",
+          "value": "Enjoys traveling",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b provides her name as 'Sarka?' when asked by speaker_a. ASR renders it with a question mark, possibly due to intonation; intended name is likely 'Sarka'.",
+          "value": "Sarka",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is from 'Boston or the Boston area' and later refers to Tufts as 'right around here', confirming she is currently in the Boston area.",
+          "value": "Boston area, Massachusetts",
+          "lines": [
+            10,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says she is 19 and just turned 19.",
+          "value": "19",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she just finished her first year at Northwestern University.",
+          "value": "Student at Northwestern University, completed first year",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is undecided on her major but is considering trying out econ or marketing.",
+          "value": "Undecided major, considering economics or marketing",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her sister who recently graduated from Tufts and is taking a gap year before medical school.",
+          "value": "Has a sister who graduated from Tufts University and is applying to medical school",
+          "lines": [
+            40,
+            46,
+            264,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has a nine-week-old mini golden doodle puppy named Juno.",
+          "value": "Owns a 9-week-old mini golden doodle puppy named Juno",
+          "lines": [
+            14,
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her acapella group as really good friends and that she misses them.",
+          "value": "Member of a close-knit acapella group",
+          "lines": [
+            184,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says one of her friend groups comes from the floor of her freshman dorm.",
+          "value": "Has a friend group from her freshman dormitory floor",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is in an acapella group that rehearses for six hours a week.",
+          "value": "Member of an acapella group that rehearses 6 hours weekly",
+          "lines": [
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains she got her puppy from a breeder through an online site called Puppy Spot.",
+          "value": "Acquired puppy from a breeder via the Puppy Spot website",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b took an art class in fall quarter, really liked it, and is considering majoring in it.",
+          "value": "Took an art class and considering majoring in art",
+          "lines": [
+            56,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she applied early decision to Northwestern and it was the only school she applied to.",
+          "value": "Applied early decision to Northwestern; only school applied to",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes shipping boxes to school for move-in and storing belongings there over summer.",
+          "value": "Ships belongings to college for move-in",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was planning on going to France her junior fall to study abroad, motivated by her study of French.",
+          "value": "Plans to study abroad in France during junior fall",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has been taking French since middle school and continues in college.",
+          "value": "Has taken French classes since middle school",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b self-describes as a pushover and a follower.",
+          "value": "Self-described as a pushover and follower",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she never had any summer plans that got canceled due to COVID-19.",
+          "value": "Had no summer plans disrupted by the pandemic",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses concern about how social life and community bonding will work for freshmen during the COVID-19 affected school year.",
+          "value": "Concerned about social life and bonding for freshmen during COVID-19",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

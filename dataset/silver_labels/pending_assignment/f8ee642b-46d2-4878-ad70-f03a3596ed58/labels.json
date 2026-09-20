@@ -1,0 +1,510 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When speaker_b asks for his name again, speaker_a replies 'Matthew'. speaker_b then uses the name Matthew.",
+          "value": "Matthew",
+          "lines": [
+            251,
+            252
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is 'in Raleigh north Carolina'.",
+          "value": "Raleigh, North Carolina",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is 'actually originally from Charlottesville' and grew up there.",
+          "value": "Charlottesville",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists places he has lived: New York, D.C., Williamsburg Virginia, Richmond, and Raleigh.",
+          "value": "has lived in New York, Washington D.C., Williamsburg Virginia, Richmond Virginia",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he moved from the D.C. office to the Raleigh office and later states he moved in May 2018.",
+          "value": "moved from D.C. to Raleigh in May 2018",
+          "lines": [
+            47,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions going to the gym at his apartment complex, indicating he lives in an apartment with a gym.",
+          "value": "lives in an apartment complex with a gym",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says his current company is on the fifth floor of 'this building' and his new company is on the sixth floor, locating his workplace in the building where the conversation takes place.",
+          "value": "works in a building where current employer is on 5th floor and new employer on 6th floor",
+          "lines": [
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states he is a C.P.A.",
+          "value": "CPA (Certified Public Accountant)",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I actually do financial statement audits for public clients'.",
+          "value": "performs financial statement audits for public clients",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his company is 'one of the big four Republic accounting firms' (intended 'public accounting firms'), indicating it is a Big Four firm.",
+          "value": "works at a Big Four public accounting firm",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states he got a new job starting on the 17th at a company on the sixth floor of the same building.",
+          "value": "new job starting on the 17th at a different company on the sixth floor",
+          "lines": [
+            57,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions signing a bonus agreement to be paid a good chunk of money if he stayed three years.",
+          "value": "signed a retention bonus for a good chunk of money if he stayed three years",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says when he moved from D.C. to Raleigh, the firm let him keep his higher D.C. compensation, which was much higher than local salaries.",
+          "value": "kept his higher D.C. salary after transferring to Raleigh",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states that the Big Four firm 'really under pay you'.",
+          "value": "feels underpaid at current firm",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is trying to buy a house in Raleigh but finds prices high, and his reference to an apartment gym suggests he currently rents.",
+          "value": "currently renting, looking to buy a house in Raleigh area",
+          "lines": [
+            93,
+            101,
+            119,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he has a cheap chair from IKEA that cost $12.",
+          "value": "owns a $12 IKEA chair",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he tried negotiating a home office allowance with his new employer, but they would not put it in the offer letter, only saying they would 'do something'.",
+          "value": "negotiated a home office allowance; no written commitment",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has a client in Kentucky that wanted him to travel there during covid.",
+          "value": "has a client in Kentucky",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says the new company's finance and accounting department has about 48 people.",
+          "value": "new employer's finance and accounting department has about 48 people",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his current employer's policy: required to be in the office five days a week, no working from home.",
+          "value": "current employer requires 5 days a week in office, no remote work",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says his parents live 45 minutes from Raleigh and moved there about eight years ago, after he graduated high school.",
+          "value": "parents live 45 minutes from Raleigh, moved there ~8 years ago",
+          "lines": [
+            89,
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a jokes 'two people fell in love 34 years ago and now I gotta pay bills. Thanks mom and dad.', indicating his parents have been together for 34 years.",
+          "value": "parents have been together for 34 years",
+          "lines": [
+            127
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions that a couple of people from his current firm moved to the new company and one of them interviewed him.",
+          "value": "knows a former colleague who moved to the new company and interviewed him",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says before covid he traveled 100% for work.",
+          "value": "100% work travel before covid",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has hit the end of Netflix and binge-watched every show during the pandemic.",
+          "value": "binge-watched Netflix extensively during covid",
+          "lines": [
+            150,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says in his current job he works many hours, including weekends.",
+          "value": "works long hours including weekends",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he always has a whiteboard or iPad to sketch out things, indicating he uses visual tools for work.",
+          "value": "uses whiteboard or iPad for drawing/diagramming",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes himself as 'kind of a nomad'.",
+          "value": "considers himself a nomad",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a discusses whether to build or buy an existing house, indicating he is actively house hunting.",
+          "value": "house hunting, considering building vs buying",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says work travel stopped around March 16-17, 2020.",
+          "value": "work travel stopped around March 16-17, 2020",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as 'I'm Brandon' and speaker_a later calls him Brandon.",
+          "value": "Brandon",
+          "lines": [
+            6,
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he and his wife moved from Arizona to Colorado in November and 'we're in colorado right now' (referring to residence).",
+          "value": "lives in Colorado",
+          "lines": [
+            8,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he is originally from Hartford.",
+          "value": "Hartford",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he moved to Florida at 13/14, lived there a couple years, then lived in Arizona most of his life since 15/16.",
+          "value": "lived in Florida (ages ~13-14) and Arizona (since ~15-16)",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says their lease is up and they might move back to Arizona, indicating they are renting in Colorado.",
+          "value": "renting in Colorado, lease ending, considering moving back to Arizona",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b repeatedly mentions 'my wife', establishing he is married.",
+          "value": "married",
+          "lines": [
+            8,
+            18,
+            20,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he is in the business side of software development and has worked specifically with Salesforce for the last few years.",
+          "value": "Salesforce consultant/project manager (business side of software dev)",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains he hated his job, quit after his wife urged him, got a job in Colorado, worked there about 1-1.5 years, but was laid off a couple months ago.",
+          "value": "laid off from previous Colorado job a couple months ago; previously quit a job he hated; that job lasted about 1-1.5 years",
+          "lines": [
+            16,
+            18,
+            20,
+            22,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he accepted an offer with Dell to help on their federal side, starting 100% remote on the 17th.",
+          "value": "new job with Dell, federal side, starting 17th, 100% remote",
+          "lines": [
+            26,
+            32,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his wife got a job after they moved to Colorado, indicating she is employed.",
+          "value": "wife is employed",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions the high cost of housing in Colorado, that they are renting, and that his dad's girlfriend (a realtor) urges them to buy. They are considering moving to Arizona where it's cheaper.",
+          "value": "renters, considering home purchase; may move to Arizona due to Colorado's high cost",
+          "lines": [
+            24,
+            94,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he threw out a cheap $20 Target chair and spent a couple hundred bucks on an Amazon chair for his home office.",
+          "value": "bought a chair on Amazon for a couple hundred dollars for home office",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions that his new role involves working with offshore development teams.",
+          "value": "new role involves overseeing offshore development teams",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b frequently refers to 'my wife', indicating he is married.",
+          "value": "married to wife",
+          "lines": [
+            8,
+            18,
+            20,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'no kids' when describing his lack of ties, and later implies he has no children by saying 'especially if you have kids'.",
+          "value": "no children",
+          "lines": [
+            20,
+            176
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions attending his wife's niece's first birthday, so his wife has a niece (and by implication a sibling).",
+          "value": "wife has a niece (speaker_b's niece by marriage)",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his dad's girlfriend is a realtor.",
+          "value": "father has a girlfriend who is a realtor",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his dad believes covid is fake and numbers are inflated.",
+          "value": "father thinks covid is a hoax/fake",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his buddy and his wife are buying a house in Colorado.",
+          "value": "has a friend (buddy) in Colorado who is buying a house",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his old boss moved out to Raleigh.",
+          "value": "former boss moved to Raleigh",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says Colorado has parks and outdoors that they can do, indicating he enjoys outdoor activities.",
+          "value": "enjoys outdoor activities in Colorado",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses preference for remote work but values occasional face-to-face interaction.",
+          "value": "prefers remote work with some in-person interaction",
+          "lines": [
+            176,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they went to Arizona last weekend for his wife's niece's first birthday.",
+          "value": "traveled to Arizona for family event",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions discarding a cheap chair and buying one on Amazon, indicating setting up a home office.",
+          "value": "set up home office with Amazon chair",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they moved to Colorado and then everything shut down, so they have only seen about 2% of the area.",
+          "value": "limited exploration of Colorado due to covid shutdowns",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

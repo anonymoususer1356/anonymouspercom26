@@ -1,0 +1,270 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'my name is chris' at line 31; speaker_b addresses him as 'chris' at lines 32, 158, and 268, confirming the name.",
+          "value": "Chris",
+          "lines": [
+            31,
+            32,
+            158,
+            268
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I live in new york city right now' (line 19) and makes multiple references to NYC (curfews, Governor Cuomo, 'here in new york') at lines 21, 131, 133, and 199.",
+          "value": "New York City",
+          "lines": [
+            19,
+            21,
+            131,
+            133,
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I work in the healthcare industry' (line 23) and mentions being at the hospital (line 123), indicating he belongs to the healthcare workforce.",
+          "value": "healthcare worker",
+          "lines": [
+            23,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes feeling 'like I'm kind of in jail', stressed, sweating, and confined while working from home (lines 101, 103, 105). This is a self-reported mental/emotional state.",
+          "value": "feels confined and stressed working from home",
+          "lines": [
+            101,
+            103,
+            105
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states he works in the healthcare industry (line 23) and has been working from home since March (line 101), showing he is employed.",
+          "value": "employed in healthcare industry, working from home",
+          "lines": [
+            23,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'a lot of my friends like who are in college' (line 57), mentions 'we’re signing a petition' (line 59) implying friends, and says 'I’ve been trying to reach out to my friends' (line 107).",
+          "value": "has friends, some in college",
+          "lines": [
+            57,
+            59,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I have been working from home since March now' (line 101), indicating a remote-work routine.",
+          "value": "works from home",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I worked out a 24 hour fitness and then I got an email saying we're not going to have any more in Manhattan' (line 195), showing he was a member of that gym, which closed.",
+          "value": "former 24 Hour Fitness member (Manhattan location closed)",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I had an M.C. Like a stub list where I got like three movies a week… for 20 bucks a month' (line 259), showing he previously held an AMC Stubs subscription and went to movies regularly.",
+          "value": "previously had AMC Stubs movie subscription, frequent movie-goer",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself: 'Well, my name is Wayne' (line 24). speaker_a repeats a garbled version ('marker Wayne', line 31) and speaker_b later says 'A wayne' (line 32), confirming the name.",
+          "value": "Wayne",
+          "lines": [
+            24,
+            31,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'bismarck, north Dakota, booming metropolis. Capital city' (line 28) and later refers to 'being in Bismarck North Dakota' (line 252), establishing his current residence.",
+          "value": "Bismarck, North Dakota",
+          "lines": [
+            28,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he was 'born and raised in New York City... born in the Bronx and moved to Manhattan when I was nine' (line 26), providing his origin.",
+          "value": "originally from New York City (born in the Bronx, moved to Manhattan at age 9)",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states he 'left at age 20 to join the military' (line 26) and later makes a comparison to military preparedness (line 158), identifying him as a veteran.",
+          "value": "veteran (former military)",
+          "lines": [
+            26,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I also work in the healthcare industry, I work at an ambulance service... we do the billing' (line 38), placing him in the healthcare workforce.",
+          "value": "healthcare worker (ambulance billing)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having 'attended bits and pieces of four universities over the year in order to finish up a degree' (line 62) and having taken online courses (line 66). This shows some college-level education.",
+          "value": "has taken courses at multiple universities, working on a degree",
+          "lines": [
+            62,
+            66
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says his best friend is on a vent with COVID-19 (line 8), that it 'fully hit home' this weekend (line 68), that he's 'just tired of all this' (line 70), that it's been a tough weekend (line 72, 76). These lines show mental/emotional fatigue and conflict related to the pandemic.",
+          "value": "fatigued and conflicted about the pandemic, especially after friend Ken got sick",
+          "lines": [
+            8,
+            68,
+            70,
+            72,
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states he works at an ambulance service in the office doing billing (line 38) and later notes 'I'm forced to be in the office' (line 110), proving he is employed.",
+          "value": "employed in ambulance billing (works in office)",
+          "lines": [
+            38,
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b uses 'we' repeatedly when discussing travel (line 70) and later says 'my wife has been really impressed' (line 136), establishing he is married.",
+          "value": "married (has wife)",
+          "lines": [
+            70,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my best friends came down with the coronavirus, so he's on a vent' (line 8) and later mentions 'ken getting sick' (line 70), identifying his best friend Ken.",
+          "value": "best friend Ken (currently ill with COVID-19)",
+          "lines": [
+            8,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I had one cousin in Jersey. She had like flu like symptoms' (line 14), indicating a cousin in New Jersey.",
+          "value": "cousin in New Jersey",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'we still have been traveling a lot, so we’ve gone to Vegas twice already um and we’re going again… and then just with the deadwood again' (line 70), mentions shows are 'a lot of what we do' (line 86), and lists Blue Man Group and comedies (line 90). This shows frequent travel to entertainment destinations.",
+          "value": "travels to Las Vegas and Deadwood for casinos and shows",
+          "lines": [
+            70,
+            86,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I go to Planet Fitness… I absolutely love it' (lines 204, 208) and 'I will be a planet fitness member for life' (line 210), establishing a regular gym routine.",
+          "value": "Planet Fitness member",
+          "lines": [
+            204,
+            208,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions his favorite AMC theater closed (lines 184, 186, 262), describes the Grand Theatre (lines 250, 252, 254), and shows he is an active movie-goer.",
+          "value": "movie-goer (previously AMC, now Grand Theatre)",
+          "lines": [
+            184,
+            186,
+            250,
+            252,
+            254,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I’ve got some at home' referring to adjustable dumbbells (power blocks) (lines 225, 226, 228), indicating home workout equipment.",
+          "value": "owns adjustable dumbbells (power blocks) for home workouts",
+          "lines": [
+            225,
+            226,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

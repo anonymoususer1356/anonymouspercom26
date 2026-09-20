@@ -1,0 +1,330 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in north carolina' (line 65) and 'I'm in north Carolina' (line 109).",
+          "value": "North Carolina",
+          "lines": [
+            65,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I live right next to the ocean' (line 39).",
+          "value": "Lives near the ocean",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his city: 'I live in a very small city. It's, it's only like maybe half a million people.' (line 71) and mentions 'a lot of it's like tourists and students' (line 75). He also says 'the biggest city out here is charlotte' (line 65), indicating a smaller North Carolina city.",
+          "value": "Lives in a city with a population of about 500,000 that attracts tourists and students",
+          "lines": [
+            65,
+            71,
+            75
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm from the south' (line 15).",
+          "value": "From the southern United States",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a praises the governor's COVID-19 response, saying 'our governor has been really awesome... he's like, you know, like we had like masks mandatory inside, like bars have been closed' (lines 109-113). He also emphasizes that masks protect others (lines 133-135).",
+          "value": "Supports strict COVID-19 public health measures and approves of the North Carolina governor's pandemic response",
+          "lines": [
+            109,
+            111,
+            113,
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work at the post office right? Like I'm a letter carrier' (line 129) and describes delivering mail to businesses (line 131).",
+          "value": "Employed as a letter carrier for the United States Postal Service",
+          "lines": [
+            129,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a programmer' (line 167), 'in the process of trying to move my career from... delivering the mail basically' (line 169), and mentions writing open source software, school projects, and a coding internship (lines 171-173).",
+          "value": "Has programming experience (open source, internship) and is actively seeking to transition to a programming career",
+          "lines": [
+            167,
+            169,
+            171,
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I use Arch Lennox... it's basically a distribution of Lennox' (line 223) (likely Arch Linux), and 'I don't own a copy of Windows, I haven't used Windows in like 10 years' (line 179). He criticizes Windows 10 as 'Spyware' (line 239) and is uncomfortable with its telemetry (lines 241-243).",
+          "value": "Uses Arch Linux operating system; avoids Microsoft Windows due to privacy concerns",
+          "lines": [
+            179,
+            223,
+            239,
+            241,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I use like a duck duck go instead of google the search' and 'on my phone to duck Duck Go browser' (line 251). He also mentions using Chrome/Chromium (lines 255, 257).",
+          "value": "Uses DuckDuckGo search engine and browser on phone; also uses Google Chrome/Chromium",
+          "lines": [
+            251,
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I love the woods man... I love just going out and being, being in nature' (line 97) and describes a trip to Francis Marion National Forest in South Carolina (lines 95-97).",
+          "value": "Enjoys nature and hiking; recently visited Francis Marion National Forest",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'the further west I've ever been with Montana, it was like the western side of Montana' (line 31), following an earlier comment that he had never been that far west (line 29).",
+          "value": "Has never traveled further west in the U.S. than western Montana",
+          "lines": [
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I will always wear a mask if I'm going inside somebody's business' (line 131) as part of his mail delivery job.",
+          "value": "Wears a mask when entering businesses as part of his mail delivery job",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions reading COVID-19 news: 'in the beginning I was like reading the news about it every day' (line 117).",
+          "value": "Reads news about COVID-19",
+          "lines": [
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When speaker_b mentions Trader Joe's, speaker_a responds 'Yeah, it's a wonderful place' (line 155). This implies familiarity and liking for the store.",
+          "value": "Enjoys Trader Joe's grocery store",
+          "lines": [
+            155
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm living in Northwest indiana, right on the border of Chicago.' (line 8) and later 'I don't have any trader joe's in northwest indiana' (line 154).",
+          "value": "Lives in Northwest Indiana, near the Illinois/Chicago border",
+          "lines": [
+            8,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'since I lived near the lake that's always uh colder' (line 46) and confirms it's the Great Lake (line 48). He describes the lake effect on weather (lines 46-48).",
+          "value": "Lives near Lake Michigan (the Great Lake)",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up in the northern suburbs of Chicago.' (line 52).",
+          "value": "Grew up in the northern suburbs of Chicago, Illinois",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'But the program in college I didn't really like it that much.' (line 174), indicating he attended college and studied programming.",
+          "value": "Attended college and studied programming",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_a's praise of his governor, speaker_b says 'My governor has caved to the pressure and I, we had a record number of cases yesterday' (line 114), indicating disapproval of his own governor's COVID-19 handling.",
+          "value": "Disapproves of his state's governor's COVID-19 response, implying a preference for stricter measures",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I work for a manufacturing company and just like their I. T. Guy in sight and I do all the computer equipment.' (line 166) and 'it's a small company and there's like 10 people.' (line 184).",
+          "value": "Works as an on-site IT support person for a small manufacturing company of about 10 employees",
+          "lines": [
+            166,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was doing this traveling job, used to buy like certain snacks for to take on the plane' (line 160) and 'I went to like different Albertsons throughout the country installing all their front end equipment. So like the checkout or the cat.' (line 162).",
+          "value": "Previously held a traveling job installing front-end checkout equipment at Albertsons stores nationwide",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my dad used to fly for a Delta' (line 16).",
+          "value": "Father was a pilot for Delta Air Lines",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'to get to my parents office could take like 2.5 hours sometimes... It's only 40 miles... I actually had to drive all the way through downtown to get to where they live.' (lines 56-60).",
+          "value": "Parents live approximately 40 miles away in the Chicago area, requiring a drive through downtown to visit",
+          "lines": [
+            56,
+            58,
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions 'I only have street parking' (line 90) and 'the one that's closest to my apartment' (line 144).",
+          "value": "Lives in an apartment with only street parking",
+          "lines": [
+            90,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to go to air shells, but they were all canceled this summer... I watched a cop one and that was online' (line 102) (likely 'air shows').",
+          "value": "Enjoys air shows; watches online streams when live events are canceled",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've actually been to Hawaii like when I was younger, I used to take trips out to Hawaii.' (line 34), 'I've been to Vegas when it rains' (line 18), and 'I've been to L.A.' (line 32).",
+          "value": "Has traveled to Hawaii (as a child), Las Vegas, and Los Angeles",
+          "lines": [
+            18,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my desktops running Windows but yeah this laptop using strong Windows' (line 230) and describes using a product key from a decommissioned work computer to upgrade his desktop to Windows 10 Pro (lines 234-236).",
+          "value": "Uses Microsoft Windows on desktop and laptop; upgraded desktop to Windows 10 Pro using a product key from a recycled work computer",
+          "lines": [
+            230,
+            234,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't have any trader joe's in northwest indiana and I have to go to the Chicago or Illinois. Everyone go to trader joe's.' (line 154).",
+          "value": "Shops at Trader Joe's, requiring a trip to Illinois because there are none in Northwest Indiana",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't been downtown and I used to like do group projects downtown or some like focus group stuff. I haven't been downtown since january, I think.' (line 78).",
+          "value": "Used to participate in group projects or focus groups in downtown Chicago; hasn't been downtown since January",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it's on a virtual machine so like I can build a separate virtual machine to test it' (line 200) regarding software upgrades at work.",
+          "value": "Uses virtual machines for software testing at work",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just like the home like network administration stuff and that aspect' (line 176) and had earlier mentioned not liking programming in college (line 174).",
+          "value": "Prefers network administration over programming",
+          "lines": [
+            174,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses managing QuickBooks at his workplace, describing the yearly upgrade bill, his attempts to test new versions before deploying, and resistance from coworkers (lines 186-202).",
+          "value": "Manages QuickBooks software upgrades; tests new versions before deploying at work",
+          "lines": [
+            186,
+            188,
+            190,
+            192,
+            196,
+            198,
+            200,
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

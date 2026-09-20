@@ -1,0 +1,324 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'what's your name, Rachel?' and speaker_a confirms 'My name is Rachel'.",
+          "value": "Rachel",
+          "lines": [
+            12,
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm from the south actually. I'm from Birmingham Alabama.'",
+          "value": "Birmingham, Alabama",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'So you're in D. C.' and speaker_a does not dispute; later speaker_a says 'I live on the outskirts' in the context of D.C.",
+          "value": "Washington, D.C.",
+          "lines": [
+            54,
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In response to a mention of San Francisco, speaker_a says 'I lived there before I came here'.",
+          "value": "San Francisco, California",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "While talking about Baltimore, speaker_a says 'I uh stayed up there for a while when I was doing a community garden with my friend'.",
+          "value": "Baltimore, Maryland (stayed for a while)",
+          "lines": [
+            55
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Rachel and the statement 'it's different for a girl probably' indicate female gender.",
+          "value": "female",
+          "lines": [
+            13,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 59 is garbled: 'this month was started 35 this month like just now I was at university.' Interpreted as speaker_a turning 35 this month, consistent with the conversation about age.",
+          "value": "35",
+          "lines": [
+            59
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I don't like religion either' and later confirms she is not religious when asked.",
+          "value": "not religious",
+          "lines": [
+            149,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In the same garbled line, speaker_a mentions 'just now I was at university' indicating she is or recently was a student.",
+          "value": "attends/attended university",
+          "lines": [
+            59
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'now that I'm older, I kind of have anxiety'.",
+          "value": "anxiety",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Before the conversation starts, speaker_a says 'New studies available on prolific'. Prolific is a platform for paid online studies, and she later says 'this is my 3rd one', indicating she uses it for studies.",
+          "value": "uses Prolific for online studies",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I uh stayed up there for a while when I was doing a community garden with my friend and you have to kind of know like some people in the punk scene and a little anarchist house' referring to Baltimore.",
+          "value": "has a friend in Baltimore (community garden, punk/anarchist scene)",
+          "lines": [
+            55
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I have a friend who used it to deal with alcoholism' referring to psychedelic therapy.",
+          "value": "has a friend who used psychedelics for alcoholism",
+          "lines": [
+            99
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a talks about her Mormon friend: 'I had a friend who grew up mormon I think and he was black ... he walked me through all their racism'.",
+          "value": "has a Mormon friend (male, black)",
+          "lines": [
+            153,
+            157
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I exercise and I want to run and do stuff like that' and later agrees running outside is better.",
+          "value": "exercises, runs",
+          "lines": [
+            191,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'every once in a while I'll have a beer' and describes having four beers on election night.",
+          "value": "occasional drinker",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I used to do that when I was in my young early 20s' about smoking pot in cars.",
+          "value": "past marijuana use",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I haven't been to the gym here' and explains she doesn't like working out around men.",
+          "value": "does not go to the gym",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was [vegetarian] and I eat like a lot of vegetable meals but I need more protein' indicating she now eats meat.",
+          "value": "flexitarian (was vegetarian, eats some meat for protein)",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself: 'Uh My name is ted'.",
+          "value": "Ted",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in Baltimore'.",
+          "value": "Baltimore, Maryland",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was in uh I was in Arlington before that but the rents there just get just skyrocketed'.",
+          "value": "Arlington, Virginia (past)",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When recounting a story about smoking pot in high school, speaker_b says 'this was in Connecticut'.",
+          "value": "Connecticut (high school years)",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions a recent visit to D.C. for dinner, describing the chaos during the protests.",
+          "value": "Washington, D.C. (visited)",
+          "lines": [
+            68,
+            70,
+            72
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Called 'the first guy' by speaker_a and the name Ted indicate male gender.",
+          "value": "male",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm 35 and so I'm I just turned 35 ... On 29 October so just a couple weeks you know'.",
+          "value": "35 (born October 29)",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not religious' and later explains he stopped believing at 12.",
+          "value": "not religious",
+          "lines": [
+            148,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my stepbrother or he's my half brother, he's uh three years older than me And he's 38 and he lives in san Francisco'.",
+          "value": "half-brother (38, lives in San Francisco)",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'll have some beers, some wine, whatever here and there. But yeah, I don't really binge drink sometimes.'",
+          "value": "occasional drinker",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes smoking so much pot in his car during high school that they would find leftover weed.",
+          "value": "past heavy marijuana use",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I need a rack with weights and I need somebody to spot me' and that he has been slacking on gym due to COVID.",
+          "value": "weightlifting/gym-goer (slacking during COVID)",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I need to eat meat with every meal. If I don't have meat for a meal, I feel like what did I just eat?'.",
+          "value": "requires meat with every meal",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he 'tossed the entire idea of roommates years ago'.",
+          "value": "dislikes roommates",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I'm in pretty good shape'.",
+          "value": "physically fit",
+          "lines": [
+            206
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

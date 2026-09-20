@@ -1,0 +1,535 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Utah (line 11) and specifies Sandy, a suburb of Salt Lake City (line 21). Additional references to mountains, ski areas, and Utah voting confirm the same location (lines 25, 27, 269).",
+          "value": "Sandy, Utah (suburb of Salt Lake City)",
+          "lines": [
+            11,
+            21,
+            25,
+            27,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she grew up in 'Hickey old Idaho', about four hours from Salt Lake City (line 37). The exact town name is garbled (likely Heyburn or similar), but the state and distance are clear.",
+          "value": "Hickey old Idaho (garbled town name), about 4 hours from Salt Lake City",
+          "lines": [
+            37
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a mentions being in the San Diego area with her ex-husband where his parents lived (line 101), indicating she formerly resided there.",
+          "value": "San Diego area, California (formerly lived there)",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'we probably are moving to Oregon though soon' (line 29) and discusses plans to travel the Oregon coast (line 167).",
+          "value": "plans to move to Oregon",
+          "lines": [
+            29,
+            167
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b calls speaker_a 'ma'am' (line 304) and speaker_a says 'you can call me lady' (line 305). She also refers to a male ex-husband and a male partner, consistent with being female.",
+          "value": "female",
+          "lines": [
+            304,
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm old' (line 71), her youngest child is 26 (line 157), and her mother is 81 (line 191), implying she is likely in her 50s or 60s.",
+          "value": "older adult (likely 50s-60s)",
+          "lines": [
+            71,
+            157,
+            191
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a mentions having a stepdaughter and stepson (line 15), two biological sons (line 155), ten stepchildren total (line 155), and all are adults (line 157).",
+          "value": "mother and stepmother (of 12 total children)",
+          "lines": [
+            15,
+            155,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a votes (line 275) and refers to 'our nation' (line 83), implying U.S. citizenship.",
+          "value": "U.S. citizen",
+          "lines": [
+            83,
+            275
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a expresses support for reproductive rights (line 267), campaigned for Bernie Sanders (line 279), voted for Biden (line 268), and liked Elizabeth Warren (line 283).",
+          "value": "left-leaning / Democrat",
+          "lines": [
+            265,
+            268,
+            279,
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states 'I was a director of marketing for a mortgage company' (line 63) and describes the company's loans for doctors (line 65).",
+          "value": "former director of marketing for a mortgage company specializing in doctor loans",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am not working right now' (line 61).",
+          "value": "currently not employed",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a and her sweetheart are 'designing online courses in consciousness and helping people deal with some of this stress' (lines 171-177).",
+          "value": "developing online courses on consciousness and stress management",
+          "lines": [
+            171,
+            172,
+            173,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my background and my sweetheart's background is in training, corporate training' (line 177).",
+          "value": "background in corporate training",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a frequently refers to 'my sweetheart' (lines 85, 166, 177), who is a musician (trumpet player, composer) from LA, runs big bands (line 43), and is working on the online courses with her (line 177).",
+          "value": "has a partner ('sweetheart'), a musician (trumpet player, composer) from LA, also background in corporate training",
+          "lines": [
+            43,
+            85,
+            166,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her ex-husband who was in the Navy, served on a nuclear sub, a U.S. citizen often mistaken for Mexican or Arab (lines 97-107).",
+          "value": "ex-husband was a Navy nuclear submariner, often racially profiled",
+          "lines": [
+            97,
+            101,
+            103,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a identifies her son as Jamison (line 249), rhythm guitarist for band Visigoths (line 45, 249), has type 1 diabetes (line 51), long dark hair playing a red guitar (line 251).",
+          "value": "son Jamison, rhythm guitarist for Visigoths, has type 1 diabetes, long dark hair",
+          "lines": [
+            45,
+            51,
+            249,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she has a son who is 28, disabled, in constant pain, and his condition makes it hard to get help (lines 161-163). The exact condition is garbled ('a these').",
+          "value": "son, age 28, disabled with chronic pain condition",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I have two sons and 10 step Children' (line 155) and that all are adults, youngest 26 (line 157).",
+          "value": "two biological sons and ten stepchildren, all adults",
+          "lines": [
+            155,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my um son stepson tim his girlfriend just got her masters' (line 129) and later 'my stepson and her name is Dara, they're moving to Ireland' (line 137).",
+          "value": "stepson Tim, in relationship with Dara (master's in microbiology), moving to Ireland",
+          "lines": [
+            129,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I have a stepdaughter and a steps on the live in Ashville' (line 15), likely meaning a stepdaughter and stepson living in Asheville, NC.",
+          "value": "stepdaughter and stepson residing in Asheville, North Carolina",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we've got another daughter who's in London' (line 145), and describes her husband as an engineer designing roller coasters (line 149) and her own degree in theater costuming (line 151) and docent work at a royal museum (line 153).",
+          "value": "daughter living in London, works in theater, married to roller-coaster engineer",
+          "lines": [
+            145,
+            149,
+            151,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we have like two kids in Portland, two kids in the Chico area' (line 169).",
+          "value": "two children in Portland, OR, and two children in Chico, CA area",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her mother had a stroke (line 187), has emphysema and is on oxygen (line 189), and is 81 years old (line 191).",
+          "value": "mother, age 81, with emphysema and recent mild stroke",
+          "lines": [
+            187,
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dad was kind of a jerk growing up and he's having to take care of her' (line 195) and mentions him tying her shoes (line 199).",
+          "value": "father alive, now caregiver to mother",
+          "lines": [
+            195,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a neighbor: 'our neighbor right behind our fence has been the music teacher and director at a catholic school here and he's out of work' (line 81).",
+          "value": "neighbor, a music teacher at Catholic school, currently unemployed",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'A friend of ours just moved to the beach. She lives like a mile from the beach' (line 31).",
+          "value": "friend who recently moved near a beach (likely in Oregon)",
+          "lines": [
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a mentions being 'like 20 minutes from ski areas and canyons and creeks and lakes' (line 27), indicating outdoor recreation.",
+          "value": "enjoys outdoor activities (skiing, canyons, lakes)",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm kind of a classic rock person, but I'm I love my son stuff. Heavy metal, not most heavy metal, it's not screaming there, it's very melodic' (line 231).",
+          "value": "music taste: classic rock and melodic heavy metal",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm mostly just like always reading and studying and learning about consciousness' (line 73).",
+          "value": "avid reader and student of consciousness",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we used to work there [New Orleans] so we traveled there often and would would rent a place for a couple of months at a time' (line 205), and 'if we move to Oregon I want to go all up and down the coast' (line 167).",
+          "value": "frequent traveler, spent extended time in New Orleans, plans coastal trips",
+          "lines": [
+            167,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'Here in Utah, we do mostly male in and have for years' (line 269). 'male in' is a mishearing of 'mail-in', indicating voting by mail.",
+          "value": "votes by mail",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was totally on board for biden or I mean for for Bernie and campaigned and got to do a lot of fun stuff' (line 279).",
+          "value": "campaigned for Bernie Sanders",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself: 'My name is Alexandra' (line 8).",
+          "value": "Alexandra",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in North Carolina (line 10), in a town about a half hour from Fayetteville (line 14), and is staying with her father (line 40). She describes it as eastern and southern NC (line 20).",
+          "value": "town ~30 minutes from Fayetteville, North Carolina (staying with father)",
+          "lines": [
+            10,
+            14,
+            20,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up in New York, Long Island (line 32), describing the shape (line 34).",
+          "value": "Long Island, New York",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went to grad school in New Orleans' (line 204) and mentions living on Adams Street near Loyola (line 212).",
+          "value": "New Orleans, Louisiana (graduate school, lived on Adams St near Loyola)",
+          "lines": [
+            204,
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b's name is Alexandra, and she is referred to with female-coded language; she states she is 28 (line 160).",
+          "value": "female",
+          "lines": [
+            8,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm 28' (line 160).",
+          "value": "28 years old",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is a graduate student working on her thesis (line 40) and pursuing a master's in music therapy (lines 42, 56).",
+          "value": "graduate student (master's in music therapy)",
+          "lines": [
+            40,
+            42,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a clarinetist' (line 44) and later discusses playing classical clarinet and Klezmer music (line 224).",
+          "value": "clarinetist (classical and Klezmer)",
+          "lines": [
+            44,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b plans to vote in the upcoming election (line 268) and discusses political issues, consistent with U.S. citizenship.",
+          "value": "U.S. citizen",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is voting for Biden (line 268), voted for Warren in the primary and Bernie in 2016 (line 282), and expresses concern about reproductive rights (line 267) and student debt (line 290).",
+          "value": "left-leaning / Democrat",
+          "lines": [
+            268,
+            282,
+            265,
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I do have bit of the debt burden' in response to talk of student loan forgiveness (line 290).",
+          "value": "has student loan debt",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I have a job that will, I'll have steady your work' (lines 80-81), which is likely a mishearing of 'I have a job that will give me steady work.'",
+          "value": "has a job providing steady income (likely in music therapy)",
+          "lines": [
+            80,
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions 'I got a scholarship for if I you know played in the band in New Orleans' (line 228).",
+          "value": "received scholarship for playing in band at Loyola/Tulane",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she is staying with her father while working on thesis (line 40) and that her dad is a family practice physician and attending with residents (line 68).",
+          "value": "father, a family practice physician with residents, lives in North Carolina",
+          "lines": [
+            40,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my grandmother lives in Maryland, I want to go see her' (line 184) and 'I really miss her. We're really close. So we talk on the phone every week' (line 186).",
+          "value": "grandmother in Maryland, very close, weekly phone calls",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says if her metal fan friend sees a woman with long curly blonde hair at a NY concert, that's my friend Laura (line 252).",
+          "value": "friend Laura, with long curly blonde hair, attends metal concerts",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I have a friend who lived there [Salt Lake City] for a while' (line 22).",
+          "value": "friend who previously lived in Salt Lake City",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'A family that lives right on the border between texas and Mexico' (line 96). The phrasing does not specify it is her own family, just that she knows them.",
+          "value": "knows a family living on the Texas-Mexico border",
+          "lines": [
+            96
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she is a clarinetist, enjoys classical and Klezmer (lines 44, 224), and played in Loyola and Tulane bands (line 228).",
+          "value": "plays clarinet, classical and Klezmer music, participated in university bands",
+          "lines": [
+            44,
+            224,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she went to grad school in New Orleans and it was a lot of fun, particularly during Halloween (lines 204-220).",
+          "value": "enjoyed living in New Orleans, especially Halloween decorations",
+          "lines": [
+            204,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm friends with a lot of people into metal music' (line 246).",
+          "value": "social circle includes metal music fans",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she plans to vote early in person for Biden (line 268).",
+          "value": "plans to vote in person (early voting) for Biden",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her thesis is on music therapy with refugees and asylum seekers (lines 88-89), indicating a strong interest in that cause.",
+          "value": "passionate about music therapy for refugees/asylum seekers",
+          "lines": [
+            88,
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

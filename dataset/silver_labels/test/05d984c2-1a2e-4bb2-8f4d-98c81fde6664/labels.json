@@ -1,0 +1,298 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live in that massachusetts' (line 13), later clarifies 'I live in the boston area' (line 93), says 'I love inland. It's not like I live by the shore' (line 95), mentions seeing blind people on 'the subway system' (line 215), and says there is a high school for deaf students 'maybe like two miles from my house' in the Boston area (line 229). These together establish they live in the Boston area, Massachusetts, inland.",
+          "value": "Boston area, Massachusetts, inland",
+          "lines": [
+            13,
+            93,
+            95,
+            215,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm from Minnesota originally' (line 117).",
+          "value": "originally from Minnesota",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm from the country' (line 143), describes going home to a place where her dad sells corn and people don't wear masks (line 145), says her dad is a farmer (line 189), and refers to her 'tiny school' (line 235). These collectively indicate a rural/country upbringing.",
+          "value": "rural/country background",
+          "lines": [
+            143,
+            145,
+            189,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I got my flu shot this year. I never get a flu shot like ever' (line 171), and later repeats 'I got one' (line 175).",
+          "value": "received flu shot this year",
+          "lines": [
+            171,
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work in like the finance department for like adult education company' (line 29), and earlier mentions 'we'll have to go into work two days a week' (line 25).",
+          "value": "works in finance department for an adult education company, goes into office two days a week",
+          "lines": [
+            29,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my landlord puts out food' (line 61), implying they rent their home.",
+          "value": "renter (has landlord)",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'it's snowing in Minnesota yesterday where where my parents live' (line 119) and 'where my family lives in Minnesota' (line 137).",
+          "value": "parents live in Minnesota",
+          "lines": [
+            119,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My dad's a farmer but he works with his brother and um and my brother' (line 189), establishing a brother and uncle who farm.",
+          "value": "has a brother and uncle (farmers)",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'Two of my aunts got it [COVID]' (line 153).",
+          "value": "has two aunts",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Some of my friends are librarians too' (line 35).",
+          "value": "has friends who are librarians",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Some of my friends in Atlanta lost power' (line 75).",
+          "value": "has friends in Atlanta, Georgia",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I have a have a cat but he's outside' (line 55) and 'we just got our, during the pandemic. So we use like stray and he'd come in our yard and we just took him in so he still goes outside a lot' (line 57).",
+          "value": "owns a cat (stray adopted during pandemic)",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I go out grocery shopping sometimes target, but sometimes I order online' (line 25).",
+          "value": "shops at Target and online for groceries",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I usually go home for christmas, but I'm not going this year' (line 135) and later 'I don't like christmas' (line 255).",
+          "value": "does not like Christmas",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I usually go home for christmas, but I'm not going this year' (line 135).",
+          "value": "usually visits family in Minnesota for Christmas, but not in 2020",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I volunteered for this organization and they have like a facility somewhere and like Louisiana' (line 99).",
+          "value": "volunteers for an organization with a facility in Louisiana",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I live in Georgia' (line 12), 'we live like right next to like a patch of woods' (line 64), and 'I just moved here like in March' (line 20).",
+          "value": "Georgia, lives right next to a patch of woods",
+          "lines": [
+            12,
+            64,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to live in California' (line 86).",
+          "value": "previously lived in California",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm doing, um, an associates for library sciences' (line 32), 'I've been going back and forth in like community college' (line 36), and 'my community college has it' (line 232).",
+          "value": "community college student, associate's in library science",
+          "lines": [
+            32,
+            36,
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'right now I'm just trying to focus on school' (line 32), indicating they are not employed.",
+          "value": "student, not currently employed",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to work at the store and was right next to a retirement place' (line 160).",
+          "value": "previously worked at a store next to a retirement home",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my husband' in lines 56, 64, 70, and 'My husband's been going out and like still doing his work, luckily you worked out like a farm' (line 180).",
+          "value": "married; husband works on a farm",
+          "lines": [
+            56,
+            64,
+            70,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I know my younger siblings there, we'll just move a little sister now, She just turned 21 and then I have a little brother that's 13' (line 140).",
+          "value": "sister (21 years old) and brother (13 years old)",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I know my dad has to go into the office a lot... he got sick... hoping it's not that because like the rest of my family still lives at home' (line 138) and 'I'm just worried about my parents because I know I think they still have to go into the office' (line 142).",
+          "value": "parents (father recently ill; both work in offices)",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'his grandmother is a little more like antsy about it because she's a little bit older than she is in there seventies now' (line 146) and refers to 'my in laws' (line 146).",
+          "value": "has in-laws, including husband's grandmother in her 70s",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I have two dogs' (line 42), describes the one they are holding as a pit bull who is 'like 10 months lately' (line 44), and says the other is 'a pit bull and basset hound mix' (line 46) with 'really short legs' (line 48) and 'long years' (line 52).",
+          "value": "owns two dogs: pit bull puppy (~10 months) and pit bull/basset hound mix",
+          "lines": [
+            42,
+            44,
+            46,
+            48,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just moved here like in March or so' (line 20) and speaker_a later refers to 'mid March, since you moved' with agreement (line 131).",
+          "value": "moved to Georgia in mid-March",
+          "lines": [
+            20,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've just been like doing school online, like taking care of my dogs and stuff' (line 180) and earlier 'I only go out to do grocery shopping and the like' (line 24).",
+          "value": "attends school online; limits outings to grocery shopping",
+          "lines": [
+            180,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've tried to like learn like A. S. L.' (line 222) and 'I'll probably try it and take like a formal class on it' (line 228).",
+          "value": "learning American Sign Language (ASL); plans to take a formal course",
+          "lines": [
+            222,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

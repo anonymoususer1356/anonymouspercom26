@@ -1,0 +1,532 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'Angel' at the start of the conversation.",
+          "value": "Angel",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her legal first name is Angela and mentions a middle name that ASR captured as 'Don', phonetically close to 'Dawn'. The intended full name is Angela Dawn.",
+          "value": "Angela Dawn",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she lives in Florida, specifically that she is 'up in the panhandle' after previously living in South Florida.",
+          "value": "Florida Panhandle",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She directly states her age as 47.",
+          "value": "47 years old",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Referred to as a mother and wife; name Angel is typically female.",
+          "value": "Female",
+          "lines": [
+            13,
+            73,
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She earned an associate's degree in accounting in Kentucky, graduating summa cum laude with a 4.0 GPA.",
+          "value": "Associate's degree in Accounting",
+          "lines": [
+            51,
+            187,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she works from home and has her own bookkeeping business.",
+          "value": "Self-employed bookkeeper",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her husband multiple times.",
+          "value": "Married",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a 3-year-old and a 16-year-old, both sons.",
+          "value": "Mother of two sons (ages 16 and 3)",
+          "lines": [
+            73,
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she started a keto diet recently and is part of a warrior made club focused on weight loss.",
+          "value": "On keto diet, trying to lose weight",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes the birth of her youngest, where labor failed to progress and she required an emergency C-section.",
+          "value": "Had an emergency C-section",
+          "lines": [
+            121,
+            122,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She indicates that she and her mother both have hypothyroidism, though the phrasing is garbled ('my mom and I go with the habit').",
+          "value": "Hypothyroidism",
+          "lines": [
+            129
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She has her own bookkeeping business and works from home.",
+          "value": "Owns a bookkeeping business",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She supplements her income with online sales and surveys on platforms like Prolific and MTurk.",
+          "value": "Earns supplemental income from online sales and surveys",
+          "lines": [
+            41,
+            43,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her husband is head of a steakhouse and is about to start working at Publix meat department.",
+          "value": "Husband works at steakhouse and soon at Publix",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to her husband who works and worries about bringing COVID home.",
+          "value": "Husband",
+          "lines": [
+            235,
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her ex who is from Kansas; the father of her 16-year-old.",
+          "value": "Ex-partner from Kansas",
+          "lines": [
+            51,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has two sons, ages 16 and 3.",
+          "value": "Two sons (16 and 3)",
+          "lines": [
+            73,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lives with her mother, who is unwell and hard of hearing, and acts as her caregiver.",
+          "value": "Mother (lives with, caregiver)",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She works from home running her own bookkeeping business.",
+          "value": "Works from home",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She subscribes to Audible and listens to self-help books while her child naps.",
+          "value": "Listens to self-help audiobooks",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She takes her son to a park to ride his bike around a track.",
+          "value": "Takes son to park for bike rides",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She enjoys shopping by herself occasionally, though currently only for necessities.",
+          "value": "Enjoys shopping",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She regularly completes online surveys on sites like Prolific and MTurk for extra money.",
+          "value": "Completes online surveys for money",
+          "lines": [
+            43,
+            159,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She follows a keto diet and is a member of a warrior made club where she records videos about her goals.",
+          "value": "Member of keto diet / warrior made club",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She wants to learn Spanish and teach it to her 3-year-old.",
+          "value": "Interested in learning Spanish",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions visiting Reddit and learning the term 'beer money' there.",
+          "value": "Uses Reddit",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She visited New York City once and felt immediately at home.",
+          "value": "Visited New York City once",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is actively potty training her 3-year-old son, describing the challenges.",
+          "value": "Potty training young son",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lives with and cares for her mother, managing her medications and hospital visits.",
+          "value": "Caregiver for mother",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She claims to carry her age well, and speaker_b was surprised to learn she is 47.",
+          "value": "Looks younger than 47",
+          "lines": [
+            65,
+            66
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as Hannah.",
+          "value": "Hannah",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she lives in Kansas and has been there a long time; she currently lives with her siblings.",
+          "value": "Kansas",
+          "lines": [
+            48,
+            54,
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she is turning 21 soon, right before her sister's wedding.",
+          "value": "20 years old (turning 21 soon)",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her name is Hannah and context suggests female.",
+          "value": "Female",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is in college pursuing a BA in English, graduating this May, and plans to pursue an MFA.",
+          "value": "College student (BA in English, graduating May)",
+          "lines": [
+            78,
+            180,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She had a contract that expired in July and is now applying for internships; primarily a student.",
+          "value": "Student, previously contract worker",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lives in Kansas and refers to the United States as 'we' when discussing national policy.",
+          "value": "U.S. resident/citizen",
+          "lines": [
+            48,
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She explicitly states she has 'really bad social anxiety' which caused her to exit an interview and struggle with video recordings.",
+          "value": "Social anxiety disorder",
+          "lines": [
+            30,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "As a student, she says she doesn't have many expenses.",
+          "value": "Low expenses as a student",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her contract job expired in July and she is now seeking internships.",
+          "value": "Previously had contract job (expired July)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She uses Prolific and a couple other beer money sites for extra cash.",
+          "value": "Earns money from online surveys/beer money sites",
+          "lines": [
+            160,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She filed her tax return in April and as of August is still waiting for the refund.",
+          "value": "Filed taxes, awaiting refund",
+          "lines": [
+            266,
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as 'in a fairly privileged position'.",
+          "value": "Self-described as fairly privileged",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions her sister is getting married, lives with her, and is immuno compromised.",
+          "value": "Sister (lives with, immuno compromised, getting married)",
+          "lines": [
+            62,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lives with her brother who has autism and is immuno compromised.",
+          "value": "Brother (lives with, has autism, immuno compromised)",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Father was in the military, family moved a lot; mother had difficult pregnancies and is older than she appears.",
+          "value": "Parents (father military, mother older)",
+          "lines": [
+            54,
+            72,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has an aunt in New York who is a 'true New Yorker' and has been mugged three times.",
+          "value": "Aunt in New York",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Her main hobby is reading; she owns many books and packed them when moving.",
+          "value": "Avid reader, owns many books",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She plays interactive choice-based games online.",
+          "value": "Plays choice-based online games",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is trying to learn a new language using Duolingo (the owl app).",
+          "value": "Learning a new language via Duolingo",
+          "lines": [
+            212,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She attended a large conference in February 2020 that had masks and hand sanitizer.",
+          "value": "Attended a conference in February 2020",
+          "lines": [
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She took a college class trip around the South focused on civil rights shortly before lockdowns.",
+          "value": "Took a civil rights class trip in the South",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In high school she auditioned for a production of The Crucible and her nervous tears were mistaken for acting.",
+          "value": "Participated in high school theater (The Crucible)",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She recently moved out of her apartment due to COVID and now lives with her sister and brother.",
+          "value": "Moved from apartment to live with siblings due to COVID",
+          "lines": [
+            106,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She completes surveys on Prolific and other beer money sites occasionally.",
+          "value": "Uses online survey/beer money sites",
+          "lines": [
+            160,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a commented that she looks 'pretty pretty young', consistent with her actual age of 20.",
+          "value": "Appears young",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

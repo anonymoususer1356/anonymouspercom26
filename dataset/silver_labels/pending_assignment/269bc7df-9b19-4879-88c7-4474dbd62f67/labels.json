@@ -1,0 +1,355 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 5 speaker_a says 'I'm Krista' (ASR error: 'I'm Krista have a nice timing chip pennsylvania'), and later in line 238 speaker_b asks 'what was your name again, Krista?', to which speaker_a replies 'South Krista' (likely 'Yeah, Krista') in line 239, confirming the name Krista.",
+          "value": "Krista",
+          "lines": [
+            5,
+            238,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is from Pennsylvania (line 5), speaker_b confirms East Coast (line 6), speaker_a says she has lived there her whole life (line 9), specifies living in the Harrisburg area, the capital of the state (line 83), and mentions being on the outskirts of the city (line 111).",
+          "value": "Harrisburg, Pennsylvania",
+          "lines": [
+            5,
+            6,
+            9,
+            83,
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions 'my husband' in lines 19 and 97, and 'my in laws' in line 97, indicating she is married.",
+          "value": "married",
+          "lines": [
+            19,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my kids' (line 33), 'my daughter' (line 35), 'my son' (lines 59, 127, 155), indicating she is a mother.",
+          "value": "mother",
+          "lines": [
+            33,
+            35,
+            59,
+            127,
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work for the government' and 'I work full time' in line 127, and refers to 'my employer' sending out assistance program information in line 233.",
+          "value": "works full-time for the government",
+          "lines": [
+            127,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I work part time on the weekends' (line 127), 'I work part time in retail like on the weekends' (line 163), and 'I work at a Children's retailer, part time Children's clothing' (line 187).",
+          "value": "works part-time in retail (children's clothing)",
+          "lines": [
+            127,
+            163,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses comparing what she pays on her house to her brother's (lines 93, 95), implying she pays property taxes and thus owns a home; she also lives on the outskirts of the city (line 111).",
+          "value": "owns a home",
+          "lines": [
+            93,
+            95,
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my husband' in line 19 and 'my husband's side' in line 97.",
+          "value": "husband",
+          "lines": [
+            19,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my daughter' in line 35.",
+          "value": "daughter",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my son' in lines 59, 127, and 155.",
+          "value": "son",
+          "lines": [
+            59,
+            127,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about 'my brother' and his living situation in lines 33, 35, 93.",
+          "value": "brother",
+          "lines": [
+            33,
+            35,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'sister in law' along with her brother in lines 33 and 35.",
+          "value": "sister-in-law",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom's not retired yet' in line 97.",
+          "value": "mother",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my dad is but he' (retired) in line 97, and earlier 'my dad's a fisherman' in line 57.",
+          "value": "father",
+          "lines": [
+            57,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her grandfather lived in Palm Springs (line 71), moved to St. George Utah (lines 73, 75), and was originally from Pittsburgh (line 79).",
+          "value": "grandfather",
+          "lines": [
+            71,
+            73,
+            75,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my uncle's a dentist' in line 175 and 'my uncle's over 65' in line 181.",
+          "value": "uncle (dentist)",
+          "lines": [
+            175,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my aunt who helps him run the practice' in line 181.",
+          "value": "aunt (dental practice)",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my in laws' in line 97.",
+          "value": "in-laws",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 13 speaker_a says 'my uncle, my maternal and her husband is from up in that area,' which likely means a maternal aunt and her husband (uncle). The phrasing is garbled but suggests additional relatives.",
+          "value": "maternal aunt and uncle",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm not a snow fan' (line 25), 'I live in the wrong climate' (line 27), and 'I like the warm weather' (line 63).",
+          "value": "dislikes snow, prefers warm weather",
+          "lines": [
+            25,
+            27,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts 'my husband and I went up there away on a weekend' referring to a trip to the Poconos in line 19.",
+          "value": "took a weekend trip to the Poconos with husband",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains she pulled her kids out of the school district and enrolled them in a cyber charter school in lines 125 and 127.",
+          "value": "enrolled children in cyber charter school",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I was actually listening to something on the radio on the way home from working last night' in line 225.",
+          "value": "listens to radio",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself in line 4 with 'my name is Kimberly'.",
+          "value": "Kimberly",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is 'on the west coast in Arizona' (line 6), specifies 'I'm in Queen Creek Arizona' (line 68), and refers to 'in Arizona' (line 70).",
+          "value": "Queen Creek, Arizona",
+          "lines": [
+            6,
+            68,
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I have um three kids at home, I have a total of four' and describes their ages (line 124), and earlier says 'I was telling my kids' (line 70).",
+          "value": "mother of four children",
+          "lines": [
+            70,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I used to work for Northern Trust' in line 106.",
+          "value": "formerly worked at Northern Trust",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her children in lines 70 and 124, including that she has four, one son aged 20, and others in elementary and high school.",
+          "value": "children (four, oldest son 20)",
+          "lines": [
+            70,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my grandmother and my aunt lived in the Poconos' in line 10.",
+          "value": "grandmother",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my grandmother and my aunt lived in the Poconos' in line 10.",
+          "value": "aunt",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have family in texas' in line 150.",
+          "value": "family in Texas",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b expresses difficulty considering living somewhere cold (line 30), and mentions still wearing shorts and flip flops in fall in Arizona (line 70).",
+          "value": "dislikes cold weather, wears summer clothes in fall",
+          "lines": [
+            30,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been to new york, I've been to New Jersey um for work ... for leisure' in line 28.",
+          "value": "visited New York and New Jersey for work and leisure",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm such a brick and mortar, I'm so pro brick and mortar' in line 184.",
+          "value": "prefers brick and mortar stores",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're kind of looking at relocating as well' in line 86.",
+          "value": "considering relocating to another southern area",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

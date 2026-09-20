@@ -1,0 +1,382 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live in the south' (line 23), confirms Georgia (line 33), and states 'I live in north Georgia. I just recently moved out like two or 3 weeks ago' (line 35). This establishes current residence in north Georgia.",
+          "value": "north Georgia (recently moved there)",
+          "lines": [
+            23,
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'where I used to live, the we have the largest college nine population, but like acreage in the world. It's called a very college' (lines 337, 339). 'Very college' is a phonetic rendering of Berry College (Mount Berry, Georgia), known for having the largest contiguous campus. Thus speaker_a previously lived near Berry College.",
+          "value": "near Berry College (Mount Berry, Georgia)",
+          "lines": [
+            337,
+            339
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In the opening monologue (line 1), speaker_a says 'The only black in front of the Ahab was not able to cash this check' and 'young african american wants that', suggesting self-identification as Black/African American. The monologue is disjointed but the phrases imply the speaker's race.",
+          "value": "African American / Black",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'I just came back from like a deployment' (line 59), 'I was getting ready to deploy' (line 61), 'I went to africa' (line 65), 'since we're in the military' (line 71), and 'I got my paperwork saying hey you're done' (line 167). These establish military service with a recent deployment to Africa and current separation.",
+          "value": "military veteran (recently separated, deployed to Africa)",
+          "lines": [
+            59,
+            61,
+            65,
+            71,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 105-107: 'school starts in january for me, I want I want to be like an E. M T. I want to be like a paramedic.' This shows speaker_a plans to train as a paramedic/EMT starting in January.",
+          "value": "paramedic/EMT student (starting school in January)",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 111: 'this week, like this thursday I have LASIK so I want to do these bad boys anymore' directly states LASIK surgery is scheduled for Thursday.",
+          "value": "scheduled LASIK eye surgery this week (Thursday)",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "LASIK corrects vision; 'these bad boys' likely refers to glasses/contacts, implying current vision impairment.",
+          "value": "vision impairment (wears glasses or contacts before LASIK)",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 1 includes 'I have plenty of money in the bank' while recounting a check-cashing issue, suggesting financial stability.",
+          "value": "plenty of money in the bank (self-reported)",
+          "lines": [
+            1
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 121: 'my mom works at the hospital, she's like she's not a nurse, she's a custodian I guess and she has to be extra precautious because she cleans up all the all the rooms.' So mother is alive and works as a hospital custodian.",
+          "value": "mother works as a hospital custodian",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 173: 'in the past two years my grandpa and my grandma passed away.' clearly states both grandparents died in the last two years.",
+          "value": "both grandparents deceased in the past two years",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 173, 175, 191: speaker_a plans to visit family in Guatemala; relatives paid for the ticket. This establishes family in Guatemala.",
+          "value": "has family in Guatemala",
+          "lines": [
+            173,
+            175,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 11-13: 'Just let me put this cat down.' 'It just keeps jumping on my lab ... my cat just won't leave me alone.' Shows speaker_a owns a cat.",
+          "value": "has a pet cat",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 170-171: 'after two roommates they they work, one of them works like I got at home another one a factory which works very long hours.' Indicates speaker_a shares housing with two roommates.",
+          "value": "lives with two roommates (one work-from-home, one factory worker)",
+          "lines": [
+            170,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 181-183: 'I only knew like two aunts and then you know like last week my aunt told me like yeah we have you have three like like arms and uncle was three more.' Reports recently learning of additional aunts and uncles.",
+          "value": "multiple aunts and uncles (recently learned of more relatives)",
+          "lines": [
+            181,
+            183
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Lines 279-283: 'one of my friends, has he majored and Biology ... moved back back to our hometown ... covid it was so hard for him to find a job.' Establishes a friend with a biology degree.",
+          "value": "friend who majored in biology (struggling to find a job)",
+          "lines": [
+            279,
+            281,
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 59, 65, 71: speaker_a was deployed to Africa as part of military service, indicating a military lifestyle and overseas deployment.",
+          "value": "deployed to Africa with military",
+          "lines": [
+            59,
+            65,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 167: 'I got my paperwork saying hey you're done' signals separation from the military.",
+          "value": "separating from military service",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 105-107: speaker_a plans to start paramedic/EMT school in January.",
+          "value": "planning to start paramedic school in January",
+          "lines": [
+            105,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 173, 193: speaker_a is arranging a trip to Guatemala in December.",
+          "value": "planning trip to Guatemala in December",
+          "lines": [
+            173,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 11-13 show speaker_a has a cat, indicating pet ownership as part of daily life.",
+          "value": "pet owner (cat)",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 170-171 show speaker_a lives with roommates, indicating shared living arrangement.",
+          "value": "lives with roommates",
+          "lines": [
+            170,
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Line 111: 'I want to do these bad boys anymore' implies speaker_a currently wears glasses or contacts, as LASIK is meant to replace them.",
+          "value": "wears glasses or contacts (pre-LASIK)",
+          "lines": [
+            111
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I am in the midwest' (line 40), 'considered the southern state of the midwest' (line 42), confirms Missouri (line 50), and states 'I just moved here' (line 48). This establishes residence in Missouri.",
+          "value": "Missouri (recently moved there)",
+          "lines": [
+            40,
+            42,
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I looked for a house and bought a house instead' (line 160) after moving to Missouri, implying homeownership in the same state.",
+          "value": "homeowner in Missouri",
+          "lines": [
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 98: 'I love at the university where I work, You know, I'm an immunology department' establishes speaker_b works at a university (in an immunology department). Given residence in Missouri, the university is likely there.",
+          "value": "works at a university (in Missouri)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 52-54: 'I finished my PhD a few years ago. I'm a scientist.' So speaker_b holds a PhD and works as a scientist.",
+          "value": "scientist with a PhD",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 56: 'like almost all the other biologists this year I study covid now' and line 98 immunology department. So speaker_b is a biologist/immunologist studying covid.",
+          "value": "biologist / immunology researcher studying covid",
+          "lines": [
+            56,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 160: 'I looked for a house and bought a house instead' indicates speaker_b purchased a home, a major asset.",
+          "value": "purchased a house (homeowner)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is a scientist at a university (lines 54, 98), implying stable employment and income.",
+          "value": "employed as a scientist at a university",
+          "lines": [
+            54,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 156: 'my boyfriend had like set everything, gotten all the Airbnb s' – speaker_b has a romantic partner called a boyfriend.",
+          "value": "has a boyfriend",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 176: 'I have a twin sister and she has a set of twins herself' – speaker_b has a twin sister who herself has twin children.",
+          "value": "has a twin sister (who has twins)",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 124-128: 'My sister is a nurse... she goes and and deals directly with the patients every day' after her ward converted to a covid ward. So speaker_b's sister is a nurse working with covid patients.",
+          "value": "sister is a nurse in a covid ward",
+          "lines": [
+            124,
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 176: 'they are old in high risk groups' refers to speaker_b's parents, indicating they are elderly and considered high-risk for covid.",
+          "value": "parents are elderly and high-risk for covid",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 176-178: 'they are in south Carolina' and 'every year for thanksgiving, going on, we gotta beach house' – speaker_b's family (sister/parents) is in South Carolina and they traditionally gather for Thanksgiving at a beach house there.",
+          "value": "family in South Carolina; annual Thanksgiving gathering at a beach house",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 206-210: 'I've traveled to Costa rica' and describes the trip, so speaker_b has been to Costa Rica.",
+          "value": "traveled to Costa Rica",
+          "lines": [
+            206,
+            208,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 276-277: 'I came across a thank god giant like seven ft anaconda in Australia' indicates speaker_b traveled to Australia.",
+          "value": "traveled to Australia",
+          "lines": [
+            276,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 152-158: 'I had Planned to Michigan for four July... had to cancel everything' shows a planned trip to Michigan that was cancelled due to covid.",
+          "value": "planned a trip to Michigan (cancelled due to covid)",
+          "lines": [
+            152,
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 261-276 describe speaker_b walking alone in woods at night, feeling scared, and encountering a person with a gun and a large snake, indicating the speaker engages in outdoor nature activities.",
+          "value": "enjoys outdoor nature activities (hiking, walking in woods)",
+          "lines": [
+            261,
+            268,
+            270,
+            276
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

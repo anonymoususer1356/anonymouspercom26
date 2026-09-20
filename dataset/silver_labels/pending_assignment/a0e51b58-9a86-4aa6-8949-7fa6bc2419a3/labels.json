@@ -1,0 +1,435 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b refers to speaker_a as 'Isabelle' (line 144) and 'Isabel' (line 146, 462), and speaker_a does not correct it, confirming her name.",
+          "value": "Isabel",
+          "lines": [
+            144,
+            146,
+            462
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my snapped up is both who 1015' (line 459); 'snapped up' is a mishearing of 'Snapchat'. The intended username is likely 'bothwho1015' or similar; recorded verbatim due to ASR uncertainty.",
+          "value": "both who 1015",
+          "lines": [
+            459
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm like league city' (line 47) and Clear Creek High School is in League City (line 317).",
+          "value": "League City, Texas",
+          "lines": [
+            47,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'right now I'm in Philly' (line 41) and confirms she goes to school there (line 93).",
+          "value": "Philadelphia, Pennsylvania",
+          "lines": [
+            41,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she is coming back from winter break (line 187) and will return to Philly after break (line 191); she asks speaker_b if he is in Houston (line 85), implying both are in the Houston area during the conversation.",
+          "value": "Houston area during winter break",
+          "lines": [
+            85,
+            187,
+            191
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a confirms 'I'm in college' (line 31).",
+          "value": "College student",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm a sophomore' (line 33).",
+          "value": "Sophomore",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am chinese' (line 209, with garbled addition); speaker_b responds 'me too', confirming Chinese ethnicity.",
+          "value": "Chinese",
+          "lines": [
+            209,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am studying design, art' (line 155) and mentions switching from pre-med to design (line 408).",
+          "value": "Design/Art major",
+          "lines": [
+            155,
+            408
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she goes to '10' (mishearing of 'Penn') (line 367), and refers to 'Penn' and 'penn students' (lines 373, 421).",
+          "value": "University of Pennsylvania",
+          "lines": [
+            367,
+            373,
+            421
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Oh no I'm gay' (line 431) in response to a joke about hooking up with girls.",
+          "value": "Gay",
+          "lines": [
+            431
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Clear Creek High School' (line 317) and identifies it with League City.",
+          "value": "Clear Creek High School (League City, TX)",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a describes busting her knee twice while skateboarding, causing bruising for two weeks (lines 259-263).",
+          "value": "Recent minor knee injury from skateboarding",
+          "lines": [
+            259,
+            260,
+            263
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I had a lease and I was like I kind of want to stay with my friends' (line 87), indicating a rental agreement in Philadelphia.",
+          "value": "Has a lease in Philadelphia",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a describes a friend at UTD who is a sophomore studying pre-med, spells name as 'C. Y. A. S. E. I. N.' or 'Sean Dini' (lines 107-113); speaker_b later recognizes the person via email (lines 124-129).",
+          "value": "Friend at UTD named C.Y./Sean (pre-med sophomore)",
+          "lines": [
+            107,
+            113,
+            119,
+            124,
+            129
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she had a lease and wanted to stay with her friends (line 87), implying she shares an apartment with friends in Philadelphia.",
+          "value": "Lives with friends in Philadelphia",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she used to swim competitively for a club in high school (line 61), swam at Peak for meets (line 79), and specialized in butterfly (line 231).",
+          "value": "Former competitive swimmer (butterfly stroke)",
+          "lines": [
+            61,
+            79,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I used to figure skate when I was a kid' (line 253).",
+          "value": "Figure skated as a child",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've taken up skateboarding' (line 255) and describes going to a skate park (line 259).",
+          "value": "Currently skateboards",
+          "lines": [
+            255,
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'this year I'm taking computer animation… I'm using Maya' (lines 175-177).",
+          "value": "Taking computer animation class (uses Maya software)",
+          "lines": [
+            175,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes attending parties at Penn on weekends but finds them repetitive (lines 387, 389).",
+          "value": "Attends college parties",
+          "lines": [
+            387,
+            389
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a asks about Instagram (line 441) and gives her Snapchat (line 459).",
+          "value": "Uses Instagram and Snapchat",
+          "lines": [
+            441,
+            459
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a dog to see' when discussing returning home for winter break (line 189).",
+          "value": "Has a pet dog",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b tells speaker_a 'you look pretty young in college' (line 30).",
+          "value": "Looks young for a college student",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I'm William' (line 144) and speaker_a responds 'William. Nice.' (line 145).",
+          "value": "William",
+          "lines": [
+            144,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my last name is H. E.' (line 448).",
+          "value": "He",
+          "lines": [
+            448
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his Instagram is 'will? T he?' (line 446) and explains his last name is H. E., indicating the intended handle is 'will_he' or similar.",
+          "value": "will_he",
+          "lines": [
+            446,
+            448
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says his city is 'Pure land' (line 50), a mishearing of Pearland; later references Pearland again (line 330).",
+          "value": "Pearland, Texas",
+          "lines": [
+            50,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is staying at home with parents because of online school (line 86) and confirms he is in the Houston area (line 85).",
+          "value": "Currently living in Pearland, TX with parents",
+          "lines": [
+            85,
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b confirms 'I'm in college as well' (line 32).",
+          "value": "College student",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'me too upward' (line 34) meaning he is also a sophomore.",
+          "value": "Sophomore",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'me too' when speaker_a says Chinese (line 210) and later 'I am pretty dark for a chinese person' (line 214).",
+          "value": "Chinese",
+          "lines": [
+            210,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm doing engineering. Electrical engineering' (line 152).",
+          "value": "Electrical engineering major",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I go to school at University of texas at Dallas' (line 98).",
+          "value": "University of Texas at Dallas",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he lives at home with parents (line 86), implying financial dependence on them.",
+          "value": "Lives with parents (financially dependent)",
+          "lines": [
+            86
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'My parents were just like okay we're just going to stay at home' (line 86), indicating he lives with his parents.",
+          "value": "Lives with parents",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm in chinese student association at my school' (line 344).",
+          "value": "Member of Chinese Student Association at UTD",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he swims 'just for fun' and 'never competitive' (lines 222, 244).",
+          "value": "Recreational swimmer",
+          "lines": [
+            222,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he tried out for the Peak swim team and didn't make it (lines 76, 246-248).",
+          "value": "Tried out for competitive swim team (Peak) but was not selected",
+          "lines": [
+            76,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I do play tennis, you play football once in a while with the friends' (line 252).",
+          "value": "Plays tennis and football recreationally",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not a big party person' (line 376) and 'UTD school spirit is dead' (line 380).",
+          "value": "Not a party person; perceives low school spirit at UTD",
+          "lines": [
+            376,
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'in high school, I took animation and audio video production' (line 170).",
+          "value": "Took animation/AV production class in high school",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'recently installed a blender' (line 180).",
+          "value": "Recently installed Blender (3D software)",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b gives his Instagram (line 446) and says he goes on Snapchat more (line 456).",
+          "value": "Uses Instagram and Snapchat (prefers Snapchat)",
+          "lines": [
+            446,
+            456
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I am pretty dark for a chinese person… I love swimming outside… darker for chinese' (lines 214-215), describing his own skin tone.",
+          "value": "Darker skin tone for a Chinese person",
+          "lines": [
+            214,
+            215
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

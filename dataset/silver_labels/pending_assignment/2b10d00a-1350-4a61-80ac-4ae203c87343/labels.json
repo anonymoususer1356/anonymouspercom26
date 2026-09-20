@@ -1,0 +1,322 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly states 'I'm in New York'.",
+          "value": "New York",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'if I'm already 52'.",
+          "value": "52 years old",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is a mother, as evidenced by references to her daughter; speaker_b also calls her a mother, indicating female gender.",
+          "value": "female",
+          "lines": [
+            49,
+            95,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I finished college'.",
+          "value": "college graduate",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions God multiple times, indicating religious belief.",
+          "value": "believes in God",
+          "lines": [
+            135,
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker states she has 'a couple of underlying health issues' and was recently diagnosed with type 2 diabetes, taking one pill a day for it.",
+          "value": "type 2 diabetes and other underlying health issues",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states she has been working from home for 6-7 months.",
+          "value": "works from home",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'definitely in the next 78 years I want to retire' (meaning 7-8 years).",
+          "value": "plans to retire in 7-8 years",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker uses Prolific for studies and mentions the extra income.",
+          "value": "uses Prolific for supplemental income",
+          "lines": [
+            57,
+            61,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker repeatedly mentions having a daughter.",
+          "value": "mother of a daughter",
+          "lines": [
+            49,
+            95,
+            97,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her daughter is 20 years old.",
+          "value": "daughter is 20 years old",
+          "lines": [
+            95,
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her daughter is in college, taking classes online.",
+          "value": "daughter is in college",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her father had diabetes.",
+          "value": "father had diabetes",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker exercises 3-4 times a week and eats well.",
+          "value": "exercises regularly and maintains a healthy diet",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her area as being in Phase 5 of COVID-19 reopening, with indoor dining and restricted theaters.",
+          "value": "lives under Phase 5 COVID-19 restrictions",
+          "lines": [
+            35,
+            37
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm located in Michigan'.",
+          "value": "Michigan",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm only 25'; speaker_a later references his age as 25.",
+          "value": "25 years old",
+          "lines": [
+            92,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I didn't go to college', indicating his highest education is high school.",
+          "value": "high school education, no college",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says he supports himself, his mother, and his sister.",
+          "value": "supports mother and sister financially",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he works from home.",
+          "value": "works from home",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I don't have a whole lot of breathing room here', indicating financial constraints.",
+          "value": "limited budget",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions using Prolific, Quick Thoughts, Swagbucks, and user interviews for extra income.",
+          "value": "uses multiple online survey platforms for extra income",
+          "lines": [
+            56,
+            76,
+            78,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states he made about $1500 in a year from the Quick Thoughts app.",
+          "value": "earned ~$1500 from Quick Thoughts in one year",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says he is disciplined with money, implying frugality (line is garbled but meaning is clear).",
+          "value": "disciplined with money, frugal",
+          "lines": [
+            202
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions his mother multiple times and says he supports her.",
+          "value": "mother",
+          "lines": [
+            98,
+            110,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions his sister.",
+          "value": "sister",
+          "lines": [
+            32,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his father died when he was 21.",
+          "value": "father deceased",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has a buddy who lives in Long Island.",
+          "value": "friend in Long Island",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he has two cats.",
+          "value": "two cats",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says he is under a strict stay-at-home order and only goes out for groceries.",
+          "value": "stays at home except for groceries",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he wears a mask and practices social distancing.",
+          "value": "wears mask and social distances",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes himself as introverted but says he grew out of it; speaker_a confirms he seems approachable.",
+          "value": "introverted personality, became more outgoing",
+          "lines": [
+            122,
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker admits to using drugs (weed and 'basic stuff') during his teenage years.",
+          "value": "used drugs in teenage years",
+          "lines": [
+            164
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

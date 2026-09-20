@@ -1,0 +1,432 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as 'I am Riley' and later confirms her name when asked.",
+          "value": "Riley",
+          "lines": [
+            17,
+            453
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in Chicago' and specifies 'South side'.",
+          "value": "Chicago, South side",
+          "lines": [
+            21,
+            23,
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b remarks 'you were obviously much younger than I am', and speaker_a refers to student loans as a burden for 'people of my age', placing her in a younger generation (likely millennial/Gen Z).",
+          "value": "younger adult (millennial/Gen Z)",
+          "lines": [
+            132,
+            358,
+            381
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she is doing grad school while working.",
+          "value": "graduate student",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I'm in public health' and clarifies she works in disability health, helping people access resources.",
+          "value": "public health worker, specializing in disability health",
+          "lines": [
+            55,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm doing grad school too as I'm working', indicating she is a working student.",
+          "value": "graduate student while working",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'I'm Steve' and later states 'my name is steve. I usually go by brashear, which is my name', giving his full name as Steve Brashear.",
+          "value": "Steve Brashear",
+          "lines": [
+            20,
+            438
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions using 'fuzzy steve' on stage and says 'That's another name I've been using on stage'.",
+          "value": "fuzzy steve",
+          "lines": [
+            446,
+            448,
+            450
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says 'I'm in a town 20 miles north of Cincinnati' and later gives his workplace as 'First United Methodist Church in Hamilton Ohio', establishing Hamilton as his home. Also describes his area as low-income, high-crime.",
+          "value": "Hamilton, Ohio (town 20 miles north of Cincinnati)",
+          "lines": [
+            20,
+            22,
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly describes his region as 'low income, high crime neighborhood'.",
+          "value": "low-income, high-crime neighborhood",
+          "lines": [
+            200
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'I was born in 61'.",
+          "value": "born in 1961",
+          "lines": [
+            370
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to himself as 'guy' and 'six ft two guy'.",
+          "value": "male",
+          "lines": [
+            214,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Declares 'I'm diabetic' and later says he can't drink because of diabetes.",
+          "value": "person with diabetes",
+          "lines": [
+            38,
+            446
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is on 'total permanent disability' and 'Social Security disability'.",
+          "value": "person with a disability",
+          "lines": [
+            72,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my knowledge is spanish... learned mostly by living in L.A. for 10 years'.",
+          "value": "Spanish speaker (learned as second language)",
+          "lines": [
+            414
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Tells the family origin of the Brashear name, tracing it to two French Huguenot brothers in 1632.",
+          "value": "French Huguenot ancestry",
+          "lines": [
+            442,
+            444
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'my degrees in music theory and composition'.",
+          "value": "college graduate (music theory and composition degree)",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my father was a blue collar' and 'I came out of the blue collar world'.",
+          "value": "from a blue-collar family",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States twice that he is diabetic and notes it prevents him from drinking alcohol.",
+          "value": "diabetic (type unspecified)",
+          "lines": [
+            38,
+            446
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains his doctors asked if he was hit by a train, but the cause was 'repetitive stress injuries over a lifetime of hard labor'.",
+          "value": "repetitive stress injuries causing permanent disability",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he spent 'about a year and a half total in the hospital' from 2012 to 2013.",
+          "value": "hospitalized for ~1.5 years (2012-2013)",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'covid weight gain', calls himself 'fat', and says his sweats don't stay up.",
+          "value": "weight gain during covid-19 pandemic (self-described as fat)",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Describes receiving Social Security disability (SSDI) and Supplemental Security Income (SSI).",
+          "value": "recipient of Social Security Disability Insurance (SSDI) and Supplemental Security Income (SSI)",
+          "lines": [
+            76,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my lawyer' who handled his disability claim.",
+          "value": "represented by lawyer for disability claim",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States 'my primary job is I'm the Contemporary Music Director at First United Methodist Church in Hamilton Ohio' and also teaches praise band to Hispanic youth.",
+          "value": "Contemporary Music Director at First United Methodist Church (Hamilton, OH); also teaches praise band to Hispanic youth",
+          "lines": [
+            294,
+            318,
+            416
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that Social Security disability pays about half the poverty level, leaving him barely able to survive.",
+          "value": "low income; dependent on government disability benefits (SSDI/SSI)",
+          "lines": [
+            76,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've got about $900 in quarters over here', previously rolled $1450 in change, and often provides change to a local market.",
+          "value": "holds cash savings in coins (~$900 in quarters)",
+          "lines": [
+            150,
+            154,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Details his former career as a staff songwriter in L.A. during the 80s/90s, composing incidental music for corporate videos and receiving a weekly paycheck.",
+          "value": "former staff songwriter/composer in Los Angeles (1980s-90s)",
+          "lines": [
+            250,
+            254,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes working day jobs moving furniture up stairs and working loading docks because it paid well and kept him in shape.",
+          "value": "former manual laborer (furniture mover, loading docks)",
+          "lines": [
+            208,
+            210,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am spending this year recording an album' and works from a home office.",
+          "value": "currently recording an album (at home studio)",
+          "lines": [
+            246,
+            428
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions 'my mother, my father owned a gas station', describes father as blue-collar, and says 'we were a family of gas station owners'.",
+          "value": "parents (father owned a gas station, blue-collar family)",
+          "lines": [
+            166,
+            168,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to 'my ex' when making a comparison about speaker_a's age.",
+          "value": "ex-partner (romantic)",
+          "lines": [
+            132
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes a 'music partner' who is a female in her mid-20s; they performed as a duo for over five years, and she is also a friend who helped roll coins.",
+          "value": "music partner/friend (female, mid-20s)",
+          "lines": [
+            134,
+            136,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Identifies as a musician, performer, and entertainer; uses stage names and performs on stage.",
+          "value": "performing musician/entertainer (stage performer)",
+          "lines": [
+            134,
+            228,
+            230,
+            448
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he carries American dollars and prefers cash, coming from a 'heavily cash based society'.",
+          "value": "prefers cash over cards; carries physical dollars",
+          "lines": [
+            130,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I can't drink anymore because I'm diabetic'.",
+          "value": "does not drink alcohol (due to diabetes)",
+          "lines": [
+            446
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Argues against gyms and states 'I'm a firm believer in exercise through work'.",
+          "value": "exercises through manual work, not gym",
+          "lines": [
+            218,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he keeps loose change in coffee cans.",
+          "value": "collects loose change in coffee cans",
+          "lines": [
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes going to the local market at night and supplying rolls of coins when they run out.",
+          "value": "supplies rolled coins to local market",
+          "lines": [
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains he set up a home office because the church wouldn't provide one with internet.",
+          "value": "works from a home office",
+          "lines": [
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Admits 'I also tend to be scattered shot when it comes to thought processes'.",
+          "value": "self-described scatterbrained",
+          "lines": [
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I sing in the choir too' at his church.",
+          "value": "sings in church choir",
+          "lines": [
+            340
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "States 'I was a six ft two guy'.",
+          "value": "6'2\" tall",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attributes covid weight gain, calls himself fat, and says he wears sweats because pants don't stay up.",
+          "value": "overweight (covid weight gain); typically wears sweats",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

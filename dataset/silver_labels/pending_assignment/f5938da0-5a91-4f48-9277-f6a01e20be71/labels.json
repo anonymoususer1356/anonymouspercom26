@@ -1,0 +1,362 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is Jake' (line 5) and speaker_b addresses him as 'jake' (line 162). The ASR 'David' at line 9 is likely a recognition error for 'Jake'.",
+          "value": "Jake",
+          "lines": [
+            5,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in Illinois... I go to school here in Illinois state... I'm on campus' (line 15) and describes Illinois State University's location between Chicago and St. Louis (line 41).",
+          "value": "Illinois State University, Illinois",
+          "lines": [
+            15,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I grew up in the suburbs' (line 45) and 'The way I grew up kind of near there' (line 43) in the context of discussing the Chicago area.",
+          "value": "Chicago suburbs (grew up)",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I go to school here' (line 15) and 'I'm a junior' (line 19).",
+          "value": "college student",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm a cybersecurity major' (line 27).",
+          "value": "cybersecurity major",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has 'enough credits to have a minor in criminal justice' (line 145).",
+          "value": "minor in criminal justice",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a junior' (line 19).",
+          "value": "junior class standing",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'initially out of high school I went to texas tech University' (line 139).",
+          "value": "attended Texas Tech University",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I went to a community college for about a year and a half' (line 139).",
+          "value": "attended community college",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a confirms he got paid for the survey (line 10-11) and mentions using Prolific and Swagbucks for paid surveys (lines 85, 91).",
+          "value": "earns money from paid online surveys",
+          "lines": [
+            10,
+            85,
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my girlfriend' multiple times (lines 29, 63).",
+          "value": "has a girlfriend",
+          "lines": [
+            29,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'My parents are separated' (line 59).",
+          "value": "parents are separated",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a sister as well who lives in Chicago' (line 67).",
+          "value": "has a sister who lives in Chicago",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my roommate' (line 29).",
+          "value": "has a roommate",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a indicates his father lives in Chicago, mentioning his dad's house and plans to visit there (lines 67, 69).",
+          "value": "father lives in Chicago",
+          "lines": [
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'me and her and her boyfriend' referring to his mother (line 59).",
+          "value": "mother has a boyfriend",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm on campus' (line 15).",
+          "value": "lives on campus",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes online classes and mentions Zoom (lines 15, 17, 95).",
+          "value": "takes online classes via Zoom",
+          "lines": [
+            15,
+            17,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was driving around' (line 79).",
+          "value": "drives a car",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've been applying to internships' (line 129).",
+          "value": "applying for internships",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses plans to visit family for Thanksgiving (line 59).",
+          "value": "visits family for holidays",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I looked at my phone, I don't know if you have like an iphone, but like the way that they updated it...' implying he owns an iPhone (line 51).",
+          "value": "owns an iPhone",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as 'I'm daniel' (lines 6, 14). The ASR 'daniel' is a phonetic rendering of 'Daniel'.",
+          "value": "Daniel",
+          "lines": [
+            6,
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in long island new york' (line 14) and 'here in new york' (line 80).",
+          "value": "Long Island, New York",
+          "lines": [
+            14,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to Syracuse' (line 46).",
+          "value": "attended Syracuse University",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'married with a child' (line 14).",
+          "value": "married",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'with a child' (line 14).",
+          "value": "has a child",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm actually a business analyst' (line 34) and 'in the finance sector' (line 36).",
+          "value": "business analyst in finance sector",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he attended Syracuse University (line 46) and mentions 'I remember I was in college' (line 72).",
+          "value": "former college student",
+          "lines": [
+            46,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states his job as a business analyst (line 34) and in finance (line 36).",
+          "value": "employed as business analyst",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks about payment (line 10), says he did a survey last week (line 12), and mentions looking for other paid surveys (line 82).",
+          "value": "participates in paid surveys",
+          "lines": [
+            10,
+            12,
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'married' (line 14) and refers to 'my wife' (line 114).",
+          "value": "married (has wife)",
+          "lines": [
+            14,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'with a child' (line 14).",
+          "value": "has a child",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a good buddy of mine in Milwaukee' (line 46).",
+          "value": "has a friend in Milwaukee",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We have family in Chicago' (line 46).",
+          "value": "has family in Chicago",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my boss' (line 114).",
+          "value": "has a boss",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b implies he works remotely by describing how his boss does not require showing camera on video calls (line 114).",
+          "value": "works remotely",
+          "lines": [
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I love it, it's my favorite holiday' referring to Thanksgiving (line 66).",
+          "value": "favorite holiday is Thanksgiving",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

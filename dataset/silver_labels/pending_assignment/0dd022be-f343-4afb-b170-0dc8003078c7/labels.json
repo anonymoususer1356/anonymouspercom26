@@ -1,0 +1,563 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces herself as 'Alexa' (line 176): 'I'm Alexa like the amazon thing'. Speaker_b then calls her 'Alexa' (line 180).",
+          "value": "Alexa",
+          "lines": [
+            176,
+            177,
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in New Jersey right now' (line 43). She also indicates she is living at home with her parents (line 35).",
+          "value": "New Jersey",
+          "lines": [
+            35,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm a graduate student and I'm studying psychology um specifically child psychology' (line 13) and 'I'm in my first year of my Master's program now' (line 17).",
+          "value": "graduate student in child psychology",
+          "lines": [
+            13,
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I finished my undergrad degree so I got my Bachelors already' (line 17).",
+          "value": "holds a Bachelor's degree",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a mentions 'recently it's been hard for me to kind of like keep focus and stuff' (line 13), indicating difficulty concentrating.",
+          "value": "reports difficulty focusing",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I just took out a private student loan' (line 99) and notes she chose to start paying it off immediately (line 103).",
+          "value": "has private student loans",
+          "lines": [
+            99,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains her graduate work provides 'a stipend, but then they also pay my tuition' (line 91).",
+          "value": "receives stipend and tuition waiver",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she does research for her lab (lines 19, 89-91), working as a research assistant.",
+          "value": "works as a research assistant in a child psychology lab",
+          "lines": [
+            19,
+            89,
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I'm staying with my mom, my dad and my brother' (line 35).",
+          "value": "lives with mother, father, and younger brother",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her brother as 'like five years younger than me' (line 35).",
+          "value": "has a younger brother, about five years younger",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm the oldest to' (line 41), indicating she is the eldest sibling.",
+          "value": "is the oldest child in the family",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm on my computer from all day from like 10-6' (line 19).",
+          "value": "works on computer from about 10 AM to 6 PM",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains 'we like run kids over zoom so because we can't be in the lab anymore' (line 89).",
+          "value": "conducts child psychology research via Zoom",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've done it twice' regarding the current eye-tracking study (line 23).",
+          "value": "has participated in this eye-tracking study twice before",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a shares her long-term goal: 'to be a professor at a university' (line 27).",
+          "value": "career goal: university professor",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm going to school online' (line 13) due to COVID-19 (line 35).",
+          "value": "attends school online because of the pandemic",
+          "lines": [
+            13,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a specifies her research area: 'I study morality specifically, so it's about like how could think about like nice and being people' (line 27).",
+          "value": "researches children's moral judgment",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My name is chris however like Alex okay' (line 176). The name Chris is given, though the context includes joking about Amazon Alexa. The ASR may have misheard; certainty is moderate.",
+          "value": "Chris",
+          "lines": [
+            176
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in Minnesota now at Minnesota' (line 38) and 'I just moved here a couple of months ago from florida' (line 40).",
+          "value": "currently lives in Minnesota, moved from Florida a couple of months ago",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from Milwaukee Wisconsin' (line 66).",
+          "value": "originally from Milwaukee, Wisconsin",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to herself as 'the oldest sister' (line 40), indicating she is female.",
+          "value": "female",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a communications degree' (line 14).",
+          "value": "holds a communications degree",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I had just graduated in 2018' (line 28).",
+          "value": "graduated college in 2018",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work myself employed right now' (line 56).",
+          "value": "self-employed",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions writing stories and posting them online (line 12) and having published a book (line 56).",
+          "value": "writer; has published a book",
+          "lines": [
+            12,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I would get like a 1.8 G. P. A. That's what I graduated high school with' (line 66).",
+          "value": "high school GPA: 1.8",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got a 3.73 point eight grade point average' in college (line 66).",
+          "value": "college GPA: 3.7-3.8",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I'm healing from broken bones' (line 14).",
+          "value": "healing from broken bones",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes 'a herniated disc sitting at the back of my spine that pressed against my... L. Five S. One area' (line 130).",
+          "value": "herniated disc at L5-S1",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a car accident multiple times (lines 30, 54).",
+          "value": "survivor of a car accident",
+          "lines": [
+            30,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was 'bedridden for five months' (line 140, ASR 'a bit written' interpreted as bedridden).",
+          "value": "was bedridden for five months",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I had lost feeling to my legs' (line 130).",
+          "value": "lost feeling in legs",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'right now walk with a walker' (line 148).",
+          "value": "currently uses a walker for mobility",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b acknowledges 'I have a lot of weight, I carry on my body' (line 148).",
+          "value": "overweight",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I can't drive anymore. Not now.' (line 150).",
+          "value": "unable to drive currently",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits 'it's one of my coping mechanisms. It's like eating' (line 156).",
+          "value": "uses eating as a coping mechanism",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says '2020 was really a blow for me mentally and physically' (line 130).",
+          "value": "experienced mental distress in 2020",
+          "lines": [
+            130
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b describes her current work: 'I do like label making uh we sell oils... earrings, necklaces, purses' (line 58) and she does surveys (line 56).",
+          "value": "self-employed; sells oils, jewelry, purses; does online surveys",
+          "lines": [
+            56,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have students down to government student loans' (line 100). The phrasing is garbled but likely means she has government student loans.",
+          "value": "has government student loans",
+          "lines": [
+            100
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b states 'I had worked for an airline' (line 80).",
+          "value": "formerly worked for an airline",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'except for the free flights you have getting' as a perk (line 84).",
+          "value": "received free flights as an airline employee benefit",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was not making enough for that type of stress' about the airline job (line 82).",
+          "value": "was underpaid at the airline job",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b explains 'my mom said, move up here, I'll help you' (line 54) and 'she comes to help me do the things that I cannot do' (line 56).",
+          "value": "receives financial or practical assistance from mother",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I have three brothers and three sisters' (line 36).",
+          "value": "has six siblings: three brothers and three sisters",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm the oldest sister and I have an older brother' (line 40).",
+          "value": "is the oldest sister; has an older brother",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b details: 'I have a sister in florida, a sister who just moved to D. C. Uh the rest of my siblings live here' (line 40).",
+          "value": "one sister in Florida, one in Washington D.C., other siblings in Minnesota",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my sister, she's a lawyer, uh now she's in school for business' (line 32).",
+          "value": "a sister is a lawyer now studying business",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates her mother is in Minnesota (line 54 'move up here') and helps her (line 56).",
+          "value": "mother resides in Minnesota",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I live alone' (line 36).",
+          "value": "lives alone",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b writes stories and has posted them online (line 12) and published a book (line 56).",
+          "value": "writes and publishes stories/books",
+          "lines": [
+            12,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confesses 'I was watching Silks, I was supposed to be in school' (line 68), referring to soap operas.",
+          "value": "used to watch soap operas instead of attending school",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I hate Milwaukee so much' (line 108).",
+          "value": "dislikes Milwaukee",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I left Milwaukee to move to Arizona Um in 2017' (line 114).",
+          "value": "moved from Milwaukee to Arizona in 2017",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she moved to Florida for medical help (line 130).",
+          "value": "moved to Florida for medical reasons",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'This is my second time doing it' about the eye-tracking study (line 24).",
+          "value": "has participated in this eye-tracking study twice",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I didn't set a timer ago' (line 126), implying she sets a timer for these conversations.",
+          "value": "sets a timer for study conversations",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm gonna be working with a personal trainer... and then I work with physical therapists' (line 148).",
+          "value": "plans to work with a personal trainer and a physical therapist",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions reading books as an activity to take her mind off things (line 130).",
+          "value": "reads books for leisure",
+          "lines": [
+            130
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I put my mind into like soap operas' and 'I just hate school' (line 68).",
+          "value": "dislikes formal schooling",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes herself: 'I talk a lot really shy' (line 142) and 'I put down that I'm shy and I don't talk, but I do ramble home when I don't have much to say' (line 144).",
+          "value": "self-described as shy but rambles when talking",
+          "lines": [
+            142,
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I have a lot of weight, I carry on my body' (line 148).",
+          "value": "overweight",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she walks with a walker (line 148).",
+          "value": "uses a walker",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm bent over like 80 year old nowadays' (line 136).",
+          "value": "bent posture due to injuries",
+          "lines": [
+            136
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

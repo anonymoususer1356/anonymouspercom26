@@ -1,0 +1,272 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'Daryn', speaker_b repeats as 'Darren' and speaker_a confirms. ASR output is 'Daryn' but the intended name is likely Darren.",
+          "value": "Daryn",
+          "lines": [
+            7,
+            8,
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'Yeah florida' when asked about state parks, and later references 'our governor' and Florida-specific details.",
+          "value": "Florida",
+          "lines": [
+            17,
+            103,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states 'I'm furloughed so yeah I work in the uh events industry' and later 'I work for a venue so'.",
+          "value": "Furloughed from events industry, works at a venue",
+          "lines": [
+            25,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'They get $15.' referring to the study participants, implying both speakers receive this payment.",
+          "value": "Receives $15 for participating in this conversation",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I have I have friends are on both sides. I mean, I've republican friends, have democrat friends.'",
+          "value": "Has friends who are both Republican and Democrat",
+          "lines": [
+            31,
+            32,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I do a friend who did get a job at a grocery store'.",
+          "value": "Has a friend who recently got a job at a grocery store",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker mentions going to state parks today and enjoying a walk.",
+          "value": "Enjoys walking in state parks",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker's job involves planning events at a venue; he discusses how to organize concerts and sporting events.",
+          "value": "Works in event planning at a venue",
+          "lines": [
+            25,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I mean I like The Rays.'",
+          "value": "Likes the Tampa Bay Rays baseball team",
+          "lines": [
+            215
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I have for almost a month because there's, I mean there wasn't anything to do.' indicating he has been staying home due to COVID-19.",
+          "value": "Has been staying at home for almost a month due to COVID-19 restrictions",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself: 'All right. I'm dave'.",
+          "value": "Dave",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in texas' and discusses Texas-specific reopenings.",
+          "value": "Texas",
+          "lines": [
+            18,
+            47,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he was in Japan teaching English and was sent home due to COVID-19.",
+          "value": "Lived in Japan",
+          "lines": [
+            20,
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was in Korea this like february or january or something'.",
+          "value": "Visited Korea in February or January",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states he lost his job teaching English in Japan and is now without a job.",
+          "value": "Unemployed, previously taught English in Japan",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'They get $15.' referring to the study participants, implying both speakers receive this payment.",
+          "value": "Receives $15 for participating in this conversation",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I got some older family members who are like, you know, I've got diabetes and heart disease and you know, lung trouble'.",
+          "value": "Has older family members with health conditions (diabetes, heart disease, lung trouble)",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'I have family members who are like on facebook celebrating'.",
+          "value": "Has family members who use Facebook",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my dad' in the context of a bet or prediction.",
+          "value": "Has a father",
+          "lines": [
+            244
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I just cut my own hair. I get myself a haircut today.'",
+          "value": "Cuts his own hair",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I love baseball, I played baseball for years.'",
+          "value": "Played baseball for years",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I prefer college football reeling' indicating a preference over NFL.",
+          "value": "Prefers college football over NFL",
+          "lines": [
+            196,
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I've only been to one professional football game in my life'.",
+          "value": "Has attended only one professional football game",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions traveling to Korea.",
+          "value": "Traveled to Korea",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I could go back to university in the fall' indicating a plan to return to university.",
+          "value": "Plans to return to university in the fall",
+          "lines": [
+            108
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker was in Japan but had to return home; he is now staying home looking for something to do.",
+          "value": "Recently returned to the US from Japan and has been staying home",
+          "lines": [
+            20,
+            22,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "After speaker_b says he cut his own hair, speaker_a comments 'It looks good. You did a good job.' indicating his hair appears well-groomed.",
+          "value": "Has self-cut hair that looks good (complimented by speaker_a)",
+          "lines": [
+            52,
+            53
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

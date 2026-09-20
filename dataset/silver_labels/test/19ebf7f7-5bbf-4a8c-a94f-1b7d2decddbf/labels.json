@@ -1,0 +1,188 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a confirms living in Arkansas when asked, states 'I live in Bentonville', mentions the very north part of Arkansas, and the time zone difference (9 a.m. vs speaker_b's 10:25) matches Central Time, consistent with Bentonville, Arkansas.",
+          "value": "Bentonville, Arkansas",
+          "lines": [
+            14,
+            15,
+            35,
+            61,
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Garbled utterance 'I live one going to school in two hours south of where I live' clearly means she is a student, though the ASR wording is imperfect.",
+          "value": "student",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions her mother: 'My mom has a rabbit', 'my mom just couldn't bear the thought of feeding the snake a mouse', and 'He loves my mom but she hates me' (referring to the rabbit).",
+          "value": "mother",
+          "lines": [
+            169,
+            221,
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "ASR 'hacking' is phonetically close to 'hiking'. She says she likes it in the right temperature (fall/spring) and not in super heat.",
+          "value": "enjoys hiking",
+          "lines": [
+            59,
+            60,
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she found a snake in her backyard last year and relocated it, indicating she handles and relocates snakes.",
+          "value": "relocates snakes",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says she had a pet snake as a kid, named it Charlotte after Charlotte's Web, and describes it as a bright green garden snake about a foot long.",
+          "value": "had a pet snake as a child",
+          "lines": [
+            135,
+            137,
+            139
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Directly states 'I'm in Rhode Island', confirms having moved there six weeks ago, and the time reference (10:25 a.m.) aligns with Eastern Time (Rhode Island).",
+          "value": "Rhode Island",
+          "lines": [
+            14,
+            62,
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Mentions 'I'm going to have to leave in the year' and 'I'd have to move back to New Zealand', showing he is in the US temporarily and must return to New Zealand within a year.",
+          "value": "temporary US resident, must return to New Zealand within a year",
+          "lines": [
+            182,
+            184
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "States 'I'm not really working at the moment', which directly establishes unemployment.",
+          "value": "unemployed",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Mentions his girlfriend multiple times, notes they live together ('I live with my girlfriend now'), and discusses her reactions to getting a snake.",
+          "value": "girlfriend, lives with her",
+          "lines": [
+            18,
+            142,
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'maybe go for a run later in the day' as part of describing his typical day.",
+          "value": "goes running",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about hiking part of the Grand Canyon last year, wanting to see the vastness of America, and enjoying expansive landscapes.",
+          "value": "enjoys hiking and outdoor exploration",
+          "lines": [
+            20,
+            24,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In describing his day he says he will 'go make a cup of tea' after the chat.",
+          "value": "drinks tea",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Details his residential history: lived in England 10 years, New Zealand 10 years, and now the US; conversation shows extensive travel experience.",
+          "value": "has lived in England, New Zealand, and now the US; enjoys traveling",
+          "lines": [
+            10,
+            64,
+            66,
+            70,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is self-teaching coding, learning Python through a course.",
+          "value": "learning Python programming",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses a strong interest: 'I actually really like snakes', 'I honestly I really want to get a snake', and discusses it with his girlfriend.",
+          "value": "likes snakes and wants one as a pet",
+          "lines": [
+            128,
+            142,
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

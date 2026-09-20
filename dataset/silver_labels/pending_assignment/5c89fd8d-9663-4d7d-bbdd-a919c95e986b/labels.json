@@ -1,0 +1,499 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Nigel.",
+          "value": "Nigel",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I mean Atlanta Georgia' in response to speaker_b's location, and speaker_b refers to 'your state' (Georgia). He also says 'it's like that in Georgia to us'.",
+          "value": "Atlanta, Georgia (current)",
+          "lines": [
+            21,
+            22,
+            103
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I used to live in southwest florida' and earlier 'I used to live in florida'.",
+          "value": "Southwest Florida (past)",
+          "lines": [
+            97,
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly states his political orientation.",
+          "value": "left of center politically",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says he was diagnosed with multiple sclerosis about 10 years ago, and speaker_b references '10 years into your illness'.",
+          "value": "Multiple sclerosis, diagnosed ~10 years ago",
+          "lines": [
+            47,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is on medication that helps some.",
+          "value": "Takes medication for MS",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a acknowledges better medication exists but implies he cannot afford it, saying 'if you can afford that... I'm not quite there yet'.",
+          "value": "Unable to afford better MS medication",
+          "lines": [
+            85
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he can be hard to understand sometimes, likely related to his MS.",
+          "value": "Speech difficulties (hard to understand)",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes being a system administrator at an elementary school before quitting due to MS.",
+          "value": "Former system administrator at an elementary school",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I've been on disability for a while'.",
+          "value": "Receiving disability benefits",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions starting to use Prolific recently and that the money supplements his income.",
+          "value": "Earns extra money via Prolific surveys",
+          "lines": [
+            65,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says his mom has dementia and lives about 20 minutes away.",
+          "value": "Mother has dementia and lives ~20 minutes away",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions his sister several times, including that their mother does not recognize her.",
+          "value": "Has a sister",
+          "lines": [
+            111,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his sister has a seven-year-old child.",
+          "value": "Has a niece/nephew (sister's 7-year-old)",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he used to love going out to restaurants with friends.",
+          "value": "Used to dine out with friends",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses excitement for the Dune movie, indicating enjoyment of sci-fi films.",
+          "value": "Enjoys sci-fi movies",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions attending a Spamalot staging 2-3 years ago.",
+          "value": "Attended a Spamalot theater performance",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Jennifer, and speaker_a uses the name.",
+          "value": "Jennifer",
+          "lines": [
+            14,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states she lives in Chicago and stayed there after college.",
+          "value": "Chicago, Illinois (current)",
+          "lines": [
+            20,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she grew up in Michigan.",
+          "value": "Michigan (grew up)",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she attended Northwestern University for college, located in Illinois.",
+          "value": "Northwestern University (college)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states she just turned 30 this year (context: 2020).",
+          "value": "30 years old",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her birthday is at the end of January.",
+          "value": "Birthday end of January",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b's name is traditionally female, and she references wearing makeup; no explicit gender statement but strongly implied.",
+          "value": "Female (inferred)",
+          "lines": [
+            14,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions attending and graduating from Northwestern University.",
+          "value": "College graduate (Northwestern University)",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b explicitly says 'I hate needles'.",
+          "value": "Fear/dislike of needles",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she worked in marketing for a theater company for 7 years.",
+          "value": "Former marketing job at a theater company (7 years)",
+          "lines": [
+            36,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was working in marketing for Marriott hotels when the pandemic hit.",
+          "value": "Former marketing job at Marriott hotels",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was furloughed in April 2020.",
+          "value": "Furloughed from Marriott in April 2020",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her department was eliminated at the end of August 2020.",
+          "value": "Laid off from Marriott in August 2020",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she received unemployment benefits during the furlough.",
+          "value": "Received unemployment benefits",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she started a new job the week of November 11, 2020 (Veterans Day, which she had off).",
+          "value": "Started new job the week of November 11, 2020",
+          "lines": [
+            56,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she started using Prolific a couple years ago and uses it for extra spending money on books, DVDs, and dog treats.",
+          "value": "Earns extra money via Prolific surveys",
+          "lines": [
+            64,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she saved a little bit of a rainy day fund.",
+          "value": "Has savings (rainy day fund)",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she does not have a car in Chicago.",
+          "value": "Does not own a car",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she might need to call Comcast, implying she is a Comcast customer.",
+          "value": "Has Comcast internet service",
+          "lines": [
+            150
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she is a season ticket holder for her former theater company.",
+          "value": "Season theater ticket holder",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b gives her dog's name and explains it is from Wicked.",
+          "value": "Dog named Elphaba",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her best friend lives in Pennsylvania.",
+          "value": "Best friend lives in Pennsylvania",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her mother lives in the Fort Lauderdale area of Florida.",
+          "value": "Mother lives in Fort Lauderdale, FL",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her mother is in her late 60s (context of pneumonia shot recommendation).",
+          "value": "Mother is in her late 60s",
+          "lines": [
+            132
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b refers to her mother's stepmother living in Miami Dade County.",
+          "value": "Step-grandmother lives in Miami Dade, FL",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her college roommate and her husband.",
+          "value": "Has a college roommate",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a group that is a book club.",
+          "value": "Member of a book club",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she normally attends 6-12 theater shows per year as a season ticket holder.",
+          "value": "Frequent theatergoer (6-12 shows/year)",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she likes to read a lot and buys books with Prolific earnings.",
+          "value": "Avid reader",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she stopped going to the gym and bought home exercise equipment.",
+          "value": "Exercises at home (formerly went to gym)",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she walks or takes buses/trains because she does not have a car.",
+          "value": "Relies on walking and public transit",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is a big baseball fan.",
+          "value": "Baseball fan",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves movie theaters.",
+          "value": "Enjoys movies (theaters)",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her last time eating at a restaurant was around February 1st, 2020.",
+          "value": "Last dined out early February 2020",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions work calls on Zoom and her book club meeting virtually.",
+          "value": "Uses Zoom for work and socializing",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she got a flu shot about two weeks before the conversation.",
+          "value": "Received flu shot",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b worries about smudging her makeup on Zoom, indicating she wears makeup.",
+          "value": "Wears makeup",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her hair is getting too long and she probably needs a haircut.",
+          "value": "Has hair that requires periodic haircuts",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

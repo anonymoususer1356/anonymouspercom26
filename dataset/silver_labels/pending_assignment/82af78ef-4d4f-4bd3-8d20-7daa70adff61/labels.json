@@ -1,0 +1,464 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states being in North Carolina, and through context (mentions of Smoky Mountains, 'Asheville'/'Nashville' mishearings, downtown, mountains) indicates living in Asheville, North Carolina.",
+          "value": "Asheville, North Carolina",
+          "lines": [
+            23,
+            111,
+            137,
+            138,
+            139,
+            147,
+            151,
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved to North Carolina two years ago and I'm always lived in Dallas texas before this'.",
+          "value": "Dallas, Texas (previous residence)",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually used to live in a town called Denton texas'.",
+          "value": "Denton, Texas (previous residence)",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm 37 now'.",
+          "value": "37 years old",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'so a little homesick right now'.",
+          "value": "Feeling homesick",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I've been working from home for the last two years' and describes answering phones in a home office.",
+          "value": "Employed, works from home answering phones",
+          "lines": [
+            13,
+            41,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've only been doing it for like two or 3 weeks' and 'I think that I'm at like $40 and two weeks' regarding Prolific.",
+          "value": "Earns approximately $40 every two weeks on Prolific surveys",
+          "lines": [
+            45,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions cashing out Prolific money to what sounds like PayPal ('went into my paper I got') to test if it works.",
+          "value": "Cashes out Prolific earnings via PayPal",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I have one of those off road trucks'.",
+          "value": "Owns an off-road truck",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was about to buy a house in Dallas' before moving.",
+          "value": "Was considering buying a house in Dallas before moving to Asheville",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a restores old motorcycles and cars, implying financial investment.",
+          "value": "Invests money in restoring vintage motorcycles and cars",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my brother' and 'brothers' plural.",
+          "value": "Has at least one brother",
+          "lines": [
+            101,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my little nephew, he's 11 years old'.",
+          "value": "Has an 11-year-old nephew",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my whole family is back in texas' and 'stay with my brothers and my parents'.",
+          "value": "Parents live in Texas",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my two best friends moved up here... they were a married couple'.",
+          "value": "Has two best friends who are a married couple living in Asheville",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my girlfriend at the time was chinese'.",
+          "value": "Had a Chinese girlfriend (ex)",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his dog: 'Rhodesian, ridgeback', 'she', 'just turned three'.",
+          "value": "Owns a 3-year-old female Rhodesian Ridgeback dog",
+          "lines": [
+            111,
+            113,
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I still go to the grocery store um probably two or three times a week'.",
+          "value": "Goes to the grocery store 2-3 times per week",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I restored like old motorcycles... I have like older cars and I'm restoring right now. One of them is actually in the paint booth'.",
+          "value": "Restores vintage motorcycles and cars",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'Mountain biking' and that his dog goes with him.",
+          "value": "Enjoys mountain biking",
+          "lines": [
+            99,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a includes 'fishing' as an outdoor activity.",
+          "value": "Enjoys fishing",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he started playing Call of Duty and plays with his nephew on weekends.",
+          "value": "Plays Call of Duty with nephew on weekends",
+          "lines": [
+            99,
+            101,
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his pre-pandemic weekend activities: 'go out to dinner, have a couple of drinks, maybe go to live concerts'.",
+          "value": "Enjoys dining out, drinking, and live concerts on weekends",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just took up snowboarding last year... love snowboarding now' and 'I even end up buying a season pass'.",
+          "value": "Snowboards and has a season pass",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a listens to alternative music, is a fan of Manchester Orchestra, and has seen them in concert about five times.",
+          "value": "Fan of Manchester Orchestra, seen them live ~5 times",
+          "lines": [
+            257,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says Twenty One Pilots is 'pretty horrible band' aside from a couple songs.",
+          "value": "Dislikes the band Twenty One Pilots",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I go to bed pretty early'.",
+          "value": "Goes to bed early",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he takes his off-road truck out and does 'all that stuff'.",
+          "value": "Enjoys off-road driving",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions driving 14 hours to Texas to visit family.",
+          "value": "Drives 14 hours to Texas for family visits",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I've been to 25 or 26 states' and describes trips to Mexico and a South America cruise.",
+          "value": "Traveled to 25-26 U.S. states, Mexico 10 times, and on a South America cruise",
+          "lines": [
+            203,
+            223
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses desire to visit Japan and Australia.",
+          "value": "Wants to travel to Japan and Australia",
+          "lines": [
+            203,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'Northeast' when asked what part of the US.",
+          "value": "Northeastern United States",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms living with parents.",
+          "value": "Lives with parents",
+          "lines": [
+            29,
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm in high school and I'm a senior'.",
+          "value": "High school senior",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are thinking of studying psychology or art, but 'Probably more psychology'.",
+          "value": "Plans to study psychology in college",
+          "lines": [
+            86,
+            88,
+            90
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says art 'just helps me distress'.",
+          "value": "Uses art to relieve stress",
+          "lines": [
+            92
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they do survey sites and compares pay, and has spent earnings on video games.",
+          "value": "Earns small amounts from survey sites, spends on video games",
+          "lines": [
+            54,
+            56,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is a high school senior living with parents, implying financial dependence.",
+          "value": "Financially dependent on parents",
+          "lines": [
+            30
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b confirms having a brother and mentions 'My older sister too'.",
+          "value": "Has a brother and an older sister",
+          "lines": [
+            119,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to have a golden retriever but he passed away'.",
+          "value": "Previously owned a golden retriever that died",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'a few people aren't following social guidelines' referring to friends.",
+          "value": "Has friends who do not follow social distancing guidelines",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they bought video games with survey money, indicating they play.",
+          "value": "Plays video games",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b has a Twenty One Pilots poster and says 'I like alternative music and stuff'.",
+          "value": "Fan of Twenty One Pilots and alternative music",
+          "lines": [
+            244,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b does art as a hobby, says 'it's just something that I like to do'.",
+          "value": "Enjoys art as a hobby",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've only been out like three times in like three months' during the pandemic.",
+          "value": "Has only gone out about 3 times in 3 months during pandemic",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a cross-country road trip two years ago, visiting most states except some midwestern.",
+          "value": "Went on a cross-country road trip two years ago, covering most U.S. states",
+          "lines": [
+            226,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to texas for the first time, I think it was like a year ago'.",
+          "value": "Visited Texas a year ago",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've always wanted to go to Japan'.",
+          "value": "Wants to travel to Japan",
+          "lines": [
+            198,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've never been on a plane'.",
+          "value": "Has never been on an airplane",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

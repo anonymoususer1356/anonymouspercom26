@@ -1,0 +1,429 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She explicitly says 'My name's Claire' (line 3), and speaker_b addresses her as 'Claire' (line 384).",
+          "value": "Claire",
+          "lines": [
+            3,
+            384
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'from northwest indiana' (3), 'kind of by Chicago' and closer to Chicago than to anywhere in Indiana (5), about 35 then 45 minutes from New Buffalo (5-7). Says she is about 20 minutes from the lake and the closest lakeshore town, Whiting Indiana, is 25-30 minutes away (41-43). After graduation she moved back to her mom's house (65), which is the house her grandparents lived in, inherited by her mother (235). All details place her in northwest Indiana near Chicago and Lake Michigan.",
+          "value": "Northwest Indiana, near Chicago, about 45 minutes from New Buffalo, about 20 minutes from Lake Michigan, nearest lakeshore town Whiting about 25-30 minutes away, living in her grandparents' former house (now mother's home)",
+          "lines": [
+            3,
+            5,
+            7,
+            41,
+            43,
+            65,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Lines 63 and 65: she says she just graduated with a degree in global studies from Purdue University.",
+          "value": "Recent graduate with a degree in Global Studies from Purdue University",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'someone from church' (131) and attending 'christmas eve church service' (227), implying regular church involvement and likely Christian affiliation.",
+          "value": "Churchgoer, likely Christian",
+          "lines": [
+            131,
+            227
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Explicitly says she and her stepdad caught COVID-19, tested positive (105-109). Describes symptoms: intense headaches, super fatigue, sleeping through the day (139-143). Lasted about 4-5 days (145), quarantined full 14 days (147).",
+          "value": "Had COVID-19 with mild symptoms (headaches, fatigue), recovered within about 5 days",
+          "lines": [
+            105,
+            106,
+            107,
+            108,
+            109,
+            139,
+            140,
+            141,
+            142,
+            143,
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 117: 'I tend to catch a cold or a flu probably once, maybe twice in a year'.",
+          "value": "Gets a cold or flu once or twice a year",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 65: 'I found a job really close by to my mom's house'. Line 77: works from home in the basement space. Line 99: office has only one day per week when a team comes in, so mostly remote.",
+          "value": "Employed, works primarily from home, office has limited in-person days",
+          "lines": [
+            65,
+            77,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 65 and 67: after graduation she moved back to her mom and stepdad's house, so she lives with parents rent-free.",
+          "value": "Lives with parents (mom and stepdad), housing provided",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 67: 'I'm here with my mom and my step dad'.",
+          "value": "Mother",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 67: 'I'm here with my mom and my step dad'.",
+          "value": "Stepfather",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 189-190: brother flying in from L.A. for Thanksgiving; line 205: brother 'only a year and a half older than me'.",
+          "value": "Brother (1.5 years older, lives in Los Angeles)",
+          "lines": [
+            189,
+            190,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 235: both grandparents passed away, and the family moved into the home they lived in. Line 187: grandfather worked at the hospital.",
+          "value": "Grandparents (deceased, former homeowners of current residence)",
+          "lines": [
+            187,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 17: 'I have a little dog'; line 67: 'my little dog'.",
+          "value": "Pet dog (small dog)",
+          "lines": [
+            17,
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 77: 'I have this basement space where I do all of my work from home stuff'.",
+          "value": "Works from home in a basement space",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 233: 'Usually I always get a book at christmas time and I'd open up a book and start reading'.",
+          "value": "Enjoys reading, receives a book for Christmas",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 227: describes attending Christmas Eve church service at grandparents' church.",
+          "value": "Attends Christmas Eve church service",
+          "lines": [
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 149: 'use those little vitamin C packets, you mix into your drinks' when sick.",
+          "value": "Uses vitamin C packets when feeling ill",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 187-191: usually a joint Thanksgiving with ~50 people, but this year separate family units with a Zoom call.",
+          "value": "Typically hosts or attends a large (~50 person) Thanksgiving gathering; this year a small separate celebration with a Zoom call",
+          "lines": [
+            187,
+            188,
+            189,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: ASR 'Oh my police jodi' – phonetically 'Oh, I'm Jodi'. Speaker_a confirms at line 385: 'nice talking to you too Jody'.",
+          "value": "Jodi",
+          "lines": [
+            4,
+            385
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 4: 'I am from michigan'. Line 10: 'I'm in a little one … maybe 20 miles from grand rapids'. Line 46: 'we're … maybe … five miles from the lake where we live now'. Line 90: 'I moved back to Holland, which is where I'm from'. All consistent with a small town in Michigan, Holland area, near Grand Rapids and Lake Michigan.",
+          "value": "Michigan, small town near Holland, about 20 miles from Grand Rapids and about 5 miles from Lake Michigan",
+          "lines": [
+            4,
+            10,
+            46,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 94: 'I'm actually on disability' due to a spinal fusion (line 96).",
+          "value": "Disabled (receiving disability benefits due to spinal fusion injury)",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 212: 'I got my son and my daughter'; line 318: 'your sister' (to son) confirms a daughter.",
+          "value": "Parent of a son and a daughter",
+          "lines": [
+            212,
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 162: 'they're not christian believe me' – contrasting the company owners with himself implies he is Christian.",
+          "value": "Christian (self-identified)",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 92: 'I put the school system just working part time'.",
+          "value": "Part-time worker for the school system",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 212 and 321-322: son has three kids aged 10, 14, 16; so he is a grandfather.",
+          "value": "Grandparent",
+          "lines": [
+            212,
+            321,
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Lines 94-96: describes being hit from behind at 50 mph, resulting in a two-level spinal fusion. He is now disabled.",
+          "value": "Two-level spinal fusion from car accident; disabled",
+          "lines": [
+            94,
+            95,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 124: 'I never get sick either ever'; line 126: 'I don't even remember the last time I was sick'.",
+          "value": "Rarely or never gets sick",
+          "lines": [
+            124,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 128: 'I ended up having surgery just before it hit' (referring to COVID‑19 pandemic).",
+          "value": "Had surgery shortly before the COVID‑19 pandemic began",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Line 94 states 'I'm actually on disability'. This implies legal receipt of disability benefits.",
+          "value": "Recipient of disability benefits",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 92: 'I put the school system just working part time'.",
+          "value": "Part-time employment with school system",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 96: 'we were making stuff for grocery stores and restaurants, making the sandwiches that you buy it when you go to a gas station' – describes previous job at a commissary.",
+          "value": "Previously worked at a commissary making pre-packaged sandwiches",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 318: 'I had sold mine when I moved. So we're renting temporarily'.",
+          "value": "Sold previous house; currently renting",
+          "lines": [
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 336: 'it's like a 98 little toy truck'; also line 332: 'I like old cars'.",
+          "value": "Drives a 1998 Toyota truck",
+          "lines": [
+            336,
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 94: 'I'm actually on disability' indicates disability income.",
+          "value": "Receives disability income",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 212 mentions 'my son'; lines 160, 280, 318 discuss him further. Line 321-322 clarify his children's ages.",
+          "value": "Son (divorced, father of three children aged 10, 14, 16)",
+          "lines": [
+            212,
+            321,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 212 mentions 'my daughter'; line 318 refers to 'your sister' when speaking to son.",
+          "value": "Daughter",
+          "lines": [
+            212,
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 321-322: son's children are aged 10, 14, 16, making them his grandchildren.",
+          "value": "Grandchildren (three, ages 10, 14, 16)",
+          "lines": [
+            321,
+            322
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 294: 'my cousin is one of his … big contracts' – the cousin is a business contact of his son.",
+          "value": "Cousin (business associate of his son)",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 332-336: he prefers old cars and drives a 1998 Toyota truck.",
+          "value": "Drives an older vehicle (1998 Toyota truck), prefers old cars",
+          "lines": [
+            332,
+            336
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 326: 'I like the four seasons'.",
+          "value": "Prefers a four-season climate",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 216-222: suggests having tacos instead of turkey for Thanksgiving.",
+          "value": "Considers non-traditional Thanksgiving meal (tacos) this year",
+          "lines": [
+            216,
+            217,
+            218,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 176: 'I've had four of them now' referring to COVID tests.",
+          "value": "Has had multiple COVID-19 tests (at least four)",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

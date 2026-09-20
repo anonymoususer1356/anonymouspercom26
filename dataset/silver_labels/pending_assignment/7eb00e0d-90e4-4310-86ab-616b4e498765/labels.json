@@ -1,0 +1,372 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states that they are from California and in Southern California, and later mentions 'museums here in L. A.' implying they are currently in Los Angeles.",
+          "value": "Los Angeles, California",
+          "lines": [
+            25,
+            27,
+            29,
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'No kids, No.' when asked.",
+          "value": "No children",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 70% of their family lives in Mexico, they communicate in Spanish, and they describe visiting family in Michoacán, implying Mexican descent.",
+          "value": "Mexican descent",
+          "lines": [
+            275,
+            279,
+            281,
+            287,
+            289
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a states 'I have had a cat allergy' and describes past severe sneezing but now some tolerance.",
+          "value": "Cat allergy (improved tolerance)",
+          "lines": [
+            347,
+            351,
+            353
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions 'my car' and describes driving it.",
+          "value": "Owns a car",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my house' and describes having air conditioning installed there.",
+          "value": "Owns or lives in a house",
+          "lines": [
+            67,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I can't afford this' when quoted a price of $600 for a dress in Mexico, indicating limited disposable income.",
+          "value": "Not wealthy (unable to afford high-end purchases)",
+          "lines": [
+            305,
+            307
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My dog, my dog would probably be scared' and later refers to the dog as 'Boy'.",
+          "value": "Has a male dog",
+          "lines": [
+            73,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we have cats' when discussing cat allergy.",
+          "value": "Has cats (multiple)",
+          "lines": [
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'maybe 70% of my family lives in Mexico' and describes travel to Michoacán to visit family.",
+          "value": "Family in Michoacán, Mexico",
+          "lines": [
+            281,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions buying a dress for 'my girlfriend at the time' during a trip to Mexico.",
+          "value": "Had a girlfriend (in the past)",
+          "lines": [
+            299
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I've been doing this since I think they started maybe like early summer' and has done it with around five people, referring to the online chat platform.",
+          "value": "Participates in online chat platform regularly",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes driving, including a specific car behavior.",
+          "value": "Drives a car",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'This is the first summer where we had air conditioning system inside of my house'.",
+          "value": "Has air conditioning at home (new as of this summer)",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live next to a university'.",
+          "value": "Lives near a university",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a trip to Mexico to visit family, including driving to Tijuana, flying to Guadalajara, and driving to Michoacán.",
+          "value": "Travels to Mexico to visit family",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I love in Illinois' (ASR for 'live in Illinois'), mentions being 'right by the border' with Iowa, 'on the river', and compares gas prices 'on the Illinois side'. Also describes living 'by some woods' and 15-20 minutes from stores. This places them in rural western Illinois near the Mississippi River and Iowa border.",
+          "value": "Illinois, near Iowa border (western Illinois, rural area near woods and Mississippi River)",
+          "lines": [
+            36,
+            88,
+            94,
+            166,
+            182,
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm actually married' and refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a five a 5 year old and an almost three year old.'",
+          "value": "Mother of two children (ages 5 and 3)",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to herself with female terms (e.g., quoting her sister saying 'girl'), uses 'my husband', and discusses pregnancy, strongly implying she is female.",
+          "value": "Female",
+          "lines": [
+            30,
+            160,
+            210,
+            316
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b describes developing an allergic reaction to avocado after giving birth to her daughter, with symptoms like scratchy throat, trouble breathing, and throat closing. She tested it multiple times.",
+          "value": "Avocado allergy (developed after pregnancy)",
+          "lines": [
+            316,
+            318,
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I think I developed an allergy to the cats' after moving to a house in Illinois, describing scratchy eyes, throat, and ears.",
+          "value": "Cat allergy (developed later in life)",
+          "lines": [
+            338,
+            340
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b speculates 'maybe I have like a weak immune system or something'.",
+          "value": "Possible weak immune system (self-suspected)",
+          "lines": [
+            346
+          ],
+          "certainty": 2
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says her husband joined the Navy in 2011, implying military income and benefits.",
+          "value": "Military family (husband in Navy)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'our old house here in Illinois' and describes having neighbors and living by woods, indicating they live in a single-family house.",
+          "value": "Lives in a house (rural Illinois)",
+          "lines": [
+            88,
+            166,
+            336
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b discusses driving to grocery stores (35-40 minutes in Michigan, 15-20 minutes now) and to her sister's wedding, implying car ownership.",
+          "value": "Owns a car (or uses a car)",
+          "lines": [
+            170,
+            182,
+            188
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my husband, he joined the navy when In 2011.'",
+          "value": "Husband (joined Navy in 2011)",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she has a 5-year-old and an almost 3-year-old.",
+          "value": "Two children (ages 5 and 3)",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My sister lives in northern northern California by capacitive' (likely 'Sacramento' or 'the capital').",
+          "value": "Sister living in Northern California",
+          "lines": [
+            30,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dog would be scared shitless' and 'she gets here to like big thunderstorms'.",
+          "value": "Has a female dog",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we have three [cats] right now' and describes adopting two siblings in 2011 and taking in a stray.",
+          "value": "Has three cats (adopted siblings and a stray)",
+          "lines": [
+            332,
+            334
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I usually don't do chats' implying this is an uncommon activity.",
+          "value": "Rarely participates in online chats",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes living 'by some woods' with few neighbors, far enough from the city to feel secluded but close enough for convenience.",
+          "value": "Rural/semi-rural lifestyle (near woods, few neighbors)",
+          "lines": [
+            88,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b explains that due to her husband's Navy service they moved from Florida to Michigan to Illinois, adapting to different locations.",
+          "value": "Frequent relocation due to military spouse status",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions driving 35-40 minutes to the grocery store when in Michigan, and now 15-20 minutes. Also drove in California for sister's wedding.",
+          "value": "Drives for errands (car-dependent)",
+          "lines": [
+            170,
+            182,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes picking her chat time around her children's schedule, saying 'this was the only day' with a time that worked, implying she is the primary caregiver.",
+          "value": "Stay-at-home parent or primary caregiver",
+          "lines": [
+            266
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions flying to California to visit her sister for her wedding.",
+          "value": "Travels to visit family (California for sister's wedding)",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

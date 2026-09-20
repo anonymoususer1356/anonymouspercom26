@@ -1,0 +1,572 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm actually in new york' (line 15) and later specifies 'I live like just north of Albany. So like Saratoga Springs.' (line 35). They confirm being in Albany area (line 31).",
+          "value": "Saratoga Springs, New York",
+          "lines": [
+            15,
+            29,
+            31,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I live in a really rural area' (line 163) and 'I actually live on a farm' (line 263).",
+          "value": "lives on a farm in a rural area",
+          "lines": [
+            163,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I grew up on Long Island' (line 29).",
+          "value": "grew up on Long Island, New York",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved to Rochester new york' (line 29).",
+          "value": "previously lived in Rochester, New York",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'then I moved to Albany' (line 29) and currently lives just north of Albany, indicating Albany was a previous residence.",
+          "value": "previously lived in Albany, New York",
+          "lines": [
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked 'So you've been in new york your whole life?', speaker_a replies 'Yeah, pretty much.' (lines 52-53).",
+          "value": "has lived in New York state for most of their life",
+          "lines": [
+            52,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm not even 30' (line 183).",
+          "value": "under 30 years old",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually graduated with a degree in sign language' (line 55).",
+          "value": "has a degree in sign language",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they work for the census as a temp job and were promoted to supervisor (lines 59, 67).",
+          "value": "census supervisor",
+          "lines": [
+            59,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they were hired as an independent contractor to write for a celebrity gossip blog (line 117).",
+          "value": "freelance writer for a celebrity gossip blog",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they do 'little odd jobs to earn money here and there, like tutoring' (line 111) and mentions 'up work and fiber' meaning Upwork and Fiverr (line 115).",
+          "value": "online tutor and freelance content writer",
+          "lines": [
+            111,
+            115
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually Celia so I can't have gluten' (line 247), indicating Celiac disease, which is a chronic condition and a dietary group.",
+          "value": "has Celiac disease (gluten intolerance)",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I'm actually Celia so I can't have gluten' (line 247). 'Celia' is ASR error for Celiac.",
+          "value": "Celiac disease (gluten intolerance)",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they started getting carpal tunnel in their hands from sign language interpreting (lines 55, 57).",
+          "value": "carpal tunnel syndrome",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've always had issues with gingivitis' (line 93) and 'I've terrible gums' (line 89).",
+          "value": "gingivitis (gum disease)",
+          "lines": [
+            89,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I weigh about £100 soaking wet' (line 169).",
+          "value": "weight approximately 100 pounds",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually did not go to the dentist for seven years' (line 93).",
+          "value": "did not visit dentist for seven years (at one period)",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says after that gap, 'I had like, no cavities' (line 97).",
+          "value": "no cavities at last dental check",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes their census job: 'I'm working for the census' (line 59), 'I have this really cool little government phone' (line 59), and they took a supervisor position that pays more and allows work from home (line 67).",
+          "value": "employed as census supervisor, works from home, provided government phone",
+          "lines": [
+            59,
+            61,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states the celebrity gossip blog pays '$5 per article... each article only has to be like 400 words and they want 10 weeks' (line 121). '10 weeks' is likely a mishearing for '10 a week' or '10 per week'.",
+          "value": "freelance writer for celebrity blog, $5 per 400-word article, 10 articles per week",
+          "lines": [
+            121
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says they do 'little odd jobs to earn money here and there, like tutoring' (line 111) and uses Upwork and Fiverr (line 115).",
+          "value": "earns money from online tutoring and freelance tasks on Upwork/Fiverr",
+          "lines": [
+            111,
+            115
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says their ice cream maker (Lello) cost 'probably about 700 bucks' (line 215) and they also have a cheap $50 Cuisinart one (line 205).",
+          "value": "owns a Lello ice cream maker that cost ~$700",
+          "lines": [
+            207,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have my gym, my home gym set up right here' (line 165).",
+          "value": "has a home gym",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when I did have health insurance was like, I should probably go to the dentist' (line 95), implying they obtained health insurance at some point.",
+          "value": "has/had health insurance",
+          "lines": [
+            95
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says during freelancing they didn't have dental insurance (line 93).",
+          "value": "previously lacked dental insurance while freelancing",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'one of my friends in California actually signed up for it' (line 63).",
+          "value": "has a friend in California",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'one of my friends had a bad breakup, so they wanted to just talk all night' (line 179).",
+          "value": "has a friend who recently had a bad breakup",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'all my friends that are still working or like everyone's out of work, everyone's unemployed and sign language is mostly freelancing' (line 83), indicating multiple friends in that field.",
+          "value": "has multiple friends who are sign language interpreters (many currently unemployed)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a huge Samoyed puppy' (line 267).",
+          "value": "owns a Samoyed puppy",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have to Guinea pigs' (line 269).",
+          "value": "owns two guinea pigs",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have over 30 ducks and chickens and roosters and drinks' (line 269).",
+          "value": "owns over 30 ducks, chickens, and roosters",
+          "lines": [
+            269
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I walked 10 miles a day' (line 149) and describes walking while working (line 151).",
+          "value": "walks 10 miles daily",
+          "lines": [
+            149,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I go to bed at like 99 30 at night and then wake up at five' (line 183).",
+          "value": "sleeps from 9:30 PM to 5 AM",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've always liked writing and like english and stuff like that' (line 113).",
+          "value": "enjoys writing and English",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes making ice cream with fruity wines (lines 197-199) and using an ice cream maker (line 203).",
+          "value": "makes homemade wine-infused ice cream",
+          "lines": [
+            197,
+            199,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explains she cooks everything from scratch because she has Celiac (lines 247-253).",
+          "value": "cooks all food from scratch to avoid gluten",
+          "lines": [
+            247,
+            249,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they have a home gym and did 60 lb chest press (lines 165, 169).",
+          "value": "does strength training at home (e.g., chest press 60 lbs)",
+          "lines": [
+            165,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually live on a farm' (line 263) and has many poultry (line 269).",
+          "value": "raises ducks and chickens on a farm",
+          "lines": [
+            263,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls pulling all-nighters frequently in college (line 181).",
+          "value": "used to frequently pull all-nighters in college",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching 'Tiger King on netflix' (line 135).",
+          "value": "watches Netflix series (e.g., Tiger King)",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not a huge wine drinker' (line 195) but bought wines for ice cream (line 197).",
+          "value": "occasional wine drinker, uses wine for cooking",
+          "lines": [
+            195,
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says 'I'm kind of scrawny. Like I literally like, weigh about £100 soaking wet' (line 169).",
+          "value": "approximately 100 pounds, scrawny build",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'this is actually my workout short right now' (line 167).",
+          "value": "wearing workout shorts",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'Right now I'm in school' (line 70), 'I'm about to graduate here um and uh we'll take the next May, so I'm starting right on dentistry' (line 72), and speaker_a confirms 'What do you study? Oh awesome.' (line 73).",
+          "value": "dental student, expected to graduate next May",
+          "lines": [
+            70,
+            72,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to do powerlifting' (line 176).",
+          "value": "former powerlifter",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes change in drinking: 'Covid actually changed my like drinking habits... I used to drink a lot because of Covid, they closed down the liquor stores. Hillary, so I drink for like three or 4 months' (lines 186-188). Context suggests he stopped drinking for 3-4 months. Then he says he bought whiskey last week and drank it all in one week (line 190).",
+          "value": "stopped drinking for 3-4 months during Covid, then consumed a bottle of whiskey in a week",
+          "lines": [
+            186,
+            188,
+            190
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'so I'm sober now and sober for a while for a couple of days' (line 192).",
+          "value": "currently sober for a few days after recent drinking",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions going to the gym to lift weights (line 156) and running as main exercise (line 160).",
+          "value": "exercises regularly: weightlifting and running",
+          "lines": [
+            156,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states his bench press max: 'I usually bench like uh with the plates so you can go like Max 23250s from around there' (line 174), likely meaning 225-250 pounds.",
+          "value": "bench press maximum approximately 225-250 lbs",
+          "lines": [
+            174
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I like to like watch a lot of Youtube videos' (line 146).",
+          "value": "watches YouTube videos",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like to read' (line 146).",
+          "value": "likes to read",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'play the violin' (line 146).",
+          "value": "plays the violin",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'playing basketball' (line 146) and notes courts are closed (line 156).",
+          "value": "plays basketball (when courts are open)",
+          "lines": [
+            146,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to do powerlifting' (line 176) and now lifts 'just to maintain my physique' (line 178).",
+          "value": "transitioned from powerlifting to maintaining physique",
+          "lines": [
+            176,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been making it like pizza, that's what I've been doing the last couple weeks' (line 242).",
+          "value": "makes homemade pizza",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to have like a bread machines that would also make my own bread' (line 240).",
+          "value": "used to own a bread machine and make bread",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions buying a bottle of whiskey and drinking it in a week (line 190).",
+          "value": "enjoys drinking whiskey",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Oh yeah. I really like ice cream too' (line 318).",
+          "value": "likes ice cream",
+          "lines": [
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I really like it too' (line 308) referring to duck.",
+          "value": "likes eating duck",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was actually in new york like two weeks ago for a week' (line 26) and 'I was like in Long Island City' (line 32).",
+          "value": "recently spent a week in New York City (Long Island City)",
+          "lines": [
+            26,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I also have been just running that's like pretty much the may exercise right now' (line 160).",
+          "value": "running is current main form of exercise",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just came back from clinic earlier today' (line 74) as a dental student.",
+          "value": "attends dental clinic as part of school",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I did the same conversation I think like one or two weeks ago' (line 12).",
+          "value": "participated in a similar survey previously",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

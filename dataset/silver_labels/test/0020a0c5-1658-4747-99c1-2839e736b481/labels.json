@@ -1,0 +1,405 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name is Caitlin and she goes by Katie; later her partner calls her Katie. ASR for 'Caitlin' is clear.",
+          "value": "Caitlin (prefers Katie)",
+          "lines": [
+            35,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was born in 1988 and mentions being 'a little over 30', confirming her birth year.",
+          "value": "born 1988",
+          "lines": [
+            35,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly says 'here in des Moines' multiple times and mentions specific Des Moines places like Peace Tree Brewery and beggar's night there. Also states she is from Iowa.",
+          "value": "Des Moines, Iowa",
+          "lines": [
+            43,
+            123,
+            207,
+            257,
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she and her partner have lived in 'our house for about like three years now', establishing she is a resident of a house in Des Moines.",
+          "value": "lives in a house in Des Moines (3 years)",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a has a typically female name (Caitlin) and refers to her partner as 'he', indicating she is female.",
+          "value": "female",
+          "lines": [
+            35,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm from Iowa' and identifies as a midwesterner.",
+          "value": "Midwestern",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she was born in 1988 and is 'a little over 30'.",
+          "value": "age over 30",
+          "lines": [
+            35,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she is a graphic designer at a promotional product company and has been there over 3.5 years.",
+          "value": "graphic designer at promotional product company (>3.5 years)",
+          "lines": [
+            89,
+            101,
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my partner jesse' and later says her partner is a glassblower, and they have lived together in their house for three years.",
+          "value": "partner Jesse (glassblower), cohabitating 3 years",
+          "lines": [
+            51,
+            55,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I have uh no kids myself not as of yet'.",
+          "value": "no children",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a close friend who is a nurse at a large Des Moines hospital, and she dropped off food for her.",
+          "value": "close friend is a nurse in Des Moines",
+          "lines": [
+            259,
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says a good friend just moved into a house two doors down from her.",
+          "value": "good friend moved in two doors down",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions having cousins from Georgia.",
+          "value": "cousins in Georgia",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses her family's generic first names and her parents' fun with middle names, implying she has parents and siblings.",
+          "value": "has parents and siblings (generic first names)",
+          "lines": [
+            38,
+            39
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a loves baking, makes pumpkin rolls and shares with neighbors to meet new neighbors.",
+          "value": "enthusiastic baker, shares baked goods with neighbors",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks repeatedly about loving craft beer, visiting breweries, and specifically wanting to go to Peace Tree Brewery in Des Moines for a double IPA.",
+          "value": "craft beer enthusiast, visits breweries",
+          "lines": [
+            143,
+            145,
+            275,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes elaborate Halloween plans: decorating house as Jurassic Park, dressing as Dr. Ellie Sattler, building a candy slide, and handing out kids' books.",
+          "value": "goes all-out for Halloween, loves seeing kids' costumes",
+          "lines": [
+            207,
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she does not follow sports much, but her partner is a big Cowboys fan so she watches when they are on.",
+          "value": "not a sports fan, but watches Cowboys with partner",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is 'very emotionally invested' in Great British Bake Off and watches a new episode weekly on Netflix.",
+          "value": "avid fan of Great British Bake Off",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says going to a movie theater alone is her guilty pleasure, especially at theaters that serve craft beer.",
+          "value": "enjoys solo movie outings at craft beer theaters",
+          "lines": [
+            285,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do really like sleep quite a bit' and hears it is the first thing given up with kids.",
+          "value": "values sleep",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b confirms he is from Wisconsin, lives in a rural part, is right on the Minnesota border about 30 minutes from the Twin Cities, and about five hours from Milwaukee.",
+          "value": "rural western Wisconsin, ~30 min from Twin Cities, 5 hr from Milwaukee",
+          "lines": [
+            42,
+            150,
+            152,
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' multiple times, and the context implies a heterosexual marriage, indicating he is male.",
+          "value": "male",
+          "lines": [
+            32,
+            34,
+            126,
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he is from Wisconsin and later identifies with the Midwest.",
+          "value": "Midwestern",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says he feels 'a little crappy today' and thinks his sick child shared it with him; later they sought COVID testing because a coworker tested positive and they felt under the weather, waiting for results.",
+          "value": "felt unwell, potentially exposed to COVID, underwent testing",
+          "lines": [
+            10,
+            204,
+            205,
+            206
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works at Federal Foam, started in regular production, now in quality control, and has been there about 10 years.",
+          "value": "quality control at Federal Foam (manufacturing), 10 years",
+          "lines": [
+            62,
+            66,
+            92,
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his wife several times: she is the mother of Raven, Pepper is from her ex. Wife works part-time and schedules month by month.",
+          "value": "married, wife works part-time, wife has an ex (Pepper's father)",
+          "lines": [
+            32,
+            34,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has two daughters: Pepper aged 7 (step-daughter) and Raven aged 3 (shared with wife).",
+          "value": "father of two girls: Pepper (7, step-daughter) and Raven (3)",
+          "lines": [
+            20,
+            26,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I got four siblings too'.",
+          "value": "has four siblings",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says a buddy from the military came up from Texas for his wedding last year, and they went to a fish fry.",
+          "value": "friend in military from Texas attended his wedding last year",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'a lot of my family lives in Minnesota'.",
+          "value": "family lives in Minnesota",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he went to school in Minnesota for a few years.",
+          "value": "attended school in Minnesota",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions that a coworker he works closely with tested positive for COVID, prompting his testing.",
+          "value": "close coworker tested positive for COVID",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b explicitly says 'I like fish', has fish in his freezer from ice fishing last year, and went to a fish fry when his buddy visited.",
+          "value": "enjoys fishing and ice fishing, eats fish",
+          "lines": [
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he used to go to fish fries occasionally as a kid and went to one recently with his buddy.",
+          "value": "attends fish fries occasionally",
+          "lines": [
+            127,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b loves Halloween, bought a slimer costume and full-sized candy bars, but couldn't hand out due to COVID caution; he has a tradition of trick-or-treating on their block.",
+          "value": "Halloween enthusiast, dresses up, normally gives full-sized candy",
+          "lines": [
+            204,
+            206,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has done a few of these studies before and this is number seven, and enjoys them.",
+          "value": "has participated in 7 of these conversation studies",
+          "lines": [
+            4,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes visiting a brewery called Crackers in Milwaukee and doing their tour, loving the beer and cheese tasting.",
+          "value": "enjoys craft beer, visited Crackers brewery in Milwaukee",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'October is my favorite month by far'.",
+          "value": "favorite month is October",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions they normally take trips to the Wisconsin Dells with the kids and had planned a Florida trip for March.",
+          "value": "family travels to Wisconsin Dells, plans Florida trip",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

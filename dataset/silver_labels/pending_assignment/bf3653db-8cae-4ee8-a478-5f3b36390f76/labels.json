@@ -1,0 +1,256 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a confirms she is in America and says 'I'm from New Hampshire' when asked about location.",
+          "value": "From New Hampshire, USA",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she grew up in the southwest, born in Arizona and lived in New Mexico.",
+          "value": "Born in Arizona, lived in New Mexico",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she goes to school in New York, not in New York City.",
+          "value": "Attends school in New York (not NYC)",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a confirms she is in America and later refers to 'being an american'.",
+          "value": "American",
+          "lines": [
+            23,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers use 'girl' or 'girlfriend' to address each other, implying female gender.",
+          "value": "Female",
+          "lines": [
+            105,
+            249
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions going to school, being a student, and moving off campus.",
+          "value": "College student",
+          "lines": [
+            39,
+            51,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is concentrating in nutrition and considering becoming a registered dietitian.",
+          "value": "Studying nutrition",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a explicitly says she is lactose intolerant.",
+          "value": "Lactose intolerant",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions her younger sister who is graduating high school.",
+          "value": "Has a younger sister",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she was vegan for a couple of years but now eats fish and eggs due to difficulty maintaining veganism at school.",
+          "value": "Former vegan, now eats fish and eggs",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is moving into her first apartment off campus this year.",
+          "value": "Moving into first off-campus apartment this year",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts trips to London, Scotland, Germany, Costa Rica, and Canada, and expresses a desire to travel more.",
+          "value": "Enjoys traveling; has visited London, Scotland, Germany, Costa Rica, and Canada",
+          "lines": [
+            131,
+            143,
+            145,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she was entirely online for the second half of the semester and her classes became COVID-related.",
+          "value": "Took online classes due to COVID-19 pandemic",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states outright that she is in Mississippi.",
+          "value": "Mississippi, USA",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is originally not American, she is from West Africa.",
+          "value": "Originally from West Africa",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Both speakers use 'girl' or 'girlfriend' to address each other, implying female gender.",
+          "value": "Female",
+          "lines": [
+            105,
+            249
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she is from West Africa.",
+          "value": "West African",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is in grad school, specifically doing a PhD, and mentions working on her dissertation.",
+          "value": "PhD student",
+          "lines": [
+            58,
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she studies Public Administration, focusing on policies, politics, and public service.",
+          "value": "Studying Public Administration",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she gets really bad allergies, including environmental ones like dust and pollen.",
+          "value": "Has bad allergies (dust, pollen)",
+          "lines": [
+            104,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says milk doesn't sit well with her and seems to cause inflammation, though she doesn't think she is intolerant.",
+          "value": "Dairy sensitivity (milk causes inflammation)",
+          "lines": [
+            110,
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she does not eat pork for religious reasons, and avoids shrimp because she dislikes the texture.",
+          "value": "Avoids pork for religious reasons; avoids shrimp due to texture",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she attempted an elimination diet (listing foods to avoid) but did not follow it completely.",
+          "value": "Attempted an elimination diet but did not adhere to it",
+          "lines": [
+            104,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is mostly indoors and doesn't go out much at all.",
+          "value": "Spends most time indoors, rarely goes out",
+          "lines": [
+            246,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists many countries she has visited and says she used to travel before the pandemic.",
+          "value": "Has traveled extensively (China, Amsterdam, UK, Ghana, South Africa, Liberia, North Korea)",
+          "lines": [
+            148,
+            149,
+            150,
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

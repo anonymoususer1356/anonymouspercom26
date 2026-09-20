@@ -1,0 +1,697 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says they are in the D.C. region (310); speaker_a responds 'Oh, so am I?' (311) and specifies 'I'm in Vienna' (313). speaker_a also says they are on the East Coast (125).",
+          "value": "Vienna, Virginia (Washington D.C. metro area)",
+          "lines": [
+            125,
+            310,
+            311,
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they moved to NoVA from southwest Virginia in 2012 (319); describes hometown as a small town of about 4500 people with a Mormon college, located between UVA and Virginia Tech (321-325).",
+          "value": "small town (~4500 pop.) in southwest Virginia with a Mormon college (between UVA and Virginia Tech)",
+          "lines": [
+            319,
+            321,
+            322,
+            323
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states 'I'm 30' (25).",
+          "value": "30",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to himself as 'an asian man' (237).",
+          "value": "male",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'as an asian man myself' (237).",
+          "value": "Asian",
+          "lines": [
+            237
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says parents are from a poor coastal part of China (277); in line 267 likely says 'I'm not actually Korean, I'm Chinese ethnically' (ASR garbled). Overall context identifies him as ethnically Chinese.",
+          "value": "Chinese",
+          "lines": [
+            267,
+            277,
+            237
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I was born in America actually' (281).",
+          "value": "American",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I majored in computer science' (293).",
+          "value": "computer science major",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b asks 'Where do you go to college?' (344); speaker_a's response sounds like 'UVA' (345, ASR 'what do you see a'). speaker_b then says they applied there, suggesting speaker_a attended.",
+          "value": "likely attended University of Virginia (UVA)",
+          "lines": [
+            344,
+            345
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says they get 'strange pains and ligament kind of pains' from running more daily (43).",
+          "value": "experiences ligament and strange pains from running",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've actually gotten a covid test and I don't have the antibodies' (95).",
+          "value": "tested negative for COVID antibodies",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm in a computer science I guess I'm a software engineer' (225).",
+          "value": "software engineer",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they work remote but liked office for internet and free coffee (387-389).",
+          "value": "works remotely, sometimes goes to office for faster internet and free coffee",
+          "lines": [
+            387,
+            389
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm stuck about over $2000 worth of tickets if I don't go' (69), after mentioning having tickets to events (59).",
+          "value": "has over $2000 in non-refundable Tokyo Olympics tickets",
+          "lines": [
+            69,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I ended up buying a kettle bell' (49).",
+          "value": "bought a kettlebell for home exercise",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I never pay for my plane tickets, I always use miles' (107).",
+          "value": "uses airline miles to book flights",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they booked a capsule hotel (167) and it cost '$60 a night instead of $45 previously' (197).",
+          "value": "booked a capsule hotel in Tokyo for $60 per night",
+          "lines": [
+            167,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'last time I was able to get a best western for like $45 a night' (159) in Tokyo (161).",
+          "value": "previously stayed at a Best Western in Tokyo for $45 per night",
+          "lines": [
+            159,
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I worked in the restaurant business from the age of 4 to 18' (301).",
+          "value": "worked in a restaurant from age 4 to 18 (family business)",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my company's little fitness room but they won't let us back on site' (49).",
+          "value": "company has a fitness room but currently closed",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my electricity costs been a little bit higher from doing work at home' (393).",
+          "value": "electricity bills increased from working at home",
+          "lines": [
+            393
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'One of my friends is an ultra marathoner' (41).",
+          "value": "has a friend who is an ultra marathoner",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'the other one is doing an Iron Man' (41).",
+          "value": "has another friend training for an Iron Man",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they were talking to a friend who wanted to go to the Tokyo Olympics, and they've been planning for two years (121).",
+          "value": "has a friend (male) jointly planning the Tokyo Olympics trip",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my parents are from a poor part of poor coastal part of china' (277).",
+          "value": "parents are from a poor coastal part of China",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my mom's side, she has um one brother and three sisters' (297).",
+          "value": "mother has one brother and three sisters",
+          "lines": [
+            297
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'my grandfather was an engineer' (295).",
+          "value": "grandfather was an engineer",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a worked in a restaurant from age 4–18 (301), suggesting a family business.",
+          "value": "family owned or worked in a restaurant",
+          "lines": [
+            301
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'a lot of my friends have moved out to California for, you know, this kind of work' (365).",
+          "value": "has friends who moved to California for work",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they watch football primarily because of fantasy football (15).",
+          "value": "plays fantasy football",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they are 'more of a martial arts fan' (15), watched UFC last night and watches boxing (55).",
+          "value": "fan of martial arts; watches UFC and boxing",
+          "lines": [
+            15,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I ran cross country and track to in high school' (21).",
+          "value": "ran cross country and track in high school",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I try to get in some running like every other day if I can' (37).",
+          "value": "tries to run every other day",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a bought a kettlebell and does single-kettlebell exercises (49, 51).",
+          "value": "uses a kettlebell for single-kettlebell exercises",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions trips to Arizona (95), Japan (121), Whistler, Canada (169), and Singapore (183).",
+          "value": "has traveled to Japan (multiple times), Canada (Whistler), Singapore, and Arizona",
+          "lines": [
+            95,
+            121,
+            169,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they were supposed to go to the Olympics (57), has tickets to taekwondo, boxing, judo, and steeplechase (59), and plans to fly to Tokyo July 27 returning August 11-12 (115).",
+          "value": "planning to attend Tokyo Olympics; has tickets for taekwondo, boxing, judo, steeplechase; flights July 27 - Aug 11/12",
+          "lines": [
+            57,
+            59,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they won't let COVID stop them but will avoid international travel until the Olympics (97-99).",
+          "value": "avoiding international travel until the Olympics, except for the Olympics trip",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I prefer seasons, that's why I like' and contrasts with California (365-366).",
+          "value": "prefers living on the East Coast for the seasons",
+          "lines": [
+            365,
+            366
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I actually think this is like my fifth' (201) referring to the Prolific study.",
+          "value": "has completed five Prolific studies",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes working from age 4 to 18 every day after school in a restaurant (301).",
+          "value": "worked daily after school in a restaurant from age 4 to 18",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'there have been days where I just haven't taken a shower at all' when working from home (399).",
+          "value": "sometimes does not shower while working from home",
+          "lines": [
+            399
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says they run in the mornings and like the cold weather (365).",
+          "value": "enjoys running in cold weather",
+          "lines": [
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I catch the news regularly from Japan' (81).",
+          "value": "regularly checks news from Japan",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I studied 13th 15th century korean history' (265).",
+          "value": "studied 13th-15th century Korean history",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I never really used to go to the gym anyways' and used company fitness room (49).",
+          "value": "rarely used public gyms; exercised at company fitness room or home",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they studied 'a bunch of random asian cultures' to understand the connection to parental behavior (293).",
+          "value": "studied various Asian cultures to understand parental education values",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says 'I have short legs and long torso' (43).",
+          "value": "short legs and long torso",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes getting a 'prisoners build' from heavy upper body lifting and lots of running (45).",
+          "value": "used to have a 'prisoner's build' (muscular upper body, thin legs)",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in the D.C. Region' (310) and 'I'm in um Maryland Montgomery county' (314).",
+          "value": "Montgomery County, Maryland (Washington D.C. metro area)",
+          "lines": [
+            310,
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm originally from California' (330).",
+          "value": "originally from California",
+          "lines": [
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I went and I lived in Florida' (332).",
+          "value": "lived in Florida",
+          "lines": [
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm 30' (25); speaker_b says 'we're decently close' (28). Line 26 is garbled but suggests similar age.",
+          "value": "approximately 30 (close to speaker_a's age of 30)",
+          "lines": [
+            25,
+            26,
+            28
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b clarifies 'for clarification on mexican if that helps you?' (210).",
+          "value": "Mexican",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I ended up going to Cornell' (352).",
+          "value": "attended Cornell University",
+          "lines": [
+            352
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says they are in chemical engineering (225).",
+          "value": "chemical engineer",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says company forced them back to office; they drive 40 minutes (394, 396).",
+          "value": "works in an office, commutes 40 minutes",
+          "lines": [
+            394,
+            396
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions the Florida Disney pass was $200 for unlimited visits (332).",
+          "value": "had a Florida Disney annual pass for $200",
+          "lines": [
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I bought quite a lot of stuff in preparation' for the London trip (102).",
+          "value": "spent money on items for a planned family trip to London",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Same fifth' when speaker_a mentions fifth study (204).",
+          "value": "participated in five Prolific studies",
+          "lines": [
+            201,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my dad's downstairs watching it too' (8).",
+          "value": "has a father who was downstairs during the conversation",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dad went to college in Mexico' (346).",
+          "value": "father attended college in Mexico",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have family in L.A.' (150).",
+          "value": "has family in Los Angeles",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was planning on taking a family trip to London' (100).",
+          "value": "was planning a family trip to London",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes best friend in high school whose parents from China had a restaurant (302).",
+          "value": "had a best friend in high school whose parents owned a Chinese restaurant",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have family in Vegas' (382).",
+          "value": "has family in Las Vegas",
+          "lines": [
+            382
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm a huge Disney fan... like the engineering behind that' (220-222).",
+          "value": "huge Disney fan, interested in the engineering of Walt Disney World",
+          "lines": [
+            220,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I did the club and I graduated and I still train pretty seriously for local races' (32).",
+          "value": "runner; did club running in college, trains for local races",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I do weights every day... my dumbbells go up to £20' (52).",
+          "value": "lifts weights daily using dumbbells up to 20 lbs",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I love the original trilogy' (232).",
+          "value": "loves the original Star Wars trilogy",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my favorite living comedian, Bill Burr' (234).",
+          "value": "Bill Burr is one of their favorite living comedians",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions attending a competition in London (60), a trip to Shenandoah (326), living in Florida (332), and spending six months in Vegas (382).",
+          "value": "traveled to London (international competition), Shenandoah, Florida, and spent six months in Las Vegas",
+          "lines": [
+            60,
+            326,
+            332,
+            382
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they would sunbathe on the deck on nice days during lunch (402).",
+          "value": "sunbathes on deck during lunch breaks when working from home",
+          "lines": [
+            402
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they would nap if raining during lunch (404).",
+          "value": "takes naps during lunch breaks when working from home",
+          "lines": [
+            404
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b compares upstate New York cold unfavorably to Virginia (354, 360).",
+          "value": "prefers Virginia's weather over upstate New York",
+          "lines": [
+            354,
+            360
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Same fifth' (204) referring to Prolific studies.",
+          "value": "participates in Prolific studies (fifth one)",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not a fan of like New Start and stuff' (230).",
+          "value": "not a fan of new Star Wars films",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't pay much attention to football, but I at least know all the teams' (10).",
+          "value": "knows all NFL teams despite not closely following football",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I know I'm racially ambiguous' (214).",
+          "value": "considers themselves racially ambiguous",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,443 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name: 'I'm Neela' (line 3).",
+          "value": "Neela",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm from Maryland' (line 5) and discusses Maryland weather, schools, and local farms, indicating current residence.",
+          "value": "Maryland",
+          "lines": [
+            5,
+            63,
+            85,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I actually used to live in florida before I moved to Maryland' (line 41) and specifies 'It's kind of close to Miami' (line 43).",
+          "value": "Florida, near Miami",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her area as 'more of like a like a small to medium sized city area' (line 97).",
+          "value": "small to medium sized city",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I work as a pharmacy technician' (line 9).",
+          "value": "pharmacy technician",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm currently in pharmacy school' (line 85), discusses clinical rotations (line 167), and preparing for pharmacist certification exam (line 175).",
+          "value": "pharmacy student",
+          "lines": [
+            85,
+            167,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I started um becoming like a red cross volunteer' (line 149).",
+          "value": "Red Cross volunteer",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about kids, speaker_a replies 'No, I'm I don't have any kids' (line 129).",
+          "value": "no children",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I just finished underground last year' (line 129); 'underground' is a misrecognition for 'undergrad'.",
+          "value": "has undergraduate degree",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a works part-time as a pharmacy technician (line 9, 135); she specifies one weekday and one weekend day (line 137).",
+          "value": "part-time pharmacy technician",
+          "lines": [
+            9,
+            135,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions going on a trip with friends (line 85).",
+          "value": "has friends",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I like to watch movies like tv shows' (line 19).",
+          "value": "enjoys watching movies and TV shows",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just recently finished Umbrella Academy a netflix' (line 21); ASR 'a netflix' means 'on Netflix'.",
+          "value": "watched Umbrella Academy on Netflix",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'try new food places' (line 19).",
+          "value": "tries new food places",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've also kind of started like doing a lot of hiking' (line 87).",
+          "value": "hiking",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions visiting a peach farm (line 91), other farms, and booking appointments to visit farms (line 97).",
+          "value": "visits local farms",
+          "lines": [
+            91,
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a grows cucumbers, okra, tomatoes (lines 99-101) and jasmine flowers (line 111).",
+          "value": "gardens vegetables and flowers",
+          "lines": [
+            99,
+            101,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a makes 'flower crown sort of thing' from jasmine (line 113).",
+          "value": "makes flower crowns from jasmine",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a went on 'a trip with friends like for as a spring break trip to like L. A.' (line 85).",
+          "value": "went on spring break trip to Los Angeles",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself: 'I'm Brandon' (line 2).",
+          "value": "Brandon",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'in Colorado right now' (line 6) and repeatedly refers to living there (e.g., lines 28, 72).",
+          "value": "Colorado",
+          "lines": [
+            6,
+            28,
+            72,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'from Arizona originally' (line 6).",
+          "value": "Arizona",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I lived in ST Augustine for a few years' (line 44).",
+          "value": "St. Augustine, Florida",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're in an apartment' (line 74).",
+          "value": "lives in an apartment",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My wife and I moved from Arizona colorado in november' (line 72); ASR 'colorado' for 'to Colorado'.",
+          "value": "moved from Arizona to Colorado in November",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b accepted an offer 'on the business side of like software development, so project management type field' (line 14).",
+          "value": "project management in software development",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b frequently mentions 'my wife' (e.g., line 36, 72).",
+          "value": "married",
+          "lines": [
+            36,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't have kids' (line 196) while discussing remote work struggles.",
+          "value": "no children",
+          "lines": [
+            196
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I got laid off about two months ago' (line 14).",
+          "value": "laid off about two months ago",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just accepted an offer' (line 14) and later 'the new job that I took as 100% remote' (line 194).",
+          "value": "accepted a 100% remote job offer",
+          "lines": [
+            14,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work for a very large company' (line 194); context indicates this was his previous employer before layoff.",
+          "value": "previously employed at a very large company",
+          "lines": [
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'we've saved so much money... by just doing straight cooking for ourselves' (line 126).",
+          "value": "saves money by cooking at home",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my wife and I are looking in to get to get a house at some point' (line 108).",
+          "value": "planning to buy a house",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we cut back a lot on spending' after moving (line 74).",
+          "value": "cut back on spending after moving",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his wife throughout (line 36, 72, etc.).",
+          "value": "has a wife",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My mom is a high school teacher' (line 172).",
+          "value": "mother is a high school teacher",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my brother was a P. A. P. A.' (line 172), meaning physician assistant, and references his rotations (line 174).",
+          "value": "brother is a physician assistant",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my friends' (line 120).",
+          "value": "has friends",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'My wife and I visited family probably about a week or two ago in Arizona' (line 220).",
+          "value": "visited family in Arizona recently",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'we love gardening' (line 74).",
+          "value": "enjoys gardening",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b converted a closet into an indoor garden with tomatoes, parsley, basil (line 76).",
+          "value": "grows vegetables and herbs indoors",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they do 'a lot of hiking', 'camping hiking', 'paddleboarding and kayaking' (line 78).",
+          "value": "enjoys outdoor activities: hiking, camping, paddleboarding, kayaking",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'more action movies' (line 32) and 'grew up on like westerns and military movies' (line 34).",
+          "value": "enjoys action, western, and military movies",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'right now we? Re watching parks and rack' (line 36); ASR for 'Parks and Rec'.",
+          "value": "watching Parks and Recreation",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b watches 'a lot of the like unsolved mystery type tape documentaries' (line 38); ASR 'tape' for 'type'.",
+          "value": "enjoys unsolved mystery documentaries",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a huge joker fan' (line 102) which contextually is 'okra fan'.",
+          "value": "likes okra",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they used to eat out way more than they should, now cooking at home (line 126).",
+          "value": "previously ate out often, now cooks more",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the new job is 100% remote (line 194).",
+          "value": "works remotely",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

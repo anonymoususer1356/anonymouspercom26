@@ -1,0 +1,178 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I don't know anyone here where I live... she doesn't live in new york, she lives up in Washington', implying her own location is New York.",
+          "value": "New York",
+          "lines": [
+            43
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'my family is mormon so'.",
+          "value": "Mormon",
+          "lines": [
+            173
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a describes feeling 'anxiety ridden' at the start of the pandemic and needing to step back from social media and news.",
+          "value": "experienced anxiety during early pandemic",
+          "lines": [
+            67
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I've worked with kids and Yeah.', indicating she has employment experience with children.",
+          "value": "has worked with children",
+          "lines": [
+            133
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'My sister has it' (COVID-19).",
+          "value": "has a sister",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her sister 'lives up in Washington'.",
+          "value": "sister lives in Washington",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says her sister has had COVID-19 symptoms for weeks and has been to the ER multiple times.",
+          "value": "sister is ill with COVID-19",
+          "lines": [
+            31,
+            33,
+            35,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my fiancee's work'.",
+          "value": "has a fiancee",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I remember when I first started I went to have a daughter. So we went just walked over to the park near us', which likely means she has a daughter (ASR 'went to have' probably 'went out with').",
+          "value": "has a daughter",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my dad was the same way'.",
+          "value": "has a father",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'sorry my dog just came in'.",
+          "value": "has a dog",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'My name is, josh' (ASR for 'Josh').",
+          "value": "Josh",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm 40 years old'.",
+          "value": "40 years old",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'One of my nephews, he's like seven'.",
+          "value": "has a nephew",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions talking to his uncle and having known him for at least 30 years.",
+          "value": "has an uncle",
+          "lines": [
+            148,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'friends with my parents'.",
+          "value": "has parents",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I was just running outside'.",
+          "value": "goes running",
+          "lines": [
+            56
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

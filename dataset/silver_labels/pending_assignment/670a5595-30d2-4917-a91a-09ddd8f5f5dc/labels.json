@@ -1,0 +1,406 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'I worked for Huffington Post' when referring to writers she follows on Twitter.",
+          "value": "former Huffington Post employee",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'I work in the veterinary business' and 'I've been an animal care of my whole life'.",
+          "value": "veterinary business professional",
+          "lines": [
+            187,
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I was born in um I was born in Teaneck.'",
+          "value": "Teaneck, New Jersey (birthplace)",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we moved to Atlanta when I was five.'",
+          "value": "moved to Atlanta, Georgia at age 5",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I live in a suburb of North Atlanta.'",
+          "value": "lives in a suburb of North Atlanta, Georgia",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm on the East Coast.'",
+          "value": "East Coast of the United States",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She refers to getting her hair highlighted and lives with a boyfriend; speaker_b addresses woman-specific experiences and she agrees. Context strongly indicates female gender.",
+          "value": "female",
+          "lines": [
+            50,
+            53,
+            209
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm a member of a dance troupe and we've been doing classes online.'",
+          "value": "member of a dance troupe",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I'm unemployed at the moment because we were basically furloughed without being furloughed.'",
+          "value": "currently unemployed/furloughed",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm lucky because my family can help me.'",
+          "value": "receives financial help from family",
+          "lines": [
+            105
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly mentions 'my boyfriend'.",
+          "value": "has a boyfriend",
+          "lines": [
+            101,
+            209,
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live with my boyfriend'.",
+          "value": "lives with boyfriend",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom lives very close by'.",
+          "value": "mother lives nearby",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my best friend is a PhD in chemistry'.",
+          "value": "best friend is a PhD chemist",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my ex is a firefighter in baton rouge'.",
+          "value": "ex-partner is a firefighter in Baton Rouge, Louisiana",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my uncle is from Long Island'.",
+          "value": "uncle from Long Island, New York",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My cat is trying to get involved' and later 'it's a girl, she's 15'.",
+          "value": "owns a 15-year-old female cat",
+          "lines": [
+            99,
+            219
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I get mine highlighted' regarding hair.",
+          "value": "gets hair highlighted",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm kind of like a little bit of a loner anyway, so this is like hanging out at home, it's fine.'",
+          "value": "introverted / enjoys staying home",
+          "lines": [
+            209
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I'm a member of a dance troupe and we've been doing classes online'.",
+          "value": "participates in online dance classes",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'There's actually a gas station that's really close by that has had toilet paper because nobody knows they have it. So any time we run out, that's where I go.'",
+          "value": "buys toilet paper at a nearby gas station",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says 'I get mine highlighted. So it's like two completely different colors now.'",
+          "value": "has highlighted hair with two different colors",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My first grade teacher so I'm we're working remotely.' and later describes remote teaching, confirming she is a first grade teacher.",
+          "value": "first grade teacher",
+          "lines": [
+            86,
+            88,
+            90,
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'carrying you New Jersey' (ASR for 'here in New Jersey') and 'I'm still kind of new to New Jersey'.",
+          "value": "lives in New Jersey",
+          "lines": [
+            26,
+            168
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'most of the time I lived in new york city'.",
+          "value": "previously lived in New York City",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I left right before this thing because I was going to go back to the city'.",
+          "value": "recently moved from NYC to New Jersey",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'as a woman who just like, you need a professional blowout'.",
+          "value": "female",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my birthday is in june'.",
+          "value": "birthday in June",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She identifies as a first grade teacher, a professional educator.",
+          "value": "professional educator",
+          "lines": [
+            86,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says 'I'm still doing my vitamins'.",
+          "value": "takes vitamins",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She describes working remotely, teaching live Zoom lessons, preparing materials.",
+          "value": "employed as a remote first grade teacher",
+          "lines": [
+            86,
+            90,
+            234,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I like my amazon subscription because I didn't need any more toilet paper'.",
+          "value": "uses Amazon subscription for household supplies",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I really go to the grocery store and I do curbside pickup.'",
+          "value": "uses curbside pickup for groceries",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'I don't have a boyfriend that I'm living with.'",
+          "value": "does not live with a boyfriend",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my mother order' (likely 'my mother's order') when talking about Amazon.",
+          "value": "has a mother",
+          "lines": [
+            44
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I do go on box with one of my officers Angeles nearby' (ASR for 'walks with one of my friends in the area nearby').",
+          "value": "has friends she meets for walks (socially distanced)",
+          "lines": [
+            210
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I went on a walk. I'm trying to spend time in nature to get out of the house'.",
+          "value": "goes for walks in nature",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes working from home, using Zoom and online platforms for teaching.",
+          "value": "works remotely from home as a teacher",
+          "lines": [
+            86,
+            90,
+            234,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm scared to order food.'",
+          "value": "avoids ordering restaurant food due to COVID-19 fears",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'it's just a grocery store and walking around my neighborhood. That's it.'",
+          "value": "limits outings to grocery store and neighborhood walks",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we do you zoom live lessons'.",
+          "value": "uses Zoom for live lessons",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I had to stop working some of the press conferences because it made me anxious.'",
+          "value": "limits viewing of press conferences due to anxiety",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says 'my roots are not the same as my' (likely 'as my color') indicating dyed hair with visible regrowth.",
+          "value": "has dyed hair with visible roots",
+          "lines": [
+            52
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,391 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I lived in upstate in Rockland', indicating past residence in Rockland, New York.",
+          "value": "Rockland, New York",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they recently went to a CityMD for a COVID test. CityMD is a chain of urgent care centers located in New York and New Jersey, placing them in that region at the time.",
+          "value": "Recently visited CityMD (New York/New Jersey area)",
+          "lines": [
+            71
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a asks 'did I really go to college', confirming they attended and presumably graduated from college.",
+          "value": "college graduate",
+          "lines": [
+            41
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes their job as 'full time position... customer support' and being 'on the phone' doing customer support.",
+          "value": "customer support representative",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my husband' multiple times.",
+          "value": "married",
+          "lines": [
+            63,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my little one' with no COVID symptoms, indicating a young child.",
+          "value": "parent of a young child",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says they 'just got over Covid', tested positive on the 19th, quarantined 10 days, recovered by 30th, lost taste/smell, had sore feet and sniffles.",
+          "value": "had COVID-19 (positive 19th, recovered by 30th); lost taste/smell",
+          "lines": [
+            57,
+            59,
+            61,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states they are in a 'full time position' and has been there for almost a year; describes it as customer support.",
+          "value": "full-time customer support employee",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we literally just switched insurance' last month.",
+          "value": "has health insurance",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they've been on Prolific for about a month and made about $30 this month.",
+          "value": "$30/month from Prolific surveys",
+          "lines": [
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions they have laptops and remote network, worked from home successfully for two weeks.",
+          "value": "can work from home (has laptop, remote access)",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my husband' in lines 63 and 87.",
+          "value": "husband",
+          "lines": [
+            63,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my little one' who had no symptoms, indicating a child.",
+          "value": "young child",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'me and my whole family got it', and mentions husband and little one, so family of three.",
+          "value": "family unit of three (self, husband, child)",
+          "lines": [
+            59,
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they have the Kyoshi books (Avatar) but read slowly.",
+          "value": "reads books (owns Avatar Kyoshi novels)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they are watching Raised by Wolves on HBO and Schitt's Creek.",
+          "value": "watches Raised by Wolves and Schitt's Creek",
+          "lines": [
+            85,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they go on roller coasters despite fear.",
+          "value": "enjoys roller coasters",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses love for pork chops and mac and cheese, and has never tried coleslaw.",
+          "value": "likes pork chops and mac and cheese; never had coleslaw",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'this is the first conference' (first conversation study) and has been on Prolific about a month.",
+          "value": "new Prolific participant (first conversation)",
+          "lines": [
+            15,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a visited CityMD for a COVID test, indicating use of this urgent care chain.",
+          "value": "uses CityMD urgent care",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I lived in Watertown because my parents were at fort Drum' and 'within an hour of the Canadian border', and earlier says lived in upstate NY for 6 years as a child.",
+          "value": "Watertown, New York (childhood residence ~6 years)",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm actually an army brat, so been all over', implying no fixed location due to military family.",
+          "value": "no fixed location (military family, moved frequently)",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm actually an army brat', meaning they were a military dependent.",
+          "value": "military dependent (army brat)",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes doing 'mostly admin work' and 'temping' for offices (filing, phones).",
+          "value": "temporary administrative worker",
+          "lines": [
+            33,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'at work at a hospital in credentialing', indicating former job.",
+          "value": "former hospital credentialing worker",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I read a lot of fan fiction', indicating membership in fan community.",
+          "value": "fan fiction reader",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they were about to start temping more but then COVID hit, and they decided not to go temping (ASR 'camping' interpreted as 'temping') to protect high-risk parents. This implies they are not currently working outside the home.",
+          "value": "not currently temping due to COVID (protecting high-risk parents)",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says they've done Prolific for six months and probably made $260.",
+          "value": "$260 Prolific earnings over 6 months",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'use my netflix' (likely 'on my Netflix'), implying a personal Netflix subscription.",
+          "value": "Netflix subscriber",
+          "lines": [
+            108
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b recounts starting at a company as a temp doing data entry and being hired full-time because they were reliable.",
+          "value": "previous full-time job via temp-to-hire (data entry)",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I'm living with my parents', mentions both mom and dad, and notes they are high risk for COVID.",
+          "value": "lives with parents (mother and father)",
+          "lines": [
+            28,
+            30,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad had pretty serious surgery last year' and 'I was helping him'.",
+          "value": "father had surgery; caregiver role",
+          "lines": [
+            28,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom had a scare last week' (couldn't smell), tested negative for COVID.",
+          "value": "mother had COVID scare (negative test)",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we're planning to go visit my grandmother this weekend'.",
+          "value": "has a living grandmother",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b is eating dinner during the conversation: pork chop, mac and cheese, coleslaw, and comments on enjoying coleslaw.",
+          "value": "eats pork chop, mac and cheese, coleslaw; likes coleslaw",
+          "lines": [
+            10,
+            18,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I read a lot of fan fiction' and describes how fanfic writers are drawn to intense relationship dramas.",
+          "value": "avid fan fiction reader",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses watching The Untamed on Netflix, Guardian on YouTube, and Sleuth of the Ming Dynasty.",
+          "value": "watches Chinese dramas (The Untamed, Guardian, Sleuth of the Ming Dynasty)",
+          "lines": [
+            102,
+            108,
+            132,
+            136,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't do horror' because they don't like feeling scared, but they are not bothered by violence or gore.",
+          "value": "dislikes horror (avoids fear); tolerates violence",
+          "lines": [
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions choosing shows based on mood, and specifically says 'if I'm feeling depressed, maybe I want to watch say yes to the dress'.",
+          "value": "mood-based TV viewer; comfort show Say Yes to the Dress",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they've done about 4-5 Prolific conversations, don't try to maximize earnings, and use a browser plug-in for study alerts.",
+          "value": "casual Prolific user (~5 conversations; uses browser plug-in)",
+          "lines": [
+            8,
+            14,
+            16,
+            166,
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,431 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b confirms her name as 'Candy' (line 250) after speaker_a repeats it in line 249.",
+          "value": "Candy",
+          "lines": [
+            247,
+            248,
+            249,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is from Illinois, specifically Chicago (line 11), and later adds she was born and raised there and her mother is in Illinois (line 213).",
+          "value": "Chicago, Illinois",
+          "lines": [
+            11,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states 'I'm 33' directly.",
+          "value": "33 years old",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I am an only child' (line 207).",
+          "value": "Only child",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b asks about Catholic background and speaker_a responds affirmatively with 'Yes, we were raised like...'",
+          "value": "Raised Catholic",
+          "lines": [
+            210,
+            211
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says she does not feel educated enough to identify as Democrat or Republican and sees herself as 'middle of the road' (lines 205, 207).",
+          "value": "Politically moderate",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states 'I am a financial analyst, so I work for a manufacturing company and I do all their balance sheets and profit and loss statements'.",
+          "value": "Financial analyst at a manufacturing company",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'in the middle of March, I started working from home and I'm still currently working from home'.",
+          "value": "Working from home since mid-March",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses property taxes and says 'Mine's 8000' in reference to her own house, also mentions 'your house' and 'I don't live in a mansion'.",
+          "value": "Homeowner in Illinois",
+          "lines": [
+            217,
+            223,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states her property tax amount directly: 'Mine's 8000'.",
+          "value": "Pays $8,000 annual property tax",
+          "lines": [
+            223
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I got my mom here in Illinois'.",
+          "value": "Mother alive and living in Illinois",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having to make a life-support decision for her dad when she was in her twenties, implying he has since died.",
+          "value": "Father deceased (end-of-life decision when speaker was in 20s)",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she had a friend with diabetes and health issues who 'did pass away from it about a month ago'.",
+          "value": "Friend died of COVID-19",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her grandma had 10 children and they are all in Wisconsin, giving her a large extended family of cousins.",
+          "value": "Large extended family in Wisconsin",
+          "lines": [
+            207,
+            209,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_b's relief that her kids are grown, speaker_a replies 'I have not' and describes her home as quiet with 'no one at the moment'.",
+          "value": "No children",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "When friends invite her to bars during the July 4th weekend, she says it's 'too soon'.",
+          "value": "Avoids social gatherings due to COVID-19",
+          "lines": [
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I've never, never been there' when discussing Utah.",
+          "value": "Never visited Utah",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b gives her name as 'Really lean' (phonetically 'Raylene'), and speaker_a repeats it as 'Raylene'.",
+          "value": "Raylene",
+          "lines": [
+            248,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Utah' (line 14) and 'I lived in the Salt Lake City area' (line 24).",
+          "value": "Salt Lake City area, Utah",
+          "lines": [
+            14,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm from Idaho'.",
+          "value": "Originally from Idaho",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We could be at ski resorts in 10 minutes from right where I live'.",
+          "value": "Lives within 10 minutes of ski resorts",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I was born in early 60s'.",
+          "value": "Born in early 1960s",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not mormon'.",
+          "value": "Not Mormon",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm a flaming liberal' and 'flaming feminists flaming liberal, That's just who I am'.",
+          "value": "Liberal and feminist",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I come from that pioneer weird polygamous stock'.",
+          "value": "Descendant of Mormon pioneers (polygamous ancestry)",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm not working right now' (line 78) and confirms again (line 137).",
+          "value": "Unemployed",
+          "lines": [
+            78,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was doing a director of marketing job completely from home, all remotely for years'.",
+          "value": "Former Director of Marketing (remote)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a job offer from a mortgage company that was rescinded due to COVID-19: 'they responded it right, when Covid hit'.",
+          "value": "Job offer for mortgage marketing rescinded due to COVID-19",
+          "lines": [
+            138,
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she worked in mortgages and wrote blog posts on each state.",
+          "value": "Experience in mortgage marketing and content writing",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my property tax for my house is like 2200 a year'.",
+          "value": "Homeowner in Utah",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states the amount directly.",
+          "value": "Pays $2,200 annual property tax",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I have two to a live Children' (interpreted as two alive biological children) and 'neither of my two sons'.",
+          "value": "Two biological sons",
+          "lines": [
+            88,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my oldest son is 30, just turned 30'.",
+          "value": "Oldest son is 30 years old",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My son is in a metal band that was touring europe'.",
+          "value": "Son is in a metal band",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her son 'was a Type one diabetic'.",
+          "value": "Son has Type 1 diabetes",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states '10 alive step Children' and earlier gives an age range for stepkids.",
+          "value": "10 stepchildren",
+          "lines": [
+            208,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b asks 'how old is, is Trevor? 27 or 28?' and later mentions 'a stepson', linking Trevor to that stepson.",
+          "value": "Stepson named Trevor, approximately 27-28 years old",
+          "lines": [
+            42,
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I have step grandkids'.",
+          "value": "Step-grandchildren",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my other son and his girlfriend came over'.",
+          "value": "Son has a girlfriend",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b uses 'we' throughout, has stepchildren implying a blended family, and refers to 'when I first got married', suggesting a current partnership.",
+          "value": "Currently married or partnered",
+          "lines": [
+            16,
+            50,
+            84,
+            222
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'We've been home since like March eight. We literally have gone to the grocery store and that's it.'",
+          "value": "Strict stay-at-home since March 8, only grocery store",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've cooked everything. I am really tired of cooking.'",
+          "value": "Cooks all meals at home",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes being 10 minutes from ski resorts, hiking, seeing moose, and calls the area really beautiful.",
+          "value": "Enjoys outdoor recreation (skiing, hiking)",
+          "lines": [
+            114,
+            116
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she cried when she saw her kids for the first time since March.",
+          "value": "Misses her children, became emotional when seeing them after isolation",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is 'not dying for a drink yet' in response to the idea of going to bars.",
+          "value": "Avoids bars during pandemic",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I had a pretty pretty childhood', indicating a positive or good childhood.",
+          "value": "Describes childhood as good",
+          "lines": [
+            48
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,500 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 5: speaker_a introduces herself as 'Maria'.",
+          "value": "Maria",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 23: she says she works in a tax department and is a tax associate (ASR 'attacks' for 'a tax'). Line 31: she says she started there in January.",
+          "value": "tax associate at a firm (started in January)",
+          "lines": [
+            23,
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 9: she says she is in New York, specifically the White Plains area. Line 11: she confirms 'where I live like in White plains'.",
+          "value": "White Plains, New York (Westchester County)",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 87: she says 'I'm originally from Macedonia, which is a country in southeast europe'.",
+          "value": "Macedonian origin",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 133: she says 'not like like us the middle class', identifying herself and her husband as middle class.",
+          "value": "self-identifies as middle class",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Maria (line 5) and repeated references to a husband (e.g., line 17) indicate speaker_a is female.",
+          "value": "female",
+          "lines": [
+            5,
+            17
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 79: she says 'it's just like depressing' in reference to her repetitive daily routine and isolation during the pandemic.",
+          "value": "feels depressed about current repetitive routine and isolation",
+          "lines": [
+            79
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "In lines 113, 115 and 131 she explains that tax returns she prepares go through multiple layers of review (senior, manager, partner) and that she is not the one who signs or is ultimately responsible.",
+          "value": "not personally liable for tax returns; work subject to multi-layer review (senior, manager, partner sign)",
+          "lines": [
+            113,
+            115,
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Lines 95, 97: she states her firm gives 18 PTO days per year including sick days, and she earns 1.5 days per month, plus a floating holiday.",
+          "value": "18 PTO days per year, accrues 1.5 days per month, plus a floating holiday",
+          "lines": [
+            95,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 161-163: she says 'we own a condo. I mean a co op with my husband' and plans to sell it.",
+          "value": "owns a co-op apartment jointly with husband",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 163: she says 'we're planning to sell it and then by a duplex next year that we're gonna use like a hermit schoolhouse hack which we're gonna one side and then on the other side' (living in one unit, renting the other).",
+          "value": "planning to sell co-op and purchase duplex to live in one unit and rent the other (house hack)",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 169, 171, 173: she says her husband had an old 401k, they converted it to a self-directed IRA, and with that money they are going to invest in syndication.",
+          "value": "converted husband's old 401k to self-directed IRA to invest in real estate syndications",
+          "lines": [
+            169,
+            171,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 179, 183: she defines accredited investor net worth as above $1 million (excluding house) and says 'our network is not $1 million, but that exclude your house', indicating their net worth below $1M and not accredited.",
+          "value": "net worth (excluding primary residence) below $1 million; not an accredited investor",
+          "lines": [
+            179,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 69: she says during busy season before she was working 'like 12, 13, 14 hours a day'.",
+          "value": "works 12-14 hours per day during tax busy season",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 145: she says 'I'm trying to go to the government like I will start applying for jobs' citing great benefits, work-life balance and a government pension.",
+          "value": "planning to apply for government jobs for better benefits and pension",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 165: she says 'I want like in 10 years from now to have enough passive income that if I don't want to work that I don't have to work'.",
+          "value": "goal of achieving enough passive income to become financially independent within 10 years",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 215, 217: she says 'we try to do is make Have uh like an income coming from multiple streams'.",
+          "value": "aims to build multiple income streams",
+          "lines": [
+            215,
+            217
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 95: she says 'I have like a lot of vacation days. I'm just gonna take every friday off until the end of the year'.",
+          "value": "planning to use accrued vacation days to take every Friday off until year-end",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She repeatedly mentions 'my husband' and their shared activities (e.g., lines 17, 21).",
+          "value": "married, has a husband",
+          "lines": [
+            17,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 55, 73: she says they go over to her in-laws every weekend. Line 75: she calls her mother-in-law to plan meals, confirming both mother- and father-in-law.",
+          "value": "has in-laws (husband's parents), visits them every weekend",
+          "lines": [
+            55,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 91, 93: she says they drove to Pennsylvania last weekend to visit her brother-in-law and his family, and they hadn't seen them since January.",
+          "value": "has a brother-in-law (husband's brother) living in Pennsylvania",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 87: she says 'my parents, I'm originally from Macedonia... they're supposed to come to visit us in May', implying parents reside abroad, likely in Macedonia.",
+          "value": "has parents, presumably living in Macedonia",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 85: she says 'My friend was getting married so we're weak and we had a whole plan, like the wedding was going to be Hanover' in Germany.",
+          "value": "has a friend who planned a wedding in Hanover, Germany",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 57, 61, 65, 73: she mentions walking the dog, having a dog, and taking the dog outside.",
+          "value": "has a dog (shared pet with husband)",
+          "lines": [
+            57,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 17, 21, 67: she says they have been working from home since mid-March; she uses a spare room, her husband works in the living room on a table.",
+          "value": "works from home in spare room since mid-March; husband works in living room",
+          "lines": [
+            17,
+            21,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 65, 73: she describes 'every day is pretty much the same like you wake up, walk the dog, come to the room... then have dinner, watch a movie and then go to bed'.",
+          "value": "daily routine: wake up, walk dog, work in spare room, dinner, movie, bed",
+          "lines": [
+            65,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 55, 73, 75: she says they go to her in-laws every weekend, she calls her mother-in-law to see what's in the fridge and they make something together.",
+          "value": "visits in-laws every weekend and coordinates meals with mother-in-law",
+          "lines": [
+            55,
+            73,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 81, 83: she does not wear a mask while walking the dog outside (she moves aside if someone approaches), but wears a mask in stores or when interacting with people.",
+          "value": "wears mask only for indoor/public interactions, not while walking dog outside",
+          "lines": [
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 61: she says 'in the summer would go hiking or we will just do something like outside with our dog'.",
+          "value": "goes hiking and does outdoor activities with dog in summer",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 91, 93: she says they drove to Pennsylvania last weekend to visit her brother-in-law and his family, and 'that was our vacation for the year'.",
+          "value": "took a road trip to Pennsylvania to visit brother-in-law as only vacation of the year",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 85, 87: she planned a trip to Germany for a friend's wedding (Hanover, Berlin, Hamburg) but it was cancelled due to COVID.",
+          "value": "planned a Germany trip (Hanover/Berlin/Hamburg) for friend's wedding, cancelled due to COVID",
+          "lines": [
+            85,
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 151, 177: she says 'I've been educating myself, I got in touch with a lot of people' and 'I've been networking a lot and getting to know... general partners' for real estate investing.",
+          "value": "self-educating on real estate investing and networking with general partners",
+          "lines": [
+            151,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 95: she plans to take every Friday off until the end of the year because she has many vacation days.",
+          "value": "taking every Friday off until end of year",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 71: she says 'now I will just log in, sit there, watch some... videos that we have to do training for' to prepare for the next tax season.",
+          "value": "currently doing tax-related training videos for next season",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 35, 37, 39: she describes restrictive office policies (masks all day, one person in bathroom, no kitchen use) and says 'what's the point? I would just rather work from home'.",
+          "value": "prefers working from home over returning to office with COVID-19 restrictions",
+          "lines": [
+            35,
+            37,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 4: speaker_b introduces himself as 'Ian'.",
+          "value": "Ian",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 42: he says 'I'm a marketing consultant... I help small to medium sized companies with their digital marketing efforts'. Line 142: he says 'I represent a wealth management firm'.",
+          "value": "marketing consultant representing a wealth management firm, helps SMBs with digital marketing",
+          "lines": [
+            42,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 8: he says 'I'm in Central New Jersey'.",
+          "value": "Central New Jersey",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Ian (line 4) is typically male; no explicit gender statement but inferred.",
+          "value": "male",
+          "lines": [
+            4
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 8: he mentions 'the kids are home for school today'. Line 236: he gives their ages as 'Five and eight'.",
+          "value": "father of two children (ages 5 and 8)",
+          "lines": [
+            8,
+            236
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 42 and 142: he works as a marketing consultant and represents a wealth management firm.",
+          "value": "employed/contracted as marketing consultant for a wealth management firm",
+          "lines": [
+            42,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 46: he says 'often I was working in different offices anyways, so I travel around a fair amount'.",
+          "value": "work normally involves traveling to different offices",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 152: he says 'I was doing lead generation for a real estate company years ago and this was right before the bubble burst in 2008'.",
+          "value": "previously worked in real estate lead generation before the 2008 crash",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 144: he says his deadlines are campaign-based, not strict government deadlines like tax filings.",
+          "value": "job has flexible, campaign-based deadlines rather than strict government-imposed deadlines",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 8 and 236: he mentions his kids are home and gives their ages as five and eight.",
+          "value": "has two children (ages 5 and 8)",
+          "lines": [
+            8,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 218: he says 'I learned that from my parents is to be frugal'.",
+          "value": "has parents who taught him frugality",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 8: he says 'I apologize for my background, I'm stuck in the garage because the kids are home for school today'.",
+          "value": "works from home in garage because children are home",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 46 and 48: he says he used to travel for work and is accustomed to working remotely, but the lack of face-to-face interaction is the biggest change.",
+          "value": "accustomed to traveling for work, currently working remotely",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 48 and 50: he says 'we use zoom and Webex also' and 'it's just not the same for me... I prefer that face to face interaction'.",
+          "value": "uses Zoom and Webex for work, prefers face-to-face interaction",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 50: he says 'maybe I'm a little bit too old for this' referring to video conferencing.",
+          "value": "considers himself somewhat too old for video conferencing",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 242: he says 'This is I've actually done this before' regarding the 25-minute timed conversation format.",
+          "value": "repeat participant in this type of structured timed conversation",
+          "lines": [
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 218: he says he learned from his parents to be frugal and 'every penny that you can save or earn is something that is going to be helpful'.",
+          "value": "practices frugality in personal finances",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 60 and 80: he agrees with speaker_a's strict precautions, saying 'that's exactly what we're doing' and 'we're trying yeah'.",
+          "value": "follows strict COVID-19 safety precautions (limited store visits, staying home)",
+          "lines": [
+            60,
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

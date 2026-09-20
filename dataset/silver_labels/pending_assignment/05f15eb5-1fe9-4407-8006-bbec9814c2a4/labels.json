@@ -1,0 +1,428 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly states 'I'm in Arizona'.",
+          "value": "Arizona",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm outside' (line 5), 'I'm a grad student at the S. U. Original State University' (likely 'Arizona State University', line 19), 'I'm closed the university by a cafe' (line 151, ASR for 'close to the university by a cafe'), and 'I came here for my PhD' (line 159). Together this places him at or near the ASU campus at a cafe.",
+          "value": "At or near Arizona State University, outside at a cafe",
+          "lines": [
+            5,
+            19,
+            151,
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicit: 'I'm from Turkey' (lines 167, 171).",
+          "value": "Originally from Turkey",
+          "lines": [
+            167,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I moved here three years ago, 2018' in the context of living in Arizona.",
+          "value": "Moved to Arizona in 2018",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I have lived in D. C. before in 2011'.",
+          "value": "Lived in Washington D.C. in 2011",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm a grad student at the S. U. Original State University' (ASR for Arizona State University), 'I'm in transportation... Transportation planning' (line 21), 'I came here for my PhD basically' (line 159), 'I'm doing PhD right now' (line 161).",
+          "value": "PhD student in transportation planning at Arizona State University",
+          "lines": [
+            19,
+            21,
+            159,
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly states 'I'm from Turkey' and 'I wasn't born in the us'.",
+          "value": "Turkish nationality / origin",
+          "lines": [
+            167,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicit: 'I wasn't born in the us'.",
+          "value": "Not born in the United States",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm in transportation, I'm doing transportation. Transportation planning.' and 'Working with this autonomous vehicles, stuff like that.'",
+          "value": "Field of study: transportation planning, autonomous vehicles",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "ASR 'almost finishing my Turkey here' is very likely 'almost finishing my third year here'; he also says he moved in 2018 (3 years ago). Best interpretation is he is in his third year of the PhD.",
+          "value": "Approximately in third year of PhD program",
+          "lines": [
+            161,
+            173
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Says 'there is a very good professor here... I was dreaming to work with him' and 'somehow it happened and I came here', indicating a working relationship with a specific professor.",
+          "value": "Works with a professor at ASU he admired",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I have friends here, they're about to graduate.'",
+          "value": "Has friends who are about to graduate",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes his first Prolific conversation: 'My first time is with a 70 year old, 70 year old white woman from Florida.'",
+          "value": "Had a Prolific conversation with a 70-year-old white woman from Florida",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes another Prolific conversation that lasted 90 minutes with a man from the Seattle area and then disconnected.",
+          "value": "Had a 90-minute Prolific conversation with a man from Seattle area that disconnected",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The entire transcript records a conversation between speaker_a and speaker_b on the Prolific platform.",
+          "value": "Engaged in a Prolific conversation with speaker_b (Florida resident)",
+          "lines": [
+            1,
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'normally I am at the other end of the experiments, I'm the one who designed the survey is putting prolific all this stuff' and describes the survey design process in detail.",
+          "value": "Designs surveys and research studies, including on Prolific",
+          "lines": [
+            63,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States he has seen 'more than 30 countries', 'almost 30 states', and 'more than 200 cities' in his life.",
+          "value": "Extensive traveler (30+ countries, ~30 states, 200+ cities)",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses satisfaction with Arizona: 'I really I love it here basically', 'I really like it here. Very peaceful', 'people are very peaceful'.",
+          "value": "Enjoys living in Arizona, finds it peaceful",
+          "lines": [
+            189,
+            194,
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In response to 'how long have you been doing prolific for?' answers 'I just started actually it's been two months.'",
+          "value": "Prolific participant for approximately 2 months",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly says 'I'm actually in florida' and 'central florida, so just around Tampa area.'",
+          "value": "Tampa area, Florida",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I live, you know scalping Tampa but I'm from across the bay' (ASR 'scalping' likely 'just outside'; meaning he resides across the bay from the city of Tampa).",
+          "value": "Lives across the bay from Tampa",
+          "lines": [
+            230
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Mentions working from home multiple times: 'this job ... working from home', 'it's nice to work from home', 'working from home over here in my home'.",
+          "value": "Works from home in the Tampa Bay area",
+          "lines": [
+            32,
+            40,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'born and raised over here' and 'being born and raised here for you know my whole life' in the context of Florida.",
+          "value": "Born and raised in Florida",
+          "lines": [
+            214,
+            240
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Explicitly says 'I'm the first generation, you know, us uh citizen over here.'",
+          "value": "First-generation US citizen",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my father is from the Czech Republic'.",
+          "value": "Father from Czech Republic",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my mother is from Southeast Asia'.",
+          "value": "Mother from Southeast Asia",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm basically a mix' referring to Czech and Southeast Asian heritage.",
+          "value": "Mixed ethnicity (Czech and Southeast Asian)",
+          "lines": [
+            214,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicit: 'I graduated with the undergraduate um Back in 2011 so business management'.",
+          "value": "Bachelor's degree in Business Management, graduated 2011",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I work with the automotive, the industry um just admin doing clerical work, sending out agreements more' (line 16). The 'not work from home though' is likely ASR error; later lines confirm remote work.",
+          "value": "Admin/clerical worker in automotive industry",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicit: 'I used to work for a large elevator corporation for six years.'",
+          "value": "Previously worked for a large elevator corporation for 6 years",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'with my fiancee to walt Disney world'.",
+          "value": "Engaged",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says current job 'really has no benefits um and the pay is low compared to what I was making previously'.",
+          "value": "Current job has no benefits and low pay compared to previous",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States previous employer relocated and he 'got a severance package'.",
+          "value": "Received severance package from previous employer",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I started in december last year and here we are, mid november', indicating about 11 months at current job.",
+          "value": "Started current job in December of previous year (~11 months ago)",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asks 'how long have you been doing prolific for?', says 'this is my fifth time doing this', mentions being compensated promptly and waiting for payment.",
+          "value": "Participates in Prolific studies for compensation",
+          "lines": [
+            58,
+            82,
+            132,
+            138,
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicitly mentions 'my fiancee'.",
+          "value": "Has a fiancee",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'both my parents immigrated here'.",
+          "value": "Both parents immigrated to the US",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists previous Prolific conversation partners: 'from Washington D C ... Rhode island ... Jacksonville florida Georgia ... Arizona ... Los Angeles area'.",
+          "value": "Had Prolific conversations with people from Washington DC, Rhode Island, Jacksonville FL, Georgia, Arizona, and Los Angeles",
+          "lines": [
+            116,
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The transcript records a conversation between speaker_b and speaker_a.",
+          "value": "Engaged in Prolific conversation with speaker_a (Arizona)",
+          "lines": [
+            1,
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes working from home and doing chores: 'doing laundry, washing dishes, something like that compared to driving' and 'working from home over here in my home'.",
+          "value": "Works from home, often does household chores during work",
+          "lines": [
+            32,
+            40,
+            44,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'on the weekends I go to, you know, with my fiancee to walt Disney world' and describes the drive from the Tampa area.",
+          "value": "Visits Walt Disney World regularly on weekends with fiancee",
+          "lines": [
+            248,
+            252,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Complains about local traffic and insurance: 'It's horrendous with the commute', 'one of the highest insurance rates in the whole country', 'drivers out here are horrendous'.",
+          "value": "Dislikes Florida traffic and high insurance rates",
+          "lines": [
+            48,
+            50,
+            52,
+            232,
+            234
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'my favorite ... fast food chain will be in and out' and 'that's one thing I just miss going out west'.",
+          "value": "Favorite fast food chain is In-N-Out Burger",
+          "lines": [
+            206,
+            208,
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions enjoying train travel in Europe: 'when I went to europe, you know just taking an old fashioned train ... works once in a while'.",
+          "value": "Enjoys train travel in Europe",
+          "lines": [
+            290
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

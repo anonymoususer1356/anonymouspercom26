@@ -1,0 +1,373 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he is in Delaware (line 19), speaker_b confirms (line 20), and later speaker_a again refers to 'around here um Delaware' (line 97).",
+          "value": "Delaware",
+          "lines": [
+            19,
+            20,
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to 'my wife' (line 65), strongly implying that speaker_a is male.",
+          "value": "male",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explicitly states 'my wife' (line 65) and mentions her repeatedly throughout the conversation.",
+          "value": "married",
+          "lines": [
+            65,
+            127,
+            165,
+            177,
+            183,
+            249,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm not as young as I used to be' (line 163), indicating he is an older adult, though exact age is not given.",
+          "value": "older adult (not young)",
+          "lines": [
+            163
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'my mind goes to the dark place' (line 127), indicating a tendency toward pessimistic or dark thoughts, which relates to his mental state.",
+          "value": "tendency towards pessimistic/dark thoughts",
+          "lines": [
+            127
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I always work from home, I'm do web development' (line 163) and 'I've been doing 25 years, I've been doing this' (line 245), establishing his occupation and its duration.",
+          "value": "web developer",
+          "lines": [
+            163,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I always work from home' (line 163).",
+          "value": "works from home",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he has been doing web development for 25 years (line 245).",
+          "value": "25 years experience as a web developer",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'the money is okay, the money's not great' (line 245) and 'between me and my wife, we meet and you'll make ends meet' (line 249).",
+          "value": "modest income, just making ends meet",
+          "lines": [
+            245,
+            249
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'we got a lot of land on our property and we got a nice big backyard and a hot tub' (line 177).",
+          "value": "owns property with land, backyard, and a hot tub",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my wife is a travel agent' (line 65).",
+          "value": "married to a travel agent",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my mom' in lines 33 and 165, and says she lives in New Jersey (line 165).",
+          "value": "has a mother who lives in New Jersey",
+          "lines": [
+            33,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My niece is going to U C L A' (line 31).",
+          "value": "has a niece who attends UCLA",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife's daughter' (line 183) and mentions she is a dental assistant (line 189).",
+          "value": "has a step-daughter (wife's daughter) who is a dental assistant",
+          "lines": [
+            183,
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my cats love' (line 15) and 'there's two of them somewhere' (line 19).",
+          "value": "has two cats",
+          "lines": [
+            15,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't have a lot of friends you know to go out with' (line 163).",
+          "value": "limited social circle, few friends",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes his area as 'very rural ... a lot of corn fields' (line 163).",
+          "value": "lives in a rural area with corn fields",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we moved here from New Jersey uh nine years ago' (line 161).",
+          "value": "moved from New Jersey to Delaware nine years ago",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I never go out anywhere anyway' and 'I'm not into all that' regarding socializing (line 163).",
+          "value": "rarely goes out, not into socializing",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when it first started I was watching the news 24 7 ... and then after a while I just I couldn't I can't listen to him' (lines 139-141), indicating a shift in news consumption.",
+          "value": "initially watched news constantly but stopped due to negativity",
+          "lines": [
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'everybody here wears masks ... I was gonna put mine on' (lines 69-71), indicating he wears a mask in public.",
+          "value": "wears a mask in public",
+          "lines": [
+            69,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'we got a nice big backyard and a hot tub' and spends time hanging out at home (lines 177-179).",
+          "value": "enjoys backyard and hot tub at home",
+          "lines": [
+            177,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he talks to his mother on the phone and avoids video calls ('I don't want to see my mama video, we talk on the phone' line 169-171).",
+          "value": "only talks to mother on phone, avoids video calls",
+          "lines": [
+            169,
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says to speaker_a 'you look like a fighter pilot with that, That deer' (line 4), referring to his headphones, and speaker_a acknowledges (line 5).",
+          "value": "wearing a large headset that resembled a fighter pilot helmet (during the call)",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm I'm in California' (line 24) and later specifies 'I'm in you know California I'm in the san Francisco Bay area' (line 72).",
+          "value": "San Francisco Bay Area, California",
+          "lines": [
+            24,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'Well I'm a dental assistant also' (line 192), identifying her profession.",
+          "value": "dental assistant",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I started getting anxiety, I started freaking out' (line 134) when describing the early days of the pandemic.",
+          "value": "experienced anxiety during the COVID-19 pandemic",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the stress of returning to work: 'the first couple of weeks I mean it was it was bad ... you're getting used to work doing your regular job with all the crap you have on your head' (line 202) and 'we're kind of really close to ground zero for the virus' (line 210) and 'that was a big source of stress' (line 214).",
+          "value": "experienced significant stress about returning to work due to COVID-19 risks",
+          "lines": [
+            202,
+            210,
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'Well I'm a dental assistant also' (line 192) and discusses her workplace closure and return.",
+          "value": "dental assistant",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'mostly I'm at work, I don't get to be home a lot' (line 130) and talks about 'our office' (line 200).",
+          "value": "works in a dental office (not remotely)",
+          "lines": [
+            130,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'our last day was March 16 or 17 and then We are office didn't open until June one so over two months' (line 200).",
+          "value": "dental office closed from mid-March to June 1 due to pandemic",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my actually my sister graduated from U C L A, you know, a month ago' (lines 36-38).",
+          "value": "has a sister who graduated from UCLA about a month ago",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I started knitting' (line 258) and 'I should finish this sweater' (line 262).",
+          "value": "took up knitting during lockdown",
+          "lines": [
+            258,
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I started making my own bread' (line 258) and later discusses the difficulty finding flour and yeast (line 266).",
+          "value": "started baking bread during lockdown",
+          "lines": [
+            258,
+            266
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I will dedicate 20 minutes of my day for the news' (line 136) as a strategy to limit exposure to negative news.",
+          "value": "limits daily news consumption to about 20 minutes",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went on and I watched pretty much all the episodes' of 'Some Good News' on YouTube (lines 148-156).",
+          "value": "watched the YouTube show 'Some Good News'",
+          "lines": [
+            148,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses acquaintances who returned from Idaho and didn't wear masks, and she says 'I'm not gonna see you for a couple of weeks' (lines 86-92).",
+          "value": "avoids friends who do not wear masks",
+          "lines": [
+            86,
+            92
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b describes wearing extensive PPE at work: 'all this stuff that you're wearing ... the crap you have on your head and your eyes and nose' (line 202).",
+          "value": "wears full PPE (mask, eye protection) at work",
+          "lines": [
+            202
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

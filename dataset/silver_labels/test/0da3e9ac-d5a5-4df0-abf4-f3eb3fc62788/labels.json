@@ -1,0 +1,362 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states her name directly.",
+          "value": "Christa",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is about an hour from Boston and describes her area as 'a little suburban town'. This places her in a suburb roughly one hour from Boston, MA.",
+          "value": "a suburban town about an hour from Boston, Massachusetts",
+          "lines": [
+            19,
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she grew up and lived most of her life in Boston.",
+          "value": "grew up in Boston, Massachusetts",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name is Christa, and she is glad she did not get a 'creepy man' on the call, with speaker_b agreeing; both are thus female.",
+          "value": "female",
+          "lines": [
+            349,
+            350
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explicitly says she has physical disabilities.",
+          "value": "person with physical disabilities",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions she has a 13-year-old daughter, making her a parent of a teenager.",
+          "value": "parent of a teenager",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states her church is the second oldest in the entire nation, indicating membership in that specific historic church.",
+          "value": "member of the second oldest church in the nation",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a directly says she has physical disabilities.",
+          "value": "has physical disabilities",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she uses a rollator to walk around, indicating a mobility impairment.",
+          "value": "uses a rollator (wheeled walker) for mobility",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says they own their condo, contrasting it with rented apartments in the same complex.",
+          "value": "owns a condo (with boyfriend)",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she was doing part‑time and volunteer work that is now over due to the pandemic, implying she is not currently employed.",
+          "value": "not employed; previously did part‑time and volunteer work",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having a membership to a gym with pool and hot tub.",
+          "value": "has a gym membership",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a talks about her boyfriend, saying they are together now after living apart, and that he works as a chef at a country club.",
+          "value": "has a boyfriend who is a chef at a country club",
+          "lines": [
+            55,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we live in like a condo complex' and 'we own ours', confirming cohabitation with the boyfriend.",
+          "value": "lives with boyfriend",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a 13 year old daughter'.",
+          "value": "has a 13-year-old daughter",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a calls her dog 'my little guy' and says 'there he is, Elliot', then later refers to 'my chihuahua' and getting him from a shelter. The dog's name is Elliot.",
+          "value": "has a pet chihuahua named Elliot",
+          "lines": [
+            177,
+            299,
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a friend in San Francisco, California.",
+          "value": "has a friend in San Francisco, California",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her church as the second oldest in the nation, indicating a relational tie to that congregation.",
+          "value": "attends the second oldest church in the nation",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she took theatre in college and describes a rehearsal experience.",
+          "value": "participated in theatre in college",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says being in the pool and hot tub is the best place for her, indicating she enjoys aquatic exercise/leisure.",
+          "value": "enjoys swimming and hot tub sessions at the gym",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using a rollator to walk around, which is part of her daily mobility.",
+          "value": "uses a rollator for walking",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "After speaker_a gives her name, speaker_b says 'Erica', providing her own name.",
+          "value": "Erica",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b first says 'I'm in new york city' and later specifies 'I'm in the Bronx'. This identifies her borough.",
+          "value": "the Bronx, New York City",
+          "lines": [
+            18,
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name is Erica, and she agrees with speaker_a's comment about not getting a creepy man, indicating both are female.",
+          "value": "female",
+          "lines": [
+            349,
+            350
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I do improv' and describes being part of the improv theatre community, marking her as a performer.",
+          "value": "improv theatre performer",
+          "lines": [
+            104,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I don't really have it like I am pretty safe' in reference to COVID‑19, indicating she has not been infected.",
+          "value": "has not contracted COVID-19 (as of conversation)",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is not working right now due to the pandemic.",
+          "value": "not currently employed",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was working at the box office and bar at the improv theatre. Later she contrasts Magnet Theatre and UCB, aligning herself with Magnet Theatre's online pivot and saying 'so like I'm getting some money', which implies her workplace was Magnet Theatre.",
+          "value": "previously worked at box office/bar at Magnet Theatre (improv theatre)",
+          "lines": [
+            226,
+            230,
+            236
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I live with my parents'.",
+          "value": "lives with parents",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dad's a mailman' and that he still works.",
+          "value": "father is a mailman",
+          "lines": [
+            168,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My boyfriend lives like an hour and a half' away and later clarifies 'My boyfriend lives in queens', also noting he lives with his parents.",
+          "value": "has a boyfriend who lives in Queens, NYC and lives with his parents",
+          "lines": [
+            48,
+            52,
+            334
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b introduces her dogs: Puccini is a papillon, Max is a papillon-chihuahua mix.",
+          "value": "has two dogs: Puccini (papillon) and Max (papillon-chihuahua mix)",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her cousin lives in California.",
+          "value": "has a cousin in California",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm part of a Indy team called Who Prov We do ... improvised episodes of Doctor Who'.",
+          "value": "member of the improv team 'Who Prov'",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b confirms she does improv comedy.",
+          "value": "performs improv comedy",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was part of musical improv but got burned out.",
+          "value": "previously did musical improv but stopped",
+          "lines": [
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains that before the pandemic she was always going out to improv shows, indicating a frequent social/performance habit.",
+          "value": "before the pandemic, frequently attended improv shows",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her dogs follow her around and she is home all the time now, indicating pet ownership as part of daily life.",
+          "value": "has two dogs that are part of daily home life",
+          "lines": [
+            300,
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

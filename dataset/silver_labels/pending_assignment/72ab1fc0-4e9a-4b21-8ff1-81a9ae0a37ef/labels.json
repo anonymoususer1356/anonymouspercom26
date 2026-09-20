@@ -1,0 +1,310 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is calling from New York (line 19), and says he is in an area in New York City (line 37). He refers to New York City school system and living there (lines 49, 67).",
+          "value": "New York City",
+          "lines": [
+            19,
+            37,
+            49,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is 'not actually that far from like where the the Elmhurst hospital' (line 39) and mentions having friends in 'the Elmer Statehood', which is an ASR error for Elmhurst, placing him near that hospital.",
+          "value": "near Elmhurst Hospital",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says his friend is in his early thirties and a couple of months younger than himself, implying he is also in his early thirties (line 47).",
+          "value": "early thirties",
+          "lines": [
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a refers to 'my wife' (lines 53, 81), establishing he is married.",
+          "value": "married",
+          "lines": [
+            53,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly states 'I have a four year old' (line 49), and refers to 'my kid' multiple times.",
+          "value": "parent of a four-year-old child",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states 'the guy's healthier than me' (line 49), indicating he perceives his own health as inferior to his friend's.",
+          "value": "self-assessed as less healthy than his friend",
+          "lines": [
+            49
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work in the construction industry myself' (line 171).",
+          "value": "works in construction industry",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was 'serving a hospital for for exterior war replacement' (line 171); 'war' is likely an ASR error for 'wall' or 'window', indicating his work involves exterior wall/window replacement at a hospital.",
+          "value": "worked on exterior wall/window replacement at a hospital",
+          "lines": [
+            171
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states that the hospital project is 'on hold right now' (line 173).",
+          "value": "hospital project on hold",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "While recounting a conversation with his neighbor, speaker_a says 'just like I'm working for him home right now' (line 79). In context, the intended phrase is 'working from home'.",
+          "value": "currently working from home",
+          "lines": [
+            79
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife is a homemaker' (line 81), which indicates his spouse has no outside income, affecting household economic status.",
+          "value": "wife is a homemaker",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to his wife and says she is a homemaker (lines 53, 81).",
+          "value": "married to a homemaker",
+          "lines": [
+            53,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a four year old' (line 49).",
+          "value": "parent of a four-year-old child",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I know a friend who was an E. M. T.' and describes the friend being intubated and in rehab (lines 45-47).",
+          "value": "friend is an E.M.T. who was intubated due to COVID",
+          "lines": [
+            45,
+            46,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have friends actually in the Elmer Statehood' which is an ASR error for Elmhurst (line 39).",
+          "value": "has friends in Elmhurst neighborhood",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my neighbor um he also has a son, that's exactly the age of my son' (line 79).",
+          "value": "neighbor with a son the same age as his child",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says about his neighbor: 'His wife is his wife I think is a nurse' (line 81), indicating uncertainty but stating the neighbor's wife's occupation.",
+          "value": "neighbor's wife is a nurse",
+          "lines": [
+            81
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a states that his child's school 'was my school, You know, 30 years ago' (line 67).",
+          "value": "attended the same school as his child 30 years ago",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he had a previous chat 'two days ago' with 'a teacher, a new teacher, in fact from California' (line 63).",
+          "value": "recently had a conversation with a new teacher from California",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm okay, we'll keep my kid home' (line 81), indicating he is keeping his child home from school during the pandemic.",
+          "value": "keeping child home from school",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As noted under economic, speaker_a indicates he is working from home (line 79).",
+          "value": "working from home",
+          "lines": [
+            79
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "At the hospital job, speaker_a describes being required to put on disposable suits and dispose of them after entering patient rooms (line 171), showing he follows strict infection control protocols at work.",
+          "value": "follows infection control protocols at work (disposable suits)",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself as 'I'm Robin' (line 6).",
+          "value": "Robin",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm calling you from Kentucky' (line 10).",
+          "value": "Kentucky",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if Kentucky is in the Eastern time zone, speaker_b confirms 'Eastern. Yeah, it is.' (line 14).",
+          "value": "Eastern Time Zone",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains 'I moved to a little smaller town' (line 34), indicating her current residence is a smaller town.",
+          "value": "smaller town in Kentucky",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was up in northern Kentucky, which is near Cincinnati' (line 30), describing her previous location.",
+          "value": "previously lived in northern Kentucky, near Cincinnati",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b states she moved in the middle of the virus from a high-risk area to a smaller town (lines 28-34).",
+          "value": "moved to a smaller town during the pandemic",
+          "lines": [
+            28,
+            30,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I get my groceries at the click list and I got to pick them up' (line 168), meaning she uses a curbside pickup service.",
+          "value": "uses grocery click list/curbside pickup",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I get stuff delivered amazon never uh target' (line 168), which, despite the garbled 'never', clearly indicates she gets deliveries from Amazon and Target.",
+          "value": "gets deliveries from Amazon and Target",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I haven't been going in stores' (line 168).",
+          "value": "avoids going into stores",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I did go into the dentist in the doctor's office' (line 168).",
+          "value": "visited dentist and doctor during pandemic",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes precautions at medical appointments: 'they were a mask, I wore masks, they took my temperature' (line 170).",
+          "value": "wore mask and had temperature checked at medical visits",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

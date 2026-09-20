@@ -1,0 +1,275 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states his name; ASR: 'get get get uh Justin Justin that Yeah' → intended 'Justin'.",
+          "value": "Justin",
+          "lines": [
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a confirms he lives in Los Angeles, and specifies he is on the west side near Santa Monica.",
+          "value": "Los Angeles, near Santa Monica",
+          "lines": [
+            11,
+            14,
+            15,
+            98,
+            99,
+            100,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he came from China, indicating his origin.",
+          "value": "originally from China",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a is originally from China.",
+          "value": "Chinese",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he attended USC for engineering; ASR 'injury' intended 'engineering'.",
+          "value": "attended USC for engineering",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a works in engineering for one company.",
+          "value": "engineer",
+          "lines": [
+            45,
+            47,
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a has been an engineer for about seven years at one company.",
+          "value": "employed as engineer for approximately 7 years",
+          "lines": [
+            45,
+            47,
+            49,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lives with roommates, indicating shared housing costs.",
+          "value": "lives with roommates",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a shares a home with roommates.",
+          "value": "has roommates",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a confirms he is working from home due to Covid-19.",
+          "value": "works from home during Covid",
+          "lines": [
+            240,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a has visited Yosemite (ASR 'insanity'), Las Vegas several times, and Japan (Kyoto).",
+          "value": "enjoys travel, has visited Yosemite, Las Vegas, and Japan",
+          "lines": [
+            171,
+            183,
+            329
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he prefers quiet places over crowded cities.",
+          "value": "prefers quiet places",
+          "lines": [
+            337,
+            339
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a indicates he does not surf but would like to learn; ASR 'sir'/'serving' intended 'surf'/'surfing'.",
+          "value": "does not surf but interested in learning",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Gabby.",
+          "value": "Gabby",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is back in Boston for a little while, living in a coastal town on a peninsula sticking off Boston.",
+          "value": "coastal town on a peninsula near Boston, Massachusetts (temporary)",
+          "lines": [
+            18,
+            19,
+            20,
+            82,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is originally from Boston.",
+          "value": "originally from Boston, Massachusetts",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lived in Colorado for 10 years in a high-altitude mountain area near a ski resort.",
+          "value": "lived in Colorado mountains (9000 ft) for 10 years",
+          "lines": [
+            18,
+            40,
+            150,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b lost her spa management job at a hotel due to Covid-19 and is currently unemployed.",
+          "value": "unemployed due to Covid-19 layoff",
+          "lines": [
+            40,
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions she does side work online for a little money.",
+          "value": "does occasional online side work",
+          "lines": [
+            270
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b previously worked as a spa manager at a ski resort in Colorado.",
+          "value": "former spa manager at a Colorado ski resort",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b has friends in Boston who own a vacation home in Japan near a ski resort.",
+          "value": "has friends in Boston who own a vacation home in Japan",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b snowboards and used to ride almost daily while living in Colorado.",
+          "value": "avid snowboarder",
+          "lines": [
+            134,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b enjoys travel: visited LA, San Diego; planned trip to Italy (cancelled); wants to visit Japan.",
+          "value": "enjoys travel, visited LA and San Diego, planned Italy trip, wants to visit Japan",
+          "lines": [
+            94,
+            95,
+            96,
+            288,
+            326
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b grew up in Boston and used the subway to commute to high school.",
+          "value": "grew up in Boston, familiar with subway",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b plans to move to New Orleans and pursue a career in travel planning.",
+          "value": "plans to move to New Orleans and work in travel planning",
+          "lines": [
+            264,
+            266,
+            267,
+            268,
+            272
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states they are in Arizona, and provides supporting details like the 108°F heat and that time zones do not change (Arizona does not observe DST).",
+          "value": "Arizona",
+          "lines": [
+            29,
+            43,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says they moved to Arizona at age three and considers themselves a native.",
+          "value": "Moved to Arizona at age 3, considers self native",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions getting off work, their company's initial opposition to working from home, and the shift to working from home during the pandemic.",
+          "value": "Employed at a company that shifted to work-from-home during the pandemic",
+          "lines": [
+            29,
+            113,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions receiving a bonus payment in their Prolific account.",
+          "value": "Has a Prolific account and participates in online studies for payment",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a adopted a puppy from the pound just before the pandemic, it is a mix that looks like a Shiba Inu, and its name is Kai (spelled K A I).",
+          "value": "Has a dog named Kai (mixed breed, looks like Shiba Inu, adopted from the pound)",
+          "lines": [
+            113,
+            115,
+            127,
+            129,
+            188,
+            189,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions visiting their mom and dad's house, indicating they have parents who live within visiting distance.",
+          "value": "Has parents (mom and dad) who live nearby",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they used to date a man whose family was from the Upper Peninsula.",
+          "value": "Previously dated a man from the Upper Peninsula of Michigan",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they live in an apartment complex.",
+          "value": "Lives in an apartment complex",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they take their dog hiking.",
+          "value": "Takes dog hiking",
+          "lines": [
+            177
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says they have been able to train their dog.",
+          "value": "Trains their dog",
+          "lines": [
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions working from home since the pandemic began.",
+          "value": "Works from home",
+          "lines": [
+            113,
+            117,
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states they are in Michigan, mentions it being eight o'clock and still light out, and describes long summer daylight consistent with Michigan.",
+          "value": "Michigan",
+          "lines": [
+            30,
+            32,
+            34,
+            40,
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says they are from the south.",
+          "value": "Originally from the South (US)",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they have lived in Michigan for about 20 years.",
+          "value": "Lived in Michigan for approximately 20 years",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my husband' and 'my two boys', indicating female gender.",
+          "value": "Female (wife and mother)",
+          "lines": [
+            56,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b is married; her husband works in Houston, TX, has an apartment there, and has people working under him.",
+          "value": "Married; husband works in Houston, TX, has an apartment there, and has subordinates",
+          "lines": [
+            56,
+            92,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has two boys; the older one works and the younger one is a college freshman.",
+          "value": "Has two sons: older son is employed, younger son is a college freshman",
+          "lines": [
+            90,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they have two dogs, both Coton mixes (ASR 'catan'), named Dixie and Mason (nicknamed May May).",
+          "value": "Has two dogs: Dixie and Mason (Coton mixes)",
+          "lines": [
+            144,
+            148,
+            150,
+            204
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states they have three cats and describes how they acquired them.",
+          "value": "Has three cats",
+          "lines": [
+            250,
+            256,
+            260,
+            262,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions that one of the cats belongs to her oldest son.",
+          "value": "Oldest son has a cat",
+          "lines": [
+            276
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions a basement and a front lawn; speaker_a notes a window behind speaker_b, suggesting a single-family house with a yard.",
+          "value": "Lives in a house with a yard",
+          "lines": [
+            33,
+            96,
+            98
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b describes having two dogs and three cats, indicating a multi-pet household.",
+          "value": "Multi-pet household (dogs and cats)",
+          "lines": [
+            144,
+            250,
+            276
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

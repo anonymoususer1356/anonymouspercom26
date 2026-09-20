@@ -1,0 +1,361 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Michael.",
+          "value": "Michael",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's niece calls him 'uncle Mike'.",
+          "value": "Uncle Mike",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states 'I live in the south' referring to the US.",
+          "value": "lives in the southern United States",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a McDonald's 'not too far', implying one is near his home.",
+          "value": "lives near a McDonald's",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a's name is Michael and he is referred to as uncle, indicating male gender.",
+          "value": "male",
+          "lines": [
+            5,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he attended college in the early 2000s, indicating he is an adult likely in his late 30s to early 40s.",
+          "value": "adult, attended college in early 2000s",
+          "lines": [
+            319,
+            323
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I have a PS four'.",
+          "value": "owns a PlayStation 4",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he worked at a coffee shop while in college.",
+          "value": "worked at a coffee shop during college",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he attended college in the early 2000s.",
+          "value": "attended college",
+          "lines": [
+            319,
+            323
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my mom is visiting for thanksgiving' and mentions her stroke.",
+          "value": "has a mother",
+          "lines": [
+            9,
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my sister' in context of limiting nephew's screen time.",
+          "value": "has a sister",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states his nephew is eight, names him Caleb, and says his birthday is the day after Thanksgiving.",
+          "value": "has a nephew named Caleb, age 8, with a birthday the day after Thanksgiving",
+          "lines": [
+            17,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions his niece is six years old.",
+          "value": "has a niece, age 6",
+          "lines": [
+            19,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his best friend is named Matt, who is engaged and diabetic.",
+          "value": "has a best friend named Matt",
+          "lines": [
+            7,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's niece refers to him as 'uncle Mike'.",
+          "value": "is an uncle",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a discusses watching The Mandalorian and Star Wars, indicating he is a fan.",
+          "value": "watches The Mandalorian and Star Wars",
+          "lines": [
+            57,
+            75,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he plays Minecraft with his nephew on the PS4 and they build worlds together.",
+          "value": "plays Minecraft with nephew",
+          "lines": [
+            137,
+            139,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he usually sits in the kitchen but is sitting outside because his mom is cooking.",
+          "value": "typically sits in the kitchen but outside when mom cooks",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he rarely plays his PS4 except when his nephew visits.",
+          "value": "rarely plays PS4 unless nephew is present",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a recounts having nothing to do on a Saturday night, so he played Minecraft.",
+          "value": "spent a Saturday night alone with no plans",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a expresses strong frustration with anti-mask sentiment and advocates for wearing masks to mitigate COVID-19.",
+          "value": "wears mask and is cautious about COVID-19",
+          "lines": [
+            245,
+            263,
+            275,
+            281,
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'My call matt', likely meaning 'I'm called Matt'.",
+          "value": "Matt",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "The name Matt and references to a brother indicate male gender.",
+          "value": "male",
+          "lines": [
+            6,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he has kids ages 10 and 7, indicating he is a parent.",
+          "value": "parent of two children",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has an older brother.",
+          "value": "younger sibling",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions 'people at my work', implying he is employed.",
+          "value": "employed",
+          "lines": [
+            252
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b puts a game on his Christmas wish list, indicating he celebrates Christmas.",
+          "value": "celebrates Christmas",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his older brother multiple times, describing him as a Star Wars nerd.",
+          "value": "has an older brother",
+          "lines": [
+            16,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his kids are 10 and 7.",
+          "value": "has two children, ages 10 and 7",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to his mom and says the kids call her grandma.",
+          "value": "has a mother",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having nieces and nephews, including a 4-year-old nephew.",
+          "value": "has nieces and nephews, one nephew age 4",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he watches The Mandalorian and is caught up.",
+          "value": "watches The Mandalorian and Star Wars",
+          "lines": [
+            58,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists old cartoons he watched with his brother and still enjoys.",
+          "value": "enjoys old cartoons (e.g., Voltron, He-Man, Pink Panther)",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses playing Minecraft with his kids occasionally.",
+          "value": "plays Minecraft with his children",
+          "lines": [
+            142,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his kids got him a baby Yoda shirt for his birthday, implying he received and wears it.",
+          "value": "received a baby Yoda shirt from his kids for his birthday",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b criticizes anti-maskers and discusses COVID-19 precautions, indicating he takes it seriously.",
+          "value": "concerned about COVID-19 and takes precautions",
+          "lines": [
+            234,
+            244,
+            248,
+            252
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a comments 'I like your baby shirt' and speaker_b confirms his kids gave it to him, so he is wearing a baby Yoda shirt.",
+          "value": "wearing a baby Yoda shirt",
+          "lines": [
+            11,
+            12
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

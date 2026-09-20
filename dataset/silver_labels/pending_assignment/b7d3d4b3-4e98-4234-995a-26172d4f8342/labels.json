@@ -1,0 +1,451 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Maryland' and describes being in the suburbs of D.C., about a half-hour drive to downtown.",
+          "value": "Maryland, suburban D.C.",
+          "lines": [
+            27,
+            87,
+            91,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has been in the same house for about 25 years, describes being in the basement, and mentions moving into the house and finishing the basement.",
+          "value": "lives in a house with a basement, for about 25 years",
+          "lines": [
+            95,
+            97,
+            131,
+            133,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I grew up in suburbs in New England' and mentions being a couple hundred miles north of her current location.",
+          "value": "grew up in New England suburbs",
+          "lines": [
+            89,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls being 'in school in Pennsylvania' during a road trip with a college friend.",
+          "value": "attended college in Pennsylvania",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions having a youngest 18-year-old, one in college, and one who graduated and lives in D.C.",
+          "value": "parent of three children",
+          "lines": [
+            29,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a repeatedly refers to 'my husband', implying female gender.",
+          "value": "female",
+          "lines": [
+            209,
+            237,
+            239
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a attended college in Pennsylvania (line 185).",
+          "value": "college graduate",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she worked from home even before the pandemic and describes her work as 'at home on the computer'.",
+          "value": "remote worker (works from home on computer)",
+          "lines": [
+            23,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she worked from home even before the pandemic and describes her work as 'at home on the computer'.",
+          "value": "remote worker (works from home on computer)",
+          "lines": [
+            23,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being in the same house for about 25 years and having renovated it 12 years ago.",
+          "value": "homeowner (same house ~25 years)",
+          "lines": [
+            95,
+            97,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her husband travels for work more when things are normal.",
+          "value": "husband travels for work",
+          "lines": [
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions paying $300 to frame a piece of art.",
+          "value": "spent $300 on art framing",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she was obligated on the rent for her daughter's off-campus apartment lease.",
+          "value": "obligated on daughter's college apartment lease",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly says 'my husband'.",
+          "value": "has a husband",
+          "lines": [
+            209,
+            237,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says one of her children graduated and lives in D.C., and later specifies it is a son who is an engineer.",
+          "value": "son, engineer in D.C., likely defense contractor",
+          "lines": [
+            31,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a daughter in college at the University of Maryland, who is pre-med.",
+          "value": "daughter, pre-med student at University of Maryland",
+          "lines": [
+            31,
+            45,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says the youngest is 18 and still at home, and confirms she just graduated high school.",
+          "value": "youngest daughter, age 18, high school graduate",
+          "lines": [
+            29,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she hasn't seen her mother since January and that she lives about four hours away; also mentions her mother's birthday is next week.",
+          "value": "mother, alive, lives ~4 hours away",
+          "lines": [
+            241,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions siblings in passing when talking about guests.",
+          "value": "has siblings",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes a friend of a friend who works at Walmart as a lawyer specializing in antitrust; the friend is female.",
+          "value": "female friend, antitrust lawyer at Walmart",
+          "lines": [
+            103,
+            111,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recalls a college friend who grew up in Dallas.",
+          "value": "had a college friend from Dallas",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes her current suburban location with a half-hour drive to downtown D.C. for theaters, sports, and museums, and says it's the best of both worlds.",
+          "value": "enjoys suburban living with access to city amenities",
+          "lines": [
+            89,
+            91,
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a recalls spending childhood summers at a cabin on a lake in the Maine/New York area.",
+          "value": "childhood summer vacations to a lake cabin in the Northeast",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a sets up a stopwatch on her phone at the start of the chat and later references it at 30 minutes.",
+          "value": "uses a stopwatch to time conversations",
+          "lines": [
+            7,
+            303
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says this is her second time doing video chatting on this platform.",
+          "value": "second time using this video chat platform",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes searching for a piece of art that balances her husband's preference for realistic art and her own for abstract, settling on a landscape that is slightly abstract.",
+          "value": "art preference: balanced between realistic and abstract",
+          "lines": [
+            207,
+            209,
+            213
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I am in Arkansas' and 'I live in like Bentonville'.",
+          "value": "Bentonville, Arkansas",
+          "lines": [
+            24,
+            102,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live at home and parents right now'.",
+          "value": "lives with parents",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having lived in Memphis, Tennessee for years.",
+          "value": "formerly lived in Memphis, Tennessee",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I lived in Arkansas within the state for pretty much all of it'.",
+          "value": "lifelong Arkansas resident",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b is about to go back to college and discusses attending a rural school.",
+          "value": "college student",
+          "lines": [
+            32,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm studying economics'.",
+          "value": "economics major",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I go to a pretty rural school'.",
+          "value": "attends a rural college",
+          "lines": [
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I plan to go to grad school after I graduate'.",
+          "value": "plans to attend grad school",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'd like to work somewhere in the government'.",
+          "value": "career goal: government work",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b spent last summer in Spain on a study abroad program.",
+          "value": "studied abroad in Spain",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b works at 'Mcallister's', describes it as a deli, and says she bags food and serves.",
+          "value": "server at McAlister's Deli",
+          "lines": [
+            252,
+            254,
+            256
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works at McAlister's Deli as a server.",
+          "value": "employed as a server at McAlister's Deli",
+          "lines": [
+            252,
+            256
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she sent the artist $350 via PayPal for the painting.",
+          "value": "spent $350 on a painting via PayPal",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lives with her parents, suggesting financial dependence.",
+          "value": "lives with parents (likely financially dependent)",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says her parents moved from Memphis to Bentonville to work for Walmart.",
+          "value": "parents moved from Memphis to Bentonville for Walmart",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom is really into art'.",
+          "value": "mother is an art enthusiast",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she doesn't like abstract art or Cubism.",
+          "value": "art preference: non-abstract, dislikes Cubism",
+          "lines": [
+            202
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I do like to stay really busy'.",
+          "value": "prefers staying busy",
+          "lines": [
+            250
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she doesn't care to wear a face mask as long as it means she can go back to school.",
+          "value": "willing to wear a face mask for school",
+          "lines": [
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions following an artist on Instagram and another on Facebook.",
+          "value": "uses Instagram and Facebook",
+          "lines": [
+            190,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b spent a summer studying abroad in Spain, indicating an enjoyment of travel.",
+          "value": "enjoys travel (studied abroad in Spain)",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,332 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as David; speaker_b later addresses him as David.",
+          "value": "David",
+          "lines": [
+            15,
+            422
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in texas.'.",
+          "value": "Texas",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he grew up in Nebraska and specifically in Omaha.",
+          "value": "Omaha, Nebraska",
+          "lines": [
+            57,
+            101,
+            109,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we live in the pine forest'.",
+          "value": "lives in a pine forest area in Texas",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says he is a teacher and later specifies he teaches college math.",
+          "value": "college math teacher",
+          "lines": [
+            35,
+            393
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says making and eating sourdough bread helped him gain about 20 pounds during quarantine.",
+          "value": "gained about 20 pounds during quarantine",
+          "lines": [
+            321
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I moved down here for work' referring to Texas.",
+          "value": "moved to Texas for work",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my wife' multiple times.",
+          "value": "married, has a wife",
+          "lines": [
+            355,
+            361,
+            417
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'you need to pick my daughter up'.",
+          "value": "has a daughter",
+          "lines": [
+            417
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he got into making sourdough, maintains a starter and bakes loaves.",
+          "value": "makes sourdough bread",
+          "lines": [
+            283,
+            285,
+            287,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we like to make a lot of the soup from scratch'.",
+          "value": "likes to cook soup from scratch",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses making chili from dry beans and preferring it to canned.",
+          "value": "makes chili from dry beans",
+          "lines": [
+            239,
+            243
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he used to like baseball but now only pays attention during the playoffs.",
+          "value": "only watches baseball during playoffs",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he used to travel to Kansas City quite a bit to watch Royals games.",
+          "value": "used to attend Kansas City Royals baseball games",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in Georgia.' and later references being in Georgia.",
+          "value": "Georgia",
+          "lines": [
+            18,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lived in Joplin before her current location and describes the tornado there.",
+          "value": "Joplin, Missouri",
+          "lines": [
+            66,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she was raised in western Kentucky.",
+          "value": "western Kentucky",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lived in Indiana before.",
+          "value": "Indiana",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I'm disabled and it's hard for me, mobility wise to walk upstairs and stuff.'",
+          "value": "disabled, mobility issues, difficulty walking upstairs",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to speaker_a's weight gain, speaker_b says 'Yeah, I haven't.' implying she did not gain weight during quarantine.",
+          "value": "did not gain weight during quarantine",
+          "lines": [
+            392
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says this is her 4th session and the instructions said four was the limit to get paid for.",
+          "value": "receives payment for study sessions, limit 4",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions finding a brand new home to start renting and not wanting to pay rent for a home she can't fully use.",
+          "value": "rents a home",
+          "lines": [
+            102,
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b refers to 'my husband' and says 'he's from Minnesota'.",
+          "value": "married",
+          "lines": [
+            78,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband is from Minnesota.",
+          "value": "husband is from Minnesota",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they went to a game on their honeymoon nine years ago.",
+          "value": "married for 9 years",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband's mom just turned 90.",
+          "value": "mother-in-law is 90 years old",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her husband watching the Twins, Cardinals, Wild, and golf.",
+          "value": "husband is a sports fan (Twins, Cardinals, Wild, golf)",
+          "lines": [
+            138,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm not an outside person anymore.'",
+          "value": "not an outside person",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're tv addicts' and mentions playing video games.",
+          "value": "enjoys watching TV and playing video games",
+          "lines": [
+            128,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I could always read' when giving up her phone.",
+          "value": "likes to read",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes using an Instapot to make ribs and hot wings.",
+          "value": "cooks with Instapot, makes hot wings",
+          "lines": [
+            220,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she loves western Kentucky vinegar-based barbecue and it's her favorite.",
+          "value": "likes western Kentucky vinegar-based barbecue",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she made sourdough bread in the past.",
+          "value": "used to make sourdough bread",
+          "lines": [
+            296
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I love bread, pasta and cheese.'",
+          "value": "likes bread, pasta, cheese",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

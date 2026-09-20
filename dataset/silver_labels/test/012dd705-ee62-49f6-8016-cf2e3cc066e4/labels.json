@@ -1,0 +1,426 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She spells out her first name C-H-R-I-S-S-Y and her last name R-O-T-H-A-R-M-E-L, and confirms when speaker_b says 'chrissy rotor mill'. The ASR produces 'Chrissy' and 'Rotharmel'.",
+          "value": "Chrissy Rotharmel",
+          "lines": [
+            379,
+            380,
+            381,
+            382,
+            383,
+            385,
+            387,
+            389,
+            391,
+            393,
+            395,
+            396
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states she is in Connecticut, lives in New England, near Pfizer (transcribed 'Fighter') and about five miles from Rhode Island.",
+          "value": "Connecticut, near Rhode Island and Pfizer",
+          "lines": [
+            7,
+            11,
+            157,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "During a phone screener she says 'I'm 47'.",
+          "value": "47 years old",
+          "lines": [
+            805
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is called 'mrs' by a man, discusses her granddaughter, her hair, and has a female name.",
+          "value": "female",
+          "lines": [
+            137,
+            69,
+            773,
+            379
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explicitly identifies as white in a discussion about discrimination.",
+          "value": "white",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I'm disabled' outright.",
+          "value": "disabled",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a new diagnosis requiring a specialty pharmacy, citing costs of $20,000/year or $800/month, and says she would die without the medication.",
+          "value": "has a condition requiring expensive specialty medication",
+          "lines": [
+            275,
+            276,
+            277,
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says she receives Medicare extra help and is in the Medicare Savings Program, which covers deductibles and copays, indicating low income.",
+          "value": "enrolled in Medicare Savings Program for low-income individuals",
+          "lines": [
+            309,
+            311,
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has over $600, later clarifies about $630, in her Prolific account.",
+          "value": "about $630 saved in Prolific account",
+          "lines": [
+            41,
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she earned $300 and $125 from studies that day and made $17,000 last year working 3-5 hours per week on market research.",
+          "value": "earns side income from market research focus groups, ~$17,000 last year",
+          "lines": [
+            365,
+            366,
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During a screener she claims to work at 'cT medical billing solutions' as the owner. This contradicts earlier statements of being disabled and not working, likely falsified for the study.",
+          "value": "owner of CT Medical Billing Solutions (claimed in screener, likely falsified)",
+          "lines": [
+            811
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She expresses wanting to buy a house, currently renting, and discusses high moving costs.",
+          "value": "currently renting, trying to buy a house",
+          "lines": [
+            231,
+            233,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my son' and his interests multiple times.",
+          "value": "has a son",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'My granddaughter will be three.'",
+          "value": "has a granddaughter, age 3",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'me and the kitties, I have three' and describes their behavior.",
+          "value": "has three cats",
+          "lines": [
+            53,
+            55,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a screener she states 'I don't have a spouse', which aligns with no mention of a partner elsewhere.",
+          "value": "unmarried, no spouse",
+          "lines": [
+            807
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a screener she claims three children under 18: 2-year-old girl, 10-year-old boy, 16-year-old girl. This conflicts with earlier mentions of only a son and a granddaughter, suggesting fabrication.",
+          "value": "claims to have three children under 18 (ages 2, 10, 16) in screener",
+          "lines": [
+            805,
+            806,
+            807
+          ],
+          "certainty": 2
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She runs a Facebook group for market research with moderators and recruiters, and actively participates in studies.",
+          "value": "runs a Facebook group for market research studies and actively participates",
+          "lines": [
+            367,
+            401,
+            449,
+            403,
+            409
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as 'very very outgoing', enjoys talking to people, and likes to cook and learn different cuisines.",
+          "value": "outgoing, enjoys cooking and learning about different cultures",
+          "lines": [
+            497,
+            161,
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "During a screener she says she is primarily responsible for grocery shopping.",
+          "value": "primarily responsible for grocery shopping",
+          "lines": [
+            811
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says she has white hair in the front ('in the french'), and that when she wears her hair up she looks old, so for studies she pulls it down to avoid looking 70.",
+          "value": "has grey/white hair, looks older with hair up",
+          "lines": [
+            773,
+            775,
+            777
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She states her name as 'mega Manisha Gravel' and spells it as Megha Manisha Agrawal (the ASR renders 'Gravel' but the spelling indicates Agrawal).",
+          "value": "Megha Manisha Agrawal",
+          "lines": [
+            516,
+            528,
+            533,
+            536,
+            537,
+            538,
+            542
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she's calling from Florida and later specifies Jacksonville.",
+          "value": "Jacksonville, Florida",
+          "lines": [
+            4,
+            204
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She discusses Indian communities, her own background, and her brother in London, clearly identifying as Indian.",
+          "value": "Indian",
+          "lines": [
+            164,
+            121,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to herself as 'mama' and mentions a husband, indicating female gender.",
+          "value": "female",
+          "lines": [
+            56,
+            112
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She recounts an emergency surgery in 2017 for severe acidity/gallbladder problem, where the doctor said she would die without immediate surgery (transcribed 'Ebola abstraction' likely gallbladder extraction).",
+          "value": "underwent emergency abdominal surgery in 2017",
+          "lines": [
+            292,
+            293,
+            294,
+            296,
+            300
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She explains she is on an intra-company transfer work visa with time limits (3 then 2 then 2 years then green card); they cannot buy a house because of visa conditions.",
+          "value": "on intra-company transfer work visa, not permanent resident",
+          "lines": [
+            236,
+            238,
+            242,
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says she and her husband are both IT specialists, and later mentions her salary is around 40-44 (in thousands, implying $40-44k).",
+          "value": "IT specialist, salary ~$40-44k",
+          "lines": [
+            112,
+            752
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says her husband is also an IT specialist.",
+          "value": "husband is also an IT specialist",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing Prolific for extra income and specifies she is getting $15 for the current study.",
+          "value": "does Prolific studies for extra money",
+          "lines": [
+            36,
+            38,
+            788
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states they are forced to rent because visa restrictions prevent buying property.",
+          "value": "rents home, cannot buy due to visa restrictions",
+          "lines": [
+            236,
+            238
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She refers to 'my husband' multiple times.",
+          "value": "married",
+          "lines": [
+            112,
+            292,
+            532
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her kid is a five-year-old, and later mentions also having a 15-year-old.",
+          "value": "has two children, ages 5 and 15",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her younger brother settled in London.",
+          "value": "has a younger brother living in London",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions calling her parents in India for support during her medical emergency.",
+          "value": "parents reside in India",
+          "lines": [
+            298
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She states she works from home.",
+          "value": "works from home",
+          "lines": [
+            110,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing surveys like Prolific, branded surveys, and survey junkie for extra cash.",
+          "value": "does online surveys for extra money",
+          "lines": [
+            36,
+            430,
+            432
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she used to visit St. Augustine often, describing it as a beautiful place.",
+          "value": "enjoys visiting St. Augustine",
+          "lines": [
+            216,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She notes extra cooking due to Covid and being busy with kids, indicating a home-centered routine.",
+          "value": "busy with childcare and cooking",
+          "lines": [
+            74,
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

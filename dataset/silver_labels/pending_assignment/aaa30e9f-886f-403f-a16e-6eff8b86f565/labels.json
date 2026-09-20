@@ -1,0 +1,438 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states being in Chicago when comparing weather with speaker_b's Orlando, and later confirms his workplace is based in Chicago.",
+          "value": "Chicago, IL",
+          "lines": [
+            103,
+            275
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker explicitly states he grew up in Virginia.",
+          "value": "Virginia",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions attending Ohio State University, implying he lived in Ohio during that time.",
+          "value": "Ohio (attended Ohio State University)",
+          "lines": [
+            197,
+            199
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker refers to 'my wife', indicating he is a man in a heterosexual marriage. The conversation does not suggest otherwise.",
+          "value": "male",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says he got married in April.",
+          "value": "married",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he went to school for finance and operations and earlier mentions attending Ohio State.",
+          "value": "Finance and Operations degree from Ohio State University",
+          "lines": [
+            205,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker works for a religious nonprofit and was involved in campus ministry, strongly suggesting he is a Christian.",
+          "value": "Christian (implied)",
+          "lines": [
+            207,
+            283
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says he walked out of college $30,000 in debt.",
+          "value": "$30,000 student loan debt",
+          "lines": [
+            303
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes working for a religious nonprofit, keeping their books and doing finance.",
+          "value": "finance role at a religious nonprofit (church planting network)",
+          "lines": [
+            207,
+            275
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions doing surveys on Prolific and Swagbucks for extra money.",
+          "value": "paid online surveys (Prolific, Swagbucks)",
+          "lines": [
+            25,
+            35,
+            41,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says he does not have a car.",
+          "value": "does not own a car",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says he got married in April and refers to his wife.",
+          "value": "wife (married in April)",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker visited his 85-year-old grandmother in Tallahassee.",
+          "value": "grandmother (age 85) in Tallahassee",
+          "lines": [
+            119,
+            123,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions upstairs neighbors who are close friends.",
+          "value": "close friends living upstairs",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker talks about working from home a couple of days a week, though the ASR is slightly garbled.",
+          "value": "works from home a few days a week",
+          "lines": [
+            231
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says he does not have a car and relies on walking or borrowing, consistent with living in a big city.",
+          "value": "does not drive, walks or uses public transit",
+          "lines": [
+            231,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says he played drums in a garage band for nine months in high school.",
+          "value": "played drums in high school",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions he got on Prolific in July and took a couple-month break.",
+          "value": "active on Prolific since July (with a break)",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker attended Ohio State University.",
+          "value": "attended Ohio State University",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions being involved in campus ministry while in college.",
+          "value": "participated in campus ministry",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker gives her Twitch username as 'rosacea creates' at the end of the conversation; ASR cut off 'on twitch' as 'that live' but the handle itself is clear.",
+          "value": "rosacea creates",
+          "lines": [
+            354
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says she is in Orlando when asked where she is from.",
+          "value": "Orlando, FL",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has lived in the same county her whole life, confirming Orlando area.",
+          "value": "lived in same county (Orlando area) entire life",
+          "lines": [
+            212,
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says she has lived in the same county her 'whole 27 years', stating her age.",
+          "value": "27 years old",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions being asked if she is pregnant and later refers to a boyfriend, strongly indicating female gender.",
+          "value": "female",
+          "lines": [
+            74,
+            78,
+            330
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she got divorced.",
+          "value": "divorced",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is living with her boyfriend.",
+          "value": "has a boyfriend",
+          "lines": [
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions dual enrollment, community college advice from cousin, and having some college education.",
+          "value": "some college (dual enrollment, community college)",
+          "lines": [
+            308,
+            318,
+            316
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker says she filed police reports against her ex.",
+          "value": "filed police reports against ex",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes ex taking her trailer, removing her name from the title, and it getting impounded.",
+          "value": "legal dispute over trailer with ex (impound, title fraud)",
+          "lines": [
+            224,
+            268,
+            270
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker estimates her savings at six thousand dollars.",
+          "value": "~$6,000 in savings",
+          "lines": [
+            326
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she does not have a car.",
+          "value": "does not own a car",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions making money from surveys, Twitch streaming, and adult content.",
+          "value": "income from surveys, Twitch streaming, and adult content",
+          "lines": [
+            246,
+            228,
+            152,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she plans to buy her first house this year.",
+          "value": "planning to buy a house",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she worked at Taco Bell for a while.",
+          "value": "worked at Taco Bell previously",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker describes her ex stealing her PC, harassing her, and causing legal trouble.",
+          "value": "ex-spouse (harassing, stole property)",
+          "lines": [
+            154,
+            224,
+            268,
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she lives with her boyfriend and his other girlfriend.",
+          "value": "current boyfriend (lives together with his other girlfriend)",
+          "lines": [
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her cousin gave her advice about community college.",
+          "value": "cousin",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to going to Turkey with her family.",
+          "value": "family (traveled to Turkey together)",
+          "lines": [
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she usually does art streams and sometimes game streams on Twitch.",
+          "value": "streams art and games on Twitch",
+          "lines": [
+            150,
+            152,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she started making adult content in 2011/2012.",
+          "value": "creates adult content since 2011/2012",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she plays bass and guitar.",
+          "value": "plays bass and guitar",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions doing surveys on Prolific and mturk, sometimes lying about demographics.",
+          "value": "does online surveys (Prolific, mturk)",
+          "lines": [
+            32,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she likes to play Switch games.",
+          "value": "plays Nintendo Switch games",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions her avocado tree is dying, indicating she gardens.",
+          "value": "has an avocado tree (gardening)",
+          "lines": [
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she recently became a 'house person' after her trailer was stolen, and now lives in a house.",
+          "value": "lives in a house (previously in a trailer)",
+          "lines": [
+            224,
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

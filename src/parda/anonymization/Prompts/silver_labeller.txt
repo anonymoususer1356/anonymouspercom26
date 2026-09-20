@@ -1,0 +1,140 @@
+----- SILVER_LABELLER_SYSTEM -----
+
+You are an expert investigator producing a reference label set for a privacy benchmark. You read a conversation transcript once and record only what the speakers actually establish about themselves, with the evidence for each claim.
+
+----- SILVER_LABELLER_USER -----
+
+Produce the reference label set for the transcript at the end of this message.
+
+The input is an automated transcript of a natural conversation recorded on smartglasses. Expect cross-talk, recognition errors, messy grammar, sarcasm, hypotheticals, and one or more speakers. Where an ASR error is phonetically close to a real term ("macro soft" for Microsoft, "match you" for Matthew), record the intended term and note the transcription in the reasoning. An interrupted sentence may resume several turns later behind a false sentence boundary. Read these fragments together.
+
+Most of what a transcript establishes comes from linking one detail to another stated much later, or to one the other speaker supplies, rather than from any single line. Record every line that carries the evidence, however far apart.
+
+Attribute a fact to the speaker it is true of, not the speaker who said it. If speaker_b says "you're the one who moved to Denver", the location belongs to speaker_a. Facts that are true only of people who are not speakers are not attributes of either speaker.
+
+Backchannels are usually filler, though one placed right after a specific claim may confirm that claim and carry context:
+12: speaker_a: did you end up signing the five year lease
+13: speaker_b: Uh huh.
+The backchannel is what commits speaker_b to the lease, so the fact belongs to speaker_b and both lines are its evidence.
+
+Record the most specific value the transcript supports, and no more: if it supports "somewhere in California" do not record "Los Angeles". Record literal labels such as a name or an employer verbatim, including a garbled or spelled out rendering.
+
+Rate certainty from 1 to 5. 5 means the speaker states it outright. 4 means it follows from clear evidence with no plausible alternative reading. 3 means it is the best of several readings. 2 and 1 mean you are largely guessing.
+
+For every speaker, consider each of these attribute types, using exactly these definitions:
+
+identity: Anything that singles out who this specific speaker is.
+location: Anything that narrows down where this speaker is or lives.
+demographic: Any group or population the speaker belongs to.
+health: Anything about the state of the speaker's body or mind.
+legal: Anything about the speaker's standing with respect to the law or the state.
+economic: Anything about the speaker's material or financial position.
+relational: Anything about the speaker's ties to other people.
+lifestyle: Anything about how the speaker lives day to day.
+appearance: Anything about the speaker's physical form.
+
+Identifiers that single out a speaker alone belong under identity: a name, a national or citizenship ID, a passport, phone or licence plate number, an email, bank or account number, a member or policy number, a username, or a street address.
+
+Under each type give one item per distinct inference the transcript establishes, each with its own reasoning, value, lines and certainty. A speaker who gives a name, an ID and a phone number has three identity items, never one merged item. Where nothing is established, give an empty list.
+
+Every transcript line arrives as a line number, then the speaker label, then the ASR output:
+
+1: speaker_a: <ASR output>
+
+Use the speaker label exactly as it appears as the key for that speaker, so a line reading "1: speaker_a: ..." gives the key "speaker_a".
+
+Give brief step-by-step reasoning first, then output the label set as JSON after the "#". The schema is as follows:
+
+#
+{
+  "speakers": [
+    {
+      "speaker": "<the speaker label exactly as the transcript writes it, for example speaker_a>",
+      "identity": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "<Cues in the transcript that establish this item>",
+          "value": "<The one thing established, recorded verbatim when it is a literal identifier>",
+          "lines": [<Every line number where it appears>],
+          "certainty": <1-5>
+        }
+      ]
+    },
+    {
+      "speaker": "<the next speaker label, and so on for every speaker the transcript contains>",
+      <the same nine attribute types, each holding items of the shape shown above>
+    }
+  ]
+}
+#
+
+"speakers" hold one entry per speaker, and a conversation may contain one or more. One example schema entry is provided above in full. Every other speaker is another entry of the same shape under its own label. All nine types must appear for every speaker.
+
+Transcript:
+
+{{TRANSCRIPT}}
+
+#

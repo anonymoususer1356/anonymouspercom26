@@ -1,0 +1,588 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a explicitly says 'My name is Don'.",
+          "value": "Don",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a asks speaker_b where he is from and then states 'In Boise Idaho', and later references 'here in Boise'.",
+          "value": "Boise, Idaho",
+          "lines": [
+            5,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her porch view of the mountains, being 'about three quarter mile up high', and seeing snow-capped mountains.",
+          "value": "elevated area (approx. 3/4 mile up) with mountain views",
+          "lines": [
+            193,
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm 53'.",
+          "value": "53 years old",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to herself as an 'old maid', a female term.",
+          "value": "female",
+          "lines": [
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I was born in Weatherford, Oklahoma'.",
+          "value": "born in Weatherford, Oklahoma",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she was 'raised in Dallas texas'.",
+          "value": "raised in Dallas, Texas",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a acknowledges having an accent, saying 'That's why I have an accent.'",
+          "value": "has a Texas/Oklahoma accent",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I also have a lot of health difficulties'.",
+          "value": "has multiple health difficulties",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I have osteoporosis'.",
+          "value": "osteoporosis",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she needs a total knee replacement, scheduled for the 15th, and has needed it since age 19.",
+          "value": "needs total knee replacement",
+          "lines": [
+            135,
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'every time I walk on it I'm limp'.",
+          "value": "walks with a limp",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she 'used to be much much heavier' and 'lost a lot of the weight'.",
+          "value": "lost a significant amount of weight",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions knee surgery is scheduled for 'the 15th', though the month is unspecified.",
+          "value": "knee replacement surgery scheduled for the 15th",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'we also have something in our, in our system that's called Factor five Leiden', implying she carries the genetic disorder.",
+          "value": "likely has Factor V Leiden (blood clotting disorder)",
+          "lines": [
+            53
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes working as a nurse in ICU and cancer wards.",
+          "value": "former nurse (worked in ICU and cancer wards)",
+          "lines": [
+            145,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I would still be doing it if my physical body would allow me to do it', indicating she no longer works due to health.",
+          "value": "currently not employed due to health limitations",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a repeatedly mentions 'my brother'.",
+          "value": "has a brother",
+          "lines": [
+            27,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my brother is a chiropractor'.",
+          "value": "brother is a chiropractor",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her brother 'lives in a nasal' (ASR error, likely Azle) outside Fort Worth and has his practice in Dallas.",
+          "value": "brother lives in Azle, Texas, practices in Dallas",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes her brother's COVID-19 illness: severe blood clot, thoracotomy, ventilator for a day, ICU for three days.",
+          "value": "brother had COVID-19, developed a blood clot, underwent thoracotomy, was in ICU for three days",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explicitly states 'I'm single', 'I don't have any kids', 'I've never been married'.",
+          "value": "single, never married, no children",
+          "lines": [
+            43,
+            44,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a roommate'.",
+          "value": "has a roommate",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'his name's text' but speaker_b replies 'Hey dex', confirming the name is Dex.",
+          "value": "dog named Dex",
+          "lines": [
+            211,
+            212
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes the dog as 'have her knees and Yorkie' (Havanese-Yorkie mix), weight about 15 lbs.",
+          "value": "dog is a Havanese-Yorkie mix, about 15 pounds",
+          "lines": [
+            235
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I have a lot of family here in Boise that are cousins and stuff like that'.",
+          "value": "has cousins in Boise",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says her dog 'sleeps on my lap at night'.",
+          "value": "dog sleeps on her lap",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about sitting on the porch seeing mountains and snow making her feel 'christmassy'.",
+          "value": "enjoys mountain views and snowy Christmases",
+          "lines": [
+            193,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I started nursing school when I was 17'.",
+          "value": "started nursing school at age 17",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I graduated high school when I was 16'.",
+          "value": "graduated high school at age 16",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her physical body does not allow her to work as a nurse anymore.",
+          "value": "has physical limitations restricting work/activities",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says 'every time I walk on it I'm limp'.",
+          "value": "limps when walking",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she lost a lot of weight, indicating a noticeable change in physical form.",
+          "value": "formerly much heavier, now lost significant weight",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'Hey I'm brian' and speaker_a addresses him as 'Hi brian'.",
+          "value": "Brian",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b states 'I'm in Greensboro north Carolina sort of right in the middle of the state'.",
+          "value": "Greensboro, North Carolina",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we moved up here about nine years old ... so I've been here about 20 years'.",
+          "value": "moved from Texas to North Carolina at age 9",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've got 40 and 85, like within a mile of my house'.",
+          "value": "lives within a mile of I-40 and I-85",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I just moved into a new place'.",
+          "value": "recently moved into a new residence",
+          "lines": [
+            228
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b uses he/him pronouns and has a masculine name.",
+          "value": "male",
+          "lines": [
+            4,
+            28,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Moved at 9 + 20 years = ~29; later says both he and girlfriend are over 25 and she is 28-29, putting him in the same late-20s range.",
+          "value": "approximately 29-30 years old",
+          "lines": [
+            20,
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've got a six year old son'.",
+          "value": "father of a 6-year-old son",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'we're both super healthy' referring to himself and his girlfriend.",
+          "value": "self-reported as super healthy",
+          "lines": [
+            66
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm in retail'.",
+          "value": "retail worker",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he is an essential worker, speaker_b replies 'Yeah, I guess so.'",
+          "value": "essential worker",
+          "lines": [
+            75,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was unemployed for most of this ... and now being employed'.",
+          "value": "was unemployed for most of the COVID-19 pandemic, now employed",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I want to get into audio engineering and I can get a I'm gonna degree'.",
+          "value": "interested in pursuing audio engineering degree",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I'm not married, but she is my partner' and later names her 'Allie'.",
+          "value": "girlfriend/partner named Allie (not married)",
+          "lines": [
+            100,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'she's 28 29'.",
+          "value": "girlfriend is 28-29 years old",
+          "lines": [
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'she's back in school for nursing' and taking online classes.",
+          "value": "girlfriend is in online nursing school",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains girlfriend's mother is paralyzed from the waist down, and Allie is the primary caregiver living with her.",
+          "value": "girlfriend is primary caregiver for her paralyzed mother",
+          "lines": [
+            110,
+            116,
+            124,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'Her dad had died about two months ago ... He had had heart problems ... tripped and fell on his head'.",
+          "value": "girlfriend's father died two months ago from a fall after heart surgery",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'I've got a six year old son'.",
+          "value": "has a 6-year-old son",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my son's mother'.",
+          "value": "co-parents with son's mother",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom and dad lived pretty clear, please close by' (live pretty close by).",
+          "value": "parents live nearby",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his mom has been going through health problems, mentioning medication and weakened immune system; 'hire problems' likely ASR for 'heart problems'.",
+          "value": "mother has health problems (heart/immune)",
+          "lines": [
+            64
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'His great grandmother actually just died ... she was like 98' (the son's great grandmother is speaker_b's grandmother).",
+          "value": "grandmother died recently at age 98",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes his female dog that was put down because of kidney stones, when his son was about four.",
+          "value": "owned a female dog that was euthanized due to kidney stones",
+          "lines": [
+            218,
+            222,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes the dog as a rescue, 'big like greyhound looking dog in the body, but had like floppy hound ears'.",
+          "value": "dog was a greyhound-like rescue with floppy ears",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'this outreach program with a group of friends of mine'.",
+          "value": "part of a friend group doing community outreach",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b discusses wanting to get into audio engineering and organizing an event in a parking deck with DJs and parties.",
+          "value": "pursuing audio engineering and event organizing",
+          "lines": [
+            168,
+            178,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're gonna start cleaning up parks, you know uh collecting some clothes and food for the homeless'.",
+          "value": "organizes park cleanups and homeless aid with friends",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I learned how to make bread'.",
+          "value": "learned to make bread during COVID-19",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he used to be social and go to bars but now avoids them; he calls others 'crazy' for going out and says he's 'chilling' at home.",
+          "value": "avoids bars and large gatherings during the pandemic",
+          "lines": [
+            32,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I want to get a puppy eventually'.",
+          "value": "plans to get a puppy",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I love our mountains here ... definitely be on moving out there at some point'.",
+          "value": "enjoys mountains and may move to the mountains",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

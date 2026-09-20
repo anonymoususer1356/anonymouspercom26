@@ -1,0 +1,440 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Maryland right now' (line 55) and mentions Baltimore ('in Baltimore' line 61, 'Baltimore city' line 149), indicating residence in Baltimore, Maryland.",
+          "value": "Baltimore, Maryland",
+          "lines": [
+            55,
+            61,
+            149
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I teach, I work with 2nd 3rd, 4th and 5th graders' (line 11) and later 'I teach science' (line 47), confirming he is a teacher of elementary grades.",
+          "value": "teacher of 2nd-5th grade science",
+          "lines": [
+            11,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm in marriage' (likely 'I'm married', line 53) and frequently refers to 'my wife' (lines 7, 151, 319).",
+          "value": "married",
+          "lines": [
+            7,
+            53,
+            151,
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He refers to 'my wife' and recalls being a Boy Scout ('my Good Boy Scout buddies', line 239), strongly implying male gender.",
+          "value": "male",
+          "lines": [
+            7,
+            239
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He states he teaches and works with students, which is his employment.",
+          "value": "employed as a teacher",
+          "lines": [
+            11,
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I bought a Chevy' (line 125) and 'it was a very pretty car, or at least it was five years ago' (line 129).",
+          "value": "owns a Chevy automobile",
+          "lines": [
+            125,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states that the chat used to pay $15 and now pays $20 (line 43), and he is a willing participant, so he is receiving compensation.",
+          "value": "receives $20 for this research chat",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He refers to 'my wife' multiple times (lines 7, 151, 319).",
+          "value": "has a wife",
+          "lines": [
+            7,
+            151,
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'We got the cat' (line 319).",
+          "value": "has a cat",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I got a roommate too' (line 319).",
+          "value": "has a roommate",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions 'I have a nephew still too little for one' (line 161).",
+          "value": "has a young nephew",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his mom 'only a 35 minute ride from me' (line 263).",
+          "value": "mother lives 35 minutes away",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He recalls a memory of 'when my dad first told me... like he pushed me without the training wheels' (line 167).",
+          "value": "father taught him to ride a bicycle",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my buddy is planning to get married... around this time next year' (line 99).",
+          "value": "has a close friend who is getting married next year",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes diamond painting kits and says 'my wife got one' (lines 195, 199); though garbled, it indicates his wife's hobby.",
+          "value": "wife does diamond painting",
+          "lines": [
+            195,
+            199
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says 'I've been biking to work most days' (line 135) and 'I bought a bike and I've been biking to work' (line 125).",
+          "value": "bikes to work regularly",
+          "lines": [
+            125,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He expresses a desire to eliminate his car and rely on biking: 'maybe one day get rid of my car' (line 125), 'I'd like the idea of driving around and something that costs a lot less money than a car' (line 131).",
+          "value": "plans to go car-free and commute only by bike",
+          "lines": [
+            125,
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He details COVID protocols at his school: 'every kid has to wear a mask... we only eat outside' (lines 271-279) and he's been in person since shortly after school started (line 19).",
+          "value": "teaches in-person with mask mandates and outdoor eating",
+          "lines": [
+            19,
+            271,
+            273,
+            275,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says this is his fourth or fifth such chat (lines 41-43) and finds them enjoyable.",
+          "value": "regular participant in paid online chat studies",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'we joined the y this year for the first time ever' (line 257), referring to the YMCA.",
+          "value": "new YMCA member",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I got to try it a few times when I was 18' about surfing (line 183).",
+          "value": "tried surfing at age 18",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'boogie boarding school. I used to love that too' (line 185).",
+          "value": "used to enjoy boogie boarding",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He muses 'maybe this whole moving to florida when you get older things for real' (line 83), considering it.",
+          "value": "considers relocating to Florida in the future",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He states 'I think I like the heat' and 'maybe I need heat' (lines 91, 93).",
+          "value": "prefers warm climates",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He explains he's only seen his mom twice due to working with many kids and COVID concerns (line 263).",
+          "value": "limited in-person contact with mother due to COVID-19 concerns",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She says 'I'm in north Carolina' (line 58) and 'I live in Wilmington' (line 60).",
+          "value": "Wilmington, North Carolina",
+          "lines": [
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'We're like a mile from the beach' (line 66) and 'I live in Wilmington. Let's start by the beach' (line 60).",
+          "value": "lives about 1 mile from the beach",
+          "lines": [
+            60,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I lived in the mountains um like on the other side of north Carolina for a while, like when I was in college' (line 94).",
+          "value": "lived in the mountains of North Carolina during college",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I've got kids in there... two of them are 10, one of seven and one is three' (line 10), indicating she is a parent.",
+          "value": "parent of four children",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my husband' (line 94) and describes her children as 'my 10 year old girl' and 'my son', strongly implying female gender.",
+          "value": "female",
+          "lines": [
+            94,
+            220
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions 'when I was in college' (line 94), so she attended college.",
+          "value": "attended college in North Carolina",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She reports buying an above-ground pool 'for a couple $100' (lines 174, 178).",
+          "value": "purchased an above-ground pool for a few hundred dollars",
+          "lines": [
+            174,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she got a cheap kids bike from a sports store; ASR 'played against sports' is likely 'Play It Again Sports' (line 146).",
+          "value": "bought a cheap children's bike from a discount sports store (likely Play It Again Sports)",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She acknowledges the chat study pays participants: 'So just chatting with a random person for 25 minutes I guess and they pay you for it' (line 44), and she is participating, so she is being compensated.",
+          "value": "receives payment for participating in this research chat",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my 10 year old girl does like ballet and jazz dance' (line 220).",
+          "value": "has a 10-year-old daughter who does ballet and jazz",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my 10 year old son. He used to do baseball' (line 222).",
+          "value": "has a 10-year-old son who played baseball",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She names 'Savannah, the seven year old' and says she 'used to do soccer' (lines 218, 230).",
+          "value": "has a 7-year-old daughter named Savannah",
+          "lines": [
+            218,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks extensively about her three-year-old's biking and ocean bravery (lines 10, 146, 186).",
+          "value": "has a 3-year-old son",
+          "lines": [
+            10,
+            146,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my husband's from west Virginia' (line 94).",
+          "value": "married to a husband from West Virginia",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She reports 'He still wants to move to like the keys when he... wins the lottery or retires' (lines 96-98).",
+          "value": "husband plans to retire to the Florida Keys",
+          "lines": [
+            96,
+            98
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says they do a lot of beach stuff: boogie boarding, swimming, and she tries to get them to surf (lines 60, 178, 182, 186).",
+          "value": "family regularly enjoys beach activities (boogie boarding, swimming, attempting surfing)",
+          "lines": [
+            60,
+            178,
+            182,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'we bike a little around here but not like, you know on long trips go around the neighborhood' (line 142).",
+          "value": "occasional casual neighborhood bike rides",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes buying a balance bike and a pedal bike for her three-year-old and teaching him (lines 146, 164).",
+          "value": "teaches 3-year-old son to ride a bike (balance bike then pedal bike)",
+          "lines": [
+            146,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states the older kids haven't gone back to school (line 16, 302) and the three-year-old is in Montessori pre‑K (line 282).",
+          "value": "children are remote learning except youngest attends Montessori pre-K",
+          "lines": [
+            16,
+            282,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Minor space to get back on november 1st or second' (line 22), likely meaning her kids might return to school around that date.",
+          "value": "anticipates children returning to in-person school around November 1st–2nd",
+          "lines": [
+            22
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "When asked if she had done these chats before, she says 'No, not like this' (line 40).",
+          "value": "first-time participant in this type of research chat",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I live in L.' (line 19) and then 'A.' (line 21), completing 'LA' meaning Los Angeles. Later reinforces with 'here in L.A.' (line 61) and mentions California (line 141).",
+          "value": "Los Angeles, California",
+          "lines": [
+            19,
+            21,
+            61,
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm at data entry and analyzes in a tribal agency' (line 33). 'Tribal' is ASR error for 'travel', confirmed by 'I work in a travel agency' (line 35) and 'trifle agency' (line 77, again travel). Additionally mentions bookings (line 35) and cruises (line 37).",
+          "value": "data entry and analysis at a travel agency",
+          "lines": [
+            33,
+            35,
+            37,
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my wife plays piano for my church' (line 77) and 'my church is closed' (line 77). Possessive 'my church' indicates membership/attendance.",
+          "value": "attends a church",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Repeatedly refers to 'my wife' (lines 77, 79). In the absence of contradictory cues, this strongly implies male gender.",
+          "value": "male",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'it's really stressing me out' (line 17), 'it gets like distressing' (line 31), 'I can't really hold on to my sanity' (line 79), and describes feeling isolated at work (line 31).",
+          "value": "experiencing work-related stress and distress",
+          "lines": [
+            17,
+            31,
+            79
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I got tested… people check out negative' (line 79). 'Presidents' is ASR error for 'residents'. Both he and his wife tested negative.",
+          "value": "tested negative for COVID-19",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'my our feet is still from like 14 hours a week to just 20 now' (line 29). 'Our feet' is ASR error for 'hours', and '14' is likely misheard for '40' given context of hour cuts. Later confirms 'my hours are cut' (line 143). So current hours are 20 per week.",
+          "value": "works 20 hours per week",
+          "lines": [
+            29,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a notes furloughed coworkers get $600/week ($2400/month) and says 'I don't even earn that much by going to work because my hours are cut' (line 143).",
+          "value": "earns less than $2400 per month",
+          "lines": [
+            143
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my wife' (line 77, 79) and 'she's the only piano player in the church' (line 79).",
+          "value": "wife (pianist at church)",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my boss' (line 143) and 'the owner of the business' (line 77).",
+          "value": "boss (business owner)",
+          "lines": [
+            77,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'half of my office is actually being for look' (line 29, 'for look' ASR for 'furloughed'), 'most of my coworkers are at home' (line 31), 'my coworkers also feel guilty' (line 115).",
+          "value": "coworkers (some furloughed)",
+          "lines": [
+            29,
+            31,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've had like some friends getting it' (line 63) referring to COVID-19.",
+          "value": "friends who contracted COVID-19",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I go out like five days a week' (line 79) for work, and 'I only have my supervisor to talk with… doing my job talking to wall lately' (line 31).",
+          "value": "works in office 5 days/week, feels socially isolated at work",
+          "lines": [
+            31,
+            79
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in Arizona Scottsdale' (line 22).",
+          "value": "Scottsdale, Arizona",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm actually in the medical fields I do um it's a diagnostic' (line 24).",
+          "value": "medical diagnostic worker",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm originally from new york' (line 68).",
+          "value": "originally from New York",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my kids' (lines 72, 74, 84, 94), discusses their online schooling (line 72) and fall school plans (lines 84-92).",
+          "value": "parent of school-aged children",
+          "lines": [
+            72,
+            74,
+            84,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my husband' (line 74), which traditionally signals female gender.",
+          "value": "female",
+          "lines": [
+            74
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes work as 'really nerve wracking' (line 26), states 'I'm scared' (40), 'I'm worried' (42), 'makes me nervous' (58), 'I start to get overwhelmed' (162), and mentions sleep difficulties (line 132). Indicates anxiety and worry about COVID-19, with associated sleep problems.",
+          "value": "anxiety and worry about COVID-19, with associated sleep difficulties",
+          "lines": [
+            26,
+            40,
+            42,
+            58,
+            132,
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states 'I've gone down to 18 hours a week is all the work I'm getting at least through july' (line 26).",
+          "value": "works 18 hours per week (through July) in medical diagnostics",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my husband' (line 74) and says he does the shopping (line 94).",
+          "value": "husband",
+          "lines": [
+            74,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got kids' (line 72, ASR error 'his' for 'kids'), refers to 'the kids' (line 74), and discusses their schooling and isolation (lines 84-94).",
+          "value": "children (school-aged)",
+          "lines": [
+            72,
+            74,
+            84,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my parents are in their seventies… my mom has some lung issues' (line 74).",
+          "value": "parents (in their 70s), mother with lung condition",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'One of my cousins is still, he got it back in March and he's like 50 and physically fit… still struggling' (lines 68-69).",
+          "value": "cousin (50-year-old male, contracted COVID-19, ongoing respiratory issues)",
+          "lines": [
+            68,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have several family members who have gotten it and they have gotten bad' (line 68).",
+          "value": "multiple other family members in New York who contracted severe COVID-19",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions coworkers discussing vacations (line 54) and split shifts (line 54).",
+          "value": "coworkers",
+          "lines": [
+            54,
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm careful' (line 58), 'I'm not in any rush to get out' (line 74), finds cruising terrifying (line 98), and cancelled a July vacation to California (line 124).",
+          "value": "cautious about virus, avoids non-essential travel, stays home mostly",
+          "lines": [
+            40,
+            58,
+            74,
+            98,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I try to take them out for a walk at night when it down a little' (line 96).",
+          "value": "takes children for evening walks",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it's hot here now, it's in the one hundreds every day' (line 94).",
+          "value": "lives in area with summer temperatures exceeding 100°F",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says online schooling 'took up a lot of my time' (line 72), indicating she helped children with it.",
+          "value": "assisted children with online schooling",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

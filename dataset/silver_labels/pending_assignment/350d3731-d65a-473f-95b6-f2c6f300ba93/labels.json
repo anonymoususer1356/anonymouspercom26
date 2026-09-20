@@ -1,0 +1,329 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'joanie', intended as the name Joanie.",
+          "value": "Joanie",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is in Georgia (line 7) and later specifies east, kind of northeast of Atlanta (line 21).",
+          "value": "Georgia, east/northeast of Atlanta",
+          "lines": [
+            7,
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we're from the Midwest' indicating original home region.",
+          "value": "Originally from the Midwest",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions living in current location since 2016 (line 27) and that it will be five years in May of next year (line 125).",
+          "value": "Moved to Georgia in 2016",
+          "lines": [
+            27,
+            125
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Joanie and references to 'my husband' indicate female gender.",
+          "value": "Female",
+          "lines": [
+            7,
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly tells speaker_b 'I'm older than you'.",
+          "value": "Older than speaker_b",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'I'm disabled'.",
+          "value": "Disabled",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates she does not easily catch illnesses: 'I'm not 100%, but I'm still not every little thing... jumps on me'.",
+          "value": "Reasonably strong immune system",
+          "lines": [
+            331
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says 'I'm disabled, so I kind of retired', indicating she does not work.",
+          "value": "Retired / not working due to disability",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'our car broke down just like day before yesterday' showing car ownership.",
+          "value": "Owns a car (currently broken)",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'he was kind of working part time for a while' referring to her husband.",
+          "value": "Husband works part-time",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "References 'my husband' many times (lines 27, 143, 307).",
+          "value": "Married to husband",
+          "lines": [
+            27,
+            143,
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms 'Yeah, me either' when speaker_b says he has no kids.",
+          "value": "No children",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says of her parents 'They rest in peace'.",
+          "value": "Parents are deceased",
+          "lines": [
+            351
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Mentions libraries not open as much and not being able to go shopping like she wants, implying these were regular leisure activities.",
+          "value": "Enjoys going to the library and shopping",
+          "lines": [
+            97
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Describes getting 'stuff in surveys' and dealing with boxes of products.",
+          "value": "Participates in product surveys and receives boxes",
+          "lines": [
+            137
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Talks about building shelves and getting rid of stuff in the garage.",
+          "value": "Has organized garage and built shelves",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'richard', clearly intended as Richard.",
+          "value": "Richard",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Responds to speaker_a's location with 'Hi I'm Orlando florida', meaning he is in Orlando, Florida.",
+          "value": "Orlando, Florida",
+          "lines": [
+            8
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I'm one hour from the coast'.",
+          "value": "About one hour from the coast",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've been here since um 1990' referring to his time in Florida.",
+          "value": "Has lived in Florida since 1990",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he is not born and raised in Florida, and he replies 'Exactly'.",
+          "value": "Not born or raised in Florida",
+          "lines": [
+            471,
+            472
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Richard and reference to 'my wife' indicate male gender.",
+          "value": "Male",
+          "lines": [
+            6,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly says 'I'm a schoolteacher' and 'I do high school'.",
+          "value": "High school teacher",
+          "lines": [
+            192,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm older than you', making him the younger speaker.",
+          "value": "Younger than speaker_a",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Stated occupation: 'I'm a schoolteacher'.",
+          "value": "Employed as a high school teacher",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about his wife's work, he says 'furlough Disney World', indicating she works there but is currently furloughed.",
+          "value": "Wife furloughed from Disney World",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Confirms 'Yeah' when asked 'does your wife work are married?'",
+          "value": "Married to wife",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States wife is furloughed from Disney World.",
+          "value": "Wife works at Disney World",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly says 'No, no, no kids'.",
+          "value": "No children",
+          "lines": [
+            336
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have my parents, they're pretty much retired'.",
+          "value": "Parents are alive and retired",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes collecting items and running a holiday gift store for students using school dollars.",
+          "value": "Collects items for students and runs a holiday gift store",
+          "lines": [
+            192,
+            194,
+            196,
+            198,
+            200,
+            202,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions decluttering the garage, installing a long-broken shelf, and getting rid of 10 bags of old items during lockdown.",
+          "value": "Did home decluttering/organization during lockdown",
+          "lines": [
+            108,
+            116,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts a recent news story about a Burger King employee being killed, indicating he follows the news.",
+          "value": "Watches the news",
+          "lines": [
+            374
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

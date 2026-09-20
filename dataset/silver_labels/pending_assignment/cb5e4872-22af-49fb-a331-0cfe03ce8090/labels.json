@@ -1,0 +1,520 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 7 ASR: 'Shirl in high uh Cincinnati Ohio' — could be the name Shirley or Cheryl spoken in response to speaker_b's name introduction, but equally likely 'Sure, I'm in' misrecognised. The phonetics are ambiguous; no other name is given for speaker_a.",
+          "value": "Shirl (possible name, ASR garbled)",
+          "lines": [
+            7
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states her city and state directly.",
+          "value": "Cincinnati, Ohio",
+          "lines": [
+            7,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is moving the day after Election Day. The destination is not stated.",
+          "value": "Moving the day after Election Day",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b calls speaker_a 'girl' (line 186); speaker_b discusses menopause with speaker_a as a shared female experience, referencing speaker_a's mother (lines 280-282).",
+          "value": "Female",
+          "lines": [
+            186,
+            280,
+            281,
+            282
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she is a musician and describes herself as a hippie.",
+          "value": "Musician who identifies as a hippie",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being in college (2nd and 3rd years) and having kept a background tapestry since college about 10 years ago.",
+          "value": "College-educated, approximately 10 years out of college",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_a expresses distrust of the mail-in voting system and states she will vote early in person; she knows where the early polling place is (around the corner).",
+          "value": "Plans to vote early in person",
+          "lines": [
+            43,
+            45,
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes the local sheriff as one of the most conservative in the country and allied with Trump.",
+          "value": "Lives in jurisdiction with a very conservative, pro-Trump sheriff",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she does delivery driving for DoorDash and Grubhub.",
+          "value": "Delivery driver for DoorDash and Grubhub",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has been doing delivery driving for three years.",
+          "value": "Has done delivery driving for 3 years",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she found Prolific about a month ago and participates in surveys.",
+          "value": "Prolific survey participant",
+          "lines": [
+            205,
+            207,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she earned about $50 on Prolific last month, starting on the 9th.",
+          "value": "Earned approximately $50 on Prolific last month",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her laptop died last week.",
+          "value": "Laptop died last week",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states her mother works at the polls.",
+          "value": "Mother works at polling place",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her mother also does surveys (context: Prolific or similar).",
+          "value": "Mother also does surveys",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a friend in Berlin.",
+          "value": "Has a friend in Berlin, Germany",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a lists the instruments in her recording space.",
+          "value": "Plays guitar, banjo, and harmonica",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her recording space and that she does livestreaming and recording there.",
+          "value": "Livestreams and records music",
+          "lines": [
+            183,
+            185,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her music background appears in her YouTube videos.",
+          "value": "Posts music-related YouTube videos",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has had the same tapestry/background since college, about 10 years.",
+          "value": "Has used the same backdrop for music content for 10 years since college",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses dislike for heat, prefers driving with windows down when below 70°F, and avoiding air conditioning.",
+          "value": "Prefers cool weather; drives with windows down rather than using air conditioning",
+          "lines": [
+            271,
+            273
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b explicitly gives her name at the start of the conversation.",
+          "value": "Razia",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states her city and state directly.",
+          "value": "Wake Forest, North Carolina",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b remarks that many elderly people live in her immediate area.",
+          "value": "Lives in an area with many elderly people",
+          "lines": [
+            274
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to herself as grandma, is called 'girl', and discusses menopause as a woman.",
+          "value": "Female",
+          "lines": [
+            100,
+            186,
+            280,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she will turn 60 on January 20, the next presidential inauguration day.",
+          "value": "Age 59, turning 60 on January 20",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is a grandma to an 11-year-old.",
+          "value": "Grandmother",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes washing and pressing her hair, wearing it up in humidity, and references MLK Jr. Day in a familiar manner; these are strongly associated with African American women, though not explicitly stated.",
+          "value": "Likely African American",
+          "lines": [
+            102,
+            286,
+            288,
+            290
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b explicitly discusses going through menopause and the hot flashes that cause heat sensitivity.",
+          "value": "Going through menopause with hot flashes",
+          "lines": [
+            280,
+            282,
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes how humidity makes her hair voluminous and difficult to manage.",
+          "value": "Hair reacts strongly to humidity, becoming voluminous/frizzy",
+          "lines": [
+            286,
+            288
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b discusses early voting in North Carolina, the dates (Oct 15–31), and her plans to vote early in person.",
+          "value": "Attempting to vote early in North Carolina",
+          "lines": [
+            26,
+            28,
+            50,
+            52,
+            86,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts going to a polling location on the first day of early voting but leaving because the line was extremely long and she had no chair.",
+          "value": "First early-voting attempt failed due to very long line",
+          "lines": [
+            54,
+            56,
+            58,
+            60,
+            62,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states she does not currently own a vehicle.",
+          "value": "Does not own a vehicle",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is saving for a down payment on a new vehicle as a 60th birthday present to herself.",
+          "value": "Saving for a down payment on a new vehicle for 60th birthday",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she has earned 505 Euro (approximately $600) from Prolific.",
+          "value": "Earned approximately $600 (505 Euro) from Prolific",
+          "lines": [
+            208,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has saved $150 from Prolific earnings in a savings account.",
+          "value": "Has $150 in savings from Prolific earnings",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she has used Prolific earnings to pay electric bills.",
+          "value": "Uses Prolific earnings to pay electric bills",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions riding the bus multiple times.",
+          "value": "Uses public bus for transportation",
+          "lines": [
+            32,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she tried to sign up for DoorDash but has been waiting on a background check for weeks.",
+          "value": "Considered working for DoorDash; background check pending",
+          "lines": [
+            218,
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says she is a grandma to an 11-year-old.",
+          "value": "Has an 11-year-old grandchild",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her son's occupation as an HVAC installer.",
+          "value": "Son is an HVAC technician and installer",
+          "lines": [
+            122,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her son will turn 41 next month.",
+          "value": "Son is turning 41",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her son had his first daughter when he was 30.",
+          "value": "Son's first daughter was born when he was 30 years old",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions young cousins who earned double college degrees and got good jobs.",
+          "value": "Has young cousins with double college degrees",
+          "lines": [
+            148,
+            150,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says in her previous video chat she spoke with someone from Wisconsin.",
+          "value": "Previous study partner was from Wisconsin",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b calls herself a comedian with a 'gift for gab' and warns she may talk a lot.",
+          "value": "Self-described as talkative and a comedian (gift of gab)",
+          "lines": [
+            12,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she normally walks a lot.",
+          "value": "Walks a lot for exercise or transportation",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has been with Prolific for a while and does surveys regularly.",
+          "value": "Regular Prolific survey participant",
+          "lines": [
+            204,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states this is her second time participating in this video-chat study.",
+          "value": "Second time in this video-chat study",
+          "lines": [
+            10,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly expresses strong dislike for heat, keeps the heat off unless very cold, and says she would wake up sweating otherwise.",
+          "value": "Strongly dislikes heat; keeps heating off as much as possible",
+          "lines": [
+            268,
+            274,
+            276,
+            284,
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes putting her hair up in a bun in summer and washing/pressing it in winter.",
+          "value": "Wears hair up in a bun during summer; washes and presses it in winter",
+          "lines": [
+            286,
+            288,
+            290
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b explicitly says she does not look her age.",
+          "value": "Looks younger than her age (59)",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her hair as becoming very voluminous in humidity, comparing it to putting a finger in an electrical socket.",
+          "value": "Has voluminous hair that expands in humidity",
+          "lines": [
+            286,
+            288
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

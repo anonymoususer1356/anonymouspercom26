@@ -1,0 +1,409 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly states 'I'm in texas' and refers to 'here in texas' and the heat in Texas, and says his sister does not live in Texas, implying he does.",
+          "value": "Texas",
+          "lines": [
+            9,
+            21,
+            89,
+            309
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states he was 31 or 32 when he had his son. Speaker_a responds 'That's my age,' indicating he is 31 or 32. The exact number is ambiguous.",
+          "value": "31 or 32 years old",
+          "lines": [
+            48,
+            50,
+            53
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a discusses shaving facial hair and dating a girl, and uses male-coded language, implying male gender.",
+          "value": "Male",
+          "lines": [
+            145,
+            239,
+            143
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I'm really sensitive to caffeine' after describing feeling wired from drinking coffee and that he doesn't normally drink coffee.",
+          "value": "Sensitive to caffeine",
+          "lines": [
+            303,
+            305,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states he started Prolific two months ago and made 'like $200' in his spare time.",
+          "value": "Earned about $200 from Prolific surveys in two months",
+          "lines": [
+            117,
+            119
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions this study pays $15.",
+          "value": "Receiving $15 for this survey",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he bought headphones that were 'like 250' (dollars).",
+          "value": "Spent $250 on headphones",
+          "lines": [
+            195
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states he has an 'old Lenovo' laptop that 'must be over seven years old'.",
+          "value": "Owns a Lenovo laptop over 7 years old",
+          "lines": [
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my sister just just had a kid last year' and 'my sister doesn't live in texas'.",
+          "value": "Has a sister",
+          "lines": [
+            45,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions his sister had a kid, making him an uncle, and describes visiting his nephew.",
+          "value": "Has a nephew (approximately 15-16 months old)",
+          "lines": [
+            45,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states one of his close friends had their first kid about six months ago and he held the baby.",
+          "value": "Has a close friend who had a baby about six months ago",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I dated a girl ... like two years ago'.",
+          "value": "Dated a girl approximately two years ago",
+          "lines": [
+            239
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he can't go to the gym, implying he usually does.",
+          "value": "Usually goes to the gym",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I went for a run Last weekend'.",
+          "value": "Goes for runs",
+          "lines": [
+            27
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states he cuts his own hair and found it 'actually pretty easy to do'.",
+          "value": "Cuts own hair",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses desire to travel a lot and mentions using airline miles to visit his sister.",
+          "value": "Enjoys traveling and wants to travel more",
+          "lines": [
+            63,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a participates in Prolific surveys and mentions making money from them.",
+          "value": "Participates in online surveys on Prolific",
+          "lines": [
+            113,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'quarantine isn't that bad. I mean I enjoy staying at home.'",
+          "value": "Enjoys staying at home",
+          "lines": [
+            41
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'korean food is really good' and mentions Korean barbecue restaurants opening nearby.",
+          "value": "Likes Korean food",
+          "lines": [
+            319,
+            321
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a talks about hair growth on his face, describing it as patchy and bothering him, implying he has facial hair.",
+          "value": "Has facial hair (beard)",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is from Louisiana, discusses lockdowns in Louisiana, and contrasts weather with Texas, indicating he is currently in Louisiana.",
+          "value": "Louisiana",
+          "lines": [
+            8,
+            22,
+            24,
+            310
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b mentions his wife and son, calls himself an old army buddy, and is referred to as 'dude', indicating male.",
+          "value": "Male",
+          "lines": [
+            42,
+            142,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b had his son at age 31, and his son is now 6, making him approximately 37.",
+          "value": "Approximately 37 years old",
+          "lines": [
+            42,
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states he was in the military and mentions army buddies and being stationed in Korea.",
+          "value": "Military veteran",
+          "lines": [
+            314,
+            318,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'he's autistic' about his son.",
+          "value": "Parent of an autistic child",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm still a required worker so you know, I got to work a few days'.",
+          "value": "Essential (required) worker",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he is a required worker and mentions working at a plant when his son was born.",
+          "value": "Employed as an essential worker at a plant",
+          "lines": [
+            38,
+            214
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'in total ... that was probably about $600' when talking about Prolific earnings over about a year.",
+          "value": "Earned approximately $600 from Prolific surveys over a year",
+          "lines": [
+            120,
+            122
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says UserTesting and IntelliZoom are his 'two big go-tos' for making money.",
+          "value": "Earns money from UserTesting and IntelliZoom websites",
+          "lines": [
+            156,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he spent '20 or 30 bucks on a good set of headphones'.",
+          "value": "Spent $20-30 on headphones",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I got my wife and my son here.'",
+          "value": "Married with wife",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has one son, age 6 turning 7 in September, and that his son is autistic.",
+          "value": "Has one 6-year-old autistic son",
+          "lines": [
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We had both of our parents that work within the educational system,' interpreted as his and his wife's parents.",
+          "value": "Both sets of parents work in education",
+          "lines": [
+            232
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my old army buddies' and talks about sharing pictures with them.",
+          "value": "Keeps in touch with old army buddies",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he drinks coffee before bed and it doesn't affect him.",
+          "value": "Drinks coffee (even before bed)",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to be a gamer back in the day' and mentions 'World of Warcraft type stuff'.",
+          "value": "Former gamer (played World of Warcraft)",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in Prolific, UserTesting, and IntelliZoom surveys and tests regularly.",
+          "value": "Participates in online surveys and user testing regularly",
+          "lines": [
+            114,
+            116,
+            156,
+            166,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was in the military and stationed in South Korea for 'a little over three years'; he also traveled to Tokyo for layovers.",
+          "value": "Lived in South Korea for about 3 years and traveled in Asia",
+          "lines": [
+            318,
+            342,
+            343,
+            338
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has not gotten a haircut during quarantine, and now has long hair.",
+          "value": "Has not had a haircut; has long hair and beard",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says he and his army buddies all have beards, and describes his as 'a lot thicker than it looks'.",
+          "value": "Has a beard",
+          "lines": [
+            142,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b confirms he has not cut his hair during quarantine, indicating long hair.",
+          "value": "Has long hair",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

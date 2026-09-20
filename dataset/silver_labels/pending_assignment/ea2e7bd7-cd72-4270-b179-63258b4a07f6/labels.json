@@ -1,0 +1,403 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a quotes a friend calling her 'Ashleigh', indicating that is her name.",
+          "value": "Ashleigh",
+          "lines": [
+            117
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she lives in the suburbs of Atlanta.",
+          "value": "Suburbs of Atlanta, Georgia",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she works downtown Atlanta.",
+          "value": "Downtown Atlanta, Georgia",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm an accountant', indicating her occupation.",
+          "value": "Accountant",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says she took a COVID antibody test and the result was negative.",
+          "value": "COVID-19 antibody test negative",
+          "lines": [
+            277,
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a says she will eventually have to vote, suggesting she is a registered voter.",
+          "value": "Voter",
+          "lines": [
+            43
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a mentions her insurance was charged for the COVID test, indicating she has health insurance.",
+          "value": "Has health insurance",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a drives to work and likely lent her car to her sister, showing she owns or has access to a car.",
+          "value": "Owns a car",
+          "lines": [
+            25,
+            253
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a asked for Monday off to go to a winery, implying she has paid vacation leave.",
+          "value": "Has paid vacation leave",
+          "lines": [
+            241
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says her boss is a woman currently in Colorado.",
+          "value": "Has a female boss in Colorado",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is going to a winery with her grandma and confirms she lives with her.",
+          "value": "Lives with grandmother",
+          "lines": [
+            241,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions her mother several times, including a trip they took together.",
+          "value": "Has a mother",
+          "lines": [
+            229,
+            315
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she lent her car to her sister (garbled), indicating she has a sister.",
+          "value": "Has a sister",
+          "lines": [
+            253
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a describes running into her ex-boyfriend twice and his subsequent texts.",
+          "value": "Has an ex-boyfriend",
+          "lines": [
+            149,
+            151,
+            157,
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she normally works from home but goes to the office once or twice a week.",
+          "value": "Hybrid work schedule (mostly remote)",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she drives to her downtown Atlanta office.",
+          "value": "Drives to work",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states her daily screen time exceeds 10 hours.",
+          "value": "Daily screen time over 10 hours",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes cooking meals like Cordon Bleu chicken, indicating she cooks at home.",
+          "value": "Cooks at home",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a discusses various TV shows and movies she has watched.",
+          "value": "Frequent TV and movie viewer",
+          "lines": [
+            65,
+            69,
+            77,
+            83,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using Instagram, Facebook, and Snapchat.",
+          "value": "Uses Instagram, Facebook, and Snapchat",
+          "lines": [
+            201,
+            217,
+            221,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she does not have an iPhone.",
+          "value": "Does not use an iPhone",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she used to go to concerts all the time.",
+          "value": "Used to attend concerts frequently",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a says her hair 'goes down' and she uses volume products, suggesting long, straight, flat hair.",
+          "value": "Long straight hair, flat",
+          "lines": [
+            193
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says she is wearing a 'teacher', likely a mis-transcription of 't-shirt', indicating casual home attire.",
+          "value": "Wears t-shirts at home",
+          "lines": [
+            47
+          ],
+          "certainty": 2
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in new york city'.",
+          "value": "New York City, New York",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions going to the office on the subway, indicating she works in New York City.",
+          "value": "Works in New York City",
+          "lines": [
+            12,
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says she applied to volunteer for a concert, indicating she is a volunteer.",
+          "value": "Volunteer",
+          "lines": [
+            28
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b works from home sometimes and in the office other days, indicating steady employment with a hybrid schedule.",
+          "value": "Employed with hybrid work schedule",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b booked a trip to Thailand, suggesting she has disposable income for international travel.",
+          "value": "Can afford international travel",
+          "lines": [
+            356
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my girlfriend' when planning a high school reunion trip, indicating a close female friend from high school.",
+          "value": "Close female friend from high school",
+          "lines": [
+            28,
+            356
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she is going to her boyfriend's place for the weekend.",
+          "value": "Has a boyfriend",
+          "lines": [
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her best friend attended university in Atlanta and she visited her there.",
+          "value": "Has a best friend who attended university in Atlanta",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions trying to figure out photo angles with her cousin.",
+          "value": "Has a cousin",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about a friend who tested positive for COVID-19.",
+          "value": "Has a friend who had COVID-19",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b works from home some days and goes into the office on others.",
+          "value": "Hybrid work schedule",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b commutes by subway in New York City and describes crowded conditions.",
+          "value": "Commutes by subway in NYC",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I start running'.",
+          "value": "Runs for exercise",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses TV shows she watches, including 'Selling Sunset' and 'The Boys'.",
+          "value": "Enjoys watching TV series",
+          "lines": [
+            116,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists the social media platforms she uses: Instagram, Facebook, Twitter, Snapchat; she does not use TikTok.",
+          "value": "Uses Instagram, Facebook, Twitter, Snapchat; avoids TikTok",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b follows an Instagram account for posing tips.",
+          "value": "Follows Instagram posing tips",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b traveled to Atlanta and planned a trip to Thailand, showing she enjoys traveling.",
+          "value": "Enjoys traveling",
+          "lines": [
+            304,
+            356
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b applied to volunteer at a concert with her friend.",
+          "value": "Volunteers for events",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

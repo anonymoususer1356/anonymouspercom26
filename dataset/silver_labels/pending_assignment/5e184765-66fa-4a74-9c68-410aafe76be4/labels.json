@@ -1,0 +1,463 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says she is in Ohio (line 13) and outside Cleveland (line 41). She also says she moved to Cleveland just last year (line 167).",
+          "value": "Lives near Cleveland, Ohio",
+          "lines": [
+            13,
+            41,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is from New Hampshire (line 79) and grew up in Manchester (line 87).",
+          "value": "Grew up in Manchester, New Hampshire",
+          "lines": [
+            79,
+            87
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she finished a master's last semester and was doing a masters in bioethics (line 27).",
+          "value": "Holds a Master's degree in bioethics",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to a question about what school she went to, speaker_a says 'case Western' (line 39). Combined with living near Cleveland and finishing a master's, it establishes she attended Case Western Reserve University.",
+          "value": "Attended Case Western Reserve University",
+          "lines": [
+            39
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she was a graduate of USC (line 85) and majored in political science (line 191).",
+          "value": "Bachelor's degree in Political Science from University of Southern California",
+          "lines": [
+            85,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she tutors ACT and SAT prep (line 365) and works from home (line 119).",
+          "value": "Works as an online tutor for ACT and SAT prep",
+          "lines": [
+            119,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is in the middle of applying to medical school (line 323).",
+          "value": "Applicant to medical school",
+          "lines": [
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's first choice in the 2020 primary was Mayor Pete (Buttigieg) and she voted for Biden (line 197). The ASR produced 'first dressed matter Pete' for 'first choice was Mayor Pete'.",
+          "value": "Democrat; supported Pete Buttigieg then Joe Biden",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a works from home (line 119) as a tutor (line 365).",
+          "value": "Earns income as a remote tutor",
+          "lines": [
+            119,
+            365
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she took the Salesforce exam (line 361) to have another credential.",
+          "value": "Passed the Salesforce certification exam",
+          "lines": [
+            361
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she worked on political campaigns in the past (line 191).",
+          "value": "Worked on political campaigns",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions her sister multiple times (e.g., line 13).",
+          "value": "Has a sister",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her sister went to college in Rochester (line 13).",
+          "value": "Sister attended college in Rochester, NY",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her sister's husband is from Sharon, Massachusetts (line 83).",
+          "value": "Brother-in-law from Sharon, Massachusetts",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her brother-in-law is in the military (line 107).",
+          "value": "Brother-in-law serves in the military",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her dad is a retired police officer (line 181).",
+          "value": "Father is a retired police officer",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her dad grew up in Methuen (line 89).",
+          "value": "Father grew up in Methuen, Massachusetts",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her mom works in a hospital (line 107).",
+          "value": "Mother works in a hospital",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her grandmother is 92 years old (line 155).",
+          "value": "Grandmother is 92 years old",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions visiting a friend in Iceland (line 53) and that the friend grew up in California (line 63).",
+          "value": "Has a friend living in Iceland, originally from California",
+          "lines": [
+            53,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she dated a guy from L.A. (line 383).",
+          "value": "Ex-boyfriend from Los Angeles",
+          "lines": [
+            383
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she has a dog named Lady (line 115) and has had her for about a year and a half (line 113).",
+          "value": "Owns a dog named Lady, had her for 1.5 years",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live alone' (line 167).",
+          "value": "Lives alone",
+          "lines": [
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she went to a protest this summer (line 175).",
+          "value": "Attended a protest in summer 2020",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I work from home' (line 119).",
+          "value": "Works from home",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she got to go to Iceland last year (line 53) in October (line 55) and visited a national park.",
+          "value": "Traveled to Iceland in October",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a was supposed to study abroad in Amsterdam in May (line 45) but did not get to go (line 47).",
+          "value": "Planned to study abroad in Amsterdam (cancelled)",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'Melanie Newt Hill' (line 6). speaker_a later calls her 'Melanie' (line 391). The ASR may have misrecognized the surname; the intended name could be something like 'Melanie Newton'. We record the spoken form.",
+          "value": "Melanie Newt Hill",
+          "lines": [
+            6,
+            391
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in upstate New York, not the city (line 12) and specifically in Rochester (line 14). She attends the University of Rochester (inferred from lines 16–18).",
+          "value": "Lives in Rochester, New York",
+          "lines": [
+            12,
+            14,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her family is from Massachusetts (line 76), she is from 'right by Gillette Stadium in Foxboro' (line 80), and near Sharon 'in North' (likely Norton) (line 82). speaker_a says 'Norton' (line 81).",
+          "value": "Originally from Norton, Massachusetts",
+          "lines": [
+            76,
+            80,
+            81,
+            82
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b indicates she is a student at the University of Rochester (lines 16–18) in a B.S./M.S. program in environmental science (lines 18, 20). The ASR rendered 'U of R' as 'you of our already' and 'I'm already'.",
+          "value": "B.S./M.S. student in Environmental Science at University of Rochester",
+          "lines": [
+            16,
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she 'levels with Warren' (was with Elizabeth Warren) (line 200) and was a 'very, very big Hillary supporter' (line 208).",
+          "value": "Democrat; supported Elizabeth Warren and Hillary Clinton",
+          "lines": [
+            200,
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she works at the stadium (Gillette) in the summer (line 84).",
+          "value": "Summer job at Gillette Stadium",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she worked for the study abroad office on her campus (line 48).",
+          "value": "Works for university study abroad office",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she nannies for a family (line 172).",
+          "value": "Works as a nanny",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she passed the LEED exam and is certified to help projects meet those credentials (lines 352–358). The ASR said 'lead exam' and 'leed certified'.",
+          "value": "LEED accredited professional",
+          "lines": [
+            352,
+            358
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b holds multiple part-time jobs: stadium (line 84), study abroad office (line 48), and nanny (line 172).",
+          "value": "Multiple part-time jobs",
+          "lines": [
+            48,
+            84,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is 'not the most stable financially right now' (line 328).",
+          "value": "Financially unstable at present",
+          "lines": [
+            328
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says her sister lives in Providence, Rhode Island (line 92).",
+          "value": "Sister lives in Providence, RI",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her parents are not taking COVID seriously (line 100) and are in Florida on vacation (line 102).",
+          "value": "Parents currently in Florida on vacation, not COVID-cautious",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her grandmother is 72 (line 160) and walks her dog (line 158).",
+          "value": "Grandmother, age 72, owns a dog",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a boyfriend at the time she took the SATs (line 380).",
+          "value": "Had a boyfriend during high school/SAT period",
+          "lines": [
+            380
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'luckily I have roommates here' (line 172).",
+          "value": "Lives with roommates",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the father of the family she nannies for is a police officer (line 174).",
+          "value": "Nanny for a family where the father is a police officer",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b studied abroad in Sweden a few years ago (line 48).",
+          "value": "Studied abroad in Sweden",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she went to Iceland in the spring (line 60).",
+          "value": "Visited Iceland in spring",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she got to meet Cam Newton at her stadium job (line 84).",
+          "value": "Met NFL quarterback Cam Newton",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says New Hampshire is for hiking trips (line 92), implying she goes hiking there.",
+          "value": "Goes hiking in New Hampshire",
+          "lines": [
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she loves garbage plates (line 282). The ASR produced 'garbage please'.",
+          "value": "Enjoys Rochester garbage plates",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a rabbit named Button (line 126).",
+          "value": "Owns a rabbit named Button",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

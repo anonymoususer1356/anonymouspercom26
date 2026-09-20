@@ -1,0 +1,292 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself with 'my name is steven'. The intended name is Steven.",
+          "value": "steven",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Kentucky, yep' and 'I live in Lexington, which is about 300,000 people'.",
+          "value": "Lexington, Kentucky",
+          "lines": [
+            55,
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm from Maine originally'.",
+          "value": "Maine (originally)",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I was down in Tampa in december for a holiday'.",
+          "value": "visited Tampa, Florida in December",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved to Lexington from May and 2.5 years ago', where 'May' is likely an ASR error for 'Maine'.",
+          "value": "moved from Maine to Lexington 2.5 years ago",
+          "lines": [
+            213
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I'm 35' during a conversation about age.",
+          "value": "35 years old",
+          "lines": [
+            301
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work at a hospital, I do payroll administration for nurses'. Later he adds 'my job doesn't care' and 'I work at a pretty liberal hospital'.",
+          "value": "works at a hospital doing payroll administration for nurses",
+          "lines": [
+            67,
+            201,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using the subreddit 'Beer Money' and that he 'did a lot of stuff on there' for extra money, and shows familiarity with Prolific tasks.",
+          "value": "does online tasks for extra money (Beer Money/Prolific)",
+          "lines": [
+            137,
+            139
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my dad has a little terrier'.",
+          "value": "father has a little terrier",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'my parents are divorced in the mid nineties'.",
+          "value": "parents divorced in the mid 1990s",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I have three cats' and 'I've got one sitting in my lap'.",
+          "value": "has three cats",
+          "lines": [
+            153,
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions he has tattoos on both forearms, that one is 'only halfway' done and he has 'one more session on'. The tattoos are Star Wars themed (references 'the moral stuff', likely 'Mandalorian').",
+          "value": "has Star Wars tattoos on both forearms, one half-done",
+          "lines": [
+            83,
+            85,
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a claims to have seen all Star Wars movies 'a million times' and discusses Star Wars lore in detail.",
+          "value": "Star Wars fan",
+          "lines": [
+            81,
+            166,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'just marathon through Letterkenny', later describing it as a Canadian comedy.",
+          "value": "watches the show Letterkenny",
+          "lines": [
+            231,
+            233,
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a points out 'a shitload of lego' behind him and says it is 'mostly software stuff', likely an ASR error for 'Star Wars stuff'.",
+          "value": "collects Lego, primarily Star Wars sets",
+          "lines": [
+            73,
+            77
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes driving a U-Haul and towing his car 1200 miles during a move, calling it nerve-racking.",
+          "value": "moved 1200 miles using a U-Haul and towing a car",
+          "lines": [
+            213,
+            217,
+            219
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a explicitly says 'tattoos on both my forearms'.",
+          "value": "tattoos on both forearms",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "After speaker_a asks his name, speaker_b echoes the question and then says 'Dakota?' with a question mark, which could be his name.",
+          "value": "possibly Dakota",
+          "lines": [
+            46
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In the context of Florida, speaker_b says 'I live in a small town like in the middle', that the beach is 'like an hour and a half away', and estimates his town's population at 10,000.",
+          "value": "lives in a small inland town in Florida, pop. ~10,000, ~1.5 hours from coast",
+          "lines": [
+            96,
+            98,
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b confirms being originally from Florida when asked directly.",
+          "value": "originally from Florida",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'You're like 10 years past me' when speaker_a states being 35, and speaker_a guesses 'early to mid 20'.",
+          "value": "approximately 25 years old",
+          "lines": [
+            304,
+            305
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "When asked 'What do you do for work?', speaker_b answers 'I'm not right now'.",
+          "value": "currently not employed",
+          "lines": [
+            64
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he keeps an eye on Prolific tasks and leaves a tab open, implying he occasionally does them for extra money.",
+          "value": "occasionally does Prolific online tasks for money",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b uses 'we' when saying 'we have a few dogs', indicating he lives with others (family or roommates).",
+          "value": "lives with others (implied by 'we')",
+          "lines": [
+            316
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'We have a few dogs. I have a chihuahua.'",
+          "value": "has multiple dogs, including a chihuahua",
+          "lines": [
+            316,
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b claims to be a 'huge, huge fan' of Star Wars and says 'I actually have [Star Wars] tattoos on my arm'.",
+          "value": "Star Wars fan with tattoos on arm",
+          "lines": [
+            82
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b states 'I was watching some shameless'.",
+          "value": "watches the show Shameless",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he keeps an eye on Prolific tasks and leaves a tab open.",
+          "value": "does Prolific tasks occasionally",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'our worst tattoos on my arm', likely meaning 'I have Star Wars tattoos on my arm', though later he suggests tattoos are 'not really my thing'.",
+          "value": "tattoos on arm (likely Star Wars themed)",
+          "lines": [
+            82
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

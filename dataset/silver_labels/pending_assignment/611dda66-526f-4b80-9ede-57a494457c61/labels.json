@@ -1,0 +1,248 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b calls speaker_a 'Chris' in line 4 and confirms the name in line 12.",
+          "value": "Chris",
+          "lines": [
+            4,
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states current city of residence in line 13.",
+          "value": "Austin, Texas",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they grew up in upstate New York in line 35.",
+          "value": "upstate New York",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_a states they have Asperger's syndrome in line 99.",
+          "value": "Asperger's syndrome",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a mentions going through bankruptcy in line 103.",
+          "value": "experienced bankruptcy",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes employment status as semi-retired in line 51 (ASR 'I want you call' interpreted as 'I'm what you call').",
+          "value": "semi-retired",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states they worked at Apple Care for almost 20 years in line 51.",
+          "value": "former Apple Care tech support employee for almost 20 years",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they do many online surveys daily for Amazon gift cards in line 217.",
+          "value": "regularly participates in online survey panels for Amazon gift cards",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains converting gift cards to cash via rebate services in lines 219-223.",
+          "value": "uses Amazon rebate services to convert gift cards to cash",
+          "lines": [
+            219,
+            221,
+            223
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a is developing a design for NASA's HeroX lunar toilet challenge in lines 187-189.",
+          "value": "submission for NASA HeroX lunar toilet challenge",
+          "lines": [
+            187,
+            189
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a recalls watching Doctor Who in their 20s/30s in line 181.",
+          "value": "used to watch Doctor Who",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using interlibrary loan services in the past in line 121.",
+          "value": "used interlibrary loan for books",
+          "lines": [
+            121
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b states they live in Lexington, Kentucky in line 26.",
+          "value": "Lexington, Kentucky",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they are originally from Maine in line 28.",
+          "value": "originally from Maine",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b implies they are younger than speaker_a in line 92 ('you're older and you've been around longer than I have').",
+          "value": "younger than speaker_a (Chris)",
+          "lines": [
+            92
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b describes working from home on a computer all day in line 228.",
+          "value": "works from home using a computer all day",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they earn alternative income through user testing, making $2900 last month, in lines 216, 238, 240.",
+          "value": "earns money through user testing, made $2900 last month",
+          "lines": [
+            216,
+            238,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having worked in a call center briefly 15 years ago in line 102.",
+          "value": "briefly worked in a call center 15 years ago",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they have a Patreon for their Star Wars D&D conversion project in line 170.",
+          "value": "runs a Patreon for Star Wars D&D conversion",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says most of their family moved from Maine to Florida in line 40.",
+          "value": "most family moved from Maine to Florida",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says they play video games a lot in line 78.",
+          "value": "plays video games a lot",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes being heavily into Dungeons & Dragons and converting 5e to Star Wars in lines 156-160.",
+          "value": "plays/runs Dungeons & Dragons, converted 5th edition to Star Wars",
+          "lines": [
+            156,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about collecting Star Wars Lego and using it for tabletop gaming in lines 154 and 160.",
+          "value": "collects Star Wars Lego and uses for tabletop gaming",
+          "lines": [
+            154,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b maintains an online presence (subreddit, Twitter, Patreon) for their project in line 170.",
+          "value": "maintains subreddit, Twitter, and Patreon for D&D project",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states they use Windows PC and a Google Pixel phone in line 60.",
+          "value": "uses Windows PC and Google Pixel phone",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,533 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b states 'Hey, I'm James nice to meet you live in Orlando'. No surname is given.",
+          "value": "James",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in Orlando' (line 12) and confirms 'I live here in Orlando' (line 136).",
+          "value": "Orlando, Florida",
+          "lines": [
+            12,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I originally grew up in michigan'.",
+          "value": "grew up in Michigan",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he 'lived in Illinois and in Ohio' after Michigan.",
+          "value": "previously lived in Illinois and Ohio",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I lived in a condo in downtown Chicago for a couple of years'.",
+          "value": "previously lived in downtown Chicago",
+          "lines": [
+            134
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b explicitly says 'I'm 46 now'.",
+          "value": "age 46",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b uses he/him for his male partner (line 140), has the typically male name James, and is in a same-sex relationship; context implies male gender.",
+          "value": "male",
+          "lines": [
+            12,
+            140,
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to his partner and meeting on Grindr (line 162), mentions a boyfriend on Gay.com (line 174), and implicitly agrees with 'we're gay' (line 197).",
+          "value": "gay",
+          "lines": [
+            162,
+            174,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to University of michigan'.",
+          "value": "attended University of Michigan",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b discusses Florida's vote-by-mail, his own voting history, and plans to vote in person early in 2020, implying he is a registered Florida voter.",
+          "value": "registered voter in Florida",
+          "lines": [
+            296,
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was able to get some of the unemployment benefits for about eight weeks'.",
+          "value": "received unemployment benefits for about eight weeks",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states 'I'm self employed'.",
+          "value": "self-employed",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am a franchise E for a company called Zoom Room' (ASR error 'franchise E' for 'franchisee').",
+          "value": "franchisee for Zoom Room",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses getting ready to open his Zoom Room location, design, permitting, and construction (line 30, 118).",
+          "value": "opening a Zoom Room franchise in Orlando",
+          "lines": [
+            30,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'all contracts sales work' (line 90) and mentions finding 'another contract' (line 94).",
+          "value": "contract sales work",
+          "lines": [
+            90,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got laid off from my fire company a year and a half ago' (ASR 'fire company' may be 'prior company').",
+          "value": "laid off from previous company",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I donated probably over three or $400 to his campaign' referring to Pete Buttigieg.",
+          "value": "donated over $300 to Pete Buttigieg campaign",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states he was in Tampa, next week going to 'tell Hastings' (likely Tallahassee, noting ASR error), and the following week to Pensacola.",
+          "value": "travels for work to Tampa, Tallahassee, and Pensacola",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I went on the market place and got health insurance' after COBRA ran out.",
+          "value": "has health insurance from the marketplace",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my partner' (line 140), says they have been together nine years ('we're nine' line 156), and notes their anniversary is end of July (line 160).",
+          "value": "has a male partner, together 9 years",
+          "lines": [
+            140,
+            156,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his partner works for Lowe's as a pricing coordinator, Sunday-Thursday 8:30 p.m. to 5:30 a.m. (lines 146, 148).",
+          "value": "partner works at Lowe's as pricing coordinator (overnight)",
+          "lines": [
+            146,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We met a grinder when grinder first came out' (line 162).",
+          "value": "met partner on Grindr",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I have two black labs, so I have duck and goose' and later names Goose (line 130).",
+          "value": "owns two black Labrador dogs named Duck and Goose",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses listening to NPR podcasts such as Business Wars and Up First, and says he listens to many podcasts while driving and travelling (lines 182, 196, 214).",
+          "value": "listens to NPR and podcasts",
+          "lines": [
+            182,
+            196,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just have one state' (likely 'one station', noting ASR error) and calls himself a 'bad liberal', implying a donation to one NPR station.",
+          "value": "donates to one NPR station",
+          "lines": [
+            220
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says he has been doing studies since January/February and mentions 'all the different surveys on prolific' (lines 332, 334). The current conversation is part of a study.",
+          "value": "participates in academic research studies on Prolific",
+          "lines": [
+            332,
+            334
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'My name is Jordan James Pleasure' (line 13).",
+          "value": "Jordan James Pleasure",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I am in Tempe Arizona' (line 17).",
+          "value": "Tempe, Arizona",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm from texas originally' and 'I grew up outside Dallas fort Worth' (lines 55, 57).",
+          "value": "originally from Texas, grew up outside Dallas/Fort Worth",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions living in Houston, attending school there, and moving from Houston to Phoenix (lines 57, 219, 269).",
+          "value": "previously lived in Houston, Texas",
+          "lines": [
+            57,
+            219,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when I moved to phoenix Arizona from Houston' (line 219).",
+          "value": "moved from Houston to Phoenix area",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we moved to texas when I was four from the Washington Dc area' (line 253).",
+          "value": "moved from Washington DC area to Texas at age 4",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a uses he/him for his partner David, has a typically male name, and is in a same-sex relationship, supporting male gender.",
+          "value": "male",
+          "lines": [
+            149,
+            155,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'we're gay' (line 197) and describes meeting his partner David on a chat room (line 165).",
+          "value": "gay",
+          "lines": [
+            165,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'having grown up catholic' (line 221) and refers to his family as 'catholic' (line 267).",
+          "value": "raised Catholic",
+          "lines": [
+            221,
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm a geographer ... finishing up my PhD' (line 39).",
+          "value": "PhD candidate in geography",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says of Pete Buttigieg 'he's my age' (line 275); Buttigieg was 38 at the time, placing speaker_a in his late 30s.",
+          "value": "approximately 38 years old",
+          "lines": [
+            275
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says if he had graduated he would not have health insurance (line 85) and later notes he is better off having health insurance (line 319), indicating he currently holds student health coverage.",
+          "value": "has health insurance through student status",
+          "lines": [
+            85,
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_a plans to 'orchestrate everything such that I can still vote here' in Arizona (line 299), implying he is a registered Arizona voter.",
+          "value": "registered voter in Arizona",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_a is finishing a PhD, had a job offer that evaporated, and does not mention current employment, consistent with living on a graduate stipend.",
+          "value": "PhD student (likely with stipend)",
+          "lines": [
+            39,
+            85,
+            307
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he donates to two NPR stations, a classical music station (line 219), and PBS (line 221).",
+          "value": "donates to two NPR stations, a classical music station, and PBS",
+          "lines": [
+            219,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions signing up for conversation studies via his partner (line 325) and says he feels good about participating in academic studies (line 331), indicating he receives compensation for research participation.",
+          "value": "participates in paid academic research studies",
+          "lines": [
+            325,
+            327,
+            331
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states the job opportunity he had in the spring evaporated (line 85) and specifically describes it as a job with the county judge in Houston (line 307).",
+          "value": "had a job offer with the county judge in Houston that fell through due to Covid",
+          "lines": [
+            85,
+            307
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a identifies his partner as David (line 165), says they have been together 10.5 years (line 155), and their anniversary is in March ('Ice is March' ASR for 'Ours is March', line 161).",
+          "value": "partner David, together 10.5 years",
+          "lines": [
+            155,
+            161,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his partner is an adjunct professor at a local college who teaches early morning classes (line 149).",
+          "value": "partner is an adjunct professor with early morning classes",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'David and I met on a chat room' (line 165).",
+          "value": "met partner on a chat room",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his parents are divorced, his mom was left-leaning, his dad more conservative and now politically extreme (lines 263, 265).",
+          "value": "parents divorced; mother liberal, father conservative and now extreme",
+          "lines": [
+            263,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his father is ex-military and worked for Motorola; mother's family from the northeast, father's family from Oklahoma (line 253).",
+          "value": "father ex-military, worked for Motorola; mother from northeast, father's family from Oklahoma",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a mentions living in an apartment and feeling guilty about not having a yard for a dog (lines 133, 139).",
+          "value": "lives in an apartment without a yard",
+          "lines": [
+            133,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we grew up on acreage' and dogs ran free (line 133).",
+          "value": "grew up on acreage with free-roaming dogs",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'll get a dog one day' (line 131).",
+          "value": "wants to get a dog in the future",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his work: 'I'm a geographer', 'I study ... urban climate', and 'I do nothing but look at maps of phoenix all day' (lines 39, 65).",
+          "value": "works as a geographer studying urban climate, frequently looking at maps",
+          "lines": [
+            39,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions listening to a Sarah Koenig podcast (Serial) and a podcast about white parents and schools in the Bronx (likely 'Nice White Parents') (lines 199, 201).",
+          "value": "listens to podcasts like Serial and Nice White Parents",
+          "lines": [
+            199,
+            201
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a donates to NPR/PBS, supports Elizabeth Warren, and watched the Democratic National Convention (lines 219, 221, 239, 245).",
+          "value": "politically engaged, supports progressive candidates and public media",
+          "lines": [
+            219,
+            221,
+            239,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a repeatedly expresses a desire to leave Phoenix and return to Texas (lines 77, 299, 303, 305).",
+          "value": "desires to move back to Texas",
+          "lines": [
+            77,
+            299,
+            303,
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b, describing a 'very masculine presenting' lesbian coworker, says 'like her haircut is like your haircut' (line 256), implying speaker_a has a similar short or masculine style.",
+          "value": "short/masculine haircut",
+          "lines": [
+            256
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,335 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in Missouri right now'.",
+          "value": "Missouri",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm from texas' and later confirms being born and raised there.",
+          "value": "Texas",
+          "lines": [
+            11,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In response to a question about time zone, speaker answers 'Uh huh central'.",
+          "value": "Central Time Zone",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm old, I'm 45'.",
+          "value": "45",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have an M. F. A. In directing'.",
+          "value": "MFA in directing",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was in the GT program through through public schooling'.",
+          "value": "gifted program (GT)",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker describes a weird sound sensitivity and names it 'Miss a Phone' (misophonia), stating they have had it since the early 80s.",
+          "value": "misophonia",
+          "lines": [
+            25,
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I started experiencing it in about fourth grade'.",
+          "value": "misophonia onset in fourth grade",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I got sober three years ago' after describing a past struggle with drinking.",
+          "value": "sober for three years",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I have a nonprofit that is to try to spread awareness about it' (misophonia).",
+          "value": "runs a nonprofit for misophonia awareness",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my background is in theater'.",
+          "value": "theater background",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I ended up living on the streets for a brief amount of time' after losing everything due to drinking.",
+          "value": "past homelessness",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My wife and I are pretty philanthropic'.",
+          "value": "philanthropic",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my wife' multiple times and later says 'I'm married to a librarian'.",
+          "value": "married to a librarian",
+          "lines": [
+            39,
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I stay home a lot because of it' (misophonia).",
+          "value": "stays home a lot",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says 'I don't play any musical instruments'.",
+          "value": "does not play musical instruments",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've been a fan of hers [Fiona Apple] for a long time'.",
+          "value": "fan of Fiona Apple",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm participating in some research, um, to try to understand it better' (misophonia).",
+          "value": "participates in misophonia research",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I'm in Minneapolis' and later references 'north of me in Minnesota' placing them in Minnesota.",
+          "value": "Minneapolis, Minnesota",
+          "lines": [
+            12,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker agrees they are in the same time zone as speaker_a, who stated 'central'.",
+          "value": "Central Time Zone",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm 25'.",
+          "value": "25",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'went to Mcallister College' which is phonetically close to Macalester College, a liberal arts school in Minnesota; context confirms this interpretation.",
+          "value": "Macalester College",
+          "lines": [
+            72
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I was in gifted when I was in public schools'.",
+          "value": "gifted program",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm trying to figure out ways to get into music direction for musical theater'.",
+          "value": "aspiring music director for musical theater",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'My brother is a a physics student' and discusses his college year.",
+          "value": "brother is a physics student",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my sister is really into it' (referring to Survivor).",
+          "value": "sister is a fan of Survivor",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my dad is also a musician, he he was a lawyer ... he's just finished his doctorate and choral conducting'.",
+          "value": "father is a lawyer and musician with a doctorate in choral conducting",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My mom ... taught um voice to musical theater students, um uh like college students'.",
+          "value": "mother taught voice to musical theater students",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I probably know like four people' with misophonia and mentions having friends like that.",
+          "value": "has friends with misophonia",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'my primary instrument was jazz slash contemporary piano'.",
+          "value": "plays jazz/contemporary piano",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I grew up playing um violent actually' (violin) 'when I was a kid'.",
+          "value": "played violin as a child",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was more interested in like conducting and composition'.",
+          "value": "interested in conducting and composition",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I posted an instagram story about this, which is where I apparently post my essays'.",
+          "value": "posts essays on Instagram",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I spent a lot of time on Reddit in high school'.",
+          "value": "frequent Reddit user in high school",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I don't really watch a lot of tv like that'.",
+          "value": "does not watch much TV",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes and recommends a podcast by Jamie Loftus ('My Year in MENSA') and a video essay by ContraPoints ('Canceling').",
+          "value": "consumes podcasts and video essays (e.g., 'My Year in MENSA', ContraPoints' 'Canceling')",
+          "lines": [
+            138,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

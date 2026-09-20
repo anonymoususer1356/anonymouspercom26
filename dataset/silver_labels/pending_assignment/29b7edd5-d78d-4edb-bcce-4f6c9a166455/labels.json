@@ -1,0 +1,331 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in D. C.' (line 103) and later 'I've been here about seven years' (line 113).",
+          "value": "Lives in Washington D.C. (for about 7 years)",
+          "lines": [
+            103,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm actually from Alabama Birmingham Alabama' (line 111).",
+          "value": "Originally from Birmingham, Alabama",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was in san Francisco before this' (line 113).",
+          "value": "Previously lived in San Francisco, California",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'and then Austin Before that' (line 113).",
+          "value": "Previously lived in Austin, Texas",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I haven't had kids yet' (line 75) and 'I don't know if I'm ready' (line 67).",
+          "value": "Does not have children",
+          "lines": [
+            67,
+            75
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes her work: 'I do blogs, so I work for a company ... I'll write about like science or literature' (line 31) and she works from home (lines 17, 23).",
+          "value": "Employed as a blog/content writer (works remotely)",
+          "lines": [
+            17,
+            23,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions studying web development to further her career: 'on the side I'm studying web development' (line 23) and discusses learning HTML/CSS/JavaScript (line 33) via Udemy (line 35).",
+          "value": "Studying web development to transition into that field",
+          "lines": [
+            23,
+            33,
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my boyfriend got it' (line 11) and later 'I met my present partner in Austin and we've been together for about 10 years' (line 113).",
+          "value": "Has a long-term boyfriend/partner (together about 10 years, met in Austin)",
+          "lines": [
+            11,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my family is there' referring to Alabama (line 141).",
+          "value": "Family lives in Alabama",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I made my friend a little birthday card web page for her birthday' (line 41).",
+          "value": "Has a female friend for whom she created a birthday webpage",
+          "lines": [
+            41
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm doing you Demi' (likely Udemy) (line 35) and describes learning HTML, CSS, JavaScript (line 33), with a British lady instructor (line 37).",
+          "value": "Taking web development courses on Udemy (HTML, CSS, JavaScript)",
+          "lines": [
+            33,
+            35,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've got a book on my Kindle about Javascript' (line 43).",
+          "value": "Owns a Kindle and reads JavaScript books on it",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I usually take a train or a bus down there' referring to traveling to Alabama (line 141).",
+          "value": "Travels to Alabama by train or bus",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms she works from home (lines 17, 23).",
+          "value": "Works from home",
+          "lines": [
+            17,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes making a birthday card webpage for a friend (line 41).",
+          "value": "Engages in small web design projects (e.g., birthday webpage)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b mentions NYU hospital (line 58), Long Island (line 58), refers to 'new york' (line 106), and says he moved 'down to the city' and has been there about 10 years (line 134).",
+          "value": "Lives in New York City area (for about 10 years)",
+          "lines": [
+            58,
+            106,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'No I grew up in Connecticut' (line 124).",
+          "value": "Grew up in Connecticut",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I've got a two year old and a four year old' (line 50) and earlier 'daughters are right behind me' (line 48).",
+          "value": "Father of two daughters (ages 2 and 4)",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a addresses him as 'man' (line 161) and speaker_b refers to his wife, indicating male gender.",
+          "value": "Male",
+          "lines": [
+            12,
+            161
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I am not a web developer. I'm on a different side of computers' (line 44) and describes working from home with many meetings (lines 14, 16).",
+          "value": "Works in a computer/tech field (remote, many meetings)",
+          "lines": [
+            14,
+            16,
+            44
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states his health insurance cost with children is '$272 a month' (line 50).",
+          "value": "Pays $272/month for family health insurance",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my wife, she's not working' (line 74).",
+          "value": "Wife is not employed (single-income household)",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts the hospital bill for his first child's birth: total $85,000, out-of-pocket $5,000 (line 52).",
+          "value": "Paid $5,000 out-of-pocket for childbirth (total bill $85,000)",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes his house: 'office up in the attic', 'down in the basement', 'dining room', 'bedroom' (line 72).",
+          "value": "Lives in a multi-story house (has attic and basement)",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my wife' multiple times (lines 12, 50, 74).",
+          "value": "Married (has a wife)",
+          "lines": [
+            12,
+            50,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b has two daughters as per line 48 and 50.",
+          "value": "Has two daughters (ages 2 and 4)",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have some family north Carolina' (line 154).",
+          "value": "Has family in North Carolina",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses a buddy who employs a nanny, and notes their kids attend the same school (lines 80, 84).",
+          "value": "Has a friend whose children attend the same school and who employs a nanny",
+          "lines": [
+            80,
+            84
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm also taking a web of course and it's on you to me' (likely Udemy) (line 36).",
+          "value": "Taking a web development course on Udemy",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes working from home and floating around the house: 'I have an office up in the attic, but I absolutely hate sitting in the office... I tend to float around the house' (line 72).",
+          "value": "Works from home, frequently changes rooms (dislikes home office)",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'sort of going into bed by like 7 38 o'clock at night' (line 62).",
+          "value": "Goes to bed early (around 7:30-8:00 PM)",
+          "lines": [
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b expresses enjoyment of Bojangles (line 144) and Chick-fil-A (line 154).",
+          "value": "Enjoys Bojangles and Chick-fil-A (southern fast food)",
+          "lines": [
+            144,
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says about Austin: 'I say that never been. I've only seen pictures of it on Wikipedia' (line 116).",
+          "value": "Has never visited Austin, Texas",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes pre-pandemic office life: 'I go to the office and you have to go to a meeting room' (line 18).",
+          "value": "Used to work in an office before remote work",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

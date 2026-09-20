@@ -1,0 +1,273 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Atlanta' (line 21) and later discusses Georgia's reopening and conservative culture, confirming he is in Georgia. He also responds to a time zone question indicating Eastern time (12 PM). The 'Helena?' at line 29 is a likely ASR error for 'Atlanta?' but the location is clearly established by line 21.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            21,
+            31,
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I actually just exited my um, my uber position, but I was up 69 Uber' (line 139), meaning he sold his Uber stock at a 69% gain. The ASR '69 Uber' is interpreted as '69% on Uber'.",
+          "value": "Up 69% on Uber stock",
+          "lines": [
+            139,
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm currently up 107% on Snapchat' (line 141).",
+          "value": "Up 107% on Snapchat stock",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I bought into Southwest Airlines and Boeing airlines and when I sold out of those positions, I was down substantially' (line 143), indicating a loss on those trades.",
+          "value": "Lost money on Southwest Airlines and Boeing stocks",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions making a recent investment in NowRx (misrecognized as 'Now Are X') and states 'the minimum investment to get into this is about $1,000' (line 167), implying he invested at least that amount.",
+          "value": "Invested approximately $1,000 in NowRx",
+          "lines": [
+            153,
+            167
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I self identify as like a hustler too' (line 183).",
+          "value": "Self-identified hustler",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he considered driving for Uber earlier in the year but did not due to coronavirus (line 119).",
+          "value": "Considered becoming an Uber driver",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a recalls 'I remember one time I was visiting my friend in Dallas' (line 93).",
+          "value": "Has a friend in Dallas",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to friends who comment on his driving: 'what does that stand with my friends who are shit on my driving man?' (line 113).",
+          "value": "Has friends who criticize his driving",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm still wearing my mask everywhere. I'm like barely leaving the house' (line 41), describing his pandemic behavior.",
+          "value": "Wears mask and barely leaves house during pandemic",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I was in Los Angeles for like four weeks in November' (line 13).",
+          "value": "Spent four weeks in Los Angeles in November",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't really travel by myself that much' (line 77).",
+          "value": "Rarely travels alone",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions going to a nearby convenience store for snacks and sometimes cigarettes or 'joe Potts' (line 55), likely referring to Juul pods or similar vape products.",
+          "value": "Buys snacks and cigarettes/vape pods at a convenience store",
+          "lines": [
+            55
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says he is trying to grow a meme account on Instagram, and speaker_a identifies it as 'socially off beat' (line 125). Speaker_b confirms 'It's called it socially off beat' (line 126).",
+          "value": "Instagram account: socially off beat",
+          "lines": [
+            120,
+            125,
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'Right now I live in California' (line 10) and later 'I'm living in san Diego' (line 18). The conversation later references San Diego (line 45).",
+          "value": "San Diego, California",
+          "lines": [
+            10,
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says for the past two or three years, '100% of my income has come from gig work, like lift uber through delivery' (line 74).",
+          "value": "Gig worker (Lyft, Uber, delivery)",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'at my peak I was making like about six grand a month with weekends off' (line 82).",
+          "value": "Peak earnings $6,000 per month as rideshare driver",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how many hours, speaker_b replies '10 to 12' (line 84).",
+          "value": "Worked 10-12 hours per day as a driver",
+          "lines": [
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is 'actually gonna be working for some company called little sleepy's' as a 'customer support specialist' and that it's '100% remote' (line 76).",
+          "value": "New job at Little Sleepy's as remote customer support specialist",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states the job teaches Shopify software, and he wants to open his own Shopify store in the future (lines 76, 128-130).",
+          "value": "Learning Shopify to eventually open own online store",
+          "lines": [
+            76,
+            128,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he tried the T-shirt design niche but lost motivation, and that he made one shirt and had no sales (lines 172, 176).",
+          "value": "Created one T-shirt design, no sales",
+          "lines": [
+            172,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm actually going to try to publish an e book on Postmates, tips and strategies to maximize your earnings' (line 180).",
+          "value": "Writing an ebook on Postmates strategies",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I just have to take care of myself, you know, my family' (line 72), indicating he has family he looks after.",
+          "value": "Has family",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still go visit friends and family' (line 74), indicating he has friends.",
+          "value": "Has friends",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b mentions gyms are closed and 'I've just had to learn to work out at home' (line 76).",
+          "value": "Works out at home since gyms closed",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I still go visit friends and family' despite the pandemic (line 74).",
+          "value": "Visits friends and family during pandemic",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes enjoying meeting new people through ride-share, saying 'it was so fun just meeting all these new people' and 'every now and then you'd get that one drive that turned into an adventure' (line 76).",
+          "value": "Enjoys social interactions with ride-share passengers",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'three years before I was doing independent contractor type work I was working on at the university of California san Diego as a cook' (line 76).",
+          "value": "Former cook at UC San Diego",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

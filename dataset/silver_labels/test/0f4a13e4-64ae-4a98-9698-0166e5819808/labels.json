@@ -1,0 +1,329 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm normally from I guess I'm from the midwest.'",
+          "value": "from the Midwest",
+          "lines": [
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I've lived in Miami Beach for a long time.'",
+          "value": "has lived in Miami Beach for a long time",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually in ST louis right now though.'",
+          "value": "currently in St. Louis",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I'm just just working.' implying current employment, but vague.",
+          "value": "currently working",
+          "lines": [
+            13
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a describes working on a project in Europe, switching hotels every weekend to different cities, visiting about 10 countries without paying for it.",
+          "value": "previously worked on a project in Europe that allowed extensive travel",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm also learning spanish and dual lingo.'",
+          "value": "learning Spanish on Duolingo",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their current Duolingo streak is 162 days.",
+          "value": "current Duolingo streak of 162 days",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they previously had a streak of 240 days.",
+          "value": "previous Duolingo streak of 240 days",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they do about 55 minutes a day, one or two lessons.",
+          "value": "spends about 55 minutes a day on Duolingo",
+          "lines": [
+            149
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I took french.'",
+          "value": "took French in the past",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I played the violin when I was a kid.'",
+          "value": "played violin as a child",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they bought a ukulele but haven't disciplined themselves to learn it.",
+          "value": "bought a ukulele but not actively learning it",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes a trip to Mykonos during spring break, driving up a mountain with a companion.",
+          "value": "traveled to Mykonos on a spring break trip",
+          "lines": [
+            53,
+            55,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they worked on a project in Europe, switching hotels each weekend to a different city and visiting about 10 countries without paying.",
+          "value": "traveled to about 10 European countries on a work project",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching Netflix shows in Spanish to practice, and recommends Locked Up, indicating they watch Spanish-language series.",
+          "value": "watches Spanish-language TV shows on Netflix (e.g., Money Heist, Locked Up)",
+          "lines": [
+            189,
+            195,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers discuss being stood up for these calls, indicating participation in a study or arranged conversation series.",
+          "value": "participates in a conversation-based study or series",
+          "lines": [
+            249,
+            253
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b initially says 'I'm her freak' (ASR error) but then clearly states 'Harpreet', and speaker_a acknowledges. ASR 'her freak' likely misheard for the name.",
+          "value": "Harpreet",
+          "lines": [
+            4,
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in California' and when asked about San Francisco confirms 'Yeah. Bay Area.'",
+          "value": "Bay Area, California",
+          "lines": [
+            22,
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'No, I'm from India.' When asked where, says 'Originally. Put drugs.' which phonetically resembles 'Punjab', and describes it as 'a little west of the Himalayas', supporting Punjab.",
+          "value": "originally from Punjab, India",
+          "lines": [
+            24,
+            26,
+            28
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also sick' which is likely ASR for 'Sikh', and they mention playing religious music, supporting Sikh identity.",
+          "value": "Sikh",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm still young though' while discussing travel dreams.",
+          "value": "young adult",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'my dream is to like be rich enough to be able to travel anywhere without having to worry about money or anything', implying they are not currently wealthy.",
+          "value": "aspires to be rich, currently not wealthy",
+          "lines": [
+            34
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'Oh um my wife is working.' when video drops, indicating spouse is employed.",
+          "value": "wife is employed",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my wife is working', establishing they are married.",
+          "value": "married, has a wife",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was part of this music group and there was an international competition there' in England.",
+          "value": "was a member of a traditional Indian music group that competed internationally",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says they were learning Spanish on Duolingo.",
+          "value": "learning Spanish on Duolingo",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they took Spanish in high school.",
+          "value": "took Spanish in high school",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes their Duolingo approach, completing level one and earning crowns, with longest streak about 50 days.",
+          "value": "has Duolingo habit with max streak about 50 days",
+          "lines": [
+            146,
+            148,
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists travel: east coast (New York, Washington DC), Toronto, and Europe (France, Italy, England).",
+          "value": "traveled to US East Coast, Toronto, and Europe (France, Italy, England)",
+          "lines": [
+            36,
+            38,
+            60,
+            62,
+            64,
+            68,
+            72,
+            84,
+            88,
+            90,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b spells 'I L. Are you B. A.' for the instrument, matching 'dilruba', and describes it as a traditional string instrument with sympathetic strings.",
+          "value": "plays the dilruba, a traditional Indian string instrument",
+          "lines": [
+            102,
+            104,
+            110,
+            114,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I play like um religious music.'",
+          "value": "plays religious music",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I watched Money on that flight' referring to Money Heist, and later discussion confirms familiarity.",
+          "value": "watches Money Heist",
+          "lines": [
+            192,
+            228
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Both speakers discuss being stood up for these calls, indicating participation in a study or arranged conversation series.",
+          "value": "participates in a conversation-based study or series",
+          "lines": [
+            250,
+            252,
+            254
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

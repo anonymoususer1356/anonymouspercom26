@@ -1,0 +1,408 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'I'm sean' (ASR for 'Sean').",
+          "value": "sean",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I live in Chicago' and 'I'm on the north side'.",
+          "value": "Chicago, north side",
+          "lines": [
+            17,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm from Connecticut' and originally from the East Coast.",
+          "value": "originally from Connecticut",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I'm in my early 30s'.",
+          "value": "age: early 30s",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'when I was in grad school', indicating graduate education.",
+          "value": "attended graduate school",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I have bad allergies', lists pollen, dust, mold, and takes Benadryl regularly.",
+          "value": "allergies to pollen, dust, mold; takes Benadryl",
+          "lines": [
+            123,
+            125,
+            159
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states 'I am a product designer'.",
+          "value": "product designer",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'right now I'm like in between jobs' and the studio he worked for closed at the end of last year.",
+          "value": "currently unemployed/between jobs",
+          "lines": [
+            67,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my mom is a nurse' and later specifies she is an oncology nurse at St. Francis hospital in Connecticut and Hartford.",
+          "value": "mother is an oncology nurse at St. Francis Hospital, Connecticut",
+          "lines": [
+            99,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'especially like a single mother' in context of his own upbringing, indicating he was raised by a single mother.",
+          "value": "raised by a single mother",
+          "lines": [
+            195
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'my brother is in his late 20s'.",
+          "value": "brother in his late 20s",
+          "lines": [
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'my partner's parents', indicating he has a partner.",
+          "value": "in a relationship (has a partner)",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my great aunt passed away from Covid'.",
+          "value": "great aunt died of Covid-19",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes his grandma as someone who took care of stray cats and had many cats.",
+          "value": "grandmother cared for stray cats",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes his cat as a ragamuffin named Quincy, and says 'he is eight there', interpreted as eight years old.",
+          "value": "owns a cat named Quincy (ragamuffin, ~8 years old)",
+          "lines": [
+            225,
+            227,
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says he discovered ASMR and is sensitive to it, feeling it in his back.",
+          "value": "experiences ASMR",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'Anyway I'm Wendy'.",
+          "value": "Wendy",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker describes moving to St. Mary's County, living in a very rural area where she doesn't lock doors, 20 minutes from Walmart, and refers to 'here' as a high-tick state consistent with Maryland.",
+          "value": "rural St. Mary's County, Maryland",
+          "lines": [
+            44,
+            102,
+            136
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states 'I was born and raised in Maryland right outside of D.C.'.",
+          "value": "born and raised in Maryland outside Washington D.C.",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker's name Wendy, refers to herself as lady, mentions wearing size small police uniform; clearly female.",
+          "value": "female",
+          "lines": [
+            12,
+            102,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a degree in criminal justice and a master of the homeland Security' (ASR 'master of the' = master's in).",
+          "value": "degree in criminal justice; master's in homeland security",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm the police department until 2010', interpreted as being in law enforcement until 2010.",
+          "value": "former law enforcement officer",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker refers to 'our catholic churches' and mentions not going to mass, implying Catholic affiliation.",
+          "value": "Catholic",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'I have lupus'; describes positive ANA test, symptoms (migraines, joint pain, brain fog, fatigue, mood swings), organ involvement, and medications (prednisone, hydroxychloroquine). She states she's had it for at least 10 years.",
+          "value": "lupus (systemic lupus erythematosus) with migraines, joint pain, brain fog, fatigue; takes prednisone and hydroxychloroquine",
+          "lines": [
+            46,
+            48,
+            50,
+            100,
+            108,
+            110,
+            112,
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I developed very quickly developed the allergy to latex'.",
+          "value": "latex allergy",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes severe migraines as a primary symptom that forced her out of law enforcement and later flared when off prednisone.",
+          "value": "chronic severe migraines",
+          "lines": [
+            48,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker describes herself as 'highly credentialed, highly unemployed' and hoping for a government job.",
+          "value": "currently unemployed, seeking government/entrepreneurial work",
+          "lines": [
+            240,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she was in the police department until 2010.",
+          "value": "former police officer (until 2010)",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I ended up opening my own cleaning company which I did for four years until I got sick again'.",
+          "value": "owned a cleaning company for four years",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I qualify for doors which is rehabilitative services' (ASR for DORS, a state vocational rehabilitation program).",
+          "value": "qualifies for DORS (rehabilitative services)",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says her father had Asperger's syndrome, she returned to care for him in 2000, and he passed away in 2014.",
+          "value": "father had Asperger's syndrome, deceased 2014; she was his caregiver for 13 years",
+          "lines": [
+            32,
+            36,
+            38,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her mother is in Florida, works at a food bank ('70 people working at a food bank'), and is an Italian woman.",
+          "value": "mother lives in Florida, Italian, works/volunteers at a food bank",
+          "lines": [
+            88,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my picture had started cleaning company' (ASR for 'my sister') and describes helping her with contracts.",
+          "value": "sister who started a cleaning company",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions 'my brother in law is allergic to it' in context of alpha-gal allergy.",
+          "value": "brother-in-law with allergy",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I told my room' (roommate) and describes roommate's cough, indicating a roommate.",
+          "value": "has a roommate",
+          "lines": [
+            74,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a best friend of 14 years who has diabetes, is wealthy (has mineral rights), and has a PhD.",
+          "value": "best friend of 14 years who is diabetic and wealthy",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes her cat: 'a calico and his name is tubby, which is, his government name is Harley, But he's 20 lbs' and says 'this is like my 10th cat'.",
+          "value": "owns a calico cat named Tubby (Harley), 20 lbs; has had many cats (10th cat)",
+          "lines": [
+            224,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I love that smR', downloaded ASMR content on iTunes, and listens to it for relaxation.",
+          "value": "listens to ASMR for relaxation",
+          "lines": [
+            204,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have literally on Xanax right now' (ASR 'panics' likely Xanax).",
+          "value": "takes Xanax",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes living in a rural area where she never locks doors and walks around her property at midnight without problems.",
+          "value": "lives in a safe rural area; does not lock doors",
+          "lines": [
+            44,
+            45
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions 'our catholic churches' and implies she attends mass.",
+          "value": "attends Catholic church",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I was volunteering at an animal shelter for a while like in 2012'.",
+          "value": "volunteered at an animal shelter in 2012",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,458 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'what's your name, kate.' and speaker_a confirms 'Yeah, kate.'",
+          "value": "Kate",
+          "lines": [
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is currently in Florida, mentioning being there, having family and friends there, and couch surfing.",
+          "value": "Florida (current)",
+          "lines": [
+            113,
+            121,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'home is up in new york' and 'new york state is home'.",
+          "value": "New York (home)",
+          "lines": [
+            113,
+            115
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm from Canada Territory originally' and the subsequent conversation about Justin Trudeau confirms she means Canada. ASR 'Canada Territory' is likely a misrendering of 'Canada' or 'Canadian territory'.",
+          "value": "Canada (origin)",
+          "lines": [
+            281,
+            283
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a states 'I am a technology consultant'.",
+          "value": "Technology consultant",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she does all work online and remotely, spends her days in online meetings and giving trainings online.",
+          "value": "Remote worker",
+          "lines": [
+            23,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she works as a technology consultant, which is her occupation and source of income.",
+          "value": "Employed as a technology consultant",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her job always had a lot of flexibility and that it may become permanently remote, indicating economic flexibility.",
+          "value": "Job has remote flexibility",
+          "lines": [
+            175,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I'm too young to buy houses, but I certainly can't afford to rents all year', indicating limited financial resources.",
+          "value": "Financially constrained, cannot afford year-round rent in Miami",
+          "lines": [
+            221
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I have a good amount of family and friends in florida'.",
+          "value": "Family and friends in Florida",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her aunt in the context of describing Florida's Covid restrictions.",
+          "value": "Aunt in Florida",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a refers to having family in New York when describing her isolation there.",
+          "value": "Family in New York",
+          "lines": [
+            119
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm Buffalo Bills' and discusses their record.",
+          "value": "Buffalo Bills fan",
+          "lines": [
+            321,
+            323
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I don't like the winner at all', meaning winter.",
+          "value": "Dislikes winter",
+          "lines": [
+            115
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I just drove like across the country but I did not get on a flight'.",
+          "value": "Drove across the country instead of flying",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she is couch surfing in Florida, staying with various people.",
+          "value": "Couch surfing in Florida",
+          "lines": [
+            121,
+            123
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I signed up for like four of these' referring to the paid conversation studies.",
+          "value": "Has participated in multiple paid conversation studies",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a says 'I don't want my camera on, you don't need to see me with my hair up in a bun on top of my head'.",
+          "value": "Sometimes wears hair in a bun",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself: 'My name is Grayson'.",
+          "value": "Grayson",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm from California' and 'I live in san Bernardino county' and is currently in his childhood bedroom visiting his mom.",
+          "value": "California, San Bernardino County (current, childhood home)",
+          "lines": [
+            112,
+            138,
+            198,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is 'like 30 miles east of L A'.",
+          "value": "30 miles east of Los Angeles",
+          "lines": [
+            244,
+            246,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in san Diego'.",
+          "value": "Born in San Diego, California",
+          "lines": [
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b pays rent in Serbia, has a fiancée there, and plans to return in January.",
+          "value": "Resides in Serbia (part-time)",
+          "lines": [
+            48,
+            204,
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he lived in Poland for coaching and bounced between Poland and Serbia since 2014.",
+          "value": "Has lived in Poland",
+          "lines": [
+            48,
+            54,
+            66
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'because I'm american'.",
+          "value": "American",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I teach english online'.",
+          "value": "Online English teacher",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I also coach american football' and specifies it's a professional team.",
+          "value": "American football coach",
+          "lines": [
+            44,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions playing in college and then professionally in Europe, implying he is a former college football player.",
+          "value": "Former college football player",
+          "lines": [
+            60,
+            64,
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm naturally kind of introverted'.",
+          "value": "Introverted",
+          "lines": [
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b says he was denied entry because 'of my passport' implying he holds a US passport.",
+          "value": "US passport holder",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'My visa ran out in Serbia'.",
+          "value": "Serbian visa expired",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the EU wouldn't let him back in because he is American, despite his ties, and Germany also denied him entry.",
+          "value": "Denied entry to EU/Germany during Covid due to US passport",
+          "lines": [
+            52,
+            72
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b works as an online English teacher.",
+          "value": "Online English teacher",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b coaches a professional American football team in Poland.",
+          "value": "Professional football coach in Poland",
+          "lines": [
+            44,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says rent in Serbia is €100 a month and that this is much more appealing than California rent.",
+          "value": "Pays ~€100/month rent in Serbia",
+          "lines": [
+            204,
+            206,
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b visits his mom for the holidays and stays in his childhood bedroom, suggesting he does not maintain a separate permanent residence in California.",
+          "value": "Stays with mother when in California",
+          "lines": [
+            198,
+            202
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my fiance is from there' referring to Serbia.",
+          "value": "Fiancée from Serbia",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom is from the Philippines'.",
+          "value": "Mother from the Philippines",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has family in the Philippines and in America.",
+          "value": "Family in the Philippines and America",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says one of the guys he played with in high school was on the Patriots practice squad and discusses the friend's career.",
+          "value": "Friend who played for New England Patriots practice squad",
+          "lines": [
+            332,
+            334,
+            336,
+            338,
+            340
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'one of my students works at the Disney World in Tokyo'.",
+          "value": "Student works at Tokyo Disney World",
+          "lines": [
+            150
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he visits his mom from before Thanksgiving through New Year's.",
+          "value": "Visits mother for holidays",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I love to travel' and has been on the 'remote train' for years.",
+          "value": "Loves to travel",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has bounced back and forth between Serbia and Poland since 2014.",
+          "value": "Lives abroad (Serbia and Poland)",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the charges find a way to break my heart' and that he had no choice because he was born in San Diego.",
+          "value": "San Diego Chargers fan",
+          "lines": [
+            316,
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not a snow guy'.",
+          "value": "Dislikes snow/winter",
+          "lines": [
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says in Serbia you get coffee with friends four or five times a week and it's a slower-paced life that appeals to him.",
+          "value": "Enjoys frequent social coffee and slow-paced life",
+          "lines": [
+            231,
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've done three before' referring to the paid conversation studies.",
+          "value": "Has participated in multiple paid conversation studies",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

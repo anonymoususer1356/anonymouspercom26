@@ -1,0 +1,475 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states her first name directly.",
+          "value": "Whitney",
+          "lines": [
+            305
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Currently lives in Washington state, in a rural area across the water from Seattle that requires a ferry. Describes it as 'the middle of nowhere.'",
+          "value": "Rural Washington state, across Puget Sound from Seattle, ferry access",
+          "lines": [
+            31,
+            343,
+            345,
+            351
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Grew up in Alaska.",
+          "value": "Alaska",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lived in Minnesota for a few years.",
+          "value": "Minnesota",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lived in Berlin, Germany for an extended period and loved it.",
+          "value": "Berlin, Germany",
+          "lines": [
+            91,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lived in Prague, Czech Republic while studying at an American university there.",
+          "value": "Prague, Czech Republic",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Directly states her age.",
+          "value": "28",
+          "lines": [
+            381
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Called 'the first woman' by speaker_b; refers to herself as a 'solo female' traveller.",
+          "value": "Female",
+          "lines": [
+            20,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Currently without a full‑time job; earns through surveys and part‑time yard work for neighbours.",
+          "value": "No full‑time job; income from surveys and part‑time yard work",
+          "lines": [
+            53,
+            55,
+            347
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Had personal savings that helped fund the initial move to Europe.",
+          "value": "Had savings before travelling to Europe",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lives with her parents and brother in their house.",
+          "value": "Lives with parents and brother",
+          "lines": [
+            255,
+            347
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both her mother and her aunt also use survey platforms; she discusses surveys with them.",
+          "value": "Mother and aunt also do survey work",
+          "lines": [
+            23,
+            241,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her best friend as a gay man from Nepal whom she met while living in Berlin.",
+          "value": "Best friend is a gay man from Nepal, met in Berlin",
+          "lines": [
+            373
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Travelled to Europe on a one‑way ticket and lived there for about a year and a half before returning for Christmas and getting stuck because of Covid.",
+          "value": "Travelled to Europe on one‑way ticket, lived there ~1.5 years",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Still plans to return to Europe when possible.",
+          "value": "Plans to return to Europe",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Learned German in high school and is now learning Turkish on her own.",
+          "value": "Knows German; currently learning Turkish",
+          "lines": [
+            47,
+            441,
+            551
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Studied at an American university in Prague.",
+          "value": "Studied at an American university in Prague",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Uses Prolific regularly and signed up for UserTesting; made about $300 on Prolific since summer began.",
+          "value": "Uses Prolific and UserTesting survey platforms",
+          "lines": [
+            197,
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expressly states she never wants a traditional 9‑to‑5 job again.",
+          "value": "Dislikes normal 9‑to‑5 employment",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she hates flying.",
+          "value": "Hates flying",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Says she looks younger now than she did a few years ago; people typically guess 22 or 23.",
+          "value": "Perceived as looking 22‑23, younger than actual age",
+          "lines": [
+            391
+          ],
+          "certainty": 3
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Spells her name aloud as A‑I‑L‑A. ASR renders the sequence with slight garble but the letters are clear.",
+          "value": "Aila",
+          "lines": [
+            334,
+            336,
+            338
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Gives phone number: area code 267, then '67 up' (ASR likely for '678'), then 3310. The area code is a Philadelphia overlay.",
+          "value": "267-678-3310",
+          "lines": [
+            340,
+            342
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States directly she is from Pennsylvania.",
+          "value": "Pennsylvania",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Phone area code 267 points to the Philadelphia region; also references going to school in 'fill' (Philly).",
+          "value": "Philadelphia area, Pennsylvania",
+          "lines": [
+            340,
+            412
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions a crystal shop down the street from her house.",
+          "value": "Lives near a crystal shop",
+          "lines": [
+            290
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States her age directly.",
+          "value": "19",
+          "lines": [
+            384
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates her birthday just passed.",
+          "value": "Recently had a birthday",
+          "lines": [
+            388
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Notes that speaker_a is the first woman she's been paired with; the contrast with previous male partners implies she is female.",
+          "value": "Female",
+          "lines": [
+            20,
+            22
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Describes thrifting and reselling online as her full‑time job.",
+          "value": "Full‑time online reseller / thrifter",
+          "lines": [
+            158,
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Demonstrates using the eBay app to scan barcodes and check prices; sells on eBay.",
+          "value": "Sells items on eBay",
+          "lines": [
+            168,
+            186,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Discusses Prolific in detail, including instant cash‑out after four withdrawals.",
+          "value": "Uses Prolific survey platform",
+          "lines": [
+            208,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes UserTesting as $10 per survey; says she checks it less often than Prolific.",
+          "value": "Uses UserTesting survey platform",
+          "lines": [
+            218,
+            220,
+            224,
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Admits she is not yet earning high income from reselling and could make more with the same hours elsewhere.",
+          "value": "Not yet making high income from reselling",
+          "lines": [
+            164,
+            166
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she previously worked at a jewellery store.",
+          "value": "Previously worked at a jewellery store",
+          "lines": [
+            462
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Has a female friend who introduced her to money‑making Reddit communities and also does surveys/thrifting.",
+          "value": "Has a female friend who shares survey and thrifting interests from Reddit",
+          "lines": [
+            236,
+            258,
+            446
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Family takes regular road trips and cruises every couple of years.",
+          "value": "Family takes regular road trips and cruises",
+          "lines": [
+            62,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Parents have travelled to Dubai and Aruba.",
+          "value": "Parents have travelled to Dubai and Aruba",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts an incident where the family missed a cruise departure and her mother proposed flying to the next port for an extra $5,000.",
+          "value": "Family missed a cruise departure; mother suggested flying to the next port for $5,000",
+          "lines": [
+            72,
+            74,
+            76,
+            78
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Currently attends community college.",
+          "value": "Attends community college",
+          "lines": [
+            412
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Starting a sign‑language interpreting programme in September.",
+          "value": "Starting ASL interpreting programme in September",
+          "lines": [
+            412
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has been learning ASL for about a year, beginning with dual‑enrolment classes in high school and continuing in college.",
+          "value": "Has been learning ASL for about a year",
+          "lines": [
+            560,
+            564,
+            566
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States her ASL teachers are deaf.",
+          "value": "ASL teachers are deaf",
+          "lines": [
+            426,
+            428
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes herself as an artist who has always worked with her hands.",
+          "value": "Is an artist; enjoys hands‑on activities",
+          "lines": [
+            424
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Wanted to become an art therapist but is concerned about the time and high tuition required.",
+          "value": "Interested in becoming an art therapist",
+          "lines": [
+            412,
+            546
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Took college classes during high school through a dual‑enrolment programme.",
+          "value": "Participated in high‑school dual enrolment",
+          "lines": [
+            564
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has travelled to Caribbean destinations: Cayman Islands, Bahamas, Jamaica.",
+          "value": "Has travelled to Cayman Islands, Bahamas, Jamaica",
+          "lines": [
+            104,
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Loves thrifting; prefers buying second‑hand to save money and resell.",
+          "value": "Enjoys thrifting and saving money",
+          "lines": [
+            144,
+            148,
+            150,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Originally wanted to take a ceramics class, but it was dropped; switched to ASL on short notice.",
+          "value": "Wanted ceramics class; enrolled in ASL instead",
+          "lines": [
+            430
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

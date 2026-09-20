@@ -1,0 +1,393 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker explicitly says 'I'm in Louisiana' (line 17), specifies northwest region closer to Dallas than New Orleans (lines 215, 223), and says 'I live in Shreveport' (line 277), which is the third largest city in the state (line 281). Also says he has lived there since age 5 (line 257).",
+          "value": "Shreveport, Louisiana",
+          "lines": [
+            17,
+            215,
+            223,
+            277,
+            281,
+            257
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm 40' (line 11).",
+          "value": "40 years old",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker is addressed as 'man' by speaker_b (line 364), indicating male gender. No explicit self-identification.",
+          "value": "male",
+          "lines": [
+            364
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I was written for burning but he's not in anymore' (line 43), which is a garbled version of 'I was rooting for Bernie' (Bernie Sanders). This indicates support for Bernie Sanders in the election.",
+          "value": "supports Bernie Sanders",
+          "lines": [
+            43
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'm not working right now. I'm looking' (line 81).",
+          "value": "unemployed and seeking work",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've been out of work. Well, maybe that's part of the problem for like five years' (line 93).",
+          "value": "out of work for ~5 years",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my mom' in the context of a planned trip (line 105).",
+          "value": "has a mother",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my nieces, they're in college and like one of them is her first year' (line 61) and also mentions 'my niece' for the trip (line 105).",
+          "value": "has nieces, including one who is a college freshman",
+          "lines": [
+            61,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a friend: 'my friend, he he's a musician and he lived in Los Angeles for a while but he moved back here and he's actually still working like because they filmed some documentaries here and I know he's like on the soundtrack for that and he doesn't like video game soundtrack' (line 291).",
+          "value": "has a musician friend who worked in LA and on video game soundtracks",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker exclaims 'Oh, my cat' (line 1) and later says 'sorry I have a cat' (line 61).",
+          "value": "owns a cat",
+          "lines": [
+            1,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I watch investigative discovery like every night before bed. It's like my bedtime stories' (line 187).",
+          "value": "watches Investigation Discovery nightly",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I watched that whole series and I usually don't watch basketball. But I was rooting for jimmy Butler. It's pretty sad.' (line 169) and later 'I have a pretty good team' (line 177). This indicates he is a fan of the Miami Heat (Jimmy Butler's team).",
+          "value": "fan of Miami Heat / Jimmy Butler",
+          "lines": [
+            169,
+            177
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I went on a cruise a few years ago' (line 327).",
+          "value": "went on a cruise a few years ago",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was supposed to go overseas to London and paris and then like everything hit... it was through like a travel company with my niece and my mom... so we're going to reschedule' (lines 105-109).",
+          "value": "planned trip to London and Paris with family (rescheduled)",
+          "lines": [
+            105,
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm working on my front porch right now' (line 103).",
+          "value": "works on front porch",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The mention of a front porch suggests the speaker lives in a house rather than an apartment.",
+          "value": "lives in a house",
+          "lines": [
+            103
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'I've lived here pretty much my whole life since I was like five anyway' (line 257) referring to his current location (Shreveport).",
+          "value": "lived in Shreveport since age 5",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I went to visit them in California' (line 293) referring to his musician friend.",
+          "value": "visited California",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I just go to like the store that's a doctor's appointments in the store and that's about it really' (line 101).",
+          "value": "spends most time at home, goes out mainly for store and doctor appointments",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker says 'since I live in Orlando' (line 122) and 'I live like around this area like 5, 10 minutes away from Disney' (line 130).",
+          "value": "Orlando, Florida, near Disney World",
+          "lines": [
+            122,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm up in Jacksonville like for school' (line 262) and mentions 'my school is only like two hours away' (line 72), which aligns with the Orlando-Jacksonville distance.",
+          "value": "attends college in Jacksonville, Florida",
+          "lines": [
+            262,
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I'm 20' (line 8).",
+          "value": "20 years old",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I am no my third year actually, so I'm a junior baby' (line 14).",
+          "value": "college junior (third year)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm kind of going to college for music' (line 52) and 'my major kind of revolves around me like playing with other people' (line 58).",
+          "value": "majoring in music",
+          "lines": [
+            52,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I don't really like either of them, but you know, it's the lesser of two evils, I'd say biden' (line 46).",
+          "value": "supports Joe Biden for president",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says he started looking online in the summer and found this (likely Prolific), and 'I mean it's the only thing I do know' (line 80), indicating it's his only current source of income.",
+          "value": "current income solely from online surveys (Prolific)",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've always kind of been like on the side of just doing like electrician was like a backup or even like them' (line 332) and 'or even like being like a plumber' (line 334).",
+          "value": "considers electrician or plumber as backup careers",
+          "lines": [
+            332,
+            334
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'the thing I was like playing to do this summer was kind of to do like Cruz gigs, which kind of like, it's like contract for like the whole like summer and it's like pretty stable' (line 326). 'Cruz gigs' is garbled for 'cruise gigs'.",
+          "value": "planned to work as a cruise ship musician for summer income",
+          "lines": [
+            326
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'I have a couple of friends who like working some of the like the parks and stuff' (line 140).",
+          "value": "has friends who work at theme parks",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've had a couple of friends who like have like tours booked to like go around like europe and stuff and then that got canceled' (line 112).",
+          "value": "has friends who had European tours cancelled",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a lot of friends who like want to move to new york' (line 282).",
+          "value": "has friends who want to move to New York",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have like a lot of friends who like have the time to like apply for jobs and all that' (line 86).",
+          "value": "has friends who are job-seeking",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'our phone has never been like on the side of hoarding' (line 362), where 'our phone' is likely a misrecognition of 'our family'. He refers to his family's behavior during hurricanes.",
+          "value": "has family",
+          "lines": [
+            362
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I played piano' (line 56).",
+          "value": "plays piano",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I played out like a local like university like, like a small private one' (line 152).",
+          "value": "performed at a local private university",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've played a couple online concerts' (line 118).",
+          "value": "has performed online concerts",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I kind of do go out just run around the neighborhood, go to like a nearby park' (line 104).",
+          "value": "goes running in neighborhood and nearby park",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I kind of watch more documentaries... I've been just kind of like watching movies, just kind of like late at night, just old like 80s Movies I guess, Or like 90s' (lines 184-186).",
+          "value": "watches documentaries and 80s/90s movies",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm kind of fan of both teams... I guess I was going towards more the Lakers' (lines 172, 174), referring to the NBA finals between Miami Heat and Los Angeles Lakers.",
+          "value": "fan of NBA, leaning towards Los Angeles Lakers",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker mentions a trip: 'We're going to um san Antonio texas but we like stop that Houston' (line 228) and 'I have like driven by Louisiana' (line 226).",
+          "value": "went on a road trip to San Antonio, Texas, via Houston",
+          "lines": [
+            228,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker's mention of driving on road trips and agreeing that 'you can't walk anywhere' (line 246) indicates he drives a car.",
+          "value": "drives a car",
+          "lines": [
+            226,
+            246
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'I don't leave the house basically' (line 98).",
+          "value": "spends most time at home",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

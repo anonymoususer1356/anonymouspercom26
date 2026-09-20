@@ -1,0 +1,369 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Hawaii' and confirms living in Hawaii when asked. Also mentions moving from California.",
+          "value": "Hawaii",
+          "lines": [
+            7,
+            14,
+            15,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I moved here from California', indicating previous location.",
+          "value": "formerly lived in California",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have been here now 15 something like a while' (garbled: likely 'I have been in Hawaii now for 15 years or something like a while').",
+          "value": "lived in Hawaii for about 15 years",
+          "lines": [
+            15
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions college classes, majors, and year in college.",
+          "value": "college student",
+          "lines": [
+            49,
+            104,
+            105,
+            110,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Very marriages bio. Then I'll show chemistry then I'll show sociology' (interpreted as 'majoring in bio, then also chemistry, then also sociology').",
+          "value": "majors in biology, chemistry, and sociology",
+          "lines": [
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I am like cash Junior would be tough' (interpreted as 'I am like a junior, I think').",
+          "value": "college junior",
+          "lines": [
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions having a girlfriend, and speaker_b asks about her studies.",
+          "value": "has a girlfriend",
+          "lines": [
+            81,
+            122,
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I still have multiple job' (garbled: 'multiple jobs') and describes working in a lab.",
+          "value": "has multiple jobs",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'at the moment I work in a lab like lab working on biology' indicating student employment in a biology lab.",
+          "value": "student employment in a biology lab",
+          "lines": [
+            93,
+            95
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my job can be done online unfortunately' (garbled: 'my job can't be done online unfortunately').",
+          "value": "job cannot be done online",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'it was just my parents who moved her to begin with' (garbled: 'moved here'), indicating parents live in Hawaii.",
+          "value": "parents live in Hawaii",
+          "lines": [
+            23,
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my girlfriend', and when asked about living situation answers 'Yeah', later says 'We both have clash...' (likely 'We both have class'), suggesting cohabitation.",
+          "value": "lives with girlfriend",
+          "lines": [
+            81,
+            83,
+            87
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I'm buying a vision G watch movies and G. Bucks. So just finished a long bulk' (interpreted: 'I'm big on watching movies and books. Just finished a long book') and mentions 'The goldfinch'.",
+          "value": "enjoys watching movies and reading books",
+          "lines": [
+            119,
+            225,
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I definitely love having this specials on the background on netflix' (interpreted: 'I definitely love having stand-up specials on in the background on Netflix').",
+          "value": "watches stand-up comedy on Netflix",
+          "lines": [
+            243
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I'm in Michigan' and 'I have lived in Michigan the majority of my life'.",
+          "value": "Michigan",
+          "lines": [
+            8,
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live in the country', indicating a rural area.",
+          "value": "rural Michigan",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I was in Nashville before I moved back here'.",
+          "value": "formerly lived in Nashville, Tennessee",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'this round I've been here for like five years', indicating time since returning to Michigan.",
+          "value": "has lived in Michigan for the past 5 years since returning",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she got tested for COVID-19 because a friend was positive, and 'I was fine'.",
+          "value": "tested negative for COVID-19",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a cold... my voice has been kind of had a cough and sore throat'.",
+          "value": "currently has a cold with cough and sore throat",
+          "lines": [
+            118
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b states 'I work from home'.",
+          "value": "works from home",
+          "lines": [
+            78,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work testing websites and apps for different companies'.",
+          "value": "tests websites and apps for companies",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I sell stuff online'.",
+          "value": "sells items online",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm also a musician' and describes performing online shows and writing songs.",
+          "value": "musician, performs online shows, writes songs",
+          "lines": [
+            118,
+            176,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I live with a lot of family here'.",
+          "value": "lives with family",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my brother' playing an instrument and recommending a book.",
+          "value": "has a brother",
+          "lines": [
+            178,
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my mom is a psychologist'.",
+          "value": "mother is a psychologist",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad listened to it' referring to classic rock bands.",
+          "value": "father listened to classic rock/folk music",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'a friend of mine tested positive' for COVID-19.",
+          "value": "friend tested positive for COVID-19",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes herself as 'kind of a home body' and 'an introvert'.",
+          "value": "introvert and homebody",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she listens to audiobooks while doing chores.",
+          "value": "listens to audiobooks while doing chores",
+          "lines": [
+            232,
+            234
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b lists many music genres and artists she enjoys (classical, Norah Jones, blues, jazz, country, 80s bands, Led Zeppelin, Beatles, Metallica, Crosby Stills & Nash, etc.), indicating broad musical taste.",
+          "value": "enjoys a wide variety of music genres",
+          "lines": [
+            208,
+            210,
+            212,
+            214,
+            218
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I mostly play guitar'.",
+          "value": "plays guitar",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I play a little bit of piano'.",
+          "value": "plays piano",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I write songs too'.",
+          "value": "writes songs",
+          "lines": [
+            176,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she likes reading mysteries and autobiographies.",
+          "value": "likes reading mysteries and autobiographies",
+          "lines": [
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she likes listening to stand-up comedy in audio form.",
+          "value": "likes stand-up comedy",
+          "lines": [
+            240
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I love Netflix'.",
+          "value": "uses Netflix",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

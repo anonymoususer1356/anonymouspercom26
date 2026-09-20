@@ -1,0 +1,337 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in Pittsburgh' and later confirms renting an apartment there and attending Carnegie Mellon (in Pittsburgh).",
+          "value": "Pittsburgh",
+          "lines": [
+            7,
+            31,
+            49,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm from Brooklyn new york' directly.",
+          "value": "Brooklyn, New York",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I just started um grad school'.",
+          "value": "graduate student",
+          "lines": [
+            11,
+            26,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a confirms '1st Year' and 'first semester'.",
+          "value": "first-year graduate student",
+          "lines": [
+            26,
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked, speaker_a says 'material science Engineering' and note it is the same as undergrad.",
+          "value": "material science engineering",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'so I go to Carnegie Mellon'.",
+          "value": "Carnegie Mellon University",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm quite far left'.",
+          "value": "far left",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I have a stipend so like I'm not I don't have to pay tuition'.",
+          "value": "receives stipend, no tuition payment",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm renting an apartment here' while in Pittsburgh (stated earlier).",
+          "value": "rents apartment in Pittsburgh",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I missed like hugging my mom'.",
+          "value": "has a mother",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'texted my dad'.",
+          "value": "has a father",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I also dated someone who was in computer science'.",
+          "value": "ex-partner in computer science",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my family is actually based in Brooklyn'.",
+          "value": "family in Brooklyn",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a recommends and describes listening to these three podcasts.",
+          "value": "listens to podcasts: The Weeds, Citations Needed, Ashes Ashes",
+          "lines": [
+            163,
+            165,
+            167
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a engages in extensive discussion of climate science, Paris agreement failure, and systemic collapse, showing deep concern.",
+          "value": "concerned about climate change and systemic collapse",
+          "lines": [
+            115,
+            123,
+            125
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I went to an engineering camp … in my junior year of high school'.",
+          "value": "attended engineering camp in high school",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been thinking about like just buying some land with some family and friends and just like living off of the land'.",
+          "value": "considered buying land for off-grid living",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a is in grad school and says 'online learning is horrible'.",
+          "value": "taking online graduate classes",
+          "lines": [
+            11,
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in California right now'.",
+          "value": "California",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm currently a college student'.",
+          "value": "college student",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "ASR 'my coat and cell biology' is phonetically close to 'molecular and cell biology'; speaker later shows strong interest in cells and cancer research.",
+          "value": "molecular and cell biology",
+          "lines": [
+            18,
+            42
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I'm really like politically apathetic except for like a single key issues' and 'I didn't really have any preference for really, which can at one'.",
+          "value": "politically apathetic",
+          "lines": [
+            140,
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I am like relatively mentally strong, so like I'm not like prone to like being depressed or being down'.",
+          "value": "mentally resilient, not prone to depression",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "ASR 'I'm pretty different on them' phonetically matches 'I'm pretty dependent on them'; context clarifies reliance on parents.",
+          "value": "financially dependent on parents",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "ASR 'haven't been for a load or weight off' phonetically matches 'haven't been furloughed or laid off'; indicates parents' stable employment.",
+          "value": "parents haven't been furloughed/laid off",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm paying for this stuff' (tuition) and criticizes high college costs.",
+          "value": "pays tuition",
+          "lines": [
+            180,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b repeatedly mentions parents, e.g., 'my parents' (l.78) and 'family members' (l.44).",
+          "value": "has parents",
+          "lines": [
+            78,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my other friends … my friends' and describes watching election with them.",
+          "value": "has friends",
+          "lines": [
+            80,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'numerous family members uh in my family have like cancer and they sadly some already succumb to it'.",
+          "value": "family history of cancer, some deceased",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm only taking like 15 units'.",
+          "value": "taking 15 credit units",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm really like unmotivated right now, I just don't want to do anything really'.",
+          "value": "currently unmotivated",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm really intrigued by like cancer … I want to be able to like contribute to like research'.",
+          "value": "interested in cancer research",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I set up a stream and we just watched it together' with friends during the election.",
+          "value": "enjoys streaming events with friends",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I haven't made any friends since going to college … really awkward in the zoom calls'.",
+          "value": "difficulty making friends online",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I want to change that in the future. I want to become more educated about the stuff that really matters'.",
+          "value": "aspires to become more politically educated",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

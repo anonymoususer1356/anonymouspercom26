@@ -1,0 +1,329 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a initially says 'my name's truck' (ASR error for 'Chuck'), then confirms 'my name is chuck'. Speaker_b also addresses him as 'chuck'.",
+          "value": "Chuck",
+          "lines": [
+            3,
+            4,
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in Buffalo', and 'Not too far from Niagara Falls'. He also mentions working at the National Guard in Niagara Falls. He refers to 'here in buffalo, new york' and talks about Buffalo's weather.",
+          "value": "Buffalo, New York (near Niagara Falls)",
+          "lines": [
+            45,
+            47,
+            153,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'That's where I'm originally from, is the Washington Dc area.' and he lived there growing up during middle school and high school.",
+          "value": "Originally from the Washington D.C. area",
+          "lines": [
+            103,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I actually uh in the military... I work with drones', and later 'I enlisted in 2012' and 'I just went into the National Guard'. He describes his role controlling cameras on drones.",
+          "value": "U.S. National Guard member, drone camera operator",
+          "lines": [
+            29,
+            31,
+            181,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my wife' multiple times, indicating he is married.",
+          "value": "Married",
+          "lines": [
+            119,
+            121,
+            253
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he ran out of money before obtaining his commercial pilot's license, indicating a financial constraint.",
+          "value": "Ran out of money before getting commercial pilot's license",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says his wife is from Huntington Beach, California, and she has a PhD in psychology. He met her during the latter part of her PhD. They got married and went to Disneyland.",
+          "value": "Wife from Huntington Beach, CA, has a PhD in psychology; met during her PhD; married",
+          "lines": [
+            119,
+            121,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his dad flew for UPS.",
+          "value": "Father was a UPS pilot",
+          "lines": [
+            279
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I worked midnight so I'm like up and at them right now', and later describes his National Guard schedule: 'only work 15 days out a month but you just have to stay up all hours of the night, winning around midnight schedule'.",
+          "value": "Works midnight shifts, 15 days per month",
+          "lines": [
+            45,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do I have a private pilot's license' and lists instrument rating and multi-engine rating, but ran out of money before commercial.",
+          "value": "Holds private pilot license with instrument and multi-engine ratings",
+          "lines": [
+            191,
+            193,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'when I was in high school I played the bass like the big stand up bass'.",
+          "value": "Played stand-up bass in high school",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he has been to Disneyland in California, Tokyo Disneyland, and Disneyworld, and has 'only got two more to go', indicating a habit of visiting Disney parks.",
+          "value": "Has visited Disneyland (California), Tokyo Disneyland, and Disneyworld; two more to visit",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions traveling to Tokyo, Japan, and Germany as part of military service or personal travel.",
+          "value": "Has traveled to Japan (Tokyo) and Germany",
+          "lines": [
+            307,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my lifeblood right here coffee trying to stay up' referring to his midnight shift.",
+          "value": "Drinks coffee to stay awake during night shifts",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My name is Harpreet.'",
+          "value": "Harpreet",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm from California.' and later 'Like I live in California'. She mentions mountains near where she lives and time zone (8:00 vs New York) consistent with West Coast.",
+          "value": "California (lives in an area with mountains nearby)",
+          "lines": [
+            6,
+            118,
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am Punjabi from India.' and later 'From punjab' when asked where in India. She visits India regularly.",
+          "value": "Originally from Punjab, India",
+          "lines": [
+            64,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I am Punjabi' and 'I am Punjabi from India.', indicating her ethnicity.",
+          "value": "Punjabi ethnicity",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm a student. I'm studying Microbiology.'",
+          "value": "Microbiology student",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she speaks Punjabi, Hindi, Urdu, and is learning Spanish via Duolingo.",
+          "value": "Speaks Punjabi, Hindi, Urdu; learning Spanish",
+          "lines": [
+            334,
+            328
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'all my parents worked for kind of like biochem companies here' (likely 'both my parents').",
+          "value": "Parents work in biochem companies",
+          "lines": [
+            176
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions 'I've got family in England Australia... second cousins' and visiting family in Toronto.",
+          "value": "Has extended family in England, Australia, and Toronto",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I play music in a group' and describes a trip to New Jersey for an event with the group.",
+          "value": "Member of a traditional music group",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is studying Microbiology and wants to go into research on cancers and other diseases.",
+          "value": "Studies Microbiology, aims for research in cancer/diseases",
+          "lines": [
+            22,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she loves going into national parks, mentions Yosemite, mountains, snow, and hiking.",
+          "value": "Enjoys outdoor activities: national parks, hiking, snow",
+          "lines": [
+            265,
+            266,
+            270,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she sings and plays a string instrument, spells it out (Dilruba, transcribed as 'D I L' and 'Dell Aruba'), and describes playing with a bow like a violin.",
+          "value": "Plays traditional Indian string instrument (Dilruba) and sings",
+          "lines": [
+            58,
+            68,
+            75,
+            76,
+            77,
+            78,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she has been to Europe, India every 2-3 years, New York last summer, New Jersey, Washington D.C., and Toronto.",
+          "value": "Frequent traveler: Europe, India, various US East Coast cities, Toronto",
+          "lines": [
+            52,
+            56,
+            100,
+            170,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses desire to work in Europe for a year or two, mentioning England, Ireland, Norway.",
+          "value": "Wants to work in Europe (England, Ireland, Norway) for 1-2 years",
+          "lines": [
+            262,
+            264
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b is learning Spanish using the Duolingo app.",
+          "value": "Learning Spanish via Duolingo",
+          "lines": [
+            328,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions browsing Reddit r/all.",
+          "value": "Uses Reddit",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she doesn't read sheet music, uses Indian classical notation with letters and beats.",
+          "value": "Does not read Western sheet music; uses Indian classical notation",
+          "lines": [
+            90,
+            94,
+            96,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

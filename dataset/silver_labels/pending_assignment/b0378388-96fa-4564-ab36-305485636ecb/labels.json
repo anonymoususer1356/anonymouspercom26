@@ -1,0 +1,552 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states 'Arkansas Tech University' when asked what college they attend, and mentions it has about 10,000 students, indicating they are a student there.",
+          "value": "Student at Arkansas Tech University",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In response to 'what state do you live in?', speaker_a says 'Yeah, Arkansas, I like it a lot.'",
+          "value": "Lives in Arkansas",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was born here' referring to Arkansas, then describes moving away and back.",
+          "value": "Born in Arkansas",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we moved to Tennessee and I lived in Memphis for a couple of years'.",
+          "value": "Formerly lived in Memphis, Tennessee",
+          "lines": [
+            349
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly states 'I'm 20'.",
+          "value": "Age 20",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to speaker_a as 'she' in line 442, indicating speaker_a is female.",
+          "value": "Female",
+          "lines": [
+            442
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I go to college' and 'I'm a full time student'.",
+          "value": "Full-time college student",
+          "lines": [
+            47,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Both my brothers are younger' and 'They're both minors', and later mentions one in preschool and one in high school.",
+          "value": "Has two younger brothers (one preschool, one high school)",
+          "lines": [
+            157,
+            159,
+            225,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I still live at home' (ASR: 'love it home') and 'I spent a long time my family', indicating co-residence with family.",
+          "value": "Lives at home with family",
+          "lines": [
+            47,
+            49
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I worked for one of my professors and I do like I grade like this assignment that for a couple of their classes but I don't only work about eight hours a week' and 'I worked pretty little actually'.",
+          "value": "Part-time grader for professor, ~8 hours per week",
+          "lines": [
+            111,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions using Prolific to make a little money and trying other survey sites, and using the Job Spotter app for small earnings.",
+          "value": "Earns money via online surveys/tasks (Prolific, Job Spotter)",
+          "lines": [
+            167,
+            175,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My mom is the home of teacher' (likely home-ec teacher) and 'I took her classes in high school'.",
+          "value": "Mother is a home-ec teacher",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'We have two dogs'.",
+          "value": "Family owns two dogs",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_b says they have no kids, speaker_a replies 'No, me neither'.",
+          "value": "No children",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I like to read quite a bit'.",
+          "value": "Enjoys reading",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm learning spanish' and 'Not very good. A little bit good though'.",
+          "value": "Learning Spanish",
+          "lines": [
+            255,
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a 3.84 right now' referring to GPA.",
+          "value": "GPA 3.84",
+          "lines": [
+            383
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm studying um economics and business right now'.",
+          "value": "Studying economics and business",
+          "lines": [
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'afterwards I might try to get my graduate degree'.",
+          "value": "Plans to pursue graduate degree",
+          "lines": [
+            373
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I don't really like cooking or so anger or anything' and explains not picking up home-ec skills.",
+          "value": "Dislikes cooking and sewing",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I don't really like kids that much' and 'I cannot imagine being in a classroom with 20 toddlers all day'.",
+          "value": "Dislikes working with children",
+          "lines": [
+            217,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I would like to learn origami'.",
+          "value": "Wants to learn origami",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'have you heard of Liberty University? I go to that school online is the online college.'",
+          "value": "Student at Liberty University (online)",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b answers 'Um North Carolina' when asked what state they live in, and later says 'I love being in north Carolina'.",
+          "value": "Lives in North Carolina",
+          "lines": [
+            22,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually live with the motel that I'm cleaning... I lived there.'",
+          "value": "Resides at the motel where they work",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'beaches like half an hour from where I live, So it's pretty close.'",
+          "value": "Lives ~30 minutes from the beach",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was actually born in Italy' and spells out 'P I S A'.",
+          "value": "Born in Pisa, Italy",
+          "lines": [
+            280,
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to live in texas' and 'I stayed in texas the whole time' during military service.",
+          "value": "Formerly lived in Texas",
+          "lines": [
+            126,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I might be moving to Maryland... probably in the next few months'.",
+          "value": "May move to Maryland soon",
+          "lines": [
+            86,
+            98
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b explicitly states '28?' when asked age.",
+          "value": "Age 28",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a husband, which typically indicates female gender in this context; no contradictory evidence.",
+          "value": "Female",
+          "lines": [
+            86
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says 'I was in the military... in the air force' and indicates serving 8 years.",
+          "value": "U.S. Air Force veteran (8 years of service)",
+          "lines": [
+            126,
+            132,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm actually married' and that they've been married over a year since August of last year.",
+          "value": "Married",
+          "lines": [
+            86,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'One older brother, he's uh 32. He turned 32 in November.'",
+          "value": "Has one older brother, age 32",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I got a degree in psychology and associate psychology'.",
+          "value": "Associate degree in Psychology",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they are going back for a computer degree, studying design, and expects to graduate in about a year.",
+          "value": "Pursuing a bachelor's degree in computer/game design",
+          "lines": [
+            56,
+            62,
+            394
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I work in a motel like a housekeeper' and 'about two weeks, so not long', and describes morning shift typically 9:30-2:30.",
+          "value": "Housekeeper at motel, morning shift, employed ~2 weeks",
+          "lines": [
+            14,
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lives at the motel where they work, implying free or reduced rent as part of job.",
+          "value": "Likely receives housing from employer",
+          "lines": [
+            36
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions using Prolific for surveys and recommends MTurk as a way to make money.",
+          "value": "Earns money through online surveys/tasks (Prolific, MTurk)",
+          "lines": [
+            166,
+            170,
+            172,
+            174
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm trying to make money like any way I can. So as long as it's illegal, you know' (likely meant legal).",
+          "value": "Seeks additional legal income",
+          "lines": [
+            434
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I'm actually married... move to Maryland to see my husband... he works in Maryland' and 'he's like a contractor'.",
+          "value": "Husband lives in Maryland, works as a contractor",
+          "lines": [
+            86,
+            88,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we met online'.",
+          "value": "Met husband online",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my dad was, he was in the army for about four years'.",
+          "value": "Father served in U.S. Army for 4 years",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'My mom, she learned one word. She learned Villa, which is beautiful.'",
+          "value": "Mother knows one Italian word ('villa' meaning beautiful)",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b replies 'No, I don't do' when asked if they have kids.",
+          "value": "No children",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I had a dog when I was younger but he died, he got hit by a car'.",
+          "value": "Had a dog when younger, died by car accident",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I normally go to bed like I'll take a nap because I'm usually pretty tired after working'.",
+          "value": "Takes a nap after work",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't have a car so I can't really get there'.",
+          "value": "Does not own a car",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I love playing games' and 'right now my favorite is be Joel' (likely Bejeweled).",
+          "value": "Enjoys playing video games; favorite likely Bejeweled",
+          "lines": [
+            70,
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I'm more of like a poetry type of person'.",
+          "value": "Writes poetry",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to be a christian rapper from the church'.",
+          "value": "Former Christian rapper",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm working on a blog right now is for people who drink alcohol... I want to educate people on the effects of alcohol' and uses GoDaddy.",
+          "value": "Developing a blog on alcohol effects using GoDaddy",
+          "lines": [
+            412,
+            414
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I kind of want to be an entrepreneur so I don't really want to work for anybody' and confirms wanting to start own company.",
+          "value": "Aspires to start own game company",
+          "lines": [
+            402,
+            405
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't really like to cook'.",
+          "value": "Dislikes cooking",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm like a people person, so I would enjoy working with other people'.",
+          "value": "People person; enjoys teamwork",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I would probably go to Italy... I just want to go back over there and look at it'.",
+          "value": "Wants to visit Italy again",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I sing in the shower'.",
+          "value": "Sings in the shower",
+          "lines": [
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I wanted to I've always wanted to go to one' (poetry slam).",
+          "value": "Wants to attend a poetry slam",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions considering online teaching, specifically 'VIP kid'.",
+          "value": "Considering online teaching (e.g., VIPKid)",
+          "lines": [
+            210,
+            212
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says they live next to a store and can walk to buy groceries.",
+          "value": "Lives next to a store, walks to get groceries",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

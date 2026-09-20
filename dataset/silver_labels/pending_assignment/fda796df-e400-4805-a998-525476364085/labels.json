@@ -1,0 +1,421 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm in midwest actually currently' (line 13) and later, when asked what state, answers 'Iowa' (line 55).",
+          "value": "Iowa",
+          "lines": [
+            13,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm living with my parents right now. We're in an apartment.' (lines 243, 245), indicating their dwelling type.",
+          "value": "lives in an apartment",
+          "lines": [
+            243,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'just graduated last year' (line 21) and mentions attending college in New Hampshire (line 41).",
+          "value": "recent college graduate",
+          "lines": [
+            21,
+            41
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about major, speaker_a says 'Computing irons' (line 155), an ASR error likely intending 'Computer Science'. The context of writing code supports this.",
+          "value": "Computer Science major",
+          "lines": [
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes being on a dance team in college, practicing 3-4 hours a day, and performing hip-hop/choreography (lines 411, 425-429).",
+          "value": "dancer (hip-hop/choreography)",
+          "lines": [
+            411,
+            425,
+            429
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a confirms he is working (line 145), writes code (line 149), and works from home (line 147).",
+          "value": "employed as a coder, works remotely",
+          "lines": [
+            145,
+            147,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'for my job actually before like all this quarantine stuff hit as in California... I was there for a couple of months' (lines 73, 75).",
+          "value": "worked in California for a few months before quarantine",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says the apartment they live in 'are still rented' (line 247).",
+          "value": "rents an apartment",
+          "lines": [
+            247
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I started looking that a little bit' and 'trying to buy a house in northern California' (lines 187, 189).",
+          "value": "considering buying a house in northern California",
+          "lines": [
+            187,
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I'm living with my parents right now' (line 243).",
+          "value": "lives with parents",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about a girlfriend, speaker_a replies 'nope broke up for quarantine' (line 229).",
+          "value": "broke up with girlfriend during quarantine",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a bunch of friends in Seattle that I've been meaning to visit' (line 91).",
+          "value": "has friends in Seattle",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'No all of my clothes, college friends did' when asked about snowboarding (line 97), indicating he does not snowboard.",
+          "value": "does not snowboard",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I think I've only been to the slopes like twice in my life' (line 107).",
+          "value": "has been skiing twice",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm definitely a city person' (lines 219, 283).",
+          "value": "identifies as a city person",
+          "lines": [
+            219,
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Not a big hiker either' (line 281).",
+          "value": "not a big hiker",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I did not actually' to having pets (line 241), 'definitely would like the dog' (line 249), and 'not very much a cat person' (line 265).",
+          "value": "prefers dogs, has no pets currently",
+          "lines": [
+            241,
+            249,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Not a big movie person' (line 383).",
+          "value": "not a big movie watcher",
+          "lines": [
+            383
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I just play video games... Cause of friends lot' (lines 415, 417).",
+          "value": "plays video games with friends",
+          "lines": [
+            415,
+            417
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if never been overseas, speaker_a replies 'No I have but not not like golf, right?' indicating he has traveled overseas (line 309).",
+          "value": "has traveled overseas",
+          "lines": [
+            309
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he's been doing the Prolific study for 'maybe like what two weeks' (lines 314-317).",
+          "value": "does Prolific surveys for about two weeks",
+          "lines": [
+            314,
+            317
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm on the East Coast' (line 18) and 'I'm in Virginia. Richmond Virginia' (line 36).",
+          "value": "Richmond, Virginia",
+          "lines": [
+            18,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We're about like an hour from D.C.' (line 40).",
+          "value": "about an hour from Washington D.C.",
+          "lines": [
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b notes they currently rent a townhouse with no yard (line 270).",
+          "value": "lives in a townhouse with no yard",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from like philadelphia area' (line 66).",
+          "value": "originally from Philadelphia area",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I graduated like an 08' (line 30).",
+          "value": "graduated college around 2008",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to school for nutrition and food nutrition' (line 376).",
+          "value": "majored in food and nutrition",
+          "lines": [
+            376
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b says he received a job offer and is 'just going to like the background check stuff now' (line 178).",
+          "value": "undergoing background check for new job",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm just working' (line 32) and indicates his current job is not great, seeking better (line 184).",
+          "value": "employed but seeking better job",
+          "lines": [
+            32,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes receiving an offer from a company he spells as 'C. B. R. E.', a facility maintenance/real estate firm, for a 'data data entry kind of job' (lines 174-184).",
+          "value": "received job offer from CBRE for data entry",
+          "lines": [
+            174,
+            176,
+            178,
+            182
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm trying to like buy a house and stuff' (line 186) and mentions wanting a house with a yard for a dog (line 270).",
+          "value": "plans to buy a house",
+          "lines": [
+            186,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife is tired of 'throwing away money every every month with rent' (line 214), indicating they currently rent.",
+          "value": "currently renting",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b refers to 'my wife' multiple times (lines 214, 300, 406) and states 'we're married' implicitly through these references.",
+          "value": "married",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions wife takes dog out, bakes, and they cook together (lines 300, 406).",
+          "value": "has a wife who bakes and shares household duties",
+          "lines": [
+            300,
+            406
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got a pug... little black pugs' (line 256).",
+          "value": "owns a pug dog",
+          "lines": [
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my manager' when discussing the election ballot (line 438) and the vaccine (line 478).",
+          "value": "has a manager at work",
+          "lines": [
+            438,
+            478
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Okay Girl at work told me about it actually' regarding Prolific (line 328).",
+          "value": "has a female coworker who introduced him to Prolific",
+          "lines": [
+            328
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he skis 'once every couple of years' at local resorts (line 126).",
+          "value": "skis occasionally",
+          "lines": [
+            126
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'we run a lot and I try to lift weights and stuff' (line 378).",
+          "value": "runs and lifts weights",
+          "lines": [
+            378
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We watch a lot of T. V. A lot of movies' (line 406).",
+          "value": "watches a lot of TV and movies",
+          "lines": [
+            406
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm watching Borat right now' (line 382).",
+          "value": "currently watching Borat",
+          "lines": [
+            382
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'We like to cook too... we like to eat pretty healthy' (line 406).",
+          "value": "likes cooking and eating healthy",
+          "lines": [
+            406
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he's been doing Prolific for 'like three weeks' (line 318).",
+          "value": "does Prolific surveys for about three weeks",
+          "lines": [
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been in southern California. Like san Diego' and 'I loved it' (line 82).",
+          "value": "has vacationed in San Diego, California",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says about the Pacific Northwest, 'Never been now' (line 94).",
+          "value": "has never been to the Pacific Northwest",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

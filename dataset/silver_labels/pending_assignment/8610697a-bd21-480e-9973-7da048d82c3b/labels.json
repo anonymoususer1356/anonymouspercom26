@@ -1,0 +1,450 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks 'How about you, William?' and speaker_a replies 'Mm I'm William. No.' The reply effectively confirms the name despite the trailing 'No'. This uniquely identifies the speaker.",
+          "value": "William",
+          "lines": [
+            174,
+            175
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states directly: 'I'm in the States. I live in the States.'",
+          "value": "United States",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_b asks 'Okay there on the West coast somewhere?' speaker_a confirms 'Yeah, exactly. Something like that.'",
+          "value": "West coast, USA",
+          "lines": [
+            236,
+            237
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked 'Is it cold?' speaker_a answers 'Yeah. Yeah. Yeah.'",
+          "value": "Experiences cold weather at time of conversation",
+          "lines": [
+            14,
+            16,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Referred to as William; uses male-coded references; has a son.",
+          "value": "Male",
+          "lines": [
+            174,
+            175,
+            91,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b suggests reaching out to 'your alumni program from your masters', implying speaker_a holds a master's degree. Speaker_a does not correct this assumption.",
+          "value": "Has a master's degree",
+          "lines": [
+            142
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I've kid', 'my son', and confirms a boy aged six.",
+          "value": "Father",
+          "lines": [
+            91,
+            93,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I just came out of a marriage' and indicates being single by referring to engaged as not yet married. Likely single parent.",
+          "value": "Single",
+          "lines": [
+            91,
+            65,
+            67
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Directly states 'I lost my job doing this fandom and that's what made me to be on politic' (Prolific) to make a living and feed his kid.",
+          "value": "Lost job during the pandemic",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Multiple statements that Prolific income is crucial for survival and feeding his child.",
+          "value": "Relies on Prolific and online gig work for income",
+          "lines": [
+            131,
+            133,
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'Donald Trump then he gave like 1000 plus doors' and that it was the only help received, no other unemployment help since.",
+          "value": "Received a ~$1000 stimulus check but no other unemployment benefits",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Notes that the $15 payment per conversation study and calculates 7 studies at $105 as 'cool money', indicating financial significance.",
+          "value": "Considers $15 study payment and potential $105 earnings significant",
+          "lines": [
+            269,
+            271,
+            251
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'My son's name is Michael.'",
+          "value": "Son named Michael",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms son is six years old; 'It boy, it's just six' and speaker_b confirms 'Six?'.",
+          "value": "Son is age 6",
+          "lines": [
+            93,
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms son is in kindergarten and doing school on computer.",
+          "value": "Son in kindergarten, remote learning",
+          "lines": [
+            190,
+            191,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I just came out of a marriage' implying divorce or separation.",
+          "value": "Previously married, now separated/divorced",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I live with my family here' and background noises noted by speaker_b suggest other household members.",
+          "value": "Lives with family (extended)",
+          "lines": [
+            89,
+            82,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Multiple references to using Prolific for income to survive.",
+          "value": "Participates in online paid tasks on Prolific",
+          "lines": [
+            131,
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Directly states when asked if he has done this kind of conversation before: 'No, this is my first formal accusation I'm doing.'.",
+          "value": "First time doing this Prolific conversation study",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses desire to pursue a PhD in health care but not yet started due to family responsibilities.",
+          "value": "Aspires to pursue a PhD in health care",
+          "lines": [
+            107,
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States that the little money he makes is used primarily to feed his child.",
+          "value": "Spends income primarily on feeding his child",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "After spelling out her email she says 'Jasmine', and speaker_a asks 'So what's the name? Jasmine?' confirming it as her name.",
+          "value": "Jasmine",
+          "lines": [
+            172,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Spells out her email as 'A J S B 247' (with B as in boy) 'at N au dot E D U'.",
+          "value": "ajsb247@nau.edu",
+          "lines": [
+            150,
+            156,
+            158,
+            160,
+            162,
+            164
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Directly states 'I live in Arizona so it's still pretty warm.'",
+          "value": "Arizona, USA",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Email domain nau.edu indicates Northern Arizona University, likely in the Flagstaff area.",
+          "value": "Likely Flagstaff area (Northern Arizona University)",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Gives the current time as '1021 am'.",
+          "value": "Time at conversation: 10:21 AM",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked 'you're all grown up now?' she answers '28.'",
+          "value": "28 years old",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Jasmine and female-coded language.",
+          "value": "Female",
+          "lines": [
+            172,
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm almost done with my PhD' and 'I'm doing clinical psychology.'",
+          "value": "PhD candidate in clinical psychology",
+          "lines": [
+            100,
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about master's and PhD, says it is the same program, implying she already completed a master's in clinical psychology.",
+          "value": "Holds a master's degree in same clinical psychology program",
+          "lines": [
+            113,
+            114
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Directly states 'I'm engaged' twice.",
+          "value": "Engaged",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I live with my partner'.",
+          "value": "Lives with partner",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if they have kids, answers 'No, we have dogs.'",
+          "value": "Has dogs, no children",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Mentions making money on Prolific by taking studies, and that she found it while looking to run online studies.",
+          "value": "Earns money through Prolific studies",
+          "lines": [
+            286,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes the conversation study as 'pretty nice because ... you get like what, like $15 or something' and 'it's definitely the best one that I found online as far as like paying actual money'.",
+          "value": "Considers $15 payment for conversation study good relative to other online tasks",
+          "lines": [
+            244,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she hasn't had anyone she knows face financial difficulties from the pandemic, suggesting her own situation is stable.",
+          "value": "No significant financial hardship from pandemic",
+          "lines": [
+            124
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked 'What's your partner's name?' she replies 'Yeah, Ryan.'",
+          "value": "Partner's name is Ryan",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we've been together for seven years, uh and we've been engaged for like four years, I think.'",
+          "value": "Together 7 years, engaged 4 years",
+          "lines": [
+            212
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked what her partner does, she replies 'Um he's an aerospace engineer so it kind of fits.'",
+          "value": "Partner is an aerospace engineer",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'he's out at work building' during the call.",
+          "value": "Partner is at work during the conversation",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms they have dogs when asked about children.",
+          "value": "Has pet dogs",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes working on her dissertation and being on the computer most of the time taking online studies.",
+          "value": "Works from home on PhD research and online studies",
+          "lines": [
+            278,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to use undergraduate psychology volunteers for course credit for her research study.",
+          "value": "Will use undergraduate volunteers for her research",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her partner's messy office with tools and drone toys visible behind her.",
+          "value": "Has a messy home office with partner's tools and drones",
+          "lines": [
+            216,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she found Prolific when looking for online study platforms and now uses it both as a researcher and participant.",
+          "value": "Experienced Prolific user, both as participant and researcher",
+          "lines": [
+            286,
+            280
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a comments 'You look good' and 'you look awesome'; she mentions having just 'hopped out of the tub'; speaker_a notes packages visible in background. No detailed physical description but establishes camera presence and self-care.",
+          "value": "On camera, looking good, with packages in background",
+          "lines": [
+            9,
+            10,
+            11,
+            219
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

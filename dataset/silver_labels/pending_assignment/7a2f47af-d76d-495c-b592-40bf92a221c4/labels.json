@@ -1,0 +1,300 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'we're in Washington over here' (line 31) and 'we live right around Seattle' (line 59).",
+          "value": "near Seattle, Washington",
+          "lines": [
+            31,
+            59
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a mentions 'I have a two year old' (line 11) and 'she just turned two' (line 19), establishing she is a mother.",
+          "value": "mother",
+          "lines": [
+            11,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she had 11 miscarriages (line 117) and is a mother, indicating female biology. Additionally, she refers to 'my husband'.",
+          "value": "female",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a repeatedly refers to 'my husband' (e.g., line 77).",
+          "value": "married",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a reveals 'we had what, 11 miscarriages before we had her' (line 117) and that they tried for years (line 109).",
+          "value": "experienced 11 miscarriages",
+          "lines": [
+            109,
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a states she needs to 'pay mortgage' (line 185, transcribed as 'pain mortgage' but context clarifies).",
+          "value": "has a mortgage",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says she has a two-year-old daughter (lines 11, 19).",
+          "value": "has a two-year-old daughter",
+          "lines": [
+            11,
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes her husband: 'he's an engineer' (line 77) and his work involves the airport (line 199).",
+          "value": "husband is an engineer who works on something at the airport",
+          "lines": [
+            77,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a recounts her daughter's mysterious illness in November, later suspecting it was COVID-19 (lines 55-63, 73).",
+          "value": "daughter had an undiagnosed serious illness in November 2019, suspected COVID-19",
+          "lines": [
+            55,
+            57,
+            59,
+            63,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a friend that did prolific' (line 229).",
+          "value": "has a friend who uses Prolific",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a shares her evening routine: 'do the dishes and... pay mortgage... make my husband's breakfast' (line 185) and 'do dishes, pacing bills' (line 245, 'pacing' interpreted as 'paying').",
+          "value": "spends evenings doing dishes, paying bills/mortgage, and making husband's breakfast",
+          "lines": [
+            185,
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says on weekends they 'do like bike rides and stuff' (line 205).",
+          "value": "enjoys bike rides on weekends",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions signing up for Prolific two weeks ago (line 233) and that this is her first video chat (lines 229, 239).",
+          "value": "uses Prolific, started 2 weeks ago, first video chat",
+          "lines": [
+            229,
+            233,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her daughter found 'Buster the Bus' on Netflix and they have watched it many times (line 129). The transcript says 'with your dad' but context indicates 'with her dad'.",
+          "value": "watches 'Buster the Bus' on Netflix with daughter",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in California' (line 32), 'where we were near Los Angeles' (line 82), and 'I've been here my whole life' (line 222).",
+          "value": "near Los Angeles, California",
+          "lines": [
+            32,
+            82,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I have a five year old and an eight year old' (line 14) and later confirms both are girls (line 100), establishing she is a mother.",
+          "value": "mother of two",
+          "lines": [
+            14,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a miscarriage (line 114) and being a mother, indicating female biology.",
+          "value": "female",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my husband' multiple times (e.g., line 52).",
+          "value": "married",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I had a miscarriage before my first' (line 114).",
+          "value": "experienced a miscarriage before first child",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b mentions needing to 'pay some bills' and doing 'bills' in the evening (line 184).",
+          "value": "pays bills",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b has two daughters, ages 8 and 5, as stated in lines 14 and 100 ('both girls').",
+          "value": "has two daughters, ages 5 and 8",
+          "lines": [
+            14,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'he's a teacher' about her husband (line 82) and describes his remote teaching schedule.",
+          "value": "husband is a teacher working remotely",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts how her younger daughter cried at Frozen 2 ending because the sisters were separated (lines 140, 144, 146), indicating the daughters are close.",
+          "value": "daughters are close; younger daughter does not want to be separated from older sister",
+          "lines": [
+            140,
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my husband, he has a brother' (line 102).",
+          "value": "husband has a brother",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes attending a remote funeral for an acquaintance who may have died from COVID-19 blood clots (lines 52, 54).",
+          "value": "acquaintance died possibly from COVID-19",
+          "lines": [
+            52,
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b homeschools her children, as she says 'Well actually I home school' (line 38).",
+          "value": "homeschools children",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says after the kids go to bed she does 'dishes, bills' (line 184).",
+          "value": "does dishes and pays bills in the evening",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions being on Prolific for about 6 months (line 236) and that video chats are unusual (line 240).",
+          "value": "uses Prolific for about 6 months",
+          "lines": [
+            236,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they signed up for Disney Plus (line 148) and are watching Disney movies.",
+          "value": "subscribed to Disney Plus, watches Disney movies with family",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recalls 'I went to Washington once, like just for like a quick trip' (line 216).",
+          "value": "visited Washington state once on a quick trip",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

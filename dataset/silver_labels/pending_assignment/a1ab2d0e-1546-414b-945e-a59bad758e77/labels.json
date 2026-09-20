@@ -1,0 +1,353 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 5, speaker_a states 'I'm Kobe.'",
+          "value": "Kobe",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm from D. C.' (line 17) and when asked 'Have you always lived in D.C.?' (lines 114-116) confirms he has always lived there.",
+          "value": "From Washington D.C., and has always lived there",
+          "lines": [
+            17,
+            114,
+            115,
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a confirms being in college (line 27) and says 'I'm not to be a senior Army nuclear engineering' (line 31). Despite the ASR error 'Army', the context indicates he is a senior majoring in nuclear engineering.",
+          "value": "College senior majoring in nuclear engineering",
+          "lines": [
+            27,
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a and speaker_b discuss using Prolific to earn money. Speaker_a mentions 'you use the prolific' (line 69) and refers to getting 'a quick quick dollar survey' (line 73). He also mentions survey lengths and pay (lines 79, 81), indicating he participates in paid surveys on Prolific.",
+          "value": "Earns money completing surveys on Prolific",
+          "lines": [
+            69,
+            71,
+            73,
+            79,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "In line 43, speaker_a says 'I've been still been going to my friend's place every weekend.' This establishes a regular friendship.",
+          "value": "Has a friend whose place he goes to every weekend",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 25, speaker_a says 'I've been telling my four boys...' indicating he has a close group of four male friends he refers to as 'four boys'.",
+          "value": "Has a group of four male friends he calls 'my four boys'",
+          "lines": [
+            25
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "When asked about hobbies (line 50), speaker_a says 'Play video games' (line 51) and specifies 'Probably a lot FIFA' (line 53).",
+          "value": "Plays video games, especially FIFA",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 297, speaker_a states 'Now listen a lot of podcasts'.",
+          "value": "Listens to podcasts",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 295, speaker_a says 'I just watched random stuff for Youtube'.",
+          "value": "Watches YouTube videos",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 153, speaker_a states 'I'm not an outdoors kind of person... I won't find a deeper meaning of it'.",
+          "value": "Is not an outdoorsy person and does not deeply appreciate nature",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 159, speaker_a says his idea of fun is 'just drinking with my friends or something'.",
+          "value": "Drinks alcohol with friends",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 149, speaker_a says 'I've only been on the beach like once'.",
+          "value": "Has only been to the beach once",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 329-331, speaker_a says 'I'm a comedian guy' (likely 'Reddit guy') and 'I'm a twitter. Reddit. Search her all the time.' He also states 'I hate facebook'. This shows he actively uses Twitter and Reddit.",
+          "value": "Uses Twitter and Reddit",
+          "lines": [
+            329,
+            331
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In line 309, speaker_a responds 'probably not' to getting a tattoo, and in line 311 elaborates he is not a 'tattoo guy'.",
+          "value": "Would not get a tattoo",
+          "lines": [
+            309,
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 185-197, speaker_a expresses a desire for a dog, specifically a calm Labrador that does not follow the breed's hyper stereotype.",
+          "value": "Wants a dog, specifically a calm lab",
+          "lines": [
+            185,
+            187,
+            191,
+            193,
+            195,
+            197,
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 223-237, speaker_a recounts a visit to Six Flags America and a scary experience where the Superman ride broke down just as he was strapped in.",
+          "value": "Has been to Six Flags America and experienced a ride breakdown on the Superman roller coaster",
+          "lines": [
+            223,
+            225,
+            229,
+            231,
+            233,
+            235,
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "In line 4, speaker_b says 'My name is Kevin.' This is later confirmed by speaker_a in line 361 and acknowledged in line 362.",
+          "value": "Kevin",
+          "lines": [
+            4,
+            361,
+            362
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In line 18, speaker_b states 'I live in California.' Reference to California politics in line 126 ('Arnold was a Republican') confirms this.",
+          "value": "Lives in California",
+          "lines": [
+            18,
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm also in college' (line 28), 'last year was my first year in college, so I'm going to be a sophomore next year' (line 30), and identifies as a psych major (lines 32, 70).",
+          "value": "College sophomore majoring in psychology",
+          "lines": [
+            28,
+            30,
+            32,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 48, speaker_b says 'I'm still a teenager'.",
+          "value": "Teenager",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b explains in line 70 that a friend introduced her to Prolific saying 'you can make money and help people why not?'. The entire conversation revolves around waiting out a timed study on the platform, showing she earns money from Prolific surveys.",
+          "value": "Earns money completing surveys on Prolific",
+          "lines": [
+            70,
+            72,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "In line 206, speaker_b says 'I have a husky', and in line 208 describes its talkative behavior.",
+          "value": "Has a pet dog, a husky",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 260, speaker_b mentions 'my mom told me'.",
+          "value": "Has a mother",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 316, speaker_b says 'I want to like have something to remember my grandma with'.",
+          "value": "Has a grandmother (remembered, possibly deceased)",
+          "lines": [
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 70, speaker_b refers to a friend who used Prolific for a study, and in line 58 mentions a friend who played Persona.",
+          "value": "Has friends",
+          "lines": [
+            58,
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I mostly play like pc stuff' (line 54), watches a friend play Persona (line 58), and owns a Switch for Pokemon Sword and Animal Crossing (line 338).",
+          "value": "Plays video games, especially PC games, Pokemon Sword, and Animal Crossing",
+          "lines": [
+            54,
+            58,
+            338
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions finishing Rick and Morty (line 268), loving The Office (line 282), and loving The Good Place (lines 284, 286).",
+          "value": "Watches TV shows including Rick and Morty, The Office, and The Good Place",
+          "lines": [
+            268,
+            282,
+            284,
+            286
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 298, speaker_b says 'I tried to get into the podcast but I just kind of...'.",
+          "value": "Is not into podcasts",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 46, speaker_b says 'I flew to Tennessee like last month'.",
+          "value": "Flew to Tennessee last month",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 166, speaker_b says 'I'm going to skydiving so for the first time'.",
+          "value": "Plans to go skydiving",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 314-316, speaker_b says she is thinking about getting a tattoo to remember her grandmother.",
+          "value": "Wants a tattoo to remember her grandmother",
+          "lines": [
+            314,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions buying a Switch for Pokemon Sword (line 338) and that Animal Crossing is on it (line 336).",
+          "value": "Uses a Nintendo Switch",
+          "lines": [
+            336,
+            338
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 334-335, speaker_b says she cannot keep up with social media and now avoids it.",
+          "value": "Avoids social media due to information overload",
+          "lines": [
+            334,
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 224, speaker_b says 'I used to go to six flags when I was little'.",
+          "value": "Used to go to Six Flags when little",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

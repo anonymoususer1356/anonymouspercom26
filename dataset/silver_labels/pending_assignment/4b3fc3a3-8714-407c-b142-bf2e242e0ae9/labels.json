@@ -1,0 +1,617 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'My name is Krista'.",
+          "value": "Krista",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in pennsylvania' and later refers to being in Pennsylvania.",
+          "value": "Pennsylvania",
+          "lines": [
+            13,
+            197,
+            415
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions a colleague lives in the same town as 'the base' and they share an office, implying she works at a base. Also references 'bases' in Tracy, CA.",
+          "value": "Works at a base (likely government/military) near her hometown",
+          "lines": [
+            87,
+            217
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I go to Tracy California periodically for for work'.",
+          "value": "Travels to Tracy, California for work periodically",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the closest Trader Joe's is near Penn State University, 1.5 hours away, and Whole Foods is 45 minutes away, indicating her location within Pennsylvania.",
+          "value": "Lives approximately 1.5 hours from Penn State University and 45 minutes from a Whole Foods",
+          "lines": [
+            415,
+            419
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b addresses her as 'girl' and name Krista is typically female.",
+          "value": "Female",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my daughter' and 'my son', and says 'they're both doing cyber school', 'my kids'.",
+          "value": "Mother of two children (son and daughter)",
+          "lines": [
+            177,
+            181,
+            249,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my kids are in sixth grade' and 'they're 12'.",
+          "value": "Children are 12 years old, in 6th grade",
+          "lines": [
+            233,
+            361
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            323,
+            309,
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'in college I did management information systems'.",
+          "value": "College degree in Management Information Systems",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm very liberal'.",
+          "value": "Liberal (political orientation)",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'Do I like Kamala a lot. Absolutely.' indicating support for Kamala Harris.",
+          "value": "Supports Kamala Harris",
+          "lines": [
+            457
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I have celiac'.",
+          "value": "Celiac disease",
+          "lines": [
+            357
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have a wheat allergy to that'.",
+          "value": "Wheat allergy",
+          "lines": [
+            371
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I have other food allergies'.",
+          "value": "Multiple food allergies",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says if she eats too much soy she gets a headache.",
+          "value": "Soy consumption causes headaches in excess",
+          "lines": [
+            401
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I do cybersecurity' and 'went to the government world'.",
+          "value": "Employed in cybersecurity for the government",
+          "lines": [
+            23,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explains government pension requires 20 years, and she has 10 years of service.",
+          "value": "10 years of government service, needs 10 more for pension (20 years total)",
+          "lines": [
+            83,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says the government pays for training: 'I get one a year'.",
+          "value": "Government employer pays for one professional training per year",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions chairing an audit meeting at 8:30 tomorrow.",
+          "value": "Chairs audit meetings",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've been working from home for the most part since february'.",
+          "value": "Works from home since February (due to COVID)",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her workplace is not opening until next year, with criteria of below 5% COVID positivity in a seven county area.",
+          "value": "Workplace closed until next year per COVID criteria (5% in 7-county area)",
+          "lines": [
+            205,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she transitioned to a lateral position in February/March.",
+          "value": "Transitioned to a lateral position at work in February/March",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my husband'.",
+          "value": "Has a husband",
+          "lines": [
+            323,
+            309,
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my daughter'.",
+          "value": "Has a daughter",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'my son'.",
+          "value": "Has a son",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my son is autistic' and 'my son's high functioning'.",
+          "value": "Son is autistic (high-functioning)",
+          "lines": [
+            197,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses his modified education plan, saying 'His E P. His plan' (IEP) and issues with the teacher not following it.",
+          "value": "Son has an IEP (Individualized Education Plan) and receives special education services",
+          "lines": [
+            255,
+            251,
+            252,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her daughter 'likes to play roadblocks' which is likely the online game Roblox (ASR error).",
+          "value": "Daughter plays Roblox (ASR: 'roadblocks')",
+          "lines": [
+            177
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'my sister has it' referring to celiac/wheat allergy.",
+          "value": "Has a sister",
+          "lines": [
+            373
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'it runs in my family... my sister has it' regarding celiac/allergy.",
+          "value": "Sister also has celiac/wheat allergy",
+          "lines": [
+            373
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I have a cousin that teaches for a stay at cyber school'.",
+          "value": "Has a cousin who teaches at a cyber school",
+          "lines": [
+            343
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my aunt vegan um has been for years'.",
+          "value": "Has an aunt who is vegan",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says about a colleague: 'we share an office', implying a male colleague.",
+          "value": "Shares an office with a male colleague",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her father's morning routine: 'my dad was always an early bird... doing his exercises every morning'.",
+          "value": "Father exercised every morning",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her kids are doing 'cyber school full time this year because of Covid'.",
+          "value": "Children enrolled in full-time cyber school due to COVID",
+          "lines": [
+            181,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she is going to make 'gluten free chocolate banana bread'.",
+          "value": "Bakes gluten-free goods",
+          "lines": [
+            357
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes renovating her daughter's room and bathroom, and planning to redo her son's room with new flooring and paint.",
+          "value": "Undertakes home renovation projects",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'there's a grocery store here... Wegmans... that's where we shop'.",
+          "value": "Shops at Wegmans grocery store",
+          "lines": [
+            367
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've done some vegetarian for a while'.",
+          "value": "Has followed a vegetarian diet on and off",
+          "lines": [
+            379
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In comparing cloud platforms, she says 'I prefer as your only' which contextually means Azure only, and explains negative AWS experiences.",
+          "value": "Prefers Azure over AWS for cloud services",
+          "lines": [
+            67
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She discusses SANS Institute training courses and wanting to take a class, noting the cost.",
+          "value": "Plans to take SANS Institute cybersecurity training",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She describes seeing local news about a new specialty grocer coming and speculating it might be a Trader Joe's based on square footage.",
+          "value": "Following local news about new grocery store opening (possibly Trader Joe's)",
+          "lines": [
+            423,
+            427
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself: 'I'm Isha'. (The preceding 'Christine' may be a mishearing of speaker_a's name.)",
+          "value": "Isha",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm not a U. S. Citizen and McCain citizens' which is likely 'I'm a Canadian citizen', and refers to 'cane consulate' (Canadian consulate).",
+          "value": "Canadian citizen",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states 'my passport with the I. R. S. ... my passport is expired as they still have it going to review' and she is going to the Canadian consulate for a temporary passport.",
+          "value": "Passport expired, held by IRS, seeking temporary passport from Canadian consulate",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She states 'I'm in California'.",
+          "value": "Currently in California",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm like halfway between san Diego and it's pretty hard hit', likely meaning halfway between San Diego and Los Angeles.",
+          "value": "Located in Southern California, between San Diego and Los Angeles (presumed)",
+          "lines": [
+            220
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says 'I go to school in british Columbia'.",
+          "value": "Attends school in British Columbia, Canada",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live in a big city, it's in Vancouver'.",
+          "value": "Lives in Vancouver, British Columbia",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm a student right now, but I'm in economics'.",
+          "value": "Student studying economics",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm hoping to get into like financial technology and some kind of security'.",
+          "value": "Aspiring to work in financial technology and security",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions being 'too young' and is doing her undergrad, suggesting early 20s.",
+          "value": "Young adult (likely early 20s)",
+          "lines": [
+            36,
+            102
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "She advises her grandparents to vote Democrat and researches propositions for them, indicating Democratic/liberal leaning.",
+          "value": "Democratic/liberal political leaning",
+          "lines": [
+            450,
+            456
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She explicitly states 'I'm not a U. S. Citizen'.",
+          "value": "Not a U.S. citizen",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "As above, she is a Canadian citizen (see identity).",
+          "value": "Canadian citizen",
+          "lines": [
+            160,
+            162
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says 'I'm a student right now' and 'I'm applying to jobs right now'.",
+          "value": "Unemployed student, currently applying for jobs",
+          "lines": [
+            26,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says when she is in Canada she misses Trader Joe's, implying she shops there in the US.",
+          "value": "Shops at Trader Joe's when in the US",
+          "lines": [
+            412
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my sister and I sharing a room' and 'my sister, she's in high school'.",
+          "value": "Has a sister",
+          "lines": [
+            102,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my sister, she's in high school right now'.",
+          "value": "Sister is in high school",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my grandparents, live at home with us as well'.",
+          "value": "Grandparents live with her family",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my grandparents, they are, they are citizens'.",
+          "value": "Grandparents are US citizens",
+          "lines": [
+            448
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She tells them to vote Democrat and researches for them.",
+          "value": "Grandparents vote Democrat (as advised by her)",
+          "lines": [
+            450
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions 'my parents' in the context of allowing room painting.",
+          "value": "Has parents",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes growing up sharing a room with her sister.",
+          "value": "Grew up sharing a room with her sister",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says 'I like the rain' when describing BC weather.",
+          "value": "Enjoys rain",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes making cashew milk at home by blending cashews and water.",
+          "value": "Makes homemade cashew milk",
+          "lines": [
+            408
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'right now I'm back in the States' while normally being in Canada for undergrad, indicating cross-border travel for school.",
+          "value": "Travels between the US and Canada for school, currently in the US due to COVID",
+          "lines": [
+            102,
+            160
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,328 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as Scott (ASR 'scott'); later HR addresses him as Scott.",
+          "value": "Scott",
+          "lines": [
+            19,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is in Virginia and specifies Fredericksburg, between Washington and Richmond.",
+          "value": "Fredericksburg, Virginia",
+          "lines": [
+            9,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says he works in D.C.",
+          "value": "Washington, D.C.",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'we don't have Children'.",
+          "value": "No children",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we have animals'.",
+          "value": "Pet owner",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Works in D.C. for a federal agency, described as a government entity.",
+          "value": "Federal government employee",
+          "lines": [
+            49,
+            85,
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says he is 'almost C.I.O. of a federal agency', indicating a senior IT leadership role.",
+          "value": "CIO or IT leadership role at a federal agency",
+          "lines": [
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes past work at the Department of Defense in chemical, biological, radiological defence.",
+          "value": "Previously worked for Department of Defense in chemical/biological defence",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has been working from home since March 16 (corrected from 'third 16 May').",
+          "value": "Working from home since March 16, 2020",
+          "lines": [
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Currently leading a study on how the virus survives on materials.",
+          "value": "Leads a study on virus survival on materials",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He and his partner recently purchased a car, travelling to New Jersey to get it.",
+          "value": "Recently purchased a car from New Jersey",
+          "lines": [
+            235,
+            237,
+            239
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Consistently uses 'we' for major life facts (no children, animals, car purchase), indicating a domestic partner or spouse.",
+          "value": "Has a partner or spouse",
+          "lines": [
+            69,
+            235
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions having 'a lot of friends in Europe and other places'.",
+          "value": "Has friends in Europe and other countries",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he usually heads down to Charleston for gelato, indicating a regular vacation spot.",
+          "value": "Usually vacations in Charleston, South Carolina",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions wearing a mask when going to the store.",
+          "value": "Wears a mask when going out",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he is finishing a storage shed at home.",
+          "value": "Building a storage shed at home",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'carla' (ASR); speaker_a repeats the name. Intended as Carla.",
+          "value": "Carla",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is in South Carolina, upstate region, right at the North Carolina border (~1 mile away), in the Greenville-Spartanburg area, about 40 minutes from Greenville.",
+          "value": "Upstate South Carolina, near North Carolina border, about 40 minutes from Greenville",
+          "lines": [
+            6,
+            8,
+            202,
+            208,
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says she works a government job at a court.",
+          "value": "Government employee working at a court",
+          "lines": [
+            26,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my son' and refers to dealing with a teenager.",
+          "value": "Parent of a teenage son",
+          "lines": [
+            62,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she wears glasses ('I can't stand it wearing glasses').",
+          "value": "Wears glasses",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Expresses annoyance with glasses fogging up, indicating she needs corrective lenses.",
+          "value": "Needs corrective lenses (wears glasses)",
+          "lines": [
+            58,
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Works an essential government job at a court, has been on‑site since day one, not working from home.",
+          "value": "Essential worker at a court, working on‑site throughout pandemic",
+          "lines": [
+            26,
+            30,
+            32,
+            34,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she had her credit card information stolen many years ago.",
+          "value": "Past victim of credit card theft",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions that tax income information was stolen in a South Carolina breach and as a result her 'career' (likely credit) has been frozen.",
+          "value": "Credit frozen due to state tax information breach",
+          "lines": [
+            192,
+            194
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes the court's technology as obsolete, still using Windows XP and Windows 7.",
+          "value": "Works with outdated technology (Windows XP) at government workplace",
+          "lines": [
+            152
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Has a teenage son, evidenced by multiple references.",
+          "value": "Has a teenage son",
+          "lines": [
+            62,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "ASR 'my hand is elderly' – phonetically closest to 'my aunt'. She describes an elderly female relative who watches the governor on TV.",
+          "value": "Elderly female relative (likely aunt)",
+          "lines": [
+            88
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says she usually goes to Charleston once or twice a year.",
+          "value": "Usually visits Charleston, South Carolina 1–2 times a year",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions last year's trip to Hilton Head.",
+          "value": "Went to Hilton Head last year",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Now goes grocery shopping every other week instead of randomly.",
+          "value": "Grocery shops every other week",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes her area as not urban, requiring travel to get to stores.",
+          "value": "Lives in a rural area and must travel for errands",
+          "lines": [
+            224,
+            228
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Explicitly says she wears glasses.",
+          "value": "Wears glasses",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

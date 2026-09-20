@@ -1,0 +1,364 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Explicitly states 'I live in indiana' (line 67) and 'I just lived in indiana' (line 157).",
+          "value": "Indiana",
+          "lines": [
+            67,
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I was born in uh ports, was born in New Hampshire' (line 150) and speaker_b confirms 'Portsmouth' (line 152).",
+          "value": "Born in Portsmouth, New Hampshire",
+          "lines": [
+            150,
+            152
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'I work for a manufacturing company in their I.T. Department and they're on the computer person' (line 51); ASR likely 'I'm the computer person'.",
+          "value": "Works in IT for a manufacturing company",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing Prolific, mturk, focus groups, and NPR consumer surveys in free time to make extra money (lines 17, 25, 51).",
+          "value": "Earns extra money through online surveys and microtasks (Prolific, mturk, focus groups)",
+          "lines": [
+            17,
+            25,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I just lived in indiana because the rent was the taxes a little bit cheaper in indiana than it's supposed to like Chicago' (line 157), indicating economic motivation for location.",
+          "value": "Chose to live in Indiana for cheaper rent and taxes",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I think I thought 80 just for Internet' (line 311) in context of Comcast service.",
+          "value": "Pays about $80/month for Comcast internet",
+          "lines": [
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I bought my own bottom I think' (line 315), likely 'modem' given context.",
+          "value": "Owns own cable modem",
+          "lines": [
+            315
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'I used to have direct tv and cancelling because there was so much it was too expensive' (line 299).",
+          "value": "Previously subscribed to DirecTV, cancelled due to cost",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions rebooking a cancelled cruise for next July to Miami/Port Canaveral (lines 95, 97) and later says 'Truth carnival' (line 99); context confirms Carnival booking.",
+          "value": "Booked a Carnival cruise from Port Canaveral/Miami for July 2021",
+          "lines": [
+            95,
+            97,
+            99
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'we've taken so many cruises were getting like a platinum whatever thing' and describes perks (free gift, earlier boarding) (lines 117, 119).",
+          "value": "Platinum loyalty status with cruise line",
+          "lines": [
+            117,
+            119
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States 'my dad was in the Air Force' (line 155).",
+          "value": "Father served in the Air Force",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my mom's parents were in they lived in Chicago in the northern suburbs' (line 155).",
+          "value": "Maternal grandparents lived in Chicago",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I go to my black parents house for like thanksgiving and New Year's' (line 67); ASR 'black' likely error for 'parents' given context of parents mentioned later.",
+          "value": "Visits parents' house for holidays (Thanksgiving, New Year's)",
+          "lines": [
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Consistently uses 'we' when discussing cruises and air shows (lines 77, 95, 97, 107, 117), implying a regular travel companion, but the relationship is not specified.",
+          "value": "Has a regular cruise/travel companion (unidentified)",
+          "lines": [
+            77,
+            95,
+            97,
+            107,
+            117
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I was supposed to go to air shows this summer' (line 77) and later 'I just like the demo demo teams that's about it, like the Blue angels and thunder parts' (Thunderbirds) (line 187).",
+          "value": "Enjoys attending air shows and military flight demonstrations (Blue Angels, Thunderbirds)",
+          "lines": [
+            77,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions multiple cruises over the years: 'we took a cruise' 10 years ago (line 107), 'we took a cruise from new york that went to boston and Canada' (line 143), and achieving platinum status (line 117).",
+          "value": "Takes cruises frequently, multiple times over years",
+          "lines": [
+            107,
+            117,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States doing Prolific, mturk, and focus groups in free time (lines 17, 25, 51).",
+          "value": "Completes online surveys and microtasks in free time",
+          "lines": [
+            17,
+            25,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I just never really uh decided to get cable tv again so I don't really watch it that much' (line 299).",
+          "value": "Does not have cable TV; uses internet for entertainment",
+          "lines": [
+            299
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'this would be like my fourth time or fifth time doing this' (line 9) and 'I've done 33 this session' (line 359).",
+          "value": "Experienced participant in webcam focus groups (4th/5th time, claims 33 sessions)",
+          "lines": [
+            9,
+            359
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I'm in Connecticut, so we've been in rough shape, especially near new york city' (line 70).",
+          "value": "Connecticut, near New York City",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Says 'my hearing isn't always the best' (line 36).",
+          "value": "Hearing difficulty",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we have been in a car accident and so we were out of work for a while' (line 254), implying injury or health impact that prevented work.",
+          "value": "Involved in a car accident (with ex) that resulted in time off work",
+          "lines": [
+            254
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'My job is um crafting, I do crafts, like I'm self employed' (line 58).",
+          "value": "Self-employed crafter",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'it's like $112 a month for the Internet' (line 308) and notes it includes rented modem (line 312).",
+          "value": "Pays $112/month for internet, includes modem rental",
+          "lines": [
+            308,
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't have the regular tv' (line 298) and explains cancelling TV to reduce bill (lines 304-308).",
+          "value": "Cancelled cable TV to save money",
+          "lines": [
+            298,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'we have been in a car accident and so we were out of work for a while' (line 254).",
+          "value": "Out of work for a period due to a car accident (with ex)",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I started to support them on Patreon and like they have a Kickstarter book' (line 286) about the YouTube channel cracking the cryptic.",
+          "value": "Supports Patreon (cracking the cryptic) and bought Kickstarter book",
+          "lines": [
+            286
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'We took a carnival cruise I took with my ex husband's family' (line 120).",
+          "value": "Has an ex-husband",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my mom was navy and then navy reserves less' (line 158).",
+          "value": "Mother served in the Navy",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My mom's done a bunch of Disney cruises. She was super into Disney for a while... She's in the older category now' (lines 102-104).",
+          "value": "Mother is a Disney enthusiast, has taken Disney cruises, and is older",
+          "lines": [
+            102,
+            103,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a friend who did medical transcription (lines 26, 28, 30, 32).",
+          "value": "Friend who did medical transcription",
+          "lines": [
+            26,
+            28,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a friend who took it and he was on jeopardy like a year ago' (line 268).",
+          "value": "Friend who appeared on Jeopardy",
+          "lines": [
+            268
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my ex had an idea... because we have been in a car accident' indicating they were in a relationship at the time of the accident six years ago (line 254).",
+          "value": "Was in a relationship with ex at time of car accident (6 years ago)",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes crafting as occupation, mentions holiday orders: 'people are ordering gifts... all of december is just wiped out' (lines 58, 60, 62).",
+          "value": "Crafting as occupation, busy during holiday season",
+          "lines": [
+            58,
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've been watching a lot of Sudoku videos on Youtube, there's these two british guys... this channel called cracking the cryptic' (lines 282, 288).",
+          "value": "Watches Sudoku solving videos on YouTube (channel 'cracking the cryptic')",
+          "lines": [
+            282,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I've never done anything like this before' (line 8) and 'I've never done like a webcam one before' (line 10).",
+          "value": "First time participating in a webcam survey",
+          "lines": [
+            8,
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes taking a Carnival cruise from Boston to Canada with ex-husband's family about 10 years ago (lines 120, 122, 124, 148).",
+          "value": "Took a Carnival cruise from Boston to Canada with ex-husband's family ~10 years ago",
+          "lines": [
+            120,
+            122,
+            124,
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

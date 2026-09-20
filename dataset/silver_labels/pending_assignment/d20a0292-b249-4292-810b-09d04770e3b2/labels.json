@@ -1,0 +1,396 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself with 'My name is bob sunny'.",
+          "value": "bob sunny",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm in florida. I mean Jacksonville florida.' and later clarifies it is on the east coast, northern part of Florida.",
+          "value": "Jacksonville, Florida (east coast, northern part)",
+          "lines": [
+            25,
+            29,
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm a Republican'.",
+          "value": "Republican",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm in the railroad work on the railroads ... I'm a partnership in a company and we do consulting to the railroads about mechanical maintenance.' and mentions working with Amtrak.",
+          "value": "partner in a railroad mechanical maintenance consulting company",
+          "lines": [
+            107,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions doing occasional projects for a large AI company and regularly doing Prolific surveys, describing it as 'a little income on the side'.",
+          "value": "does Prolific surveys and AI training projects for extra income",
+          "lines": [
+            311,
+            313,
+            323,
+            331
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I do work from home even before the pandemic.'",
+          "value": "works from home",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a refers to 'my wife' multiple times, indicating he is married.",
+          "value": "married",
+          "lines": [
+            81,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have some good friends and they're, you know, they're actually democrat.'",
+          "value": "has friends who are Democrats",
+          "lines": [
+            143
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes planting tomatoes, okra, carrots, spinach, and broccoli.",
+          "value": "gardens vegetables",
+          "lines": [
+            81,
+            83,
+            85,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we like to get out and go for walks' and 'we just went to the beach on Monday.'",
+          "value": "enjoys walking and going to the beach",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we always wear a mask' and 'we do limit our interactions still'.",
+          "value": "wears mask and limits social interactions during pandemic",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we went to the zoo last week'.",
+          "value": "visited the zoo recently",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I got a haircut about a month ago'.",
+          "value": "got a haircut about a month ago",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says the first time he did this he spoke to someone in Philadelphia.",
+          "value": "previously participated in a similar conversation with a person from Philadelphia",
+          "lines": [
+            363
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b observes 'I see you have a tan' and speaker_a confirms by mentioning a recent beach trip.",
+          "value": "has a tan",
+          "lines": [
+            36,
+            37
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'I am sonny' in response to speaker_a's introduction.",
+          "value": "sonny",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in New Jersey' and later specifies it is central New Jersey, near Princeton and New Brunswick.",
+          "value": "central New Jersey, near Princeton and New Brunswick",
+          "lines": [
+            24,
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'the county I'm in was like the sixth highest county in New Jersey' for COVID-19 infections.",
+          "value": "county with the 6th highest COVID-19 rate in New Jersey",
+          "lines": [
+            234
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm definitely not a Republican, definitely a democrat'.",
+          "value": "Democrat",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I'm not in that age group where, you know, I'm not elderly'.",
+          "value": "not elderly",
+          "lines": [
+            248
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I had cancer like a year' and finished treatment 'like six months ago'.",
+          "value": "cancer survivor, completed treatment about 6 months ago",
+          "lines": [
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains that chemo messed up her immune system and she has a compromised immune system.",
+          "value": "compromised immune system from chemotherapy",
+          "lines": [
+            244,
+            246,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I don't have diabetes and have any of that other stuff'.",
+          "value": "does not have diabetes",
+          "lines": [
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm like angry all the time, but I just hide it well'.",
+          "value": "frequently angry but suppresses it",
+          "lines": [
+            300
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'sort of not working right now so much. I'm looking for work'.",
+          "value": "unemployed, seeking work",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a previous job doing online testing for online systems, AI functions, and website functions.",
+          "value": "previously worked as an online tester for AI and website functions",
+          "lines": [
+            302,
+            308
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she does Prolific surveys and that the money 'adds up after awhile'.",
+          "value": "earns money through Prolific surveys",
+          "lines": [
+            314,
+            318,
+            320,
+            328
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses interest in doing customer service via texting because she likes to write and articles pay badly.",
+          "value": "seeking text-based customer service work",
+          "lines": [
+            304
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b describes going to a bar weekly before the pandemic and bonding with a bartender over their shared cancer experiences.",
+          "value": "acquaintance with a bartender who is also a cancer survivor",
+          "lines": [
+            196,
+            198,
+            200
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I'm sort of an indoor person' and 'I don't much like being in the sun'.",
+          "value": "indoor person, avoids sun",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I take my walks outside'.",
+          "value": "takes walks outside",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has been cooking a lot and growing herbs and tomatoes in pots.",
+          "value": "cooks and grows herbs and tomatoes in containers",
+          "lines": [
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I think I'll try to make some bread today'.",
+          "value": "attempting to bake bread",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes a groundhog eating her parsley and dill and her plans to rig chicken wire around her pots.",
+          "value": "dealing with a groundhog eating her potted plants",
+          "lines": [
+            92,
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she started going to a bar once a week right before the coronavirus came.",
+          "value": "used to go to a bar weekly before the pandemic",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she sometimes forgets to wear a mask but keeps one in her bag.",
+          "value": "sometimes forgets to wear a mask, but carries one",
+          "lines": [
+            254
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I don't really like phones, I don't like being on the' phone.",
+          "value": "dislikes phone calls",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I like to write'.",
+          "value": "enjoys writing",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says 'I don't have any kind of tans'.",
+          "value": "has no tan",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a scarf on her head because her hair is an 'insane mess' due to uncut 'covid hair'.",
+          "value": "wearing a scarf to cover messy, uncut hair",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm gonna get my glasses on then I can see you.'",
+          "value": "wears glasses",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

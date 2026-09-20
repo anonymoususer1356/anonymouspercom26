@@ -1,0 +1,474 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 11: speaker_a says 'I'm Ashleigh nice to meet you as well.' Speaker_b confirms with 'Ashley, nice to meet you' in line 12.",
+          "value": "Ashleigh",
+          "lines": [
+            11,
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 15: 'I live in texas'. Line 16: speaker_b asks 'You live in texas?' and speaker_a affirms. Line 17: 'texas is fairly ish hard hit'. Line 163: describes Texas weather (already 90s, gets really hot).",
+          "value": "Texas",
+          "lines": [
+            15,
+            16,
+            17,
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name 'Ashleigh' is a traditionally female name and the conversation contains no contradictory indicators.",
+          "value": "Female",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 201: says she was 'like 12' when the first season of Survivor aired (May 2000). Her age in 2020 during this COVID-19 conversation would be approximately 32. Line 61: she was in college during H1N1 (2009), consistent with that age.",
+          "value": "Approximately 32 years old",
+          "lines": [
+            201,
+            61
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 61: 'I was in college when the whole H1N1 swine flu happened'.",
+          "value": "Attended college",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 37, 49, 51, 325: works from home doing online surveys and microtasks on platforms including Mturk, Prolific, Clickworker, Usertesting, and Appen.",
+          "value": "Online microtask and survey worker",
+          "lines": [
+            37,
+            49,
+            51,
+            325
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 37, 49, 51, 325: states she uses online platforms as her means of making money, and works from home.",
+          "value": "Earns income through online surveys and microtasks from home",
+          "lines": [
+            37,
+            49,
+            51,
+            325
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 143: 'I'm single'.",
+          "value": "Single",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 143: 'I live with my mother'.",
+          "value": "Lives with mother",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 143: 'and my grandmother'.",
+          "value": "Lives with grandmother",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 143: 'my mother's an essential worker, not quite grocery store, but essentially kind of like that'.",
+          "value": "Mother is an essential worker",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 119: 'I don't have any pets right now'.",
+          "value": "Currently has no pets",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 119: 'I've had pets in the past'.",
+          "value": "Has had pets in the past",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 171: 'I like to watch movies and tv shows, play video games, that sort of thing'.",
+          "value": "Enjoys watching movies, TV shows, and playing video games",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 173: she was binge-watching Drunk History, then switched to Scrubs after Sam Lloyd died.",
+          "value": "Engages in binge-watching TV series",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 19: 'everybody's been in quarantine for like two months'.",
+          "value": "Has been in quarantine for approximately two months",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 201: she watched the first season of Survivor when it first aired and was 12.",
+          "value": "Watched the first season of Survivor when it originally aired",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 267: 'I haven't been in the church in a decade plus'.",
+          "value": "Has not attended church in over 10 years",
+          "lines": [
+            267
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 229: mentions seeing news videos about Cuomo on national news like ABC.",
+          "value": "Consumes national TV news (e.g., ABC)",
+          "lines": [
+            229
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 10: speaker_b says 'my name's curtsy, what's yours?'. ASR 'curtsy' is phonetically close to 'Kristy' or 'Kirsty'; the intended name is likely Kristy.",
+          "value": "Kristy",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 16: 'I'm in Illinois'. Line 168: 'I'm like an hour north of Chicago in, in the suburbs ... not by the city at all'. Line 170: 'I'm probably 45 minutes away from lake Michigan'.",
+          "value": "Illinois, in a suburb about an hour north of Chicago, 45 minutes from Lake Michigan",
+          "lines": [
+            16,
+            168,
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Has a son and a daughter (lines 203, 154), refers to herself in context of motherhood, name 'Kristy' is female. No contradictory evidence.",
+          "value": "Female",
+          "lines": [
+            10,
+            154,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 160: daughter 'just turned 30'. Line 114: 'I'm older'. This suggests speaker_b is likely in her 50s or older.",
+          "value": "Likely in her 50s (has a 30-year-old daughter)",
+          "lines": [
+            160,
+            114
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 108: 'I have a science background'.",
+          "value": "Has a science background",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 94: 'like where I went to school. Many of the lecture halls I was in, they could hold, you know, a lot of people'.",
+          "value": "Attended a university with large lecture halls",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 24-30: she has three jobs—pet store (voluntary leave), substitute teacher, real estate agent. Also does online surveys (line 38).",
+          "value": "Substitute teacher, real estate agent, pet store worker, and online survey taker",
+          "lines": [
+            24,
+            26,
+            28,
+            30,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lines 24-34: pet store voluntary leave, schools closed so no substitute work, real estate work is scarce because people don't want showings. Only real estate has some work but very limited.",
+          "value": "Multiple jobs severely impacted by pandemic; currently only real estate agent work is active but minimal",
+          "lines": [
+            24,
+            26,
+            28,
+            30,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 310: 'I just live off savings'.",
+          "value": "Currently living off savings",
+          "lines": [
+            310
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 38, 42: she uses online survey sites like this one and Prolific for extra money.",
+          "value": "Earns supplemental income through online surveys",
+          "lines": [
+            38,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 174-178: signs up for CBS All Access repeatedly using free trial offers, cancelling before being charged, then getting another free month.",
+          "value": "Uses free trials to access streaming services without paying",
+          "lines": [
+            174,
+            175,
+            176,
+            178
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 203: 'my son and daughter in law'. Line 136: son and daughter-in-law lost their cat.",
+          "value": "Has a son",
+          "lines": [
+            203,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 203: 'my son and daughter in law'.",
+          "value": "Has a daughter-in-law",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 154: 'my daughter'. Line 160: 'she's 30. Yeah, she just turned 30'.",
+          "value": "Has a daughter, age 30",
+          "lines": [
+            154,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 64: 'at the time I was married' (referring to 2009 H1N1). Line 170: 'my in laws used to live'.",
+          "value": "Was married (at least around 2009)",
+          "lines": [
+            64,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 146-148: mother lives in California, in her 80s, not married, lives with three people.",
+          "value": "Has a mother in her 80s living in California",
+          "lines": [
+            146,
+            147,
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 120-126: has a cat named Luna, who is 18 and 3/4 years old. She is very attentive to Luna's health.",
+          "value": "Has a cat named Luna, age 18 and 3/4",
+          "lines": [
+            122,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 128-132: lost Luna's sister almost a year ago, who was almost 18.",
+          "value": "Previously had another cat (Luna's sister) who died about a year ago",
+          "lines": [
+            128,
+            130,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 170: 'my in laws used to live' somewhere.",
+          "value": "Has (or had) in-laws",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 206: 'one of my friend got me hooked on Big Brother'.",
+          "value": "Has a friend who introduced her to the show Big Brother",
+          "lines": [
+            206
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 154-158: convinced daughter to move out from a roommate who was not careful about COVID-19.",
+          "value": "Daughter moved to a safer living situation due to roommate concerns",
+          "lines": [
+            154,
+            156,
+            158
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 178, 206, 212, 214: binge-watching Survivor from the beginning, also enjoys Big Brother.",
+          "value": "Enjoys reality competition shows (Survivor, Big Brother)",
+          "lines": [
+            178,
+            206,
+            212,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 174-178, 182: uses CBS All Access for Survivor and The Good Fight, exploits free trials.",
+          "value": "Regularly streams TV content via CBS All Access free trials",
+          "lines": [
+            174,
+            175,
+            176,
+            178,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 64-76: prepared for H1N1 by stockpiling food for two years, still eats some, believes in preparedness as insurance.",
+          "value": "Food prepper: stockpiled food for emergencies",
+          "lines": [
+            64,
+            65,
+            66,
+            70,
+            72,
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 44-46: expresses preference for academic surveys over others like Swagbucks.",
+          "value": "Prefers participating in academic surveys",
+          "lines": [
+            44,
+            45,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 232-238: watches governor's daily COVID-19 briefings, used to watch Cuomo daily, tries to limit news intake.",
+          "value": "Follows COVID-19 news and governor's press briefings",
+          "lines": [
+            232,
+            234,
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 118: asks speaker_a if she is an animal person; line 348: advocates adoption. Owns a cat.",
+          "value": "Animal lover; supports pet adoption",
+          "lines": [
+            118,
+            348
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Line 334: 'I basically wear the same outfit all the time because there's nobody around so why not?' and didn't change shirt for video.",
+          "value": "Typically wears the same outfit, especially during quarantine",
+          "lines": [
+            334
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

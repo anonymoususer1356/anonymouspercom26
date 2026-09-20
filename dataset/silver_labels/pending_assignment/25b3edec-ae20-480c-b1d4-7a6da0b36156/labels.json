@@ -1,0 +1,278 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'peter'.",
+          "value": "peter",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he lives in the New York metropolitan area (line 11), then clarifies he lives in New Jersey, 30 minutes from the city (line 31), and spends most time in a suburb (line 113).",
+          "value": "Lives in a suburb in New Jersey, about 30 minutes from New York City",
+          "lines": [
+            11,
+            31,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he grew up around there, he says 'Yeah I grew up Bradley like' which is likely an ASR error for growing up in the area; he confirms growing up in the New Jersey area.",
+          "value": "Grew up in the New Jersey area",
+          "lines": [
+            32,
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says his college is in an urban area (line 115).",
+          "value": "Attends college in an urban area",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he has a dorm at school but is currently at home (line 93), and he lives in a suburb (line 113), indicating he is currently staying at his family home in suburban New Jersey.",
+          "value": "Currently living at home in suburban New Jersey instead of at college dorm",
+          "lines": [
+            93,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states he is a student at college studying architecture (line 11), and later says he is a senior in a five-year architecture program (line 137).",
+          "value": "College student, senior in architecture (5-year program)",
+          "lines": [
+            11,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Being a college senior typically implies early 20s age.",
+          "value": "Early 20s",
+          "lines": [
+            137
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "He mentions driving a family member (line 43), indicating he has living family.",
+          "value": "Has a family member (unspecified relation)",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says he has done these video chats once or twice before (lines 42-43).",
+          "value": "Has participated in video chats with strangers before",
+          "lines": [
+            42,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He supports the New York Giants (NFL, line 223), New York Mets (MLB, line 239), and Los Angeles Lakers (NBA, lines 259-261); he also has a Jackals baseball team item on his wall, indicating he follows that local college league (lines 18-19).",
+          "value": "Sports fan: supports Giants, Mets, Lakers; follows local college baseball (Jackals)",
+          "lines": [
+            18,
+            19,
+            223,
+            239,
+            259,
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is more into basketball now (line 243).",
+          "value": "More into basketball than other sports currently",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he goes to the Jersey Shore (line 187, 189).",
+          "value": "Visits the Jersey Shore occasionally",
+          "lines": [
+            187,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he hasn't been to a library in a long time (line 117).",
+          "value": "Does not go to the library often",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says all his classes are online due to Covid (line 83).",
+          "value": "Taking online classes (Covid-19 pandemic)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b tells him that someone said he looks like actor Miles Teller (line 44). They discuss the actor, confirming recognition (lines 45-47).",
+          "value": "Looks like Miles Teller (according to someone else)",
+          "lines": [
+            44,
+            45,
+            47
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'Jack'.",
+          "value": "Jack",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is also in the New York area (line 16).",
+          "value": "Lives in the New York area",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he moved to New York two years ago (line 34).",
+          "value": "Moved to New York two years ago",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he is from Massachusetts originally (line 34), and later specifies 'I'm from boston' (line 96).",
+          "value": "Originally from Boston, Massachusetts",
+          "lines": [
+            34,
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says he works in financial services (line 36) and later implies it is at a bank (line 40: 'It's a bank out' interpreted as 'It's a bank').",
+          "value": "Works in financial services at a bank",
+          "lines": [
+            36,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he is slightly older than speaker_a (line 36) and mentions his college days were 20 years ago (line 124), indicating he is late 30s to early 40s.",
+          "value": "Late 30s to early 40s (attended college ~20 years ago)",
+          "lines": [
+            36,
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He is from Boston, indicating he is from New England.",
+          "value": "New Englander (from Boston)",
+          "lines": [
+            34,
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He is employed in financial services at a bank.",
+          "value": "Employed in financial services at a bank",
+          "lines": [
+            36,
+            40
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He mentions 'my wife and I' (line 240), indicating he is married.",
+          "value": "Married",
+          "lines": [
+            240
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He is participating in a video chat with a stranger (the current conversation), and asks speaker_a if he has done these before (line 42), indicating familiarity.",
+          "value": "Participates in video chats with strangers",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He supports Boston sports teams: Patriots (line 228), Celtics (line 272), Bruins and Red Sox (line 274). He also attended Mets games with his wife (line 240).",
+          "value": "Sports fan: supports Boston teams (Patriots, Celtics, Bruins, Red Sox); also attends Mets games",
+          "lines": [
+            228,
+            240,
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he hasn't been watching sports as much recently (line 292).",
+          "value": "Has reduced sports viewership recently",
+          "lines": [
+            292
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

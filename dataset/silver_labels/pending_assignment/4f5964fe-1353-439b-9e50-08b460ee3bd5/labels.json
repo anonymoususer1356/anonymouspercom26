@@ -1,0 +1,276 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a quotes a friend saying 'Hey Peter your number that you posted...', indicating their name is Peter.",
+          "value": "Peter",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in texas' (line 27), 'I'm in Dallas' (line 43), and 'here in Dallas' (line 41).",
+          "value": "Dallas, Texas",
+          "lines": [
+            27,
+            41,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a's name is typically male, and they mention dating a girl; thus they are likely male.",
+          "value": "male",
+          "lines": [
+            59,
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I've lost, I think probably 25 more than £25 from not going to the gym' (line 281), describes clothes becoming loose (line 285) and losing muscle (line 313).",
+          "value": "lost approximately 25 pounds and muscle mass during quarantine",
+          "lines": [
+            281,
+            283,
+            285,
+            313
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a expresses surprise at being paid $15 for the conversation, and speaker_b confirms (lines 329-332).",
+          "value": "received $15 for participating in this conversation",
+          "lines": [
+            329,
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I dated a girl from Ohio... Perry? Ohio' (line 59), indicating a past romantic relationship with someone from Perry, Ohio.",
+          "value": "dated a girl from Perry, Ohio",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a describes a female friend who works in IT for a big financial company, has been isolating, and bought a puppy (lines 185-187).",
+          "value": "has a female friend who works in IT at a big financial company",
+          "lines": [
+            185,
+            186,
+            187
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a mentions having a friend in Italy (lines 263, 265).",
+          "value": "has a friend in Italy",
+          "lines": [
+            263,
+            265
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I work out at the Y. M. C. A.' (line 303).",
+          "value": "gym member at YMCA",
+          "lines": [
+            303,
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I've been ordering out every saturday' (line 137).",
+          "value": "orders takeout every Saturday",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a said they wanted to start a YouTube channel and buy a Canon G7X camera for videography (lines 13-15).",
+          "value": "wants to start a YouTube channel and considered buying a Canon G7X camera",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a describes that their arms used to fill out their shirt sleeves but now the shirt is loose due to weight/muscle loss (lines 285-287).",
+          "value": "formerly had more muscular arms; now arms are smaller due to weight/muscle loss",
+          "lines": [
+            285,
+            287
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'here in Ohio' (line 58), 'here in columbus' (line 218), and refers to Ohio's governor DeWine (line 168).",
+          "value": "Columbus, Ohio",
+          "lines": [
+            58,
+            168,
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my wife' (lines 8, 140, 232), indicating he is male.",
+          "value": "male",
+          "lines": [
+            8,
+            140,
+            232
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm an I. T. Director for my day job' (line 32).",
+          "value": "IT Director",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I was senior marketing director for a company called Sodexo' (line 194).",
+          "value": "former senior marketing director at Sodexo",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to the House State University' (line 192), likely an ASR error for 'Ohio State University' (phonetic slurring). He mentions taking photography courses there.",
+          "value": "attended Ohio State University (photography courses)",
+          "lines": [
+            192
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'I went to debris um for two years' (line 214) and did online classes. 'debris' is likely ASR for 'DeVry'.",
+          "value": "attended DeVry University (online)",
+          "lines": [
+            214,
+            218
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Both speakers acknowledge receiving $15 for the conversation (lines 329-332).",
+          "value": "received $15 for participating in this conversation",
+          "lines": [
+            329,
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got a Nikon D. 300 which is a decent okay camera' (line 16).",
+          "value": "owns a Nikon D300 camera",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b wants a Nikon D850 (~$2000 used) but says he hopes to afford one by year's end (lines 16, 22).",
+          "value": "wants to buy a Nikon D850 but currently cannot afford it; hopes to by end of year",
+          "lines": [
+            16,
+            22
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I travel a lot for my job' (line 298) and describes a recent work trip to Frisco, TX (lines 28-30).",
+          "value": "job requires travel, including a recent trip to Frisco, TX",
+          "lines": [
+            28,
+            30,
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'my wife' multiple times (lines 8, 140, 232).",
+          "value": "married",
+          "lines": [
+            8,
+            140,
+            232
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes liking hiking and landscape photography, and says he is an 'old school analog photographer' (lines 8-10, 16).",
+          "value": "hobbyist landscape and nature photographer",
+          "lines": [
+            8,
+            10,
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I belong to L. A. Fitness' and has a rowing machine and treadmill at home (lines 288, 290).",
+          "value": "fitness routine includes LA Fitness membership and home rowing machine and treadmill",
+          "lines": [
+            288,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I like going hiking and doing like landscape photography' (line 10).",
+          "value": "hikes for photography",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

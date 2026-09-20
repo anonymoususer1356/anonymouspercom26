@@ -1,0 +1,550 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states 'I do payroll at a university hospital'.",
+          "value": "payroll at a university hospital",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I've never really been athletically inclined.'",
+          "value": "not athletically inclined",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a is employed doing payroll at a university hospital, which provides income.",
+          "value": "employed and earns income from payroll at a university hospital",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I write a bunch of DND, homebrew content, I make a little bit of money off it'.",
+          "value": "earns a little money from writing DND homebrew content",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to play magic competitively... made some money, a net loss obviously'.",
+          "value": "net loss from playing Magic: The Gathering competitively",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my brother is obsessed with war zone'.",
+          "value": "has a brother",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'Yeah it's Star Wars lego, there's a whole shitload of it' and 'I collect'.",
+          "value": "collects Star Wars Lego",
+          "lines": [
+            8,
+            9,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I do Star Wars DND', 'I've been doing it for five years', 'I write a bunch of DND, homebrew content', 'I write Star Wars DND', 'I've been doing that publicly for two years. I've written four books', 'I have a subreddit'.",
+          "value": "plays and writes DND content, specifically Star Wars fifth edition conversion, for five years, with four books and a subreddit",
+          "lines": [
+            11,
+            17,
+            45,
+            47,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually playing the witcher three right now' and 'I put about 90 hours into the winter um in the past two weeks'.",
+          "value": "currently playing The Witcher 3, has played 90 hours in two weeks",
+          "lines": [
+            95,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've been playing video games on the clock, which is pretty good' and describes working from home with little work to do.",
+          "value": "plays video games during work hours while working from home",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've always preferred books and video games and tv' and 'I've never really been into organized... team sports'.",
+          "value": "prefers books, video games, and TV over sports",
+          "lines": [
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to play magic competitively'.",
+          "value": "used to play Magic: The Gathering competitively",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I played tennis back 15 years ago, 20 years ago' and 'haven't played once more than once or twice since'.",
+          "value": "played tennis 20 years ago, rarely since",
+          "lines": [
+            81,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Sunny is my favorite tv show of all time' (transcribed as 'sunday'), and 'I've seen up to season 13... early seasons thousands of times. It's my favorite show to rewatch.'",
+          "value": "favorite TV show is It's Always Sunny in Philadelphia, watched up to season 13, rewatched early seasons many times",
+          "lines": [
+            157,
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I've watched Seinfeld beginning to end a lot of times'.",
+          "value": "watched Seinfeld beginning to end many times",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says '30 rock is probably my favorites'.",
+          "value": "30 Rock is one of favorite TV shows",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I like the lead because it was funny' (meaning The League) and 'I don't watch football at all and I've never played fantasy football'.",
+          "value": "watched and enjoyed The League despite not being into football",
+          "lines": [
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'the first three seasons of that show are incredible' (Arrested Development).",
+          "value": "watched Arrested Development, considers first three seasons incredible",
+          "lines": [
+            231,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I haven't seen the most recent season but because I don't have cable'.",
+          "value": "does not have cable TV",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Yeah I'm at work right now, quotes working from home.' and 'Typically I work in a satellite location, but I have all my software so I can do literally everything from home except to answer my my work phone'.",
+          "value": "works from home",
+          "lines": [
+            7,
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Illinois'.",
+          "value": "Illinois",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I've been a substitute teacher' and 'I've been in a master's program to become a high school science teacher'.",
+          "value": "substitute teacher and master's student in education",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I right now I have biology as something that I'm certified to teach' and 'I passed the licensing in april'.",
+          "value": "licensed biology teacher",
+          "lines": [
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am tennis lessons' and 'it's nice that I can do it privately'.",
+          "value": "tennis instructor",
+          "lines": [
+            76,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I started seriously streaming on twitch' and discusses streaming setup.",
+          "value": "Twitch streamer",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I woke up late Around 10, 15 minutes ago, so both tired.'",
+          "value": "tired",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I was furloughed' from substitute teaching, and 'the past three years I've been a substitute teacher', implying previous income.",
+          "value": "previously employed as a substitute teacher, currently furloughed",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'it's nice that I can do it privately and it's tax free' regarding tennis lessons.",
+          "value": "earns income from private tennis lessons that is not taxed",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'there have been a couple of tournaments where I've made maybe like three or $400, but overall it's just it's a lot more spent'.",
+          "value": "earned some money from chess tournaments but overall net loss",
+          "lines": [
+            36,
+            38
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'probably my dad told me he also had this magnetic chess board'.",
+          "value": "has a dad",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I made a friend on Reddit like a couple weeks ago and she introduced me to DND'.",
+          "value": "has a female friend from Reddit who introduced him to DND",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm so good friends with like maybe 10 of us from our hometown'.",
+          "value": "has a close group of about 10 friends from hometown",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions one specific friend from hometown who watched every Seinfeld episode.",
+          "value": "has a friend who watched every Seinfeld episode",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my friends and I really got into a war zone because we've always been into like shooters'.",
+          "value": "plays Warzone with friends",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I found this guy and read it who we were playing for night kind of at a like doing like the tournament stuff' and later describes playing Apex with him.",
+          "value": "had a Reddit acquaintance for playing Fortnite and Apex Legends",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I found this one guy who and we play like once or twice a week' regarding tennis.",
+          "value": "has a regular tennis partner",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm really into chest' (chess) and describes playing online chess, streaming it, and competitive history.",
+          "value": "plays chess, streams chess on Twitch, competed in past",
+          "lines": [
+            28,
+            34,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad told me he also had this magnetic chess board that I would play against computer' and 'started playing seriously maybe like right after fifth grade'.",
+          "value": "learned chess as a child with a magnetic chess board, played seriously from fifth grade",
+          "lines": [
+            32,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'high school is when I started complaining competitively' (competing competitively), 'college it was just kind of like a fun club and after that it was just a lot of tournaments'.",
+          "value": "played competitive chess in high school, club in college, tournaments after",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I started seriously streaming on twitch' about 3-4 weeks ago.",
+          "value": "started streaming on Twitch 3-4 weeks ago",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I started playing it back in I think like March or so, and I probably got like 30, 40 hours into it' regarding Witcher 3.",
+          "value": "played The Witcher 3 for 30-40 hours since March",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my friends and I really got into a war zone' and 'we've always been into like shooters'.",
+          "value": "plays Call of Duty: Warzone with friends, enjoys shooters",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I basically switched from Fortnite to Apex Legends early last year' and 'I don't play Fortnite that often'.",
+          "value": "switched from Fortnite to Apex Legends early last year, rarely plays Fortnite",
+          "lines": [
+            112,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I probably put like 80 hours into Star do valley like late last year'.",
+          "value": "played 80 hours of Stardew Valley late last year",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I bought a cheap mouse and keyboard that I can play on war zone and I'll probably try Fortnite with it' and 'I want to eventually get into like a gaming PC'.",
+          "value": "bought mouse and keyboard for Xbox, wants a gaming PC",
+          "lines": [
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I started playing seriously maybe like right after fifth grade and then I I got better in middle school and I played in high school and played on the club team in college' regarding tennis.",
+          "value": "played tennis from fifth grade through college club team",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am tennis lessons' and explains teaching privately during summer.",
+          "value": "gives private tennis lessons in summer",
+          "lines": [
+            76,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'she introduced me to DND this past weekend' and 'I wasn't really into it, but it was still fun learning'.",
+          "value": "tried DND for the first time recently, not very into it",
+          "lines": [
+            12,
+            14,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'with Always Sunny, I've seen every single episode.'",
+          "value": "seen every episode of It's Always Sunny in Philadelphia",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'every year I watch South Park and it's always sunny in philadelphia'.",
+          "value": "watches South Park and It's Always Sunny annually",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates watching and liking Seinfeld, mentioning it had eight seasons.",
+          "value": "watched and liked Seinfeld",
+          "lines": [
+            174,
+            176
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I also watch some of the seasons of curb your enthusiasm, but I definitely need to catch up on that'.",
+          "value": "watches Curb Your Enthusiasm, not fully caught up",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b lists shows he used to watch: Game of Thrones, How I Met Your Mother, Lost, 24, Modern Family.",
+          "value": "used to watch many TV shows including Game of Thrones, How I Met Your Mother, Lost, 24, Modern Family",
+          "lines": [
+            220,
+            222,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he's big into comedy and lists The Office, Community, Parks and Rec, Arrested Development.",
+          "value": "fan of comedy TV shows: The Office, Community, Parks and Rec, Arrested Development",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to watch the league because my friends and I played a lot of fancy football' (fantasy football).",
+          "value": "watched The League and played fantasy football with friends",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't really watch netflix'.",
+          "value": "does not watch Netflix much",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't really go on twitter that much'.",
+          "value": "rarely uses Twitter",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he's been in a master's program and is taking classes.",
+          "value": "pursuing master's degree, taking classes",
+          "lines": [
+            58,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the past three years I've been a substitute teacher' and 'I was in a K Through eight district'.",
+          "value": "worked as substitute teacher in K-8 district for three years",
+          "lines": [
+            58,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just I woke up late Around 10, 15 minutes ago'.",
+          "value": "woke up late (10-15 minutes before call)",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

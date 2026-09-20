@@ -1,0 +1,321 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states she is from New York and lives in uptown Manhattan; she mentions the George Washington Bridge, walking across it to New Jersey, and describes cold winters, confirming current NYC residence.",
+          "value": "New York City, uptown Manhattan (near George Washington Bridge)",
+          "lines": [
+            11,
+            19,
+            45,
+            81,
+            93,
+            281,
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "She explicitly says she does not smoke tobacco when asked.",
+          "value": "does not smoke tobacco",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says wearing a mask 'kind of like gave me a little anxiety' due to feeling constriction in breathing.",
+          "value": "experiences anxiety from mask constriction",
+          "lines": [
+            113
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she works in hospitality as a waitress at a Japanese soufflé pancake restaurant that is a chain from Japan and its first location in NYC; the restaurant is closed indefinitely.",
+          "value": "waitress at Japanese soufflé pancake restaurant (chain from Japan, first NYC location), restaurant closed",
+          "lines": [
+            197,
+            219,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is 'still pending for unemployment' due to the restaurant closure.",
+          "value": "pending unemployment benefits",
+          "lines": [
+            197,
+            199
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live with my mom currently,' indicating she is not in her own independent housing.",
+          "value": "lives with her mother (not in own apartment)",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Both speakers are participating in a paid survey call; she mentions the $15 payment, and speaker_b agrees they are in it.",
+          "value": "participating in paid survey for $15 USD",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my partner' when describing a walk by the river.",
+          "value": "has a romantic partner",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She repeatedly mentions a sister who lives in California, including her recent move, grilling, and sending a mask.",
+          "value": "has a sister living in California",
+          "lines": [
+            13,
+            49,
+            67,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a sister and a brother, and states her brother is in Washington, D.C.",
+          "value": "has a brother living in Washington, D.C.",
+          "lines": [
+            257,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I live with my mom currently'.",
+          "value": "lives with mother",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions talking to a friend who lives in Korea about the pandemic.",
+          "value": "has a friend living in Korea",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes taking walks by the riverside, crossing the George Washington Bridge to New Jersey, and visiting a local park.",
+          "value": "takes outdoor walks by the river, across the GW Bridge to NJ, and to local parks",
+          "lines": [
+            93,
+            95,
+            281,
+            283
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She expresses strong dislike of the cold in NYC and enjoyment of warm, sunny weather, referencing a past California trip.",
+          "value": "dislikes cold weather, enjoys warm and sunny climates",
+          "lines": [
+            81,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm leaning towards something similar these days... always seeking more serenity and like major or warm weather,' suggesting a plan to relocate.",
+          "value": "considering moving to a warmer/more serene location",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "In recalling a California trip, she says 'my eyes are small' while describing squinting in the sun.",
+          "value": "self-described as having small eyes",
+          "lines": [
+            89
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "She states 'California' early on, confirms she is from there, mentions California as home after undergrad, and confirms both she and her sisters are born and raised there.",
+          "value": "California",
+          "lines": [
+            10,
+            11,
+            14,
+            82,
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm in health care' and that work is busy.",
+          "value": "health care worker",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She confirms both she and her sisters are 'all born and raised' in California.",
+          "value": "born and raised in California",
+          "lines": [
+            269,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she went to undergrad in New Jersey and that all her education was outside California.",
+          "value": "college-educated, completed undergrad in New Jersey",
+          "lines": [
+            82,
+            278
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She states she works in health care and is still working, and that work got busy; this matches her demographic occupation.",
+          "value": "employed in health care (still working during pandemic)",
+          "lines": [
+            306,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions the $15 payment for the survey call and speaker_b acknowledges and participates; both are in the study.",
+          "value": "participating in paid survey for $15 USD",
+          "lines": [
+            7,
+            9
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she does workouts 'right outside on my lawn essentially,' indicating she has a residence with a yard.",
+          "value": "has a lawn/yard at her residence",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She states 'I do have two sisters' and confirms they live in California and are born and raised there.",
+          "value": "has two sisters living in California",
+          "lines": [
+            266,
+            269,
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She mentions she usually goes on a camping trip every May.",
+          "value": "goes on an annual camping trip in May",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I run around my neighborhood and I do it at night so that no one's out'.",
+          "value": "runs in her neighborhood at night",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She does yoga or workouts on her lawn to avoid risking others.",
+          "value": "does yoga/workouts on her lawn",
+          "lines": [
+            40,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been reading a book and trying to read a book a month.",
+          "value": "reads books, aiming for one per month",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she 'likes to be in shorts all year round' and says being on the East Coast is torture, preferring California's warmth.",
+          "value": "prefers warm weather, enjoys wearing shorts year-round",
+          "lines": [
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she doesn't like being close to people right now and has changed her walking times to avoid crowds.",
+          "value": "avoids crowds and maintains distance during pandemic",
+          "lines": [
+            106,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes trying to go biking/hiking on a local trail but finding it locked down and suspecting other foothill trails are the same.",
+          "value": "attempted to hike/bike on trails but found them closed",
+          "lines": [
+            32,
+            33,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

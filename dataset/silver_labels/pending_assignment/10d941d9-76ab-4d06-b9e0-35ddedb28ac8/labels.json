@@ -1,0 +1,215 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'I'm Leonardo' after speaker_b introduces himself, likely giving his own name. Certainty is low because it directly follows the other speaker's introduction and could be a misrecognition.",
+          "value": "Leonardo",
+          "lines": [
+            23
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I'm located in Delaware'.",
+          "value": "Delaware",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says he went to school for business management and graduated.",
+          "value": "graduated in business management",
+          "lines": [
+            207
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes his involvement and learning in the forex (currency) market, indicating it is his main occupation.",
+          "value": "forex trader",
+          "lines": [
+            83,
+            87,
+            119,
+            121,
+            149,
+            221
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explains he worked as a private tutor for wealthy families after graduating and before trading.",
+          "value": "former private tutor",
+          "lines": [
+            213,
+            215,
+            217
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions using Prolific money for expenses and that he has Prolific.",
+          "value": "uses Prolific for extra income",
+          "lines": [
+            245,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says the current call is his fourth, indicating recurring participation in this type of paid conversation.",
+          "value": "done four calls on this platform",
+          "lines": [
+            269
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as 'Jason Leonardo'.",
+          "value": "Jason Leonardo",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in sacramento California'.",
+          "value": "Sacramento, California",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states 'I'm a software engineer'.",
+          "value": "software engineer",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he works at Cox Automotive, specifically in a division called Dealer Track that manages car titles.",
+          "value": "Dealer Track (Cox Automotive)",
+          "lines": [
+            56,
+            58,
+            60,
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b notes he has been at the company for almost 18 years.",
+          "value": "18 years tenure",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has been working from home since the beginning of March and will continue through at least July.",
+          "value": "working from home since March (through at least July)",
+          "lines": [
+            76
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions using Prolific to earn extra money.",
+          "value": "uses Prolific for extra income",
+          "lines": [
+            226,
+            244
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b recommends DScout and says he has made about $900 on it.",
+          "value": "uses DScout for extra income",
+          "lines": [
+            248,
+            258,
+            260,
+            262
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I have like my 41 K' (401k) and invests in mutual funds.",
+          "value": "has 401k retirement account",
+          "lines": [
+            132
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions his dad lives in Wyoming and that he visited him this summer.",
+          "value": "father (lives in Wyoming)",
+          "lines": [
+            32,
+            46
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he loves being outdoors, hunting, fishing, and hiking.",
+          "value": "hunting, fishing, hiking",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions getting into disc golf as a hobby recently.",
+          "value": "disc golf",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the current call is his fourth on this platform.",
+          "value": "done four calls on this platform",
+          "lines": [
+            270
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

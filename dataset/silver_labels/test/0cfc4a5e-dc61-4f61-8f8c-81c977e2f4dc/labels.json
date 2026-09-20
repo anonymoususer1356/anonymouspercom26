@@ -1,0 +1,273 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself as 'Jordi' in line 7.",
+          "value": "Jordi",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is currently in Albuquerque, New Mexico.",
+          "value": "Albuquerque, New Mexico",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she is 'doing psychology' and applies for scholarships, indicating she is a student.",
+          "value": "student (psychology)",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states her father is from Mexico, implying Mexican descent.",
+          "value": "of Mexican descent (father from Mexico)",
+          "lines": [
+            25
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a states her father is from Mexico.",
+          "value": "father from Mexico",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states her mother is from the United States.",
+          "value": "mother from the United States",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says she is currently doing psychology, which is her main daily activity.",
+          "value": "studying psychology",
+          "lines": [
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions she writes and applies for scholarships as a motivation.",
+          "value": "writes and applies for scholarships",
+          "lines": [
+            51
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_a addresses him as Michael, and speaker_b confirms it in lines 7-8.",
+          "value": "Michael",
+          "lines": [
+            7,
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he is in Tennessee (line 12) and later specifies Chattanooga (lines 28, 102).",
+          "value": "Chattanooga, Tennessee",
+          "lines": [
+            12,
+            28,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he is originally from Trinidad and Tobago.",
+          "value": "Trinidad and Tobago",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he lived in Queens, New York (lines 18, 20).",
+          "value": "Queens, New York (formerly lived)",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists Long Beach, California as a place he lived (line 20).",
+          "value": "Long Beach, California (formerly lived)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists Dallas, Texas as a place he lived (line 20).",
+          "value": "Dallas, Texas (formerly lived)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 20 mentions 'the Dell high Louisiana', which is phonetically close to 'Delhi, Louisiana', a real town. Intended term recorded.",
+          "value": "Delhi, Louisiana (formerly lived)",
+          "lines": [
+            20
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b mentions living in Jackson, Tennessee (lines 20, 28).",
+          "value": "Jackson, Tennessee (formerly lived)",
+          "lines": [
+            20,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he moved to Chicago and lived there (line 28), and later describes his apartment and neighborhood there (lines 120-124).",
+          "value": "Chicago, Illinois (formerly lived)",
+          "lines": [
+            28,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states he is originally from Trinidad and Tobago.",
+          "value": "Trinidadian (originally from Trinidad and Tobago)",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he finished college (line 28).",
+          "value": "college graduate",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states his college major was a double major in English creative writing and theater directing (line 42).",
+          "value": "double major: English creative writing and theater directing",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he works as a writer for a video game project (lines 34, 36).",
+          "value": "writer for a video game project",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says his father passed away (line 28).",
+          "value": "father deceased",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his mother is getting older and he moved back to be near her (line 30).",
+          "value": "mother (aging, lives near her)",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he has an eight-year-old nephew (line 60).",
+          "value": "nephew, age 8",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes a friend named Bannon, a theater artist in New York, who recruited him for the video game project (lines 36, 94).",
+          "value": "friend Bannon, theater artist in New York",
+          "lines": [
+            36,
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b is currently working as a writer for a video game project (lines 34, 36).",
+          "value": "writing for a video game project",
+          "lines": [
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he has always been more of a nighttime person (line 164).",
+          "value": "nighttime person (prefers being awake at night)",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he still collaborates with a former theater company group (line 94).",
+          "value": "collaborates with theater group",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

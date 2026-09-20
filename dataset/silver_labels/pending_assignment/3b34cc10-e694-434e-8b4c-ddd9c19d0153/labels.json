@@ -1,0 +1,318 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker A says 'I'm in Ohio' when discussing time zones, directly stating their U.S. state of residence.",
+          "value": "Ohio, USA",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker A mentions having three daughters and gives their ages as 17, 15, and 12 (the ASR '33 girls' is a phonetic error for 'three girls', resolved by the subsequent ages).",
+          "value": "parent of three daughters (ages 17, 15, 12)",
+          "lines": [
+            183,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A refers to being in college and seeing campus credit-card sign-ups, indicating they attended college.",
+          "value": "attended college",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker A explicitly states their job: 'I'm a fraud investigator'.",
+          "value": "fraud investigator",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says 'I'm working from home' and 'really just at home every day uh five days a week right now', describing their current work arrangement.",
+          "value": "works from home (during COVID-19 pandemic)",
+          "lines": [
+            31,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says they built their house in '03 and is getting a new roof, indicating home ownership.",
+          "value": "homeowner (house built in 2003)",
+          "lines": [
+            281,
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A states they have been on Prolific for 'about a year and a half two' and considers it 'easy money'.",
+          "value": "Prolific user for extra income",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker A mentions having three daughters and specifies their ages.",
+          "value": "has three daughters (17, 15, 12)",
+          "lines": [
+            183,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says 'I got a brother that's like five minutes away'.",
+          "value": "brother living 5 minutes away",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A adds 'and then another one that's like 15'.",
+          "value": "another brother living 15 minutes away",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says 'my parents are like 30 minutes away'.",
+          "value": "parents living 30 minutes away",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker A notes they walk around the neighborhood after 7 p.m. and sees no cars, indicating evening walks.",
+          "value": "walks in neighborhood in the evening",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says 'I haven't been on a freeway'.",
+          "value": "has not driven on a freeway recently",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker A says they pass time with 'netflix or um who lose what we have' (Hulu or similar), indicating streaming binges.",
+          "value": "binge watches streaming services",
+          "lines": [
+            131
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker A mentions 'cut your grass on Tuesday morning instead of saturday' and getting a new roof, showing home and yard work during weekdays.",
+          "value": "does yard work and home projects on weekdays",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker B states 'I'm in Washington' and later clarifies they moved 'about two hours south' of the Redmond/Bellevue area to a 'smaller town'.",
+          "value": "Washington, roughly 2 hours south of Redmond/Bellevue, in a small town",
+          "lines": [
+            40,
+            140,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says they used to live 'up by Redmond Bellevue area' for almost 20 years and moved 10 months ago.",
+          "value": "previously lived in Redmond/Bellevue, WA for ~20 years",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When asked about her son, Speaker B replies 'He is 16.'",
+          "value": "parent of a 16-year-old son",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker B says 'I work in grocery store merchandising' describing one of her jobs.",
+          "value": "grocery store merchandiser",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In the same turn, Speaker B says 'I nanny for two doctors families'.",
+          "value": "nanny for two doctor families",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B states she works 'six days a week' and is not home much.",
+          "value": "works six days a week outside home",
+          "lines": [
+            58,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says she has been on Prolific for 'a little over a year' and calls it 'easy money'.",
+          "value": "Prolific user for extra income",
+          "lines": [
+            18,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B mentions her previous house was 'eight miles from Microsoft', she sold it, and moved to a lower cost of living area.",
+          "value": "sold previous house near Microsoft, moved to a lower-cost area",
+          "lines": [
+            250,
+            246,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says 'I'm a crazy budget' and has a budget system her son accesses.",
+          "value": "uses a budget system and teaches her son budgeting",
+          "lines": [
+            232,
+            234
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker B states her son is 16.",
+          "value": "has a 16-year-old son",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says her sister also does Prolific and bought a house within two weeks of hers, about 7 miles away.",
+          "value": "has a sister living 7 miles away",
+          "lines": [
+            38,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B mentions 'my 10 year old niece' (the sister's daughter).",
+          "value": "has a 10-year-old niece",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B describes her father as 77, an ex football coach, with shoulder and heart issues, and mentions her mother working in the yard alongside him.",
+          "value": "father: 77, ex football coach, shoulder/heart issues; mother: alive, active, works in yard",
+          "lines": [
+            160,
+            173,
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker B describes her work routine: grocery store merchandising and nannying, keeping her out of the house six days a week.",
+          "value": "works 6 days a week outside home, essential worker",
+          "lines": [
+            58,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says she hasn't driven more than 10 miles from her house in months.",
+          "value": "limited driving radius during COVID-19",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says 'I used to entertain myself by going to Costco seriously', indicating a past hobby of 'entertainment shopping'.",
+          "value": "used to go to Costco for entertainment shopping",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker B mentions she moved 10 months ago and still has a storage unit she hasn't cleared out.",
+          "value": "still unpacking from move, has a storage unit",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker B says 'I home school my son for eight years' before he returned to high school.",
+          "value": "homeschooled son for 8 years",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

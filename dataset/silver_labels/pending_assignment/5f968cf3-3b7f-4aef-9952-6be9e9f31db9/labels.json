@@ -1,0 +1,485 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I live in Atlanta' and earlier 'I live in Georgia now'.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            27,
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she went to UGA and 'lived in Athens for four years'.",
+          "value": "Athens, Georgia (formerly)",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I went to high school in India' and attended an international school there.",
+          "value": "India (high school)",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I grew up here' (in the US) and 'it was easy for me to come back' indicating childhood in the US.",
+          "value": "United States (childhood)",
+          "lines": [
+            183,
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm an indian citizen'.",
+          "value": "Indian citizen",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'now I'm in grad school at Emory'.",
+          "value": "Graduate student at Emory University",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I got a job as a contact tracer recently' and 'I'm in public health'.",
+          "value": "Contact tracer (public health)",
+          "lines": [
+            113,
+            115,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I went to U.G.A. for school' indicating undergraduate education.",
+          "value": "Undergraduate at University of Georgia (UGA)",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I went to high school in India. So like the international school'.",
+          "value": "High school: international school in India",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'I feel like I'm not too susceptible and I don't have that many family members that are in situations where they would be susceptible either'.",
+          "value": "Self-reported low susceptibility to COVID-19",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says 'I'm an indian citizen'.",
+          "value": "Indian citizenship",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'right now I just have a green card' and discusses renewal and applying for citizenship.",
+          "value": "U.S. permanent resident (Green Card holder)",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her green card 'is about to expire in like a year'.",
+          "value": "Green Card expires in approximately one year",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'what I might do is apply for citizenship before it expires'.",
+          "value": "Considering applying for U.S. citizenship",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a says she got a job as a contact tracer recently and it was easy to get.",
+          "value": "Employed as a contact tracer",
+          "lines": [
+            113,
+            115,
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'it tastes really well' which is likely an ASR error for 'pays really well', referring to the contact tracing job.",
+          "value": "Contact tracing job pays well",
+          "lines": [
+            113
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my family lives in India' and 'my family has been living there for like the last 10 years'.",
+          "value": "Immediate family resides in India",
+          "lines": [
+            61,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my brother' and 'my brother is to come here for college'.",
+          "value": "Has a brother",
+          "lines": [
+            183,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'my sister' who dances.",
+          "value": "Has a sister",
+          "lines": [
+            191,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my sister dances so she got into this like dance world cup thing'.",
+          "value": "Sister is a dancer",
+          "lines": [
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'My brother is to come here for college this year'.",
+          "value": "Brother plans to attend college in the U.S.",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my cousin lives in new york as well'.",
+          "value": "Cousin lives in New York",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have family in Georgia' referring to extended family.",
+          "value": "Has extended family in Georgia",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was going to visit my friend in the UK'.",
+          "value": "Has a friend in the United Kingdom",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a cousin who goes to med school in Italy'.",
+          "value": "Cousin is a medical student in Italy",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'my weekend starts early because I don't work on Fridays'.",
+          "value": "Does not work on Fridays",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we travel around Asia a lot because it's so easy', referring to when she lived in India or with family.",
+          "value": "Travels in Asia with family",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'we were planning to go to Italy this summer' but the plans were disrupted by COVID.",
+          "value": "Planned a trip to Italy",
+          "lines": [
+            207,
+            233
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I just moved to Rhode Island' and 'I've been here for about a month and a half'.",
+          "value": "Rhode Island, USA",
+          "lines": [
+            20,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been here for about a month and a half' and 'just about a month ago' indicating recent move.",
+          "value": "Moved to Rhode Island approximately 1-1.5 months ago",
+          "lines": [
+            20,
+            22,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I moved here from New Zealand'.",
+          "value": "Formerly lived in New Zealand",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I lived in Auckland for about seven years'.",
+          "value": "Lived in Auckland, New Zealand for ~7 years",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'went to university in Wellington which is the capital' and 'I went there for three years'.",
+          "value": "Lived in Wellington, New Zealand for 3 years",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I wasn't actually born there was born in England'.",
+          "value": "Born in England",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I lived about 10 years in England as well'.",
+          "value": "Lived in England for ~10 years",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I got new Zealand citizenship by descent'.",
+          "value": "New Zealand citizen (by descent)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'then I got uh british citizenship by birth'.",
+          "value": "British citizen (by birth)",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'after I finished my degree' and attended university in Wellington.",
+          "value": "University graduate",
+          "lines": [
+            80,
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "speaker_b holds New Zealand citizenship by descent.",
+          "value": "New Zealand citizenship",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b holds British citizenship by birth.",
+          "value": "British citizenship",
+          "lines": [
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'it does make um finding where I can get more difficult', likely meaning finding work is more difficult, implying a job search.",
+          "value": "Seeking employment",
+          "lines": [
+            110
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says he moved to the US 'to live with my girlfriend' and mentions her multiple times.",
+          "value": "Has a girlfriend",
+          "lines": [
+            48,
+            50,
+            52,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'she's from California'.",
+          "value": "Girlfriend is from California",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'she got a job in Rhode island'.",
+          "value": "Girlfriend works in Rhode Island",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we met when she was on exchange in New Zealand'.",
+          "value": "Met girlfriend while she was on exchange in New Zealand",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my girlfriend and I we've got an apartment together'.",
+          "value": "Lives with girlfriend in an apartment",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'most of my family's there' (NZ) and 'my grandparents and parents and most of my immediate family is in New Zealand' (ASR corrected).",
+          "value": "Parents and grandparents live in New Zealand",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have some family still in England ... cousins, uncles, aunties'.",
+          "value": "Extended family (cousins, uncles) in England",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have maybe like one 2nd cousin in New York or something all or somewhere in the Northeast'.",
+          "value": "Second cousin in New York/Northeast US",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I went to the beach the last couple weekends here, it was packed'.",
+          "value": "Visits the beach on weekends",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'about 45 Minute Drive Maybe' referring to the drive to the beach.",
+          "value": "Beach is approximately a 45-minute drive from home",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we were like just stay at home most of the time' referring to himself and his girlfriend.",
+          "value": "Stays home most of the time with girlfriend",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been to France ... and then I've been to Italy and Greece'.",
+          "value": "Traveled to France, Italy, and Greece",
+          "lines": [
+            224,
+            226
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

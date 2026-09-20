@@ -1,0 +1,434 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I am on the east Coast in Delaware here.'",
+          "value": "Delaware, East Coast",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says Delaware has three counties and describes New Castle County as the northern dense area where Wilmington is; combined with living in Delaware this implies residence in or near Wilmington.",
+          "value": "New Castle County, Delaware (Wilmington area)",
+          "lines": [
+            5,
+            53
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says 'I used to live briefly in Centerville, worked in Fairfax.'",
+          "value": "Past residence in Centerville, Virginia; worked in Fairfax, Virginia",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I lived there in 94-95' in response to question about Northern Virginia.",
+          "value": "Lived in Northern Virginia in 1994-1995",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'unlike where I am now or where I held from before which is here', equating 'here' (Delaware) with their place of origin.",
+          "value": "Originally from Delaware",
+          "lines": [
+            27
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'my sons and I were watching The election results.'",
+          "value": "Has at least two sons",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'not a not a not an I. T. Guy myself'.",
+          "value": "Male",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'It was a business major finance' when asked about college major.",
+          "value": "Business major in finance",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "ASR output 'and I don't want to get NBA yep' likely mishearing of 'and I went and got my MBA, yep'.",
+          "value": "MBA (likely)",
+          "lines": [
+            99
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Speaker lived in Northern Virginia right after college in 1994-95; typical graduation age around 22 suggests birth year early 1970s, making them late 40s to early 50s in ~2020.",
+          "value": "Late 40s to early 50s (born ~1972-1974)",
+          "lines": [
+            15,
+            17
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I worked 10 years for government I.T.' and describes working for Delaware's Department of Technology and Information.",
+          "value": "Worked 10 years in government IT at Delaware DTI",
+          "lines": [
+            71,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I left this state government and came back into the private sector and now I am managing a small business that does, it's basically a building inspection.'",
+          "value": "Manages a small building inspection business (since February of conversation year)",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'It's about 20 people, you know, just three small offices.'",
+          "value": "Business has approximately 20 employees and 3 offices",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'we're with G suite' and that the previous email was 'an AOL account'.",
+          "value": "Business uses G Suite; previously used a shared AOL email address",
+          "lines": [
+            119,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I have a contractor, I mean I'm the I.T. Guy here now'.",
+          "value": "Acts as the IT person for the business",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I think for this year like five grand in bonus' and 'I had account at 12 different banks.'",
+          "value": "Earned $5,000 in bank account bonuses; held accounts at 12 banks",
+          "lines": [
+            233,
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've done the credit card saying a little bit of opening one to get the the cash bonus'.",
+          "value": "Engages in credit card churning for cash bonuses",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my first one was last august, just a little over a year, You know, I think I'm about 1000 as well' referring to Prolific submissions.",
+          "value": "Uses Prolific (over 1 year, approximately 1000 submissions)",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I started mturk yeah.'",
+          "value": "Uses Amazon Mechanical Turk",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they switched from Verizon DSL to Comcast Business for the business.",
+          "value": "Switched business internet to Comcast Business",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my sons and I were watching The election results.'",
+          "value": "Has sons (plural)",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'my sons and I were watching The election results.'",
+          "value": "Watched election results with sons",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'being um a Gmail user myself.'",
+          "value": "Uses Gmail for personal email",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Virginia. Northern Virginia.' and 'Close to the D. C. Area.'",
+          "value": "Northern Virginia, close to Washington, D.C. area",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm actually from southwest Virginia originally.' and 'I'm from a small town um in Rockbridge County'.",
+          "value": "Originally from a small town in Rockbridge County, southwest Virginia",
+          "lines": [
+            40,
+            42
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my parents were there' referring to southwest Virginia, and '3.5 hours away' from current location.",
+          "value": "Parents live in southwest Virginia, approximately 3.5 hours from speaker_b",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm actually chinese'.",
+          "value": "Chinese",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a mentions living in Northern Virginia in 94-95, speaker_b says 'Well I was five years old and.'",
+          "value": "Around 30-32 years old in 2020 (born ~1989-1990)",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I majored in computer science in college'.",
+          "value": "Computer Science major",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I I I went to vote in person, actually'.",
+          "value": "Voted in person (2020 election)",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I come from a working class background, but now I'm in a like um, white collar kind of job'.",
+          "value": "From a working class background; currently white collar",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I previously had a high deductible health plan and then I and from the health plan I had H.S.A.'",
+          "value": "Previously had a high deductible health plan with a Health Savings Account (HSA)",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I'm actually in a technical consultant, so I will cybersecurity specifically.' and 'I'm something of a cloud engineer so I work with a. W.S. A lot.'",
+          "value": "Technical consultant in cybersecurity; cloud engineer working with AWS",
+          "lines": [
+            66,
+            156,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if they work for themselves, speaker_b says 'Oh no, I'm employed by a company here.'",
+          "value": "Employed by a company in Northern Virginia",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'this time for a 41K', likely a mis‑recognition of ‘401K’.",
+          "value": "Has a 401(k) retirement account",
+          "lines": [
+            142
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I have about 17 credit cards.' 'I have zero debt. My credit score is almost eight' (almost 800).",
+          "value": "Holds about 17 credit cards; has no debt; credit score nearly 800",
+          "lines": [
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've been doing this since 2014 or 2015 or so' referring to travel hacking/credit card churning.",
+          "value": "Practices travel hacking (credit card churning) since 2014/2015",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes using buyers clubs in Delaware to buy electronics and meet credit card minimum spend.",
+          "value": "Uses Delaware buyers clubs to generate credit card spend",
+          "lines": [
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I put a bunch of money in the basque bank' to earn American Airlines miles.",
+          "value": "Has an account with Bask Bank to earn American Airlines miles instead of interest",
+          "lines": [
+            238
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my fires is actually 200 up, 200 down And it's and I only pay $40 a month.' and 'my $40 a month. My deal is in perpetuity' after being a customer for about eight years.",
+          "value": "Home fiber internet: 200 Mbps up/down, $40 per month, price locked in perpetuity; customer for 8 years",
+          "lines": [
+            168,
+            170,
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'about two, maybe three or something like that' for Prolific usage and 'I have over like 1000 submissions'.",
+          "value": "Uses Prolific survey platform; over 1000 submissions; active for 2-3 years",
+          "lines": [
+            182,
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to do that a long, long time ago' regarding MTurk.",
+          "value": "Previously used Amazon Mechanical Turk",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'Yeah I have some friends in Centerville.'",
+          "value": "Has friends in Centerville, Virginia",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says parents are in southwest Virginia, 3.5 hours away.",
+          "value": "Parents live in southwest Virginia",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I used to be friends with these people' about hometown acquaintances.",
+          "value": "Former friendships with people from hometown",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I ended up paying for a couple of business class trips to random places around the world.'",
+          "value": "Uses credit card/points to book international business class travel",
+          "lines": [
+            205,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses Thomas Frank books, political history, and current political polarization at length.",
+          "value": "Interested in politics and political history; reads political non‑fiction",
+          "lines": [
+            56,
+            58,
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,385 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states they live in San Jose, California, and earlier placed themselves in the San Francisco Bay Area.",
+          "value": "San Jose, California",
+          "lines": [
+            75,
+            83,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they previously lived in San Francisco and, when speaker_b asks about Fisherman's Wharf, the distance given (three miles) is clearly from the Wharf. The agreement is implicit but strong.",
+          "value": "Previously lived in San Francisco, approximately 3 miles from Fisherman's Wharf",
+          "lines": [
+            115,
+            116
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "In response to whether they are Californian, speaker says they have been 'here' (the Bay Area context) for 20 years.",
+          "value": "Has lived in the Bay Area for 20 years",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker lists the schools they attended locally: San Jose High, Foothill College (ASR 'foothill d'), and San Jose State University.",
+          "value": "Attended San Jose High School, Foothill College, and San Jose State University",
+          "lines": [
+            131,
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I'd actually work at a dental office' when the conversation turns to masks and workplaces.",
+          "value": "Works at a dental office",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker explains why they are interested in the tutoring platform: their parents are learning Spanish and need conversation practice.",
+          "value": "Parents are learning to speak Spanish",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker answers 'no, no, I'm not' when asked if married, and confirms it is a deliberate choice.",
+          "value": "Not married by choice",
+          "lines": [
+            219,
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes a self-imposed rule to watch only a short segment of news: one commercial break.",
+          "value": "Limits news watching to one commercial break",
+          "lines": [
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states they have been on Prolific for about a year, referring to the survey/video platform.",
+          "value": "Participates in Prolific surveys, been doing so for about a year",
+          "lines": [
+            263
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "While describing her role at the pet store, speaker says managers ask 'where's Christie?' when they need cat help, and she follows with 'that's me,' identifying herself as Christie. This is a strong inference from reported speech.",
+          "value": "Christie",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states directly 'I'm in Illinois' during a story about mask-wearing in retail.",
+          "value": "Illinois",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker names the junior high and high school she attended while growing up in Santa Clara, CA. 'cabrio' is phonetically close to Cabrillo; 'Sunny' is Sunnyvale.",
+          "value": "Attended Cabrillo Junior High (Sunnyvale) and Santa Clara High School",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she got her degree from UCSB (University of California, Santa Barbara).",
+          "value": "Holds a degree from UCSB",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker calls the tutoring income 'unreported' and says paying taxes on it would make it not worth it, though she hedges by saying she does not want to shirk taxes. The overall implication is that she does not report this small side income.",
+          "value": "Tutoring income is unreported for tax purposes",
+          "lines": [
+            48,
+            50,
+            52
+          ],
+          "certainty": 3
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker describes her online job tutoring English on Cambly (lines 6,8,14).",
+          "value": "Online English tutor on Cambly",
+          "lines": [
+            6,
+            8,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is a substitute teacher and holds a teaching certificate for that role.",
+          "value": "Substitute teacher",
+          "lines": [
+            8,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she works at a pet store, took the job for fun, and now goes in once a week.",
+          "value": "Works at a pet store (part-time, once a week)",
+          "lines": [
+            54,
+            58,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explicitly says the tutoring pay is 'only $10 an hour'.",
+          "value": "Earns $10 per hour tutoring",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker estimates the net pay at the pet store is 'probably $10 an hour'.",
+          "value": "Earns approximately $10 per hour net at the pet store",
+          "lines": [
+            54
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says Cambly pays through PayPal.",
+          "value": "Paid via PayPal for tutoring",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains Cambly only sends a 1099 form if a tutor makes $20,000 or more.",
+          "value": "Does not receive a 1099 from Cambly unless earnings reach $20,000+",
+          "lines": [
+            42,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker names the site where she found the tutoring job: 'Rat race Rebellion' (a work-from-home job board).",
+          "value": "Found tutoring job on Rat race Rebellion website",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker confirms she uses Prolific and likes it because it is academic and fair.",
+          "value": "Participates in Prolific surveys",
+          "lines": [
+            264
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says her mom still lives in Joshua Tree, California.",
+          "value": "Mother lives in Joshua Tree, CA",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions her son moved to Colorado about four years ago when he got married.",
+          "value": "Son moved to Colorado after getting married four years ago",
+          "lines": [
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker relates that she was married for over half her life and is now about four years out, indicating divorce.",
+          "value": "Divorced, was married for over half her life",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker shares that her grandfather lived in Albany, California.",
+          "value": "Grandfather lived in Albany, CA",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker shares that her great aunt lived in Berkeley, California.",
+          "value": "Great aunt lived in Berkeley, CA",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is working together with a neighbour to trap cats for a TNR program.",
+          "value": "Has a neighbour who collaborates on trap-neuter-return",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she has one remaining cat who just turned 19, shows a picture, and refers to her as female.",
+          "value": "Owns a 19-year-old female cat",
+          "lines": [
+            230,
+            232,
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her other cat (the sister of the current one) passed away last year at age 18.",
+          "value": "Had another cat that died at age 18",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes feeding a feral mother cat, father cat, and their kitten every day, morning and night.",
+          "value": "Feeds a family of feral cats (mother, father, and kitten) daily",
+          "lines": [
+            236,
+            240,
+            242
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker describes growing swiss chard, kale, and flowers in pots on the patio.",
+          "value": "Gardens vegetables (swiss chard, kale) and flowers in pots",
+          "lines": [
+            104,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions a small greenhouse she bought for about $15 at Menards (ASR 'the nards').",
+          "value": "Owns a small greenhouse purchased from Menards",
+          "lines": [
+            104
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she lives alone in a good-sized house with a yard that is almost three-quarters of an acre.",
+          "value": "Lives in a house with a large yard (~0.75 acres)",
+          "lines": [
+            100,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker repeatedly calls herself a 'really big animal person' and says as an adult she settled on cats.",
+          "value": "Strongly identifies as an animal person, prefers cats",
+          "lines": [
+            56,
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker explains she has cut back on watching the news to maybe once a week or a half-hour program to avoid anxiety.",
+          "value": "Limits news consumption to avoid anxiety",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says this is the third Prolific video session she has done.",
+          "value": "Has completed three Prolific video sessions",
+          "lines": [
+            262
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions she goes to a mobile dentist, which had been closed for a while.",
+          "value": "Goes to a mobile dentist",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker describes getting hot and flustered under the mask at work and says her face gets all red.",
+          "value": "Face turns red when hot and wearing a mask",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

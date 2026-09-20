@@ -1,0 +1,574 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "States her name explicitly.",
+          "value": "Gina",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Says she is from New Jersey, confirms rent is similar to Portland, and notes her gyms are still closed (context of NJ).",
+          "value": "New Jersey",
+          "lines": [
+            17,
+            103,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States her age directly.",
+          "value": "47 years old",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has a master’s degree.",
+          "value": "Master's degree",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she was in the Peace Corps.",
+          "value": "Former Peace Corps volunteer",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States she has bipolar disorder.",
+          "value": "Bipolar disorder",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes anxiety symptoms, intrusive thoughts, physical effects, and daily hard-to-control anxiety.",
+          "value": "Anxiety disorder",
+          "lines": [
+            33,
+            34,
+            43,
+            45,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she threw her back out because of the anxiety and holds anxiety in her back.",
+          "value": "Back problems related to anxiety",
+          "lines": [
+            45,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she has been in therapy for years.",
+          "value": "Receiving therapy for years",
+          "lines": [
+            53,
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her psychiatrist put her on new medication, including an anti-anxiety medication.",
+          "value": "Takes psychiatric medication (anti-anxiety medication)",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she is on permanent disability due to her mental health conditions.",
+          "value": "On permanent disability",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "She is on permanent disability, a legal status granting government benefits.",
+          "value": "Recipient of permanent disability benefits",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Says in her former life she was a professor, taught English at college and high school.",
+          "value": "Former professor of English",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she is on disability and later confirms she receives disability income.",
+          "value": "Receives disability income",
+          "lines": [
+            27,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she is doing Prolific surveys trying to make about $5 a day for extra money.",
+          "value": "Earns extra money via Prolific surveys (goal $5/day)",
+          "lines": [
+            213,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses concern about finances and retirement.",
+          "value": "Concerned about retirement savings",
+          "lines": [
+            215
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she is a published writer.",
+          "value": "Published writer",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly refers to her husband.",
+          "value": "Married",
+          "lines": [
+            195,
+            197,
+            201,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her husband does not understand her mental illness and refuses to attend NAMI.",
+          "value": "Husband does not understand her mental illness",
+          "lines": [
+            195,
+            197,
+            203,
+            205
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she has no children and doesn’t believe she could be responsible for them.",
+          "value": "No children",
+          "lines": [
+            209,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions speaking with a therapist.",
+          "value": "Has a therapist",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her psychiatrist prescribing medication.",
+          "value": "Has a psychiatrist",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she attends NAMI meetings and mentions DBSA (Depression Bipolar Support Alliance).",
+          "value": "Attends NAMI and DBSA support groups",
+          "lines": [
+            177,
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes herself as a sedentary person but committed to 15–20 minutes of walking a day.",
+          "value": "Sedentary, walks 15–20 minutes per day",
+          "lines": [
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says in real life she wakes up at about 8 a.m.",
+          "value": "Wakes up around 8 a.m.",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists prayer, journaling, self-help books, and deep breathing as coping techniques.",
+          "value": "Uses prayer, journaling, self-help books, and deep breathing for coping",
+          "lines": [
+            55,
+            57,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she attends support groups via Zoom.",
+          "value": "Attends virtual mental health support groups (NAMI, DBSA)",
+          "lines": [
+            177,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Prefers one-on-one interaction; gets very overwhelmed in large groups.",
+          "value": "Prefers one-on-one interactions, overwhelmed by large groups",
+          "lines": [
+            79,
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Gives her name and spells it out.",
+          "value": "Delisa",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she is from Portland, Oregon.",
+          "value": "Portland, Oregon",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States her age directly.",
+          "value": "50 years old",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says she struggles with depression.",
+          "value": "Depression",
+          "lines": [
+            70,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she struggles with anxiety.",
+          "value": "Anxiety",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a fall causing cauda equina syndrome, temporary paralysis, emergency surgery, permanent lifting restriction, and residual saddle anesthesia.",
+          "value": "Cauda equina syndrome (spinal injury) with temporary paralysis, surgery, permanent lifting restriction, saddle anesthesia",
+          "lines": [
+            128,
+            130,
+            134,
+            136,
+            138,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has chronic pain but avoids pain medication.",
+          "value": "Chronic pain, no pain medications",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she takes Effexor 150 mg daily.",
+          "value": "Takes Effexor 150 mg daily",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes severe withdrawal symptoms (vomiting, chest pain, shortness of breath) if she misses a dose.",
+          "value": "Hyper withdrawal syndrome from Effexor",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she has tried approximately four other medications for depression.",
+          "value": "Has tried about four other depression medications",
+          "lines": [
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says she is a nurse case manager with infectious disease.",
+          "value": "Nurse case manager in infectious disease",
+          "lines": [
+            26,
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has been working from home since March due to Covid.",
+          "value": "Works from home since March (Covid)",
+          "lines": [
+            26,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her workday is 8 a.m. to 5 p.m.",
+          "value": "Work schedule: 8 a.m. – 5 p.m.",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has been a nurse for 27 years and in case management for almost 6 years.",
+          "value": "27 years as nurse, almost 6 years in case management",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions having COVID-19 and mostly HIV-positive patients.",
+          "value": "Works with COVID-19 and HIV patients",
+          "lines": [
+            85,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she and a friend share the cost of a personal trainer.",
+          "value": "Shares cost of a personal trainer with a friend",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions a goal to retire at 65, though she doubts she can manage that long mentally.",
+          "value": "Retirement goal: age 65",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeatedly mentions her husband, married 6 years, known him since teenage years.",
+          "value": "Married to husband (6 years, known since teenagers)",
+          "lines": [
+            76,
+            90,
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her husband took the NAMI family class.",
+          "value": "Husband took NAMI family class",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has two children, a son and a daughter, ages 14 and 17; son has anxiety.",
+          "value": "Two children (son with anxiety, daughter), ages 14 and 17",
+          "lines": [
+            92,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Names a friend Alana with whom she exercises.",
+          "value": "Friend named Alana",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she is part of a local NAMI chapter.",
+          "value": "Member of local NAMI chapter",
+          "lines": [
+            70,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she took the NAMI class for people with mental illness.",
+          "value": "Took NAMI class for people with mental illness",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Prefaces she is not a morning person.",
+          "value": "Not a morning person",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Working from home, she takes a walk at noon.",
+          "value": "Takes a walk at noon during work from home",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions gym, walking, hiking, kayaking, and gardening as exercise.",
+          "value": "Exercises (gym, walking, hiking, kayaking, gardening)",
+          "lines": [
+            126,
+            148,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses the mindful app and mindbody app for meditation.",
+          "value": "Uses mindful and mindbody apps for meditation",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says sometimes she needs to 'peace out' and have alone time.",
+          "value": "Needs alone time to decompress",
+          "lines": [
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Expresses love for nature and fresh air.",
+          "value": "Enjoys nature and fresh air",
+          "lines": [
+            160
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Prefers scheduling activities and having an exercise partner for accountability.",
+          "value": "Prefers scheduling and exercising with a buddy for accountability",
+          "lines": [
+            162,
+            164
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she must avoid heavy lifting for life due to spinal injury.",
+          "value": "Avoids heavy lifting due to back",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Takes Effexor every day.",
+          "value": "Takes daily medication",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes being able to feel other people’s emotions when walking into a room.",
+          "value": "Perceives herself as an empath (feels others' emotions)",
+          "lines": [
+            77,
+            78
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a states she is in Ohio and later specifies Columbus, and also describes living about two hours south of Cedar Point, which is consistent with Columbus, Ohio.",
+          "value": "Columbus, Ohio",
+          "lines": [
+            13,
+            147,
+            149
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a mentions being in college and taking an online class, indicating she is college-educated.",
+          "value": "college-educated",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a explicitly says she is working from home right now.",
+          "value": "works from home",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she will start a timer on her phone, indicating she owns or uses a smartphone.",
+          "value": "smartphone user",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a describes her mother's sewing and quilting pattern business, and later confirms her mother's celebrity status in the quilting world.",
+          "value": "mother is a quilting pattern designer and business owner",
+          "lines": [
+            169,
+            175,
+            179,
+            191,
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her dad is from Pittsburgh.",
+          "value": "father is from Pittsburgh",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions her brother is an accountant and was hired by their parents.",
+          "value": "brother is an accountant",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about her friend Jordan who is hopelessly single.",
+          "value": "friend named Jordan who is single",
+          "lines": [
+            87
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dog's about to join us' and later mentions fixing her dog's stuffed animals.",
+          "value": "has a dog",
+          "lines": [
+            75,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says when working from home she would either work outside or take a nice long walk at lunch.",
+          "value": "takes long walks during lunch",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says she goes to Cedar Point usually once or twice each summer.",
+          "value": "goes to Cedar Point amusement park yearly",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a expresses strong enjoyment of roller coasters where legs hang and they have loops, and rides them multiple times.",
+          "value": "enjoys hanging roller coasters with loops",
+          "lines": [
+            159,
+            161,
+            163,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a admits she knows all the quilting techniques from forced childhood labor but does not quilt now, though she uses the skill to fix dog toys.",
+          "value": "knows how to quilt but does not practice it",
+          "lines": [
+            209,
+            211,
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains how she used inspect element on a Mac to find image names on web pages.",
+          "value": "has used developer tools on a Mac to inspect web pages",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_a recounts a store incident where a woman found her familiar because she looks identical to her mother, whose photo is on a book cover.",
+          "value": "looks identical to her mother",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in Florida, later mentions Miami and nearby counties (Broward, Dade), and refers to 'down here' where gated communities are common, placing her in the Miami area.",
+          "value": "Miami, Florida",
+          "lines": [
+            14,
+            120,
+            124,
+            80
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says she is a teacher and is in school, and later specifies teaching 4th grade.",
+          "value": "teacher",
+          "lines": [
+            28,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says she teaches 4th grade.",
+          "value": "teaches 4th grade",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she teaches at a charter school.",
+          "value": "teaches at a charter school",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is originally from Pittsburgh.",
+          "value": "originally from Pittsburgh, Pennsylvania",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her husband, indicating she is married.",
+          "value": "married",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a son in college and a daughter in 5th grade, indicating she is a mother of at least two children.",
+          "value": "mother of at least two children",
+          "lines": [
+            104,
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm obviously older than you are' to speaker_a, and having a son in college supports an older age.",
+          "value": "older than speaker_a",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to her husband, which strongly implies female gender; she also has a daughter, consistent with that identification.",
+          "value": "female",
+          "lines": [
+            60,
+            108
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she is a teacher at a charter school, indicating employment and income.",
+          "value": "employed as a teacher",
+          "lines": [
+            28,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'this Chromebook' she is using, indicating ownership or regular use of a Chromebook.",
+          "value": "owns a Chromebook",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says if the Chromebook gets too bad she'll switch to a laptop, implying she has a laptop available.",
+          "value": "has a laptop available",
+          "lines": [
+            42
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'my door dash orders coming to me', indicating she uses DoorDash food delivery.",
+          "value": "uses DoorDash food delivery",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my husband teaches middle school' and later specifies he teaches seventh grade.",
+          "value": "husband is a middle school teacher (7th grade)",
+          "lines": [
+            60,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my son's in college' and describes his remote learning experience.",
+          "value": "son is in college",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b directly mentions having a daughter who is a 5th grader and doing multiple website homework.",
+          "value": "daughter is in 5th grade",
+          "lines": [
+            108,
+            110
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b notes her Chromebook struggles with Zoom and other video calls, and she uses it for such calls.",
+          "value": "uses Chromebook for video calls",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she waits on her couch with all her streaming network, indicating use of streaming services.",
+          "value": "uses streaming entertainment services",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes the area where she lives as having many gated communities, implying her residential environment.",
+          "value": "lives in an area with many gated communities",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b fondly recalls bus trips from Pittsburgh to Cedar Point as a child.",
+          "value": "visited Cedar Point on bus trips from Pittsburgh as a child",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she only has five kids in her class and one goes back and forth, describing her current in-person class size.",
+          "value": "currently has only 5 in-person students",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

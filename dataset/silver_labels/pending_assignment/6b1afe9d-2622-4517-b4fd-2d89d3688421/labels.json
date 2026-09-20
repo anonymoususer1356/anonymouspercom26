@@ -1,0 +1,421 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he lives in the Northeast, specifically the greater Rochester area, in a village called Hilton. He mentions being an hour and a half from Buffalo, and says that's exactly where he's from (upstate New York).",
+          "value": "Lives in Hilton, New York (village in greater Rochester area, upstate/western NY)",
+          "lines": [
+            23,
+            39,
+            41,
+            47,
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is currently in a parking lot at a manufacturing plant, and that right now he is actually close to Buffalo.",
+          "value": "Currently working near Buffalo, New York, at a manufacturing plant (parking lot)",
+          "lines": [
+            17,
+            19,
+            23,
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He says 'I'm actually a contractor, so I well a supplier um so I'm setting up sort of a fastener center for them.'",
+          "value": "Contractor/supplier setting up fastener centers",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states he went to college, got academic scholarships, had a GPA of 3.9, and had the highest GPA of 400 people in his major.",
+          "value": "College graduate with high GPA (3.9, top of major)",
+          "lines": [
+            133,
+            135,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He self-identifies as 'more of a uh I guess an academic type person more than anything'.",
+          "value": "Identifies as an academic type",
+          "lines": [
+            131
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He describes his personality as disagreeable, argumentative, and seen as petty; he also says he is passionate in his beliefs and wants every little thing to count.",
+          "value": "Self-described as disagreeable, argumentative, petty",
+          "lines": [
+            169,
+            173,
+            175,
+            177
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he keeps a small circle, dislikes social settings with many people, tends to shut down, is terrible at small talk, and finds it easier to present to 100 people than make small talk.",
+          "value": "Socially uncomfortable, introverted tendencies, shuts down in social settings",
+          "lines": [
+            197,
+            199,
+            201,
+            203
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He works as a contractor and says he travels a lot for work.",
+          "value": "Contractor who travels frequently for work",
+          "lines": [
+            21,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions college cost about $4k/semester, he got scholarships, had only $9k debt which he paid off in about a year.",
+          "value": "Had low college debt ($9k) due to scholarships, paid off quickly",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He explicitly states 'I have two daughters'.",
+          "value": "Father of two daughters",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He mentions enjoying Breaking Bad, Dexter, reality shows (90 Day Fiance, Shark Tank) and discussing replay value.",
+          "value": "Enjoys watching TV series (Breaking Bad, Dexter, reality shows like 90 Day Fiance, Shark Tank)",
+          "lines": [
+            71,
+            73,
+            93,
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he sometimes watches online fighting videos.",
+          "value": "Watches online fight videos",
+          "lines": [
+            119,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he cannot stand heat, prefers cold, and mentions liking the cold.",
+          "value": "Prefers cold weather over heat",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'll work out once in a while'.",
+          "value": "Exercises occasionally",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I've never been in a fight in my life.'",
+          "value": "Has never been in a physical fight",
+          "lines": [
+            131
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He says he looks kind of dirty because he is working inside a manufacturing plant.",
+          "value": "Appears dirty due to work at manufacturing plant",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as 'My name is John Icka' (ASR transcription, recorded verbatim).",
+          "value": "John Icka",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He says he is at the top of Texas close to Oklahoma, lives on 30 acres, and there is no cable run to the property.",
+          "value": "Lives in top of Texas near Oklahoma, on a 30-acre rural property",
+          "lines": [
+            24,
+            58,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'the year before that we were in Laos so we missed all the cold weather', indicating a past period of residence.",
+          "value": "Previously resided in Laos (the year before last)",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He states he is 51 years old.",
+          "value": "Age 51",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name John is typically male, and he refers to having a husband, suggesting male gender.",
+          "value": "Gender male",
+          "lines": [
+            14,
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions 'we have livestock' and describes the feast-or-famine nature, implying it is their livelihood.",
+          "value": "Livestock farmer/rancher",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he dropped out of high school (all Fs) and later went back to college after his third child.",
+          "value": "High school dropout, some college education",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I was a punk rocker in my teen years' and describes attending gigs in Hollywood in the eighties.",
+          "value": "Former punk rocker (teen subculture)",
+          "lines": [
+            122,
+            124,
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He describes himself as a complete introvert and says this conversation will be very exhausting, requiring two hours of recovery.",
+          "value": "Introvert, social interaction leads to exhaustion, requires recovery time",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he ended up drinking and doing worse in his teen years to cope with the pressure to be an extrovert.",
+          "value": "Past alcohol/substance misuse as a coping mechanism during teens",
+          "lines": [
+            186
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says they cannot afford to send another kid to university and that their income reflects not having a university education.",
+          "value": "Low income, struggles to afford children's university",
+          "lines": [
+            134,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I live on 30 acres'.",
+          "value": "Owns 30-acre property",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they have livestock and it is feast or famine like contracting, indicating it is an income source.",
+          "value": "Livestock farming as a source of income",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He explains they do not have cable because it would involve a lot and they choose Netflix/Prime because it is cheaper.",
+          "value": "Relies on streaming services (Netflix/Prime) instead of cable to save money",
+          "lines": [
+            58,
+            60,
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He says 'my husband is definitely a Steelers fan'.",
+          "value": "Married to a husband (Steelers fan)",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes three daughters (one athletic, one artistic, one bookish) and a youngest son who just turned 17.",
+          "value": "Father of four children (three daughters, one son)",
+          "lines": [
+            130,
+            132,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his brother used to live in Connecticut and later moved to upstate New York.",
+          "value": "Has a brother",
+          "lines": [
+            32,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his parents and brother live in Rochester.",
+          "value": "Parents live in Rochester, NY",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his brother-in-law lives just outside their house in a little camper.",
+          "value": "Brother-in-law lives on their property in a camper",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He states he is more of a reader than a TV watcher.",
+          "value": "Prefers reading over watching TV",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lists enjoying dramas, action, monster, space shows, and mentions specific series (Firefly, Buffy, Angel, Glow) via Netflix/Prime.",
+          "value": "Enjoys TV/movies via streaming, favorite shows include Firefly, Buffy, Angel, Glow",
+          "lines": [
+            62,
+            64,
+            66,
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he likes to watch people beat up on each other, bare knuckle, and 'real life Thunderdome'.",
+          "value": "Enjoys watching violence and fighting",
+          "lines": [
+            118,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he was a punk rocker in Hollywood in the eighties, attending gigs with violence and riot cops.",
+          "value": "Former active punk rock scene participant in Hollywood in the 1980s",
+          "lines": [
+            122,
+            124,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I got cat hair on the screen', indicating he has cats.",
+          "value": "Owns cats",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He lives on 30 acres with livestock, no cable, and describes a rural, farming lifestyle.",
+          "value": "Rural, farming lifestyle with livestock",
+          "lines": [
+            58,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says they do not have cable, had an analogue antenna discontinued, and use streaming services.",
+          "value": "Does not have cable TV, uses streaming services for media",
+          "lines": [
+            58,
+            60,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

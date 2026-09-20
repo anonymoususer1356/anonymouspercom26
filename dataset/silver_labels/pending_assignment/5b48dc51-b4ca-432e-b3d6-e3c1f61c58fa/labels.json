@@ -1,0 +1,280 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Lines 51-55: speaker_a states that hearing Trump's voice makes them anxious, they hate it, have a hard time clicking on links of him talking, and his voice 'fathers' (bothers) them.",
+          "value": "Anxiety triggered by hearing Donald Trump's voice",
+          "lines": [
+            51,
+            53,
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 241: speaker_a says they have been sleeping more because everything is exhausting and they need more sleep to get through the day.",
+          "value": "Increased sleep due to exhaustion and stress",
+          "lines": [
+            241
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Line 21: speaker_a mentions 'my family' with whom they planned to watch the debate.",
+          "value": "Has family",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 97: speaker_a recounts watching election results with friends while playing games and drinking.",
+          "value": "Has friends",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 7: speaker_a says they are 'having a little baby cocktail good thursday'.",
+          "value": "Drinks cocktails",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 7: speaker_a says 'kind of laying in low which is nice' meaning staying in and relaxing at home.",
+          "value": "Enjoys staying in and relaxing at home, especially on Thursdays",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 53: speaker_a says they have to read the transcript of Trump speaking because they can handle that better than listening to his voice.",
+          "value": "Prefers reading transcripts over listening to Donald Trump speak",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 17: speaker_a says they let other people watch the debate and give them the highlights the next day, avoiding watching live.",
+          "value": "Prefers getting political news highlights from others rather than watching live events",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 97: speaker_a says they were 'playing games and drinking and hanging out' with friends during the 2016 election.",
+          "value": "Enjoys playing games socially with friends",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 5: speaker_a says 'anna kira cool'. Line 6: speaker_b replies 'I am kira yes'. Line 11: speaker_a addresses her as 'Kira'. The intended name is Kira.",
+          "value": "Kira",
+          "lines": [
+            5,
+            6,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 12: speaker_b says 'I'm from florida right now' indicating current location. ASR transcribed 'florida' for Florida.",
+          "value": "Florida",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 70: speaker_b states 'I'm originally from the Bahamas'.",
+          "value": "the Bahamas",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 140: speaker_b says 'I lived in Minneapolis for a couple of years' when she first came to the US.",
+          "value": "Minneapolis",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 170: speaker_b calls herself a 'crazy black girl', indicating both female and Black.",
+          "value": "Female",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 170: speaker_b identifies as 'black girl'.",
+          "value": "Black",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 242 and 258: speaker_b mentions 'my kids' and 'the kids', indicating she has multiple children.",
+          "value": "Mother",
+          "lines": [
+            242,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 20: speaker_b refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 140: speaker_b says she 'got my wisdom study and get my degree' after living in Minneapolis; 'wisdom study' is garbled but obtaining a degree is clear.",
+          "value": "Has a college degree",
+          "lines": [
+            140
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Lines 256-262: speaker_b says she is 'so tired', that her children are tired of being in the house, and she is 'tired of being in the house too', expressing fatigue from pandemic quarantine.",
+          "value": "Fatigue from prolonged stay-at-home restrictions",
+          "lines": [
+            258,
+            262
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Line 70: speaker_b says 'I'm an american citizen now' after stating she is originally from the Bahamas.",
+          "value": "American citizen",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Line 20: speaker_b mentions 'my husband'.",
+          "value": "Husband",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 242 and 258: speaker_b speaks about 'my kids' and 'the kids'.",
+          "value": "Children",
+          "lines": [
+            242,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 68 and 110: speaker_b discusses conversations with 'my mom'.",
+          "value": "Mother",
+          "lines": [
+            68,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 190: speaker_b says 'my grandmother used to do that' referring to watching the news daily.",
+          "value": "Grandmother",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 192: speaker_b says she gets most of her news from TikTok and also watches MSNBC.",
+          "value": "Consumes news via MSNBC and TikTok",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 122: speaker_b mentions watching The Daily Show with Trevor Noah in 2016.",
+          "value": "Previously watched The Daily Show with Trevor Noah",
+          "lines": [
+            122
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 148: speaker_b says she was 'going to all these millionaire conferences' trying to do business.",
+          "value": "Attended millionaire/business conferences",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 142-146: speaker_b says she bought 'The Art of the Deal', paid $70-87 for it, and highlighted it extensively.",
+          "value": "Read and highlighted 'The Art of the Deal' by Donald Trump",
+          "lines": [
+            142,
+            144,
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 242: speaker_b says 'we'll take the kids like driving and stuff' as a leisure activity during the pandemic.",
+          "value": "Goes on drives with children for leisure",
+          "lines": [
+            242
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

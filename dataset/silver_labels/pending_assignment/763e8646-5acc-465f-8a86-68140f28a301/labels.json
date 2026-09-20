@@ -1,0 +1,288 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker states his name; ASR renders lowercase 'bob', intended as 'Bob'.",
+          "value": "Bob",
+          "lines": [
+            17
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explicitly states he is in Jacksonville, Florida; followed by 'Just south of youth' (likely a mis‑recognition of 'just south of the city').",
+          "value": "Jacksonville, Florida",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Repeatedly mentions his daughter, her age, school, and activities, establishing him as a parent.",
+          "value": "parent of a teenage daughter",
+          "lines": [
+            127,
+            145,
+            149,
+            151,
+            191,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Graduated with an accounting degree from Montana State University; later worked in accounting for about seven years.",
+          "value": "college graduate (accounting degree from Montana State)",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he owns a consulting business in the railroad passenger rail industry.",
+          "value": "owns a consulting business in railroad passenger rail",
+          "lines": [
+            51,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has been in the railroad industry over 20 years, the last five in his own consulting firm.",
+          "value": "over 20 years in railroad industry, last 5 years as owner of a consulting firm",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Business was hurt by the COVID-19 pandemic (fewer contracts), but demand is now rebounding.",
+          "value": "business negatively affected by COVID-19, currently recovering",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Currently working on rebuilding coach cars and locomotives for the MBTA in Boston (ASR: 'mbita').",
+          "value": "currently performing MBTA equipment rebuild in Boston, Massachusetts",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Also involved with Brightline on the Miami–Orlando passenger line and the future Los‑Angeles–to‑Las‑Vegas high‑speed rail project.",
+          "value": "working with Brightline on Miami–Orlando rail and future LA–Las Vegas high‑speed rail",
+          "lines": [
+            97,
+            99
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Has a 13‑year‑old daughter in 8th grade; she attends a magnet school for gifted students, is in NJHS (National Junior Honor Society), and participates in Duke TIP.",
+          "value": "has a 13‑year‑old daughter in 8th grade, in a magnet school, NJHS member, and Duke TIP participant",
+          "lines": [
+            127,
+            145,
+            146,
+            149,
+            151,
+            191,
+            171,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions starting the consulting business 'with some other partners'.",
+          "value": "has business partners",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Explains that during the pandemic all his work is done virtually through video meetings.",
+          "value": "works remotely via video calls",
+          "lines": [
+            103,
+            105
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Indicates this is his sixth time participating in this (un‑named) conversation series.",
+          "value": "has participated in this conversation platform six times",
+          "lines": [
+            255
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself with 'I'm Dorothy'.",
+          "value": "Dorothy",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States her hometown is Houston, Texas.",
+          "value": "Houston, Texas",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Currently lives in Durham, North Carolina, where she attends Duke University.",
+          "value": "Durham, North Carolina (attends Duke University)",
+          "lines": [
+            20,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Second‑year student at Duke University.",
+          "value": "second‑year college student at Duke University",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to major in sociology and also pursue a minor; the ASR rendering 'minority Nikon' likely garbles 'minoring in …' and the exact minor is unclear, but she confirms having a minor.",
+          "value": "sociology major; also pursuing a minor (subject unclear from transcript)",
+          "lines": [
+            46,
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes growing up in an Asian, conservative Christian southern household with immigrant parents, marking her ethnic and religious background.",
+          "value": "Asian American, Christian, child of immigrants",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Attended a public language magnet high school that offered AP and IB; she took AP classes and was a straight‑A student.",
+          "value": "alumna of a public language magnet high school with AP/IB programs; straight‑A student",
+          "lines": [
+            154,
+            160,
+            164,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Through Duke's surveillance testing programme she gets tested for COVID‑19 twice a week.",
+          "value": "receives twice‑weekly COVID‑19 testing",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Her parents are immigrants from Asia; she identifies as their daughter.",
+          "value": "daughter of Asian immigrant parents",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a brother who lives in Atlanta, Georgia, with his wife.",
+          "value": "has a brother living in Atlanta, Georgia",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Active member of a dance group and an a cappella group at Duke.",
+          "value": "participates in dance and a cappella groups",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Takes a mix of in‑person and hybrid/online courses this semester.",
+          "value": "attends in‑person and hybrid/online classes",
+          "lines": [
+            108,
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Avods parties and large social gatherings to lower her risk of COVID‑19.",
+          "value": "avoids large social gatherings to minimise COVID‑19 risk",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives on Duke’s campus rather than taking the semester from home.",
+          "value": "lives on campus at Duke University",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States this is her seventh time on this (un‑named) conversation platform.",
+          "value": "has participated in this conversation platform seven times",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

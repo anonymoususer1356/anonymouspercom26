@@ -1,0 +1,389 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm based in new york'.",
+          "value": "New York",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states they have two daughters, indicating they are a parent.",
+          "value": "parent of two daughters",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a is participating in a Prolific research study and confirms they kept the Prolific tab open, indicating they earn money on the platform.",
+          "value": "Prolific worker",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I have a four year old and two year old myself, I have two daughters.'",
+          "value": "has two daughters, ages 4 and 2",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a remarks 'Used to, well sometimes every once in a while I still want a cigarette', implying they were a smoker and still experience cravings.",
+          "value": "former smoker with occasional cravings",
+          "lines": [
+            81
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she lives in Tennessee, specifically near Cherokee Lake (ASR 'Turkey Lakes' corrected). She states 'I live right off Turkey Lakes' then clarifies it is Cherokee lake. She consistently refers to 'down here' meaning Tennessee.",
+          "value": "Tennessee, near Cherokee Lake",
+          "lines": [
+            6,
+            10,
+            16,
+            18,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm from upstate new york' and 'I grew up on 160 acres of blueberries in upstate new york'.",
+          "value": "from upstate New York",
+          "lines": [
+            18,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I lived in Virginia for three years'.",
+          "value": "former resident of Virginia (3 years)",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm 30 years old'.",
+          "value": "30 years old",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions getting pregnant at 16 and having daughters, indicating female.",
+          "value": "female",
+          "lines": [
+            24,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got four kids altogether'.",
+          "value": "mother of four children",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I got pregnant when I was 16'.",
+          "value": "teen mother (pregnant at 16)",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I do smoke cigarettes'.",
+          "value": "cigarette smoker",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my husband', indicating she is married.",
+          "value": "married",
+          "lines": [
+            74,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she was very sick with respiratory issues last November and notes that smoking is half the problem.",
+          "value": "has respiratory issues (exacerbated by smoking)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Speaker_b describes registering with the county, filling out a time sheet, returning it by June 1, and following state testing requirements for homeschooling, indicating compliance with Tennessee homeschooling laws.",
+          "value": "homeschools children in compliance with Tennessee state regulations",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b mentions receiving food stamps, referring to an EBT card.",
+          "value": "receives food stamps (EBT)",
+          "lines": [
+            62,
+            64,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b discusses getting WIC assistance for baby formula.",
+          "value": "receives WIC",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her husband receives disability payments of about $700 per month.",
+          "value": "household receives husband's disability benefits (~$700/month)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she makes extra money on Prolific and spends it on cigarettes.",
+          "value": "earns money on Prolific",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes struggling financially, being unable to always afford new clothes, and having inconsistent Christmases.",
+          "value": "low-income household with financial struggles",
+          "lines": [
+            54,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she spends her extra Prolific money on cigarettes instead of makeup.",
+          "value": "spends extra income on cigarettes",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b discusses her husband's disability, motorcycle accident, and his background as a mechanic.",
+          "value": "husband, disabled former mechanic",
+          "lines": [
+            74,
+            76,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her four daughters: a 12-year-old, a 9-year-old, an 8-year-old, and a 2-year-old. She states the 2-year-old was born drug-exposed and is not biologically hers but she has raised her for two years.",
+          "value": "has four daughters (ages 12, 9, 8, and 2); youngest is non-biological, raised since infancy",
+          "lines": [
+            38,
+            40,
+            42,
+            44,
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her mother lives in Tennessee, is a conservative Christian, helps homeschool, and previously drove a truck and sold Avon/Tupperware.",
+          "value": "mother, lives in Tennessee, conservative Christian, assists with homeschooling",
+          "lines": [
+            24,
+            32,
+            34,
+            36,
+            102,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her mother spends her father's money on failed ventures.",
+          "value": "father, finances mother's projects",
+          "lines": [
+            32
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b recounts that her brother stole $600 from her EBT card and kicked her out.",
+          "value": "brother, stole from her and evicted her family",
+          "lines": [
+            62,
+            64,
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her grandmother died and was a teacher for 50 years.",
+          "value": "deceased grandmother, former teacher (50 years)",
+          "lines": [
+            24,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my papa' having a farm stand on Route 13 and growing blueberries in upstate New York.",
+          "value": "grandfather, blueberry farmer in upstate New York",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes homeschooling using Christian-based PACE workbooks, with her mother teaching English and math while she teaches science and history.",
+          "value": "homeschools children using Christian-based PACE curriculum, with mother's help",
+          "lines": [
+            38,
+            96,
+            100,
+            102,
+            106,
+            114,
+            116,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does not buy makeup or participate in beauty trends due to time and financial constraints.",
+          "value": "does not wear makeup or purchase beauty products",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she is not a 'soccer mom' and does not participate in school bake sales or similar activities.",
+          "value": "uninvolved in typical school parent activities",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b comments on the messy state of her home, noting there are dishes everywhere.",
+          "value": "maintains a messy household",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains that her family moved frequently due to her mother's business schemes, including a donut truck idea.",
+          "value": "frequently moved during childhood due to mother's ventures",
+          "lines": [
+            32,
+            34,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b admits 'math is my nemesis'.",
+          "value": "struggles with math",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has Spectrum cable internet, which she uses for homeschooling.",
+          "value": "uses Spectrum cable internet",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is glad she does not live right on the lake, indicating she lives near it but not on the waterfront.",
+          "value": "lives near a lake but not directly on the waterfront",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses a desire for her children to have a better life than she has had.",
+          "value": "aspires for her children's better future",
+          "lines": [
+            54,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b recounts that school staff asked if she was her daughter's sister, implying she looks significantly younger than her age.",
+          "value": "looks young for her age (mistaken for daughter's sister)",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

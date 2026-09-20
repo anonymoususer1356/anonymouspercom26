@@ -1,0 +1,318 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces himself as 'I'm gary.' (ASR 'gary', intended 'Gary')",
+          "value": "Gary",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says he is from 'near Lexington Kentucky.'",
+          "value": "near Lexington, Kentucky",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've lived here in texas', indicating past residence in Texas.",
+          "value": "Texas",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says he has lived in New Jersey.",
+          "value": "New Jersey",
+          "lines": [
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I've never been married'.",
+          "value": "never married",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'I work for an aerospace company' in a clean room, with government contracts, and was 'deemed essential' during the pandemic.",
+          "value": "Aerospace company employee (essential worker)",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says his company paid for his fuel when he was in California, indicating the company covers travel expenses.",
+          "value": "Company covers travel expenses",
+          "lines": [
+            143,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker mentions 'my sister'.",
+          "value": "has a sister",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a nephew who's a gamer'.",
+          "value": "has a nephew",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'one of my nieces did tell me'.",
+          "value": "has a niece",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'no kids'.",
+          "value": "no children",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I watch quite a bit on Youtube'.",
+          "value": "watches YouTube",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I've never been into gaming'.",
+          "value": "not a gamer",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was in uh san Francisco earlier this year'.",
+          "value": "visited San Francisco",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I spent about a month and a half in Oakland'.",
+          "value": "stayed in Oakland for 1.5 months",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my vote counted far less', which implies he cast a vote in the election.",
+          "value": "voted in 2020 U.S. election",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker introduces herself as 'Betty Shelby.' (verbatim transcription)",
+          "value": "Betty Shelby",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker says 'I live in Seattle right now.'",
+          "value": "Seattle, Washington",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is taking the bar in Connecticut and planning to move there; mentions 'I started taking the bar and that's planning to move to'.",
+          "value": "planning to move to Connecticut",
+          "lines": [
+            32,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her parents live on the other side of the state and she lived there herself as a child ('when I … like 10 years old on the other side of the state').",
+          "value": "originally from other side of Washington state",
+          "lines": [
+            20,
+            120
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'my wife', indicating she is married.",
+          "value": "married",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is between law school and taking the bar, so she has a law degree.",
+          "value": "law school graduate",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name 'Betty' is typically female, and the speaker has a wife; no contradictory cues.",
+          "value": "female",
+          "lines": [
+            10,
+            28
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker is preparing for the bar exam in Connecticut, a prerequisite for legal practice.",
+          "value": "preparing for bar exam in Connecticut",
+          "lines": [
+            32,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker says 'our apartment I think is uh Like 2100 a month for a two bedroom.'",
+          "value": "$2100/month rent for 2BR apartment",
+          "lines": [
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says she does 'prolific and stuff', referring to paid online surveys on the Prolific platform.",
+          "value": "participates in paid online surveys (Prolific)",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she plays mobile games that pay her.",
+          "value": "earns money from mobile games",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is 'in limbo between law school and taking the bar', implying currently not employed.",
+          "value": "unemployed, preparing for bar exam",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'my wife'.",
+          "value": "has a wife",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my wife's from new york'.",
+          "value": "wife is from New York",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my parents' and says their house survived a fire on the other side of the state.",
+          "value": "has parents",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I had a friend that really watch' (referring to game streaming).",
+          "value": "has a friend who watches game streams",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says 'I play video games.'",
+          "value": "plays video games",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she 'weird click through the news constantly.'",
+          "value": "frequently reads news",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

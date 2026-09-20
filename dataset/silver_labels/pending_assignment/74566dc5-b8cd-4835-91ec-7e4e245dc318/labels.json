@@ -1,0 +1,579 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'matt'.",
+          "value": "Matt",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Cincinnati' and confirms he moved there in December.",
+          "value": "Lives in Cincinnati, Ohio",
+          "lines": [
+            13,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is 'originally from Louisville' and later adds 'I grew up in Louisville'.",
+          "value": "Originally from Louisville, Kentucky",
+          "lines": [
+            15,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm in pennsylvania right now' during the call.",
+          "value": "Currently in Pennsylvania (for work)",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'I was in florida last week'.",
+          "value": "Was in Florida last week",
+          "lines": [
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he is 'usually in and out of charlotte' and later 'we're in and out of charlotte north Carolina', indicating Charlotte is his work base.",
+          "value": "Works in and out of Charlotte, North Carolina",
+          "lines": [
+            13,
+            187
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b addresses speaker_a as 'man' (lines 245, 249), and speaker_a refers to his girlfriend, indicating he is male.",
+          "value": "Male",
+          "lines": [
+            245,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I'm a pilot'.",
+          "value": "Pilot",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we're owned by american airlines', indicating his employer is a regional airline subsidiary of American Airlines.",
+          "value": "Works for a regional airline owned by American Airlines",
+          "lines": [
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm gonna get furloughed in october'.",
+          "value": "Will be furloughed in October",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using an app to earn money: 'this Olympic thing is great. I burned like $70 this month... you can earn quite a bit'. ASR 'Olympic' unclear; intended term uncertain.",
+          "value": "Uses an app (possibly called 'Olympic thing') to earn extra money",
+          "lines": [
+            243
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I've been dating my girlfriend four years we lived together'.",
+          "value": "Has a girlfriend of 4 years, they live together",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his girlfriend is 'finishing up grad school with occupational therapy'.",
+          "value": "Girlfriend is in graduate school for occupational therapy",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions 'my grammy' and lists her health conditions.",
+          "value": "Has a grandmother ('Grammy')",
+          "lines": [
+            145,
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a relays his grandmother's statement: 'I'm over 70, I have type two diabetes, I just got my spleen taken out and I'm not very active'.",
+          "value": "Grandmother is over 70, has type 2 diabetes, spleen removed, and is inactive",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My aunt's fine. She's a ... nurse'.",
+          "value": "Has an aunt who is a nurse",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes his uncle's job: 'he like distributes alcohol or something or makes like... displays' and connects it to graphic arts and Kroger.",
+          "value": "Has an uncle who works in alcohol distribution or display creation",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'my mom will go get stuff for and drop it off at her house' referring to helping the grandmother.",
+          "value": "Has a mother who helps the grandmother with groceries",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'we don't have cable... we don't even have that (Netflix)... we just have like an antenna'.",
+          "value": "Does not have cable or Netflix, uses an antenna for TV",
+          "lines": [
+            47,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions playing tabletop games and cards.",
+          "value": "Enjoys tabletop games and card games",
+          "lines": [
+            53,
+            55,
+            59,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we really like ticket to ride their favorite' (ASR 'their' for 'it's our').",
+          "value": "Favorite game is Ticket to Ride",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they play 'cribbage'.",
+          "value": "Plays Cribbage",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a game 'Ugur' which is phonetically 'Euchre', a German card game popular in Cincinnati.",
+          "value": "Plays Euchre",
+          "lines": [
+            63,
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'we really like the radio'.",
+          "value": "Enjoys listening to the radio",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'Big reds fan'.",
+          "value": "Cincinnati Reds fan",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm thinking of doing carpentry' and 'I'm super interested about it'.",
+          "value": "Interested in carpentry",
+          "lines": [
+            23,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is a pilot and mentions being in different states frequently: 'I'm in like a different state every day'.",
+          "value": "Travels frequently for work",
+          "lines": [
+            13,
+            185,
+            187
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as 'john'.",
+          "value": "John",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm from Atlanta' and 'I live here in Atlanta and Georgia'.",
+          "value": "Lives in Atlanta, Georgia",
+          "lines": [
+            18,
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b attended Gen Con in Indianapolis last year.",
+          "value": "Visited Indianapolis for Gen Con (last year)",
+          "lines": [
+            72,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm 31'.",
+          "value": "31 years old",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to his wife (line 56) and is called 'man' by speaker_a (line 249), indicating male gender.",
+          "value": "Male",
+          "lines": [
+            56,
+            249
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I've got cystic fibrosis'.",
+          "value": "Has cystic fibrosis",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'my lungs are already a 75% capacity'.",
+          "value": "Lung capacity at 75%",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is 'in the high risk category for coronavirus' due to cystic fibrosis.",
+          "value": "High risk for COVID-19",
+          "lines": [
+            146,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't had a hospitalization' in the past two years.",
+          "value": "Has not been hospitalized in the last 2 years",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been relatively healthy the past two years'.",
+          "value": "Relatively healthy for the past 2 years",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'currently unemployed'.",
+          "value": "Currently unemployed",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I used to run a recording studio and I was audio engineer and of the touring band' (ASR 'and of' likely 'for a').",
+          "value": "Former audio engineer, recording studio owner, and touring band member",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions selling pens: 'I've sold $125 pens before', 'I sell those for like 80 bucks'.",
+          "value": "Sells woodworked items (pens, dice trays) for semi-professional income",
+          "lines": [
+            38,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I just started it like last week and I was like $15 for talking to somebody', referring to an online gig.",
+          "value": "Started an online gig that pays $15 for talking to someone",
+          "lines": [
+            242
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my wife beats me most of the time we've been together for three years'.",
+          "value": "Married, wife of 3 years",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his wife is 'working on her PhD in engineering psychology'.",
+          "value": "Wife is a PhD candidate in engineering psychology",
+          "lines": [
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'she's done research with like Nasa' (his wife).",
+          "value": "Wife does research with NASA",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my ex wife's family had a couple of nurses'.",
+          "value": "Has an ex-wife",
+          "lines": [
+            154
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my mom' multiple times.",
+          "value": "Has a mother",
+          "lines": [
+            150,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his mother 'had respiratory problems... she was on oxygen for like six months'.",
+          "value": "Mother has respiratory problems and was on oxygen for six months",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his mother shared a misinformation video about COVID on Facebook.",
+          "value": "Mother shares COVID-19 misinformation on Facebook",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my step dad isn't taking it seriously' (COVID precautions).",
+          "value": "Has a step father",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my grandmother used to teach me things like cribbage'.",
+          "value": "Has a grandmother who taught him cribbage",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got friends that are [nurses]'.",
+          "value": "Has friends who are nurses",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've got three cats'.",
+          "value": "Has three cats",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b discusses woodworking in detail, indicating it is a hobby.",
+          "value": "Enjoys woodworking",
+          "lines": [
+            22,
+            25,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions playing Dungeons & Dragons and other tabletop games, and recommending Carcassonne.",
+          "value": "Plays tabletop games (e.g., D&D, Carcassonne)",
+          "lines": [
+            34,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he went to Gen Con last year.",
+          "value": "Attends Gen Con (tabletop game convention)",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his favorite beer type is high ABV: 'I go for alcoholic efficiency, so anything that's like 10%'. He lists stouts, triples, quads, sours.",
+          "value": "Prefers high ABV beers (stouts, triples, quads, sours)",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my preferences actually, bourbon and whiskey most of the time'.",
+          "value": "Prefers bourbon and whiskey",
+          "lines": [
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't had a drink and five months really' due to the pandemic.",
+          "value": "Has not consumed alcohol in 5 months",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I haven't been anywhere. My wife has been doing all the shopping' because he is high risk.",
+          "value": "Stays home due to COVID-19 risk; wife does shopping",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being on Reddit and the cystic fibrosis subreddit.",
+          "value": "Uses Reddit and follows r/cysticfibrosis",
+          "lines": [
+            168,
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I'm always into supporting local game shops and... independent game makers'.",
+          "value": "Supports local game stores and indie game makers",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I thought about doing some game design stuff'.",
+          "value": "Considers game design as a potential pursuit",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he used to be an audio engineer for a touring band.",
+          "value": "Used to tour with a band",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I don't look it' after stating he is 31, implying he looks younger.",
+          "value": "Looks younger than 31",
+          "lines": [
+            228
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

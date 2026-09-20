@@ -1,0 +1,299 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are on the west coast, from the LA area but not exactly LA, and that they live in the suburbs.",
+          "value": "Los Angeles area, suburbs (West Coast)",
+          "lines": [
+            7,
+            11,
+            13,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they go to college in north California, far enough to require a plane trip.",
+          "value": "Attends college in northern California",
+          "lines": [
+            137,
+            145
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a is going back to school for a bachelor's degree in computer engineering, with about a year left.",
+          "value": "Computer engineering student (bachelor's degree)",
+          "lines": [
+            21,
+            23,
+            25,
+            29,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having labs and research that involve meeting with professors.",
+          "value": "Involved in research with professors",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they drive a 2006 car, describing it as super old but well maintained.",
+          "value": "Drives a 2006 car",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes their first job as an intern, and notes the company permanently closed due to COVID-19.",
+          "value": "Had an internship at a company that closed due to COVID-19",
+          "lines": [
+            201,
+            205,
+            225,
+            227,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a indicates parents keep them anchored to LA, feels stuck at home, and is under parents' rules. They are currently living with parents during the pandemic.",
+          "value": "Lives with parents",
+          "lines": [
+            21,
+            37,
+            147
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they usually go out to meet friends, go shopping, or go to cafes.",
+          "value": "Enjoys social outings (meeting friends, shopping, cafes)",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses feeling stuck at home, unable to go out even for a walk, and wants to return to campus for independence.",
+          "value": "Feels stuck and restricted at home",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having a security camera installed after a package theft incident.",
+          "value": "Has a security camera at home",
+          "lines": [
+            47,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says they are in Chicago and that it's the suburbs.",
+          "value": "Chicago suburbs",
+          "lines": [
+            66,
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they used to live in southern California, specifically Orange County near Laguna Hills, during the 90s.",
+          "value": "Formerly lived in Orange County, California (near Laguna Hills)",
+          "lines": [
+            8,
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says they studied history and then library science.",
+          "value": "Studied history and library science",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states they are a legal secretary working part-time.",
+          "value": "Part-time legal secretary",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions they were a librarian for a while before becoming a legal secretary.",
+          "value": "Formerly a librarian",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says they have health issues that led to going part-time.",
+          "value": "Has unspecified health issues",
+          "lines": [
+            174,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says they drive a 2008 car which was originally bought for them by their parents.",
+          "value": "Owns a 2008 car",
+          "lines": [
+            82,
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b also mentions driving a newer car.",
+          "value": "Also owns a newer car",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes their house as about 1100 square feet, shared with their husband.",
+          "value": "Lives in a house approximately 1100 square feet",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b works for their father-in-law as a legal secretary, noting the pay is good, flexible, and low stress.",
+          "value": "Employed by father-in-law with good pay and flexibility",
+          "lines": [
+            174,
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions this is their fifth time attempting this task and that they get paid $2 for showing up, indicating participation in paid online tasks.",
+          "value": "Participates in paid online tasks (e.g., this conversation platform)",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b repeatedly refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            38,
+            54,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states their husband is a lawyer.",
+          "value": "Husband is a lawyer",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they work for their father-in-law.",
+          "value": "Father-in-law is employer",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my brother's friends', indicating they have a brother.",
+          "value": "Has a brother",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says their parents bought them a car when they graduated college.",
+          "value": "Parents bought them a car in the past",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b uses a camera in the backyard to watch chipmunks and squirrels.",
+          "value": "Watches backyard wildlife",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having multiple security cameras, including one in the driveway.",
+          "value": "Has security cameras",
+          "lines": [
+            48,
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes their work as making coffee, running errands, and being very laid back.",
+          "value": "Work involves errands, coffee, and is laid back",
+          "lines": [
+            192,
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

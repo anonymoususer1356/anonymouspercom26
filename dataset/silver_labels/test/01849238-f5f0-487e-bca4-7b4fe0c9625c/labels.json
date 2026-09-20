@@ -1,0 +1,502 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name in line 11: 'my name's Trenton'.",
+          "value": "Trenton",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "In line 11 he says he lives in Dallas, Texas. Line 149 confirms he has lived there pretty much all his life. Line 35 mentions proximity to Rockwell Airport, consistent with Dallas area.",
+          "value": "Dallas, Texas",
+          "lines": [
+            11,
+            35,
+            149
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 11: 'I'm 20 years old'.",
+          "value": "20 years old",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Trenton is typically male, and in line 169 speaker_b refers to him as a 'married man', which he confirms.",
+          "value": "male",
+          "lines": [
+            11,
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 11 and 67, 69: he is a biomedical engineering student at UTD, currently a junior.",
+          "value": "biomedical engineering student at UTD, junior",
+          "lines": [
+            11,
+            67,
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 333: after swing dancing he was out of breath and thought 'I need to get back in shape', suggesting he currently feels out of shape.",
+          "value": "self-reported out of shape, needs to improve fitness",
+          "lines": [
+            333
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Line 169: speaker_b asks 'are you a married man?' and speaker_a answers 'Yes.'",
+          "value": "married",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 29: he says he is about 85% of the way through getting the private pilot licence.",
+          "value": "student pilot, ~85% through private pilot license",
+          "lines": [
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Line 189: speaker_a mentions 'my boss, uh he's the ceo of this tech startup', indicating he is employed at a tech startup.",
+          "value": "employed at a tech startup (boss is CEO)",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Lines 189, 209, 211: he borrowed a VR headset (Oculus Go) from his boss and later 'got a headset' and bought a game for it, implying he now owns a VR headset.",
+          "value": "owns a virtual reality headset",
+          "lines": [
+            189,
+            209,
+            211
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 169: confirms he is married.",
+          "value": "married (has a spouse)",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 151: 'I have a couple of family members in Houston'.",
+          "value": "has family members in Houston, Texas",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 151: 'most of the other family lives in Colorado'.",
+          "value": "most extended family lives in Colorado",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 119: 'My grandfather served in Vietnam'.",
+          "value": "grandfather served in Vietnam War",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 171: when asked if he has children, responds 'No no I'm still waiting'.",
+          "value": "no children",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 317: 'my friends peer pressured me to go into a uh dance club', indicating he has a social circle of friends at school.",
+          "value": "has friends who participate in dance club",
+          "lines": [
+            317
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 11, 13-15: he builds Gundam model kits.",
+          "value": "builds Gundam model kits",
+          "lines": [
+            11,
+            13,
+            14,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 15: when weather nice, goes swimming.",
+          "value": "swimming",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 15: loves biking.",
+          "value": "biking",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 11, 29: he is a student pilot pursuing private pilot license.",
+          "value": "student pilot (flight training)",
+          "lines": [
+            11,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 185: he says 'I do play games a lot'.",
+          "value": "frequent video gamer",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 187, 189, 211: he got into virtual reality, borrowed then owned a VR headset, plays VR games.",
+          "value": "virtual reality gamer, owns/plays VR games",
+          "lines": [
+            187,
+            189,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 317-319: he joined school dance club 'Spiced', learned swing and a Spanish dance style.",
+          "value": "member of dance club, learned swing and Spanish dance (salsa/flamenco-like)",
+          "lines": [
+            317,
+            318,
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 83, 87, 89: enjoys electronic music like Daft Punk, 80s rock/pop, not a fan of 70s.",
+          "value": "music taste: electronic (Daft Punk), 80s rock/pop; dislikes 70s",
+          "lines": [
+            83,
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 83: mentions driving to school in traffic, indicating car commute.",
+          "value": "commutes by car to school in traffic",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 69: participates in Lockheed Martin RC plane competition, traveling to Arkansas for it.",
+          "value": "participates in RC plane design competition (Lockheed Martin)",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 153: vacations in Colorado to escape summer heat.",
+          "value": "vacations in Colorado",
+          "lines": [
+            153
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 18: 'My name is Teresa'.",
+          "value": "Teresa",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Lines 18, 22, 78, 294, 320 establish she lives in rural Arkansas, on 10 acres, footills region, about an hour from Ozarks and flatlands, small town.",
+          "value": "rural Arkansas, foothills, 10-acre property, small town (~1hr to Ozarks and flatlands)",
+          "lines": [
+            18,
+            22,
+            78,
+            294,
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 158, 162: she previously lived in Liberty, Texas (outside Houston) for about 20 years.",
+          "value": "previously lived in Liberty, Texas (near Houston) for ~20 years",
+          "lines": [
+            158,
+            162
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 18: 'I'm 59'.",
+          "value": "59 years old",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Teresa explicitly female, uses feminine pronouns, refers to herself as grandma and girl.",
+          "value": "female",
+          "lines": [
+            18,
+            112,
+            276,
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 22: 'I'm retired'.",
+          "value": "retired",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Line 290: discussing grandkids, she says 'they can go out and they can still do hand springs and they can still do flips'—likely referring to herself as a grandma who can still perform these moves, given earlier cheerleading history.",
+          "value": "reports being able to do handsprings and flips (gymnastics) at her age",
+          "lines": [
+            290
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Line 298: 'I mentally see myself is about 38'.",
+          "value": "perceives herself as mentally age 38",
+          "lines": [
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 22: she states she is retired, indicating reliance on retirement income/savings, and earlier she does not mention current employment.",
+          "value": "retired (no current employment income from work)",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 294: 'I live out here in rural area on a large property, about ... 10 acres', and earlier she 'take care of my property', indicating ownership.",
+          "value": "owns 10-acre property",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 112: she has a son aged about 36 who builds model planes/stuff.",
+          "value": "has a son (~36 years old) who builds models",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 118, 126, 134: she has another son in the Marines, a linguist specializing in Korean, stationed in California.",
+          "value": "has a son in US Marines, Korean linguist, stationed in California",
+          "lines": [
+            118,
+            126,
+            134
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 290: mentions grandkids, implying she is a grandmother.",
+          "value": "has grandchildren",
+          "lines": [
+            290
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 48: 'my dad used to fly crop dusters'.",
+          "value": "her father was a crop duster pilot",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 342, 344: 'my brother, he's a couple years younger than me' and they keep horses, show regularly; sister-in-law trains barrel horses.",
+          "value": "has a younger brother who keeps and shows horses; sister-in-law trains barrel horses",
+          "lines": [
+            342,
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 18: she says she has family in the Dallas area and just got back from there over Christmas.",
+          "value": "has family in the Dallas, Texas area",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 102, 106: she calls herself a 'bluegrass girl', attends many concerts, prefers high-quality musicians.",
+          "value": "bluegrass music enthusiast, frequent concert-goer",
+          "lines": [
+            102,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 88, 96, 98: expresses love for 70s music (Eagles, Chicago) and also likes 80s.",
+          "value": "music taste: 70s (Eagles, Chicago) and 80s",
+          "lines": [
+            88,
+            96,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 276, 278: she decided to learn guitar, been self-teaching for about six months.",
+          "value": "learning guitar, self-taught, ~6 months in",
+          "lines": [
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 282: 'I love dancing... I was a cheerleader... had to do choreography'.",
+          "value": "enjoys dancing; was a cheerleader and choreographer in youth",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 284: dances to contemporary pop with older friends or in the car.",
+          "value": "dances to contemporary pop music socially",
+          "lines": [
+            284
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 146: 'I'm not opposed to prayer so I'm praying a lot'.",
+          "value": "prays frequently",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 338, 346: grew up in rodeo/horse scene, still enjoys riding for pleasure occasionally.",
+          "value": "occasional horseback riding for pleasure (rodeo background)",
+          "lines": [
+            338,
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 296: does own property maintenance like fixing roof, mowing with zero-turn mower.",
+          "value": "does hands-on property maintenance (roof repair, mowing)",
+          "lines": [
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 26, 58, 304: always wanted to fly like her dad, wishes she had pursued pilot lessons.",
+          "value": "has lifelong interest in flying, wishes she learned to pilot",
+          "lines": [
+            26,
+            58,
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 322: occasionally searches online for dance clubs for older people.",
+          "value": "seeks dance clubs for older adults online",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,333 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Louis when speaker_b gives his name, and repeats it later.",
+          "value": "Louis",
+          "lines": [
+            15,
+            289
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he is in Maryland close to Washington D.C., and the time zone difference (7 PM vs speaker_b’s 6 PM) confirms Eastern Time.",
+          "value": "Maryland, near Washington D.C.",
+          "lines": [
+            19,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a mentions he is 'like 27, I'm almost 27' while discussing living with his parents.",
+          "value": "26 (almost 27)",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to himself as a 'movie guy', indicating male gender.",
+          "value": "male",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a confirms he is currently working, describes his job as an engineer for an LED lighting company, works from home since late March, and indicates his job is secure.",
+          "value": "employed as an engineer at an LED lighting company, working from home, job is secure",
+          "lines": [
+            37,
+            45,
+            47,
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he worked in a kitchen from 2013 for about three years.",
+          "value": "previously worked in a kitchen (2013–2016 approximately)",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a explicitly says he lives with his parents.",
+          "value": "lives with parents",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions seeing a movie in theaters with his girlfriend.",
+          "value": "has a girlfriend",
+          "lines": [
+            281
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he watches a lot of movies and has a goal of watching at least 100 new films per year for the past three years.",
+          "value": "goal to watch 100 new movies per year, for the past three years",
+          "lines": [
+            129,
+            131,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a claims to be a huge Beatles fan with the ability to identify songs, years, and instruments on demand.",
+          "value": "huge Beatles fan with encyclopedic knowledge of their music",
+          "lines": [
+            240,
+            241,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he does the majority of the cooking for his parents.",
+          "value": "does the majority of the cooking in his household",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a explains he has to use Firefox for video calls because his webcam does not work with Chrome.",
+          "value": "uses Firefox browser for video calls due to Chrome webcam issues",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his favourite movie genres are comedy and thriller.",
+          "value": "prefers comedy and thriller movie genres",
+          "lines": [
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he avoids movie spoilers and only wants to know genre, year, and length before watching.",
+          "value": "avoids spoilers, only checks genre, year, and length before watching a movie",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he runs a lot and burns a lot of calories.",
+          "value": "runs a lot for exercise",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b calls speaker_a skinny, and speaker_a does not dispute it; consistent with his talk of running and large appetite.",
+          "value": "skinny",
+          "lines": [
+            82
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as Patrick, and speaker_a repeats the name.",
+          "value": "Patrick",
+          "lines": [
+            14,
+            15
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he is in extreme northern Illinois, close enough to walk to Wisconsin in 10 minutes; the 6 PM vs 7 PM time difference confirms Central Time.",
+          "value": "extreme northern Illinois, near Wisconsin border",
+          "lines": [
+            16,
+            18,
+            71,
+            72,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states he is not religious but has a feeling there may be a God.",
+          "value": "not religious, but believes there might be a God",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a addresses him as 'man' at the end, and the voice is male.",
+          "value": "male",
+          "lines": [
+            300
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a infers speaker_b lost his job and speaker_b confirms with 'Yeah. Mhm. Yeah.'",
+          "value": "recently lost job, currently unemployed",
+          "lines": [
+            31,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a asks if online surveys like Prolific are a major income source, and speaker_b agrees; speaker_b also mentions a $150 paid interview for a gift card.",
+          "value": "relies on online surveys and paid research studies for income",
+          "lines": [
+            24,
+            26,
+            29,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he had some money saved up (ASR 'somebody saved up').",
+          "value": "has savings",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a hears a dog, speaker_b confirms it is his, and specifies the breed as Brussels Griffon.",
+          "value": "owns a dog (Brussels Griffon)",
+          "lines": [
+            37,
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes his love of cooking, especially barbecue; his favourite dish is spare ribs and he also makes pulled pork.",
+          "value": "enjoys cooking, especially barbecue; favourite dish is spare ribs",
+          "lines": [
+            60,
+            66,
+            70,
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he uses a Weber charcoal grill for cooking.",
+          "value": "uses a Weber charcoal grill",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b shows two external hard drives (4 TB and 2 TB) that are almost completely full of movies.",
+          "value": "owns 4 TB and 2 TB external hard drives almost full of movies",
+          "lines": [
+            142,
+            143,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states that dark comedy is one of his favourite genres.",
+          "value": "prefers dark comedy movies",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he absolutely loves The Office and it is one of the few sitcoms he enjoys.",
+          "value": "loves The Office TV show",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he often checks IMDb ratings and considers movies above 7 to be pretty good.",
+          "value": "uses IMDb rating (above 7) to select movies",
+          "lines": [
+            218
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is not a huge fan of biographies and is more into fantasy.",
+          "value": "prefers fantasy movies over biographies",
+          "lines": [
+            270,
+            276
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he goes grocery shopping every couple of weeks to avoid overcrowded places.",
+          "value": "shops for groceries every couple of weeks",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains he switched to Chrome for video calls because Firefox had webcam issues.",
+          "value": "uses Chrome browser for video calls due to Firefox webcam issues",
+          "lines": [
+            4,
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

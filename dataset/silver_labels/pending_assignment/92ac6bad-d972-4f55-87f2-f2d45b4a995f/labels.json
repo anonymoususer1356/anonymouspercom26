@@ -1,0 +1,384 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses her as Michele/Michelle (line 10: 'Hi Michele I'm Annie'; line 298: 'it was you as well, Michelle'). The name is clearly established despite minor ASR spelling variation.",
+          "value": "Michelle",
+          "lines": [
+            10,
+            298
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Arizona (line 13), in the Phoenix area (line 27), and specifically lives in Avondale, a suburb of Phoenix (line 31).",
+          "value": "Avondale, Arizona (Phoenix suburb)",
+          "lines": [
+            13,
+            27,
+            31
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she teaches at 'a stray mountain community college' (line 51), a phonetic match for Estrella Mountain Community College in Avondale. She also says she works here (line 31: 'I live in Avondale... only because I work here').",
+          "value": "Estrella Mountain Community College (workplace)",
+          "lines": [
+            51,
+            31
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions she grew up in a suburb of San Diego, California (line 31).",
+          "value": "Suburb of San Diego, California (origin)",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she is a college teacher (line 43) and teaches math (line 67).",
+          "value": "College math teacher",
+          "lines": [
+            43,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she got her bachelor's degree in industrial engineering from Stanford University (lines 67, 71).",
+          "value": "B.S. Industrial Engineering, Stanford University",
+          "lines": [
+            67,
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Michelle is conventionally female, and the conversation uses this name without contradiction.",
+          "value": "Female",
+          "lines": [
+            10,
+            298
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she grew up in a suburb of San Diego, California (line 31).",
+          "value": "Originally from California",
+          "lines": [
+            31
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states she started feeling claustrophobic in New York City (line 33: 'new york, I started feeling like claustrophobic').",
+          "value": "Experiences claustrophobic feelings in large cities",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes herself as a perfectionist (line 163: 'I tend to be a perfectionist').",
+          "value": "Perfectionist tendencies",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She has been a math teacher at a community college for 14 years (lines 43, 51, 67, 129).",
+          "value": "Employed as math teacher at community college (14 years)",
+          "lines": [
+            43,
+            51,
+            67,
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She previously worked for GTE, which merged into Verizon (line 119: 'I worked for well what is now Verizon... when I was G. T. E.').",
+          "value": "Formerly employed at GTE/Verizon",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her mother got a master's from the University of Washington (line 55) and studied nursing (line 61).",
+          "value": "Mother: holds a master's degree from UW in nursing",
+          "lines": [
+            55,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her dad had a chemical engineering degree (line 113) and worked for the US Navy (lines 125, 135).",
+          "value": "Father: chemical engineer, worked for US Navy",
+          "lines": [
+            113,
+            125,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lists her mother, sister, sister's husband, and nephew as living together (line 143).",
+          "value": "Has a sister (married, with a son)",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her sister's husband (line 143).",
+          "value": "Has a brother-in-law",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her nephew (line 143).",
+          "value": "Has a nephew",
+          "lines": [
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is with her dog, describes him as part Border Collie and part Lab (lines 141, 143, 175).",
+          "value": "Has a dog (Border Collie / Lab mix)",
+          "lines": [
+            141,
+            143,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She took a class on hand-knitting and now knits chunky blankets as a relaxing hobby (lines 161, 165).",
+          "value": "Knits chunky blankets by hand",
+          "lines": [
+            161,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She sang in choir in high school and still sings for fun, mentioning she was an alto (lines 247, 273).",
+          "value": "Sings for fun (formerly in choir, alto)",
+          "lines": [
+            247,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She played piano growing up but hasn't played recently and is thinking of buying a keyboard (line 245).",
+          "value": "Used to play piano, considering resuming",
+          "lines": [
+            245
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She walks her dog a lot and teaches him tricks (lines 173, 175).",
+          "value": "Frequently walks dog and trains tricks",
+          "lines": [
+            173,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she stays home as much as possible and teaches remotely during the pandemic (lines 43, 45).",
+          "value": "Stays home during COVID-19 pandemic, teaches remotely",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as Annie in line 10 ('Hi Michele I'm Annie').",
+          "value": "Annie",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in eastern Washington State (line 14) and lives in a really small town (line 40).",
+          "value": "Small town in eastern Washington state",
+          "lines": [
+            14,
+            40
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her university is in Seattle (line 54: 'my it's in Seattle... U dub') and she may move into a dorm there.",
+          "value": "Seattle, Washington (for college at UW)",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she was supposed to graduate from high school this year (line 80).",
+          "value": "Recent high school graduate (class of 2020)",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is in the college of engineering at UW (line 64) and is an incoming freshman (line 54).",
+          "value": "Incoming college freshman, engineering major",
+          "lines": [
+            54,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Annie is conventionally female, and no contrary information is given.",
+          "value": "Female",
+          "lines": [
+            10
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She says she plays the flute and piccolo (lines 228, 230).",
+          "value": "Musician (flute, piccolo)",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She mentions the 'quarantine 15' and says she started exercising again to counter it, implying concern about weight gain (line 148).",
+          "value": "Concerned about weight gain during quarantine",
+          "lines": [
+            148
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "She says her mom is a college professor and teaches math (lines 44, 70, 130).",
+          "value": "Mother is a college math professor",
+          "lines": [
+            44,
+            70,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her dad switched jobs a couple times and is now a banker (lines 130, 132).",
+          "value": "Father works as a banker",
+          "lines": [
+            130,
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes her three parakeets in detail: one fully yellow, two blue (lines 222, 224-226).",
+          "value": "Has three pet parakeets (one yellow, two blue)",
+          "lines": [
+            222,
+            224,
+            225,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she baked a lot of food during quarantine (line 146).",
+          "value": "Enjoys baking",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she plays flute and piccolo regularly (lines 228, 230).",
+          "value": "Plays flute and piccolo",
+          "lines": [
+            228,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions being in high school band concerts and musicals (lines 234, 258).",
+          "value": "Participated in high school band and musicals",
+          "lines": [
+            234,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she started exercising again (line 148).",
+          "value": "Exercises",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to a lake with a friend and having a few close high school friends (lines 184, 202).",
+          "value": "Spends time with close high school friends",
+          "lines": [
+            184,
+            202
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,531 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'April' (ASR 'april'); the other speaker is Caitlin, so 'april Caitlin' is likely 'April' and then addressing Caitlin.",
+          "value": "April",
+          "lines": [
+            5,
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States she lives/lived in upstate New York, currently in a quiet area, and was born and raised in New York.",
+          "value": "Upstate New York",
+          "lines": [
+            9,
+            17,
+            19,
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Identifies as a mother of daughters and name April implies female.",
+          "value": "Female",
+          "lines": [
+            5,
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Explicitly states she is scared of dogs and has been bitten several times, causing her to freeze when dogs approach.",
+          "value": "Fear of dogs (cynophobia)",
+          "lines": [
+            133,
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has been bitten by dogs several times.",
+          "value": "Has been bitten by dogs multiple times",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is not on board with the COVID vaccine.",
+          "value": "Vaccine hesitant regarding COVID-19 vaccine",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Explains she entered foster care at 14 and remained until 16 without being adopted.",
+          "value": "Was in foster care from age 14 to 16, never adopted",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she ran away from home at age 13 and lived independently.",
+          "value": "Ran away from home at 13 and lived alone",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She says she is not currently working due to COVID, and her husband also isn't working.",
+          "value": "Currently unemployed",
+          "lines": [
+            71,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she earned an associate's degree in business administration.",
+          "value": "Associate's degree in Business Administration",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions she was working full time while going to college and raising her children.",
+          "value": "Previously worked full-time while studying",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says she has two grown daughters, specifies ages 26 and 21.",
+          "value": "Two daughters, ages 26 and 21",
+          "lines": [
+            21,
+            40,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates her youngest daughter lives about 20 minutes away (ASR '20 minutes for me').",
+          "value": "Youngest daughter lives about 20 minutes away",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States her oldest daughter lives in Florida.",
+          "value": "Oldest daughter lives in Florida",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References her husband multiple times (looking after the husband, husband's father, husband not working).",
+          "value": "Married, has a husband",
+          "lines": [
+            71,
+            137,
+            189,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has one biological brother.",
+          "value": "Has one biological brother",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has 51 foster brothers and sisters.",
+          "value": "Has 51 foster siblings",
+          "lines": [
+            159
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she remains close with her foster family and stays in touch with many foster siblings.",
+          "value": "Maintains close relationships with foster family",
+          "lines": [
+            161
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says one daughter went for a clinical beauty esthetician program, the other for an associate's in automotive technology.",
+          "value": "One daughter is a clinical beauty esthetician",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says the other daughter got an associate's in automotive technology.",
+          "value": "One daughter has an associate's in automotive technology",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to her brother-in-law and his several children.",
+          "value": "Has a brother-in-law with children",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Indicates her husband's stepfather is Puerto Rican (ASR slightly garbled).",
+          "value": "Husband's stepfather is Puerto Rican",
+          "lines": [
+            225
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States she likes to garden and read.",
+          "value": "Enjoys gardening and reading",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she loves to hike, especially to waterfalls.",
+          "value": "Enjoys hiking, especially to waterfalls",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She owns a 20-year-old cat that is very vocal and friendly.",
+          "value": "Owns a 20-year-old vocal and friendly cat",
+          "lines": [
+            123,
+            125,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes a traditional Thanksgiving meal she cooks.",
+          "value": "Cooks traditional Thanksgiving dinner (turkey, casseroles, stuffing, etc.)",
+          "lines": [
+            219
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hosts Christmas dinner and serves prime rib (ASR 'primary Bendit').",
+          "value": "Hosts Christmas dinner, serves prime rib",
+          "lines": [
+            231,
+            233
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She and her husband took a road trip around New England.",
+          "value": "Took a New England road trip with husband",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She traveled to Florida to visit her sick daughter despite travel restrictions and had to quarantine afterward.",
+          "value": "Traveled to Florida during pandemic to see sick daughter, quarantined after",
+          "lines": [
+            239,
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She had three beagles (ASR 'big goals', but later named Beagle 1,2,3) and a German Shepherd while growing up.",
+          "value": "Had three beagles and a German Shepherd as childhood pets",
+          "lines": [
+            143,
+            144,
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She owned hamsters; a mother hamster ate her babies, so she got rid of them.",
+          "value": "Owned hamsters, one ate her babies",
+          "lines": [
+            147
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Her children had hermit crabs as pets.",
+          "value": "Children had hermit crabs",
+          "lines": [
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She watched Halloween movies on TV while quarantined.",
+          "value": "Watches Halloween movies on Halloween",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Her name is stated as Caitlin (also spelled Caitlyn by ASR). She confirms 'I'm Caitlin right'.",
+          "value": "Caitlin",
+          "lines": [
+            5,
+            6,
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is from California, has always lived there, and lives near Disneyland.",
+          "value": "California, near Disneyland",
+          "lines": [
+            10,
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name and context indicate female.",
+          "value": "Female",
+          "lines": [
+            5,
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her age is 20.",
+          "value": "20 years old",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is in her junior year of college.",
+          "value": "Junior in college",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is studying biology.",
+          "value": "Biology major",
+          "lines": [
+            60
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She says she would take a COVID vaccine but thinks it is too soon.",
+          "value": "Vaccine cautious (would take but thinks it's too soon)",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She is a college student and lives at home with her parents, implying financial dependence.",
+          "value": "Student, lives with parents",
+          "lines": [
+            58,
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions having three brothers: one older (22) and two younger (15 and 13).",
+          "value": "Three brothers, ages 22, 15, and 13",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she lives at home and her parents are strict.",
+          "value": "Lives with strict parents",
+          "lines": [
+            168,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her aunt had COVID.",
+          "value": "Aunt had COVID",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to her in-laws for Halloween (possibly ASR error for 'mom's' or another relative; recorded verbatim).",
+          "value": "Went to in-laws for Halloween",
+          "lines": [
+            248
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "She had a bichon dog that was small, lived to 11 human years.",
+          "value": "Had a bichon dog",
+          "lines": [
+            130,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She had a turtle named abc when very young.",
+          "value": "Had a turtle named abc",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she goes hiking and to drive-in movies (ASR slightly garbled).",
+          "value": "Enjoys hiking and drive-in movies",
+          "lines": [
+            26
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She used to go to Disneyland frequently before it closed due to COVID.",
+          "value": "Frequented Disneyland before closure",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She celebrates Thanksgiving with turkey, stuffing, green bean casserole, and Christmas with tamales.",
+          "value": "Celebrates Thanksgiving with traditional foods and Christmas with tamales",
+          "lines": [
+            204,
+            222,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she loves prime rib.",
+          "value": "Likes prime rib",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She finds cats scary and doesn't like touching them because they scratch.",
+          "value": "Dislikes cats, finds them scary",
+          "lines": [
+            124,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says she doesn't like chihuahuas.",
+          "value": "Dislikes chihuahuas",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She plans to go to graduate school out of state, considering Washington, Texas, or Los Angeles.",
+          "value": "Plans to attend graduate school out of state (WA, TX, or LA)",
+          "lines": [
+            170,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she hasn't traveled much and wants to see what's out there.",
+          "value": "Has not traveled much, desires to travel",
+          "lines": [
+            186,
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She wants to take a road trip over the summer.",
+          "value": "Wants to take a summer road trip",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She stayed in for Halloween and didn't want to take her younger siblings trick-or-treating.",
+          "value": "Stayed in for Halloween, avoided trick-or-treating with siblings",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

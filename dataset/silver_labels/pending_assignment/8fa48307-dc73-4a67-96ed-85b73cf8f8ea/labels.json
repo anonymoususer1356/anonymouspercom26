@@ -1,0 +1,360 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a says 'my name's dan' when introducing himself. speaker_b later addresses him as 'dan'.",
+          "value": "Dan",
+          "lines": [
+            11,
+            304
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states he was born in Staten Island, a borough of New York City. speaker_b reiterates this and speaker_a confirms.",
+          "value": "born in Staten Island, New York",
+          "lines": [
+            129,
+            132,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he now lives in Brooklyn, specifically the Williamsburg neighbourhood. speaker_b asks for confirmation and speaker_a agrees.",
+          "value": "lives in Williamsburg, Brooklyn, New York",
+          "lines": [
+            131,
+            132,
+            133,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a explicitly gives his age while discussing his brothers: 'I'm 31'.",
+          "value": "31 years old",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a initially says he is not religious, then explains he attended Catholic school all his life, was born Catholic, and now considers himself 'more agnostic than anything'.",
+          "value": "agnostic, raised Catholic",
+          "lines": [
+            165,
+            167,
+            169,
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says he works at a public defender's office as an investigator, handling criminal cases, gathering evidence and interviewing witnesses; he clarifies he is not a lawyer.",
+          "value": "investigator at a public defender's office (legal aid)",
+          "lines": [
+            233,
+            235,
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says he has two brothers and is the oldest; the next brother is about a year younger (around 30) and the youngest is 28.",
+          "value": "has two brothers (oldest, next about 30, youngest 28)",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'one of the roommates' when discussing horror movies, indicating he lives with at least one other person.",
+          "value": "has at least one roommate",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his mother was one of six children and she was the youngest.",
+          "value": "mother is youngest of six siblings",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says he currently plays video games, watches Netflix and movies, partly because the pandemic limits sports; he mentions recently watching Beetlejuice.",
+          "value": "enjoys video games, Netflix, and movies",
+          "lines": [
+            15,
+            19,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a lists the sports he plays: basketball, softball, and boxing.",
+          "value": "plays basketball, softball, and boxing",
+          "lines": [
+            21,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions having Kyler Murray as his fantasy football quarterback.",
+          "value": "plays fantasy football",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a refers to previous sessions in a study, says this is his third chat, and that he will have four total, confirming participation in a multi-session research study.",
+          "value": "participating in a research study with multiple chat sessions",
+          "lines": [
+            7,
+            273,
+            277
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces himself as 'E. J.' and explains his full first name is Evan.",
+          "value": "Evan (goes by E.J.)",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my last name is smith' and offers to connect on Facebook.",
+          "value": "Smith",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b tells speaker_a to look him up on Facebook, indicating he maintains a profile under his real name.",
+          "value": "Facebook profile under Evan Smith",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he is currently in Idaho, calls it home, and notes his father’s military career caused frequent moves.",
+          "value": "lives in Idaho",
+          "lines": [
+            98,
+            102,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he lives in a town of about 90,000 people, which he considers small compared to New York.",
+          "value": "resides in a town of approximately 90,000 people",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions he lived in Arizona before moving to Idaho and that Arizona felt like home to him.",
+          "value": "previously lived in Arizona",
+          "lines": [
+            116,
+            118
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm 34' and states he was born in 1986.",
+          "value": "34 years old",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly states 'I was born in 86'.",
+          "value": "born in 1986",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he was raised Mormon but is now Lutheran, is the only non-Mormon in his family, and calls himself a 'God enthusiast' (ASR rendered 'gun enthusiasts', corrected from context).",
+          "value": "Lutheran (formerly Mormon)",
+          "lines": [
+            174,
+            176,
+            184
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states he is in a wheelchair, refers to his disability, and discusses the lack of accessible public transportation on Sundays.",
+          "value": "wheelchair user (mobility disability)",
+          "lines": [
+            30,
+            192,
+            218
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b says he has seven siblings and that they are all older than him, making him the youngest of eight.",
+          "value": "has seven siblings (all older)",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he has a twin sister who is four minutes older (ASR wrote 'great sister', but context and earlier mention of 'twin sister' confirm the intended meaning).",
+          "value": "has a twin sister (four minutes older)",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says his oldest sibling is a brother and he is 48 years old.",
+          "value": "oldest sibling is a brother, age 48",
+          "lines": [
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions that his father was in the military, which caused the family to move often.",
+          "value": "father was in the military",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he is the only person in his family who is not Mormon.",
+          "value": "only non-Mormon in his family",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b invited speaker_a to look him up on Facebook to stay in contact.",
+          "value": "offered Facebook connection to speaker_a",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions this is his sixth and final chat in a study, has spoken to people from around the country, and refers to 'this study' multiple times.",
+          "value": "participated in a multi-session research study (six chats)",
+          "lines": [
+            8,
+            244,
+            258,
+            300
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b calls himself a 'sports fanatic' and says he loves football, baseball, and hockey.",
+          "value": "sports fanatic (loves football, baseball, hockey)",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he plays sports video games such as Madden and MLB The Show because his wheelchair makes physical sports difficult.",
+          "value": "plays sports video games (Madden, MLB The Show)",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes his flight simulator hobby in detail, naming Microsoft Flight Simulator 2020 and explaining how it works.",
+          "value": "uses flight simulators (Microsoft Flight Simulator 2020)",
+          "lines": [
+            32,
+            40,
+            42,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he watches movies but has a hard time sitting through them.",
+          "value": "watches movies but finds it difficult to sit through them",
+          "lines": [
+            54,
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b calls himself a 'nerd' in the context of his enthusiasm for flight simulators.",
+          "value": "self-identifies as a nerd",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states he is an Arizona Cardinals fan because he used to live in Arizona, diverging from the local Seattle Seahawks fandom in Idaho.",
+          "value": "Arizona Cardinals fan (NFL)",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

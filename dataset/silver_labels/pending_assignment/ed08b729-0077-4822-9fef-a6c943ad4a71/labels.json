@@ -1,0 +1,245 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a explicitly states 'my name is Robin'.",
+          "value": "Robin",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a offers a website to connect: 'the website is Kentucky. Hi. It's K. Y. H. I. It's W. W. W. K. Y. H. I.' So the website is www.kyhi (partial, TLD not given).",
+          "value": "www.kyhi",
+          "lines": [
+            341
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she is related to Daniel Boone: 'he's like my seventh great uncle and his sister is my seventh great grandmother.' She later says she obtained documents to prove it.",
+          "value": "descendant of Daniel Boone (seventh great uncle and seventh great grandmother)",
+          "lines": [
+            19,
+            22,
+            25,
+            27,
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm from Kentucky,' refers to 'our governor' in the context of Kentucky's mask mandate, and works on a project for Kentucky.",
+          "value": "Kentucky",
+          "lines": [
+            7,
+            267,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions 'my grandchildren' and discusses their racial background, indicating she is a grandparent.",
+          "value": "grandparent",
+          "lines": [
+            105,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my grandchildren' and states they are mixed race; their fathers are African American. This establishes she has at least two grandchildren.",
+          "value": "has mixed-race grandchildren (African American/white)",
+          "lines": [
+            105,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'My one uh cousins going down there' in reference to University of Louisville, establishing she has a cousin attending that university.",
+          "value": "cousin attending University of Louisville",
+          "lines": [
+            235
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes doing DNA testing, building family trees, following a DNA advisor on Facebook, and helping others with genealogy.",
+          "value": "genealogy and DNA testing hobbyist",
+          "lines": [
+            41,
+            61,
+            65,
+            71,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she volunteers 'on behalf of people with disabilities' and works on a website preserving Kentucky's historical asylums and institutions, including a virtual memorial.",
+          "value": "volunteer preserving historical asylums and advocating for people with disabilities",
+          "lines": [
+            127,
+            129,
+            131,
+            133,
+            137,
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a remarks in response to a discussion about current homeschooling 'I did that 20 years ago', indicating she homeschooled her own children.",
+          "value": "homeschooled her children 20 years ago",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she stays in, does grocery pickup ('click list'), and describes it as the highlight of her week, showing limited outings during the pandemic.",
+          "value": "rarely goes out, uses grocery pickup during pandemic",
+          "lines": [
+            273
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b explicitly states 'my name is Cameron'.",
+          "value": "Cameron",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in North Dakota'.",
+          "value": "North Dakota",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I grew up in that area in Mandan, North Dakota' and later 'in bismarck north Dakota where I grew up', indicating he grew up in Mandan/Bismarck.",
+          "value": "Mandan / Bismarck, North Dakota",
+          "lines": [
+            12,
+            84
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I came here I'm like first generation, I came with my parents from the kurdish part of Iraq', identifying as Kurdish, first-generation immigrant.",
+          "value": "Kurdish, first-generation immigrant from Iraq",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my daughter graduated high school last year', establishing he is a parent.",
+          "value": "parent of a daughter",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b talks about being 'in Swing choir when he was in college. Just like I was', indicating he attended college and participated in swing choir.",
+          "value": "attended college, participated in swing choir",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "Speaker_b explicitly states 'my daughter graduated high school', establishing he has a daughter.",
+          "value": "has a daughter",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he came with his parents from Iraq, establishing he has parents from the Kurdish part of Iraq.",
+          "value": "has parents from Iraq",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says at the end of the conversation 'I'm going to go back to play video games', indicating he plays video games recreationally.",
+          "value": "plays video games",
+          "lines": [
+            332
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes being appointed to a human relations committee, holding town hall meetings on discrimination, and still being invited to speak at Native American colleges.",
+          "value": "community activist on human relations and diversity; invited speaker at Native American colleges",
+          "lines": [
+            84,
+            90,
+            92,
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions he was in swing choir in college, indicating a past involvement in performing arts.",
+          "value": "sang in swing choir in college",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts going to an Indian reservation one Thanksgiving to 'help hand out food', showing past volunteerism.",
+          "value": "volunteered at Indian reservation on Thanksgiving",
+          "lines": [
+            12
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

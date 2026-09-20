@@ -1,0 +1,312 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states outright that she lives in South Carolina.",
+          "value": "South Carolina",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as a 'stay at home mom', indicating she is female.",
+          "value": "female",
+          "lines": [
+            163,
+            345
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is 'pushing 30', indicating she is in her late 20s.",
+          "value": "late 20s",
+          "lines": [
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a explicitly states she is married.",
+          "value": "married",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has a 16-month-old son, indicating she is a parent.",
+          "value": "mother of a 16-month-old boy",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes herself as a 'stay at home mom', indicating her occupational group.",
+          "value": "stay-at-home mother",
+          "lines": [
+            345
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she does online platform work including 'amazon's her grid space prolific' (Amazon Mechanical Turk, Prolific) as a 'stay at home mom hustle'.",
+          "value": "earns money through online gig platforms (Amazon Mechanical Turk, Prolific)",
+          "lines": [
+            345,
+            347
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states she is married, indicating she has a spouse.",
+          "value": "spouse (husband)",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she has a 16-month-old son.",
+          "value": "son (16 months old)",
+          "lines": [
+            163
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has two dogs, boxers, and they are male ('their thoughts, their boxers and their boys').",
+          "value": "two male boxer dogs",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she does online platform work as a stay-at-home mom hustle, spending time on sites like Prolific.",
+          "value": "works online on gig platforms as a stay-at-home mom",
+          "lines": [
+            345,
+            347
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she does preschool at home for her son, currently teaching colors.",
+          "value": "homeschools preschool for her son",
+          "lines": [
+            355,
+            357
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes her Sunday as lazy, eating cereal and a sandwich, indicating a relaxed lifestyle on Sundays.",
+          "value": "has lazy Sundays with simple meals",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a owns two dogs and implies she cares for them.",
+          "value": "owns and cares for two dogs",
+          "lines": [
+            97
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states he lives in Charleston, Illinois.",
+          "value": "Charleston, Illinois",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions that his family is based in Chicago and he goes there for breaks, indicating a secondary location.",
+          "value": "Chicago, Illinois (family home)",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says his mom didn't allow 'guys in the kitchen', implying he is male.",
+          "value": "male",
+          "lines": [
+            134
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b is a college student who has been in college for several years and is considering a masters, suggesting he is in his early 20s.",
+          "value": "early 20s",
+          "lines": [
+            48,
+            52,
+            168
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says he is a student at EIU (transcribed as 'acting student', phonetically close to 'EIU student'), living in Charleston where the university is located.",
+          "value": "student at Eastern Illinois University (EIU)",
+          "lines": [
+            14,
+            18,
+            44
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b states he majors in mathematics and minors in physics, though the line is garbled ('I made her in many minor, much Matthew or lieutenant' -> 'I major in math, minor in physics').",
+          "value": "mathematics major, physics minor",
+          "lines": [
+            44,
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he did not grow up in the US but grew up 'somewhere else', implying he is an immigrant or international student.",
+          "value": "grew up outside the United States",
+          "lines": [
+            234,
+            236
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he works as a chef (or cook) at an Italian restaurant in downtown Chicago, having done so for two years during breaks.",
+          "value": "cook at an Italian restaurant in Chicago",
+          "lines": [
+            126,
+            128,
+            130
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b is a student who works part-time as a cook during breaks to earn money, indicating he supports himself at least partially.",
+          "value": "part-time cook, financially supports himself through school",
+          "lines": [
+            126,
+            336
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions his family is based in Chicago, and references his mom and grandfather.",
+          "value": "family in Chicago (mother, grandfather)",
+          "lines": [
+            18,
+            98,
+            132
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b refers to his boss at the Italian restaurant.",
+          "value": "boss at Italian restaurant",
+          "lines": [
+            128
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b talks about an Asian friend from college who lived in the same dorm as a freshman and for whom he cooked spicy fried rice.",
+          "value": "Asian friend from college (former freshman roommate/dorm-mate)",
+          "lines": [
+            144,
+            146,
+            152
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he has been working on homework all day, even missing church, indicating a student lifestyle with heavy workload.",
+          "value": "spends long hours on homework, sometimes missing church",
+          "lines": [
+            6,
+            8
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b enjoys cooking, learned from online videos, and cooks for friends.",
+          "value": "enjoys cooking, learned from online videos, cooks for friends",
+          "lines": [
+            138,
+            140,
+            142,
+            144
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b likes bowling and claims an average score of 140 ('my eyes like 140 something').",
+          "value": "bowler with a 140 average",
+          "lines": [
+            364,
+            366
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b is participating in online conversations or studies (this is his second time), indicating he takes part in online research or task platforms.",
+          "value": "participates in online research studies or conversation tasks",
+          "lines": [
+            20,
+            22,
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b works at a restaurant during breaks and goes back to school, so he alternates between school and work.",
+          "value": "alternates between college and working at a restaurant during breaks",
+          "lines": [
+            128,
+            130
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

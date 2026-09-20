@@ -1,0 +1,421 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a explicitly says 'I'm Jason' during introductions.",
+          "value": "Jason",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'here in Bakersfield' when comparing his city to another. He also describes weather typical of Bakersfield (hot summers, mild winters) and mentions the county.",
+          "value": "Bakersfield, California",
+          "lines": [
+            101,
+            135,
+            145,
+            147,
+            149
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "After a loud train noise, speaker_a apologizes and explains: 'We lived in this rinky thing, mobile home park and every time I do one of these things the train comes through.' The context indicates he currently lives there.",
+          "value": "Mobile home park near train tracks",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to himself as a 'young man' and describes his living situation as 'two roommates to other guys', indicating he is male.",
+          "value": "Male",
+          "lines": [
+            85,
+            109
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I voted already' and sent his ballot at the beginning of October, meaning he is a registered voter.",
+          "value": "Voter (voted early)",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_a says 'me and Joey have some mental issues' and that they need to look out for each other.",
+          "value": "Has mental health issues",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states that he and his family were 'always terrified of driving on the freeways and highways', that he never took many trips, and that he is 'not a great driver'.",
+          "value": "Fear of driving on freeways",
+          "lines": [
+            91,
+            93,
+            95
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_a says 'I drove to LA once and I lost my license not that long after it.'",
+          "value": "Lost driver's license",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_a resides in a mobile home park, which typically indicates limited financial resources.",
+          "value": "Lives in a mobile home park",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When discussing an investing book, speaker_a remarks 'I think that's never going to be a practical use for me,' implying he lacks money to invest.",
+          "value": "No practical use for investment knowledge",
+          "lines": [
+            197
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'I just live with two roommates to other guys'.",
+          "value": "Two male roommates",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'me and Joey' when discussing mental issues, giving the name of one roommate.",
+          "value": "Roommate named Joey",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes a train trip taken to visit his sister and later her wedding; the sister is explicitly mentioned.",
+          "value": "Has a sister",
+          "lines": [
+            85,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his sister's boyfriend (later husband) worked at Blizzard, the company that made Diablo 2.",
+          "value": "Sister's husband worked at Blizzard on Diablo 2",
+          "lines": [
+            87
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'My mother was there' at his sister's wedding.",
+          "value": "Has a mother",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Mike told me to watch that thing on netflix, Hubie Halloween'.",
+          "value": "Friend named Mike",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I usually go see him' about a male friend and describes the friend's situation.",
+          "value": "Has a male friend he regularly visits",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'We know female companionship and no kids' referring to himself and his roommates.",
+          "value": "No romantic partner and no children",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes his day as staying in, relaxing, and generally avoiding going out due to illness concerns.",
+          "value": "Stays home often",
+          "lines": [
+            19,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he never got around to taking trips because he and his family were terrified of freeways, implying he avoids them.",
+          "value": "Avoids driving on freeways",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'Maybe I'll cook something later for everyone.'",
+          "value": "Cooks for roommates",
+          "lines": [
+            19
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I just watched the news mostly.'",
+          "value": "Watches news mostly",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions reading short stories and an investing book by Warren Buffett's favorite investor.",
+          "value": "Reads short stories and investing books",
+          "lines": [
+            191,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he voted early, sending his ballot in early October.",
+          "value": "Voted early",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'me and Joey have some mental issues so we've got to look out for each other', indicating a caregiving aspect to their relationship.",
+          "value": "Looks out for roommate with mental health issues",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself with 'I'm Michel'. (ASR rendered this as 'Michel', possibly Michelle or Michael, but the verbatim string is recorded as given.)",
+          "value": "Michel",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I've been bossed outside of boston' (phonetic for 'I live just outside of Boston'). She also refers to the smoke reaching 'all the way to boston' and says 'here it's getting cold', all consistent with the Boston area.",
+          "value": "Outside Boston, Massachusetts",
+          "lines": [
+            102,
+            118,
+            128
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b repeatedly says 'my husband', indicating she is likely female (the name Michel can be female). No direct gender statement.",
+          "value": "Female",
+          "lines": [
+            106
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions 'my son' and 'my daughter'.",
+          "value": "Parent of two children",
+          "lines": [
+            10,
+            12,
+            46,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my husband'.",
+          "value": "Married",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her group as 'my family of four' during the train trip story.",
+          "value": "Family of four",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b begins to say 'my sister' before being interrupted by a loud noise.",
+          "value": "Has a sister",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my niece goes to school in Georgia'.",
+          "value": "Has a niece",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my husband' multiple times.",
+          "value": "Married to a husband",
+          "lines": [
+            106,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'he's 13' about her son.",
+          "value": "13-year-old son",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my daughter is a big rock climber' and earlier describes her daughter's ceramics class.",
+          "value": "Daughter who is a rock climber and does ceramics",
+          "lines": [
+            46,
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my sister' (though the sentence is cut off).",
+          "value": "Has a sister",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my niece goes to school in Georgia' and 'she spends every weekend up there because all her friends are there' (referring to the University of Georgia area).",
+          "value": "Niece attending school in Georgia",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b describes managing her kids' remote learning and the hybrid school model they follow.",
+          "value": "Manages children's remote/hybrid learning",
+          "lines": [
+            22,
+            24,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has been doing 'a lot of text banking' to encourage people to vote.",
+          "value": "Engages in text banking for voter turnout",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about reading 'Conversations' and 'Normal People' by Sally Rooney.",
+          "value": "Reads literary fiction (Sally Rooney)",
+          "lines": [
+            168,
+            172,
+            178,
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have no interest in going anywhere near a restaurant' and expresses shock that people are dining indoors.",
+          "value": "Avoids indoor dining due to COVID-19",
+          "lines": [
+            126,
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts an overnight train trip from Montana to Seattle taken with her family a couple of years ago.",
+          "value": "Took overnight train from Montana to Seattle with family",
+          "lines": [
+            70,
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_a asks if she is eating oatmeal, speaker_b corrects him: 'it was a coffee'.",
+          "value": "Drinks coffee",
+          "lines": [
+            105,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At the end of the conversation, after speaker_a asks speaker_b's name and they exchange greetings, speaker_b says 'Oops, thanks Trey' (line 378). This suggests speaker_a's first name is Trey. Not explicitly confirmed by speaker_a and could be a transcription error, but it is the only name candidate.",
+          "value": "Trey",
+          "lines": [
+            378
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "When speaker_b asks what part of North Carolina speaker_a lives in, speaker_a replies 'I live in the central part right along the border of Virginia. I can be in Virginia in about two minutes.' (lines 268-269). Earlier, the context already pointed to North Carolina.",
+          "value": "central North Carolina, near Virginia border",
+          "lines": [
+            268,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live I live in a pretty nice neighborhood but like right across kind of the highway a little bit, there's a motel that's kind of shady.' (lines 257, 259).",
+          "value": "lives in a nice neighborhood across a highway from a shady motel",
+          "lines": [
+            257,
+            259
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a states 'I used to live in D.C.' (line 279) and mentions living there eight years ago (line 319).",
+          "value": "used to live in Washington, D.C.",
+          "lines": [
+            279,
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a contrasts his previous $1200/month D.C. apartment with 'here dollars buys you a nice house', implying he currently lives in a house in North Carolina.",
+          "value": "currently lives in a house",
+          "lines": [
+            319
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'all three have been guys' referring to the three people she has talked to, including speaker_a (line 10).",
+          "value": "male",
+          "lines": [
+            10
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I could definitely tell you have an accent' and speaker_a acknowledges and discusses his Southern accent (lines 278-279).",
+          "value": "has a Southern accent",
+          "lines": [
+            278,
+            279
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I love prolific. That's great working from home sometimes' and describes doing surveys throughout the day to supplement income (line 91).",
+          "value": "works from home sometimes and supplements income with online surveys",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a explicitly mentions using Prolific for surveys (lines 91, 123).",
+          "value": "uses Prolific survey platform",
+          "lines": [
+            91,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I use prolific and then I do User testing and value ... $10 for a self directed test ... $30 or $60' (line 123). The exact platform name is garbled.",
+          "value": "does user testing on platforms that pay $10-$60 per test",
+          "lines": [
+            123
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a recommends dScout (lines 149-153) and says 'I've done one on there that pay over like $200' (line 151).",
+          "value": "uses dScout app; earned over $200 on a project",
+          "lines": [
+            149,
+            151,
+            153
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says survey earnings 'make enough to pay my internet bill or something like that' (line 91).",
+          "value": "earns enough from surveys to pay internet bill",
+          "lines": [
+            91
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a recalls 'when I lived in D.C. I was paying like 1200 a month for a one bedroom apartment' eight years ago (line 319).",
+          "value": "paid $1200/month for a one-bedroom apartment in D.C. eight years ago",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My mom used to be a school principal' (line 247).",
+          "value": "mother was a school principal",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I do a dog set on the side sometimes' (line 69). The intended word is likely 'dog sit'.",
+          "value": "dog sits as a side gig",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I've had dioxins in the past' (line 71). Likely mishearing of 'dachshunds'.",
+          "value": "owned dachshunds in the past",
+          "lines": [
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'the next dog I get I want to get something a little bit bigger' (line 71).",
+          "value": "wants a bigger dog next",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been to Toronto and like out list' (line 359) when asked about Canada.",
+          "value": "has visited Toronto, Canada",
+          "lines": [
+            359
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'when I moved back here though just the slower pace of life I got accustomed to ... and I wouldn't want to move to like a bigger city again' (lines 321-323).",
+          "value": "prefers slower pace of life, would not move back to a big city",
+          "lines": [
+            321,
+            322,
+            323
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'So that was good Illinois.' (line 12), 'we live right by the Mississippi River' (line 26), describes being in the Quad Cities area near Moline, Illinois, across from LeClaire, Iowa (lines 30, 32, 34).",
+          "value": "lives in Illinois, Quad Cities area, near Moline, on the Mississippi River across from LeClaire, Iowa",
+          "lines": [
+            12,
+            26,
+            30,
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'd say like two minutes from town ish. But we're like right by this like um it was like a nature preserve slash like a hiking and biking trail area, so that's like right behind our back yard' (line 14).",
+          "value": "lives in a semi-rural area, two minutes from town, near a nature preserve with trails",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "When asked about property size, speaker_b says 'It's like an acre and a half.' (line 48).",
+          "value": "property size approximately 1.5 acres",
+          "lines": [
+            47,
+            48
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we, we actually bought at the end of june' (line 52).",
+          "value": "bought their current house at the end of June",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we lived in town in Moline like 20 minutes away' (line 52).",
+          "value": "previously lived in Moline, IL, about 20 minutes away",
+          "lines": [
+            52
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I grew up in central Iowa' (line 346).",
+          "value": "grew up in central Iowa",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was born in California' (line 344).",
+          "value": "born in California",
+          "lines": [
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We lived in michigan for a few years ... We lived on uh 10 acres and it was a mixture of like farmland and wooded area' (lines 326, 334).",
+          "value": "lived in Michigan on a 10-acre property (farmland/wooded)",
+          "lines": [
+            326,
+            334
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'that was actually where both our kids were born' (line 326).",
+          "value": "both children were born in Michigan",
+          "lines": [
+            326
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to herself as a 'stay at home mom' and says 'my husband' multiple times; the context strongly implies female.",
+          "value": "female",
+          "lines": [
+            138,
+            280
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we have a five year old and an almost three year old' (line 52).",
+          "value": "mother of two children",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my husband' (lines 280, 334).",
+          "value": "married",
+          "lines": [
+            280,
+            334
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was like a stay at home mom' (line 138) and 'I'm able to stay home with my kids now' (line 224).",
+          "value": "currently a stay-at-home mom",
+          "lines": [
+            138,
+            224
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'once Covid hit, I actually, well I was furloughed because I worked at Fedex office' (line 94).",
+          "value": "worked at FedEx Office; furloughed due to COVID-19",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions using Prolific for surveys (lines 82, 92, 102) and describes doing them regularly.",
+          "value": "uses Prolific to earn money from surveys",
+          "lines": [
+            82,
+            92,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I got into mturk momentarily for like a few months ... I only made like $200' (lines 136-140).",
+          "value": "previously used Amazon MTurk, earned about $200 over a few months",
+          "lines": [
+            136,
+            140
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states they bought their house at the end of June (line 52).",
+          "value": "purchased a house at the end of June",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my husband was in the navy from 2011-2015' (line 280).",
+          "value": "husband served in the U.S. Navy, 2011-2015",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says the five-year-old started kindergarten, and describes virtual schooling (lines 52, 54, 198-218).",
+          "value": "son, age 5, started kindergarten in fall 2020; doing virtual learning",
+          "lines": [
+            52,
+            54,
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'that's my daughter, her birthday's on november three, so she's gonna be three on november three' (line 176) and calls her Piper (line 190).",
+          "value": "daughter Piper, turning 3 on November 3",
+          "lines": [
+            176,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my sister lives in like northern California' (line 310) and 'she got married last fall' (line 312).",
+          "value": "sister lives in northern California, married last fall",
+          "lines": [
+            310,
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we have a dog ... she's a yellow lab' (line 60), 'she's four' (line 64), and 'I think her name is daisy' (line 66).",
+          "value": "dog named Daisy, yellow lab, 4 years old",
+          "lines": [
+            60,
+            64,
+            66
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says the area behind the yard is a nature preserve with hiking and biking trails (line 14).",
+          "value": "lives adjacent to a nature preserve with hiking/biking trails",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we just not just started potty training but we just kind of got successful at potty training' (line 176).",
+          "value": "potty training her daughter",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses a preference for seclusion and safety inland, away from big cities (lines 304-308, 318).",
+          "value": "prefers a secluded, slower-paced lifestyle away from big cities",
+          "lines": [
+            304,
+            308,
+            318
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b describes refreshing Prolific and doing surveys in spare moments (lines 92-98).",
+          "value": "does online surveys during spare time",
+          "lines": [
+            92,
+            98
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,270 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b infers Ohio from the time zone and directly asks about Ohio; speaker_a confirms and later explicitly mentions living in Columbus, Ohio.",
+          "value": "Ohio (Columbus area)",
+          "lines": [
+            60,
+            61,
+            159,
+            161
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'we come from India'.",
+          "value": "Indian",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they are vegetarian and do not eat meat or fish.",
+          "value": "vegetarian",
+          "lines": [
+            281,
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a describes their role as a business manager for website and software for a retail company, and later says they work directly with Express (express.com).",
+          "value": "business manager for website and software at Express",
+          "lines": [
+            9,
+            13,
+            23,
+            25
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a discusses using Prolific for extra income and praises the platform.",
+          "value": "Prolific survey participant",
+          "lines": [
+            75,
+            89,
+            93,
+            95
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my husband' in the context of the lockdown and consistently uses 'we', indicating a marital relationship. (Later 'my wife' in line 267 is likely an ASR error for 'we'.)",
+          "value": "married",
+          "lines": [
+            169,
+            221
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says one of the family members got sick.",
+          "value": "has family members",
+          "lines": [
+            53,
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'we have friends here in us in different states'.",
+          "value": "has friends in different US states",
+          "lines": [
+            231
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says they like different types of food like mediterranean, italian, mexican but vegetarian.",
+          "value": "enjoys mediterranean, italian, mexican vegetarian food",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes visiting New York City and mentions Times Square, Statue of Liberty, Central Park.",
+          "value": "visited New York City (Times Square, Statue of Liberty, Central Park)",
+          "lines": [
+            265,
+            267
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes working from home during the pandemic, occasionally going into the office.",
+          "value": "works from home, occasionally goes to office",
+          "lines": [
+            11,
+            51,
+            129,
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as Caitlin.",
+          "value": "Caitlin",
+          "lines": [
+            4
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b explicitly states 'I'm in California'.",
+          "value": "California",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'in the county I live in, we have a lot of tourism'.",
+          "value": "lives in a county with significant tourism",
+          "lines": [
+            146
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b mentions having school, working classes, and studying.",
+          "value": "student",
+          "lines": [
+            6,
+            30,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is studying 'texture', which is close to construction; likely a mishearing for architecture or a related field.",
+          "value": "studying 'texture' (likely architecture/construction-related)",
+          "lines": [
+            30
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_b says she took French in high school, was in a French club, and visited France.",
+          "value": "studied French in high school, visited France",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I know I'm healthy' when discussing COVID-19 risk.",
+          "value": "considers herself healthy",
+          "lines": [
+            188
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b states she is an office assistant in a construction office.",
+          "value": "office assistant at a construction office",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b discusses using Prolific surveys to make extra money in the mornings.",
+          "value": "Prolific survey participant",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says her parents are vegetarian, which influences her own diet.",
+          "value": "parents are vegetarian",
+          "lines": [
+            290,
+            302
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I have family members are more at risk' regarding COVID-19.",
+          "value": "has family members at higher risk for COVID-19",
+          "lines": [
+            188
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she likes camping, hiking, and the beach.",
+          "value": "enjoys camping, hiking, and the beach",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses love for mediterranean food, falafel, and indian food.",
+          "value": "enjoys mediterranean, falafel, and indian food",
+          "lines": [
+            290,
+            292,
+            295
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she left her college town because people were not responsible about COVID-19 and she went home.",
+          "value": "left college town during pandemic due to lack of safety measures",
+          "lines": [
+            182,
+            184
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she does Prolific surveys in the morning before starting schoolwork.",
+          "value": "does Prolific surveys in the morning before schoolwork",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

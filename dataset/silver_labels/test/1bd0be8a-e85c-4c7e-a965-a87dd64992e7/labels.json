@@ -1,0 +1,441 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'I'm Andrew' in line 11.",
+          "value": "Andrew",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States he is in northern California, the Bay Area, specifically Santa Clara, and attends Santa Clara University; also mentions nearby coastal spots.",
+          "value": "Santa Clara, California (Bay Area)",
+          "lines": [
+            21,
+            23,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says 'I'm in college right now' and names Santa Clara University.",
+          "value": "College student at Santa Clara University",
+          "lines": [
+            15,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states his major in line 25.",
+          "value": "Finance major",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Declares 'I'm not really religious at all' and that his parents aren't either.",
+          "value": "Not religious",
+          "lines": [
+            125,
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes being born in Kenya and living in Romania, Brazil, Germany, Latvia, China, Italy, and Ghana.",
+          "value": "Born in Kenya, lived in multiple countries (Romania, Brazil, Germany, Latvia, China, Italy, Ghana)",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Says 'I beat the coronavirus cursed by like, like two weeks' and speaker_b acknowledges it.",
+          "value": "Recovered from COVID-19",
+          "lines": [
+            29,
+            35,
+            36
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions this is his third shrooms trip, a microdose.",
+          "value": "Uses psychedelic mushrooms (third trip, microdosing)",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Started Prolific a month ago, earned only $10; says money is tough right now.",
+          "value": "Makes little money; earned $10 on Prolific",
+          "lines": [
+            49,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he 'beat the coronavirus curse' by two weeks, implying he secured a job or opportunity just before the pandemic's economic impact.",
+          "value": "Likely secured a job or opportunity just before COVID-19 impact",
+          "lines": [
+            29
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Tells a story about a friend who bought a van from an Australian, and the van contained shrooms and weed.",
+          "value": "Has a friend who bought a van containing drugs",
+          "lines": [
+            37,
+            38,
+            39,
+            40,
+            41
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says the person he does shrooms with is super experienced and feeds him chocolate.",
+          "value": "Has an experienced trip-sitter who provides chocolate during mushroom trips",
+          "lines": [
+            75
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Explicitly states his parents aren't religious.",
+          "value": "Parents are not religious",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions knowing someone on the Santa Clara team that won a national debate competition.",
+          "value": "Knows a national debate champion at Santa Clara University",
+          "lines": [
+            205
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says he loves Reddit and has been on it for a while.",
+          "value": "Reddit user",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about doing mushroom trips with an experienced guide.",
+          "value": "Psychedelic mushroom user",
+          "lines": [
+            65,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses appreciation for nature, being close to beaches, Big Sur, etc.",
+          "value": "Enjoys outdoor activities and nature (beach, coastal areas)",
+          "lines": [
+            215,
+            209
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Uses Prolific and plans to try Swagbucks for extra money.",
+          "value": "Uses online survey sites for extra cash (Prolific, Swagbucks)",
+          "lines": [
+            49,
+            52,
+            53
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'I'm Fran Fran Francisco' with ASR error 'missing me too' for 'nice to meet you'; the repeated 'Fran' indicates the first name is Fran while the rest may be garbled.",
+          "value": "Fran",
+          "lines": [
+            12
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm from southern California so I'm pretty much born and raised down here'.",
+          "value": "Southern California",
+          "lines": [
+            20
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Says he graduated in December and there's no work out there.",
+          "value": "Recent graduate (graduated in December)",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States he was an interdisciplinary studies major, the first to graduate with that degree, and essentially made his own program.",
+          "value": "Interdisciplinary studies major (self-designed program)",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains he went to a Christian school, had chapel three times a week, and pretty much minored in biblical studies; the school appears to be non-denominational Wesleyan (likely Azusa Pacific University).",
+          "value": "Attended a Christian university with a biblical studies minor",
+          "lines": [
+            136,
+            138
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he plays guitar, trombone, and originally started as a music major.",
+          "value": "Musician (guitar, trombone)",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about loving the psychedelic acid room on Reddit, using LSD, and using mushrooms despite nausea.",
+          "value": "Psychedelic drug user (LSD, mushrooms)",
+          "lines": [
+            60,
+            62,
+            72,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes saving up to buy a van, names a specific model (Chevy G20), and lays out travel plans.",
+          "value": "Van life enthusiast",
+          "lines": [
+            36,
+            44,
+            98,
+            100,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Recounts joining the debate team for scholarships, traveling to tournaments, and honing public speaking skills.",
+          "value": "Former debate team member",
+          "lines": [
+            182,
+            184,
+            186,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses a goal to write a book that merges transcendentalist ideas with Christian concepts of divinity in nature.",
+          "value": "Aspiring Christian transcendentalist writer",
+          "lines": [
+            124
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Reports getting nauseous on mushrooms, that it ruins the trip, and that throwing up halfway brings relief; says his stomach doesn't like it.",
+          "value": "Experiences nausea and vomiting from psychedelic mushrooms",
+          "lines": [
+            72,
+            74,
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions getting wholesale LSD and hooking up homies, implying personal use.",
+          "value": "Uses LSD",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he graduated in December and there's no work out there, indicating unemployment.",
+          "value": "Unemployed after graduation",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Reports using Prolific since 2019 and making $150–200, and also making $25 on Swagbucks from a slot game.",
+          "value": "Makes money online via Prolific ($150-200) and Swagbucks ($25)",
+          "lines": [
+            48,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says 'I'm currently saving up to buy a van to live in'.",
+          "value": "Saving money for a van purchase",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says his plug is female and mails him LSD sheets; 'plugs blood' is likely garbled but indicates a drug supplier relationship.",
+          "value": "Has a female LSD dealer who mails sheets",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions sticking an LSD tab into letters to friends as a surprise.",
+          "value": "Sends LSD to friends via mail",
+          "lines": [
+            94
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes friends on the debate team, traveling together, and bonding.",
+          "value": "Has debate team friends",
+          "lines": [
+            182,
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says he hooks up his homies with LSD.",
+          "value": "Shares LSD with homies",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Uses LSD and mushrooms despite nausea; frequents psychedelic subreddits.",
+          "value": "Psychedelic enthusiast",
+          "lines": [
+            60,
+            62,
+            72,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plans to buy a van, travel the west coast (Norco/Portland/Seattle/Utah/Colorado) and eventually settle in Massachusetts/Maine/Vermont; mentions Walden Pond and Thoreau.",
+          "value": "Van life adventurer with travel plans across US",
+          "lines": [
+            36,
+            98,
+            100,
+            101,
+            122
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Uses Prolific and Swagbucks for extra cash.",
+          "value": "Beer money earner (online surveys and offers)",
+          "lines": [
+            46,
+            48,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Plays guitar and trombone.",
+          "value": "Musician",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Was on the debate team, competed in tournaments, and gained public speaking skills.",
+          "value": "Debate team alum",
+          "lines": [
+            182,
+            186,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Has a goal to write a book merging transcendentalism with Christian divinity in nature.",
+          "value": "Aspiring writer on Christian transcendentalism",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he uses Reddit for a lot of stuff and specifically loves the psychedelic acid room.",
+          "value": "Reddit user (psychedelic subreddits)",
+          "lines": [
+            58,
+            60,
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

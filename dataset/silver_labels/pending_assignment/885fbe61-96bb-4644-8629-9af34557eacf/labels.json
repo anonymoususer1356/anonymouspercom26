@@ -1,0 +1,454 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker says 'My name is a J', which appears to be 'AJ', a first name or nickname.",
+          "value": "AJ",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in sacramento California'.",
+          "value": "Sacramento, California",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker says 'I was in boy scouts'.",
+          "value": "former Boy Scout",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my film class had a trip to New Zealand' for school credit, indicating enrollment in a film-related course.",
+          "value": "film student (took film class)",
+          "lines": [
+            235,
+            236
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states 'I have a 3D printer'.",
+          "value": "owns a 3D printer",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I used to sell on Etsy little medallions that I made'.",
+          "value": "used to sell crafts on Etsy",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker discusses doing multiple Prolific chats and the pay (speaker_b mentions 'decent money', speaker_a does not disagree and rates the experience 10/10), implying income from them.",
+          "value": "earns money from Prolific studies",
+          "lines": [
+            23,
+            27,
+            29,
+            32,
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker refers to 'the laptop I'm using now'.",
+          "value": "has a laptop",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'hopefully the, my partner or will arrive in a couple minutes', indicating a partner.",
+          "value": "has a partner",
+          "lines": [
+            1
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker says 'my parents are like that'.",
+          "value": "has parents",
+          "lines": [
+            173
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my friend and I have gotten many an argument' and mentions a friend in line 265.",
+          "value": "has a friend",
+          "lines": [
+            193,
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions dad and making fun of him ('I make fun of him endlessly').",
+          "value": "has a dad",
+          "lines": [
+            177,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker agrees 'Yes, films' when asked if a movie fan.",
+          "value": "movie fan",
+          "lines": [
+            14,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My favorite movie' in response to Zootopia.",
+          "value": "favorite movie is Zootopia",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions buying shirts with Disney movie rewards, says they have about seven, and references wearing them daily in context of Zootopia.",
+          "value": "owns multiple Zootopia shirts (approximately seven)",
+          "lines": [
+            69,
+            71
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker describes 3D printing items like a 'plastic kitty', lithophanes, and an Indiana Jones idol.",
+          "value": "creates 3D printed crafts and movie props",
+          "lines": [
+            51,
+            53,
+            55,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I was harry potter, so I have all the harry potter stuff'.",
+          "value": "Harry Potter fan",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they grew up listening to Harry Potter audiobooks on cassette.",
+          "value": "listens to audiobooks",
+          "lines": [
+            159,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes playing Shadow of Mordor on laptop extensively, indicating they play video games.",
+          "value": "plays video games (e.g., Shadow of Mordor)",
+          "lines": [
+            129,
+            133,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker recommends Lindsay Ellis' Hobbit video essays on YouTube.",
+          "value": "watches YouTube film critic Lindsay Ellis",
+          "lines": [
+            227,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they made a Reddit post.",
+          "value": "uses Reddit",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker recounts a film class trip to New Zealand, including a 14-mile hike to a location representing Mount Doom.",
+          "value": "went on a film class trip to New Zealand and hiked Mount Doom",
+          "lines": [
+            235,
+            236,
+            240,
+            243,
+            247,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'Jurassic Park is another really good one'.",
+          "value": "enjoys Jurassic Park movies",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker indicates they watched LOTR extended editions, possibly 1.5 movies consecutively, feeling shell-shocked.",
+          "value": "marathon-watched LOTR extended editions",
+          "lines": [
+            267,
+            269
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in phoenix Arizona'.",
+          "value": "Phoenix, Arizona",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I'm 36'.",
+          "value": "age 36",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm a teacher'.",
+          "value": "teacher",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have a four year old and an 11 month old'.",
+          "value": "mother of two children",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker says 'we all have cold here at my house', indicating they currently have a cold.",
+          "value": "currently has a cold",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states they are a teacher, implying employment and income.",
+          "value": "employed as a teacher",
+          "lines": [
+            174
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they have done Prolific chats and got 'decent money'.",
+          "value": "earns money from Prolific studies",
+          "lines": [
+            24,
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I just got a cricket' (Cricut), a crafting machine.",
+          "value": "owns a Cricut machine",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they bought the second Hobbit movie on Amazon streaming.",
+          "value": "buys movies on Amazon streaming",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker says 'My husband has a...'.",
+          "value": "married, has husband",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions 'my four year old' and 'my daughter'.",
+          "value": "has a daughter, age 4",
+          "lines": [
+            16,
+            46,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'an 11 month old' and refers to 'my son's middle name', indicating the infant is a son.",
+          "value": "has a son, age 11 months",
+          "lines": [
+            156,
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'my son's middle name is faded in' (ASR), likely a Tolkien character name. Exact name uncertain.",
+          "value": "son's middle name is 'faded in' (likely a Tolkien name)",
+          "lines": [
+            118
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker says 'my friend was just um in New Zealand'.",
+          "value": "has a friend",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'My husband is a big gamer'.",
+          "value": "husband is a gamer",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker states 'I'm a big Lord of the Rings fan'.",
+          "value": "Lord of the Rings fan",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they read all three LOTR books every year.",
+          "value": "re-reads LOTR books annually",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm harry potter fan to'.",
+          "value": "Harry Potter fan",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes getting a Cricut and making hair bows for her daughter.",
+          "value": "enjoys crafting with Cricut, making hair bows",
+          "lines": [
+            44,
+            46,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I played wow once upon a Time before kids'.",
+          "value": "played World of Warcraft before having children",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says they went to the midnight premiers of all of the Hobbit movies.",
+          "value": "attended midnight premieres of The Hobbit movies",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker discusses watching Harry Potter and Zootopia with her daughter.",
+          "value": "watches movies with her children",
+          "lines": [
+            16,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says her daughter listens to audiobooks and Hamilton on a device.",
+          "value": "child listens to audiobooks/Hamilton",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes a children's audio device called 'junkie' (likely a misrecognition of a brand) that her daughter uses.",
+          "value": "uses a children's audio device ('junkie') for daughter",
+          "lines": [
+            164
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

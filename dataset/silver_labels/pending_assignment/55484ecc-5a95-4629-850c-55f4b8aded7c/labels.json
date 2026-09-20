@@ -1,0 +1,602 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "He introduces himself as Jacob.",
+          "value": "Jacob",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "He states he is in Illinois, in the middle between Chicago and St. Louis, in a college town.",
+          "value": "Central Illinois college town (halfway between Chicago and St. Louis)",
+          "lines": [
+            5,
+            9,
+            13
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He says he is from the Chicago area and previously lived in its suburbs.",
+          "value": "Originally from Chicago suburbs",
+          "lines": [
+            9,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his first college was in Texas, implying he lived there.",
+          "value": "Lived in Texas for college",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He is currently a college student; he describes his major, year, and academic path.",
+          "value": "College junior majoring in cybersecurity (student)",
+          "lines": [
+            9,
+            21,
+            25,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He states he is COVID-free and later confirms he tested negative for COVID-19.",
+          "value": "Tested negative for COVID-19",
+          "lines": [
+            15,
+            127,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "He recounts hopping a transit gate in Los Angeles without paying the fare.",
+          "value": "Committed fare evasion on LA public transit",
+          "lines": [
+            85
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "He says he works at a Jimmy John's and plans to work over Thanksgiving.",
+          "value": "Employed at Jimmy John's",
+          "lines": [
+            93,
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions owning an Xbox that his dog chewed.",
+          "value": "Owns an Xbox game console",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes commuting to a previous job and waiting at a train crossing.",
+          "value": "Previously employed at a job requiring a car commute",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He repeatedly refers to his girlfriend and details about her.",
+          "value": "Has a girlfriend",
+          "lines": [
+            111,
+            141,
+            145,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His girlfriend owns two cats, adopted during the pandemic.",
+          "value": "Girlfriend has two cats",
+          "lines": [
+            141,
+            145,
+            187,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says his girlfriend works at the same university he attends.",
+          "value": "Girlfriend works at his university",
+          "lines": [
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He shares that his girlfriend's grandmother passed away in spring 2020.",
+          "value": "Girlfriend's grandmother died in April/May 2020",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his sister graduating college.",
+          "value": "Has a sister",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states his parents are separated and describes where each lives.",
+          "value": "Parents are separated (mother in Chicago, father in suburbs)",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He mentions his mother has a boyfriend.",
+          "value": "Mother has a boyfriend",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He notes his mother is part of the at-risk population for COVID-19.",
+          "value": "Mother is at high risk for COVID-19",
+          "lines": [
+            115
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He describes his father's black lab dog and its behavior.",
+          "value": "Father owns a black lab dog",
+          "lines": [
+            171,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says he used to have a dog that chewed his Xbox controller.",
+          "value": "Previously owned a dog",
+          "lines": [
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He met friends online and later met them in person in Los Angeles.",
+          "value": "Has friends originally met online",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He takes online classes for his cybersecurity degree.",
+          "value": "Attends college online",
+          "lines": [
+            95
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He expresses disinterest in the party scene.",
+          "value": "Not into partying",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He works at a fast-food restaurant.",
+          "value": "Works at Jimmy John's",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He recalls playing on his Xbox before his dog destroyed the controller.",
+          "value": "Plays video games (Xbox)",
+          "lines": [
+            165
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He describes a trip to Los Angeles and San Francisco with friends.",
+          "value": "Traveled to California (LA and SF) with friends",
+          "lines": [
+            79,
+            85,
+            89
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He explicitly states he prefers heat to cold weather.",
+          "value": "Prefers hot weather over cold",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He plays with his girlfriend's cats and mentions their behaviors.",
+          "value": "Interacts with cats regularly",
+          "lines": [
+            145,
+            187,
+            203
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He changed major three times and attended three different colleges.",
+          "value": "Switched major three times and attended three colleges",
+          "lines": [
+            29,
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He is on a five-year graduation plan instead of four.",
+          "value": "On a five-year college graduation plan",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He remembers his high school graduation having about 300 people indoors.",
+          "value": "Had a high school graduation with ~300 attendees indoors",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes driving to work and dealing with a train crossing.",
+          "value": "Drives a car for commuting",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He mentions participating in video calls with people from New York and Pennsylvania.",
+          "value": "Participates in video calls with people from other states",
+          "lines": [
+            103
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He plans to work over the Thanksgiving break instead of traveling.",
+          "value": "Works during Thanksgiving break",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as Jess.",
+          "value": "Jess",
+          "lines": [
+            4
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she lives outside Cleveland, Ohio, having moved there a little over a year ago.",
+          "value": "Outside Cleveland, Ohio",
+          "lines": [
+            6,
+            18,
+            62
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states she is originally from New Hampshire.",
+          "value": "Originally from New Hampshire",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions living in Chicago for a couple of years.",
+          "value": "Lived in Chicago, Illinois for a few years",
+          "lines": [
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She attended USC for undergrad, so she lived in Los Angeles, California.",
+          "value": "Lived in Los Angeles, California while attending USC",
+          "lines": [
+            40,
+            44,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she moved to Ohio a little over a year before this conversation.",
+          "value": "Moved to Ohio about one year ago",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She completed a master's degree and is in the process of applying to medical school.",
+          "value": "Graduate student (master's holder, medical school applicant)",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She believes she may have had COVID-19 in March when she was very sick but could not get a test.",
+          "value": "Suspected case of COVID-19 in March (untested)",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She regularly took her dog to daycare before quarantine and found it expensive.",
+          "value": "Pays for dog daycare (finds it costly)",
+          "lines": [
+            150,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She refers to her locked apartment, indicating she rents.",
+          "value": "Lives in an apartment",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She owns a dog, implying related expenses.",
+          "value": "Owns a dog",
+          "lines": [
+            140,
+            146,
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She bought a deadbolt cover to prevent her dog from escaping.",
+          "value": "Purchased a deadbolt cover",
+          "lines": [
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She did not have a car during her first two years of college, reducing transportation costs.",
+          "value": "Did not own a car during first two years of college",
+          "lines": [
+            84
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She talks about her sister and brother-in-law.",
+          "value": "Has a sister",
+          "lines": [
+            124,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions her brother-in-law is in the military.",
+          "value": "Brother-in-law is in the military",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her sister works at a school.",
+          "value": "Sister works at a school",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her sister's dog and its behavior.",
+          "value": "Sister and brother-in-law have a dog",
+          "lines": [
+            136,
+            190,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She discusses her own dog extensively (hound, 40 lbs, separation anxiety, ~3 years old).",
+          "value": "Owns a dog (hound, ~40 lbs, ~3 years old)",
+          "lines": [
+            140,
+            146,
+            158,
+            160,
+            176,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She references telling a friend about her dog's expanding behavior.",
+          "value": "Has at least one friend",
+          "lines": [
+            182
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Since she moved recently, she does not know many people in Ohio.",
+          "value": "Limited local social circle in Ohio",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She cares for a dog with separation anxiety, uses daycare, installed a deadbolt cover, and ties doors closed.",
+          "value": "Dog owner dealing with separation anxiety and destructive behavior",
+          "lines": [
+            146,
+            150,
+            158,
+            160,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going to the gym on at least two occasions.",
+          "value": "Goes to the gym",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She attended USC for undergraduate, with a large outdoor graduation in 100-degree heat.",
+          "value": "Attended University of Southern California (USC) for undergrad",
+          "lines": [
+            40,
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She earned a master's degree and had a Zoom graduation in spring 2020.",
+          "value": "Completed master's degree with a virtual graduation",
+          "lines": [
+            18,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is currently applying to medical school.",
+          "value": "Applying to medical school",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She found Chicago's weather and trains unenjoyable during her time there.",
+          "value": "Disliked living in Chicago due to weather and trains",
+          "lines": [
+            56,
+            74
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She appreciates that Cleveland has little traffic.",
+          "value": "Enjoys low traffic in Cleveland",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In LA she walked a lot and did not have a car for two years.",
+          "value": "Walks as a mode of transportation (especially when without a car)",
+          "lines": [
+            80,
+            84
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions having a double bed that her dog takes up.",
+          "value": "Sleeps in a double bed",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She comments on holiday plants being poisonous to cats, showing general pet-owner knowledge.",
+          "value": "Knowledgeable about plants toxic to pets",
+          "lines": [
+            210
+          ],
+          "certainty": 2
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

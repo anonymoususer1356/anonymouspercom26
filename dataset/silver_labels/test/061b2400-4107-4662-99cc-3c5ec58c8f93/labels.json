@@ -1,0 +1,374 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself as 'Hi I'm Ryan'.",
+          "value": "Ryan",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm near san Francisco' and later mentions the university he is transferring to is in San Francisco.",
+          "value": "near San Francisco, California",
+          "lines": [
+            15,
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm a student mainly'.",
+          "value": "student",
+          "lines": [
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I'm studying accounting'.",
+          "value": "studying accounting",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions transferring from community college to a university: 'I'm transferring right now because I finished up at a community college and I'm going to university'.",
+          "value": "community college graduate transferring to university",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a expresses goal: 'I want to become a C. P. A.' after getting degree and passing test.",
+          "value": "aspiring CPA (Certified Public Accountant)",
+          "lines": [
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked in an accounting office right now doing data entry' and describes handling tax forms.",
+          "value": "data entry worker at a tax accounting office",
+          "lines": [
+            47,
+            49,
+            61,
+            69
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a describes variable hours: part-time currently, full-time Jan-April, half days 2-3 days a week.",
+          "value": "part-time data entry worker at tax accounting office with seasonal hours (full-time Jan-Apr, currently half days 2-3 days/week)",
+          "lines": [
+            47,
+            49,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states the conversation pays '$15' and mentions the time, indicating he is paid for it.",
+          "value": "receives $15 for this conversation",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I had a friend that went there and said he liked it' in reference to Zion National Park.",
+          "value": "friend who visited Zion National Park",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I have friends that we'll do we'll go camping at Yosemite'.",
+          "value": "friends who camp at Yosemite",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes office tasks and refers to 'other people working' remotely, implying coworkers.",
+          "value": "coworkers at accounting office",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a talks about the shift to online classes due to quarantine and issues with professors.",
+          "value": "takes online classes",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I've never been a big national park guy' but expresses interest in possibly going.",
+          "value": "not a frequent national park visitor, but open to it",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a responds to camping discussion with 'I like having running water and electricity as well'.",
+          "value": "prefers camping with amenities (running water, electricity)",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists places he has flown to: Oregon, Arizona, Hawaii, Tennessee, Texas, Italy.",
+          "value": "travels by air to multiple US states and Italy",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to watch the Premier League, I used to watch Manchester United'.",
+          "value": "former fan of Manchester United (Premier League)",
+          "lines": [
+            135
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a responds to mask comment with 'I don't mind that, I'm used to it', implying he wears a mask.",
+          "value": "wears a mask during pandemic, accustomed to it",
+          "lines": [
+            181
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'my name is jail'. ASR transcribed as 'jail', possibly a mishearing of a name like Jale, but recorded verbatim as 'jail'.",
+          "value": "jail",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'living in southern California', later mentions 'over here' expensive, and 'we have Joshua tree that's really close by here' confirming southern California.",
+          "value": "southern California",
+          "lines": [
+            14,
+            82,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'Just ended up going to the community culture', likely community college.",
+          "value": "attended community college",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he wanted to go to 'cinema' (Sonoma) but didn't get in, and also mentions Chico, indicating he applied to universities but wasn't admitted.",
+          "value": "unsuccessful applicant to Sonoma State (and likely Chico State)",
+          "lines": [
+            206,
+            208
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker_b recounts a road trip to Canada where border patrol denied entry because they had a person in the trunk of the Prius and didn't know their plans.",
+          "value": "denied entry to Canada at border (due to person in trunk, unclear plans)",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker_b acknowledges the conversation pays, saying 'you do end up getting paid quite a bit', and speaker_a confirms $15 for both.",
+          "value": "receives $15 for this conversation",
+          "lines": [
+            34,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I ended up working for over for half a year', implying past employment.",
+          "value": "worked for over half a year (past)",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I did a road trip to go visit my family or in colorado'.",
+          "value": "family in Colorado",
+          "lines": [
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'both of the times I went with my family' to Zion.",
+          "value": "went to Zion with family",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my friend is also studying accounting'.",
+          "value": "friend who is studying accounting",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I had a friend that went to Italy'.",
+          "value": "friend who visited Italy",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a friend that went to the one in Oakland' and 'he's black'.",
+          "value": "friend who attended Oakland protest (black)",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'me and my friends, we ended up going from here from southern California all the way up to Canada'.",
+          "value": "friends with whom he went on a road trip to Canada",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I personally like math … I started to like to use my mess even after this uh pandemic is over', meaning he wears a mask and plans to continue.",
+          "value": "wears a mask, plans to continue post-pandemic",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I go there and walk my dog' in the downtown area.",
+          "value": "walks dog downtown",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the Zion narrows hike, indicating he did it: 'you walk on a very shallow river … need water shoes … the hike is about eight miles' and recounts personal experience of going underprepared.",
+          "value": "enjoys hiking (e.g., Zion Narrows hike)",
+          "lines": [
+            94,
+            96,
+            98,
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I mean I'm not really a fan of campaign … but I'll do the hiking part'.",
+          "value": "dislikes camping",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses desire to watch a soccer match in Rome, saying 'the only reason why I would want to go to room is to watch …' and later 'That's the match I want to go' about Roma vs Lazio.",
+          "value": "wants to attend Roma vs Lazio match in Rome",
+          "lines": [
+            134,
+            138,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'the capital of chile' and 'I was going for a graduation', indicating a trip to Santiago, Chile for a graduation.",
+          "value": "traveled to Santiago, Chile for a graduation",
+          "lines": [
+            148,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'So I ended up going to some of the riots' in Chile.",
+          "value": "attended riots in Chile",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes a road trip 'from here from southern California all the way up to Canada and we drove there in less than a day'.",
+          "value": "went on road trip from southern California to Canada in less than a day",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

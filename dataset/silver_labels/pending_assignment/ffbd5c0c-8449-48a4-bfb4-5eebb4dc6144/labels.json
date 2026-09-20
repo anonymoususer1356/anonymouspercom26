@@ -1,0 +1,475 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I live in Cincinnati' directly.",
+          "value": "Cincinnati",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Immediately follows 'I live in Cincinnati' with 'from Louisville'.",
+          "value": "Louisville, Kentucky",
+          "lines": [
+            11
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm we go to Greenville quite a bit right?' in response to speaker_b's mention of Greenville. Speaker_b is in South Carolina and they discuss the area throughout.",
+          "value": "frequently visits Greenville, SC area",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'it's perfectly acceptable for a grown man not to know what Henry has monster is', directly addressing speaker_a. Speaker_a also uses 'man' as an interjection.",
+          "value": "male",
+          "lines": [
+            250
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States he has been using Prolific for a month, loves it, watches YouTube while doing it, and gets paid. 'I've been on prolific for a month… I love watching Youtube and like part of my prolific and if it comes up, I just take a break, getting paid to watch. So that's pretty good.'",
+          "value": "Prolific gig worker for about a month",
+          "lines": [
+            67,
+            69,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "References 'my girlfriend' in a story about watching Hamilton (line 229), says 'she's a keeper' about her (line 251), and talks about driving her crazy (lines 275–279).",
+          "value": "has a girlfriend",
+          "lines": [
+            229,
+            251,
+            275,
+            279
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I told my mom' in the context of wedding talk.",
+          "value": "has a mother",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In a garbled line about a wedding, says 'she she's Eastern Pittsburgh'. The referent is either the girlfriend or the mother, but wedding context suggests the girlfriend.",
+          "value": "girlfriend likely from Eastern Pittsburgh",
+          "lines": [
+            255
+          ],
+          "certainty": 2
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States 'I love watching Youtube like watch Youtube and like part of my prolific'.",
+          "value": "watches YouTube while doing Prolific tasks",
+          "lines": [
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Directly states 'I don't have any dogs'.",
+          "value": "does not own dogs",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I love Reddit' (line 103), 'I really post anything' (meaning doesn't post, line 111), and 'I don't post much either though' (line 123).",
+          "value": "Reddit user, mostly lurks",
+          "lines": [
+            103,
+            111,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Garbled line 'come on this, daddy read it' interpreted as 'Cincinnati Reddit', followed by 'useful stuff from the city living'.",
+          "value": "uses Cincinnati-related subreddit",
+          "lines": [
+            115,
+            117
+          ],
+          "certainty": 2
+        },
+        {
+          "reasoning": "Chooses Cinderella and mentions Snow White when asked about favourite Disney movies.",
+          "value": "favourite Disney movies: Cinderella and Snow White",
+          "lines": [
+            189,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I gave it 10 minutes' and 'I didn't like it' regarding Hamilton.",
+          "value": "dislikes the musical Hamilton",
+          "lines": [
+            215,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes staying at a hotel with a rooftop pool and sneaking in beer; speaker_b confirms by saying 'Montgomery can be fun'.",
+          "value": "visited Montgomery, AL and stayed at a hotel with a rooftop pool",
+          "lines": [
+            301,
+            303,
+            307,
+            309,
+            311,
+            315,
+            319,
+            320
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself directly: 'I'm Brittany from south Carolina'.",
+          "value": "Brittany",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I'm Brittany from south Carolina'.",
+          "value": "South Carolina",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I grew up in Alabama' (line 288), answers 'Clinton' (Clanton, line 292), and clarifies 'I'm not even from clinton, I'm from near plant in the town that I grew up in is called verbena' (Verbena, line 298).",
+          "value": "Verbena, Alabama (near Clanton)",
+          "lines": [
+            288,
+            292,
+            298
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions 'Green bowl' (Greenville) and agrees when speaker_a says they go to Greenville quite a bit. She is in South Carolina and the whole conversation is about the Upstate area.",
+          "value": "Greenville, SC area",
+          "lines": [
+            22,
+            23
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States her mom moved to South Carolina 'many, many years' ago and 'I followed a few years after'.",
+          "value": "mother moved to South Carolina earlier, she followed",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we usually go to this little bitty town way up in the mountains… called chimney rock… That's the place to go if you want like a mountain vacation'.",
+          "value": "goes to Chimney Rock, North Carolina for mountain vacations",
+          "lines": [
+            370,
+            372,
+            374
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I've been to Asheville'.",
+          "value": "visited Asheville, North Carolina",
+          "lines": [
+            362
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "In a discussion about losing things, says 'Maybe it's a woman thing' referring to herself.",
+          "value": "female",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References 'my one year old son' and gives his name and age.",
+          "value": "mother",
+          "lines": [
+            16,
+            56,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my husband' (line 42) and 'we're married. It'll be three years in the in december' (line 270).",
+          "value": "married",
+          "lines": [
+            42,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Garbled phrase 'I would Mom pushing 30' is interpreted as 'I'm pushing 30' in the context of not going to bars.",
+          "value": "approximately 30 years old",
+          "lines": [
+            158
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Directly states 'I'm such an introvert. It's not funny'.",
+          "value": "introvert",
+          "lines": [
+            352
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Lists 'prolific and amazon mturk and grids face' (Gridspace) as her work, and describes Gridspace Mixer in detail.",
+          "value": "online gig worker: Prolific, Amazon MTurk, Gridspace Mixer",
+          "lines": [
+            16,
+            28,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'bringing in the money from home… has been like a goal and I was probably 16'.",
+          "value": "goal of working from home since age 16",
+          "lines": [
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'not like an amazing paying but not minimum wage either' about her online earnings.",
+          "value": "earns above minimum wage but not a high income",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions watching Hamilton on Disney Plus and implies she pays for the service: 'I'm hanging for Disney Casino way' → 'I'm paying for Disney anyway'.",
+          "value": "Disney Plus subscriber",
+          "lines": [
+            212,
+            238
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "References 'Batteries to our Xbox one controller'.",
+          "value": "owns an Xbox One",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Multiple references: 'my husband is sleeping' (line 42), 'my husband' (line 64), 'we're married' (line 270), 'he says it's his job to drive me crazy' (line 272).",
+          "value": "husband",
+          "lines": [
+            42,
+            64,
+            270,
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'His name's Troy' and 'he's 13 months'.",
+          "value": "son named Troy, 13 months old",
+          "lines": [
+            56,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "References 'my mom' multiple times, including building a bar and owning a company.",
+          "value": "mother",
+          "lines": [
+            166,
+            178,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my mom and her girlfriend have built a bar'.",
+          "value": "mother has a girlfriend",
+          "lines": [
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'all of my family is there like all of them' referring to Alabama.",
+          "value": "extended family lives in Alabama",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'It'll be three years in the in december' about her wedding anniversary.",
+          "value": "third wedding anniversary in December",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I am basically a state of my mom' (garbled 'stay at home mom') and talks about quitting tasks because of a 'stinky diaper'.",
+          "value": "stay-at-home mother",
+          "lines": [
+            16,
+            40
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm a lurker today' and 'I think I've made to reddit post like my whole life'.",
+          "value": "Reddit lurker, rarely posts",
+          "lines": [
+            110,
+            140
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'the bars are not something to do very often'.",
+          "value": "rarely goes to bars",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about losing things being 'how most things get lost around here' and 'I lost stuff'.",
+          "value": "frequently loses items",
+          "lines": [
+            44,
+            46,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I am an Alabama fan' but qualifies it with 'I'm not like hard for… it doesn't even matter anymore'.",
+          "value": "casual Alabama Crimson Tide fan",
+          "lines": [
+            340,
+            342,
+            344
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Cites 'the one for the girlfriend brave' (Brave) as favourite and 'Joanna' (Moana) as second favourite Disney movies.",
+          "value": "favourite Disney movies: Brave and Moana",
+          "lines": [
+            200,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I just recently watched Coco. It was pretty good.'",
+          "value": "recently watched Coco",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my son loves to anything with music and Disney is just so safe'.",
+          "value": "son enjoys Disney content and music",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes starting Hamilton on Disney Plus but stopping because of 'Six customers' (garbled) and her 13-month-old.",
+          "value": "stopped watching Hamilton because of unsuitable content for toddler",
+          "lines": [
+            218,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes a bar in Alabama: 'It was not even like a real bar. It was a private club so you can bring your own stuff in and stuff. And that was our bar.'",
+          "value": "frequented a private club bar in Alabama in the past",
+          "lines": [
+            328
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'My party place was always Birmingham house' (Birmingham) when discussing Alabama nightlife.",
+          "value": "partied in Birmingham, Alabama in the past",
+          "lines": [
+            322
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

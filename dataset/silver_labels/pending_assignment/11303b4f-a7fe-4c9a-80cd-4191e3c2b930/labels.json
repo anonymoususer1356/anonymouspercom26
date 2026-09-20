@@ -1,0 +1,391 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in west philadelphia' (line 321) and earlier 'I'm in philadelphia' (lines 137, 249).",
+          "value": "West Philadelphia, Pennsylvania",
+          "lines": [
+            137,
+            249,
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm from massachusetts' (line 229) and mentions wanting to move back but can't afford it.",
+          "value": "originally from Massachusetts",
+          "lines": [
+            229
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'we're all living in Georgia' (line 257) and 'when I lived in Georgia' (lines 295, 337).",
+          "value": "previously lived in Georgia",
+          "lines": [
+            257,
+            295,
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I live in a studio' (line 15).",
+          "value": "lives in a studio apartment",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been here for we're three.' (line 249) and 'a half years.' (line 251), meaning three and a half years in Philadelphia.",
+          "value": "has lived in Philadelphia for ~3.5 years",
+          "lines": [
+            249,
+            251
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a describes the building: 'really old how is converted into like separate apartments' (line 137), brick walls covered with regular wall (line 139), and 'three stained glass windows' (line 147).",
+          "value": "apartment in old converted house with brick walls and stained glass windows",
+          "lines": [
+            137,
+            139,
+            145,
+            147
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I studied anthropology in college and at the PhD level' (line 391).",
+          "value": "studied anthropology (college and PhD level)",
+          "lines": [
+            391
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a calls herself 'a city girl' (line 283) and speaker_b addresses her as 'lady' (line 418).",
+          "value": "female",
+          "lines": [
+            283,
+            418
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'I have two cats myself' (line 7).",
+          "value": "cat owner",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'the cost of living is very cheap compared to anywhere really' (line 265).",
+          "value": "views Philadelphia cost of living as low",
+          "lines": [
+            265
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states she cannot afford to move back to Massachusetts because Boston is 'so ridiculous, expensive' (line 255).",
+          "value": "cannot afford to move back to Boston",
+          "lines": [
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I spend so much money on my gap' (line 123, likely 'cats') and lists multiple cat foods and treats (line 125).",
+          "value": "spends significant money on cat supplies",
+          "lines": [
+            119,
+            123,
+            125
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a mentions the possibility of buying a house in the city (line 279, garbled but clear intent).",
+          "value": "considers purchasing a home in Philadelphia",
+          "lines": [
+            279
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says friends from Georgia asked her to move with them to Philadelphia (lines 257-259).",
+          "value": "moved to Philadelphia with friends from Georgia",
+          "lines": [
+            257,
+            258,
+            259
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a describes herself as 'a city girl' and says 'I love cities' (lines 283, 285).",
+          "value": "prefers urban living",
+          "lines": [
+            283,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a details her two cats: Boston is 6, male, loves humans; Salvador is 2, male, scared of men, likes women; both are rescue cats, on a diet, 'morbidly obese' at ~18 lbs each (lines 7,33,35,37,39,101,113).",
+          "value": "has two male rescue cats: Boston (6yo) and Salvador (2yo), both overweight and on a diet",
+          "lines": [
+            7,
+            33,
+            35,
+            37,
+            39,
+            101,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says her cats weigh '£18 each' (line 35).",
+          "value": "cats weigh approximately 18 pounds each",
+          "lines": [
+            35
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions she is on a platform matching strangers for conversation (lines 381, 385, 401).",
+          "value": "participates in a study/platform matching strangers for conversation",
+          "lines": [
+            381,
+            385,
+            401
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says she bags her own groceries because she walks home with them (lines 341, 343).",
+          "value": "walks to get groceries",
+          "lines": [
+            341,
+            343
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'before moving here to Denver' (line 58) and confirms 'we moved here a few months ago' (line 230) and lives in Colorado (line 297).",
+          "value": "Denver, Colorado",
+          "lines": [
+            58,
+            230,
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'back home to new york' (line 218) and 'New york city' (line 236).",
+          "value": "originally from New York (likely New York City)",
+          "lines": [
+            218,
+            236
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'we were living in Atlanta before moving here' (line 58) and describes life there (line 324).",
+          "value": "previously lived in Atlanta, Georgia",
+          "lines": [
+            58,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'when we drove up from Louisiana' (line 218) and 'we had to move to Louisiana' (line 226).",
+          "value": "previously lived in Louisiana",
+          "lines": [
+            218,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'since we've had her, we've moved four times' (line 58).",
+          "value": "moved at least four times since owning cat Xena",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'we're also renting' (line 140).",
+          "value": "currently renting home/apartment",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b refers to 'my husband' (line 90) and describes herself as 'mommy' to her cat (line 96), implying female gender.",
+          "value": "woman",
+          "lines": [
+            90,
+            96
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions 'my cat' (line 4) and details two cats throughout.",
+          "value": "cat owner",
+          "lines": [
+            4,
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'trader joe's is my, my grocery store' (line 318) and confirms she shops there regularly.",
+          "value": "shops primarily at Trader Joe's",
+          "lines": [
+            318
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts being charged $20 for four pieces of corn at Whole Foods and deciding 'never again' (lines 302-316).",
+          "value": "avoids Whole Foods after being overcharged",
+          "lines": [
+            302,
+            303,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she switched cat food to Origin brand, which is 'freaking expensive' (line 120) and jokes that her cats eat 'filet mignon' (line 124).",
+          "value": "buys high-end cat food (Origin brand)",
+          "lines": [
+            120,
+            124
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions 'my husband' (line 90) multiple times.",
+          "value": "married",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'after college he got he was in the military' (line 226), referring to her husband.",
+          "value": "husband served in the military",
+          "lines": [
+            226
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions 'my mother in law' visiting (line 50).",
+          "value": "has a mother-in-law",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b has two cats: Xena (Bengal, blind, ~6 years old) and Lexi (orange tabby, 17 years old). Evidence in lines 10,12,28,32,96,356.",
+          "value": "has two cats: Xena (Bengal, blind, ~6yo) and Lexi (orange tabby, 17yo)",
+          "lines": [
+            10,
+            12,
+            28,
+            32,
+            96,
+            356
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'these two sleep through the night' (line 214).",
+          "value": "cats sleep through the night",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says 'I don't like the heat or the humidity' (line 244).",
+          "value": "dislikes hot and humid weather",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has done one previous session and signed up for five (lines 382,384), indicating participation in the same study.",
+          "value": "participates in a study matching strangers; second session with a human",
+          "lines": [
+            382,
+            384
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm actually really nervous. Like I'm not that good at talking to people.' (line 394).",
+          "value": "finds talking to new people nerve-wracking",
+          "lines": [
+            394
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes previously living two blocks from Trader Joe's in Atlanta and now having to drive (lines 324-328).",
+          "value": "previously walked to Trader Joe's, now drives",
+          "lines": [
+            324,
+            325,
+            328
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

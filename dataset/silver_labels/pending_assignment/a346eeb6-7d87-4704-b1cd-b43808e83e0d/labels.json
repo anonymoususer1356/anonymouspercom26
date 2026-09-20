@@ -1,0 +1,391 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker a quotes someone addressing them as 'hey matt', indicating their name is Matt.",
+          "value": "Matt",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker a states they are in New Jersey multiple times, such as answering 'Jersey' when asked where they are from, discussing New Jersey's lockdown, and saying they live in New Jersey.",
+          "value": "New Jersey",
+          "lines": [
+            15,
+            31,
+            35,
+            159,
+            161,
+            165
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they moved from Staten Island, New York, and describes it as their previous home where friends still live.",
+          "value": "Staten Island, New York",
+          "lines": [
+            163,
+            185,
+            191
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker a explicitly states 'I'm 28'.",
+          "value": "28 years old",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a is addressed as Matt (male name) and mentions having a girlfriend; both imply male gender.",
+          "value": "Male",
+          "lines": [
+            53,
+            241
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker a states 'Yeah, I'm a criminal prosecutor'.",
+          "value": "Criminal prosecutor",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a refers to 'college and law school' as part of their past, indicating they attended law school.",
+          "value": "Law school education",
+          "lines": [
+            129
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker a says they work for the government and 'You have to live in the state that you work in', which forced them to move to New Jersey. This is a legal residency requirement tied to their employment.",
+          "value": "Must reside in New Jersey due to government employment",
+          "lines": [
+            195,
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker a is a criminal prosecutor and mentions working for the government.",
+          "value": "Employed as a criminal prosecutor for the government",
+          "lines": [
+            49,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a describes living in a one-bedroom apartment by themselves, paying much less than in New York.",
+          "value": "Lives alone in a one-bedroom apartment",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a discusses driving to work and to visit a girlfriend, and mentions paying for gas, indicating car ownership or access.",
+          "value": "Has a car",
+          "lines": [
+            237,
+            239,
+            241
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker a asks 'Another, what is it? Like $17?' in the context of the paid survey chat, indicating they receive about $17 per session.",
+          "value": "Receives approximately $17 per survey chat",
+          "lines": [
+            235,
+            236
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker a says 'when I go to visit my girlfriend'.",
+          "value": "Has a girlfriend",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions 'my brother' multiple times.",
+          "value": "Has a brother",
+          "lines": [
+            107,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a talks about 'my mom', 'my dad', and 'my parents'.",
+          "value": "Has parents (mother and father)",
+          "lines": [
+            157,
+            171
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says 'I just got a puppy during Covid'.",
+          "value": "Has a puppy",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a refers to 'a lot of my friends are still living at home in Staten Island'.",
+          "value": "Friends in Staten Island",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker a says 'I've been working remote since March' and expresses love for working from home.",
+          "value": "Works from home",
+          "lines": [
+            47,
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a mentions getting the gym back and going to the gym during the day.",
+          "value": "Goes to the gym",
+          "lines": [
+            35,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a describes enjoying cleaning up after only themselves, cooking for one, and relaxing in quiet, indicating a preference for living alone.",
+          "value": "Prefers living alone and quiet",
+          "lines": [
+            199
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker a says they hate winter and would rather keep summer.",
+          "value": "Prefers summer over winter",
+          "lines": [
+            25,
+            26,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker a says they drive to work about once a week and to visit their girlfriend.",
+          "value": "Commutes by car part-time",
+          "lines": [
+            239,
+            241
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker b introduces themselves with 'I'm Amanda nice to meet you'.",
+          "value": "Amanda",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker b states they are from South Dakota, describes its weather, conservative politics, and lack of mask mandate, confirming their location.",
+          "value": "South Dakota",
+          "lines": [
+            18,
+            22,
+            28,
+            30,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker b says 'I'm a single mom', indicating female gender.",
+          "value": "Female",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b states 'I'm the social media manager for a telecom in a sports network'.",
+          "value": "Social media manager",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b explicitly says 'I'm a single mom'.",
+          "value": "Single mother",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker b works as a social media manager, as stated in the transcript.",
+          "value": "Employed as a social media manager for a telecom/sports network",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says they work from home currently and can do the job from anywhere with good internet.",
+          "value": "Works remotely",
+          "lines": [
+            100,
+            102,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b agrees with the $17 figure for the survey chat, indicating they also receive that payment.",
+          "value": "Receives approximately $17 per survey chat",
+          "lines": [
+            6,
+            235,
+            236
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker b says they cannot afford to live in Seattle when asked about moving there.",
+          "value": "Cannot afford cost of living in Seattle",
+          "lines": [
+            178
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker b says 'I have a four year old son'.",
+          "value": "Has a four-year-old son",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b identifies as a single mom, indicating no partner.",
+          "value": "Single, no partner",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b mentions 'my brother and sister in Seattle'.",
+          "value": "Has a brother and sister in Seattle",
+          "lines": [
+            176
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b refers to 'my parents' and says they are on the west coast.",
+          "value": "Has parents (live on west coast)",
+          "lines": [
+            204,
+            210
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker b says 'I've been doing like lunch runs'.",
+          "value": "Runs during lunch",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says they take their son for runs in the evening.",
+          "value": "Takes son for runs in the evening",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b indicates they are working from home currently.",
+          "value": "Works from home",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b says their son goes to daycare.",
+          "value": "Son attends daycare",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker b recounts a trip to Cozumel in February last year.",
+          "value": "Traveled to Cozumel",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

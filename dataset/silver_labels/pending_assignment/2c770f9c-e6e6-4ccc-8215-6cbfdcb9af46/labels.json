@@ -1,0 +1,344 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "A colleague calls speaker_a 'Kristin' during a story, and she does not correct it.",
+          "value": "Kristin",
+          "lines": [
+            182
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I'm in Dallas texas'.",
+          "value": "Dallas, Texas",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm almost 35'.",
+          "value": "almost 35 years old",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'especially for women...', implying she is a woman.",
+          "value": "female",
+          "lines": [
+            69
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she graduated college 13 years ago and majored in business administration.",
+          "value": "college graduate with major in business administration",
+          "lines": [
+            113,
+            129
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states she works in project management in the insurance industry.",
+          "value": "project manager in insurance",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions having about five employees in different states.",
+          "value": "has about five employees",
+          "lines": [
+            13,
+            119,
+            165
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'my sister gave me a book'.",
+          "value": "has a sister",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions staying at a hotel with her mom.",
+          "value": "has a mother",
+          "lines": [
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I live alone'.",
+          "value": "lives alone",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes her workout routine at a Cowboys-themed gym with a 40-yard turf, focusing on weightlifting.",
+          "value": "regularly works out at a Cowboys-themed gym, focuses on weightlifting",
+          "lines": [
+            41,
+            63,
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states her goal is to achieve one unassisted pull-up.",
+          "value": "fitness goal: unassisted pull-up",
+          "lines": [
+            71
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she enjoys adult coloring books.",
+          "value": "enjoys adult coloring books",
+          "lines": [
+            43,
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I love to go hiking'.",
+          "value": "enjoys hiking",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a names rotisserie chicken and dark chocolate as her favorite foods.",
+          "value": "favorite foods: rotisserie chicken and dark chocolate",
+          "lines": [
+            237,
+            239
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a recounts multiple business and personal trips to Las Vegas.",
+          "value": "frequently visits Las Vegas",
+          "lines": [
+            171,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a fondly recalls visiting the botanical gardens in St. Louis at night.",
+          "value": "enjoys visiting botanical gardens, e.g., in St. Louis",
+          "lines": [
+            39,
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a comments on her own appearance without makeup.",
+          "value": "without makeup, looks younger or more tired",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in Springfield Missouri' and provides relative distances to St. Louis and Kansas City.",
+          "value": "Springfield, Missouri",
+          "lines": [
+            242,
+            12,
+            14,
+            212
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I'm 21 years old'.",
+          "value": "21 years old",
+          "lines": [
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates being in college and discusses classes.",
+          "value": "college student",
+          "lines": [
+            110,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she studies computer programming and aims to be a video game programmer.",
+          "value": "studying computer programming",
+          "lines": [
+            120,
+            122
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she now weighs 209 pounds.",
+          "value": "current weight 209 lbs",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions her weight used to fluctuate between 220 and 225 pounds.",
+          "value": "previous weight range 220-225 lbs",
+          "lines": [
+            102
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she used to work at a gym.",
+          "value": "previously employed at a gym",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "When asked if she lives with anyone, speaker_b answers 'My mom and step dad', indicating cohabitation.",
+          "value": "lives with mother and step-father",
+          "lines": [
+            109,
+            110
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says she helps her mom with her jewelry boutique.",
+          "value": "helps mother with her jewelry boutique",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions gardening with her mom.",
+          "value": "gardens with mother",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes using Ring Fit Adventure on Nintendo Switch as her primary exercise.",
+          "value": "plays Ring Fit Adventure on Nintendo Switch for exercise",
+          "lines": [
+            80,
+            82,
+            84,
+            96,
+            98,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b watches Hell's Kitchen and wants to visit Gordon Ramsay restaurants.",
+          "value": "watches Hell's Kitchen; wants to visit Gordon Ramsay restaurants",
+          "lines": [
+            186,
+            190,
+            210,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b aims to make homemade macaroni and cheese for Thanksgiving.",
+          "value": "goal to make homemade macaroni and cheese for Thanksgiving",
+          "lines": [
+            244,
+            246,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses a preference for Velveeta shells over Kraft macaroni and cheese.",
+          "value": "prefers Velveeta shells over Kraft mac and cheese",
+          "lines": [
+            252,
+            254,
+            256
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says her dream trip is to Japan to see the Nintendo theme park.",
+          "value": "dream trip to Japan for Nintendo theme park",
+          "lines": [
+            154,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains her school's hybrid attendance policy.",
+          "value": "school hybrid attendance: required in-person once every two weeks",
+          "lines": [
+            134,
+            136,
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

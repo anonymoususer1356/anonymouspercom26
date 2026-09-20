@@ -1,0 +1,415 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as Sarah.",
+          "value": "Sarah",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she attended Centre College in Kentucky (line 35), lives in 'very western Kentucky' (line 147), and mentions being near Indiana (line 145).",
+          "value": "western Kentucky",
+          "lines": [
+            35,
+            147,
+            145
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her town is 'not very big' (line 147) and prefers smaller towns (line 151).",
+          "value": "small town",
+          "lines": [
+            147,
+            151
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I still live at home' (line 157) and 'my whole family, like everyone lives here' (line 185).",
+          "value": "lives with parents",
+          "lines": [
+            157,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I'm 22' (line 9) and 'I'll be 23 on Wednesday' (line 11).",
+          "value": "22 years old (turning 23 on Wednesday)",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Sarah, along with context (e.g., 'I'm not tough enough') suggests female.",
+          "value": "female",
+          "lines": [
+            3,
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She graduated in spring with a neuroscience degree (lines 27, 37) from Centre College (ASR: center college) (line 33).",
+          "value": "B.S. in Neuroscience from Centre College",
+          "lines": [
+            27,
+            33,
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she will start her Master's in clinical psychology this coming spring (lines 27, 29).",
+          "value": "planning to start Master's in Clinical Psychology",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I can speak some french' (line 141).",
+          "value": "speaks some French",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states she is 'really, really happy with where I am right now' (line 167) and 'really, really happy right now' (line 201).",
+          "value": "self-reported happiness with current life",
+          "lines": [
+            167,
+            201
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She works as a crisis line operator (line 21) which she later identifies as a suicide hotline (line 249).",
+          "value": "crisis line operator (suicide hotline)",
+          "lines": [
+            21,
+            249
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her job: 'I'm part time, but I still get like full time benefits' (line 175).",
+          "value": "part-time with full-time benefits",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'they will pay for half of my school' (line 175).",
+          "value": "employer pays half of Master's tuition",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she cannot run an apartment on a part-time salary (line 197).",
+          "value": "cannot afford own apartment on part-time salary",
+          "lines": [
+            197
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She lives at home with parents (lines 157, 185) and her mom is happy she stayed (line 193).",
+          "value": "lives with parents",
+          "lines": [
+            157,
+            185,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her best friend living in northern Kentucky (line 147) and references her multiple times.",
+          "value": "best friend in northern Kentucky",
+          "lines": [
+            147,
+            179,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lived with a host mom during study abroad (line 131); later says 'my whole my husband did' (ASR error, likely 'my host mom said') offering a bed anytime (line 141).",
+          "value": "host mom in Strasbourg, France",
+          "lines": [
+            131,
+            141
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions babysitting her cousins and mentions her aunt's and uncle's house (lines 235, 237).",
+          "value": "aunt, uncle, and cousins",
+          "lines": [
+            235,
+            237
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She lived in Strasbourg for three months during a study abroad program (lines 131, 137).",
+          "value": "studied abroad in Strasbourg, France for three months",
+          "lines": [
+            131,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says they traveled to many countries (line 137).",
+          "value": "traveled to multiple European countries with best friend",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she calls her mom daily (line 155).",
+          "value": "calls her mother every day",
+          "lines": [
+            155
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She worked in daycares (line 237), babysat cousins (line 235), and considered a children's mental hospital job (line 245).",
+          "value": "frequently works childcare-related jobs",
+          "lines": [
+            235,
+            237,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She says 'I'm five ft tall' (line 265).",
+          "value": "5 feet tall",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a calls her 'maddie' (line 5), likely a name.",
+          "value": "Maddie",
+          "lines": [
+            5
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is in Cleveland (line 152) and mentions her apartment there (line 225).",
+          "value": "Cleveland, Ohio",
+          "lines": [
+            152,
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm like from a suburb in Ohio' (line 160).",
+          "value": "from a suburb in Ohio",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is three hours away from her family (line 192).",
+          "value": "family lives about three hours away",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She taught at a bilingual school in Honduras during a gap year (line 120).",
+          "value": "lived in Honduras for a year",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states 'I'm 20' (line 10).",
+          "value": "20 years old",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Name Maddie and conversational interests (e.g., women's health) strongly suggest female.",
+          "value": "female",
+          "lines": [
+            5
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she is a second-year med student (line 38).",
+          "value": "second-year medical student",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she was a neuroscience major (line 32).",
+          "value": "B.S. in Neuroscience",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She is currently enrolled in medical school (line 38).",
+          "value": "full-time medical student",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She worked as a nanny over the summer, got paid, and ate meals at the family's home (lines 226-234).",
+          "value": "worked as a nanny in summer 2020",
+          "lines": [
+            226,
+            234,
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my roommates in med school' (line 64).",
+          "value": "medical school roommate",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is from a suburb in Ohio and is three hours from family (lines 160, 192).",
+          "value": "family in Ohio",
+          "lines": [
+            160,
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She volunteered since high school with an organization that does medical brigades in Honduras (lines 114, 120).",
+          "value": "volunteer with medical brigade organization in Honduras",
+          "lines": [
+            114,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She works with a resident on a research paper (line 90).",
+          "value": "research mentor (resident)",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is interested in global health research, had plans to go to Peru/Honduras, and has traveled abroad (lines 94, 96, 108).",
+          "value": "interested in global health and travel",
+          "lines": [
+            94,
+            96,
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her Cleveland apartment does not have air conditioning (line 225).",
+          "value": "no air conditioning in apartment",
+          "lines": [
+            225
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She taught at a bilingual school for a year in Honduras (line 120).",
+          "value": "taught 3rd grade at bilingual school in Honduras during gap year",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes undergraduate research in developmental psychopathology and foster care (lines 46, 48).",
+          "value": "undergraduate research in developmental psychopathology",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions starting medical school research on hysterectomies and recovery (lines 86, 90).",
+          "value": "current research on OB/GYN topics",
+          "lines": [
+            86,
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

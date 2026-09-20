@@ -1,0 +1,248 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself by name: 'I'm jasmine.'",
+          "value": "Jasmine",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in Tucson' (19). speaker_b later refers to 'the red state you live in' (40) and 'how you coping in Arizona' (124), confirming Arizona. So current location is Tucson, Arizona.",
+          "value": "Tucson, Arizona",
+          "lines": [
+            19,
+            40,
+            124
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says she is 'still like within like the academic sphere' (125), placing herself in an academic community.",
+          "value": "academic sphere",
+          "lines": [
+            125
+          ],
+          "certainty": 3
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a mentions 'working from home' and 'go clean up my office soon' (169), indicating she is employed and works remotely.",
+          "value": "employed, works from home",
+          "lines": [
+            169
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my partner works for a rather conservative type company' (137), establishing a romantic or life partner.",
+          "value": "has a partner",
+          "lines": [
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my dogs' (41), 'one of the dogs' (43), and describes 'the little woman's shiloh ... and there's two more running amok' (141), indicating multiple pet dogs.",
+          "value": "owns multiple dogs",
+          "lines": [
+            41,
+            43,
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a expresses enjoyment of spooky season (45), says 'we watched the Books of Blood' (59), names 'Dead Alive' as a favorite movie (65), discusses splats-stick gore with enthusiasm (71), and responds 'Thank God' when asked if she likes zombie movies (73). She clearly enjoys horror and spooky films.",
+          "value": "enjoys horror/spooky movies",
+          "lines": [
+            45,
+            59,
+            65,
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'working from home' and plans to 'go clean up my office' (169), indicating a remote work lifestyle.",
+          "value": "works from home",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a owns dogs (41, 43, 141), which is a daily lifestyle aspect.",
+          "value": "dog owner",
+          "lines": [
+            41,
+            43,
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself: 'I'm Alexandra' (6). The ASR 'too hi' preceding it is likely a recognition error.",
+          "value": "Alexandra",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in work at Berkeley California' (14) and later 'I'm in Berkeley' (124). The phrase 'work at' is likely an ASR mishearing; the intended location is Berkeley, California.",
+          "value": "Berkeley, California",
+          "lines": [
+            14,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I lived in phoenix for a while' (26), establishing a past residence.",
+          "value": "Phoenix, Arizona (past residence)",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm an artist and I have a business and stuff' (54), placing her in the artist and small business owner categories.",
+          "value": "artist and business owner",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'well trained to be a therapist. And I got like, I got my Masters in psychology' (154), indicating a psychology background and therapist training.",
+          "value": "trained therapist with a Master's in psychology",
+          "lines": [
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm from texas, but I'm not from like I'm from Austin' (128), revealing geographic origin.",
+          "value": "from Austin, Texas",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b self-describes as 'I'm pretty healthy' (180).",
+          "value": "pretty healthy",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she has 'a business' (54), indicating self-employment or business ownership.",
+          "value": "owns a business",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my boyfriend's from Italy' (130), establishing a romantic partner.",
+          "value": "has a boyfriend",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions having a dog: 'why have a dog to she's over' (48, ASR garbled but meaning 'I have a dog too, she's over') and later 'sorry, I have a dog' (154).",
+          "value": "owns a dog",
+          "lines": [
+            48,
+            154
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my father is a narcissist' (156), revealing a parent relationship.",
+          "value": "has a father (described as a narcissist)",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I've pretty much what spooky stuff all the time' (56) and 'I really like zombie movies for some reason' (74), indicating a strong interest in horror/spooky media.",
+          "value": "watches horror/spooky movies frequently",
+          "lines": [
+            56,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I do like british T. V. a lot. I've been watching a lot of british game shows' (94, 96), showing a preference for British television.",
+          "value": "enjoys British television, especially game shows",
+          "lines": [
+            94,
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes herself with 'I'm like, you know, like organic Bay Area kind of stereotypes' (180), indicating a health-conscious, organic-oriented lifestyle.",
+          "value": "health-conscious, organic Bay Area lifestyle",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I bought a trampoline, a little one' (172) and plans to use it for exercise instead of drinking (174), indicating a lifestyle choice for at-home cardio.",
+          "value": "owns a trampoline for indoor exercise",
+          "lines": [
+            172,
+            174
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states 'my name is Tato' directly in line 3.",
+          "value": "Tato",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in California, in the far northern part in the rural area' (line 37), describes it as 'the last city on the interstate before you get to Oregon' (line 111), an 'enormous county with only 40,000 people' (line 125), and mentions driving 90 minutes to a 1000-person community (line 127).",
+          "value": "Far northern California, near Oregon border, in a rural county",
+          "lines": [
+            37,
+            111,
+            125,
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a states his age as '57' in line 229.",
+          "value": "57",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to himself as a 'white male' in line 247.",
+          "value": "white",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to himself as a 'white male' in line 247.",
+          "value": "male",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says 'I have a few health conditions including diabetes and lung function issues that put me in the high risk category' in line 61.",
+          "value": "diabetes and lung function issues (high risk for COVID-19)",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'my job is I'm a therapist' in line 57, and later mentions working with kids (line 59).",
+          "value": "therapist",
+          "lines": [
+            57,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he works for the county in line 57 and refers to 'county higher ups' in line 75.",
+          "value": "employee of rural county government",
+          "lines": [
+            57,
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes being on leave since July because he refused to return to in-person work, using accumulated leave time (lines 69-73).",
+          "value": "on leave from work since July 2020 using accumulated leave time",
+          "lines": [
+            69,
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says his work let him work from home starting early April (line 63) and he conducted video sessions (line 67).",
+          "value": "worked from home from early April 2020 until leave",
+          "lines": [
+            63,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he works with children as his population (line 59).",
+          "value": "works with children",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions driving county cars with studded tires for work travel (lines 131, 133).",
+          "value": "drove county cars with studded tires for work",
+          "lines": [
+            131,
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions 'my mom' in line 201, indicating he has a mother.",
+          "value": "has a mother",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'the main paper I read is the new york Times' in line 213, and previously read physical papers an hour a day (line 209).",
+          "value": "reads the New York Times",
+          "lines": [
+            209,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I've been following politics my whole life' in line 207 and mentions reading papers extensively.",
+          "value": "follows politics closely",
+          "lines": [
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I grew up in the san Francisco Bay area' in line 109.",
+          "value": "grew up in San Francisco Bay Area",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes driving 90 minutes to a 1000-person community for work (lines 127-129).",
+          "value": "drives long distances to remote communities for work",
+          "lines": [
+            127,
+            129
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself as 'Melissa' in line 4, but speaker_a consistently responds with 'Alyssa' (lines 5, 279), suggesting the ASR misrecognized 'Alyssa' as 'Melissa'. The intended name is likely Alyssa.",
+          "value": "Alyssa",
+          "lines": [
+            4,
+            5,
+            279
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I live in florida' (line 6), 'I'm from Orlando. Like central florida.' (line 10), and mentions living an hour away from central Orlando (line 20).",
+          "value": "Orlando, Florida area",
+          "lines": [
+            6,
+            10,
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I just graduated college' (line 94), 'I did literally this spring' (line 136), and 'I double major, so I did history and international studies with a minor in spanish' (line 138).",
+          "value": "graduated college in Spring 2020 with double major in history and international studies, minor in Spanish",
+          "lines": [
+            94,
+            136,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I want to go to grad school to get my degree in library sciences' (line 138).",
+          "value": "plans to attend graduate school for library science",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her brother multiple times: 'my brother came home from working on a summer camp' (line 6), 'my brother got back' (line 40).",
+          "value": "has a brother",
+          "lines": [
+            6,
+            40,
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I live with my parents' in line 40.",
+          "value": "lives with parents",
+          "lines": [
+            40
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm chilling' and explains she has to stay home because her brother came back (line 6).",
+          "value": "staying at home during pandemic",
+          "lines": [
+            6
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I've been born and raised in florida have never seen snow' (line 118).",
+          "value": "has never seen snow",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I've never read print stuff, I don't even watch TV' (line 212).",
+          "value": "does not watch TV or read print newspapers",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses strong interest in Latin American history and mentions it as her preferred specialization (lines 154, 166, 168).",
+          "value": "interested in Latin American history",
+          "lines": [
+            154,
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she double-majored and minored in Spanish, stating 'I can, I can speak like 1/5 grade level' (line 138).",
+          "value": "speaks Spanish at elementary school level",
+          "lines": [
+            138
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

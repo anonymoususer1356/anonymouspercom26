@@ -1,0 +1,481 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She said her name is Eva (ASR) and spelled it 'A v A' meaning Ava. She stated her married surname is Fox.",
+          "value": "Ava Fox",
+          "lines": [
+            25,
+            37,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'My maiden name is Washington'.",
+          "value": "Washington (maiden name)",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She said 'I'm from texas'.",
+          "value": "Texas (origin)",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She mentioned 'my kids' indicating multiple children.",
+          "value": "parent of multiple children",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She described herself as 'not a technology person', 'most technologically incompetent', and wasn't raised on computers.",
+          "value": "not technologically savvy",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She is in a home school group on Facebook, implying she homeschools her children.",
+          "value": "homeschooling parent",
+          "lines": [
+            105
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She said 'Even working from home I don't need top of the line' implying she has a remote job.",
+          "value": "works from home",
+          "lines": [
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'I don't work IT'.",
+          "value": "does not work in IT",
+          "lines": [
+            21
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She said 'since I've been married as Fox'.",
+          "value": "married",
+          "lines": [
+            37
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentioned 'my kids'.",
+          "value": "has children",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentioned her husband's grandmother who avoids turkey.",
+          "value": "has a grandmother-in-law",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She said this is her second study of this kind, indicating she participates in research studies.",
+          "value": "participates in research studies",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said she would buy the book at Barnes and Noble.",
+          "value": "shops at Barnes & Noble",
+          "lines": [
+            189
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is a member of a Facebook homeschool group, showing she uses Facebook.",
+          "value": "uses Facebook for homeschool group",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b observed a southern twang in her voice, implying a southern accent.",
+          "value": "southern accent",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "She introduced herself as Janica and explained her full name is Janica Bradley, Americanized from a Norwegian name. ASR 'john icka Bradley'.",
+          "value": "Janica Bradley",
+          "lines": [
+            26,
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She lives at the top of Texas, 3 hours to OKC, 6 to Dallas, in a town of pop. 2000 with combined hardware/grocery, on 30 acres.",
+          "value": "small town (pop. ~2000) in northern Texas, on 30 acres, near Oklahoma border",
+          "lines": [
+            44,
+            50,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'I was born in California'.",
+          "value": "born in California",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She had a house in California where she kept chickens before moving 10 years ago.",
+          "value": "formerly lived in California (house in county)",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She lived in Germany for four years with her step-parents.",
+          "value": "lived in Germany for 4 years",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She went to high school in College Station, Texas.",
+          "value": "attended high school in College Station, Texas",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She said 'High school dropout'.",
+          "value": "high school dropout",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'teen mom'.",
+          "value": "became a mother as a teenager",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said she is an 'ex addict'.",
+          "value": "former drug addict",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'I'm a really bad introvert'.",
+          "value": "introverted",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said 'I'm a writer'.",
+          "value": "writer",
+          "lines": [
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "All her education is from 'street smarts or book learning', no formal education.",
+          "value": "self-taught, no formal education",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She described herself as a 'nervous parker' (nervous talker).",
+          "value": "nervous talker",
+          "lines": [
+            48
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She said 'I lived with depression'.",
+          "value": "history of depression",
+          "lines": [
+            190
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentioned she quit smoking cigarettes.",
+          "value": "former smoker (quit smoking)",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said she thinks she is allergic to wasps.",
+          "value": "possible wasp allergy",
+          "lines": [
+            178
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She said she needs to quit her 'day Rod' (day job), indicating she currently has a job.",
+          "value": "has a day job",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said her husband works at a hardware store and is essential.",
+          "value": "husband works at a hardware store (essential worker)",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said they sell goats at auction.",
+          "value": "sells goats at auction",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said they cannot afford a processing plant for livestock.",
+          "value": "cannot afford processing plant",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She met her husband in high school and later named him Keith.",
+          "value": "married to Keith",
+          "lines": [
+            44,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentioned her son Nathan, 'my sweet, gentle son'.",
+          "value": "son named Nathan",
+          "lines": [
+            194,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said her father named her.",
+          "value": "has a father",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She referred to 'my mama'.",
+          "value": "has a mother",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentioned living with step-parents.",
+          "value": "has step-parents",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentioned her grandfather was born in Bern, Texas.",
+          "value": "grandfather born in Bern, Texas",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has friends who are screenwriters and in the movie industry.",
+          "value": "has friends in the movie industry",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She keeps goats, turkeys, chickens, sheep, llama, and bees.",
+          "value": "keeps livestock (goats, turkeys, chickens, sheep, llama) and bees",
+          "lines": [
+            64,
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She writes novels, currently working on a psychological thriller.",
+          "value": "writes novels (working on thriller)",
+          "lines": [
+            18,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She described making homemade pasta and sauce from her garden vegetables.",
+          "value": "cooks from scratch, makes pasta and sauce",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said she rarely leaves and loves quarantine.",
+          "value": "enjoys staying home, content with quarantine",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She processes chickens, ducks, and sheep for meat.",
+          "value": "butchers own livestock for meat",
+          "lines": [
+            122,
+            124,
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She said she still uses the library.",
+          "value": "uses the library",
+          "lines": [
+            78
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She is taking a master class from Dan Brown.",
+          "value": "takes a master class from Dan Brown",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talked about her chihuahua dog that she loves.",
+          "value": "owns a chihuahua dog",
+          "lines": [
+            152,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She loves wearing masks because she doesn't have to smile at people.",
+          "value": "wears masks to avoid social interaction",
+          "lines": [
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She has a kitchen garden where she grows vegetables like kale, peppers, green beans.",
+          "value": "gardens (grows vegetables and herbs)",
+          "lines": [
+            184,
+            185
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She said 'I'm 56' in the context of height, meaning 5'6\".",
+          "value": "5 feet 6 inches tall",
+          "lines": [
+            100
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

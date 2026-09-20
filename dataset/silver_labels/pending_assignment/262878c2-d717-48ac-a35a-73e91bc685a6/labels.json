@@ -1,0 +1,396 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a directly states his name.",
+          "value": "Brian",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he lives in Warren, Michigan, and describes it as a suburb outside Detroit.",
+          "value": "Warren, Michigan",
+          "lines": [
+            9,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions his wife and states they have been married for 25 years.",
+          "value": "Married",
+          "lines": [
+            33,
+            181,
+            229,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to himself and his wife as 'older' and mentions his wife is retired.",
+          "value": "Older adult",
+          "lines": [
+            89,
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states his professional background is in IT.",
+          "value": "Background in IT",
+          "lines": [
+            23,
+            39
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he attended community college and was about 25 credits short of a bachelor's degree.",
+          "value": "Some college, 25 credits short of bachelor's",
+          "lines": [
+            151,
+            175,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he tends to vote Democratic but has voted Republican before.",
+          "value": "Tends to vote Democratic; has voted Republican",
+          "lines": [
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he grew up in the inner city.",
+          "value": "Grew up in inner city",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says he thinks he caught coronavirus; his doctor did not officially diagnose him but agreed it was likely based on symptoms.",
+          "value": "Believes he contracted COVID-19",
+          "lines": [
+            43,
+            47,
+            49
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says he has an issue with flying, which prevents him from travelling to certain places.",
+          "value": "Fear of flying",
+          "lines": [
+            285
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he makes an additional $600 per month from online tasks.",
+          "value": "Earns approximately $600/month from online tasks",
+          "lines": [
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using Swagbucks, Qmee, and MyPoints as part of his online income.",
+          "value": "Uses GPT and survey sites (Swagbucks, Qmee, MyPoints)",
+          "lines": [
+            57,
+            59,
+            61,
+            65,
+            67,
+            69
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he and his wife received a stimulus check.",
+          "value": "Received a stimulus check",
+          "lines": [
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has built up enough points on MyPoints to go on a trip to Florida, specifically Orlando.",
+          "value": "Planning a trip to Orlando using reward points",
+          "lines": [
+            69,
+            75,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says his wife worked at Wayne County Community College and retired from there.",
+          "value": "Wife is retired; she worked at Wayne County Community College",
+          "lines": [
+            33,
+            35,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions that his mother passed away years ago.",
+          "value": "Mother is deceased",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he works from home doing online gigs and enjoys being at home.",
+          "value": "Works from home",
+          "lines": [
+            195,
+            309
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he plans to create a training class to help others earn money online.",
+          "value": "Plans to create online training to teach earning methods",
+          "lines": [
+            313
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he enjoys spending time with his wife.",
+          "value": "Enjoys spending time with wife",
+          "lines": [
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions watching the movie 'Lost in Translation'.",
+          "value": "Watched the movie 'Lost in Translation'",
+          "lines": [
+            283
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b directly states her name. The ASR shows 'Kaylie', phonetically 'Kayleigh'.",
+          "value": "Kayleigh",
+          "lines": [
+            6
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she lives near Tampa, Florida, and has been there for 23 years.",
+          "value": "Near Tampa, Florida",
+          "lines": [
+            14,
+            248,
+            250
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b refers to herself as a 'young woman' and her name and references imply female gender.",
+          "value": "Female",
+          "lines": [
+            192
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is young and recently graduated college.",
+          "value": "Young adult",
+          "lines": [
+            166,
+            320
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she is a guidance counselor in a school.",
+          "value": "Guidance counselor",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her background is in social work.",
+          "value": "Social work major",
+          "lines": [
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she graduated in December and attended a large college in Orlando (likely UCF).",
+          "value": "College graduate; attended UCF",
+          "lines": [
+            166,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is getting married next December.",
+          "value": "Engaged",
+          "lines": [
+            224,
+            260
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she works in the school system and is preparing to go back.",
+          "value": "Employed as a guidance counselor",
+          "lines": [
+            18,
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b indicates she participates in online tasks for money; speaker_a asks if it is for extra income and she seems to agree.",
+          "value": "Does online tasks for extra income",
+          "lines": [
+            52,
+            53
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b discusses not receiving the first stimulus check because she was a dependent in college, and hopes to qualify for the second.",
+          "value": "Did not receive first stimulus check; was a dependent",
+          "lines": [
+            272,
+            274,
+            276
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says the honeymoon to Japan will cost about $5,000 and they are asking for monetary gifts instead of physical presents.",
+          "value": "Planning a honeymoon to Japan (budget ~$5,000); requesting cash gifts",
+          "lines": [
+            280,
+            284,
+            286
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says her boyfriend lives in Orlando and they are engaged.",
+          "value": "Engaged to a man who lives in Orlando",
+          "lines": [
+            84,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her fiance is one of ten children.",
+          "value": "Fiance is one of 10 children",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions her mother is a teacher and has been for 26 years.",
+          "value": "Mother is a teacher with 26 years experience",
+          "lines": [
+            32,
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b expresses enjoyment in seeing her students and interacting with children.",
+          "value": "Enjoys working with children",
+          "lines": [
+            20,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says the wedding is planned for December 2021.",
+          "value": "Wedding planned for December 2021",
+          "lines": [
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says they are going to Japan for their honeymoon.",
+          "value": "Honeymoon to Japan",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she substituted before starting as a full-time guidance counselor in January.",
+          "value": "Worked as a substitute before full-time guidance role",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a tells speaker_b she has a pleasant face.",
+          "value": "Pleasant face (according to speaker_a)",
+          "lines": [
+            15
+          ],
+          "certainty": 2
+        }
+      ]
+    }
+  ]
+}

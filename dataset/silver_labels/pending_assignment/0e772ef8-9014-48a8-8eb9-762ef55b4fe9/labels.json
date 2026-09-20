@@ -1,0 +1,414 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b asks for a name and speaker_a responds with what the ASR captures as 'Roy it was near', understood as the name Roy.",
+          "value": "Roy",
+          "lines": [
+            347
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states they are in Missouri and agrees they are close to Kansas City.",
+          "value": "Missouri, near Kansas City",
+          "lines": [
+            13,
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they lived in the same area their entire life except for four years at school in northern California, not a big city like San Francisco.",
+          "value": "Lived in northern California for 4 years for school",
+          "lines": [
+            235,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a refers to his wife and daughters, indicating male gender.",
+          "value": "Male",
+          "lines": [
+            41,
+            85,
+            123
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'I'm a teacher so our teach pE at an elementary school'.",
+          "value": "PE teacher at an elementary school",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When speaker_b says they do not have cable, speaker_a responds with a garbled line that confirms they also do not have cable TV.",
+          "value": "Does not have cable TV",
+          "lines": [
+            201
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my wife' and states she is a registered vet tech.",
+          "value": "Married to a registered vet tech",
+          "lines": [
+            41,
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has two girls, a seven‑year‑old and one turning two in February.",
+          "value": "Two daughters, ages 7 and almost 2",
+          "lines": [
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's wife went to Beloit, KS; speaker_a explains that 'grandma just passed... that's where she was born'. The context suggests the wife's grandmother died.",
+          "value": "Wife's grandmother recently passed away; she was from Beloit, Kansas",
+          "lines": [
+            41,
+            51
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a confirms he is ready to watch football that day.",
+          "value": "Watches football",
+          "lines": [
+            16,
+            17
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions Salida, CO has good mountain biking and they like it.",
+          "value": "Enjoys mountain biking",
+          "lines": [
+            219
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says they plan to go camping in Colorado.",
+          "value": "Enjoys camping",
+          "lines": [
+            211
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states 'two dogs and two cats right now'.",
+          "value": "Owns two dogs",
+          "lines": [
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says they have two cats and are adopting a kitten from the humane society.",
+          "value": "Owns two cats, adopting a third (kitten)",
+          "lines": [
+            63,
+            67,
+            81
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions a heating pad in a cat house for 'the sphinx' (sphynx cat).",
+          "value": "Owns a sphynx cat",
+          "lines": [
+            97
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a names the older cat Carolyn, describing her as a grumpy old girl.",
+          "value": "Has a cat named Carolyn (older, grumpy)",
+          "lines": [
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a tells a story about a foster cat they kept that ate rubber/pacifiers, required surgeries, and was eventually euthanized; he says 'that was mike'.",
+          "value": "Previously had a cat named Mike that was euthanized due to pica",
+          "lines": [
+            283,
+            291,
+            295
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions finishing Lost in Space, rewatching The Office, and watching the Billy Bob Thornton show (Goliath).",
+          "value": "Watches streaming shows including Lost in Space, The Office, and Goliath",
+          "lines": [
+            185,
+            189
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b explicitly says 'So I'm Tracy.'",
+          "value": "Tracy",
+          "lines": [
+            346
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says she is in Missouri, close to Kansas City.",
+          "value": "Missouri, near Kansas City",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lived in Oklahoma for a year but otherwise just here (Missouri).",
+          "value": "Lived in Oklahoma for 1 year",
+          "lines": [
+            236
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she fosters for a rescue in Shawnee, a Kansas City suburb.",
+          "value": "Fosters for a rescue based in Shawnee (likely Kansas)",
+          "lines": [
+            74
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b's name is Tracy and she references a husband and sons, indicating female gender.",
+          "value": "Female",
+          "lines": [
+            346,
+            120
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says a mama cat had kittens on her 50th birthday, so she is at least 50.",
+          "value": "Age at least 50",
+          "lines": [
+            314
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'my degree's actually economics'.",
+          "value": "Bachelor's degree in economics",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says movie theatres give her a headache because of the noise and lights.",
+          "value": "Sensitive to movie theater lights/noise, gets headaches",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says she teaches English as a foreign language online to adults in Europe and Asia.",
+          "value": "Online English as a foreign language teacher",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she used to work for Sprint and was laid off.",
+          "value": "Previously worked at Sprint, laid off",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband works in a call centre for an insurance company.",
+          "value": "Husband works in an insurance company call center",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they do not have cable TV but subscribe to Amazon, Hulu, Netflix, and CBS All Access.",
+          "value": "No cable TV; subscribes to Amazon, Hulu, Netflix, CBS All Access",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says she has been married for 31 years this year.",
+          "value": "Married for 31 years",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her husband was in the Air Force, stationed at Cheyenne Mountain, and lived in Colorado Springs.",
+          "value": "Husband is former Air Force, stationed at Cheyenne Mountain",
+          "lines": [
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has three sons: a 28‑year‑old who doesn't live at home, a 25‑year‑old with autism who lives at home, and a 14‑year‑old.",
+          "value": "Three sons: 28, 25 (autism, at home), 14",
+          "lines": [
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says her youngest son and she like to go camping together.",
+          "value": "Youngest son is camping companion",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have a friend who's in L.A.'",
+          "value": "Has a friend living in Los Angeles",
+          "lines": [
+            244
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she works in volunteer animal rescue, drives a lot, and fosters cats and dogs.",
+          "value": "Volunteers with animal rescue, fosters animals",
+          "lines": [
+            56,
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'well have 12 right now' when asked how many cats she has.",
+          "value": "Currently has 12 cats at home",
+          "lines": [
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has a pit bull, probably a pit‑boxer mix, with short hair and no body fat who hates cold weather.",
+          "value": "Owns a pit bull (pit boxer mix) dog",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists several of her cats' names: Edge, Countess Ruegen, Valerie, Gadget, Trip, and Folsom.",
+          "value": "Has cats with distinctive names including Edge, Countess Ruegen, Valerie, Gadget, Trip, and Folsom",
+          "lines": [
+            314,
+            318,
+            322,
+            326,
+            328,
+            338
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she and her youngest son like to go camping.",
+          "value": "Enjoys camping with son",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she watches Lost in Space, the paranormal show Evil, and Drunk History.",
+          "value": "Watches sci-fi and paranormal shows, including Lost in Space, Evil, and Drunk History",
+          "lines": [
+            164,
+            172,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she would like to ride the Katy Trail someday.",
+          "value": "Aspires to ride the Katy Trail",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b comments on the many great state parks in the area.",
+          "value": "Enjoys Missouri state parks",
+          "lines": [
+            210
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she has only seen the beach four times in her life.",
+          "value": "Has only seen the beach four times",
+          "lines": [
+            228
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

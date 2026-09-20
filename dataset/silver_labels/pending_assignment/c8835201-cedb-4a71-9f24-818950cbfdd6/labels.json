@@ -1,0 +1,400 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself by name.",
+          "value": "Amanda",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is from New York, lives 'super upstate', describes her current area as rural, on a huge river, touristy, and upscale. She also refers to living in the country and being in upstate New York.",
+          "value": "Upstate New York, rural, near a river",
+          "lines": [
+            11,
+            23,
+            115,
+            289,
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she grew up in Buffalo.",
+          "value": "Buffalo, New York (grew up)",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Name Amanda, mentions having a daughter and pink hair, all consistent with female gender.",
+          "value": "Female",
+          "lines": [
+            9,
+            165,
+            137
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her daughter and son.",
+          "value": "Mother",
+          "lines": [
+            165,
+            251,
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'my husband'.",
+          "value": "Married",
+          "lines": [
+            331
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she works at a chateau doing fine dining and is classically trained in French cooking.",
+          "value": "Cook / chef at a fine dining restaurant",
+          "lines": [
+            71,
+            109,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I'm a musician'.",
+          "value": "Musician",
+          "lines": [
+            109
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says 'I'm broke'.",
+          "value": "Reports being broke",
+          "lines": [
+            117
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states her rent is about $800 for a two-bedroom house.",
+          "value": "Pays $800/month rent for a 2-bedroom house",
+          "lines": [
+            371
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing surveys and receiving $100 Amazon gift cards over two months.",
+          "value": "Receives supplementary income from online surveys",
+          "lines": [
+            187,
+            189,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She notes her husband works full-time as a dental assistant.",
+          "value": "Spouse employed as a dental assistant",
+          "lines": [
+            337
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She mentions 'my husband'.",
+          "value": "Husband",
+          "lines": [
+            331,
+            337
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks about her daughter and says she is in second grade.",
+          "value": "Daughter in second grade",
+          "lines": [
+            165,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she has a four-year-old son.",
+          "value": "Four-year-old son",
+          "lines": [
+            307
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her brother goes to UB (University at Buffalo) and mentions he is paralyzed from the chest down.",
+          "value": "Brother who is paralyzed and attends University at Buffalo",
+          "lines": [
+            29,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom like she wants to do it' referring to hair dyeing.",
+          "value": "Mother",
+          "lines": [
+            169
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She explains she has chosen to homeschool her daughter instead of sending her to public school during the pandemic.",
+          "value": "Homeschools her daughter",
+          "lines": [
+            245,
+            250,
+            257,
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She talks enthusiastically about food and cooking, saying it is her main focus.",
+          "value": "Enjoys cooking and food",
+          "lines": [
+            65,
+            67,
+            69,
+            71,
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions going on hikes because they live in the country.",
+          "value": "Goes hiking",
+          "lines": [
+            297
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She regularly participates in online research studies and surveys for extra money.",
+          "value": "Participates in online surveys/research studies",
+          "lines": [
+            187,
+            189,
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She states she has pink hair and at one point describes it as a 'magenta situation'.",
+          "value": "Pink / magenta hair",
+          "lines": [
+            137,
+            167
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "The ASR captures 'wanda' when she gives her name, though the recognition is unclear.",
+          "value": "Wanda (phonetic, ASR unclear)",
+          "lines": [
+            8
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says she is from New York and specifies Queens.",
+          "value": "Queens, New York",
+          "lines": [
+            10,
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has lived in New York her whole life, and she mentions driving and the PATH train, indicating she currently resides in the NYC area.",
+          "value": "New York City area (current)",
+          "lines": [
+            42,
+            382,
+            396,
+            400
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she lived in Michigan for three years during middle school.",
+          "value": "Lived in Michigan for 3 years (past)",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She discusses dyeing her hair, has a feminine-sounding name, and mentions she does not have children.",
+          "value": "Female",
+          "lines": [
+            8,
+            138,
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm a therapist' and later clarifies she works as an occupational therapist in schools.",
+          "value": "Occupational therapist",
+          "lines": [
+            76,
+            82,
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is currently seeing clients via computer from home.",
+          "value": "Works from home (currently)",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She explicitly says 'I don't have kids'.",
+          "value": "No children",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I drive'.",
+          "value": "Drives",
+          "lines": [
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She is employed as an occupational therapist.",
+          "value": "Employed as an occupational therapist",
+          "lines": [
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing surveys on Prolific and other sites for extra money.",
+          "value": "Receives supplementary income from online surveys",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She comments that $800 rent is 'really good' compared to where she lives, implying a high cost of living.",
+          "value": "Lives in a high cost of living area",
+          "lines": [
+            372,
+            374
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my brother goes to Buffalo University'.",
+          "value": "Brother who attends University at Buffalo",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes her family moving to Michigan and starting businesses there when she was in middle school.",
+          "value": "Family in Michigan who started businesses",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She is currently working from home as a therapist.",
+          "value": "Works from home",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She regularly completes online surveys on platforms like Prolific.",
+          "value": "Participates in online surveys",
+          "lines": [
+            204,
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions watching and following easy kids drawing videos on YouTube.",
+          "value": "Watches drawing tutorial videos",
+          "lines": [
+            314,
+            322
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "She describes her hair as black and brown.",
+          "value": "Black and brown hair",
+          "lines": [
+            160
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

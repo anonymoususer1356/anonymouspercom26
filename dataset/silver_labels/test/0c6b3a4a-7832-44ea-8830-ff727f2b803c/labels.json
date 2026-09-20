@@ -1,0 +1,481 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_b addresses him as 'robert and Michelle', and speaker_a immediately confirms 'My name is robert'. The ASR spelling is 'robert', intended Robert.",
+          "value": "robert",
+          "lines": [
+            4,
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says they relocated to Texas and Marshall county, then when asked what part of Texas confirms Houston. Later remarks Texas is quiet, friendly, cheaper. Recorded as Houston, Texas.",
+          "value": "Houston, Texas",
+          "lines": [
+            47,
+            123,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'I used to live in California' and later is homesick for California because family is there.",
+          "value": "California (former residence)",
+          "lines": [
+            47,
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a mentions 'me and my wife were relocated', indicating they are married.",
+          "value": "married",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'no kids yet but expecting', gives 'april' as due date, and confirms 'this would be my first'.",
+          "value": "expecting first child, due April",
+          "lines": [
+            39,
+            41,
+            43
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work in a nursing assistant' and describes working in cardiac/heart surgeries in a hospital.",
+          "value": "nursing assistant in hospital, cardiac surgeries",
+          "lines": [
+            25,
+            27,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions using Prolific surveys, saving that income, and using off days to save money for 'four X' and stock trading western currencies.",
+          "value": "uses Prolific surveys for extra income, saving for stock trading (forex)",
+          "lines": [
+            13,
+            19,
+            29,
+            31
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'me and my wife were relocated'.",
+          "value": "has a wife",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states expecting first child, due April.",
+          "value": "expecting a child (first) with wife",
+          "lines": [
+            39,
+            41,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my dad was stationed in san Diego' and 'the Navy'.",
+          "value": "father served in Navy, stationed in San Diego",
+          "lines": [
+            49,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states 'all my family's out there' (California) and mentions 'my parents and my brother… my siblings'.",
+          "value": "parents and siblings live in California",
+          "lines": [
+            183,
+            191
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have a friend who is also a teacher but he teaches… special ed education'.",
+          "value": "friend who is a special education teacher",
+          "lines": [
+            87,
+            89
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I have friends who are in traverse city' (ASR for Traverse City).",
+          "value": "friends in Traverse City",
+          "lines": [
+            135
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "In the context of Navy family discussion, speaker_a says 'we always used to go to Guam and how do you change schools and friends', implying they moved frequently as a Navy child and lived in Guam.",
+          "value": "grew up in Navy family, moved frequently, lived in Guam",
+          "lines": [
+            53
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm kind of like a summer kinda hot hot, you know, not too hot but just enough'.",
+          "value": "prefers hot/summer weather",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes doing takeout and grocery pickup instead of dining in, and not traveling much.",
+          "value": "limits dining out and travel due to COVID, does takeout and grocery pickup",
+          "lines": [
+            179,
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'it's not so bad in texas is quiet, people are friendly here and and it's much cheaper'.",
+          "value": "finds Texas quiet, friendly, and cheaper than California",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm kind of homes in California you know because all my family's out there'.",
+          "value": "homesick for California",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states 'I am in Avondale which is a suburb of phoenix, so I'm in the west part of phoenix', clarifies it is not near California, and mentions driving to San Diego is ~6 hours.",
+          "value": "Avondale, Arizona (suburb of Phoenix)",
+          "lines": [
+            152,
+            157,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I grew up in san Diego', mentions moving from San Diego to Arizona, and refers to San Diego weather.",
+          "value": "San Diego, California (former residence, grew up)",
+          "lines": [
+            48,
+            188,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I lived in the Dallas area for a while, right out of college… only for like eight months'.",
+          "value": "Dallas, Texas (brief former residence)",
+          "lines": [
+            124,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I teach a Australia Mountain community college, so it's a community college that's local'. ASR error for Estrella Mountain Community College, recorded verbatim.",
+          "value": "Australia Mountain community college (Estrella Mountain Community College), Avondale, Arizona",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I'm a math teacher and I teach statistics' and 'I teach community college math'.",
+          "value": "math teacher (community college)",
+          "lines": [
+            12,
+            68,
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I a bit of an introvert, so I was not one that like, and I don't like to go out and party or anything'.",
+          "value": "introvert",
+          "lines": [
+            132
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'it's just me and my dog', indicating no romantic partner.",
+          "value": "single (no spouse/partner)",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I don't have kids myself'.",
+          "value": "no children",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my dog' several times.",
+          "value": "dog owner",
+          "lines": [
+            6,
+            36
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I get headaches' from computer use, which motivated buying blue light blocking glasses.",
+          "value": "suffers headaches from computer use",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am super paranoid with covid like washing my hands and everything every time I like go out of the house'.",
+          "value": "anxious/paranoid about COVID-19",
+          "lines": [
+            112
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b is a math teacher at a community college, currently teaching remotely from home due to COVID-19.",
+          "value": "employed as math teacher at community college, remote due to COVID",
+          "lines": [
+            68,
+            82,
+            84,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I worked for GT at the time, but it's not Verizon' (ASR 'GT' for GTE), indicating a prior career in Dallas.",
+          "value": "previously employed by GTE (now Verizon) in Dallas",
+          "lines": [
+            124
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b confirms participating in Prolific, loves surveys, mentions Amazon Mechanical Turk, pine cone research, receipt apps, and cashing out around £20.",
+          "value": "does online gig work (Prolific, MTurk, receipt apps) for extra income, cashes out £20",
+          "lines": [
+            10,
+            12,
+            16,
+            22,
+            34,
+            248,
+            254,
+            256,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains moving from San Diego to Arizona because 'I wanted to be able to afford a house' due to San Diego's expense.",
+          "value": "relocated to Arizona for lower cost of living, to afford housing",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions a 2.5-year-old nephew, and says they live in California; later clarifies the sister and her husband moved back to San Diego.",
+          "value": "sister and brother-in-law, 2.5-year-old nephew in California",
+          "lines": [
+            46,
+            158,
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my mom still lives in san Diego'.",
+          "value": "mother lives in San Diego, California",
+          "lines": [
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'my dad was also in the Navy… then he worked for the Navy as a civilian for his entire career'.",
+          "value": "father served in Navy and later civilian Navy employee",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my dog' repeatedly.",
+          "value": "dog (pet)",
+          "lines": [
+            6,
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I had a friend who was driving me to the airport and she still was willing to take me' during an ice storm in Dallas.",
+          "value": "friend in Dallas who helped during ice storm",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I love doing surveys. I think it's fun and interesting'.",
+          "value": "enjoys doing surveys, finds them fun",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions taking a photography class, loving to take pictures, and concerns about glass reflections when photographing from trains.",
+          "value": "enjoys photography",
+          "lines": [
+            130,
+            242,
+            244
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I took ice skating lessons when I lived there' (Dallas).",
+          "value": "took ice skating lessons",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'the top thing on my bucket list is to visit all 50 states' and has visited 32 so far.",
+          "value": "bucket list: visit all 50 U.S. states, visited 32 so far",
+          "lines": [
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b expresses liking trains, has taken train rides, and considers train trips to the Grand Canyon.",
+          "value": "likes trains, takes train rides for leisure",
+          "lines": [
+            214,
+            240,
+            242
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I am always nervous to drive' in snow and would rather not drive in it.",
+          "value": "avoids driving in snowy conditions",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being 'super paranoid with covid', washes hands when leaving house.",
+          "value": "takes COVID-19 precautions (handwashing, paranoid)",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'we also live near an air force base, I live near an airport' and saw 'weird lights in the sky' once.",
+          "value": "lives near Air Force base and airport, saw unexplained lights once",
+          "lines": [
+            164,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I usually use it (Prolific money) to pay for fun stuff… books or art supplies'.",
+          "value": "uses extra income for books and art supplies",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b usually drives to San Diego (~6 hours) to visit family, but has limited travel since COVID-19.",
+          "value": "drives to San Diego to visit family (~6 hour drive), travel reduced due to COVID",
+          "lines": [
+            160,
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b says 'I don't normally wear glasses, but I bought some blue light blocking glasses… it's weird looking down and seeing glasses on my face because they don't normally wear them.'",
+          "value": "currently wears blue light blocking glasses, normally does not wear glasses",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

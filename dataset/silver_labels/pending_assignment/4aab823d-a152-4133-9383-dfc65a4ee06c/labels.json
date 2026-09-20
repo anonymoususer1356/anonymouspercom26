@@ -1,0 +1,546 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States 'I'm in new york city' and 'I'm living right in the middle of Manhattan', and shows the Cathedral of St. John the Divine from her window.",
+          "value": "Manhattan, New York City, USA",
+          "lines": [
+            17,
+            255,
+            261,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm from England originally' and later 'I'm definitely english'.",
+          "value": "England (origin)",
+          "lines": [
+            147,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I lived in Houston for two years' and moving there from England.",
+          "value": "Houston, Texas (previously lived for two years)",
+          "lines": [
+            145,
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I went to Seattle Washington for five years'.",
+          "value": "Seattle, Washington (previously lived for five years)",
+          "lines": [
+            207,
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'then I went to Toronto. Canada' and 'I was there for a couple of years'.",
+          "value": "Toronto, Canada (previously lived for a couple of years)",
+          "lines": [
+            209,
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Originally English (147, 197); says 'I only became american what six months ago?' (191) and 'I've been here for 15 years now, but I only just became american' (193).",
+          "value": "English and American (naturalized US citizen)",
+          "lines": [
+            147,
+            191,
+            193,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states 'I make television, I write television and produced television'.",
+          "value": "Television writer and producer",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I worked for Microsoft' during her time in Seattle.",
+          "value": "Former employee of Microsoft",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asserts 'I've got very blue eyes', which speaker_b later confirms.",
+          "value": "Blue eyes",
+          "lines": [
+            65,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When discussing the cathedral view, remarks 'I'm not very religious'.",
+          "value": "Not very religious",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'It's my first time I can vote' after recently naturalizing.",
+          "value": "First-time voter (recently naturalized)",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Answers 'Same' when asked about living alone, confirming she lives alone.",
+          "value": "Lives alone",
+          "lines": [
+            271,
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I think new york is very blue already', wants to vote to 'save the world', implying Democratic/liberal lean.",
+          "value": "Political lean: liberal/Democrat",
+          "lines": [
+            193,
+            199,
+            203
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "States 'I've been here for 15 years now'.",
+          "value": "Resident of USA for 15 years",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Explicitly says about her father 'he's stressing me out. He's given me anxiety'.",
+          "value": "Anxiety due to father's anti-mask stance",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes being unable to go outside in the sun because blue eyes make her sensitive; speaker_b confirms lighter eyes are more sensitive to bright light.",
+          "value": "Photophobia (light sensitivity) associated with blue eyes",
+          "lines": [
+            67,
+            74,
+            76
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Says 'I only became american what six months ago?' and 'I only just became american'.",
+          "value": "Naturalized US citizen (acquired about six months ago)",
+          "lines": [
+            191,
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains she stayed in the US instead of Canada because 'I already had a green card here in the United States'.",
+          "value": "Former US permanent resident (green card holder)",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She makes, writes and produces television, indicating current professional engagement.",
+          "value": "Employed as a television writer/producer",
+          "lines": [
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'I worked for Microsoft over there' regarding Seattle.",
+          "value": "Formerly employed at Microsoft",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Her parents moved back to England (207) and she refers to 'my parents in England' (291).",
+          "value": "Parents reside in England",
+          "lines": [
+            207,
+            291
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'My brother lived in Perth Australia for a long time'.",
+          "value": "Has a brother",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'my dad has turned into a complete dickhead and he won't wear a mask'.",
+          "value": "Father refuses to wear a face mask",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "At the start, googling Champions League score and watching Barcelona vs. Bayern Munich on her telephone; later says she likes making football sports television.",
+          "value": "Watches Champions League football matches on mobile",
+          "lines": [
+            11,
+            13,
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Complains that 4 AM kickoffs in Seattle were 'way too early to drink beer', implying drinking beer while watching is the norm.",
+          "value": "Drinks beer while watching football",
+          "lines": [
+            215,
+            217
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Reports only eight outings since March for grocery shopping and no human touch for 150 days.",
+          "value": "Strict self-isolation during COVID-19 (left home only 8 times since March)",
+          "lines": [
+            251,
+            255
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Used to call parents every second day but now only texts because she can't listen to her dad.",
+          "value": "Switched from calls to texts with parents due to conflict with father",
+          "lines": [
+            291,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Shows the view from her window: the Cathedral of St. John the Divine, which she calls 'the world's biggest cathedral'.",
+          "value": "Resides near Cathedral of St. John the Divine in Manhattan",
+          "lines": [
+            261,
+            263
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Asks speaker_b if he has 'done one of these before', says 'this is my second', and has waited many times for a participant.",
+          "value": "Participates in online conversation study (second time)",
+          "lines": [
+            5,
+            9,
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "States 'I've got very blue eyes', confirmed by speaker_b's 'really pretty blue eyes'.",
+          "value": "Blue eyes",
+          "lines": [
+            65,
+            80
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "States directly 'I am currently in Alabama usa but I yeah yeah I mean I'm in Birmingham'.",
+          "value": "Birmingham, Alabama, USA (current residence)",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms 'Yes, I'm Indian' when speaker_a asks about his accent.",
+          "value": "India (origin)",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'when we come to the States three years ago'.",
+          "value": "Moved from India to USA three years ago",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Self-identifies as Indian (126).",
+          "value": "Indian",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm also an optometrist' and 'trying to get my PhD in vision science'.",
+          "value": "Optometrist and PhD candidate in vision science",
+          "lines": [
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lives in Birmingham for university; references UAB; applied to six US schools and chose Alabama.",
+          "value": "PhD student at University of Alabama at Birmingham (UAB)",
+          "lines": [
+            16,
+            30,
+            134,
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When discussing eye pigment, says 'in my case you would see the brown spots' and under a microscope 'I would see the pigment'.",
+          "value": "Brown eyes",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Asked about glasses/contacts, replies 'I'm currently wearing consequences' (misheard for 'contact lenses').",
+          "value": "Wears contact lenses",
+          "lines": [
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Uses contact lenses for vision correction.",
+          "value": "Vision corrected with contact lenses",
+          "lines": [
+            56
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "Came from India for a PhD program three years ago and is currently still a student; this strongly implies a non-immigrant student visa.",
+          "value": "International student on a non-immigrant visa (likely F-1)",
+          "lines": [
+            128,
+            170
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Only two of six offers provided funding; 'they were also going to find me' (fund me).",
+          "value": "Receives PhD funding (tuition and stipend)",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I simultaneously work for the optometry school'.",
+          "value": "Employed by UAB optometry school (graduate assistant)",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes using coupons and stockpiling two months of groceries to save money.",
+          "value": "Frugal shopper (uses coupons, stockpiles food)",
+          "lines": [
+            246,
+            248
+          ],
+          "certainty": 3
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaks about calling his parents in India.",
+          "value": "Parents live in India",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly says 'my parents both our optometrist'.",
+          "value": "Parents are both optometrists",
+          "lines": [
+            98
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'my grandmother also lives with my parents'.",
+          "value": "Grandmother lives with parents in India",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my sister lives there' (Australia) and later 'my sister is in Australia'.",
+          "value": "Sister lives in Australia",
+          "lines": [
+            182,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I'm the only one with no family in and around here'.",
+          "value": "No family in Alabama",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Has traveled to NYC four or five times, spending a week before flying to Europe, using it as a gateway.",
+          "value": "Frequent international traveler, previously used NYC as stopover for Europe",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Prefers working from home on computer during pandemic and shops super early to avoid crowds.",
+          "value": "During pandemic, works from home and shops early to avoid crowds",
+          "lines": [
+            160,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms he lives alone and says 'it was definitely very lonely'.",
+          "value": "Lives alone and experiences loneliness",
+          "lines": [
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Is considering getting a pet, specifically 'more like a fish or something'.",
+          "value": "Contemplating getting a pet fish",
+          "lines": [
+            276,
+            278,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Calls parents every two or three days (about twice a week); calls sister at random intervals.",
+          "value": "Speaks to parents twice a week, sister sporadically",
+          "lines": [
+            282,
+            284,
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "His research involving seeing patients was shut down for 4‑5 months; committee changed project to computational modelling, shifting from children to adults.",
+          "value": "Research shifted from pediatric clinical to adult/computational due to pandemic",
+          "lines": [
+            156,
+            158,
+            166,
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Indicates his eye would show brown pigment under a microscope, unlike blue eyes.",
+          "value": "Brown eyes",
+          "lines": [
+            90,
+            92
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Answers he is currently wearing contact lenses (ASR misheard as 'consequences').",
+          "value": "Wears contact lenses",
+          "lines": [
+            56
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Self-identifies as Indian, implying South Asian physical features.",
+          "value": "Indian ethnicity",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

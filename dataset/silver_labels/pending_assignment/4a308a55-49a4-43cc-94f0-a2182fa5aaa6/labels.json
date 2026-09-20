@@ -1,0 +1,393 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as Kenny when speaker_b asks his name.",
+          "value": "Kenny",
+          "lines": [
+            3
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I live in Dallas'.",
+          "value": "Dallas, Texas",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states 'I'm from Tulsa Oklahoma'.",
+          "value": "Tulsa, Oklahoma",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "When speaker_b states her age, speaker_a responds with 'Um 31.' indicating his age.",
+          "value": "31 years old",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Kenny is typically male, and he mentions having a son.",
+          "value": "male",
+          "lines": [
+            3,
+            101
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a shares that he lost all his possessions except for two boxes in 2011, and that the same thing happened when he was 14.",
+          "value": "Experienced total property loss twice (at age 14 and in 2011)",
+          "lines": [
+            239,
+            241
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a confirms he has a son and states his age.",
+          "value": "Has a son, age 7",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions his father passed away.",
+          "value": "Father is deceased",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has a friend who travels to Mexico often.",
+          "value": "Has a friend who frequently travels to Mexico",
+          "lines": [
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states he attended three Gatherings of the Juggalos in 2011, 2012, and 2014.",
+          "value": "Attends Juggalo gatherings",
+          "lines": [
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions playing GTA V, sims, Stardew Valley, Pokemon Go, and earlier Pokemon games.",
+          "value": "Plays video games",
+          "lines": [
+            141,
+            147,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if he collected Pokemon cards, speaker_a replies 'Yeah definitely.'",
+          "value": "Collects Pokemon cards",
+          "lines": [
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a discusses watching anime and specific Studio Ghibli films.",
+          "value": "Watches anime",
+          "lines": [
+            175,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he was a big Harry Potter fan, bought first editions, and rebuilt his collection.",
+          "value": "Harry Potter fan and book collector",
+          "lines": [
+            237,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a shows an old stuffed animal (likely a Pokémon plush) with a 1988 tag, stating it came out the year he was born.",
+          "value": "Owns an old stuffed animal (Pokémon plush, tagged 1988)",
+          "lines": [
+            253,
+            259,
+            263
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions taking a Greyhound bus to Texas.",
+          "value": "Travels by Greyhound bus",
+          "lines": [
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he has a parrot, two cats, a new kitten, and feeds an outdoor tomcat; he also had a calico that died.",
+          "value": "Pet owner (parrot, cats)",
+          "lines": [
+            43,
+            45,
+            71,
+            79,
+            83
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself as 'Alyssa'.",
+          "value": "Alyssa",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm from Illinois'.",
+          "value": "Illinois",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lives 'on a highway in the middle of nowhere' and 'in the country'.",
+          "value": "Rural area on a highway",
+          "lines": [
+            66,
+            142
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b states 'I'm only 20'.",
+          "value": "20 years old",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Alyssa is typically female, and she mentions having a boyfriend.",
+          "value": "female",
+          "lines": [
+            2,
+            304
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b mentions starting college.",
+          "value": "College student",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she tutors online on varsity tutors.",
+          "value": "Online tutor",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she does not have kids.",
+          "value": "No children",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says 'I had a lot of night tears when I was a kid', likely meaning night terrors.",
+          "value": "Had night terrors as a child",
+          "lines": [
+            278
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'we grew up really poor'.",
+          "value": "Grew up poor",
+          "lines": [
+            282
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b mentions her boyfriend.",
+          "value": "Has a boyfriend",
+          "lines": [
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'that's how my nephews are too'.",
+          "value": "Has nephews",
+          "lines": [
+            114
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b refers to 'my mom's best friend', implying she has a mother.",
+          "value": "Has a mother",
+          "lines": [
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions a relative (son of her mom's best friend) who was into Juggalos.",
+          "value": "Has a relative who is a Juggalo fan",
+          "lines": [
+            226
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says she used to perform around the country.",
+          "value": "Used to perform (e.g., music/dance) around the country",
+          "lines": [
+            14,
+            86
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b discusses playing Minecraft, Pokemon games, Persona 4, Graveyard Keeper, etc.",
+          "value": "Plays video games",
+          "lines": [
+            128,
+            138,
+            148,
+            158
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b talks about watching My Hero Academia and Studio Ghibli movies.",
+          "value": "Watches anime",
+          "lines": [
+            172,
+            175,
+            178
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she still collects Pokemon cards, particularly Eevee evolutions.",
+          "value": "Collects Pokemon cards",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I have a tattoo but it's really small, it's just a triangle'.",
+          "value": "Has a small triangle tattoo",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b expresses love for the rapper Bones and mentions Benny Revival.",
+          "value": "Listens to underground rap (Bones, Benny Revival)",
+          "lines": [
+            184,
+            186,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b indicates she uses Prolific, the survey site, and her boyfriend also uses it.",
+          "value": "Uses Prolific survey site",
+          "lines": [
+            304
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she has two cats and a Newfoundland dog.",
+          "value": "Pet owner (two cats, a Newfoundland dog)",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states she is a cat person.",
+          "value": "Identifies as a cat person",
+          "lines": [
+            54
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b describes her small triangle tattoo.",
+          "value": "Small triangle tattoo",
+          "lines": [
+            230
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

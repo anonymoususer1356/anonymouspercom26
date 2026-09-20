@@ -1,0 +1,375 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in California' and 'I live actually in Silicon Valley', indicating current residence.",
+          "value": "Silicon Valley, California, USA",
+          "lines": [
+            15,
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I mean on pacific time', indicating her timezone.",
+          "value": "Pacific Time Zone",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I'm Australian originally'.",
+          "value": "Australian originally",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm vegetarian'.",
+          "value": "vegetarian",
+          "lines": [
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Speaker states she got citizenship about five years ago, indicating she is now a US citizen.",
+          "value": "US citizen",
+          "lines": [
+            103,
+            104
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Speaker mentions using Prolific for studies and CrowdTap on the phone.",
+          "value": "earns money through online surveys (Prolific, CrowdTap)",
+          "lines": [
+            35,
+            54,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I don't actually have netflix... I've got amazon prime' (ASR 'You've got' but context indicates first person).",
+          "value": "has Amazon Prime",
+          "lines": [
+            157
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker states she has AT&T and Comcast.",
+          "value": "has AT&T and Comcast services",
+          "lines": [
+            193,
+            194,
+            195
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'we moved actually the early two thousands came over with a tech job'.",
+          "value": "moved to the US in early 2000s for a tech job",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I'm gonna do a lot of zooms for work' and 'I'm actually off next week', indicating current employment.",
+          "value": "employed, uses Zoom for work",
+          "lines": [
+            45,
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker refers to 'my husband' multiple times.",
+          "value": "married, has a husband",
+          "lines": [
+            25,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'my older brother lives in Kansas city'.",
+          "value": "older brother lives in Kansas City",
+          "lines": [
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'my brother used to live in Albuquerque'.",
+          "value": "brother used to live in Albuquerque",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'my mom actually passed away a few years ago and she had dementia'.",
+          "value": "mother deceased from dementia",
+          "lines": [
+            179
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker mentions having a permit to go to Yosemite and camping plans.",
+          "value": "planning a camping trip to Yosemite National Park",
+          "lines": [
+            19,
+            143
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker talks about her black cat Spooky, his age at death, and his diabetes.",
+          "value": "owned a cat named Spooky (black, diabetic, lived to ~18)",
+          "lines": [
+            87,
+            249,
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'we just lost our second last cat last year', implying she had multiple cats.",
+          "value": "previously had multiple cats, all deceased",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I've gotten much better at my bread baking game'.",
+          "value": "enjoys baking bread",
+          "lines": [
+            209
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions watching Westworld, Mrs. Maisel, and Pixar movies like Coco and Toy Story 3.",
+          "value": "watches Westworld, Mrs. Maisel, Pixar movies (Coco, Toy Story 3)",
+          "lines": [
+            171,
+            173,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I don't actually have netflix'.",
+          "value": "does not have Netflix",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker states 'I'm in Oklahoma' and 'I'm in a smaller city, but I am closer to Tulsa'.",
+          "value": "near Tulsa, Oklahoma, USA",
+          "lines": [
+            14,
+            124
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'you're on central time' and speaker_b does not dispute it.",
+          "value": "Central Time Zone",
+          "lines": [
+            35
+          ],
+          "certainty": 3
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker states 'I'm married'.",
+          "value": "married",
+          "lines": [
+            118
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I have step siblings, I have half siblings'.",
+          "value": "has step-siblings and half-siblings",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'my parents are divorced and they're both divorced and have been married multiple times'.",
+          "value": "parents divorced and remarried multiple times",
+          "lines": [
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker states she has used Prolific for about a year and also uses MTurk for academic surveys.",
+          "value": "earns money through online surveys (Prolific, MTurk)",
+          "lines": [
+            10,
+            54,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she is watching Hannibal on Netflix.",
+          "value": "has Netflix",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she has Disney+ for free because she is a Verizon customer.",
+          "value": "Verizon customer, has Disney+ free",
+          "lines": [
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker states 'I'm married' and does not correct speaker_a's reference to 'your husband'.",
+          "value": "married, has a husband",
+          "lines": [
+            118,
+            119
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I actually have a brother that lives in California, Orange County area'.",
+          "value": "brother lives in Orange County, California",
+          "lines": [
+            112
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker describes her family as including step and half siblings.",
+          "value": "has step-siblings and half-siblings",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says she adopted an orange fluffy cat named Peanut from an individual a year ago.",
+          "value": "adopted cat named Peanut",
+          "lines": [
+            46,
+            82,
+            218,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker says she puts her cat on a harness and takes him for walks every morning.",
+          "value": "walks cat on a harness daily",
+          "lines": [
+            79,
+            80,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker lists reading, movies, TV as hobbies.",
+          "value": "enjoys reading, movies, TV",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states 'I'm still kind of social distancing'.",
+          "value": "practices social distancing",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I love cooking and baking' and mentions making muffins, breads.",
+          "value": "enjoys cooking and baking (muffins, breads)",
+          "lines": [
+            208,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker states she is watching Hannibal on Netflix.",
+          "value": "watches Hannibal on Netflix",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker mentions liking Pocahontas and Mulan.",
+          "value": "likes Disney/Pixar movies (Pocahontas, Mulan)",
+          "lines": [
+            184,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker says 'I have actually done this before... about six months ago'.",
+          "value": "previously participated in a similar study",
+          "lines": [
+            10
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

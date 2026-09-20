@@ -1,0 +1,365 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Line 17 she introduces herself as 'Stacey'. In lines 237-243 she spells her last name as 'H A R R E L L', so her full name is Stacey Harrell.",
+          "value": "Stacey Harrell",
+          "lines": [
+            17,
+            237,
+            241,
+            243
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In lines 237-245 she gives her email as 'Stacey H A R R E L L at gmail dot com', resulting in staceyharrell@gmail.com.",
+          "value": "staceyharrell@gmail.com",
+          "lines": [
+            237,
+            241,
+            243,
+            245
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 19: 'grew up in north Carolina then living here my whole life pretty much' indicates she currently lives in North Carolina.",
+          "value": "North Carolina",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 17 she states 'I'm Stacey Female 42', directly providing her gender.",
+          "value": "female",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 17 she states 'I'm Stacey Female 42', directly providing her age.",
+          "value": "42 years old",
+          "lines": [
+            17
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 19: 'school teacher teach their grain' is an ASR error for 'third grade'. Line 21 she mentions going back to teaching virtually, confirming she is a teacher. She therefore teaches third grade.",
+          "value": "third-grade teacher",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 55: she says 'I'm a mentor teacher, so I help out the 1st, 2nd and 3rd year teachers'.",
+          "value": "mentor teacher for first, second and third year teachers",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 181: 'I'm just focusing on retirement. It's coming nine years and I'm done.' indicates she plans to retire in nine years.",
+          "value": "plans to retire in 9 years",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Line 51: 'my husband works in healthcare' and line 231 'my husband just came in' show she is married and her husband works in healthcare.",
+          "value": "married, husband works in healthcare",
+          "lines": [
+            51,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 65: 'my parents are older, they're about 70' indicates her parents are approximately 70 years old.",
+          "value": "parents are about 70 years old",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 189: 'My mom has become a conspiracy theorist and she believes in the whole, um, pizza gate stuff'.",
+          "value": "mother is a conspiracy theorist who believes in Pizzagate",
+          "lines": [
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 91 likely says her brother and sister-in-law are anti-vaxxers (ASR 'or anti-vaxxers'). Line 93: 'they have a two year old and a five year old' indicates they have two young children.",
+          "value": "brother and sister-in-law are anti-vaccination, they have a 2-year-old and a 5-year-old",
+          "lines": [
+            91,
+            93
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Line 143 'I'm an older editor' is likely an ASR error for 'I'm a Redditor' or 'avid Redditor'. Lines 149 and 151 show she actively uses Reddit and knows specific subreddits.",
+          "value": "avid Reddit user",
+          "lines": [
+            143,
+            149,
+            151
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 43: 'I've been to Seattle once we went in 2017 from Metallica concert' indicates she attended a Metallica concert in Seattle in 2017.",
+          "value": "attended Metallica concert in Seattle in 2017",
+          "lines": [
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 45: 'I went to Colorado last summer... we were supposed to be in New Mexico this summer but Covid ruined that' shows she traveled to Colorado and had planned a New Mexico trip that was canceled.",
+          "value": "traveled to Colorado last summer, planned New Mexico trip canceled by COVID",
+          "lines": [
+            45
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 49 describes her summer: 'we've basically been in this house, walk on the path outside and go, do pick up for groceries and the occasional take out' — showing she is very cautious during the pandemic, staying home and limiting outside contact.",
+          "value": "extremely cautious during COVID-19, mostly staying home, using grocery pickup and occasional takeout",
+          "lines": [
+            49
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Line 14: 'my name is Jonathan'.",
+          "value": "Jonathan",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Line 14: 'I was born in Cuba Havana Cuba specifically'.",
+          "value": "born in Havana, Cuba",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 16: 'migrated to the US uh to Miami florida ... spent my entire life' indicates he moved to Miami, Florida at age four and lived there most of his life.",
+          "value": "moved to Miami, Florida at age 4, lived there most of his life",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 16: 'ended up in the U. F. University of florida in Gainesville' shows he studied at University of Florida in Gainesville.",
+          "value": "studied at University of Florida in Gainesville, Florida",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 16: 'the nominee in Seattle Washington kind of taking a turn over the tech industry' and lines 30-32 confirm he is currently living in Seattle.",
+          "value": "currently living in Seattle, Washington",
+          "lines": [
+            16,
+            30,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Line 14: 'I am Male 27 years old' states his gender.",
+          "value": "male",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 14: 'I am Male 27 years old' states his age.",
+          "value": "27 years old",
+          "lines": [
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Born in Cuba (line 14), migrated to US at age four (line 16), making him Cuban-American.",
+          "value": "Cuban-American",
+          "lines": [
+            14,
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Line 16: 'Got my a in spanish' likely means he earned a BA in Spanish from the University of Florida, after changing majors.",
+          "value": "BA in Spanish from University of Florida",
+          "lines": [
+            16
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Line 74: 'working for enterprise as a car sales manager' indicates his former job in Miami.",
+          "value": "former car sales manager at Enterprise in Miami",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 80-82: he left the Enterprise job two weeks before furloughs because he lived with elderly grandparents and wanted to protect them from COVID-19.",
+          "value": "left Enterprise job due to COVID-19 risk to grandparents",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 158: 'I'm right now, I'm a writer... it's a media outlet' and line 166 describe his current work as a freelance writer repurposing content for an online outlet.",
+          "value": "freelance writer for an online media outlet, repurposing content",
+          "lines": [
+            158,
+            166
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 178: 'I'm just kind of working on coding... getting projects up and then hopefully... making in the tech industry over here' shows he is learning coding to enter tech.",
+          "value": "learning coding to break into the tech industry",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Lines 76-80 describe moving in with his grandparents in Miami during COVID, and that his grandfather has diabetes.",
+          "value": "lived with grandparents in Miami during COVID-19 pandemic; grandfather has diabetes",
+          "lines": [
+            76,
+            78,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 208: 'I told my mom like mom, how do you feel about...' shows he has a mother and discusses politics with her.",
+          "value": "has a mother, discusses politics with her",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Lines 32-34 describe staying at an Airbnb with a host family from China, four other roommates, a dog, etc., in Seattle.",
+          "value": "staying at an Airbnb with a host family and four roommates in Seattle",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 108: 'I'm kind of an artist, I do videos and I do photography and I try to design' expresses his creative hobbies.",
+          "value": "creates videos, photography, and design as artistic hobbies",
+          "lines": [
+            108
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lines 112-116: he avoids posting videos on YouTube because he uses music samples and fears being sued.",
+          "value": "does not post videos on YouTube due to fear of copyright lawsuits",
+          "lines": [
+            112,
+            114,
+            116
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 220: 'this is my first year voting' indicates he has never voted before this year.",
+          "value": "first-time voter this year",
+          "lines": [
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 204: 'I don't really like either candidate' referring to the presidential candidates.",
+          "value": "dislikes both major presidential candidates",
+          "lines": [
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 188: when topic of Flat Earth comes up he says 'Come on guys, flat earth, come on', implying he rejects it.",
+          "value": "does not believe in flat earth",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Line 90: 'I am pro vaccine... we really wouldn't be here without vaccines' expresses his support for vaccines.",
+          "value": "pro-vaccine",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,338 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "She introduces herself as 'amy' in line 23, and speaker_b addresses her as 'Amy' in line 24.",
+          "value": "Amy",
+          "lines": [
+            23,
+            24
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She mentions rumors that someone at USC contracted COVID-19 and states 'my campuses like 15 minutes away' (line 143), placing her college campus in the Los Angeles area.",
+          "value": "College campus 15 minutes from USC (Los Angeles area)",
+          "lines": [
+            141,
+            143
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says 'I am a student' (line 41) and 'I'm going to my fourth year of college' (line 43).",
+          "value": "Fourth-year college student",
+          "lines": [
+            41,
+            43
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I'm on the pre med route' (line 61) and discusses becoming a doctor (line 86).",
+          "value": "Pre-med student",
+          "lines": [
+            61,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I can tell you you're a tad younger than me' and she implicitly agrees (line 68).",
+          "value": "Younger than speaker_b (likely 20s)",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I like Sanders like burning yeah' (line 257), expressing support for Bernie Sanders.",
+          "value": "Supports Bernie Sanders",
+          "lines": [
+            257
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "She states 'I was working the booth' for the 2016 elections (line 221), indicating she served as a poll worker.",
+          "value": "Worked as a poll worker in the 2016 election",
+          "lines": [
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "She describes her job as 'high contact' (line 145).",
+          "value": "Has a high-contact job",
+          "lines": [
+            145
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She agrees it is nice to make extra money on the platform (lines 18-19) and refers to it as 'passive income' (line 49).",
+          "value": "Earns money from online conversations (Prolific)",
+          "lines": [
+            18,
+            19,
+            49
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [],
+      "lifestyle": [
+        {
+          "reasoning": "She discusses preferring Physician Assistant (PA) over MD for better hours and work-life balance (lines 89-93, 115).",
+          "value": "Considering Physician Assistant career for work-life balance",
+          "lines": [
+            89,
+            93,
+            115
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I go on twitter and I find out' (line 241).",
+          "value": "Uses Twitter",
+          "lines": [
+            241
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if she is a YouTuber, she says 'No, I'm not well on Youtube a lot so I've probably seen it' (line 227), heavily implying she uses YouTube.",
+          "value": "Uses YouTube",
+          "lines": [
+            227
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She talks about building passive income and non-traditional jobs (lines 49, 73-75).",
+          "value": "Interested in non-traditional income streams",
+          "lines": [
+            49,
+            73,
+            74,
+            75
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "He says 'so I'm brian' (line 22).",
+          "value": "Brian",
+          "lines": [
+            22
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "The conversation is steeped in US politics and government (e.g., references to President Trump, elections), making it clear he resides in the United States.",
+          "value": "United States",
+          "lines": [
+            168,
+            169,
+            170,
+            200
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "He frequently mentions his wife (lines 26, 32, 52, 82, 136, 292).",
+          "value": "Married",
+          "lines": [
+            26,
+            32,
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'My daughter was here … She's 23' (line 52).",
+          "value": "Father of a 23-year-old daughter",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm a salesman' (lines 30, 46) and describes his internet marketing work (line 82).",
+          "value": "Salesman and internet marketer",
+          "lines": [
+            30,
+            46,
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He implies he is older than speaker_a (line 68) and has a 23-year-old daughter (line 52), placing him in middle age.",
+          "value": "Middle-aged adult",
+          "lines": [
+            52,
+            68
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He expresses anti-Trump views (line 216) and names Elizabeth Warren as his best choice (line 232).",
+          "value": "Left-leaning / anti-Trump",
+          "lines": [
+            216,
+            232
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "He states 'I have asthma' (line 136).",
+          "value": "Asthma",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm pretty sure I caught it' (COVID-19) and describes it as miserable (lines 154-156).",
+          "value": "Self-reported likely COVID-19 survivor",
+          "lines": [
+            154,
+            155,
+            156
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "He says he has a traditional job as a salesman (line 46).",
+          "value": "Employed as a salesman",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He describes his internet marketing business (promoting products, SEO, YouTube, Instagram) (lines 82-84).",
+          "value": "Runs an internet marketing business (SEO, YouTube, Instagram)",
+          "lines": [
+            82,
+            83,
+            84
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He states 'I made pretty much all my money online' (line 80).",
+          "value": "Earns income online",
+          "lines": [
+            80
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He calls the platform a 'nice way to make a little extra money' (line 18).",
+          "value": "Uses Prolific for extra income",
+          "lines": [
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "He repeatedly mentions his wife (lines 26, 32, 52, 82, 136, 292).",
+          "value": "Wife",
+          "lines": [
+            26,
+            32,
+            52,
+            82,
+            136,
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'my wife has a heart to do' (line 136), very likely indicating a heart condition.",
+          "value": "Wife has a heart condition",
+          "lines": [
+            136
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "He details his daughter: 23, college student, hired at a local hospital, pre-med interest (lines 52, 56, 62).",
+          "value": "Daughter (23, college student, hospital worker, pre-med interest)",
+          "lines": [
+            52,
+            56,
+            62
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "He says his job allowed him to transition from the office to home (line 156).",
+          "value": "Works from home",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "He claims he would go out of his way to confront uncomfortable situations (line 294).",
+          "value": "Confronts uncomfortable situations",
+          "lines": [
+            294
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "He says 'I'm a salesman so I know how to talk' and breaks the ice (lines 30, 32).",
+          "value": "Skilled conversationalist / ice-breaker",
+          "lines": [
+            30,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "He says he just woke up and 'looked like a flower' (line 26), implying a casual or messy look.",
+          "value": "Casual/messy appearance",
+          "lines": [
+            26
+          ],
+          "certainty": 2
+        }
+      ]
+    }
+  ]
+}

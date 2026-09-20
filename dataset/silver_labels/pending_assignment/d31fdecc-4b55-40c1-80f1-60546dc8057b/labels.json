@@ -1,0 +1,243 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a explicitly says 'I live in in texas now'.",
+          "value": "Texas",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is 'originally from Arizona' and the ASR produces 'mirage,' which is phonetically close to 'El Mirage'; she later explains 'It's right under surprise' – Surprise is an Arizona city near El Mirage, confirming the place.",
+          "value": "El Mirage, Arizona",
+          "lines": [
+            9,
+            13
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a refers to herself as 'this lady' and mentions a husband, so she is female.",
+          "value": "female",
+          "lines": [
+            41,
+            65
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a directly states 'I have chronic pain'.",
+          "value": "chronic pain",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a explicitly says 'I have a lot of health problems'.",
+          "value": "multiple health problems",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she has worked as a caregiver and her last caregiving job was at an assisted living facility.",
+          "value": "former caregiver at assisted living facility",
+          "lines": [
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a repeatedly refers to 'my husband'.",
+          "value": "married",
+          "lines": [
+            65,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her kids are 'only five and six'.",
+          "value": "has two children, ages 5 and 6",
+          "lines": [
+            265
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says she watches 'lots of horror movies' and recently watched an anime movie with her husband.",
+          "value": "enjoys horror movies and anime",
+          "lines": [
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes herself as 'a shut in' and does not talk to people often.",
+          "value": "shut-in, rarely socializes",
+          "lines": [
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a asks permission to lie down during the chat because of her chronic pain.",
+          "value": "lies down during video calls because of chronic pain",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says she is in Arizona, Southern Arizona, and lives in Tucson.",
+          "value": "Tucson, Arizona",
+          "lines": [
+            4,
+            6,
+            14
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I grew up in indiana'.",
+          "value": "originally from Indiana",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was in Dallas for about a week, a month ago.",
+          "value": "visited Dallas, Texas",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says it has been 12 years since she took 7th-grade math; assuming 7th grade at age 12-13, she is roughly 24-25 years old.",
+          "value": "approximately 25 years old",
+          "lines": [
+            168
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm a grad student' and later notes she is 'in a PhD program'.",
+          "value": "PhD graduate student",
+          "lines": [
+            44,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is a substitute teacher.",
+          "value": "substitute teacher",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'at the university I teach statistics'.",
+          "value": "teaches statistics at the university",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b teaches a salsa dance class and does not make money from it.",
+          "value": "unpaid salsa dance instructor",
+          "lines": [
+            46,
+            48
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b's mother 'works in an assisted living place'; the ASR 'sienna' is phonetically close to 'CNA' (certified nursing assistant).",
+          "value": "mother is a CNA at an assisted living facility",
+          "lines": [
+            268
+          ],
+          "certainty": 3
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b goes to Phoenix for late-night salsa socials.",
+          "value": "attends late-night salsa socials in Phoenix",
+          "lines": [
+            52
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b watches Grey's Anatomy, To All the Boys I've Loved Before, The Princess Bride, and other movies.",
+          "value": "watches Grey's Anatomy and a variety of movies",
+          "lines": [
+            60,
+            62,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'all I do is listen to like therapy podcasts' and mentions loving Brene Brown (spelled B R E N E).",
+          "value": "listens to therapy podcasts, particularly Brene Brown",
+          "lines": [
+            282,
+            284,
+            290,
+            292
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I'm not a big movie person'.",
+          "value": "not a big movie person",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

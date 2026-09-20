@@ -1,0 +1,352 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces themselves as 'Bright' (ASR 'I'm bright.'). The word is taken as a name; could be 'Bryce' but recorded verbatim.",
+          "value": "Bright",
+          "lines": [
+            3
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says they are in Alaska (line 9) and that they actually live in Anchorage (line 13). ASR says 'Anchorage' but the intended city is Anchorage.",
+          "value": "Anchorage, Alaska (residence)",
+          "lines": [
+            9,
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions being 'down here for work' (line 15) and later specifies they are in Ketchikan working on ferry maintenance for two weeks (line 287).",
+          "value": "Ketchikan, Alaska (temporary work location)",
+          "lines": [
+            15,
+            287
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they are a sailor (line 283), work on ships (line 285), and work for the Alaska ferry system (line 287).",
+          "value": "Sailor for the Alaska ferry system",
+          "lines": [
+            283,
+            285,
+            287
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states they have a little sailboat that fits in their garage (line 293).",
+          "value": "Owns a small sailboat",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions their sister: she was south of Portland (line 15), moved to Portland after college (line 31), and is skilled at getting restaurant reservations (line 227).",
+          "value": "Sister, who lives south of Portland, Oregon",
+          "lines": [
+            15,
+            31,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says their parents live in southern Washington now (line 27); mother tired of Alaska winters and father retired (lines 33-35).",
+          "value": "Parents, who live in southern Washington",
+          "lines": [
+            27,
+            33,
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a refers to their grandpa's favourite baked good (line 125).",
+          "value": "Grandfather",
+          "lines": [
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they had a dog that died (line 61) and describes her as a ridgeback/boxer mix (line 67).",
+          "value": "Former dog (ridgeback boxer mix), now deceased",
+          "lines": [
+            61,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm currently Peppas' (ASR, likely 'petless') and will get another pet eventually (line 61).",
+          "value": "Currently petless",
+          "lines": [
+            61
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they were on the 'pandemic baking bandwagon' (line 115) and lists baked items: bread, cake, pies, banana bread, zucchini bread (line 123).",
+          "value": "Enjoys baking; baked various goods during pandemic",
+          "lines": [
+            115,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says sailing is what they do for fun (line 289).",
+          "value": "Sailing hobby",
+          "lines": [
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states a strong preference for banana bread without add-ins (line 139).",
+          "value": "Prefers plain banana bread",
+          "lines": [
+            139
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about spice tolerance, speaker_a says they usually order 'medium' to test (line 163) and describes enjoying spicy food but not extreme heat (lines 167-169).",
+          "value": "Moderate spice tolerance; typically orders medium at new Thai restaurants",
+          "lines": [
+            163,
+            167,
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says they are a 'big fan of like rescue months' (ASR, line 65), intended as 'rescue mutts'.",
+          "value": "Prefers rescue dogs",
+          "lines": [
+            65
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a recounts spending a summer two years ago in Minnesota (line 175).",
+          "value": "Spent a summer in Minnesota",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about chat sessions, speaker_a says this is their 4th one (line 41).",
+          "value": "Has participated in 4 of these chat sessions",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions they are headed to south of Portland in a week for Thanksgiving to visit their sister (line 15).",
+          "value": "Planning Thanksgiving trip to south of Portland, Oregon",
+          "lines": [
+            15
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they will buy a big sailboat and sail around the world at some point (line 291).",
+          "value": "Aspires to buy a big sailboat and sail around the world",
+          "lines": [
+            291
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces herself by saying 'Hi I'm Christina.' (line 2).",
+          "value": "Christina",
+          "lines": [
+            2
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b states she is in Portland, Oregon (line 8) and specifies she lives in the city of Portland (line 72).",
+          "value": "Portland, Oregon (residence)",
+          "lines": [
+            8,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked 'You from Morgan originally?' (likely 'Oregon', line 37), speaker_b confirms and says 'Born and raised' (line 38), indicating she is originally from Oregon, probably Portland.",
+          "value": "Born and raised in Oregon (likely Portland)",
+          "lines": [
+            37,
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Speaker_b describes herself as 'a very heavy sleeper' while recounting a storm that woke her (line 20).",
+          "value": "Heavy sleeper",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she works for 'FIFA, it's the International Basketball Federation' (line 96); the intended employer is FIBA, the basketball equivalent. She works for the Americas region in events and travel logistics (line 100) and remained paid during the pandemic (line 106).",
+          "value": "Employed by FIBA (International Basketball Federation) as events and travel logistics for the Americas region",
+          "lines": [
+            96,
+            100,
+            106
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions her cousin lives in Anchorage (line 12), and later adds he is an 'average white guy' married to a Filipino woman (line 220).",
+          "value": "Cousin in Anchorage, Alaska (married to a Filipino woman)",
+          "lines": [
+            12,
+            220
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a younger sister' (line 150) and tells a story about her baking.",
+          "value": "Younger sister",
+          "lines": [
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to her parents when saying she begged them for a dog for a decade (line 82).",
+          "value": "Parents",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions 'my uncle's brother' (not her direct uncle) who co-owns a secret Thai restaurant in Portland (line 254).",
+          "value": "Relative (uncle's brother) who co-owns a Thai restaurant in Portland",
+          "lines": [
+            254
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b has a dog, referred to as 'noodle' (line 62, 84), female, about 6 years old, got her at 10 months (lines 90-92). She takes the dog to parks (line 72). Line 60 ('this is my God, Sky') may indicate a name but 'Noodle' is consistent.",
+          "value": "Dog (called Noodle, female, ~6 years old)",
+          "lines": [
+            60,
+            62,
+            72,
+            84,
+            90,
+            91,
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b describes herself as a 'very crafty person' who knits, quilts, and always has creative projects (line 110).",
+          "value": "Crafty; enjoys knitting, quilting, and creative projects",
+          "lines": [
+            110
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she takes her dog to dog parks in the city (line 72).",
+          "value": "Visits dog parks with her dog",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts learning to sail at a summer camp on the Oregon coast, with a small boat nicknamed 'lemon meringue' (lines 298-304).",
+          "value": "Learned to sail at summer camp in Oregon",
+          "lines": [
+            298,
+            299,
+            300,
+            301,
+            302,
+            303,
+            304
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states she is 'more of a zero spice person' (line 172).",
+          "value": "Prefers non-spicy food",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes her job as requiring frequent travel for competitions and board meetings, often involving very long dinners (lines 270-278).",
+          "value": "Work travel with long business dinners",
+          "lines": [
+            270,
+            272,
+            274,
+            276,
+            278
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked about chat sessions, speaker_b says this is her second one (line 42).",
+          "value": "Has participated in 2 of these chat sessions",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

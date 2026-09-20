@@ -1,0 +1,348 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At the end of the conversation, speaker_a starts to spell out 'J' then 'Y. S. L. N.', which is a garbled ASR rendering of 'Jason'. The intended name is Jason, confirmed by speaker_b's response 'I have a good one, Jason' (ASR: 'I have a good one direction').",
+          "value": "Jason",
+          "lines": [
+            367,
+            369,
+            370,
+            371
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly says 'California born and raised' and later mentions 'it's three for me', consistent with Pacific Time, indicating current residence in California.",
+          "value": "California",
+          "lines": [
+            53,
+            305
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states they are 'about to move to Washington, uh, to start college' and specifically names 'Central Washington University um which is in Ellensburg'. The move is postponed to January but still planned.",
+          "value": "Moving to Ellensburg, Washington for Central Washington University",
+          "lines": [
+            53,
+            55,
+            59,
+            71
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm actually majoring in cyber security' and is starting college, so they are a college student.",
+          "value": "College student majoring in cyber security",
+          "lines": [
+            127,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions paying for 'community college' and 'Two years' worth, and taking an IT class there.",
+          "value": "Attended community college for 2 years",
+          "lines": [
+            181,
+            213
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'Two years Out of paid like 6000', referring to community college tuition.",
+          "value": "Paid $6,000 for two years of community college",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states that university housing 'is like 6000 semester'.",
+          "value": "University housing costs $6,000 per semester",
+          "lines": [
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a estimates the flights for moving to college will cost '$6,700' (possibly a misstatement of a smaller amount, but taken literally).",
+          "value": "Flights for moving to college estimated at $6,700",
+          "lines": [
+            73
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "speaker_a says their laptop 'was $1,000'.",
+          "value": "Owns a laptop that cost $1,000",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'in a week I got like 200 or something' when talking about Prolific earnings shortly after signing up.",
+          "value": "Earned about $200 in one week on Prolific",
+          "lines": [
+            93
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a and their mother used a housing calculator that returned $300,000 as an affordable price, but notes houses in the area are 'half a million or more'.",
+          "value": "House-hunting budget around $300,000, with area prices $500,000+",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'My mom and I are trying to find a house', indicating they are house-hunting together.",
+          "value": "House-hunting with mother",
+          "lines": [
+            63
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a discusses using Prolific for surveys, finding it through a subreddit, and mentions earnings.",
+          "value": "Does online surveys on Prolific",
+          "lines": [
+            27,
+            93,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes plans to open their laptop to clean it, add RAM, and replace the HDD with an SSD.",
+          "value": "Performs DIY computer upgrades/repairs",
+          "lines": [
+            257
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'Lennox that's what I'm doing right now' (ASR for Linux), indicating they are currently learning Linux.",
+          "value": "Learning Linux",
+          "lines": [
+            185,
+            202
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions 'internship for a company that was doing ai research'.",
+          "value": "Interned at an AI research company",
+          "lines": [
+            127
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b explicitly states 'I'm Kenny' when asked for their name.",
+          "value": "Kenny",
+          "lines": [
+            368
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm originally from Tulsa Oklahoma'.",
+          "value": "Originally from Tulsa, Oklahoma",
+          "lines": [
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'But I live in Dallas' and later confirms they have been in Texas ever since moving there with their partner.",
+          "value": "Currently lives in Dallas, Texas",
+          "lines": [
+            52,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts moving to Arkansas with their first wife.",
+          "value": "Previously lived in Arkansas",
+          "lines": [
+            306
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I went to a trade school for Pc Tech' and later 'went for a degree in information technology Systems Administration', but left after the second semester and the school shut down.",
+          "value": "Attended trade school for PC Tech and career college for IT Systems Administration; no degree earned",
+          "lines": [
+            148,
+            152,
+            154,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'my son' when discussing summer arrangements.",
+          "value": "Has a son",
+          "lines": [
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b was supposed to get CompTIA A+ certification through their school but the exam voucher expired due to lack of transportation and money.",
+          "value": "Pursued CompTIA A+ certification but was unable to take the exam",
+          "lines": [
+            216,
+            218,
+            220,
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b states 'I want to lose weight' when recounting a past domestic situation.",
+          "value": "Desire to lose weight",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I think it's like $29,000 for two semesters' and 'just went there like 30K. In the hole'.",
+          "value": "Student loan debt of approximately $29,000",
+          "lines": [
+            184,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I think I've got 300 in the past 2.5 months' referring to Prolific earnings.",
+          "value": "Earned about $300 in 2.5 months on Prolific",
+          "lines": [
+            74
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they charge 'like 20 bucks' for occasional computer repair jobs.",
+          "value": "Does freelance computer repair for around $20 per job",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I had a $1500 high def laptop capable of playing like games'.",
+          "value": "Owned a $1,500 gaming-capable laptop",
+          "lines": [
+            172
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'I married this girl that I met in Oklahoma and we had moved Arkansas', describing her mental health issues and controlling behavior.",
+          "value": "Married to a woman from Oklahoma (now separated/divorced)",
+          "lines": [
+            306,
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b met a woman online from Texas, who helped him leave Arkansas, became pregnant, and moved with him to Texas.",
+          "value": "Has a partner from Texas who is the mother of his son",
+          "lines": [
+            312,
+            322,
+            324
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'We still lived together' and that the partner does not currently want a romantic relationship, but they co-parent their son.",
+          "value": "Currently living with the Texas partner and their son; relationship status ambiguous",
+          "lines": [
+            326,
+            328,
+            330
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b mentions being 'prolific', using the browser extension, and earning money from surveys.",
+          "value": "Regularly does online surveys on Prolific",
+          "lines": [
+            26,
+            74,
+            76
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes doing computer repairs as a side gig.",
+          "value": "Side hustle doing computer repairs",
+          "lines": [
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b recounts being active in 'gathering of the juggalos chats' online to meet people.",
+          "value": "Participates in online juggalo community",
+          "lines": [
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b lists specific video games (GTA 5, Sims 4, Skyrim) as examples of what a laptop can run, strongly suggesting personal familiarity or a gaming hobby.",
+          "value": "Plays or is familiar with video games",
+          "lines": [
+            176
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

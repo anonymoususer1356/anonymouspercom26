@@ -1,0 +1,372 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "In line 17 speaker_a says 'I'm laurel', an ASR error for a name; speaker_b later refers to it as 'or L. A.' (line 36), speaker_a confirms (line 37) and explains it is a single name (line 38-39) originating from a Hawaiian lei farm (lines 39-41); the intended name is likely 'Lorelai' or similar, incorporating 'lei'.",
+          "value": "Lorelai",
+          "lines": [
+            17,
+            36,
+            37,
+            38,
+            39,
+            41
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a states she works for an organization that does college access coaching (line 19), later specifies it is AmeriCorps (line 47) and that she started in August (line 59); she also says 'I'm a college counselor basically' (line 19).",
+          "value": "college counselor at AmeriCorps",
+          "lines": [
+            19,
+            47,
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I'm up in Portland Oregon right now' (line 11).",
+          "value": "Portland, Oregon",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm actually originally from Hawaii' (line 19) and reiterates being from Hawaii (line 39).",
+          "value": "originally from Hawaii",
+          "lines": [
+            19,
+            39
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She states she graduated this past year (lines 59, 61, 63).",
+          "value": "recent college graduate",
+          "lines": [
+            59,
+            61,
+            63
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I went to the University of Oregon' (line 51).",
+          "value": "University of Oregon alumnus",
+          "lines": [
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I'm applying to law schools right now' (line 221) and discusses her interest in human rights law (line 229).",
+          "value": "law school applicant",
+          "lines": [
+            221,
+            229
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "She states 'I'm a type one diabetic' (line 103).",
+          "value": "type 1 diabetes",
+          "lines": [
+            103
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says her AmeriCorps role means 'I make very little money' (line 47).",
+          "value": "low income from AmeriCorps position",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions doing surveys on Prolific for extra money; she has been using it for only a month or two (line 175) and a friend told her about it (line 177).",
+          "value": "uses Prolific survey site for extra income",
+          "lines": [
+            175,
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'my dad's originally from like way upstate Minnesota' (line 205).",
+          "value": "father originally from upstate Minnesota",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my mom's from Hawaii originally' (line 207).",
+          "value": "mother originally from Hawaii",
+          "lines": [
+            207
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my grandparents have a lay farm' where they grow flowers and make leis (line 41).",
+          "value": "grandparents own a lei farm in Hawaii",
+          "lines": [
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'One of my friends told me about it' (line 177) referring to Prolific.",
+          "value": "has a friend who introduced her to Prolific",
+          "lines": [
+            177
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She describes her work: 'I do a lot of essay editing' (line 65) and is a college counselor (line 19).",
+          "value": "works as a college counselor focusing on essay editing",
+          "lines": [
+            19,
+            65
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my junior year, I took a class that was like within a prison' (line 259).",
+          "value": "took a college class inside a prison",
+          "lines": [
+            259
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I've done a couple calls before' (line 89) on this platform.",
+          "value": "has participated in multiple calls on this platform",
+          "lines": [
+            89
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_a addresses speaker_b as 'chris' (line 17) and speaker_b's response includes 'Chris a nice room' which is likely 'Chris, nice to meet you' (line 18).",
+          "value": "Chris",
+          "lines": [
+            17,
+            18
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in Minnesota' (line 12).",
+          "value": "Minnesota",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "In line 204, speaker_b says something that includes 'Saint paul' (likely 'I'm in Saint Paul'); speaker_a then asks 'what part of Minnesota are you in?' (line 205) and immediately says 'Okay. Got you.', indicating speaker_b confirmed Saint Paul.",
+          "value": "Saint Paul, Minnesota",
+          "lines": [
+            204,
+            205
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'this is my first winter here' (line 24), indicating a recent move.",
+          "value": "first winter in Minnesota",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Wisconsin' when asked originally from (line 26).",
+          "value": "originally from Wisconsin",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'But I moved here from florida' (line 26).",
+          "value": "moved from Florida",
+          "lines": [
+            26
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says 'I graduated in 2018' (line 66).",
+          "value": "graduated in 2018",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I work basically for myself, so I'm self employed' (line 66).",
+          "value": "self-employed",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I was in a car accident' (line 30).",
+          "value": "survived a car accident",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'Kill my bones' likely meaning 'heal my bones' (line 34) and 'my broken bones and it's kind of hard for me to walk' (line 270).",
+          "value": "has broken bones, difficulty walking",
+          "lines": [
+            34,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I have a personal trainer coming in to help me with weight loss' (line 270).",
+          "value": "working with a personal trainer for weight loss",
+          "lines": [
+            270
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'you make earrings that go ahead uh sell oils, like all different types of oils and hearses' (line 66), describing self-employed work.",
+          "value": "makes and sells earrings and oils",
+          "lines": [
+            66
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I made like £100 or something' (line 182) on Prolific, uses Swagbucks (line 190), and 'I can use the extra cash' (line 180), showing survey use for extra income.",
+          "value": "earns extra money through online surveys (Prolific, Swagbucks)",
+          "lines": [
+            180,
+            182,
+            190
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'I self published a book' (line 68).",
+          "value": "self-published a book",
+          "lines": [
+            68
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions 'Some family came by' (line 8) and moved to be 'around family' (line 34).",
+          "value": "has family in Minnesota",
+          "lines": [
+            8,
+            34
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_b says 'My sister is a lawyer' (line 222) and describes her career as a prosecutor, CPS lawyer, and now business law (lines 224-226).",
+          "value": "has a sister who is a lawyer",
+          "lines": [
+            222,
+            224,
+            226
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says sister attended law school 'in Jacksonville' (line 246).",
+          "value": "sister went to law school in Jacksonville, Florida",
+          "lines": [
+            246
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b writes sci-fi fantasy erotica, self-published a book, and completed a book in a month (lines 68, 72, 86).",
+          "value": "writes sci-fi fantasy erotica",
+          "lines": [
+            68,
+            72,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says 'This is my 3rd 1' (line 90) referring to the current call program.",
+          "value": "has done 3 calls on this platform",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b regularly does surveys on Prolific and Swagbucks (lines 180, 182, 190).",
+          "value": "regularly does online surveys for money",
+          "lines": [
+            180,
+            182,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b mentions trying to sign up for 'the biggest loser' (line 218), a weight loss show for obese individuals.",
+          "value": "overweight",
+          "lines": [
+            218
+          ],
+          "certainty": 3
+        }
+      ]
+    }
+  ]
+}

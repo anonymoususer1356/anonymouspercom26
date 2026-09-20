@@ -1,0 +1,696 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_b addresses her as 'Barbara' at the start and confirms again near the end; speaker_a also confirms her name.",
+          "value": "Barbara",
+          "lines": [
+            8,
+            668,
+            671,
+            672
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a explicitly states she lives in Plano, Texas, just outside Dallas.",
+          "value": "Plano, Texas (near Dallas)",
+          "lines": [
+            13
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states she grew up in Tarzana, California, a suburb of Los Angeles in the San Fernando Valley.",
+          "value": "Tarzana, California (suburb of Los Angeles)",
+          "lines": [
+            19
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a mentions living in the suburbs with limited space for gardening.",
+          "value": "Suburban area",
+          "lines": [
+            531
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a indicates moving to Texas around the time of her marriage 40 years ago.",
+          "value": "Lived in Texas for approximately 40 years",
+          "lines": [
+            25,
+            27,
+            183
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Addressed with female name 'Barbara'; refers to herself as wife, mother, and grandmother.",
+          "value": "Female",
+          "lines": [
+            8,
+            57,
+            193,
+            385
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes herself as retired, an older person, and a grandmother; speaker_b acknowledges her age.",
+          "value": "Older adult / senior citizen",
+          "lines": [
+            73,
+            181,
+            59
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Repeatedly refers to 'my husband' and states they have been married 40 years.",
+          "value": "Married",
+          "lines": [
+            57,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states she has two daughters.",
+          "value": "Mother of two daughters",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions grandchildren multiple times, describes their ages and activities.",
+          "value": "Grandmother",
+          "lines": [
+            59,
+            385
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she no longer works and has been retired for about five years.",
+          "value": "Retired",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Mentions having arthritis that worsened and affected her ability to travel for work; attended physical therapy.",
+          "value": "Has arthritis",
+          "lines": [
+            95,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States her husband has heart problems, which is the reason for their strict quarantine.",
+          "value": "Husband has heart problems",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Says she has been 'reading' for five years which, combined with 'I don't work,' is a clear ASR error for 'retired.'",
+          "value": "Retired for approximately 5 years",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes her former position as Director of Regional Sales for a hotel company with Marriott and Hilton properties.",
+          "value": "Former Director of Regional Sales for a hotel company (Marriott and Hilton)",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she does Amazon mTurk and Prolific (studies/surveys) for extra income.",
+          "value": "Does Amazon mTurk and Prolific studies",
+          "lines": [
+            75
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions receiving employee discount rates at various hotels, including luxury properties.",
+          "value": "Received employee hotel discount rates",
+          "lines": [
+            249,
+            251,
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Spells out the brand name Zojirushi and states she owns both a bread machine and a rice cooker by that brand.",
+          "value": "Owns a Zojirushi bread machine and rice cooker",
+          "lines": [
+            611,
+            617,
+            619,
+            621
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States she has been married for 40 years and refers to her husband many times.",
+          "value": "Married to husband for 40 years",
+          "lines": [
+            57,
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explicitly states her husband has heart problems.",
+          "value": "Husband has heart problems",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she has two daughters.",
+          "value": "Has two daughters",
+          "lines": [
+            193
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes grandchildren: an 8-year-old, a 5-year-old, a baby from her youngest daughter, and another granddaughter from the other daughter.",
+          "value": "Has multiple grandchildren including ages approximately 8, 5, a baby, and another granddaughter",
+          "lines": [
+            59,
+            385
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that grandchildren use Amazon Alexa to call her, and they watch movies and draw together remotely.",
+          "value": "Communicates with grandchildren via Amazon Alexa and phone regularly",
+          "lines": [
+            59,
+            379,
+            381,
+            385,
+            387,
+            391
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says one daughter lives about 40 minutes away.",
+          "value": "Has a daughter living approximately 40 minutes away",
+          "lines": [
+            395
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "States she and her husband have been strictly quarantining since March due to his heart condition.",
+          "value": "Strictly quarantining at home since March",
+          "lines": [
+            57
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes using grocery pickup exclusively at Whole Foods and Market Street, placing items directly in the trunk, and never entering stores.",
+          "value": "Uses grocery pickup services exclusively; does not enter stores",
+          "lines": [
+            403,
+            405,
+            407,
+            409
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she bakes bread every other day using a bread machine.",
+          "value": "Bakes bread regularly with a bread machine",
+          "lines": [
+            601,
+            605,
+            607
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions painting the house and donating many items to Salvation Army during quarantine.",
+          "value": "Decluttering and painting house during quarantine",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has been trying to crochet but finds it very difficult.",
+          "value": "Attempted to learn crocheting",
+          "lines": [
+            525
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes traveling weekly for her former job, visiting hotels in California, Texas, and elsewhere.",
+          "value": "Traveled extensively for work across the U.S.",
+          "lines": [
+            107,
+            109,
+            245,
+            247
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions vacations to Oahu, Hawaii and Naples, Florida, staying at luxury hotels on employee discount.",
+          "value": "Vacationed in Oahu, Hawaii and Naples, Florida",
+          "lines": [
+            251,
+            253,
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains they do not grow fruits/vegetables due to fire ants and pests; husband grows roses and lantana instead.",
+          "value": "Does not grow edible plants due to pests; husband maintains ornamental garden",
+          "lines": [
+            529,
+            531,
+            533
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself with a name that the ASR renders as 'just even,' which is likely 'Justin' or 'Justine' but remains unclear.",
+          "value": "Possibly Justin or Justine (ASR: 'just even')",
+          "lines": [
+            8
+          ],
+          "certainty": 2
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Explicitly states she lives in Long Beach, California.",
+          "value": "Long Beach, California",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Identifies the area as downtown Long Beach when showing the view.",
+          "value": "Downtown Long Beach",
+          "lines": [
+            232,
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Confirms being close to the ocean and shows the ocean view from her window.",
+          "value": "Lives close to the ocean",
+          "lines": [
+            218,
+            233
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she lives in a studio apartment with her boyfriend.",
+          "value": "Studio apartment",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she was born and raised in the San Francisco area.",
+          "value": "Originally from San Francisco Bay Area",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she moved to Long Beach to attend Cal State Long Beach.",
+          "value": "Attended California State University, Long Beach",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions she is sitting in a closet during the call to keep it quiet.",
+          "value": "Currently in a closet during the call",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a comments she is 'very young' and speaker_b mentions being in her 20s.",
+          "value": "Young adult in her 20s",
+          "lines": [
+            89,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she graduated from Cal State Long Beach and stayed in the area afterward.",
+          "value": "College graduate (Cal State Long Beach)",
+          "lines": [
+            36
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Refers to her boyfriend and states they live together, indicating an unmarried cohabiting relationship.",
+          "value": "Cohabiting with boyfriend, unmarried",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions applying to six doctoral programs in physical therapy.",
+          "value": "Graduate school applicant (Doctor of Physical Therapy programs)",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States her boyfriend has ongoing medical issues that make her extra cautious about COVID-19.",
+          "value": "Boyfriend has medical issues",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Identifies her occupation as a physical therapy aide.",
+          "value": "Physical therapy aide",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Specifies she works in aquatic physical therapy in a pool setting.",
+          "value": "Works in aquatic physical therapy (pool setting)",
+          "lines": [
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her work days and the number of patients have decreased somewhat.",
+          "value": "Work hours and patient load reduced",
+          "lines": [
+            88
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions being furloughed earlier while searching for side income, but states she is currently still working.",
+          "value": "Previously furloughed; currently employed",
+          "lines": [
+            80,
+            82
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says she started doing Prolific studies during quarantine to earn extra money.",
+          "value": "Participates in Prolific studies for supplemental income",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes buying a mini washer/dryer to avoid the communal laundry room.",
+          "value": "Purchased a mini washer/dryer for the apartment",
+          "lines": [
+            154,
+            156,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says her boyfriend bought a Ninja Foodie 9-in-1 multi-cooker, noting it costs $200 on Amazon.",
+          "value": "Boyfriend purchased a Ninja Foodie 9-in-1 multi-cooker (~$200)",
+          "lines": [
+            642,
+            644,
+            654
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions getting a bread maker about a month ago and using it once.",
+          "value": "Owns a bread maker (acquired recently)",
+          "lines": [
+            628,
+            630
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States she initially had to buy her own PPE; the facility owner later provided it.",
+          "value": "Had to purchase own PPE initially; later provided by facility owner",
+          "lines": [
+            310,
+            312,
+            314
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "States she lives in a studio apartment with her boyfriend who has medical issues.",
+          "value": "Lives with boyfriend who has medical issues",
+          "lines": [
+            156,
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions her father is in his 60s and lives alone.",
+          "value": "Father in his 60s, lives alone",
+          "lines": [
+            188,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Expresses frustration that her father is not taking COVID-19 seriously despite his age and medical risks.",
+          "value": "Father not taking COVID-19 seriously",
+          "lines": [
+            188,
+            210
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States her aunt (father's sister) is an ER nurse.",
+          "value": "Aunt is an ER nurse",
+          "lines": [
+            202,
+            204
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says the same aunt continues to host social gatherings despite the pandemic.",
+          "value": "Aunt hosts social gatherings despite pandemic",
+          "lines": [
+            208
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Explains that extended family in Oahu, Hawaii own the house featured in the movie 'The Descendants'; she identifies it as her cousin's aunt's house.",
+          "value": "Extended family in Oahu, Hawaii; relative's house featured in film 'The Descendants'",
+          "lines": [
+            266,
+            268,
+            272,
+            274
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she met the Hawaii relatives for the first time last year at a wedding.",
+          "value": "Met Hawaii relatives for the first time at a wedding last year",
+          "lines": [
+            278,
+            280,
+            282
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions visiting Dallas, Texas about a year ago for a friend's wedding.",
+          "value": "Attended a friend's wedding in Dallas, Texas approximately a year ago",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes being highly cautious about COVID-19: wearing KN95 masks, disinfecting, buying a mini washer to avoid shared laundry.",
+          "value": "Highly COVID-cautious: wears KN95 masks, disinfects, avoids communal laundry",
+          "lines": [
+            162,
+            156,
+            158,
+            160
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Lists plants growing on her balcony: grape tomatoes, green onions, basil; previously grew green beans.",
+          "value": "Grows vegetables and herbs on apartment balcony",
+          "lines": [
+            572,
+            574,
+            576,
+            578
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she uses home-grown basil to make pasta every week.",
+          "value": "Uses home-grown basil for weekly pasta dishes",
+          "lines": [
+            592
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions making bread at home with a recently acquired bread maker.",
+          "value": "Makes bread at home with a bread maker",
+          "lines": [
+            628,
+            630,
+            634,
+            636
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes using the Ninja Foodie multi-cooker for sautéing, boiling, air frying, and other methods.",
+          "value": "Uses a Ninja Foodie multi-cooker for various cooking methods",
+          "lines": [
+            642,
+            644,
+            650,
+            660,
+            662
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she used to go surfing at Huntington Beach but is now afraid to go there.",
+          "value": "Previously surfed at Huntington Beach",
+          "lines": [
+            436
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions taking community college courses in Newport Beach.",
+          "value": "Took community college courses in Newport Beach",
+          "lines": [
+            434
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States she applied to six DPT programs and hopes to start next summer or fall.",
+          "value": "Applied to 6 Doctor of Physical Therapy programs; hopes to start next summer/fall",
+          "lines": [
+            98,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says she has been working in aquatic PT since January, which is about 10 months.",
+          "value": "Working in aquatic PT since January (about 10 months)",
+          "lines": [
+            360,
+            366
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions working in a regular (non-aquatic) PT clinic before her current role.",
+          "value": "Previously worked in a non-aquatic physical therapy clinic",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

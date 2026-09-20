@@ -1,0 +1,467 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces herself: 'I'm Bonnie' (line 9).",
+          "value": "Bonnie",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a states 'I live outside of Chicago' (line 11).",
+          "value": "outside Chicago, Illinois",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a has a female name and is referred to with feminine terms.",
+          "value": "female",
+          "lines": [
+            9
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I don't have any kids at home now' (line 253), implying she is a mother whose children have grown and left home.",
+          "value": "mother of adult children (empty nester)",
+          "lines": [
+            253
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [],
+      "relational": [
+        {
+          "reasoning": "speaker_a's statement that she has no kids at home indicates she has children who do not live with her.",
+          "value": "has children who live away from home",
+          "lines": [
+            253
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a states 'I'm not very political' (line 139).",
+          "value": "not politically engaged",
+          "lines": [
+            139
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "On several occasions speaker_a says she will 'google' a topic after the call (lines 29, 131, 217).",
+          "value": "frequently looks up information online after conversations",
+          "lines": [
+            29,
+            131,
+            217
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b introduces herself: 'My name is Stacy' (line 8).",
+          "value": "Stacy",
+          "lines": [
+            8,
+            9
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I mean Kentucky' (line 10) and 'I live in Louisville' (line 16).",
+          "value": "Louisville, Kentucky",
+          "lines": [
+            10,
+            16,
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her neighbourhood: the Breonna Taylor protests/riots are 'right around the corner from where we are, like two minutes' (line 28) and 'we live in a rough part of town' (line 30).",
+          "value": "rough part of Louisville near Breonna Taylor protest area",
+          "lines": [
+            24,
+            28,
+            30
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I lived in west Virginia before' (line 82).",
+          "value": "West Virginia (previous residence)",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states 'I was born in Maryland and then I lived there until I was like a teenager' (line 18). She also mentions Baltimore but does not clearly confirm it (line 20, ASR: 'So it kind Baltimore').",
+          "value": "Maryland (birthplace, possibly Baltimore)",
+          "lines": [
+            18,
+            20
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'I'm 38' (line 20) and 'I'm only 38' (line 60).",
+          "value": "38 years old",
+          "lines": [
+            20,
+            60
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b uses a female name, refers to herself as 'mom', and discusses pregnancies.",
+          "value": "female",
+          "lines": [
+            8,
+            82,
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b repeatedly mentions 'my husband' (e.g., lines 96, 120), indicating she is married.",
+          "value": "married",
+          "lines": [
+            96,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I have three' when asked about children (line 82).",
+          "value": "mother of three children",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "speaker_b says her 'back's been messed up since I had kids' (line 62) and she uses a back brace and heating pad (line 58).",
+          "value": "chronic back pain requiring back brace and heating pad",
+          "lines": [
+            53,
+            54,
+            58,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'tore my rotator cuff' (lines 54, 62).",
+          "value": "torn rotator cuff",
+          "lines": [
+            54,
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b states her rotator cuff caused 'severe tendonitis in my elbow' and she wears an elbow brace (lines 62, 64).",
+          "value": "severe tendonitis in elbow, wears brace",
+          "lines": [
+            62,
+            64
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains she lost all her teeth because during pregnancy 'they suck the blood out of me' (line 212; calcium depletion). She had them extracted and now uses dentures; top ones fit, bottom ones cause problems (lines 210-222).",
+          "value": "edentulous, wears dentures (top functional, bottom unstable, uses adhesive)",
+          "lines": [
+            210,
+            212,
+            216,
+            218,
+            220,
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she lost 'like 50 lbs' and now weighs 'like 95 lbs', looking 'like a walking skeleton' (lines 54, 56).",
+          "value": "weighs approximately 95 lbs, lost 50 lbs",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I think he may have bipolar like I do' (line 264), indicating she herself has bipolar disorder.",
+          "value": "bipolar disorder",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states 'I only sleep about three hours a day' (line 96).",
+          "value": "averages 3 hours of sleep per day",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions buying cigarettes ('get cigarettes', line 34), implying she is a smoker.",
+          "value": "smokes cigarettes",
+          "lines": [
+            34
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I got a bad past with issues so I don't need to be grabbed on or it just reminds me of all that' (line 34, ASR: 'bad pass'), suggesting a history of trauma or assault.",
+          "value": "history of trauma (possible PTSD/assault)",
+          "lines": [
+            34
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [
+        {
+          "reasoning": "speaker_b states 'I'm registered to vote' (line 126).",
+          "value": "registered voter",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she is receiving her ballot by mail: 'they were sending me my ballot thing in the mail... it's coming today' (line 126).",
+          "value": "receiving mail-in ballot",
+          "lines": [
+            126
+          ],
+          "certainty": 5
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "speaker_b says 'I work for ups' (line 42) and describes her role as 'package handler' loading airplanes (line 46).",
+          "value": "package handler at UPS",
+          "lines": [
+            42,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she has been at UPS for 'my ninth month right now' (line 62).",
+          "value": "9 months at UPS",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her shift: 'we've been going in at 950 and lay them at 4.30' (line 92).",
+          "value": "night shift, approximately 9:50 PM to 4:30 AM",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she does online microtasks for 'line routes or happen' (line 104, ASR for Lionbridge and Appen). She also mentions Prolific, Survey Junkie, and user testing (lines 164,166,170).",
+          "value": "freelance online microtask worker for Lionbridge, Appen, Prolific, Survey Junkie, and user testing",
+          "lines": [
+            104,
+            106,
+            164,
+            166,
+            170,
+            196
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b states 'line bridge pays $11 an hour' (line 196).",
+          "value": "$11 per hour at Lionbridge",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explains 'I'm at ups for the benefits. That's my future.' (line 206).",
+          "value": "stays at UPS primarily for health insurance benefits",
+          "lines": [
+            206
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says they share one car; she doesn't have her own (lines 150,152). They used stimulus money to pay bills, and her husband's tax refund has been delayed for five months (line 148).",
+          "value": "shares one vehicle, financial strain, used stimulus for bills, awaiting delayed tax refund",
+          "lines": [
+            148,
+            150,
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b expresses her goal: 'make it either my own business or enough where I don't need anymore. You don't leave the house.' (line 208).",
+          "value": "goal to turn online freelance work into a full-time business to leave UPS",
+          "lines": [
+            208
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says she previously 'did nine years in daycare as a teacher' and did factory work (line 78).",
+          "value": "previously worked as a daycare teacher for 9 years and in factories",
+          "lines": [
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b frequently mentions her husband: he supports Trump (lines 120,122), is edentulous (line 230), works a job that requires him to leave early in the morning (line 96), and they have marital tensions over her extra work and his lack of help (lines 244-246).",
+          "value": "husband (Trump supporter, edentulous, employed, shares one car, marital strain)",
+          "lines": [
+            96,
+            120,
+            122,
+            128,
+            148,
+            154,
+            230,
+            244,
+            246
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her children: a son who lives with her (age 11, line 260) and two daughters (18 and 14) who live with their dad's mom and are seen every weekend, 1.5 hours away (lines 82, 86).",
+          "value": "three children: son (11, lives with her), daughters (18 and 14, live with paternal grandmother, seen weekly)",
+          "lines": [
+            82,
+            86,
+            260
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions her mother ('mama') who is a Trump supporter (line 156) and a woman she 'adopted as my mom' who paid for her dentures (line 232).",
+          "value": "has a mother (Trump supporter) and an adoptive mother figure who paid for dentures",
+          "lines": [
+            156,
+            232
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b combines a night shift at UPS with online microtasks, averaging only about 3 hours of sleep (lines 92, 96, 162, 164).",
+          "value": "hectic schedule combining night shift and online freelancing, sleeping only 3 hours",
+          "lines": [
+            92,
+            96,
+            162,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she rarely goes out except to work due to fear of her neighbourhood and past trauma (lines 32, 38).",
+          "value": "avoids going out in her neighbourhood due to crime and past trauma",
+          "lines": [
+            32,
+            38,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b supervises her son's virtual school after catching him skipping classes to play Xbox (lines 248, 250).",
+          "value": "monitors son's online school attendance",
+          "lines": [
+            248,
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she sometimes has to speed home at 90 mph to meet her husband with the car (line 96).",
+          "value": "occasionally drives at 90 mph to get home on time",
+          "lines": [
+            96
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes her home office: 'desktop and my laptop and two phones' (line 162).",
+          "value": "uses desktop, laptop, and two phones for online work",
+          "lines": [
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says she wears her top dentures to work but removes them at home (line 222).",
+          "value": "removes dentures when at home, wears only top ones to work",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "speaker_b says she weighs about 95 lbs after losing 50 lbs, looking like 'a walking skeleton' (lines 54, 56).",
+          "value": "very thin, approximately 95 lbs",
+          "lines": [
+            54,
+            56
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions wearing an elbow brace for tendonitis (line 64).",
+          "value": "wears an elbow brace",
+          "lines": [
+            64
+          ],
+          "certainty": 5
+        }
+      ]
+    }
+  ]
+}

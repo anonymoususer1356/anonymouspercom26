@@ -1,0 +1,353 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_a states they are from New York City (line 21) and later clarifies they live in Brooklyn (line 51).",
+          "value": "Brooklyn, New York City",
+          "lines": [
+            21,
+            51
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says they went to college at Cornell University, which is in Ithaca, upstate New York, indicating a past location.",
+          "value": "Cornell University, Ithaca, New York (education)",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a is a graduate student in a Physician Assistant program (lines 29, 133).",
+          "value": "Graduate student, Physician Assistant program",
+          "lines": [
+            29,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a studied pre-med as an undergraduate at Cornell (lines 27, 29).",
+          "value": "Pre-med undergraduate background",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a states they have asthma (line 107).",
+          "value": "Asthma",
+          "lines": [
+            107
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says they live with parents to save on rent (line 33).",
+          "value": "Lives with parents to save money on rent",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a confirms they are not working, just a student (lines 132-133).",
+          "value": "Not employed, full-time student",
+          "lines": [
+            132,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions previously working as a tech for a gastroenterologist (line 171).",
+          "value": "Formerly worked as a tech for a gastroenterologist",
+          "lines": [
+            171
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions having a girlfriend (line 229).",
+          "value": "Has a girlfriend",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lives with their parents (line 33).",
+          "value": "Lives with parents",
+          "lines": [
+            33
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a talks about friends planning a cooking competition (line 185) and a friend who watched Avatar (line 221).",
+          "value": "Has a group of friends",
+          "lines": [
+            185,
+            221
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a watches anime such as Food Wars (line 177), My Hero Academia (line 197), Death Note (line 201), Avatar (line 209), and reality TV with girlfriend (line 229).",
+          "value": "Watches anime (Food Wars, My Hero Academia, Death Note, Avatar) and reality TV",
+          "lines": [
+            177,
+            197,
+            201,
+            209,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a is participating in a mac and cheese burger cooking competition with friends (lines 185-189).",
+          "value": "Participating in a mac and cheese burger cooking competition with friends",
+          "lines": [
+            185,
+            187,
+            189
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a's Physician Assistant program is demanding; they mention it's tough and they avoid overworking (lines 133, 135, 137).",
+          "value": "Intensive study schedule, limited free time",
+          "lines": [
+            133,
+            135,
+            137
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b says they are from upstate New York, about an hour outside NYC (line 22), and lives near the Appalachian Trail (line 100).",
+          "value": "Upstate New York, approximately one hour from New York City, near Appalachian Trail",
+          "lines": [
+            22,
+            100
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b studied music in Boston at 'Berkeley' (line 38), which likely refers to Berklee College of Music, given the context of Boston and music. ASR likely misrecognized Berklee.",
+          "value": "Berklee College of Music, Boston, Massachusetts (education)",
+          "lines": [
+            38
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b graduated two months ago (line 38).",
+          "value": "Recent college graduate (graduated two months ago)",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b studied music at Berklee (line 38).",
+          "value": "Music degree from Berklee College of Music",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b works at a sync publishing company, placing music in TV, films, ads (lines 118, 122).",
+          "value": "Works in music publishing (sync licensing)",
+          "lines": [
+            118,
+            122,
+            126
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b previously worked as a vet tech (lines 74, 88).",
+          "value": "Former veterinary technician",
+          "lines": [
+            74,
+            88
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b originally studied forensic anthropology before dropping out to tour with band (lines 140, 142).",
+          "value": "Former forensic anthropology student (almost graduated)",
+          "lines": [
+            140,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b was/is in a band and went on tour (line 142).",
+          "value": "Member of a band, has toured",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b lives at home with parents (line 38).",
+          "value": "Lives with parents",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b started a new job about a month ago and works from home (lines 126, 80).",
+          "value": "Recently started job, works from home",
+          "lines": [
+            126,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b previously worked as a vet tech, took about 5 months to get current job (lines 76, 78).",
+          "value": "Recently employed after 5-month job search",
+          "lines": [
+            76,
+            78
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b lives with parents (line 38).",
+          "value": "Lives with parents",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a sister (lines 180, 196).",
+          "value": "Has a sister",
+          "lines": [
+            180,
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a father who works outside the home (line 82), indicating family structure.",
+          "value": "Has a father (works outside the home)",
+          "lines": [
+            82
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b owns dogs, as indicated by 'we have a fenced in yard', 'we take them on the Appalachian trail' (lines 100, 102).",
+          "value": "Owns multiple dogs",
+          "lines": [
+            100,
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions having a band (line 142).",
+          "value": "Has a band",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b works from home (line 80).",
+          "value": "Works from home",
+          "lines": [
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b takes their dogs on the Appalachian Trail off-leash (line 102).",
+          "value": "Takes dogs on Appalachian Trail off-leash",
+          "lines": [
+            102
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b watches anime, specifically My Hero Academia and Death Note (lines 198, 200).",
+          "value": "Watches some anime (My Hero Academia, Death Note)",
+          "lines": [
+            198,
+            200
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b enjoys reality TV, specifically 90 Day Fiance and Love is Blind (lines 246, 296).",
+          "value": "Enjoys reality TV shows (90 Day Fiance, Love is Blind)",
+          "lines": [
+            246,
+            296
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b loves mac and cheese, prefers Kraft brand, and admits limited cooking skills (lines 186, 192, 194).",
+          "value": "Prefers Kraft mac and cheese, limited cooking skills",
+          "lines": [
+            186,
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b previously toured with a band, indicating a music-related lifestyle (line 142).",
+          "value": "Has toured as musician",
+          "lines": [
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

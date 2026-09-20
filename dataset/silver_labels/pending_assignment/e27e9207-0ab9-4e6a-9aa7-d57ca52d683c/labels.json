@@ -1,0 +1,566 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states her name directly.",
+          "value": "Maria",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states she is in Seattle when speaker_b says she is in the Pacific Northwest. Later confirms born and raised in Seattle and has lived in other parts of Washington but mostly stayed in Seattle.",
+          "value": "Seattle, Washington",
+          "lines": [
+            33,
+            53,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she was born and raised in Seattle.",
+          "value": "Born and raised in Seattle",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she has lived in other sections of Washington state.",
+          "value": "Has lived in other parts of Washington state",
+          "lines": [
+            55
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "Speaker_a says her back hurts all the time; ASR renders 'my back' as 'that can back' but the meaning is clear from context of making heat pads for back pain.",
+          "value": "Back hurts all the time",
+          "lines": [
+            81
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states she no longer feels comfortable in large crowds.",
+          "value": "Does not feel comfortable in large crowds anymore",
+          "lines": [
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is sore for three or four days after a hike.",
+          "value": "Gets sore for three to four days after a hike",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says she is currently hired on a project basis.",
+          "value": "Currently hired on a project basis",
+          "lines": [
+            321
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she misses having a regular paycheck.",
+          "value": "Misses having a regular paycheck",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she used to be a dog walker and dog sitter for extra money.",
+          "value": "Used to work as a dog walker and dog sitter for extra money",
+          "lines": [
+            121
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states she can work from home but her partner cannot.",
+          "value": "Can work from home",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she received a sewing machine as a Christmas gift.",
+          "value": "Received a sewing machine as a Christmas gift",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a refers to 'my partner' multiple times and uses 'he' pronouns.",
+          "value": "Has a male partner",
+          "lines": [
+            107,
+            113,
+            181,
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her partner worked in the food industry and was recently rehired as a chef.",
+          "value": "Partner works in the food industry as a chef, recently rehired",
+          "lines": [
+            203
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a introduces her dog as 'senator' (ASR error for Cedar) and later calls him Cedar. He is a rescue adopted at the start of quarantine.",
+          "value": "Has a dog named Cedar, a rescue adopted at the start of quarantine",
+          "lines": [
+            9,
+            123,
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says the dog is just over a year old.",
+          "value": "Dog Cedar is just over a year old",
+          "lines": [
+            11
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a describes herself as a really avid hiker who loves getting into the woods, especially hikes with viewpoint payoffs and waterfalls.",
+          "value": "Avid hiker who enjoys hikes with viewpoints and waterfalls",
+          "lines": [
+            107,
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she did some climbing on Mount St. Helens but is an inexperienced mountain climber.",
+          "value": "Has done some climbing on Mount St. Helens",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she barely made a Prolific account and has only seriously done surveys in the last couple of weeks.",
+          "value": "Uses Prolific for surveys, started seriously in the last couple of weeks",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is not a stranger to video chatting and that is how she kept in touch with everybody once isolation started.",
+          "value": "Uses video chat to keep in touch with people during isolation",
+          "lines": [
+            27,
+            29
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lists items she has made: masks, hand warmers, neck and back heat pads, scrunchies, shirts and tops.",
+          "value": "Sews various items including masks, hand warmers, heat pads, scrunchies, and clothing",
+          "lines": [
+            77,
+            79,
+            81,
+            83
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she mostly takes her coffee black.",
+          "value": "Drinks coffee black",
+          "lines": [
+            335
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she is going to make blondies later.",
+          "value": "Planning to make blondies later today",
+          "lines": [
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions a virtual training chat for Cedar later today.",
+          "value": "Has a virtual dog training session later today",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she participated in protest support, organizing rides for protesters and medical supplies.",
+          "value": "Participated in protest support organizing for Capitol Hill",
+          "lines": [
+            229,
+            231
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a mentions applying for jobs because she misses stable work.",
+          "value": "Applies for jobs",
+          "lines": [
+            319
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she tries to go hiking on non-weekend days to avoid crowds.",
+          "value": "Goes hiking on non-weekend days to avoid crowds",
+          "lines": [
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she and her partner stay pretty isolated; she only goes out to walk the dog, get groceries, and maybe drive him to work.",
+          "value": "Mostly stays isolated; only goes out to walk dog, get groceries, and drive partner to work",
+          "lines": [
+            181
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes herself as a totally inexperienced mountain climber.",
+          "value": "Inexperienced mountain climber",
+          "lines": [
+            141
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [],
+      "location": [
+        {
+          "reasoning": "Speaker_b states she is in Salem.",
+          "value": "Salem, Oregon",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is on the Pacific coast and in the Pacific Northwest.",
+          "value": "Pacific Northwest",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the area as rural and not densely populated.",
+          "value": "Currently lives in a rural area",
+          "lines": [
+            66
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she used to live in Seattle.",
+          "value": "Used to live in Seattle, Washington",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she was living in Ballard when she was in Seattle.",
+          "value": "Lived in the Ballard neighborhood of Seattle",
+          "lines": [
+            196
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she lived in Seattle for about a year and a half back in 2018.",
+          "value": "Lived in Seattle for about a year and a half around 2018",
+          "lines": [
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she lived in Florida for the first 27 years of her life.",
+          "value": "Lived in Florida for the first 27 years of her life",
+          "lines": [
+            48
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has moved a lot in the past few years.",
+          "value": "Has moved frequently in the past few years",
+          "lines": [
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has done a lot more hiking in Oregon, mostly North and Central, and has not spent much time in Southern Oregon.",
+          "value": "Has done hiking mostly in North and Central Oregon",
+          "lines": [
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she went to the Skagit Valley tulip festival one year.",
+          "value": "Has visited the Skagit Valley tulip festival in Washington",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she likes going to the coast when she can.",
+          "value": "Enjoys visiting the Oregon coast",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says it is always nice to see the Goonies House, which is in Astoria, Oregon.",
+          "value": "Has been to Astoria, Oregon to see the Goonies House",
+          "lines": [
+            172
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says she says with authority as a southerner and previously stated she lived in Florida for the first 27 years of her life.",
+          "value": "Originally from the South; considers herself a southerner",
+          "lines": [
+            48,
+            190
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says she has never been a standard size where she can just buy clothes off the rack.",
+          "value": "Has never been a standard clothing size",
+          "lines": [
+            92
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says she has not been able to work right now.",
+          "value": "Not able to work currently",
+          "lines": [
+            212
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she got to Salem just as everything shut down.",
+          "value": "Arrived in Salem just as the COVID-19 shutdown happened",
+          "lines": [
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does a lot of stuff on Prolific.",
+          "value": "Uses Prolific for surveys regularly",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is going to get the new sewing machine today.",
+          "value": "Getting a new sewing machine today",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says maybe she will make a little coin selling masks.",
+          "value": "Might sell sewn masks to earn money",
+          "lines": [
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she had a sewing machine that sat brand new in the box in the closet for about five years and was never opened.",
+          "value": "Previously owned a sewing machine that sat unused in its box for about five years",
+          "lines": [
+            94
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b mentions a friend who still lives in Seattle and uses 'she' pronouns.",
+          "value": "Has a female friend who lives in Seattle",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says that friend's goal is to climb Mount Rainier.",
+          "value": "Friend's goal is to climb Mount Rainier",
+          "lines": [
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says that friend has been in Seattle for about five years.",
+          "value": "Friend has been in Seattle for about five years",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does not have any pets right now.",
+          "value": "Does not have any pets currently",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says she is kind of a cat person but also likes dogs.",
+          "value": "Considers herself a cat person but also likes dogs",
+          "lines": [
+            16,
+            18
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she really likes hiking and that waterfalls feel like a reward at the end.",
+          "value": "Likes hiking and enjoys waterfalls as a reward",
+          "lines": [
+            128,
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a recent trip to a park with the Trail of Ten Falls.",
+          "value": "Visited the Trail of Ten Falls park recently",
+          "lines": [
+            130
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she does a lot of stuff on Prolific but has not done a video chat study before.",
+          "value": "First time doing a video chat study",
+          "lines": [
+            24
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she is going to get a new sewing machine and start sewing masks.",
+          "value": "Planning to sew masks",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says her goal is to eventually make her own clothes.",
+          "value": "Wants to eventually make her own clothes",
+          "lines": [
+            90
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she has not had breakfast yet today.",
+          "value": "Had not eaten breakfast yet at the time of the conversation",
+          "lines": [
+            336
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the Salem area as more conservative and pro-police.",
+          "value": "Describes the Salem area as conservative and pro-police",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says she likes going to the coast when she can.",
+          "value": "Enjoys coastal trips",
+          "lines": [
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recommends a biscuit restaurant in Seattle; ASR renders it as 'biscuit and being', intended as Biscuit & Bean. She describes it being in Ballard and possibly a second location in Stevens.",
+          "value": "Recommends the restaurant Biscuit & Bean in Seattle",
+          "lines": [
+            186,
+            188,
+            196,
+            198,
+            326,
+            328,
+            332
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

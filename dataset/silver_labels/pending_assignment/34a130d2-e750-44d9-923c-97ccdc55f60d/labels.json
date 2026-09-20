@@ -1,0 +1,476 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker is called 'juan' by speaker_b (line 150) and says 'I'm one' (likely 'I'm Juan') in line 19; speaker_b closes with 'good talk to you one' (Juan) in line 328.",
+          "value": "Juan",
+          "lines": [
+            19,
+            150,
+            328
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States outright 'I am in Delaware' (line 19) and repeatedly refers to Delaware throughout.",
+          "value": "Delaware",
+          "lines": [
+            19,
+            65,
+            67,
+            69,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions moving to upstate New York and living there for six years (line 227).",
+          "value": "upstate New York (formerly lived for 6 years)",
+          "lines": [
+            227
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I grew up like I throw a rock and I hit new york city', indicating he grew up very close to NYC (line 279).",
+          "value": "grew up near New York City",
+          "lines": [
+            279
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States his mother is from Colombia (line 287).",
+          "value": "Colombian heritage (mother is Colombian)",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has a five-year-old daughter (lines 95, 105).",
+          "value": "parent of a young child",
+          "lines": [
+            95,
+            105
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "Says 'only because I got very duty', phonetically jury duty, and confirms it is postponed but virtual (lines 55, 57).",
+          "value": "summoned for jury duty (postponed/remote)",
+          "lines": [
+            55,
+            57
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Works at University of Delaware as facility planning manager for the arts and science college (lines 35, 37, 41).",
+          "value": "facility planning manager, University of Delaware (arts and science college)",
+          "lines": [
+            35,
+            37,
+            41
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Invests in stocks as a hobby, using money instead of spending on Starbucks (lines 161, 163).",
+          "value": "buys stocks as a hobby",
+          "lines": [
+            161,
+            163
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Pays tuition for daughter's local Catholic pre‑K even after school closure (lines 99, 101).",
+          "value": "pays tuition for daughter's private Catholic pre‑K",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Works about 85% remotely (line 59).",
+          "value": "works approximately 85% remotely",
+          "lines": [
+            59
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Explicitly mentions 'my girlfriend' (line 105) and describes meeting her at a country show (line 229).",
+          "value": "has a girlfriend",
+          "lines": [
+            105,
+            229
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a daughter' and refers to 'my five year olds' (lines 95, 105).",
+          "value": "has a daughter (age 5)",
+          "lines": [
+            95,
+            105
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Daughter attends a local Catholic pre‑K (lines 99, 101).",
+          "value": "daughter attends local Catholic pre‑K",
+          "lines": [
+            99,
+            101
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States his mother is from Colombia (line 287).",
+          "value": "mother is Colombian",
+          "lines": [
+            287
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States his father is from 'Osama Bin The', an ASR‑garbled location that cannot be reliably decoded (line 287).",
+          "value": "father from 'Osama Bin The' (garbled)",
+          "lines": [
+            287
+          ],
+          "certainty": 1
+        },
+        {
+          "reasoning": "Says his family is enthusiastic about soccer (line 159).",
+          "value": "family follows soccer closely",
+          "lines": [
+            159
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Plans to meet friends who live in Atlanta during a camping trip (line 267).",
+          "value": "has friends in Atlanta, Georgia",
+          "lines": [
+            267
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Enjoys cooking, gardening, and outdoor activities (lines 153, 155).",
+          "value": "enjoys cooking, gardening, outdoor activities",
+          "lines": [
+            153,
+            155
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Describes a wall full of plants and mentions specific dying/rescued plants (lines 157, 171, 175, 179).",
+          "value": "collects and cares for houseplants",
+          "lines": [
+            157,
+            171,
+            175,
+            179
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Listens to SoundCloud rap, classical, and Spanish music; dislikes country (lines 209, 211, 221, 236).",
+          "value": "music taste: SoundCloud rap, classical, Spanish music; dislikes country",
+          "lines": [
+            209,
+            211,
+            221,
+            236
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Goal to visit all 50 US states; has done most of East Coast except NC (lines 251, 255).",
+          "value": "pursuing goal to visit all 50 US states",
+          "lines": [
+            251,
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has traveled internationally to Venezuela, Egypt, Italy, Spain, France, England, Germany (lines 287, 289).",
+          "value": "international traveler (Venezuela, Egypt, Italy, Spain, France, England, Germany)",
+          "lines": [
+            287,
+            289
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Enjoys camping, hiking, waterfalls, and lake swimming (lines 265, 283, 285).",
+          "value": "enjoys camping, hiking, and water activities",
+          "lines": [
+            265,
+            283,
+            285
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Does not like living in big cities, prefers nature and open spaces (lines 275‑281).",
+          "value": "dislikes living in big cities; prefers nature",
+          "lines": [
+            275,
+            277,
+            279,
+            281
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says he does little surveys during lunch (line 315).",
+          "value": "participates in online surveys during lunch breaks",
+          "lines": [
+            315
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Switched to using the Brave web browser (line 7).",
+          "value": "uses Brave web browser",
+          "lines": [
+            7
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces himself as 'Tyler' (line 16).",
+          "value": "Tyler",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'I am in south Carolina Columbia, South Carolina' (line 16).",
+          "value": "Columbia, South Carolina",
+          "lines": [
+            16
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says originally from Charleston (line 22) and grew up there (line 34).",
+          "value": "Charleston, South Carolina (hometown)",
+          "lines": [
+            22,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'never lived outside of south Carolina' (line 244).",
+          "value": "has never lived outside South Carolina",
+          "lines": [
+            244
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Is an attorney (line 32) and attended law school in Columbia (line 34).",
+          "value": "attorney, law school graduate",
+          "lines": [
+            32,
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I grew up very much in a country place' (line 224).",
+          "value": "grew up in a rural/country area",
+          "lines": [
+            224
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm at home by myself', implying no cohabitants (line 144).",
+          "value": "lives alone",
+          "lines": [
+            144
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [
+        {
+          "reasoning": "States 'I am attorney' and currently works for the government suing corporations (lines 32, 46).",
+          "value": "attorney, currently government litigator",
+          "lines": [
+            32,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Previously worked for a big national firm defending companies in employment law (line 44).",
+          "value": "former defense attorney at big national firm (employment law)",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "economic": [
+        {
+          "reasoning": "Currently works for the government as an attorney suing corporations (line 46).",
+          "value": "current employer: government attorney (sues corporations)",
+          "lines": [
+            46
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Previously worked for a big national firm (line 44).",
+          "value": "former employer: big national law firm (defense)",
+          "lines": [
+            44
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'I was dating an emergency room doctor at the beginning of all this' (line 146).",
+          "value": "ex‑partner was an emergency room doctor (dated at start of COVID‑19)",
+          "lines": [
+            146
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Mentions his dad taking him to yard sales (line 198).",
+          "value": "has a father",
+          "lines": [
+            198
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says friends went to/lived in Portland, Maine (line 264).",
+          "value": "has friends in Portland, Maine",
+          "lines": [
+            264
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Hobbies include board games, video games, plants, and vinyl collecting (lines 192, 196, 198, 200).",
+          "value": "enjoys board games, video games, plants, and vinyl collecting",
+          "lines": [
+            192,
+            196,
+            198,
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Collects vinyl records, started at yard sales with his father (lines 196, 200).",
+          "value": "vinyl record collector",
+          "lines": [
+            196,
+            200
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Favourite music: Beatles (White Album), Black Sabbath, Pink Floyd (Meddle); strongly dislikes country (lines 202, 204, 206, 224). ASR rendered 'Meddle' as 'Metal'.",
+          "value": "music taste: Beatles, Black Sabbath, Pink Floyd; hates country",
+          "lines": [
+            202,
+            204,
+            206,
+            224
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Claims he did not peak in high school and disliked the popular kids who liked country (line 224).",
+          "value": "reports not having peaked in high school",
+          "lines": [
+            224
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Traveled to New York City, and internationally to Italy, Brazil, Costa Rica; has never been west of Chicago (lines 244, 248).",
+          "value": "traveled to NYC, Italy, Brazil, Costa Rica; never west of Chicago within the US",
+          "lines": [
+            244,
+            248
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has a wall of plants, including a Monstera (lines 168, 170). ASR rendered 'Monstera' as 'monster era birds'.",
+          "value": "owns many plants, including a Monstera",
+          "lines": [
+            168,
+            170
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Expresses interest in beer and visiting Munich for its beer (line 306).",
+          "value": "beer enthusiast, wants to visit Munich for beer",
+          "lines": [
+            306
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Has been working from home for 4 months since being hired during COVID‑19 (lines 50, 52).",
+          "value": "working from home since COVID‑19, never visited new office",
+          "lines": [
+            50,
+            52
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

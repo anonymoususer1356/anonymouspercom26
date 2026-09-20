@@ -1,0 +1,442 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a states his name directly: 'I'm johnny' (line 249).",
+          "value": "johnny",
+          "lines": [
+            249
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says he is on the west coast in California (line 53) and specifically in Oakland (line 73). He adds that he lives on the boundary of two zip codes (lines 81-83). Speaker_b later says 'Everything in Oakland' reinforcing the location (line 400).",
+          "value": "Oakland, California, on the boundary of two zip codes",
+          "lines": [
+            53,
+            73,
+            81,
+            83,
+            400
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says he was born in Russia, which was then the Soviet Union (lines 207-211).",
+          "value": "Born in Russia (Soviet Union)",
+          "lines": [
+            207,
+            209,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a states he moved to the US when he was 11, just about to turn 11 (line 217).",
+          "value": "Moved to the US at age 11",
+          "lines": [
+            217
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm 53' (line 353).",
+          "value": "Age 53",
+          "lines": [
+            353
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he speaks fluent Russian, fought to keep it, and speaks without an accent (lines 219, 221).",
+          "value": "Speaks fluent Russian",
+          "lines": [
+            219,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he speaks English better than Russian and that people are surprised he sounds like a native (lines 217, 221).",
+          "value": "Speaks fluent English",
+          "lines": [
+            217,
+            221
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b addresses speaker_a as 'Nice man' (line 394) and the name 'johnny' is typically male.",
+          "value": "Male",
+          "lines": [
+            249,
+            394
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_a says he developed a disability around 11 years ago that left him unable to continue as a technical writer (lines 251-253). The exact disability is not specified.",
+          "value": "Has a disability that prevented employment",
+          "lines": [
+            251,
+            253
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he is in a vulnerable population for COVID‑19 complications (line 113).",
+          "value": "Vulnerable to COVID‑19 complications",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says he used to be a technical writer (line 251).",
+          "value": "Former technical writer",
+          "lines": [
+            251
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has not had a paid job except little jobs for about 11 years (line 253).",
+          "value": "No regular paid employment for 11 years",
+          "lines": [
+            253
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he worked for 'english' (likely an ASR error for a database company) early in his career (line 267).",
+          "value": "Worked for 'english'",
+          "lines": [
+            267
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "Speaker_a says he worked for Oracle as a technical writer in the support department (lines 267, 269).",
+          "value": "Worked for Oracle",
+          "lines": [
+            267,
+            269
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he later worked for a company called Correlate, which dealt with dynamic SQL and data streams (line 271).",
+          "value": "Worked for Correlate",
+          "lines": [
+            271
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a discusses the payment for the conversation ('14 bucks', line 27) and mentions he attempted a session the previous week (line 41), indicating he is a gig participant in this paid study.",
+          "value": "Participates in paid conversation studies (gig work)",
+          "lines": [
+            27,
+            41
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a mentions walking his dog (lines 79, 86).",
+          "value": "Has a dog",
+          "lines": [
+            79,
+            86
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says both his parents ended up working in software/hardware (line 297) and recounts his mother's computing experiences (line 311).",
+          "value": "Has parents (both worked in tech)",
+          "lines": [
+            297,
+            311
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he has a friend who is Japanese (line 179).",
+          "value": "Has a Japanese friend",
+          "lines": [
+            179
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says he has a young housemate (ASR 'housemaid') born around 1991 who is a passionate gamer (lines 337-339).",
+          "value": "Has a female housemate born ~1991",
+          "lines": [
+            337,
+            339
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states he is not a parent (line 389).",
+          "value": "Not a parent",
+          "lines": [
+            389
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says he walks his dog and visits a friend's house while maintaining distance (lines 79-80).",
+          "value": "Walks dog and visits friend outdoors",
+          "lines": [
+            79,
+            80
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he mostly stays at home due to COVID (line 77).",
+          "value": "Stays home except for dog walks and distant socializing",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says he wears a mask and a face shield when he may be close to people (line 91).",
+          "value": "Wears mask and face shield in public",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b introduces himself as 'eric' (line 248).",
+          "value": "eric",
+          "lines": [
+            248
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says he is in Oregon (line 58), specifically in Beaverton, a suburb of Portland (line 64), and indicates he lives 'just above' California (line 56).",
+          "value": "Beaverton, Oregon, suburb of Portland",
+          "lines": [
+            56,
+            58,
+            64
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says he was born and raised in Indonesia (line 184).",
+          "value": "Born in Indonesia",
+          "lines": [
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he moved to the US when he was 16 (lines 184, 214).",
+          "value": "Moved to the US at age 16",
+          "lines": [
+            184,
+            214
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he is 40 years old and turned 40 this past March (lines 342, 350).",
+          "value": "Age 40",
+          "lines": [
+            342,
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b refers to 'my wife' (line 128) and the name Eric is conventionally male.",
+          "value": "Male",
+          "lines": [
+            128,
+            248
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b describes the Indonesian language's alphabet and pronunciation, indicating he knows it (lines 229-231).",
+          "value": "Speaks Indonesian",
+          "lines": [
+            229,
+            230,
+            231
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he had English lessons before moving but learned mostly through school conversations (line 216) and converses fluently.",
+          "value": "Speaks English",
+          "lines": [
+            216
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says he works as an engineer / data engineer / data scientist (lines 260, 280).",
+          "value": "Data engineer / data scientist",
+          "lines": [
+            260,
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he works with SQL Server databases, writing queries and creating/modifying reports (lines 283-285).",
+          "value": "Works with SQL Server databases",
+          "lines": [
+            283,
+            284,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he sells a lot of stuff on 'correct list' (ASR for Craigslist) (line 98).",
+          "value": "Sells items on Craigslist",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says this is his fourth conversation (line 24), that he was not paid the first time (line 28), and that the cap is four (line 34), indicating repeated paid participation.",
+          "value": "Repeat participant in paid conversation study",
+          "lines": [
+            24,
+            28,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says he has a wife (line 128).",
+          "value": "Married",
+          "lines": [
+            128
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his son will turn 10 in September and his daughter just turned 7 (line 378).",
+          "value": "Has two children (son ~10, daughter 7)",
+          "lines": [
+            378
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his parents still live in Indonesia (line 186).",
+          "value": "Parents live in Indonesia",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his sister lives in Seattle and sends him articles about anti‑Asian hate crimes (line 188).",
+          "value": "Has a sister in Seattle",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he has a close neighbour from Russia who is a CPA (lines 304-306).",
+          "value": "Has a Russian neighbour (CPA)",
+          "lines": [
+            304,
+            306
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he goes to church and has church friends, although meetings are online due to the pandemic (lines 138, 142).",
+          "value": "Attends church and has church community",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b indicates he is a churchgoer, currently attending online services (lines 138, 142).",
+          "value": "Churchgoer (attends online during pandemic)",
+          "lines": [
+            138,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b sells personal items on Craigslist, an activity he has continued through the pandemic (line 98).",
+          "value": "Sells on Craigslist",
+          "lines": [
+            98
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b mentions this is his fourth conversation in the study (lines 24, 34).",
+          "value": "Participates in conversation studies",
+          "lines": [
+            24,
+            34
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_a tells speaker_b he is a 'young looking 40' (line 345).",
+          "value": "Looks young for age 40",
+          "lines": [
+            345
+          ],
+          "certainty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,377 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a says 'My name is, jen' (line 7).",
+          "value": "Jen",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states 'I live in Virginia' (line 19) and specifies 'I'm actually right by Richmond' (line 21).",
+          "value": "near Richmond, Virginia",
+          "lines": [
+            19,
+            21
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I'm actually from pennsylvania' (line 27).",
+          "value": "originally from Pennsylvania",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'we actually have a little boy, a one year old' (line 255), describes him starting to walk (line 259), and loving outside (line 261).",
+          "value": "parent of a one-year-old son",
+          "lines": [
+            255,
+            259,
+            261
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a says 'I work remote as well, my job is more flexible so the hours really aren't as full time as I would like' (line 55), indicating part-time or less than full-time remote employment.",
+          "value": "works remotely with flexible, less-than-full-time hours",
+          "lines": [
+            55
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a confirms using Prolific (line 13), r/beermoney (lines 60-63), made $100 on dScout (line 85), and UserTesting as favorite which pays $10 for 10 minutes (lines 103, 109).",
+          "value": "supplements income with online paid studies and user testing",
+          "lines": [
+            13,
+            60,
+            61,
+            62,
+            63,
+            85,
+            103,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we have like our own house, we have like two acres' (line 129), and speaker_b later references 'the two acres you said you have' (line 258), indicating a house with land, likely owned.",
+          "value": "lives in a house with two acres of land (likely owned)",
+          "lines": [
+            129,
+            258
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Repeated use of 'we' in context of shared home and child (lines 129, 255) implies a live-in partner.",
+          "value": "lives with a partner",
+          "lines": [
+            129,
+            255
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a states having a one-year-old boy (line 255).",
+          "value": "has a one-year-old son",
+          "lines": [
+            255,
+            259,
+            261
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'we have a little gap' (line 191, ASR error for 'cat', confirmed by later mention of cats and friendly 'he' in line 213).",
+          "value": "has a cat",
+          "lines": [
+            191,
+            193,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I used to have a guinea pig' (line 217), names two: Ginger and Marshmallow (line 219), and recounts one dying from heat (lines 231-235).",
+          "value": "previously owned two guinea pigs named Ginger and Marshmallow",
+          "lines": [
+            217,
+            219,
+            231,
+            233,
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says they don't really go anywhere (line 129), don't go outside much due to yellow flies (line 277), and 'just stay inside' (line 293).",
+          "value": "stays home most of the time, rarely goes out",
+          "lines": [
+            129,
+            277,
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a participates in online paid studies and user testing (lines 13, 60-63, 85, 103, 109).",
+          "value": "frequently participates in online surveys and gig work",
+          "lines": [
+            13,
+            60,
+            61,
+            62,
+            63,
+            85,
+            103,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a has a cat (lines 191, 213).",
+          "value": "keeps a cat as a pet",
+          "lines": [
+            191,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a lives in a house with two acres, with a backyard and front yard (line 129).",
+          "value": "lives in a house with a yard (two acres of land)",
+          "lines": [
+            129,
+            258
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b gives his name as Greg when asked (line 8).",
+          "value": "Greg",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in new york city' (line 24), mentions small apartment there (line 30), no car because too expensive (line 136), and signed a new one-year lease (line 184).",
+          "value": "New York City",
+          "lines": [
+            24,
+            30,
+            136,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I lived most of my life in the Northeast' (line 180).",
+          "value": "spent most of life in the Northeast",
+          "lines": [
+            180
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he went to college in Virginia (lines 20, 22), had a brief stint in Richmond (line 22), and returned to stay with family (line 28).",
+          "value": "previously lived in Virginia (college and brief stint)",
+          "lines": [
+            20,
+            22,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b says he went to grad school (line 180) and TA'd a developmental psychology course (line 268), indicating graduate-level education.",
+          "value": "has graduate education (attended grad school)",
+          "lines": [
+            180,
+            268
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I run a research lab in Manhattan' (line 36), works full time remotely (line 48), and mentions the lab's online data collection (line 38). Girlfriend works for him (line 162).",
+          "value": "runs a research lab in Manhattan, employed full-time remotely",
+          "lines": [
+            36,
+            38,
+            48,
+            162
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains he doesn't own a car because it's too expensive in NYC, citing insurance premiums around $500/year (line 136).",
+          "value": "does not own a car due to high cost in NYC",
+          "lines": [
+            136
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions getting an apartment with his girlfriend and moving (lines 118, 120), and later says 'signed a new one year lease' (line 184).",
+          "value": "rents an apartment, recently signed a one-year lease",
+          "lines": [
+            118,
+            120,
+            184
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in random studies for gift cards (line 40), mentions a $100 Amazon gift card study (lines 42-44), and uses Prolific (line 12).",
+          "value": "participates in paid research studies for extra money/gift cards",
+          "lines": [
+            12,
+            40,
+            42,
+            44
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says he got an apartment with his girlfriend (line 118), that she works for him (line 162), and she is from NYC (line 187).",
+          "value": "has a live-in girlfriend who works for him",
+          "lines": [
+            118,
+            154,
+            162,
+            187
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions going to Virginia to spend time with family (line 28), that they have land (line 142), and that his parents just got a new puppy (line 144).",
+          "value": "has parents in Virginia",
+          "lines": [
+            28,
+            142,
+            144
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked if they have kids, speaker_b says 'No not yet' (line 254).",
+          "value": "does not have children",
+          "lines": [
+            254
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b tells story of childhood cat named Kitty Lulu (line 194), described as violent (line 196), and given to grandparents' farm (line 198).",
+          "value": "had a cat named Kitty Lulu in childhood",
+          "lines": [
+            194,
+            196,
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says he doesn't have a car (line 136), public transport is dangerous currently (line 132), but can walk to the park (line 150).",
+          "value": "relies on walking and public transport, no car",
+          "lines": [
+            132,
+            136,
+            150
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b works remotely full time (line 48) from a small apartment (line 30) and enjoys the structure (line 50).",
+          "value": "works remotely from a small apartment in NYC",
+          "lines": [
+            30,
+            48,
+            50
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b participates in online studies as a hobby during quarantine (lines 40-44).",
+          "value": "does online paid studies for fun and extra income",
+          "lines": [
+            40,
+            42,
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b explains why he doesn't have a dog: expense and small apartment (lines 166-170).",
+          "value": "has no pets due to cost and small living space",
+          "lines": [
+            166,
+            167,
+            168,
+            169,
+            170
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he just moved into a new apartment with his girlfriend and is living out of boxes (lines 118, 120).",
+          "value": "recently moved apartments within NYC",
+          "lines": [
+            118,
+            120
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b recounts a negative experience with a previous landlord who harassed tenants and used surveillance cameras to spy (lines 316-320).",
+          "value": "had a problematic, privacy-invading landlord in previous apartment",
+          "lines": [
+            316,
+            318,
+            320
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

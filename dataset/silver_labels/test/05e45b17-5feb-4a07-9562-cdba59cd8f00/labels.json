@@ -1,0 +1,411 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a introduces himself in line 5, and speaker_b confirms the name in line 346.",
+          "value": "Kyle",
+          "lines": [
+            5,
+            346
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "First mentions 'northeast and new york' (line 13); later states 'work full time in new york city' (line 97) and 'live in Brooklyn new york' (line 99). Brooklyn is the most specific and current residence.",
+          "value": "Brooklyn, New York",
+          "lines": [
+            13,
+            97,
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "States 'Still only 24' in line 327.",
+          "value": "24 years old",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I actually graduated two years ago' (line 83). Given full-time consulting work, college graduation is implied.",
+          "value": "Graduated college two years ago",
+          "lines": [
+            83
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Says 'I'm a Murphy so we're all irish' (line 85), claiming Irish ancestry.",
+          "value": "Irish ancestry",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes work: 'I do consulting ... for big banks' (line 101) and 'it's an entry level position' (line 113).",
+          "value": "Consultant for big banks, entry-level position",
+          "lines": [
+            101,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States full-time consulting job in lines 101 and 113.",
+          "value": "Full-time entry-level consultant for big banks in New York City",
+          "lines": [
+            101,
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions Prolific (line 21), Respondent.com with a $150 payment (line 47‑49), and Scout app with substantial earnings (lines 365‑379).",
+          "value": "Engages in side gigs: Prolific, Respondent.com, Scout app",
+          "lines": [
+            21,
+            47,
+            365,
+            369,
+            379
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Says 'my brother, he works at a church, he's a organist' (line 77) and mentions 'his significant other' (line 79).",
+          "value": "Has a brother who is an organist/pianist",
+          "lines": [
+            77,
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Talks about parents going to Vermont (line 93), father owning a business (line 275), and mother retiring this year (line 277).",
+          "value": "Mother recently retired, father owns his own business",
+          "lines": [
+            93,
+            275,
+            277
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions grandmother passed away two years ago in line 235.",
+          "value": "Grandmother deceased two years ago",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I do have one roommate' in line 99.",
+          "value": "Has one roommate in Brooklyn",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Describes working 8 a.m. to 1 a.m. for four months (line 117) and learning to manage time better (line 125).",
+          "value": "Previously worked extremely long hours; learned better time management",
+          "lines": [
+            117,
+            125
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a big problem solver type person' (line 111) and 'I got to be really creative' (line 109).",
+          "value": "Enjoys problem-solving and creative work",
+          "lines": [
+            109,
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions going camping with friends, digging out a 30-year-old family tent (lines 209‑217).",
+          "value": "Went camping with friends recently",
+          "lines": [
+            209,
+            217
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Introduces herself as 'lisa to me' in line 6 (ASR filler 'to me'); speaker_a later addresses her as 'lisa' in lines 347 and 397. Intended name is Lisa.",
+          "value": "Lisa",
+          "lines": [
+            6,
+            347,
+            397
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "States 'in Pennsylvania really got hit hard' (line 154) and mentions her facility is part of Presbyterian Senior Living in Pennsylvania (line 232).",
+          "value": "Pennsylvania",
+          "lines": [
+            154,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we're in a 55 plus community' (line 150) and describes its nursing home and strict lockdown.",
+          "value": "Resides in a 55-plus community in Pennsylvania",
+          "lines": [
+            150,
+            152,
+            154,
+            232
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions 'my husband and I have a cottage, a summer cottage' (line 178) and that it is part of a camp meeting with 52 cottages in the mountains (lines 196‑198).",
+          "value": "Owns a summer cottage in a camp meeting area in the mountains",
+          "lines": [
+            178,
+            196,
+            198
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Retired at 59 (line 56), has been on Prolific 'since I retired, so two years' (line 38), making her about 61. ASR 'so we're 1661' in line 156 is interpreted as 'both 61'.",
+          "value": "61 years old",
+          "lines": [
+            56,
+            38,
+            156
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "States 'my full time work … was I was a Minister United Methodist minister' (line 68) and '25.5 years total when I retired' (line 132).",
+          "value": "Retired United Methodist minister, served 25.5 years",
+          "lines": [
+            68,
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes attending a small Methodist college in Belfast (line 88) and later community college, undergraduate, and seminary (line 142).",
+          "value": "Attended seminary and college; studied in Belfast, Northern Ireland",
+          "lines": [
+            88,
+            142
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'we've been married 25 years and uh we adopted two Children and they're both grown' (line 148).",
+          "value": "Married for 25 years, two adopted grown children",
+          "lines": [
+            148
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "States 'I've got health issues' in line 300.",
+          "value": "Has unspecified health issues",
+          "lines": [
+            300
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I don't always sleep well' in line 42.",
+          "value": "Does not always sleep well",
+          "lines": [
+            42
+          ],
+          "certainty": 5
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "States 'transcription with rev oh .com … that's really my primary income … maybe 20 hours a week' (lines 44‑46).",
+          "value": "Primary income from transcription at rev.com, about 20 hours per week",
+          "lines": [
+            44,
+            46
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I have a 15 hour a week job as an admin assistant' (line 58).",
+          "value": "Part-time admin assistant (15 hours per week)",
+          "lines": [
+            58
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions doing Prolific, user testing, and other online gigs for extra money (lines 30‑34, 42, 356‑360).",
+          "value": "Supplementary income from online gigs (Prolific, user testing)",
+          "lines": [
+            30,
+            34,
+            42,
+            356,
+            360
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'll have to continue to do all these side gigs … probably until I'm 70' (line 288).",
+          "value": "Needs supplementary income until age 70",
+          "lines": [
+            288
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions owning a summer cottage (line 178), which is an economic asset.",
+          "value": "Owns a summer cottage",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Describes her husband in multiple lines: married 25 years (line 148), complex medical history including leukemia, diabetes, thyroid, B12 (lines 172‑173), very social, bingo volunteer (lines 246‑252).",
+          "value": "Husband of 25 years with complex medical history (leukemia, diabetes, thyroid, B12 deficiency)",
+          "lines": [
+            148,
+            172,
+            173,
+            246,
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says daughter is 26 (line 328), works at an urgent care center (line 330), and son is also 26 (line 194). Both adopted, mentioned in line 148.",
+          "value": "Adopted daughter, 26 years old, works at urgent care; adopted son, 26 years old",
+          "lines": [
+            148,
+            194,
+            328,
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions sister in line 36 ('I saw my sister and she had done it') and line 164 ('my sister and her friend came').",
+          "value": "Has a sister",
+          "lines": [
+            36,
+            164
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "States 'I have two brothers, two sisters, lots of nieces and nephews' in line 178.",
+          "value": "Extended family includes two brothers, two sisters, nieces and nephews",
+          "lines": [
+            178
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Says 'I do a lot of volunteer stuff as well' (line 66), plays piano at a small country church (line 80), plays cards daily for over 100 days (line 160), and joined a book club (line 270).",
+          "value": "Engages in volunteer activities, plays piano at church, plays cards daily, participates in a book club",
+          "lines": [
+            66,
+            80,
+            160,
+            270
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions used to go to YMCA five or six days a week and had a social circle there (line 272).",
+          "value": "Used to attend YMCA regularly for exercise and socializing",
+          "lines": [
+            272
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes an 81‑day cross‑country trip after retirement (lines 256‑258).",
+          "value": "Took an 81-day cross-country trip after retirement",
+          "lines": [
+            256,
+            258
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Says 'I'm a real introvert' in line 250.",
+          "value": "Self-identifies as an introvert",
+          "lines": [
+            250
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Describes strict lockdown in her 55‑plus community: meals delivered, no visitors, limited dining, etc. (lines 150‑234).",
+          "value": "Lives under strict community lockdown with meal delivery and restricted social activities",
+          "lines": [
+            150,
+            152,
+            160,
+            218,
+            222,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Mentions visiting the summer cottage and deciding about keeping it (lines 178‑204).",
+          "value": "Occasionally visits the summer cottage",
+          "lines": [
+            178,
+            196
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "Speaker_a explicitly states 'my name is Samantha' in line 5, and speaker_b later confirms it in line 332.",
+          "value": "Samantha",
+          "lines": [
+            5,
+            332
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a says 'I'm outside of boston' (line 113) and comments on New England weather (line 167).",
+          "value": "outside Boston, Massachusetts",
+          "lines": [
+            113,
+            167
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'I'm 30 now' in line 91.",
+          "value": "30 years old",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "The name Samantha and references to personal appearance and living alone all suggest female gender; no contradictory cues.",
+          "value": "female",
+          "lines": [
+            5,
+            9,
+            15,
+            25,
+            111
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_a says she minored in English (line 83) and that her degree is a 'literature degree in medieval and renaissance studies' (line 85).",
+          "value": "literature degree in medieval and renaissance studies",
+          "lines": [
+            83,
+            85
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states 'I do editing and proofreading' (line 61) and 'work as a freelancer' (line 57).",
+          "value": "freelance editor and proofreader",
+          "lines": [
+            57,
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a notes she takes surveys for payment: 'I can take $15 for half an hour' (line 41) and 'I just take the surveys sometimes' (line 55).",
+          "value": "takes online surveys for money",
+          "lines": [
+            41,
+            55
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I worked in a lindt chocolate store for a while' (line 101).",
+          "value": "previously worked at Lindt chocolate store",
+          "lines": [
+            101
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a describes moving from retail to a call centre (line 91).",
+          "value": "previously worked in a call centre",
+          "lines": [
+            91
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says she got fired, went on unemployment, and used that time to start freelancing (line 79–81).",
+          "value": "received unemployment benefits after being fired",
+          "lines": [
+            79,
+            80,
+            81
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a states 'I live by myself' (line 111).",
+          "value": "lives alone",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't have kids' (line 111).",
+          "value": "has no children",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't even have pets right now' (line 111).",
+          "value": "has no pets",
+          "lines": [
+            111
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'my family is still a little farther south there in New Jersey' (line 235).",
+          "value": "family lives in New Jersey",
+          "lines": [
+            235
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a states she was already working from home before the pandemic (lines 73, 109).",
+          "value": "works from home",
+          "lines": [
+            73,
+            109
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'anything above like 75 is hot' and 'I'd rather have the cold winter for sure' (line 157).",
+          "value": "prefers cold weather",
+          "lines": [
+            157
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I went on Etsy and I bought some like fun and face masks' (line 133).",
+          "value": "wears decorative face masks purchased on Etsy",
+          "lines": [
+            133
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says 'I don't tend to travel abroad very much' but is 'trying to travel a little bit more within the states' (lines 213, 215).",
+          "value": "travels domestically, rarely internationally",
+          "lines": [
+            213,
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": [
+        {
+          "reasoning": "Speaker_b asks 'With pink hair?' (line 12) and speaker_a confirms (line 13); she adds she has had it for a year and a half (line 11) and pays a professional (lines 19, 23).",
+          "value": "pink hair",
+          "lines": [
+            11,
+            12,
+            13,
+            19,
+            23
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a says her hair is 'all the same length' and 'it's been in a braid all day' (line 25).",
+          "value": "hair is one length and often braided",
+          "lines": [
+            25
+          ],
+          "certainty": 5
+        }
+      ]
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Initially given as 'prudent to' (ASR error), but later speaker_b says 'It's like Florence, but in spanish Florencia' (line 336) and speaker_a guesses 'Florencia' (line 335).",
+          "value": "Florencia",
+          "lines": [
+            335,
+            336
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_b says 'I'm in L.A.' (lines 122, 124) and 'here in sunny California' (line 168).",
+          "value": "Los Angeles, California",
+          "lines": [
+            122,
+            124,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b states 'I recently moved on from Mexico and I moved to the States' (line 88) and refers to Mexico City (line 168).",
+          "value": "originally from Mexico",
+          "lines": [
+            88,
+            168
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "The name Florencia and mention of 'my boyfriend' (line 66) point to female; no contrary evidence.",
+          "value": "female",
+          "lines": [
+            66,
+            336
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I actually studied chemical engineering' (line 86) and 'my degree says engineer' (line 88).",
+          "value": "degree in chemical engineering",
+          "lines": [
+            86,
+            88
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [
+        {
+          "reasoning": "Speaker_b says 'I'm healthy. I'm healthy' (line 330).",
+          "value": "self-reported healthy",
+          "lines": [
+            330
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions a cough but attributes it to cold weather and says they were not sick (lines 324, 328). The connection is ambiguous.",
+          "value": "had a cough but not COVID-19",
+          "lines": [
+            324,
+            328
+          ],
+          "certainty": 3
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says 'I'm working as a barista' (line 104) and earlier refers to stopping work for two months but expecting to start again next week (line 46).",
+          "value": "barista",
+          "lines": [
+            46,
+            104
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b mentions being hired to do remote podcast recording (line 70).",
+          "value": "podcast recording work",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b comments on the $15 incentive for the conversation (line 50).",
+          "value": "takes paid surveys",
+          "lines": [
+            40,
+            50
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'my boyfriend's actually an editor' (line 66) and later references his birthday (line 312).",
+          "value": "has a boyfriend who is an editor",
+          "lines": [
+            66,
+            312
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Regarding Boston, speaker_b says 'I have a friend there' (line 156).",
+          "value": "has a friend in Boston",
+          "lines": [
+            156
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'we actually went the Tuesday before lockdown' to Disneyland (line 310).",
+          "value": "visited Disneyland before lockdown",
+          "lines": [
+            310
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b reacts strongly against cold ('Oh no. Oh God no' line 158) and says she 'can do with a lot of heat' (line 194), though heat makes her lethargic. Overall she prefers warm.",
+          "value": "prefers warm weather",
+          "lines": [
+            158,
+            194,
+            198
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says 'I just have one print' in reference to face masks (line 140).",
+          "value": "wears a printed face mask",
+          "lines": [
+            140
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

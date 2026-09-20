@@ -1,0 +1,209 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "At line 7 speaker_a says 'My name is 10, yeah, 10' which is a garbled ASR of 'Cam' or 'Cameron'. Later, speaker_b addresses him as 'Cameron' at line 296, and speaker_a confirms at line 297.",
+          "value": "Cameron",
+          "lines": [
+            7,
+            296,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a states he is from Florida at line 7, specifies 'Southside kind of in the middle of florida' and 'Central florida' at lines 35 and 37. Speaker_b says 'Tampa' at line 38, and speaker_a agrees and later mentions 'for me in Tampa' at line 113.",
+          "value": "Tampa, Florida",
+          "lines": [
+            7,
+            35,
+            37,
+            38,
+            39,
+            113
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_a says 'my type of asian is uh Vietnamese' at line 17, and when speaker_b asks if his parents are Vietnamese, he confirms at line 32.",
+          "value": "Vietnamese",
+          "lines": [
+            17,
+            32
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_a states he works from home remotely (line 197), gets paid to touch a keyboard (line 197), the real term is software developer (line 199), and works for a small company (line 201).",
+          "value": "software developer, works remotely for a small company",
+          "lines": [
+            197,
+            199,
+            201
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_a says 'I live with family two, I live in a house' at line 149, indicating he lives with family. Earlier at line 32, he confirms his parents are Vietnamese immigrants.",
+          "value": "lives with family (parents)",
+          "lines": [
+            149,
+            32,
+            33
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b asks if his parents immigrated, speaker_a confirms 'yes, uh I think so' at lines 32-33.",
+          "value": "parents are Vietnamese immigrants",
+          "lines": [
+            32,
+            33
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_a says 'I don't go outside the house' and lives in his bubble at line 103, and works from home remotely (line 197).",
+          "value": "stays home, rarely goes outside, remote worker",
+          "lines": [
+            103,
+            197
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_a eats sardines for health benefits (line 51), and says rice makes him sleepy and bloated so he avoids it (lines 269-275).",
+          "value": "eats sardines for health, avoids rice",
+          "lines": [
+            51,
+            269,
+            273,
+            275
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "Speaker_b says 'My name is ken' at line 6, and speaker_a calls him 'Ken' at lines 5 and 297.",
+          "value": "Ken",
+          "lines": [
+            5,
+            6,
+            297
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "Speaker_a guesses New York and speaker_b confirms 'Yeah, yep' at lines 9-10, later discusses living and working in New York (line 44, family in Utah, he is in New York for work), mentions New York's expense and plans Orlando trip from New York (lines 39, 108).",
+          "value": "New York, USA",
+          "lines": [
+            9,
+            10,
+            39,
+            44,
+            108
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "Speaker_b states 'I am chinese by like heritage' at line 20.",
+          "value": "Chinese (heritage)",
+          "lines": [
+            20
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says he grew up in the Philippines (lines 20, 24, 28), and when asked if he identifies more as Filipino, he confirms 'Yeah, for sure' (lines 21-22).",
+          "value": "identifies as Filipino",
+          "lines": [
+            20,
+            21,
+            22,
+            24,
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "Speaker_b says his work involves being physically there, he's in the healthcare field (line 172), is a physical therapist (line 180), and gets paid a fixed amount per day for about 15 patients (line 188).",
+          "value": "physical therapist, works in-person, paid fixed daily rate for ~15 patients",
+          "lines": [
+            172,
+            180,
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "Speaker_b says 'I'm actually alone here. I don't have any family. My family is in Utah' at line 44.",
+          "value": "lives alone in New York, family in Utah",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b says his grandparents immigrated to the Philippines, which is why he was born there, at line 28.",
+          "value": "grandparents immigrated to Philippines",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "Speaker_b says 'I'm actually planning to go to like Orlando or whatever maybe in the next year, so hopefully that pushes through for fun' at line 108.",
+          "value": "plans trip to Orlando for fun next year",
+          "lines": [
+            108
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "Speaker_b says he loves sardines in tomato sauce (lines 48-49), had pizza from Domino's (line 68), and made a Korean corn dish with cheese (lines 72-74).",
+          "value": "enjoys sardines, pizza, and Korean cheesy corn",
+          "lines": [
+            48,
+            49,
+            68,
+            72,
+            74
+          ],
+          "certainty": 5
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

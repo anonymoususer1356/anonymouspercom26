@@ -1,0 +1,415 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a introduces himself as 'I'm chris'.",
+          "value": "Chris",
+          "lines": [
+            5
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b calls speaker_a 'Julian' at the end of the conversation; this could be his actual name, a nickname, or a mishearing.",
+          "value": "Julian",
+          "lines": [
+            288
+          ],
+          "certainty": 3
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a repeatedly refers to New York, New York City, and Phase 3 reopening, indicating he lives there.",
+          "value": "New York City",
+          "lines": [
+            11,
+            25,
+            95,
+            107,
+            175
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is originally from California; speaker_b suggests the Bay Area and speaker_a implicitly confirms by discussing San Francisco and San Jose.",
+          "value": "California (likely Bay Area)",
+          "lines": [
+            177,
+            178,
+            181
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I've been here for about 10 years now' referring to New York City.",
+          "value": "10 years in New York City",
+          "lines": [
+            175
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [],
+      "health": [
+        {
+          "reasoning": "speaker_a explicitly states 'I don't have any chronic illnesses'.",
+          "value": "no chronic illnesses",
+          "lines": [
+            85
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says his 'mental capacity is just out the window' and 'I'm so burnt out from work'.",
+          "value": "mental fatigue/burnout from work",
+          "lines": [
+            73,
+            75
+          ],
+          "certainty": 4
+        }
+      ],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says 'so I work at a hospital'.",
+          "value": "works at a hospital",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a states he is 'focused on operations and focuses on like covid preparedness initiative and now the recovery efforts'.",
+          "value": "hospital operations, COVID-19 preparedness and recovery",
+          "lines": [
+            73
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've been working around from home since like early March.'",
+          "value": "works from home since March 2020",
+          "lines": [
+            79
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a complains about spending a lot on rent and hoping rent in New York City goes down.",
+          "value": "rents an apartment in New York City",
+          "lines": [
+            129
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is saving more money by cooking at home.",
+          "value": "saving money by cooking at home",
+          "lines": [
+            73
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he had a 24 Hour Fitness membership for over 10 years, but they closed all Manhattan locations.",
+          "value": "former member of 24 Hour Fitness (over 10 years)",
+          "lines": [
+            225,
+            227
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he no longer has to take the subway to work, implying he previously commuted by subway.",
+          "value": "commuted by subway pre-pandemic",
+          "lines": [
+            27,
+            81
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a mentions 'my parents like don't leave the house'.",
+          "value": "has parents",
+          "lines": [
+            113
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a talks about friends going to beaches, moving to different cities, and inviting him to visit.",
+          "value": "has friends",
+          "lines": [
+            107,
+            157,
+            213
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a exclaims 'Oh my kitty cat' when distracted by a pet.",
+          "value": "has a cat",
+          "lines": [
+            215
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I went around a park to like jog'.",
+          "value": "goes jogging in parks",
+          "lines": [
+            99
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I actually love Chicago like I've been there like maybe three times now'.",
+          "value": "visited Chicago three times",
+          "lines": [
+            183
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I've only been to texas once which was Austin'.",
+          "value": "visited Austin once",
+          "lines": [
+            273
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I was considering moving to Austin' and 'I actually really consider like moving there on one point' regarding Chicago.",
+          "value": "considering moving to Austin or Chicago",
+          "lines": [
+            149,
+            183
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I was looking at flights to New Orleans'.",
+          "value": "looking at flights to New Orleans",
+          "lines": [
+            161
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I have to learn how to cook now' and discusses cooking meals.",
+          "value": "learning to cook at home",
+          "lines": [
+            71,
+            73
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_a addresses speaker_b as 'Andrew' on two occasions and speaker_b never corrects him.",
+          "value": "Andrew",
+          "lines": [
+            23,
+            283
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says he is in southeast Texas, later specifies Houston, then clarifies he lives about 30 miles east of Houston in a small suburban town.",
+          "value": "30 miles east of Houston, Texas (small suburban town)",
+          "lines": [
+            8,
+            190,
+            238,
+            240
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm actually from Chicago'.",
+          "value": "Chicago, Illinois",
+          "lines": [
+            132
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I was there for about 10 years' in the context of Chicago.",
+          "value": "lived in Chicago for about 10 years",
+          "lines": [
+            152
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a asks why he moved from Chicago to Texas and speaker_b confirms it was for work.",
+          "value": "moved from Chicago to Texas for work",
+          "lines": [
+            137,
+            138
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I go to Dallas first and now I'm in Houston', indicating he previously lived in Dallas.",
+          "value": "previously lived in Dallas, Texas",
+          "lines": [
+            190
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b says 'well I'm a teacher'.",
+          "value": "teacher",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I teach high school'.",
+          "value": "high school teacher",
+          "lines": [
+            34
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he went to high school and college; being a teacher implies a college degree.",
+          "value": "college educated",
+          "lines": [
+            156
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says he is on summer break and scheduled to return early September.",
+          "value": "teacher on summer break",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When asked how much he pays for the gym, speaker_b answers '35'.",
+          "value": "pays $35 per month for gym membership",
+          "lines": [
+            233,
+            234
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he feels bad for those suffering financially 'fortunately for myself', implying he is not in that situation.",
+          "value": "not financially suffering from the pandemic",
+          "lines": [
+            58
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b explains he moved to Texas because there were more teaching jobs and the cost of living is cheaper.",
+          "value": "moved to Texas for better teaching opportunities and lower cost of living",
+          "lines": [
+            137,
+            144,
+            148
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my parents have moved down here' referring to Texas.",
+          "value": "parents moved to Texas",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my mom is a nurse at a assisted living home up in Dallas'.",
+          "value": "mother is a nurse in Dallas",
+          "lines": [
+            256
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I actually had a friend that moved to texas as well'.",
+          "value": "has a friend who moved to Texas",
+          "lines": [
+            146
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says 'I go to the gym'.",
+          "value": "goes to the gym",
+          "lines": [
+            222
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b confirms that gyms are open in his area when asked.",
+          "value": "gyms are open in his area",
+          "lines": [
+            223,
+            224
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I go to the grocery stores'.",
+          "value": "goes grocery shopping",
+          "lines": [
+            222
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he has never been to New York City, but has been to Philadelphia.",
+          "value": "never been to New York City; has been to Philadelphia",
+          "lines": [
+            166,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "When discussing Dallas, speaker_b says he usually goes up two or three times a year.",
+          "value": "visits Dallas 2-3 times per year",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

@@ -1,0 +1,411 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "speaker_a states 'I'm dan', giving his name.",
+          "value": "Dan",
+          "lines": [
+            7
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_a says 'I'm in florida in Miami', establishing his city and state.",
+          "value": "Miami, Florida",
+          "lines": [
+            27,
+            185
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I moved down here kind of halfway in the middle of like a year ago', indicating he relocated to Miami about a year ago.",
+          "value": "Moved to Miami about a year ago",
+          "lines": [
+            117
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says he 'gotta get a school called florida International F', referring to Florida International University (FIU).",
+          "value": "Florida International University",
+          "lines": [
+            27
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_a says 'I'm almost 40. I went back to school really late', revealing his approximate age and late return to education.",
+          "value": "Almost 40 years old",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'I'm a junior' and 'I'm a geography major', also mentions his classes are all online.",
+          "value": "Junior in college, geography major",
+          "lines": [
+            25,
+            27
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a's statement 'I went back to school really late' after a previous music career marks him as a non-traditional student.",
+          "value": "Non-traditional student (returned to school later in life)",
+          "lines": [
+            99
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is 'not like super fluent in spanish', can only order coffee and basic things, and that it's a barrier in Miami. He has limited Spanish.",
+          "value": "Limited Spanish proficiency",
+          "lines": [
+            185
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_a says he has been doing 'micro tasks' for 'the last couple of years' and 'probably about the same' as speaker_b's year-long involvement. He also uses a Chrome extension to catch tasks. This indicates he earns from online microtasks.",
+          "value": "Earns money through online microtasks (surveys, tasks)",
+          "lines": [
+            11,
+            19,
+            169
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a states he 'got a student job in the G.I.S. Center like with a researcher' just this week.",
+          "value": "Student job at GIS Center with a researcher",
+          "lines": [
+            93
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a describes his PC as 'ridiculously huge, powerful PC', indicating a high-end computer he owns.",
+          "value": "Owns a powerful high-end PC",
+          "lines": [
+            293
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he 'owned a recording studio' during his previous music career.",
+          "value": "Formerly owned a recording studio",
+          "lines": [
+            205
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_a says 'my sister is a nurse she ended up getting a doctorate in it', indicating a sister who is a nurse with a doctorate.",
+          "value": "Sister: nurse with doctorate",
+          "lines": [
+            35
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my mom's a teacher', revealing his mother's occupation.",
+          "value": "Mother: teacher",
+          "lines": [
+            47
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says 'my other sisters talk a lot. She's a librarian', pointing to another sister who is a librarian.",
+          "value": "Sister: librarian",
+          "lines": [
+            49
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a mentions 'my oldest brother owned an original Sega', indicating he has an oldest brother.",
+          "value": "Oldest brother",
+          "lines": [
+            295
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_a says 'I'm at the computer anyway most of the day', describing a typical day.",
+          "value": "Spends most of the day at a computer",
+          "lines": [
+            23
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a details his past music career: 'I played in bands, I owned a recording studio, I like work for bands, went on tour like as a sound guy' and mentions touring the US and Europe. He says he is getting back into playing music.",
+          "value": "Past musician: played in bands, sound engineer, owned studio; toured US and Europe; returning to music now",
+          "lines": [
+            205,
+            207,
+            211
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he uses his powerful PC to run a DOS emulator to play old games like Prince of Persia, and enjoys long-form city builders like City Skylines.",
+          "value": "Plays old DOS games via emulator, city builder games",
+          "lines": [
+            287,
+            289,
+            293
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_a says 'I've always had a vice city on my phone' (GTA Vice City).",
+          "value": "Has GTA Vice City on phone",
+          "lines": [
+            327
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_a says he is 'getting into python programming' for GIS and is interested in web apps.",
+          "value": "Learning Python, scripting for GIS, interested in web apps",
+          "lines": [
+            45,
+            229,
+            231
+          ],
+          "certainty": 3
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "speaker_b says 'Well Matthew.', introducing his name, which is used later in farewells.",
+          "value": "Matthew",
+          "lines": [
+            8
+          ],
+          "certainty": 5
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "speaker_b says 'I'm in Augusta Georgia', placing him in that city.",
+          "value": "Augusta, Georgia",
+          "lines": [
+            28
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I moved here to go to school, but I only live like about an hour or so' (from previous home), indicating he relocated to Augusta for college.",
+          "value": "Moved to Augusta for school",
+          "lines": [
+            58,
+            59
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'You're an apartment now' (ASR: likely 'I'm in an apartment now'), so he lives in an apartment.",
+          "value": "Lives in an apartment",
+          "lines": [
+            62
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'I was at the door for that' (ASR: probably 'dorm'), indicating past dorm living.",
+          "value": "Previously lived in a dorm",
+          "lines": [
+            64
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says he's at 'Medical College of Georgia' while being an English major.",
+          "value": "Medical College of Georgia",
+          "lines": [
+            30
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "speaker_b notes 'Ocarina of time came out in 1998 and I was born in 99', so his birth year is 1999, making him roughly 24-25.",
+          "value": "Born 1999 (approx. age 24-25)",
+          "lines": [
+            308
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm in college... I'm studying english' and 'I'm an english major' at Medical College of Georgia.",
+          "value": "English major in college",
+          "lines": [
+            24,
+            30
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says he was in nursing for two years before switching because it was too hard.",
+          "value": "Previously studied nursing for 2 years",
+          "lines": [
+            34,
+            38
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b explicitly says 'I'm trying to be a teacher right now'.",
+          "value": "Aspiring teacher",
+          "lines": [
+            44
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I'm not fluent at all in spanish'.",
+          "value": "Not fluent in Spanish",
+          "lines": [
+            186
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "speaker_b says people send him VR games and he tells them what he thinks; later he says 'it's like $10 per thing' for such tasks.",
+          "value": "Earns $10 per VR game review",
+          "lines": [
+            128,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I've only made like 230' from these kinds of tasks, suggesting total earnings from microtasks/VR reviews.",
+          "value": "Earned approximately $230 from microtasks",
+          "lines": [
+            14
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b says 'I've had the VR headset for like four' years and mentions VR games frequently.",
+          "value": "Owns a VR headset",
+          "lines": [
+            152,
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I got a Nintendo switch around here somewhere. I got a bunch of consoles'.",
+          "value": "Owns Nintendo Switch and multiple game consoles",
+          "lines": [
+            302
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I ordered a three D printer' and his roommate noticed.",
+          "value": "Ordered a 3D printer",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "speaker_b says 'my roommate has noticed my new toys arrived', indicating he has a roommate.",
+          "value": "Roommate",
+          "lines": [
+            188
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'my uncle printed me out one and he mailed it to me', referring to a 3D-printed miniature from his uncle.",
+          "value": "Uncle who prints 3D miniatures",
+          "lines": [
+            194
+          ],
+          "certainty": 5
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "speaker_b says he's been playing Dungeons & Dragons and will print miniatures with his 3D printer.",
+          "value": "Plays Dungeons & Dragons, prints miniatures",
+          "lines": [
+            192,
+            194
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b describes doing research tasks for professors, e.g., analyzing how many times 'blood' appears in Dracula.",
+          "value": "Does academic research (text analysis of Dracula)",
+          "lines": [
+            72,
+            76,
+            260
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "speaker_b reviews VR games, plays consoles and pirates N64 games; he enjoys story-driven games like God of War.",
+          "value": "Gamer: VR, Switch, various consoles, pirates N64 games",
+          "lines": [
+            302,
+            350
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b says 'I did gymnastics for five years'.",
+          "value": "Did gymnastics for 5 years",
+          "lines": [
+            152
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "speaker_b mentions 'I was in a radio thing for a bit where I did the music for a radio station', indicating past radio work.",
+          "value": "Worked at a radio station handling music",
+          "lines": [
+            216
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}

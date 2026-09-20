@@ -1,0 +1,459 @@
+{
+  "speakers": [
+    {
+      "speaker": "speaker_a",
+      "identity": [
+        {
+          "reasoning": "When asked her name, she replies 'Amber' and gives her last name as 'Hawkins' (ASR likely misheard), but then spells it H O P K I N S; speaker_b reads back 'Amber Hopkins' and she confirms. The spelled form establishes the name.",
+          "value": "Amber Hopkins",
+          "lines": [
+            419,
+            423,
+            425,
+            427
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "Speaker_b asks to add her on LinkedIn and speaker_a agrees; speaker_a confirms her university for the search and they connect, so she has a LinkedIn profile under that identity.",
+          "value": "LinkedIn profile: Amber Hopkins",
+          "lines": [
+            420,
+            421,
+            428,
+            429,
+            434,
+            435
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'Oh Hawaii I grew up here,' describes it as the smallest of the main chain, mentions ~60K population, one Costco, and a relaxed COVID situation, all pointing to a specific small Hawaiian island.",
+          "value": "Hawaii, smallest of the main islands (population ~60,000, one Costco)",
+          "lines": [
+            13,
+            19,
+            25,
+            29,
+            43,
+            47
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She states explicitly 'I actually live in California. I live in L. A.'",
+          "value": "Los Angeles, California",
+          "lines": [
+            77
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I am here for corona' and earlier says she grew up in Hawaii, implying she is currently staying in Hawaii.",
+          "value": "Hawaii (current temporary stay due to COVID-19)",
+          "lines": [
+            13,
+            77
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I was born in texas'.",
+          "value": "Texas",
+          "lines": [
+            53
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I went to chapman there' (Chapman University, located in Orange, California), while discussing living in L.A.",
+          "value": "Orange, California (Chapman University)",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She says she studied philosophy and psych, graduated in May 2019, and added a second major in philosophy senior year.",
+          "value": "Bachelor's degree in Psychology and Philosophy, Chapman University, May 2019",
+          "lines": [
+            79,
+            283,
+            285
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions being 'in a post back position' and working at the lab at Chapman.",
+          "value": "Post-baccalaureate researcher at Chapman University",
+          "lines": [
+            79,
+            85,
+            289
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she is applying to PhD programs and specifies cognitive neuro.",
+          "value": "Aspiring PhD student in Cognitive Neuroscience",
+          "lines": [
+            79,
+            123
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I have another job at a cafe'.",
+          "value": "Cafe worker (part-time)",
+          "lines": [
+            315
+          ],
+          "certainty": 5
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She says the lab gave her 'a paid position to stay' after her boss got a grant, and she accepted it.",
+          "value": "Paid post-bac research position at Chapman",
+          "lines": [
+            289,
+            315,
+            316
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions having another job at a cafe.",
+          "value": "Income from part-time cafe job",
+          "lines": [
+            315
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She explicitly says 'I pay 1100 a month for a room in a four bedroom house'.",
+          "value": "$1100 monthly rent for a room in a 4-bedroom house in Los Angeles",
+          "lines": [
+            393
+          ],
+          "certainty": 5
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says her mom went to med school in Texas, got a job in Hawaii, and works at the only hospital there.",
+          "value": "Mother is a physician at a hospital in Hawaii",
+          "lines": [
+            65,
+            67
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'my parents honeymooned here when they first got married'.",
+          "value": "Parents honeymooned in Hawaii",
+          "lines": [
+            61
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes the lab boss who got a grant and offered her a paid position.",
+          "value": "Research supervisor (PI) at Chapman who secured grant funding",
+          "lines": [
+            315,
+            316,
+            317
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she has a professor she wants to work with for her PhD at UCLA, names him as Martin Monty, and discusses his research on consciousness.",
+          "value": "Potential PhD advisor: Professor Martin Monty at UCLA",
+          "lines": [
+            155,
+            157,
+            164,
+            165,
+            168
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She refers to 'the other grad students that I work with'.",
+          "value": "Coworkers: graduate students in her lab",
+          "lines": [
+            261
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she is in Hawaii 'for corona', indicating she relocated temporarily due to the pandemic.",
+          "value": "Relocated to Hawaii during the COVID-19 pandemic",
+          "lines": [
+            77
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She mentions taking her research methods class while studying abroad.",
+          "value": "Studied abroad during undergrad",
+          "lines": [
+            325
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She describes balancing her research position and cafe job while preparing to apply to PhD programs.",
+          "value": "Balances research lab work and a cafe job while applying for PhD programs",
+          "lines": [
+            289,
+            315,
+            393
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    },
+    {
+      "speaker": "speaker_b",
+      "identity": [
+        {
+          "reasoning": "At the end of the conversation she spells out her first name as E N N Y and last name as H U Y N H.",
+          "value": "Enny Huynh",
+          "lines": [
+            430,
+            432
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She initiates a LinkedIn connection with speaker_a, confirming she has a profile under her name.",
+          "value": "LinkedIn profile: Enny Huynh",
+          "lines": [
+            420,
+            434,
+            436
+          ],
+          "certainty": 4
+        }
+      ],
+      "location": [
+        {
+          "reasoning": "She says 'I am currently in Durham north Carolina'.",
+          "value": "Durham, North Carolina",
+          "lines": [
+            12
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says her family moved to South Carolina when she was four and she grew up there.",
+          "value": "South Carolina (grew up)",
+          "lines": [
+            70,
+            72
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states 'I was born in California'.",
+          "value": "California",
+          "lines": [
+            70
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I went to undergrad at Clemson University in south Carolina'.",
+          "value": "Clemson, South Carolina",
+          "lines": [
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she worked for two years in Atlanta (likely 'at a company' – ASR renders 'college') and explored industry.",
+          "value": "Atlanta, Georgia",
+          "lines": [
+            342,
+            344
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says 'I got to Duke where I am right now'.",
+          "value": "Durham, North Carolina (Duke University)",
+          "lines": [
+            360
+          ],
+          "certainty": 5
+        }
+      ],
+      "demographic": [
+        {
+          "reasoning": "She describes being in a PhD program, a psychology track focused on consumer behavior; she also calls it a marketing PhD elsewhere.",
+          "value": "PhD student in Marketing (Consumer Behavior) at Duke University",
+          "lines": [
+            72,
+            84,
+            230
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'my background in engineering and like mechanical engineer'.",
+          "value": "Background in mechanical engineering",
+          "lines": [
+            332
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she went to Clemson for undergrad.",
+          "value": "Bachelor's degree from Clemson University",
+          "lines": [
+            342
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She states she is just wrapping up her first year of the PhD and has four or five more to go.",
+          "value": "First-year PhD student",
+          "lines": [
+            280
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says if the world were ideal she would be doing a social psychology PhD, indicating that interest.",
+          "value": "Interested in social psychology",
+          "lines": [
+            266
+          ],
+          "certainty": 4
+        }
+      ],
+      "health": [],
+      "legal": [],
+      "economic": [
+        {
+          "reasoning": "She mentions that Duke matches stipends and her stipend goes further, and she even has savings from the PhD stipend.",
+          "value": "Receives PhD stipend from Duke University",
+          "lines": [
+            384,
+            385,
+            386
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says 'I actually have savings from like PhD stipends'.",
+          "value": "Has savings from stipend",
+          "lines": [
+            386
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she lives in a two-bedroom, two-bath place and clarifies she has a roommate.",
+          "value": "Lives in a 2BR/2BA apartment with a roommate",
+          "lines": [
+            388,
+            392
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she worked for two years in Atlanta and explored industry before starting the PhD.",
+          "value": "Previously employed in industry (Atlanta, GA)",
+          "lines": [
+            342,
+            344
+          ],
+          "certainty": 4
+        }
+      ],
+      "relational": [
+        {
+          "reasoning": "She says 'Oh no, I have a roommate' when asked if she lives alone.",
+          "value": "Has a roommate",
+          "lines": [
+            392
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions 'me and my friends were going to Honolulu for a race' (a Spartan race).",
+          "value": "Has friends (planning a Spartan race in Honolulu)",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says she took an extra year working under a professor while unemployed (gap year before PhD).",
+          "value": "Worked with a professor during gap year",
+          "lines": [
+            300
+          ],
+          "certainty": 4
+        }
+      ],
+      "lifestyle": [
+        {
+          "reasoning": "She says she and her friends were doing a Spartan race, indicating active participation in such events.",
+          "value": "Participates in Spartan races",
+          "lines": [
+            32
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She says all of them are mainly going toward a tenure track position after the PhD.",
+          "value": "Plans a tenure-track academic career",
+          "lines": [
+            252
+          ],
+          "certainty": 5
+        },
+        {
+          "reasoning": "She mentions that a lot of people do consulting on the side after the PhD and describes it as a potential path.",
+          "value": "Open to consulting on the side after PhD",
+          "lines": [
+            276
+          ],
+          "certainty": 3
+        },
+        {
+          "reasoning": "She describes a current project on the impact of corona on product combinations.",
+          "value": "Conducting research on COVID-19's effect on consumer combinations",
+          "lines": [
+            90
+          ],
+          "certainty": 4
+        },
+        {
+          "reasoning": "She says she took a gap year to work with a professor because she liked the research.",
+          "value": "Took a gap year before PhD to do research with a professor",
+          "lines": [
+            300,
+            301,
+            302
+          ],
+          "certainty": 4
+        }
+      ],
+      "appearance": []
+    }
+  ]
+}
