@@ -2,6 +2,8 @@
 
 **On-Device Audio Privacy for Smart Glasses using Small Language Models**
 
+Trained model (**DPO, Q4_0**): [download here](https://pern-my.sharepoint.com/:u:/g/personal/28100310_lums_edu_pk/IQCSU47RfTlOQamqePQFoKH5AQvfWvrNSVbi4bzGBU8F4W8?e=O1TiQV)
+
 PARDA protects both how a bystander sounds and what their conversation reveals. It performs streaming speaker-aware transcription on the glasses, maintains causal privacy state across bounded windows, rewrites private disclosures with a small language model, and supports non-source speech resynthesis and consent-gated restoration.
 
 This anonymous artifact accompanies a PerCom submission. It contains the runtime, model preparation scripts, 717 parsed silver-label sets, paper results, and supplementary figures. CANDOR recordings and transcripts, trained model weights, API credentials, and raw model requests are not distributed.
